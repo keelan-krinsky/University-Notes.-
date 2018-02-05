@@ -60,6 +60,19 @@ Conducted in groups of four.
 
 # MCBG
 ## Faculty and school
+### lecturers
+prof sayed GH420  
+Prof gray OLSB 014   
+Dr Azzisa Roza GH700   
+Prof Kaur GH508   
+Prof Bouwer B 228  
+Prof C rey B223  
+Dr Botes B 208
 ### Course coordinator  
 Yasien.Sayed@wits.ac.za
-## Venues and lectures 
+## Venues and lectures
+7 wednesday 12:30-1:15 P115
+12 monday 8:00-10:00
+15 thursday 2:00-5:00 GLT
+20 tuesday 10:15-12:00
+21 wednesday 12:30
