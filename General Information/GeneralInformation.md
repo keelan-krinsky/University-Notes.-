@@ -58,7 +58,7 @@ Exam 60%
 Conducted in groups of four.
 
 
-# MCBG
+# MCBG 2036 Scientific Practice
 ## Faculty and school
 ### lecturers
 prof sayed GH420  
@@ -76,3 +76,17 @@ Yasien.Sayed@wits.ac.za
 15 thursday 2:00-5:00 GLT
 20 tuesday 10:15-12:00
 21 wednesday 12:30
+
+
+# MCBG 2032 Concepts
+## Faculty and school
+### Lecturers
+Dr Natalya Nikitina
+##Labs
+preprac tests (will cover both lecture work and lab work)
+## Markation
+### Exam
+Genetics is 25% of the marks.
+## lectures and venues
+Friday labs start with lectures at WSS4
+ 
