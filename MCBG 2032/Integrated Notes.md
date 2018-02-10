@@ -151,11 +151,11 @@ If a individual is homozygous recessive for substance H genes, none will be
 produced and so even if the have A or B alleles they will have a functionally
 O phenotype.
 
-###Alleles and genes
+### Alleles and genes
 A gene is a collection/ group of alleles which could occur the same locus and
 which are associated with the same traits.
 
-###lethal alleles
+### lethal alleles
 alleles which are incompatible with the organisms continued survival
 
 #### dominance
