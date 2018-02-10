@@ -32,6 +32,15 @@
             pdfborder={0 0 0},
             breaklinks=true}
 \urlstyle{same}  % don't use monospace font for urls
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
 \setlength{\emergencystretch}{3em}  % prevent overfull lines
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
@@ -67,10 +76,31 @@ section 1.1-1.3
 
 self test 1.1
 
-\#section one general review
+self test1.2
+
+read 1.3d-1.3g
+
+(see section 1.3 for explanation)
+
+section 1.5-1.6
+
+Self test 1.7-1.11
+
+Exercises 1.9-1.15, 1.17-1.26, 1.28-1.31 (pp 32-33)
+
+\hypertarget{section-one-general-review}{%
+\section{section one general review}\label{section-one-general-review}}
 
 \hypertarget{quantum-numbers}{%
-\subsection{quantum numbers}\label{quantum-numbers}}
+\subsection{Quantum numbers}\label{quantum-numbers}}
+
+\hypertarget{introduction}{%
+\subsubsection{Introduction}\label{introduction}}
+
+Orbitals are a spacial distribution of electron density.All energy
+states of electrons within atoms are negative by convention, (as the are
+considered to be the minimum energy necessary to free that electron from
+its parent atom)
 
 \hypertarget{principle-quantum-number}{%
 \subsubsection{principle quantum
@@ -81,19 +111,40 @@ n
 \hypertarget{range}{%
 \paragraph{range}\label{range}}
 
-\(n \in mathbb{Z}^+ | n \geq 1\)
+\(n \in \mathbb{Z}^+| n \geq 1\)
+
+NOTE: although n is theoretically unbounded values greater than five
+have not yet been observed in reality.
 
 \hypertarget{details}{%
 \paragraph{details}\label{details}}
 
-determines the enegy level of the shell/ determines the energy level of
-the electron.
+Identifies a specific energy state Orbitals of the same quantum number
+form an part of the same electron shell
 
-\hypertarget{orbital-angular-momentum-number.}{%
-\subsubsection{orbital angular momentum
-number.}\label{orbital-angular-momentum-number.}}
+\hypertarget{azimuthal-quantum-number-orbital-angular-momentum-number}{%
+\subsubsection{Azimuthal quantum number (orbital angular momentum
+number)}\label{azimuthal-quantum-number-orbital-angular-momentum-number}}
 
-l \#\#\#\# range \(l\in \mathbb{Z} | 0 \leq l \leq n-1\)
+l
+
+\hypertarget{encoding}{%
+\paragraph{encoding}\label{encoding}}
+
+values of l are given letters for identification
+
+\(\quad 0\rightarrow s\)
+
+\(\quad 1\rightarrow p\)
+
+\(\quad 2\rightarrow d\)
+
+\(\quad 3\rightarrow f\)
+
+\hypertarget{range-1}{%
+\paragraph{range}\label{range-1}}
+
+\(l\in \mathbb{Z}\quad | \quad 0 \leq l \leq n-1\quad\)
 
 \hypertarget{details-1}{%
 \paragraph{details}\label{details-1}}
@@ -102,27 +153,404 @@ determines the size and shape of the sub shell/ determines the area
 around the nucleus which the electron may inhabit.
 
 \hypertarget{magnetic-quantum-number}{%
-\subsubsection{magnetic quantum number}\label{magnetic-quantum-number}}
+\subsubsection{Magnetic quantum number}\label{magnetic-quantum-number}}
 
 \(m_s\)
-
-\hypertarget{range-1}{%
-\paragraph{range}\label{range-1}}
-
-\(m_{l} \in \mathbb{Z} | m_{l}\)
-
-\hypertarget{details-2}{%
-\paragraph{details}\label{details-2}}
-
-determines the orientation of the orbital/lobe which the electron is in.
-
-\hypertarget{magnetic-spin-number-m_s}{%
-\subsubsection{magnetic spin number
-m\_\{s\}}\label{magnetic-spin-number-m_s}}
 
 \hypertarget{range-2}{%
 \paragraph{range}\label{range-2}}
 
-\(m_{s} \in \mathbb{Z}\)
+\(m_{l} \in \mathbb{Z} \quad | \quad -l \leq m_{l} \leq l\quad\)
+
+\hypertarget{details-2}{%
+\paragraph{details}\label{details-2}}
+
+determines the three dimensional orientation of sub shell.
+
+\hypertarget{spacial-orientations}{%
+\paragraph{spacial orientations}\label{spacial-orientations}}
+
+P orbitals have three possible orientations
+
+X,Y,Z
+
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth,height=\textheight]{Images/dOrbitalOrientation.jpg}
+\caption{p orbital orientations}
+\end{figure}
+
+D orbitals have five possible orientations
+
+\(xy,xz,zy,z^{2},x^{2}-y^{2}\)
+
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth,height=\textheight]{Images/dOrbitalOrientations.jpg}
+\caption{d orbital orientations}
+\end{figure}
+
+F orbitals have seven possible orientations.
+
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth,height=\textheight]{Images/fOrbitalOrientations.png}
+\caption{forbital orientations}
+\end{figure}
+
+\hypertarget{magnetic-spin-number-m_s}{%
+\subsubsection{\texorpdfstring{magnetic spin number
+\(m_{s}\)}{magnetic spin number m\_\{s\}}}\label{magnetic-spin-number-m_s}}
+
+\hypertarget{range-3}{%
+\paragraph{range}\label{range-3}}
+
+\(m_{s} \in \left( \frac{+1}{2},\quad\frac{-1}{2} \right)\)
+
+\hypertarget{details-3}{%
+\paragraph{details}\label{details-3}}
+
+determines the direction of spin/ gyration of the electron in regard to
+the magnetic axis of the atom.
+
+\hypertarget{representation-diagrams}{%
+\subsubsection{representation diagrams}\label{representation-diagrams}}
+
+\hypertarget{standard-representation}{%
+\paragraph{Standard representation}\label{standard-representation}}
+
+\(nl^{s}\)
+
+Where:
+
+\begin{verbatim}
+  n= principle quantum number
+  l= azimuthal number
+  x= number of electrons within the l subshell.      
+\end{verbatim}
+
+\hypertarget{condensed-representation}{%
+\paragraph{Condensed representation}\label{condensed-representation}}
+
+{[}noble gases{]} valence shell in standard representation
+
+\hypertarget{pauli-exclusion-principles.}{%
+\subsubsection{Pauli Exclusion
+Principles.}\label{pauli-exclusion-principles.}}
+
+no too electron within one atom can have the same set of quantum numbers
+
+\hypertarget{aufbau-priciple}{%
+\subsubsection{Aufbau Priciple}\label{aufbau-priciple}}
+
+electrons must always fill into the lowest energy levels available, this
+provides the sable ground state for of the atom.
+
+\hypertarget{hundus}{%
+\subsubsection{Hundu's}\label{hundus}}
+
+degenerate orbitals must always be filled singly and by electrons with
+the same spin number before 2 electrons may fill the same orbital, and
+opposite spin numbers are permissible.
+
+\hypertarget{exchange-with-higher-sub-shells}{%
+\paragraph{exchange with higher
+sub-shells}\label{exchange-with-higher-sub-shells}}
+
+electrons are most lightly to be promoted into higher sub-shells when in
+doing so they can lead to completely singly filled, or completely double
+filled orbitals.
+
+\hypertarget{examples}{%
+\subparagraph{examples}\label{examples}}
+
+Chromium
+
+\([Ar]4s^{1}3d^{5}\)
+
+Copper
+
+\([Ar]4s^{1}3d^{10}\)
+
+\hypertarget{effective-nuclear-charge}{%
+\subsection{Effective nuclear charge}\label{effective-nuclear-charge}}
+
+effective nuclear charge is the charge exerted on a given electron
+within an atom by the (positively charged) nucleus of that atom
+
+\hypertarget{shielding}{%
+\subsubsection{shielding}\label{shielding}}
+
+shielding is the reduction of the full nuclear charge which and in
+isolation the nucleus would exert on an electron.
+
+\(Z_{eff} = Z - \sigma\quad\)
+
+where: \(Z_{eff}\) = effective nuclear charge Z= nuclear charge
+\(\sigma\) = shielding effect of other electrons.
+
+this shielding effect is due to the present of other electrons within
+the atom which repel the electron in question reducing the net
+attractive force towards the nucleus which it feels.
+
+(this reduction is often expressed as the reduction of
+\(Z \quad to \quad Z_{eff}\) )
+
+\hypertarget{penetration}{%
+\subsubsection{penetration}\label{penetration}}
+
+the potential for the presence of an electron inside shells of other
+electrons. (?)
+
+\hypertarget{slaters-rules}{%
+\subsubsection{Slater's Rules}\label{slaters-rules}}
+
+Estimated value for sigma
+
+\hypertarget{final-electron-is-in-a-s-or-p-orbital}{%
+\paragraph{final electron is in a s or p
+orbital}\label{final-electron-is-in-a-s-or-p-orbital}}
+
+\begin{itemize}
+\tightlist
+\item
+  n-1 electrons contribute 0.85
+\item
+  ns and np electrons contribute 0.35 to \(\sigma\quad\)
+\item
+  n-2 or lower electrons contribute 1.0 to \(\sigma\quad\)
+\end{itemize}
+
+\hypertarget{final-electron-is-in-a-d-or-f-orbital}{%
+\paragraph{final electron is in a d or f
+orbital}\label{final-electron-is-in-a-d-or-f-orbital}}
+
+\begin{itemize}
+\tightlist
+\item
+  nf and nd electrons contribute 0.35 to \(\sigma\quad\)
+\item
+  electrons in lower shells contribute 1. to \(\sigma\quad\)
+\end{itemize}
+
+\hypertarget{trends}{%
+\subsubsection{Trends}\label{trends}}
+
+\hypertarget{section}{%
+\paragraph{\#1}\label{section}}
+
+The closer to the nuclear an electron is the smaller the difference
+between Z and \(Z_{eff}\) will be.
+
+\hypertarget{section-1}{%
+\paragraph{\#2}\label{section-1}}
+
+In terms of energy levels d\textgreater{}p\textgreater{}s
+
+\hypertarget{summary}{%
+\paragraph{summary}\label{summary}}
+
+Increases up and across the periodic table.
+
+\hypertarget{exceptions}{%
+\subparagraph{Exceptions}\label{exceptions}}
+
+Hydrogen
+
+the 2s and 2p orbitals have the same energy level.
+
+potassium and calcium
+
+4s energy level is lower than the 3p (?) (see section 1.3 for
+explanation)
+
+\hypertarget{periodic-table}{%
+\subsection{Periodic table}\label{periodic-table}}
+
+\hypertarget{history}{%
+\subsubsection{History}\label{history}}
+
+first proposed in 1869 based on increased atomic weight.
+
+families of elements with similar chemical properties (groups) with gaps
+in these families allowing for prediction.
+
+\hypertarget{classifying-elements.}{%
+\subsubsection{classifying elements.}\label{classifying-elements.}}
+
+\hypertarget{metallic-character}{%
+\paragraph{Metallic character}\label{metallic-character}}
+
+\hypertarget{metals}{%
+\subparagraph{metals}\label{metals}}
+
+Good Conductors High lustre generally solid malleable ductile
+
+\hypertarget{metalloids}{%
+\subparagraph{metalloids}\label{metalloids}}
+
+goo semiconductors some High lustre some low lustre generally solid some
+malleable some not malleable some ductile some not ductile
+
+\hypertarget{non-metals}{%
+\subparagraph{Non metals}\label{non-metals}}
+
+not malleable low to no lustre not ductile poor conductors brittle gas
+
+\hypertarget{mixtures}{%
+\subparagraph{mixtures}\label{mixtures}}
+
+metals and metals
+
+alloys
+
+non metals and metals
+
+hard
+
+non metals and non metals
+
+volatile
+
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth,height=\textheight]{Images/MetalsPeriodicTable.jpg}
+\caption{MetallicCharacter}
+\end{figure}
+
+\includegraphics{Images/MetalsVennDiagram.jpg}\{width+50\%\}
+
+\hypertarget{atomic-properties}{%
+\subsection{Atomic properties}\label{atomic-properties}}
+
+\hypertarget{atomic-and-ionic-radii}{%
+\subsubsection{Atomic and Ionic radii}\label{atomic-and-ionic-radii}}
+
+radii measures are not very precise
+
+\hypertarget{trends-1}{%
+\paragraph{Trends}\label{trends-1}}
+
+increases down group and decreases across period.
+
+this trend is offset between strontium and barium because \(Z_{eff}\) is
+increased as there are more protons but few effectively shielding
+electrons. For orbitals are very bad at shielding (?)
+
+\hypertarget{lanthanoid-contractions}{%
+\subparagraph{Lanthanoid Contractions}\label{lanthanoid-contractions}}
+
+D block elements don't tend to expand or shrink properly
+
+\hypertarget{covalent-radius}{%
+\paragraph{Covalent radius}\label{covalent-radius}}
+
+half of the difference between centres of atoms in covalent bond (there
+is some overlap)
+
+\hypertarget{ionic-radius}{%
+\paragraph{Ionic Radius}\label{ionic-radius}}
+
+radius of atoms within ionic compounds, an average must be taken over
+many different ionic compounds as there is no reason to assume it would
+be half way between the atom centres.
+
+\hypertarget{mono-atomic-cations}{%
+\subparagraph{mono atomic cations}\label{mono-atomic-cations}}
+
+monatomic cations are smaller than the parent atoms, as there is less
+shielding but equal nuclear charge so high effective nuclear charge.
+
+\hypertarget{monatomic-anions}{%
+\subparagraph{monatomic anions}\label{monatomic-anions}}
+
+monoatomic anions are larger than their parent ions because they
+experience more shielding so lower effective nuclear charge
+
+\hypertarget{metallic}{%
+\paragraph{Metallic}\label{metallic}}
+
+half of the distance between atoms in a solid.
+
+\hypertarget{ionization-energy}{%
+\subsubsection{Ionization Energy}\label{ionization-energy}}
+
+Ionisation energy is the energy require to remove an electron from and
+atom (the standard is measure in gaseous conditions)
+
+\hypertarget{trends-2}{%
+\paragraph{Trends}\label{trends-2}}
+
+Ionisation energy increases up a group and across a period.
+
+Correlated with atomic radii, but there are often exceptions depending
+on which sub-shell the electron in question is removed from.
+
+\hypertarget{electron-affinity}{%
+\subsubsection{Electron Affinity}\label{electron-affinity}}
+
+\hypertarget{electron-enthalpy-gain-delta_eghcircquad}{%
+\paragraph{\texorpdfstring{Electron enthalpy gain
+\(\Delta_{eg}H^{\circ}\quad\)}{Electron enthalpy gain \textbackslash{}Delta\_\{eg\}H\^{}\{\textbackslash{}circ\}\textbackslash{}quad}}\label{electron-enthalpy-gain-delta_eghcircquad}}
+
+\(\Delta_{eg}H^{\circ}\quad=-E_{a}-\frac{5}{2RT}\)
+
+\(E_a\) is determined by the energy of the lowest unfilled or half
+filled orbital.
+
+\(E_a\) can be high if the electron added can experience a strong
+effective nuclear charge.
+
+\hypertarget{electronegativity-chiquad}{%
+\subsubsection{\texorpdfstring{ELectronegativity
+\(\chi\quad\)}{ELectronegativity \textbackslash{}chi\textbackslash{}quad}}\label{electronegativity-chiquad}}
+
+the power of an element to attract electrons towards itself when it is
+part of a compound.
+
+\hypertarget{mulliken-electronegativity-chi_mquad}{%
+\paragraph{\texorpdfstring{Mulliken Electronegativity
+(\(\chi_{M}\quad\))}{Mulliken Electronegativity (\textbackslash{}chi\_\{M\}\textbackslash{}quad)}}\label{mulliken-electronegativity-chi_mquad}}
+
+Atoms with higher ionisation energies and electron affinities are more
+likely to gain electrons
+
+Atoms with low ionisation energies and low electron affinities are more
+likely to lose electrons.
+
+\(\chi_{M}=(I+E_{a})\)
+
+\hypertarget{pauling-electronegativity}{%
+\paragraph{Pauling Electronegativity}\label{pauling-electronegativity}}
+
+Pauling energetics is related to the energetic of bond formation
+
+If \(BE(A-B)>\frac{1}{2}(BE(A-A)+BE(B-B))\) then the covalent bond
+contains an ionic contribution
+
+Equation (?)
+
+\hypertarget{trends-3}{%
+\paragraph{Trends}\label{trends-3}}
+
+related to atomic size and electron configuration
+
+increases up group and across period.
+
+\#\#\#Polarizability the ability of an atom to be distorted by an
+electric field
+
+\hypertarget{polarizable}{%
+\paragraph{polarizable}\label{polarizable}}
+
+large highly charged anions are highly polarisable.
+
+Cations that do not have noble gas configuration are easily polarisable.
+
+\hypertarget{polarizing-or-polarizing-ability.}{%
+\paragraph{polarizing or polarizing
+ability.}\label{polarizing-or-polarizing-ability.}}
+
+small highly charge cations have high polarisability.
 
 \end{document}
