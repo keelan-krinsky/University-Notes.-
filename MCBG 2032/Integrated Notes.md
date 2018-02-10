@@ -67,6 +67,11 @@ a co-dominant colour combination can look like an intermediate if it is the
 combination of two pigments, however in the case where one of the phenotypes is
 white then a intermediate can only be a result of incomplete dominance
 
+#### Sex linked traits
+
+##### Sex limited traits, 
+
+
 ### Important examples
 
 #### Frog colour
@@ -141,6 +146,7 @@ attached to the outside of red blood cells.
 
 
 #### Bombay phenotype
+
 ##### details
 parents A and AB, child O, mates with A, results B, AB and O.
 
@@ -151,11 +157,11 @@ If a individual is homozygous recessive for substance H genes, none will be
 produced and so even if the have A or B alleles they will have a functionally
 O phenotype.
 
-### Alleles and genes
+###Alleles and genes
 A gene is a collection/ group of alleles which could occur the same locus and
 which are associated with the same traits.
 
-### lethal alleles
+###lethal alleles
 alleles which are incompatible with the organisms continued survival
 
 #### dominance
@@ -194,7 +200,8 @@ gene (such as the yellow mice)
 Y allele codes for the yellow coloured pigment.
 y codes for other pigment/no pigment.
 Y is a lethal Dominant(?) Allele. As a YY individual with not develop bast
-the early stages of implantation into the uterine wall.
+the early stages of implantation
+into the uterine wall.
 
 ##### molecular/genetic explanation
 When the Y allele is present at the gene loci it causes a deletion in which,

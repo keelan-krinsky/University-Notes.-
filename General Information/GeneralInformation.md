@@ -108,6 +108,7 @@ Dr Natalya Nikitina
 
 ##Labs
 preprac tests (will cover both lecture work and lab work)
+first report to be submitted with plagerism report before 3rd april
 
 ## Markation
 
