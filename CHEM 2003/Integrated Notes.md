@@ -11,6 +11,8 @@ read 1.3d-1.3g
 
 (see section 1.3 for explanation)
 
+section 1.5-1.6
+
 # section one general review
 
 ## Quantum numbers
@@ -112,7 +114,16 @@ electrons must always fill into the lowest energy levels available, this provide
 degenerate orbitals must always be filled singly and by electrons with the same spin number before 2 electrons may fill the same orbital, and opposite spin numbers are permissible.  
 
 #### exchange with higher sub-shells
-electrons are most lightly to be promoted into higher sub-shells when in doing so they can lead to completely singly filled, or completely double filled orbitals. 
+electrons are most lightly to be promoted into higher sub-shells when in doing so they can lead to completely singly filled, or completely double filled orbitals.
+
+##### examples
+Chromium
+
+$[Ar]4s^{1}3d^{5}$
+
+Copper
+
+$[Ar]4s^{1}3d^{10}$
 
 ## Effective nuclear charge
 effective nuclear charge is the charge exerted on a given electron within an atom by the (positively charged) nucleus of that atom

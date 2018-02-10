@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.12.1)  10 FEB 2018 16:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.12.1)  10 FEB 2018 16:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -899,37 +899,37 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 106.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 108.
 
 
 (/usr/share/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 106.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 108.
 
 
 (/usr/share/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 106
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 108
 .
 
 (/usr/share/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 106
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 108
 .
 
 (/usr/share/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 106.
+(Font)              <10> on input line 108.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 106.
+(Font)              <7> on input line 108.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 106.
-LaTeX Font Info:    Try loading font information for U+msa on input line 106.
+(Font)              <5> on input line 108.
+LaTeX Font Info:    Try loading font information for U+msa on input line 108.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -937,7 +937,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/share/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 106.
+LaTeX Font Info:    Try loading font information for U+msb on input line 108.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -947,69 +947,68 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 ) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<Images/dOrbitalOrientation.jpg, id=89, 803.0pt x 602.25pt>
+<Images/dOrbitalOrientation.jpg, id=93, 803.0pt x 602.25pt>
 File: Images/dOrbitalOrientation.jpg Graphic file (type jpg)
 <use Images/dOrbitalOrientation.jpg>
-Package pdftex.def Info: Images/dOrbitalOrientation.jpg  used on input line 171
-. on input line 171.
+Package pdftex.def Info: Images/dOrbitalOrientation.jpg  used on input line 173
+. on input line 173.
 Package pdftex.def Info: Requested size: 172.4946pt x 129.37094pt on input line
- 171.
-<Images/dOrbitalOrientations.jpg, id=90, 475.7775pt x 355.3275pt>
+ 173.
+<Images/dOrbitalOrientations.jpg, id=94, 475.7775pt x 355.3275pt>
 File: Images/dOrbitalOrientations.jpg Graphic file (type jpg)
 <use Images/dOrbitalOrientations.jpg>
 Package pdftex.def Info: Images/dOrbitalOrientations.jpg  used on input line 18
-1. on input line 181.
+3. on input line 183.
 Package pdftex.def Info: Requested size: 172.4994pt x 128.82866pt on input line
- 181.
-<Images/fOrbitalOrientations.png, id=91, 311.7246pt x 172.0026pt>
+ 183.
+<Images/fOrbitalOrientations.png, id=95, 311.7246pt x 172.0026pt>
 File: Images/fOrbitalOrientations.png Graphic file (type png)
 <use Images/fOrbitalOrientations.png>
-Package pdftex.def Info: Images/fOrbitalOrientations.png  used on input line 18
-9. on input line 189.
+Package pdftex.def Info: Images/fOrbitalOrientations.png  used on input line 19
+1. on input line 191.
 Package pdftex.def Info: Requested size: 172.50024pt x 95.18173pt on input line
- 189.
+ 191.
  [2] [3 <./Images/dOrbitalOrientation.jpg> <./Images/dOrbitalOrientations.jpg> 
 <./Images/fOrbitalOrientations.png>]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 218.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 220.
 
 
 (/usr/share/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [4]
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 277.
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 305.
 
 
 (/usr/share/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 302.
- [5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 302.
+) [5]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 355.
+ [6]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 355.
  (./Integrated Notes.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 302.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 302.
-
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 355.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 355.
 
 Package rerunfilecheck Warning: File `"Integrated Notes".out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `"Integrated Notes".out':
-(rerunfilecheck)             Before: E948E4F780622D65A421E3372695DBAE;2596
-(rerunfilecheck)             After:  520F5AA974A0797945B4090ADFFD0E04;2683.
+(rerunfilecheck)             Before: 520F5AA974A0797945B4090ADFFD0E04;2683
+(rerunfilecheck)             After:  1AF3EC3CCB2348E39F1A81EF21E0CC67;2908.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 302.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 355.
  ) 
 Here is how much of TeX's memory you used:
- 11891 strings out of 492985
- 171321 string characters out of 6138638
- 262383 words of memory out of 5000000
- 15215 multiletter control sequences out of 15000+600000
- 36167 words of font info for 49 fonts, out of 8000000 for 9000
+ 11919 strings out of 492985
+ 171648 string characters out of 6138638
+ 262413 words of memory out of 5000000
+ 15224 multiletter control sequences out of 15000+600000
+ 36250 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 32i,5n,38p,422b,342s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,5n,38p,422b,386s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf-dist/f
 onts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy
 .enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf-
@@ -1023,10 +1022,10 @@ pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-d
 ist/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/l
 m/lmtt10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.
 pfb>
-Output written on "Integrated Notes.pdf" (5 pages, 366675 bytes).
+Output written on "Integrated Notes.pdf" (6 pages, 371133 bytes).
 PDF statistics:
- 212 PDF objects out of 1000 (max. 8388607)
- 188 compressed objects within 2 object streams
- 69 named destinations out of 1000 (max. 500000)
- 6280 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 240 PDF objects out of 1000 (max. 8388607)
+ 214 compressed objects within 3 object streams
+ 86 named destinations out of 1000 (max. 500000)
+ 6288 words of extra memory for PDF output out of 10000 (max. 10000000)
 
