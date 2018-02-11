@@ -300,7 +300,7 @@ related to atomic size and electron configuration
 
 increases up group and across period.
 
-###Polarizability
+### Polarizability
 the ability of an atom to be distorted by an electric field
 
 #### polarizable
@@ -310,3 +310,74 @@ Cations that do not have noble gas configuration are easily polarisable.
 
 #### polarizing or polarizing ability.
 small highly charge cations have high polarisability.
+
+
+## Electron structures
+
+###Lewis structures.
+A covalent bond is formed when two neighbouring atoms share an electron pair.
+
+#### The Octet Rule
+Each atom share electrons with neighbouring atoms to achieve a total on 8 valence electrons.
+
+(there are many exceptions to this rule.)  
+
+#### Procedure.
+
+1. Count the total number  of valence electrons from all atoms involved, (add/subtract for ions as necessary.)
+2. Atom which is least electronegative (cannot be hydrogen )
+3. Make octets around outer atoms.
+4. Share as many outer electron pairs with central atom to make covalent bonds as necessary to create an octet around central atom.
+5. determine which structure has the lowest overall formal charge, and the most electro-negative formal charge on the most negative atom.
+
+#### Exceptions
+
+##### Expanded Octets
+the presence of available d orbitals within acceptable energy ranges allows for more than 8 valence electrons around the central atom. this confirmation is known as hypervalent.
+
+
+#### Formal charge.
+The number of electrons assigned to each atom. is The sum of its unshared valence electrons plus 1 electron per covalent bond it forms
+
+the formal charge of an atom in a compound is the number of electrons normally present in its valence shell minus the number of electron assigned to it in its given lewis structure.
+
+NOTE: Sometimes lowest formal charge violates octet rule for central atom
+
+#### Resonance
+when two, or more lewis structure with identical formal charges and atomic conformation indicates a resonance structure. this compound exist in a state between the two formal structures, with intermediate bond lengths and energy levels.
+As bonding is distributed across the whole molecule so the energy of the resonance hybrid is lower than any single structure
+
+### Predicting Shapes
+
+#### Bonding vs Non Bonding pairs.
+non bonding electrons have a greater repellent force, hence their position equatorial/ axial must place them as far away from each other as possible, and as far away from as many other electrons pairs as possible.
+
+Bonding pair are also physically smaller than non bonding pairs.
+
+![Bonding vs Non Bonding Pairs ](Images/BondingVSNonBonding.jpg){height=50%}
+
+#### Bond Angles
+
+![Bond Angles](Images/BondAngles.jpg){width=50%}
+
+##### Exceptions
+1. Lone pairs distort bond angles by about 2.5 degrees
+2. multiple bonds also distort bond angles.
+
+
+*d
+
+| Number Of Electron Dense areas 	| Electron Pair Geometry  	| No Lone Pairs        	| 1 lone Pair           	| 2 Lone Pairs  	| 3 Lone Pairs 	| $
+|--------------------------------	|-------------------------	|----------------------	|-----------------------	|---------------	|-------------- |
+| 2                              	| Linear                  	| Linear               	|                       	|               	|               |
+|--------------------------------	|-------------------------	|----------------------	|-----------------------	|---------------	|-------------- | 	  
+| 3                              	| Trigonal Planar         	| Trigonal Planar      	| Bent                  	|               	|               |
+|--------------------------------	|-------------------------	|----------------------	|-----------------------	|---------------	|-------------- |
+| 4                              	| Tetrahedral             	| Tetrahedral          	| Trigonal bipyramidal  	| Bent          	|               | 	|--------------------------------	|-------------------------	|----------------------	|-----------------------	|---------------	|-------------- |
+| 5                              	| Trigonal bipyramidal    	| Trigonal Bipyramidal 	| Sawhorse              	| T-Shaped      	| Linear        |	|--------------------------------	|-------------------------	|----------------------	|-----------------------	|---------------	|-------------- |
+| 6                              	| Octahedral              	| Octahedral           	| Square Pyramidal      	| Square Planar 	| T-Shaped     	|  
+|--------------------------------	|-------------------------	|----------------------	|-----------------------	|---------------	|-------------- |
+
+This table is fucked, it will not display for shit*
+
+![ElectronDomainGeometry](Images/CompoundGeometry.jpg)
