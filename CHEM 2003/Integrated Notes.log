@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.12.1)  11 FEB 2018 14:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.12.1)  13 FEB 2018 00:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1096,16 +1096,12 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 804.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 804.
 Package rerunfilecheck Info: File `"Integrated Notes".out' has not changed.
 (rerunfilecheck)             Checksum: 36543FE96345CE4458D1DE6DF68172B3;4531.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 804.
  ) 
 Here is how much of TeX's memory you used:
  12298 strings out of 492985
  177002 string characters out of 6138638
- 278600 words of memory out of 5000000
+ 278635 words of memory out of 5000000
  15468 multiletter control sequences out of 15000+600000
  37329 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191

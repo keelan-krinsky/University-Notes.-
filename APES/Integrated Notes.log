@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.12.1)  11 FEB 2018 16:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.12.1)  12 FEB 2018 23:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -899,14 +899,14 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-<Images/StommelDiagram1.jpg, id=116, 581.0508pt x 494.3268pt>
+<Images/StommelDiagram1.jpg, id=136, 581.0508pt x 494.3268pt>
 File: Images/StommelDiagram1.jpg Graphic file (type jpg)
 <use Images/StommelDiagram1.jpg>
 Package pdftex.def Info: Images/StommelDiagram1.jpg  used on input line 79. on 
 input line 79.
 Package pdftex.def Info: Requested size: 345.00693pt x 293.51335pt on input lin
 e 79.
-<Images/StommelDiagram2.jpg, id=117, 443.7378pt x 449.5194pt>
+<Images/StommelDiagram2.jpg, id=137, 443.7378pt x 449.5194pt>
 File: Images/StommelDiagram2.jpg Graphic file (type jpg)
 <use Images/StommelDiagram2.jpg>
 Package pdftex.def Info: Images/StommelDiagram2.jpg  used on input line 80. on 
@@ -917,7 +917,7 @@ e 80.
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Images/StommelDiagram1.j
 pg>] [2 <./Images/StommelDiagram2.jpg>] [3] [4]
-<Images/OrganismNeeds.jpg, id=173, 721.9773pt x 541.3023pt>
+<Images/OrganismNeeds.jpg, id=193, 721.9773pt x 541.3023pt>
 File: Images/OrganismNeeds.jpg Graphic file (type jpg)
 <use Images/OrganismNeeds.jpg>
 Package pdftex.def Info: Images/OrganismNeeds.jpg  used on input line 234. on i
@@ -931,7 +931,7 @@ LaTeX Font Info:    Try loading font information for T1+lmtt on input line 282.
 (/usr/share/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [7]
-<Images/ThermalStimulus.jpg, id=203, 721.9773pt x 541.3023pt>
+<Images/ThermalStimulus.jpg, id=223, 721.9773pt x 541.3023pt>
 File: Images/ThermalStimulus.jpg Graphic file (type jpg)
 <use Images/ThermalStimulus.jpg>
 Package pdftex.def Info: Images/ThermalStimulus.jpg  used on input line 353. on
@@ -947,34 +947,45 @@ LaTeX Font Info:    Try loading font information for TS1+lmr on input line 396.
 
 (/usr/share/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 421.
- [9]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 421.
- (./Integrated Notes.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 421.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 421.
-Package rerunfilecheck Info: File `"Integrated Notes".out' has not changed.
-(rerunfilecheck)             Checksum: EED931E008BD7566F6CC66AD3A4BBBA2;3817.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 421.
+) [9] [10] [11] [12] [13]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 729.
+ [14]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 729.
+
+(./Integrated Notes.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 729.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 729.
+
+
+Package rerunfilecheck Warning: File `"Integrated Notes".out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `"Integrated Notes".out':
+(rerunfilecheck)             Before: DC324601B404584AAF4561E09C802250;4433
+(rerunfilecheck)             After:  04353916D4BC6A04D4FBAB9558F724B8;5697.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 729.
  ) 
 Here is how much of TeX's memory you used:
- 11830 strings out of 492985
- 169359 string characters out of 6138638
- 262931 words of memory out of 5000000
- 15159 multiletter control sequences out of 15000+600000
- 24327 words of font info for 38 fonts, out of 8000000 for 9000
+ 11963 strings out of 492985
+ 170861 string characters out of 6138638
+ 264201 words of memory out of 5000000
+ 15193 multiletter control sequences out of 15000+600000
+ 24576 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 32i,5n,38p,314b,344s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,5n,38p,314b,406s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf-dist/f
 onts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf-dist/fonts/type1/public/lm/lmbx10
 .pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-
 dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/
 lm/lmtt10.pfb>
-Output written on "Integrated Notes.pdf" (9 pages, 440954 bytes).
+Output written on "Integrated Notes.pdf" (14 pages, 451635 bytes).
 PDF statistics:
- 268 PDF objects out of 1000 (max. 8388607)
- 246 compressed objects within 3 object streams
- 100 named destinations out of 1000 (max. 500000)
- 4341 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 412 PDF objects out of 1000 (max. 8388607)
+ 384 compressed objects within 4 object streams
+ 193 named destinations out of 1000 (max. 500000)
+ 4381 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -245,3 +245,182 @@ the current felt management policy in South Africa is Clementian
 
 ###Background
 Dominant in America
+
+# Jason 
+
+## Complex systems 
+
+### wicked problems 
+multiple complex systems all interacting 
+
+### Super wicked problems 
++ 
+1. Time limits 
+2. No Centeral authority
+3. The adjent responsible for fixing the problem is infact part of the problem 
+4. future irrationality 
+
+### Complexity 
+1. Emergent properties
+2. Nestedness
+3. Feedback loops (positive or negative)
+4. non linear relationships 
+5. thresholds (under the threshold value there is no/little change, above the threshold there is sudden dramatic change)
+6. lags 
+7. multiple stable states
+
+NOTE: within a complex system it is reasonable to suspect many surprises. Especially if you happen to be a human endoured with all of the primative problem solving techniques which humans are best at. 
+
+#### Models 
+1. aid in understanding 
+2. simplification of reality 
+3. systems change over time
+
+##### Population models
+
+###### expanential growth. 
+insert graph 
+
+Examples: 
+1. Elephants in the Kruger Park
+2. Bacterial infections in humans 
+
+###### Exponential decay. 
+Often used when half lives are important. 
+
+###### Exponential Approaches 
+Decays to some lower (non zero) constant value 
+
+Examples 
+1. Acid mine drainage. Because some acidity is sequestered in the beds of rivers and streams even when the source is removed there will still be a reserve of acid to enter the water, so it will be very hard to reduce acid concentrations completely back to their ideal (zero) state. 
+
+###### S/ Sigma Shaped 
+Examples:  
+1. Growth of a population with a definate carrying capacity 
+2. 
+
+###### Overshoot 
+the system does not settle at a high eqillibrium. 
+
+Examples: 
+1. Delays responce to limiting factors. 
+2. damage to common resources. 
+
+###### Ocillations
+Cycles in a sustained manner. Generally occur because of lags (delay responce to stimuli) 
+
+Examples: 
+1. heart rythms 
+2. preditor pre ocillations. 
+
+NOTE: amplitude of the ocillation can change 
+
+#### Systems Language 
+
+##### basic elements 
+
+###### Stock 
+an amount of something 
+
+###### Flow 
+A change in ammount
+ 
+###### Connector
+Show when one amount affects another 
+
+
+###### Converter 
+An outside variable which influences the system
+
+Examples: 
+Insert Diagrams. 
+
+
+## Factors operating on the individual level. 
+
+### What is an Individual 
+Especially in the case of gametes exaclty what cxonstitues one individual, and what constitues a group of individuals is unclear. 
+
+### Life Cycles 
+
+#### Mammals 
+1. juvaniles 
+2. subadults (?)
+3. adults 
+4. senescents 
+
+#### Trees 
+1. seeds
+2. seedlings 
+3. saplings 
+4. adult trees
+
+#### Insects 
+1. Eggs 
+2. larvae 
+3. Papa 
+4. instars 
+5. adults 
+
+NOTE: migration, survuval , reporiduction and other rates vary dependant on life cycle stages. 
+
+
+#### Unitary 
+
+##### Determinate forms 
+1. the size and shape will vary predictable, and life cycle stages will progress steadily and ordinally. 
+
+#### Modular
+1. the form, growth and life cycle state of an organism is unpredictable. 
+2. modular organism are composed of many modules/ sub units. (which often display phenotypic plasticity) 
+
+### Reproduction
+
+#### reproductive cycles. 
+
+##### Annuals 
+grow mature reproduce and die off, once each year. 
+
+Copy Graph 
+
+##### iteroparous
+
+###### Seasonal
+long lived organisms which breed seasonally (eg Kudu or impala )
+
+###### Continuous 
+Relatively long lived. 
+
+###### Semelparous 
+Similar life cycle to annuals but with a much longer juvanile period. (eg Salmon and centuary plant)
+
+
+#### Sex 
+Individuals differ by sex. 
+
+NOTE: in mammals it is often the young males who must migrate from the place that they are born before they breed. 
+
+### Quantity and Quality 
+
+## Population level. 
+the basic definition of a population is a group of individuals living in the same place, at the same time, who can interbreed. 
+
+NOTE: this basic definition runs into a number of problems, Most commonly different species which can interbreed and populations which seem to be geographically separated but actually interact in important and predictable ways. 
+
+### Functioning definition
+A group of individuals for which it is meaningful to discuss: 
+1. birth rate death rate and abundance estimates. 
+2. Administrative boundaries 
+3. estimation approaches 
+4. population characteristics
+5. compostion 
+6. favourable and non favourable environments, 
+
+# Definitions
+
+##### Genet
+Organisms with distinct genetics
+
+##### Ramet 
+Orgamsims with identical genetics but are non the less modular/separate in some regard. 
+

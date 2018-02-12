@@ -161,7 +161,62 @@ $\exists P \rightarrow \exists Q$
 $\nexists P \rightarrow \nexists Q$
 
 #### Converse
-$\exists ~ Q \rightarrow \, \exists P$ 
+$\exists Q \rightarrow \, \exists P$ 
+
+#### deductive validity 
+1. Are the premices true (this is difficult if not impossible to establish in mathematics. )
+2. Do the premices guarentee the truth on the conclusion.
+3. does the argument beg the question (Not really one of the criteria)
+
+### Non deductive arguments 
+most of science is actually non deductive reasoning. science will often venture conclusions beyond the scope of observation (induction). 
+
+#### Inductive Reasoning 
+In Inductive reasoning premises are veiw as strong support of the truth of the conclusion. however they do not garuntee the truth of the conclusion. Induction allows for conclusions to be made about issues outside the scope of ovservation. 
+ 
+##### Inductive strength 
+two factor influence the inductive strength of an argument, sample size and bias. 
+
+### Deductive arguments
+
+### Abduction 
+abductive arguments seek to explain what is observed, otherwise known as inference to best explination. 
+
+#### Abductive arguments 
+abductive hypothesies should be able to predict easily testable results, such that if the predicted result is achieved during experimentation then the validity of the hypothesis is supported, and if it is not the hypothesis can be rejected. 
+
+(Abductive arguments usually rely on a number of assumptions which can be supported by the predictive power of the argument)
+
+NOTE: if testing two alternative theories H1 and H0 then a good test experiment will be set up such that the the observation of event P supports H0 and negates H1 and visa versa. 
+
+#### Evaluating Abductive Inferences. 
+
+##### Surprise principles
+If an observation supports a hypothesis, then it must strongly favour that hypothesis over others with which it competes
+
+In order to satisfy this principle: 
+1. the hypothesis should make no fasle predictions 
+2. Within the set of true predictions which the hypothesis makes, there should be predictions which are expected NOT to come true if the hypothesis is false (Is this not mixed up somewhere?)
+
+##### Abductive fallacy 
+A widely used and accepted expination is not necessary at all plausible, (even if no competing explination exists)
+
+
+### Making observations
+
+obervations can be made by human senses as well as by sophisticated scientific equipment. 
+
+
+#### examples 
+
+##### Medelian genetics. 
+mendal made conclusions very far beyond his premises, abducting from color change to the existance and role of gentic elements. 
+
+## A bad argument 
+
+### Circular arguments. 
+$A \in B \rightarrow A \in B$
+
 
 # Definitions 
 
@@ -170,4 +225,41 @@ A Premise is a statment. This statement may be true or false.
 
 ### Conclusion
 
+### Bias 
+factors which may skew the results of a test in some form. 
+
+# Steriochemistry 
+
+## Rotamers 
+
+Isomers which can be interconverted by rotation (of a given part of the molecule)  about a particular bond
+
+Different isomers are known as Isoforms. 
+
+NOTE: bonds within molecules can lengthed, shorted,bend and rotate, depending on what stresses are excerted upon them. 
+
+### Newman Projections 
+A visualisation of a moleculeviewed from the front. 
+
+  the front atom is reprisented as a dot 
+  the back atom is reprisented as a circle. 
+
+### Conformations 
+
+#### Staggered 
+Surrounding atoms/hydrogens are all equally spaced. 
+
+this conformation is more stable for two reasons 
+
+##### Steric Hinderance 
+in the eclipsed conformation outside atoms are forced to close to eachother, raising the energy level of the conformation 
+
+##### Hyperconjugation 
+stabilising interactions of the electrons in a $\sigma$-bond (usually C-H or C-C) with an adjacent empty or partially filled p-orbital or a $pi$-orbital to give an extended molecular orbital that increases the stability of the system)
+
+#### Eclipsed 
+Outside atoms line up with each other. 
+
+NOTE: there are a whole range of conformations depending on the exact angle of rotation. 
+[Rotamer Energy Diagram](Images/RotamerEnergyDiagram.jpg)
 
