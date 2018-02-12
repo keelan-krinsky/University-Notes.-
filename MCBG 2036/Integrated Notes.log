@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.12.1)  13 FEB 2018 00:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.12.1)  13 FEB 2018 01:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -956,7 +956,7 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 
 LaTeX Warning: Command \textquoteright invalid in math mode on input line 214.
 
-<Images/FattyAcidsInWater.JPG, id=179, 521.95pt x 425.59pt>
+<Images/FattyAcidsInWater.JPG, id=195, 521.95pt x 425.59pt>
 File: Images/FattyAcidsInWater.JPG Graphic file (type jpg)
 <use Images/FattyAcidsInWater.JPG>
 Package pdftex.def Info: Images/FattyAcidsInWater.JPG  used on input line 237. 
@@ -969,38 +969,79 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 (hyperref)                than one, level fixed on input line 452.
 
 [7] [8]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 519.
- [9]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 519.
+<Images/RotamerEnergyDiagram.jpg, id=302, 721.9773pt x 541.3023pt>
+File: Images/RotamerEnergyDiagram.jpg Graphic file (type jpg)
+<use Images/RotamerEnergyDiagram.jpg>
+Package pdftex.def Info: Images/RotamerEnergyDiagram.jpg  used on input line 52
+3. on input line 523.
+Package pdftex.def Info: Requested size: 345.00285pt x 258.6658pt on input line
+ 523.
+<Images/DihedralAngle.jpg, id=303, 721.9773pt x 541.3023pt>
+File: Images/DihedralAngle.jpg Graphic file (type jpg)
+<use Images/DihedralAngle.jpg>
+Package pdftex.def Info: Images/DihedralAngle.jpg  used on input line 535. on i
+nput line 535.
+Package pdftex.def Info: Requested size: 345.00285pt x 258.6658pt on input line
+ 535.
+ [9 <./Images/RotamerEnergyDiagram.jpg>] [10 <./Images/DihedralAngle.jpg>]
+<Images/AlloDiastereomers.jpg, id=322, 721.9773pt x 541.3023pt>
+File: Images/AlloDiastereomers.jpg Graphic file (type jpg)
+<use Images/AlloDiastereomers.jpg>
+Package pdftex.def Info: Images/AlloDiastereomers.jpg  used on input line 601. 
+on input line 601.
+Package pdftex.def Info: Requested size: 345.00285pt x 258.6658pt on input line
+ 601.
+<Images/MessoCompounds.jpg, id=323, 721.9773pt x 541.3023pt>
+File: Images/MessoCompounds.jpg Graphic file (type jpg)
+<use Images/MessoCompounds.jpg>
+Package pdftex.def Info: Images/MessoCompounds.jpg  used on input line 610. on 
+input line 610.
+Package pdftex.def Info: Requested size: 345.00285pt x 258.6658pt on input line
+ 610.
+ [11] [12 <./Images/AlloDiastereomers.jpg>] [13 <./Images/MessoCompounds.jpg>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 690.
+ [14]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 690.
  (./Integrated Notes.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 519.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 519.
-Package rerunfilecheck Info: File `"Integrated Notes".out' has not changed.
-(rerunfilecheck)             Checksum: 7E1D3AB4BAFD7E93C5091DF3BD1DE13D;4246.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 519.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 690.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 690.
+
+
+Package rerunfilecheck Warning: File `"Integrated Notes".out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `"Integrated Notes".out':
+(rerunfilecheck)             Before: 28A3C6907FAF7A4E0789C08A55C6A2A6;4742
+(rerunfilecheck)             After:  79B0A8EB6AFB1C2F903DA777F5B345F4;4742.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 690.
  ) 
 Here is how much of TeX's memory you used:
- 11998 strings out of 492985
- 172325 string characters out of 6138638
- 263733 words of memory out of 5000000
- 15224 multiletter control sequences out of 15000+600000
- 36927 words of font info for 61 fonts, out of 8000000 for 9000
+ 12081 strings out of 492985
+ 173639 string characters out of 6138638
+ 264156 words of memory out of 5000000
+ 15257 multiletter control sequences out of 15000+600000
+ 37342 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  32i,5n,38p,279b,408s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dis
-t/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mat
+{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf-dist/fo
+nts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mat
 hit.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf-
 dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf-dist/fonts/type1/public/lm/
 lmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/
 texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf-dist/fonts/type1/
 public/lm/lmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></us
 r/share/texmf-dist/fonts/type1/public/lm/lmr5.pfb></usr/share/texmf-dist/fonts/
-type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy7.p
-fb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on "Integrated Notes.pdf" (9 pages, 278913 bytes).
+type1/public/lm/lmr7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pf
+b></usr/share/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf-dist
+/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on "Integrated Notes.pdf" (14 pages, 605904 bytes).
 PDF statistics:
- 363 PDF objects out of 1000 (max. 8388607)
- 338 compressed objects within 4 object streams
- 146 named destinations out of 1000 (max. 500000)
- 6414 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 446 PDF objects out of 1000 (max. 8388607)
+ 410 compressed objects within 5 object streams
+ 186 named destinations out of 1000 (max. 500000)
+ 6466 words of extra memory for PDF output out of 10000 (max. 10000000)
 
