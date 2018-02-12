@@ -7,7 +7,7 @@ Ionic dissociation occurs when the addition of a solvent or energy in the form
 of heat causes molecules if crystals of a substance to break down into ions.
 
 ### Osmotic effects.
- spontaneous net movement of solvent molecules through a semipermeable membrane
+spontaneous net movement of solvent molecules through a semipermeable membrane
 
 ### tonicity
 
@@ -114,6 +114,8 @@ other examples are reverse transcriptase and HIV protease and GST (detoxifying e
 
 ## Acids and Bases
 
+
+
 ### Bronsted and lowery
 acids are proton donors
 bases are proton acceptors.
@@ -129,3 +131,43 @@ bases are electron pair donors.
 
 ### buffering
 relies on weak acids or bases which do nto fully dissociate.
+
+# Scientific Reasoning
+
+## Basic structures of an argument  
+
+### Premises 
+A Premise is a statment. This statement may be true or false.
+
+In science the orginial premise is known as the hypothesis. 
+this hypothesis will be tested, usually impirically.
+
+### Conclusions
+A conclusion should be well supported by all premises. The conclusion leads one to decide if the hypothesis is true fo false.
+
+
+## A good argument 
+A good argument can be deductively, or nondecuctive but abductively, or inductively strong. 
+
+NOTE: Arguments can be invalid even if all of the premises and the conclusion are true. If they do not actually imply eachother then it is simply a collection of facts and not an argument.  
+
+### Deductive arguments
+$A \in B \wedge B \in C \rightarrow C \in B$
+
+#### Conditional 
+$\exists P \rightarrow \exists Q$
+
+#### Contrapositive 
+$\nexists P \rightarrow \nexists Q$
+
+#### Converse
+$\exists ~ Q \rightarrow \, \exists P$ 
+
+# Definitions 
+
+### Premise 
+A Premise is a statment. This statement may be true or false.
+
+### Conclusion
+
+
