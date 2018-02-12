@@ -148,9 +148,9 @@ Beneficial:
 
 Essential:
 
-      Bulk O,C,H,N,S
-      Macro Ca, P, K, Cl, Na, Mg
-      Trace Fe, Zn, Cu, I, Mo, Co, Se
+    Bulk O,C,H,N,S
+    Macro Ca, P, K, Cl, Na, Mg
+    Trace Fe, Zn, Cu, I, Mo, Co, Se
 
 Beneficial
 
