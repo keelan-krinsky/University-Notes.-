@@ -222,3 +222,12 @@ yy is health individual without yellow colour.
 birth rations will be skewed by the fact that YY individuals are not actually
 born.
 NOTE: this is an example of incomplete dominance of Y with respect to MERC.
+
+### Effective Of the environment on genetic expression. 
+#### examples 
+
+Myopia(short sightedness): 
+
+Populations where book learning is not inforced/encouraged from an early age do not show high rates of myopia even though the genetic dispostion between the two populations is very similar. 
+
+
