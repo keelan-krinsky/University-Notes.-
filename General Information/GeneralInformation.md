@@ -94,9 +94,9 @@ Yasien.Sayed@wits.ac.za
 ## Venues and lectures
 7 wednesday 12:30-1:15 P115
 12 monday 8:00-10:00
-15 thursday 2:00-5:00 GLT
-20 tuesday 10:15-12:00
-21 wednesday 12:30
+15 Thursday 2:00-5:00 GLT
+20 Tuesday 10:15-12:00
+21 Wednesday 12:30
 
 
 # MCBG 2032 Concepts
@@ -117,3 +117,5 @@ Genetics is 25% of the marks.
 
 ## lectures and venues
 Friday labs start with lectures at WSS4
+
+### stereochemistry tut will be available from 14/02/2018
