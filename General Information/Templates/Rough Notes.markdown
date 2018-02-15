@@ -456,7 +456,7 @@ $\mu = \frac{1}{2}\Sigma c_{i}z_{i}^2$
 where:
 
     c= concentration of given ionic species.
-    z= charge on given ionic species. 
+    z= charge on given ionic species.
 
 
 
