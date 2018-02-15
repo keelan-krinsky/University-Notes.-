@@ -398,85 +398,6 @@ inaccurate but useful for rough estimations of pH or to identify changes in pH
 ##### Electrode
 accurate to two decimal places.
 
-## 15/02/2018
-
-### Chemistry definitions
-
-#### Titrations
-
-###### equivalence point
-equal number of moles of acid and base.
-
-###### Titrant
- the standard solution
-
-###### end point
-usually when indicator changes colour.
-
-###### buffering region
- region which resist pH change
-
-NOTE: the midpoint of the buffering region gives the pKa of the acid.
-
-polyprotic acids can have multiple dissociation constants, but there will only
- ever be significant concentrations of two species at a given pH.
-
-#### buffers
-
-##### buffer types
-NOTE: even small PH changes can dramatically change biological molecules, mostly
- by interacting with ionic side groups.
-
-###### goods buffers
-about 20.  
-1. pipes
-2. maps
-3. HEPES   
-
-###### tris buffers
-quite temperature sensitive.
-
-##### buffer characteristics
-1. pH of solution (must be with 1 of pKa)
-2. Ionic strength, temperature, and concentration (also dependant on pKa)
-3. water solubility
-4. availability and purity
-5. membrane permeability/ toxicity
-6. complex io formation
-7. UV/VIS transparency (must be relatively clear as transmittance is an important
-   measure to be able to take )
-8. macromolecule interference
-
-##### Hendelson Hasselbach equation
-$pH=-pKa+log(\frac{[CB^-]}{HA})$
-
-#### Ionic strength / salt concentration
-$\mu = \frac{1}{2}\Sigma c_{i}z_{i}^2$
-
-where:
-
-    c= concentration of given ionic species.
-    z= charge on given ionic species. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -588,7 +509,10 @@ artificial water sources. this artificially increased the carrying capacity.
 
 
 
-# CHEM 2003
+
+
+
+#CHEM 2003
 
 ## Valence Bond Theory
 
@@ -601,8 +525,6 @@ developed. It was developed by Walter Heitler, friz London and Linus Pauling, an
 #### Wave functions.
 the wave function of an electron pair is formed by superimposing the wave function for the separate fragments of a molecule.
 
-Wave functions behave like waves. they can be in or out  of phase and constructively or destructively interact.
-
 ##### Electrons
 Each electron will have a wave function $\psi$  that describes the behaviour of that electron.
 (section 1.2 in book)
@@ -614,140 +536,8 @@ $/chi$ is used to represent the orbital of a given electron.
 ##### bonds
 each bond will also have a wave function which describes the movement of electrons within that orbital.
 
-if there is a high probability of finding two electrons in the space between two nuclei then this implies a bond between these two nuclei.
-
 ###### examples
 
 the bond between two hydrogen can be expressed as
 $\psi= \chi_{A}(1)\chi_{B}(2)$
 ( or $\psi=\chi_{A}(2)\chi_{B}(1)$ is just as valid )
-
-
-
-### Bonds
-
-#### Background
-
-1. All single bonds are $\sigma$-bonds
-2. Double bonds contain one $\sigma $-bond and one $\pi-bond$
-3. triple bonds contain one $\sigma$-bond and two $\pi$-bonds
-
-#### degree of overlap
-At some point the repulsion between nuclei exceeds the energy lost by bond formation.
-Copy graph
-
-NOTE: energy drop resulting from bond formation can be thought of as resulting from increased stability of the newly formed association.
-
-#### multiple bonds
-multiple bonds can form between two atoms
-
-
-#### Sigma bond
-a sigma bond is cylindrical around the internuclear axis.
-
-#### Hybridisation
-It might be expected that bonds formed from the overlap of 2 s orbitals and 1s + 1p would have different shapes and energy levels however it turn out they are identical, this is because of hybridisation, in which bonding (and non bonding) electrons are hybridised to the same energy level before any bonds are made. as as result when bonds are made there are all energetically identical.
-
-##### Promotion
-in order for hybridisation to take place electron must often be promoted from double filled lower orbitals to single fill higher energy levels. this is necessary as there must be as many lone electrons as there are bonds to be formed. the energy necessary for this promotion is regained by the increased stability of the final bonded structure.
-
-###### Lone pairs
-valence lone pairs must also be hybridised onto the same energy level as the bonding electrons.
-
-##### types
-
-###### sp
-ground state 2s
-1. promotion of s electron to get 1s and 1p
-2. Hybridisation to get $sp$, this mean two bonds can be made and a linear molecule formed
-
-###### $sp^{2}$
-ground state 2s 1p
-1. promotion of 1s electron to get 1s and 2p
-2. Hybridisation to get $sp^{2}$, this mean three bonds can be made and a trigonal planar molecule is formed
-
-###### $sp^{3}$
-ground state 2s 2p
-1. promotion of 1s electron to get 1s and 3p
-2. Hybridisation to get $sp^{3}$, this means four bonds can be made and a tetrahedral molecule is formed.  
-
-###### $sp^{3}d$
-ground state 2s 3p
-1. promotion of 1s electron to the p and then the d orbital to get 1s and 3p 1d
-2. Hybridisation to get $sp^{3}d$, this means 5 bonds can be made and a trigonal bi pyramidal molecule is formed.
-
-###### $sp^{3}d^{2}$
-ground state 2s 4p  
-1. promotion of 1s electron to the p and then the d orbital and 1 p orbital to the d orbital, to get 1s and 3p 2d
-2. Hybridisation to get $sp^{3}d$, this means 6 bonds can be made and an octahedral molecule is formed.
-
-### Pro's and Con's
-
-#### Problems
-
-##### delocalised orbitals
-  (p orbitals can overlap they are not restricted to their atomic orbitals. )
-##### megnetic fields
-
-###### paramagnetic
-elements with partially filled atomic orbitals are paramagnetic that is they are weakly attracted to whatever magnetic field they are in.
-
-#### diamagnetic
-diamagnetic have only completely filled atomic orbital, and weakly repel whatever magnetic field which they are in.
-
-## Molecular orbital theory.
-electrons spread over the whole molecule, and can interact with more than one atomic nucleus.
-molecular orbital are created from the sum and the differnece of two wave functions.
-
-### LACO's
-linear combinations of atomic orbitals
-
-#### bonding orbitals
-
-The sum form the bonding orbital which lies between the two nuclei and is of lower energy
-
-#### Antibonding orbitals
- The difference forms the antibonding orbitals, which are at higher energy then their respective atomic orbitals and lie on the outside of the molecule, between anitbonding orbitals there exists a point of minimum electron density (maximum destructive overlap) which is known as a node.  
-
-NOTE: the increased energy is due to the fact that they can only interact with one nucleus and that they are slightly repelled to be father from this nucleus than normal by the increased internuclear electron density of the bonding orbital.
-
-#### $\sigma$ orbitals
-1. s-s (end to end overlap)
-2. s-p (end to end overlap)
-3. p-p (end to end overlap)
-
-#### $\pi$ orbitals
-1. sideways overlap of p orbitals
-
-#### $\delta$ orbitals
-1. fact to face overlap of $d_{xy}$ or d_{x^{2}-y^{2}}
-
-### energy level diagrams
-Pauli exclusion principles still apply.
-
-NOTE: interaction between 1$\sigma$ and 2$\sigma$ from lithium to nitrogen.
-
-#### symmetry
-inversion symmetry (?)
-not related to bonding/ antibonding
-orbitals labelled with a subscript g or u.
-
-#### gerade and ungerade
-gerade= even, ungerade = uneven
-
-for $\sigma$ orbitals the bonding is usually labelled $\sigma_{g}$ and the anti-bonding orbital $\sigma_{u}$
-
-for $\pi$ orbitals
-1. bonding = $\pi_{u}$
-2. antibonding $\pi_{g}$
-
-#### terminology
-
-##### HOMO
-highest occupied molecular orbital
-
-##### LUMO
-lowest unoccupied molecular orbital
-
-##### SOMO
-singly occupied molecular orbital.

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.12.1)  14 FEB 2018 17:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.12.1)  15 FEB 2018 23:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -844,37 +844,42 @@ LaTeX Info: Redefining \nameref on input line 57.
 
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] [5]
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 375.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] [5] [6] [7] [8
+] [9]
+Underfull \hbox (badness 10000) in paragraph at lines 624--626
 
- (/usr/share/texmf-dist/tex/latex/lm/ot1lmr.fd
+ []
+
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 655.
+
+(/usr/share/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 375.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 655.
 
 
 (/usr/share/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 375
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 655
 .
 
 (/usr/share/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 375
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 655
 .
 
 (/usr/share/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 375.
+(Font)              <10> on input line 655.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 375.
+(Font)              <7> on input line 655.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 375.
-LaTeX Font Info:    Try loading font information for U+msa on input line 375.
+(Font)              <5> on input line 655.
+LaTeX Font Info:    Try loading font information for U+msa on input line 655.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -882,43 +887,33 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/share/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 375.
+LaTeX Font Info:    Try loading font information for U+msb on input line 655.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 (/usr/share/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-) [6] [7]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 522.
- [8]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 522.
+) [10] [11] [12] [13]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 886.
 
-(./Rough Notes.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 522.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 522.
-
-
-Package rerunfilecheck Warning: File `"Rough Notes".out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `"Rough Notes".out':
-(rerunfilecheck)             Before: 282BADEC8FD1E9EB4489445384FAA0A6;2277
-(rerunfilecheck)             After:  9DD587F98C5D9A2C9965F03BD26DDD6D;2277.
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 522.
+[14]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 886.
+ (./Rough Notes.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 886.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 886.
+Package rerunfilecheck Info: File `"Rough Notes".out' has not changed.
+(rerunfilecheck)             Checksum: 0CC5B5B2F2674E1190961C67BDAB9F4D;2872.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 886.
  ) 
 Here is how much of TeX's memory you used:
- 11129 strings out of 492985
- 159061 string characters out of 6138638
- 253409 words of memory out of 5000000
- 14372 multiletter control sequences out of 15000+600000
- 36894 words of font info for 64 fonts, out of 8000000 for 9000
+ 11300 strings out of 492985
+ 161371 string characters out of 6138638
+ 255141 words of memory out of 5000000
+ 14422 multiletter control sequences out of 15000+600000
+ 41666 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 32i,5n,38p,241b,405s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,5n,38p,241b,406s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf-dist/fo
 nts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mat
 hit.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf-d
@@ -927,12 +922,12 @@ lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/sha
 re/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf-dist/fonts/type
 1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr5.pfb></u
 sr/share/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf-dist/fonts
-/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy5.
-pfb>
-Output written on "Rough Notes.pdf" (8 pages, 145263 bytes).
+/type1/public/lm/lmri10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10
+.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy5.pfb>
+Output written on "Rough Notes.pdf" (14 pages, 175438 bytes).
 PDF statistics:
- 325 PDF objects out of 1000 (max. 8388607)
- 302 compressed objects within 4 object streams
- 159 named destinations out of 1000 (max. 500000)
- 6289 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 497 PDF objects out of 1000 (max. 8388607)
+ 466 compressed objects within 5 object streams
+ 269 named destinations out of 1000 (max. 500000)
+ 8377 words of extra memory for PDF output out of 10000 (max. 10000000)
 
