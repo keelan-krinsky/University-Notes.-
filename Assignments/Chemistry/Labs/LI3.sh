@@ -1,3 +1,2 @@
-#!/bin/bash
-pandoc  'LabI3.markdown' -f markdown -t latex -s
-pdflatex 'labI3.tex'
+pandoc  -f markdown -t latex  'LabI3.markdown' -s -o  'LabI3.tex'
+pdflatex 'LabI3.tex'
