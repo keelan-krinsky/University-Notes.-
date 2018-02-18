@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.12.1)  17 FEB 2018 21:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.12.1)  18 FEB 2018 08:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -943,35 +943,46 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (/usr/share/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-<Images/SiliconHydroxideLewisStructure.jpg, id=28, 319.94531pt x 316.93407pt>
+<Images/SiliconHydroxideLewisStructure.jpg, id=4, 372.592pt x 374.198pt>
 File: Images/SiliconHydroxideLewisStructure.jpg Graphic file (type jpg)
 <use Images/SiliconHydroxideLewisStructure.jpg>
 Package pdftex.def Info: Images/SiliconHydroxideLewisStructure.jpg  used on inp
 ut line 100. on input line 100.
-Package pdftex.def Info: Requested size: 172.49937pt x 170.87585pt on input lin
+Package pdftex.def Info: Requested size: 172.50302pt x 173.24657pt on input lin
 e 100.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 114.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Images/SiliconHydroxideL
 ewisStructure.jpg>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 131.
+
 [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 114.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 131.
  (./LabI3.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 114.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 114.
-Package rerunfilecheck Info: File `LabI3.out' has not changed.
-(rerunfilecheck)             Checksum: 0A8A14A4B92773A1AB597F19C0F710D9;792.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 114.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 131.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 131.
+
+
+Package rerunfilecheck Warning: File `LabI3.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `LabI3.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  1CB7773B36E48C12190D6CFE0F520B6E;794.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 131.
  ) 
 Here is how much of TeX's memory you used:
- 11721 strings out of 492985
- 168022 string characters out of 6138638
- 259450 words of memory out of 5000000
- 15110 multiletter control sequences out of 15000+600000
- 35151 words of font info for 43 fonts, out of 8000000 for 9000
+ 11725 strings out of 492985
+ 168055 string characters out of 6138638
+ 259046 words of memory out of 5000000
+ 15106 multiletter control sequences out of 15000+600000
+ 35234 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 32i,4n,38p,285b,336s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,4n,38p,230b,336s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dis
 t/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.
 enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}</usr/share/texmf-d
@@ -979,10 +990,10 @@ ist/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/
 lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/sha
 re/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type
 1/public/lm/lmr7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy7.pfb>
-Output written on LabI3.pdf (2 pages, 111782 bytes).
+Output written on LabI3.pdf (2 pages, 112977 bytes).
 PDF statistics:
- 89 PDF objects out of 1000 (max. 8388607)
- 77 compressed objects within 1 object stream
- 21 named destinations out of 1000 (max. 500000)
- 6198 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 77 PDF objects out of 1000 (max. 8388607)
+ 65 compressed objects within 1 object stream
+ 27 named destinations out of 1000 (max. 500000)
+ 6150 words of extra memory for PDF output out of 10000 (max. 10000000)
 

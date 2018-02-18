@@ -1,11 +1,37 @@
 # Genetics
 
+## Basics
+
 ### Course outline
 1) extension of Mendelian genetics
 2) Chromosomes structure and changes
 3) Vertebrate development
 
+### Definitions
+
 ## Interactions between Genes, Alleles, and Phenotypes
+
+### Background
+
+#### Penetrance
+ percentage of the population who demonstrate at least some degree fo phenotypic expression.
+
+#### Expressivity
+reflects the range of expressions of the gene/allele present in the population.  
+
+
+#### Genes 
+A gene is a collection/ group of alleles which could occur the same locus and
+which are associated with the same traits.
+
+### Lethal alleles
+alleles which are incompatible with the organisms continued survival
+
+#### dominance
+most lethal alleles are recessive because dominant lethal alleles produce non
+functioning proteins only so any individual with even one of the dominant allele
+would be unlikely to survive to reproductive age, and so the Allele would very
+quickly be bread out of the population.
 
 ### Incomplete dominance
 
@@ -76,56 +102,26 @@ white then a intermediate can only be a result of incomplete dominance
 
 
 
-## 13/02/2108
+## Genetic basis of disease. 
 
 ### Phenylketonuria
-single mutation
+ single mutation
 can affect brain development however if the correct diet is followed then all detrimental health consequences can be ignored.
+
 
 ### diabetes type II
 lifestyle disease, the genetic component is estimated to change the likelihood of developing the disease by 2%, but the main causative factors of the disease relate to diet.
 
+
+
+
 ### Lactose intolerance.
 Individuals with lactose intolerance cant digest lactose, however the bacteria in their gut van which leads to the build up of gas. this can be very painful for the person in question.In humans lactose intolerance would naturally occur after weening however as cow milk is a staple part of most human diabetes the genes controlling lactase production are never switched off and the ability to digest lactose is not normally lost.
 
-### Himalayan Phenotype.
 
 ### Cancer
-
-#### basics
-A cancer is a group of cells whose proliferation is uncontrolled, and which can spread to other locations in the body which are normally populated bu other cell types.
-
-##### benigin tumours
-grow but do not spread.
-
-##### malignant tumours
-over proliferate and invade other body tissues/ areas in the body.  
-
-#### types of cancers
-
-##### Carcinomas
- derived form epithelial cells
-
-##### Sarcomas
- derived from connective or muscle tissues. Known as Osteosarcoma in the case of bone tissue and Kaposi sarcoma in the case of soft connective tissue.  
-
-##### Lymphoma and leukaemias
-1. Cancers of the hematopoietic system.
-2. Lymphoma (solid tumour)
-3. Leukaemia excess of circulating immature blood cell precursors.
-##### Cancer of the nervous system
-brain and central nervous system.
-
-NOTE: most common in children
-
-##### Germ-line cancer.
-
-##### Cancers of breast, prostate, lung, pancreas, and colon.
-
-### Causes of cancer.
-In most cases cancer is not inherited. In  breast cancer/ovarian cancer BS1, BS2 play some role in genetic disposition, perhaps 5-10%
-
-### hereditary.
+ 
+### Hereditary.
 Cancer normally sets in during old age as cells must accumulate a series of a specific set of notations, (exactly which set of mutations accumulated lead to cancer is highly individual)
 
 #### Environmental factors
@@ -171,13 +167,8 @@ deficient local DNA repair leads to the accumulation of point mutations increase
 4. invasive
 5. metastatic (survive and proliferate in foreign) sites.
 
-#### Penetrance
- percentage of the population who demonstrate at least some degree fo phenotypic expression.
 
-#### Expressivity
-reflects the range of expressions of the gene/allele present in the population.  
-
-#### Genetic complementation
+## Genetic complementation
 two different mutations in heterozygous condition affecting the same protein/ pathway can compliment each other to cause a novel phenotypic effect.
 
 ##### examples
@@ -185,13 +176,51 @@ rare form of albinism: both mother and father were normally pigmented and there 
 
 NOTE: Rufus albinism leads to a phenotype with reddish hair, lighter skin, and blue grey eyes.
 
-#### Forked line probability method.
+## Forked line probability method.
+ 
+#### basics
+A cancer is a group of cells whose proliferation is uncontrolled, and which can spread to other locations in the body which are normally populated bu other cell types.
 
-##chromosome level
-(revise mitosis and meosis)
+##### benigin tumours
+grow but do not spread.
+
+##### malignant tumours
+over proliferate and invade other body tissues/ areas in the body.  
+ 
+#### types of cancers
+ 
+##### Carcinomas
+ derived form epithelial cells
+ 
+##### Sarcomas
+ derived from connective or muscle tissues. Known as Osteosarcoma in the case of bone tissue and Kaposi sarcoma in the case of soft connective tissue.  
+ 
+##### Lymphoma and leukaemias
+1 . Cancers of the hematopoietic system.
+2. Lymphoma (solid tumour)
+3. Leukaemia excess of circulating immature blood cell precursors.
+##### Cancer of the nervous system
+brain and central nervous system.
+
+NOTE: most common in children
+ 
+##### Germ-line cancer.
+
+##### Cancers of breast, prostate, lung, pancreas, and colon.
+
+#### Causes of cancer.
+I n most cases cancer is not inherited. In  breast cancer/ovarian cancer BS1, BS2 play some role in genetic disposition, perhaps 5-10%
+ 
+
+## Chromosome level genetics
+(re vise mitosis and meosis)
 copy slides
-chromosome basic structure
-#### chromosome groups
+
+### Background 
+
+#### Chromosome basic structure
+
+#### Chromosome groups
 
 ##### meta-centric
 centromere is half way up the length of the chromosome
@@ -208,10 +237,9 @@ humans do not posses any telocentric chromosomes, but certain insect of crustati
 ##### Holocentric
 Centromere like structure exist along the entire length of the chromosome. this may decrease the chances of faulty division/ segregation.
 
-##### chromosome banding
+#### Chromosome banding
 bands were named and used to locate specific genes. the banding patterns are due to uneven DNA densities in the coiled structure of the chromosome.
 
-##### Size and shape of different chromosomes.
 
 ### Chromosome level mutations
 
@@ -511,19 +539,6 @@ of glycoproteins called Substance H which are already attached to the cell.
 If a individual is homozygous recessive for substance H genes, none will be
 produced and so even if the have A or B alleles they will have a functionally
 O phenotype.
-
-###Alleles and genes
-A gene is a collection/ group of alleles which could occur the same locus and
-which are associated with the same traits.
-
-###lethal alleles
-alleles which are incompatible with the organisms continued survival
-
-#### dominance
-most lethal alleles are recessive because dominant lethal alleles produce non
-functioning proteins only so any individual with even one of the dominant allele
-would be unlikely to survive to reproductive age, and so the Allele would very
-quickly be bread out of the population.
 
 #### sex chromosomes
  lethal alleles, or alleles linked with low fertility located on the Y
@@ -935,3 +950,8 @@ effects:
 the inactivation of one of two X chromosomes in females via DNA methylation.
 
 NOTE: which X chromosome is inactivated varies randomly from cell to cell.this inactivation process turns the inactive X into a bar body, (highly methylated and rolled up in histone proteins).
+
+#Unsorted notes
+
+1. Himalayan Phenotype.
+2. Size and shape of different chromosomes.
