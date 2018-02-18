@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.12.1)  18 FEB 2018 08:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.12.1)  18 FEB 2018 10:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -943,57 +943,83 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (/usr/share/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-<Images/SiliconHydroxideLewisStructure.jpg, id=4, 372.592pt x 374.198pt>
+<Images/SiliconHydroxideLewisStructure.jpg, id=64, 372.592pt x 374.198pt>
 File: Images/SiliconHydroxideLewisStructure.jpg Graphic file (type jpg)
 <use Images/SiliconHydroxideLewisStructure.jpg>
 Package pdftex.def Info: Images/SiliconHydroxideLewisStructure.jpg  used on inp
-ut line 100. on input line 100.
+ut line 104. on input line 104.
 Package pdftex.def Info: Requested size: 172.50302pt x 173.24657pt on input lin
-e 100.
+e 104.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Images/SiliconHydroxideL
 ewisStructure.jpg>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 131.
+<Images/AluminiumHydroxideIonLewisStructure.jpg, id=87, 367.774pt x 375.804pt>
+File: Images/AluminiumHydroxideIonLewisStructure.jpg Graphic file (type jpg)
+<use Images/AluminiumHydroxideIonLewisStructure.jpg>
+Package pdftex.def Info: Images/AluminiumHydroxideIonLewisStructure.jpg  used o
+n input line 135. on input line 135.
+Package pdftex.def Info: Requested size: 172.50026pt x 176.26665pt on input lin
+e 135.
 
-[2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 131.
+[2 <./Images/AluminiumHydroxideIonLewisStructure.jpg>]
+<Images/AluminiumHydroxideLewisStructure.jpg, id=104, 300.322pt x 391.864pt>
+File: Images/AluminiumHydroxideLewisStructure.jpg Graphic file (type jpg)
+<use Images/AluminiumHydroxideLewisStructure.jpg>
+Package pdftex.def Info: Images/AluminiumHydroxideLewisStructure.jpg  used on i
+nput line 166. on input line 166.
+Package pdftex.def Info: Requested size: 172.5005pt x 225.08087pt on input line
+ 166.
+ [3 <./Images/AluminiumHydroxideLewisStructure.jpg>]
+Overfull \hbox (16.92293pt too wide) in paragraph at lines 207--210
+[]\T1/lmr/m/n/10 (-20) Hence If $\OT1/lmr/m/n/10 (-20) = 4\OML/lmm/m/it/10 :\OT
+1/lmr/m/n/10 (-20) 6947 \OML/lmm/m/it/10 x \OT1/lmr/m/n/10 (-20) 10[]\OML/lmm/m
+/it/10 mol$ \T1/lmr/m/n/10 (-20) of cal-cium where added then $\OT1/lmr/m/n/10 
+(-20) = 4\OML/lmm/m/it/10 :\OT1/lmr/m/n/10 (-20) 6947 \OML/lmm/m/it/10 x \OT1/l
+mr/m/n/10 (-20) 10[]\OML/lmm/m/it/10 mol$
+ []
+
+
+Overfull \hbox (54.88933pt too wide) in paragraph at lines 243--246
+\T1/lmr/m/n/10 (-20) Grams of Cal-cium chlo-ride left in orig-i-nal so-lu-tion.
+ $ \OT1/lmr/m/n/10 (-20) = 7\OML/lmm/m/it/10 :\OT1/lmr/m/n/10 (-20) 5381\OML/lm
+m/m/it/10 x \OT1/lmr/m/n/10 (-20) 10[]\OML/lmm/m/it/10 mol x \OT1/lmr/m/n/10 (-
+20) 40\OML/lmm/m/it/10 :\OT1/lmr/m/n/10 (-20) 08\OML/lmm/m/it/10 g:mol[]$
+ []
+
+[4]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 281.
+ [5]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 281.
  (./LabI3.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 131.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 131.
-
-
-Package rerunfilecheck Warning: File `LabI3.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `LabI3.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  1CB7773B36E48C12190D6CFE0F520B6E;794.
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 131.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 281.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 281.
+Package rerunfilecheck Info: File `LabI3.out' has not changed.
+(rerunfilecheck)             Checksum: ECE6F46B6A3EA35C6F089DA3A9F0D6BF;1637.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 281.
  ) 
 Here is how much of TeX's memory you used:
- 11725 strings out of 492985
- 168055 string characters out of 6138638
- 259046 words of memory out of 5000000
- 15106 multiletter control sequences out of 15000+600000
- 35234 words of font info for 44 fonts, out of 8000000 for 9000
+ 11822 strings out of 492985
+ 169288 string characters out of 6138638
+ 262224 words of memory out of 5000000
+ 15153 multiletter control sequences out of 15000+600000
+ 35317 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 32i,4n,38p,230b,336s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,5n,38p,285b,338s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dis
-t/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.
-enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}</usr/share/texmf-d
+t/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mat
+hit.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf-d
 ist/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/
 lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/sha
-re/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type
-1/public/lm/lmr7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy7.pfb>
-Output written on LabI3.pdf (2 pages, 112977 bytes).
+re/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf-dist/fonts/type
+1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr5.pfb></u
+sr/share/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf-dist/fonts
+/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy5.
+pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy7.pfb>
+Output written on LabI3.pdf (5 pages, 184664 bytes).
 PDF statistics:
- 77 PDF objects out of 1000 (max. 8388607)
- 65 compressed objects within 1 object stream
- 27 named destinations out of 1000 (max. 500000)
- 6150 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 210 PDF objects out of 1000 (max. 8388607)
+ 188 compressed objects within 2 object streams
+ 75 named destinations out of 1000 (max. 500000)
+ 6280 words of extra memory for PDF output out of 10000 (max. 10000000)
 
