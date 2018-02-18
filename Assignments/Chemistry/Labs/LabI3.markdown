@@ -105,7 +105,7 @@ $\quad = 3.0213 \quad x \quad 10^{-2}g$
 #### Step #1
 The amount of calcium ions taken up by the zeolite is equivalent to the amount fo calcium ions remaining in solution, as any calcium ions not bound would have been removed during the EDTA titration.
 
-Hence there are $7.5381 \quad x \quad 10^{-4}mol$ of Caclium ions bound by the zeolite.
+Hence there are $7.5381 \quad x \quad 10^{-4}mol$ of Calcium ions bound by the zeolite.
 
 ### (vi)
 #### Step #1
