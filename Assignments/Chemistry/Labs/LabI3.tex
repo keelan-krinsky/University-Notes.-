@@ -32,6 +32,9 @@
             pdfborder={0 0 0},
             breaklinks=true}
 \urlstyle{same}  % don't use monospace font for urls
+\usepackage{longtable,booktabs}
+% Fix footnotes in tables (requires footnote package)
+\IfFileExists{footnote.sty}{\usepackage{footnote}\makesavenoteenv{longtable}}{}
 \usepackage{graphicx,grffile}
 \makeatletter
 \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
@@ -341,15 +344,68 @@ Acid catalyst (in esterification.)
 \section{Introduction}\label{introduction}}
 
 Zeolites Are complex three dimensional molecules formed from the
-condensation of \$Si(OH)\emph{\{4\} \$} and \(Ai(OH)^{-}_{4}\)
-monomers.The striking feature of the complexes formed are the regularly
-sized and evenly space pores which the macro structure contains, (See
-the figure below).
+condensation of \$Si(OH)\emph{\{4\} \$} and \(Ai(OH)^{-}_{4}\) monomers.
+The striking feature of the complexes formed are the regularly sized and
+evenly space pores which the macro structure contains, (See the figure
+below). This regular arrangement has many potentially important chemical
+applications. One such application is the ability of Zeolites to act as
+molecular sponges/ filters soaking up particles of the correct size to
+fit through the microspores which binding to the interior of the
+molecule.furthermore Zeolites can also act as effective inorganic acid
+catalyst, there complex macro structure providing many catalytically
+active sites. Such catalyst have the added advantage that, as the
+catalyst is solid state, removal and reuse if far simpler and less
+energetically expensive than a conventional acid catalyst such as
+sulphuric acid.
 
 \hypertarget{section}{%
 \subsection{}\label{section}}
 
-\hypertarget{results}{%
-\section{Results}\label{results}}
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth,height=\textheight]{Images/ZeoliteStructure.jpg}
+\caption{Zeolite Structure}
+\end{figure}
+
+\hypertarget{results-and-discussion.}{%
+\section{Results and discussion.}\label{results-and-discussion.}}
+
+\hypertarget{data-appendices}{%
+\section{Data Appendices}\label{data-appendices}}
+
+\hypertarget{experiment-a.}{%
+\subsection{Experiment A.}\label{experiment-a.}}
+
+\hypertarget{materials-used}{%
+\subsubsection{Materials used}\label{materials-used}}
+
+\begin{longtable}[]{@{}l@{}}
+\toprule
+Materials used in preparation\tabularnewline
+\midrule
+\endhead
+Weight of hydrated Calcium Chloride used in Solution 1\tabularnewline
+--------------------------------------------------------\tabularnewline
+Weight of EDTA disodium salt use in Solution 2\tabularnewline
+--------------------------------------------------------\tabularnewline
+Weight of Zeolite added to Solution 1\tabularnewline
+\bottomrule
+\end{longtable}
+
+\hypertarget{titration-table}{%
+\subsubsection{Titration Table}\label{titration-table}}
+
+\begin{longtable}[]{@{}l@{}}
+\toprule
+Titration of solution 2, (titrant) into solution 1
+(analyte)\tabularnewline
+\midrule
+\endhead
+Titration number\tabularnewline
+------------------\tabularnewline
+\#1\tabularnewline
+\#2\tabularnewline
+\bottomrule
+\end{longtable}
 
 \end{document}

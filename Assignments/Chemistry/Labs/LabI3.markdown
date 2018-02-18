@@ -149,9 +149,45 @@ The aim of experiment A was to determine the Ability of Zeolite to bind Calcium 
 The aim of experiment B was to determine Zeolite ability to act as a Acid catalyst (in esterification.)
 
 # Introduction
-Zeolites Are complex three dimensional molecules formed from the condensation of $Si(OH)_{4} $_ and $Ai(OH)^{-}_{4}$ monomers.The striking feature of the complexes formed are the regularly sized and evenly space pores which the macro structure contains, (See the figure below).
+Zeolites Are complex three dimensional molecules formed from the condensation of $Si(OH)_{4} $_ and $Ai(OH)^{-}_{4}$ monomers. The striking feature of the complexes formed are the regularly sized and evenly space pores which the macro structure contains, (See the figure below). This regular arrangement has many potentially important chemical applications. One such application is the ability of Zeolites to act as molecular sponges/ filters soaking up particles of the correct size to fit through the microspores which binding to the interior of the molecule.furthermore Zeolites can also act as effective inorganic acid catalyst, there complex macro structure providing many catalytically active sites. Such catalyst have the added advantage that, as the catalyst is solid state, removal and reuse if far simpler and less energetically expensive than a conventional acid catalyst such as sulphuric acid.
 
 ##
+![Zeolite Structure](Images/ZeoliteStructure.jpg){width=50%}
+
+# Results and discussion.
+
+## experiment A
 
 
-# Results
+# Data Appendices
+
+## Experiment A.
+
+### Materials used
+
+| Materials used in preparation                                      |
+|--------------------------------------------------------------------|
+| Weight of hydrated Calcium Chloride used in Solution 1 | 196mg |   |
+|--------------------------------------------------------|-------|---|
+| Weight of EDTA disodium salt use in Solution 2         | 914mg |   |
+|--------------------------------------------------------|-------|---|
+| Weight of Zeolite added to Solution 1                  | 104mg |   |
+
+### Titration Table
+
+| Titration of solution 2, (titrant) into solution 1 (Analyte)              |
+|---------------------------------------------------------------------------|
+| Titration number | Final Volume/ml | Initial Volume/ml  | Volume Added/ml |
+|------------------|-----------------|--------------------|-----------------|
+| #1               | 4.57            | 0.04               | 4.53            |
+| #2               | 5.13            | 0.13               | 5.03            |
+
+## Experiment B.
+
+### Description of product.
+
+|                                                         | Density                        | Smell                                                    |
+|---------------------------------------------------------|--------------------------------|----------------------------------------------------------|
+| pentyl ethanoate prepared using sulphuric acid catalyst.| Lighter than (deionised) water | Fruity aroma, reminiscent of banana,intoxicating fumes.  |
+| pentyl ethanoate prepared using Zeolite acid catalyst.  | Lighter than (deionised) water | Intense fruity aroma, reminiscent of banana              |
+|---------------------------------------------------------|--------------------------------|----------------------------------------------------------|

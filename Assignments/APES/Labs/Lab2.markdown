@@ -1,4 +1,4 @@
-# Funadamental of ecology: Lab 2.   
+# Fundamentals of ecology: Lab 2.   
 
 ## Questions
 
@@ -101,4 +101,62 @@ For unitary organisms genetic differences between individuals can lead to a degr
 
 For modular organisms, although individuals may compete to an extent for resources, detriments to one individuals may by extension detriment other individuals in the network which were deriving some resources from the individual in question. As a result competition is commonly limited by hormonal activity between individuals in the network. to prevent individual from negatively impacting on each others growth.
  Phenotypic plasticity can also reduce competition, both at the individual and population level, although unlike with unitary organisms it is unlikely to lead ultimately to speciation.
-   
+
+## Six
+
+1. Birth Rate (Auxiliary variable)
+
+2. Births (Auxiliary variable)
+
+3. ImmigrationRate (Auxiliary variable)
+
+4. Immigration (Auxiliary variable)
+
+5. DeathRate  (Auxiliary variable)
+
+6. Deaths. (Auxiliary variable)
+
+7. EmigrationRate (Auxiliary variable)
+
+8. Emigration (Auxiliary variable)
+
+Auxiliary variable are used in all these cases as these variable are important in calculating the final value of the main stock, but are not of them selves the main focus of the model.
+
+9. Number of elephants. (Stock)
+
+A stock is used as this is the main amount/variable under consideration, and the level of this variable over time is an important prediction of the model.  
+
+There are also connectors, to link interconnected variable and flows to track the overall movement of elephants into and out of the population.
+
+## Seven
+The direct output of the model is merely a data set describing the value of the stock "NoElephants" over time, this data shows a rapid, exponential type growth curve, with no deviation or oscillation over time.   
+The temporal scale of the model has an extent of a hundred years, and a resolution of 1 year.
+
+The resolution seems appropriate considering the biology to be modelled as although an individual elephant will not produce offspring each year, (gestation period alone is closer to 2 years and time between successive pregnancies is also in the range of two to four years), in a reasonable sized population there will still be births each year. Similarly, although elephants will normally reproduce seasonally, that is they will not give birth in winter, a scale of 6 months (to follow the main seasons) would not be seasonable as births will still only occur once a year.
+
+The extent of the time scale however seems too short to give a reasonable overview of population size overtime. This is because elephants are relatively long lived organisms 50-70 years, so 100 years is not long enough to allow for distinct generations to emerge, and to see the long term response in population size to external factors. There are also other factors influencing population size, such as migratory patterns, or resource distributions which may change on larger time scales which also will not be predicted by the model.
+
+#### Eight
+
+1. Births (Birthrate x NoElephants)
+
+2. Deaths (Deathrate x NoElephants)
+
+3. Immigration (Immigrationrate x NoElephants)
+
+4. Emigration (Emigrationrate x NoElephants)
+
+ this information tells Vensim the relative number of Births,death,immigrations, and emigrations per year (or how to calculate this value). It could also be though of as telling vensim what numbers to add to/ subtract from the stock NoElephants.
+
+## Nine
+Modifying the values in any of the rate coefficients will lead to a decrease in population growth if the DeathRate or Emigration rate are increased, and a increase in population growth rate if the BirthRate of ImmigrationRate are increased.
+
+the effect of the change will depend purely of the extent of the numeric change to the constant.
+For example increasing Birthrate or Immigration rate by the same numeric amount will have the same impact on the overall population. changes which lead to an increase in population growth rate will have more overall effect, as they will increase the exponential growth, which leads to increasingly large changes in actual population size. conversely changes which decrease the population growth rate, push population growth further towards exponential decay, where population size decreased by by less and less each year.   
+
+## Ten
+the population exhibits exponential growth.
+this type of growth may be realistic when a population is expanding into a new territory where there is no, or very limited resource scarcity, particularly if there are no/few natural predictors or parasites for that population in the new environment. In these circumstances there would be no real limits to growth, and increased population sizes would not slow down the population growth. The same might be true after a catastrophic event destroyed large sections of the population leaving only a few individuals to expand back to the original population size (although this assumes that the catastrophic event did not detrimentally effect the )
+resource base of the population)
+
+NOTE: Even in the above mentioned cases however this growth model is still not entirely realistic as the is no natural variation in population size which would normally result from accidental deaths, variations in birth rate, variation in life expectancy and a myriad of other contributive factors. 
