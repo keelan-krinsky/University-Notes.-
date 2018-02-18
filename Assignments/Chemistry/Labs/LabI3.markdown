@@ -124,9 +124,22 @@ This implies that zeolites may be very useful as detergents as they are capable 
 four acid sites are accosted with the EDTA. (one for each of the terminal carboxylic acid groups)
 
 ## Six.
-Yes. Sulphuric acid has the same activity of any normal acid catalyst, providing a ready source and sink for $H^{+}$ ions, facilitating the internal structural changes necessary for ester formation.
+Yes. Sulphuric acid has the same activity of any normal acid catalyst, providing a ready source and sink for $H^{+}$ ions, facilitating
+ the internal structural changes necessary for ester formation.
 
 ## Seven
+Pentyl ethanol is used:
+
+1.  as a flavourant in many foods.
+
+2. As a solvent in paints.
+
+## Eight
+Zeolite is micro-porous, this is within its 3D chemical structure there is a regular arrangement  of regular sized gaps/holes/pores,through which other molecules, if sufficiently small could pass through. molecules which are too large however, (such as molecules with a diameter greater than X in the figure below) can. Such molecules suffer size exclusion, as although they may have the correct chemical properties to react with binding sites on the interior, they are physically prevented from reaching these sites, as the are too large, and so cannot bind.  
+
+
+
+![Zeolite Structure](Images/ZeoliteStructure2.jpg){width=50%}
 
 # Introduction
 
