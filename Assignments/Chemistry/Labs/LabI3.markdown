@@ -115,7 +115,19 @@ $\quad = \frac{3.0213 \quad x \quad 10^{-2}g}{0.104g}$
 
 $\quad = 0.29051 (g/g)$
 
-### ()
+
+## Three
+This implies that zeolites may be very useful as detergents as they are capable of sequestering/removing relatively large quantities of dissolved ions from solution.
+(removing these ions will prevent them from resettling on whatever item is being cleaned, and increase the overall ability of the detergent to dissolve and remove unwanted deposits from the item being cleaned.)
+
+## Five
+four acid sites are accosted with the EDTA. (one for each of the terminal carboxylic acid groups)
+
+## Six.
+Yes. Sulphuric acid has the same activity of any normal acid catalyst, providing a ready source and sink for $H^{+}$ ions, facilitating the internal structural changes necessary for ester formation.
+
+## Seven
+
 # Introduction
 
 
