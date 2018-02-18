@@ -135,14 +135,23 @@ Pentyl ethanol is used:
 2. As a solvent in paints.
 
 ## Eight
-Zeolite is micro-porous, this is within its 3D chemical structure there is a regular arrangement  of regular sized gaps/holes/pores,through which other molecules, if sufficiently small could pass through. molecules which are too large however, (such as molecules with a diameter greater than X in the figure below) can. Such molecules suffer size exclusion, as although they may have the correct chemical properties to react with binding sites on the interior, they are physically prevented from reaching these sites, as the are too large, and so cannot bind.  
-
+Zeolite is micro-porous, that is within its 3D chemical structure there is a regular arrangement  of regular sized gaps/holes/pores,through which other molecules, if sufficiently small could pass through. molecules which are too large however, (such as molecules with a diameter greater than X in the figure below) can. Such molecules suffer size exclusion, as although they may have the correct chemical properties to react with binding sites on the interior, they are physically prevented from reaching these sites, as the are too large, and so cannot bind.  
 
 
 ![Zeolite Structure](Images/ZeoliteStructure2.jpg){width=50%}
 
-# Introduction
+# Aim
+Two different experiments where performed with different aims.
 
+The aim of experiment A was to determine the Ability of Zeolite to bind Calcium ions from solution. Both to determine how effective Zeolite could be as a cleaning/filtering agent to remove calcium impurities, and to approximate how much zeolite (by mass) would be necessary to remove calcium from a contaminated solution.
+
+
+The aim of experiment B was to determine Zeolite ability to act as a Acid catalyst (in esterification.)
+
+# Introduction
+Zeolites Are complex three dimensional molecules formed from the condensation of $Si(OH)_{4} $_ and $Ai(OH)^{-}_{4}$ monomers.The striking feature of the complexes formed are the regularly sized and evenly space pores which the macro structure contains, (See the figure below).
+
+##
 
 
 # Results
