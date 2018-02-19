@@ -149,15 +149,54 @@ The aim of experiment A was to determine the Ability of Zeolite to bind Calcium 
 The aim of experiment B was to determine Zeolite ability to act as a Acid catalyst (in esterification.)
 
 # Introduction
-Zeolites Are complex three dimensional molecules formed from the condensation of $Si(OH)_{4} $_ and $Ai(OH)^{-}_{4}$ monomers. The striking feature of the complexes formed are the regularly sized and evenly space pores which the macro structure contains, (See the figure below). This regular arrangement has many potentially important chemical applications. One such application is the ability of Zeolites to act as molecular sponges/ filters soaking up particles of the correct size to fit through the microspores which binding to the interior of the molecule.furthermore Zeolites can also act as effective inorganic acid catalyst, there complex macro structure providing many catalytically active sites. Such catalyst have the added advantage that, as the catalyst is solid state, removal and reuse if far simpler and less energetically expensive than a conventional acid catalyst such as sulphuric acid.
+Zeolites Are complex three dimensional molecules formed from the condensation of $Si(OH)_{4} $_ and $Ai(OH)^{-}_{4}$ monomers. These monomers take a variety of forms including cages, chains, channels and sheets(Cejka, 2007). When these monomers bond together three dimensional structure/nets can be formed.The most striking feature of the complexes formed is the regularly sized and evenly space pores which are most commonly composed of six or eight bonded tetrahedral units, forming hexagonal or octagonal openings in the molecule respectively.  (See the figure below). This regular arrangement has many potentially important chemical applications. One such application is the ability of Zeolites to act as molecular sponges/ filters soaking up particles of the correct size to fit through the microspores which binding to the interior of the molecule via a process of cation exchange. this process can be effect in removing cation contaminants from solution.(Motsi et Al 2009). Furthermore Zeolites can also act as effective inorganic acid catalyst, (provided they contain appropriate ratios of aluminium to silicon subunits). these catalyst have been demonstrated to be more effective that simple lewis or bronsted acids in catalysing important organic synthesis pathways such as the etherification of glycerol.(Aula et Al 2017)  Such catalyst have the added advantage that, as the catalyst is solid state, removal and reuse if far simpler and less energetically expensive than a conventional acid catalyst.
 
 ##
 ![Zeolite Structure](Images/ZeoliteStructure.jpg){width=50%}
 
 # Results and discussion.
+A was them mas ratio of grams of calcium taken up per gram of zeolite,calculated as $\quad = 0.291 (g/g)$. This importance of this figure
 
-## experiment A
+# Material and methods
 
+## Experiment A.
+
+### Preparation of standards
+In the first main experiment two standard solutions where prepared, A $\approx$ 0.01M $CaCl_2.6H_2O$ solution and a $\approx$ 0.01M EDTA disodium salt solution. (The exact masses of $CaCl_2.6H_2O$ and EDTA disodium salt can be referenced in the Data appendices.). In each case deionised water was used to make up the solution to prevent unwanted cations or other contaminants from affecting the experiment result.
+
+### Preparation of Analyte.
+$\approx$ of zeolite was added to 75ml of the $CaCl_2.6H_2O$ standard solution, and mixed by means of a magnetic stirrer bar for a period of approximately five minutes. Subsequently the zeolite was removed by filtration through a gravity filter. And samples of solution where taken to serve as the analyte for titration against the EDTA di-sodium salt standard solution.
+
+### Titration
+titration was performed in triplicate however one titration had to be discounted because of inaccuracies in identification of the endpoint. (Eriochrome black T was used as the indicator). the remaining two titration values where averaged.
+
+## Experiment B
+
+### Preparation of initial solutions.
+2 solutions where prepared, solution one containing:
+
+|----------------------------------|
+|   Glacial Acetic acid | 15ml |   |
+|----------------------------------|
+| 1-pentanol            | 15ml |   |
+|----------------------------------|
+| sulphuric acid        | 1ml  |   |  
+
+And solution two containing:
+
+|----------------------------------|
+|   Glacial Acetic acid | 15ml |   |
+|----------------------------------|
+| 1-pentanol            | 15ml |   |
+|----------------------------------|
+| Zeolite               | 2g   |   |  
+
+
+## Synthesis
+both solutions where then boiled under reflux for approximately an hour.
+
+### Work up
+after cooling the solutions where rinsed several times with water to remove any remaining acid or alcohol impurities.
 
 # Data Appendices
 
@@ -191,3 +230,12 @@ Zeolites Are complex three dimensional molecules formed from the condensation of
 | pentyl ethanoate prepared using sulphuric acid catalyst.| Lighter than (deionised) water | Fruity aroma, reminiscent of banana,intoxicating fumes.  |
 | pentyl ethanoate prepared using Zeolite acid catalyst.  | Lighter than (deionised) water | Intense fruity aroma, reminiscent of banana              |
 |---------------------------------------------------------|--------------------------------|----------------------------------------------------------|
+
+#References
+In-text: (Cejka, 2007)
+
+Cejka, J. (2007). Introduction to zeolite molecular sieves. Amsterdam: Elsevier, p.15
+
+T. Motsi, N.A. Rowson, M.J.H.Simmons, Adsorption of heavy metals from acid mine drainage by  atural zeolite, International Journal of Mineral Processing, Volume 92, Issues 1–2, 2009, Pages 42-48,ISSN 0301-7516,
+
+Aula M. Veiga, Alexandre C.L. Gomes, Cláudia O. Veloso, Cristiane A. Henriques, Acid zeolites for glycerol etherification with ethyl alcohol: Catalytic activity and catalyst properties, Applied Catalysis A: General, Volume 548, 2017, Pages 2-15,ISSN 0926-860X,

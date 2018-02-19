@@ -97,7 +97,7 @@ Such a Contrast may not be seen in a population which has reached the carrying c
 
 ### Five
 
-For unitary organisms genetic differences between individuals can lead to a degree og nick differentiation. furthermore as individuals are not physically connected intraspecific competition will lead to a certain maximum population density.
+For unitary organisms genetic differences between individuals can lead to a degree of differentiation. furthermore as individuals are not physically connected intraspecific competition will lead to a certain maximum population density.
 
 For modular organisms, although individuals may compete to an extent for resources, detriments to one individuals may by extension detriment other individuals in the network which were deriving some resources from the individual in question. As a result competition is commonly limited by hormonal activity between individuals in the network. to prevent individual from negatively impacting on each others growth.
  Phenotypic plasticity can also reduce competition, both at the individual and population level, although unlike with unitary organisms it is unlikely to lead ultimately to speciation.
@@ -159,4 +159,4 @@ the population exhibits exponential growth.
 this type of growth may be realistic when a population is expanding into a new territory where there is no, or very limited resource scarcity, particularly if there are no/few natural predictors or parasites for that population in the new environment. In these circumstances there would be no real limits to growth, and increased population sizes would not slow down the population growth. The same might be true after a catastrophic event destroyed large sections of the population leaving only a few individuals to expand back to the original population size (although this assumes that the catastrophic event did not detrimentally effect the )
 resource base of the population)
 
-NOTE: Even in the above mentioned cases however this growth model is still not entirely realistic as the is no natural variation in population size which would normally result from accidental deaths, variations in birth rate, variation in life expectancy and a myriad of other contributive factors. 
+NOTE: Even in the above mentioned cases however this growth model is still not entirely realistic as the is no natural variation in population size which would normally result from accidental deaths, variations in birth rate, variation in life expectancy and a myriad of other contributive factors.
