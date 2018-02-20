@@ -8,13 +8,13 @@ Properties which can only be observed at the correct scale as the result from in
 2. Clouds are an emergent property of water vapour particles in the atmosphere
 
 ##### Bifurcations
-Small random changes in a system which can lead to large changes in the direction the system taked and the ultimate stable state which the system settles at.
+Small random changes in a system which can lead to large changes in the direction the system takes and the ultimate stable state which the system settles at.
 
 ##### Genet
-Organisms (of the same species) with distinct genetic make up. 
+Organisms (of the same species) with distinct genetic make up.
 
 ##### Ramet
-Orgamsims which have an identical genetype but which are none-the-less modular/ meaningfully separate physically of morphologically
+Organisms which have an identical genotype but which are none-the-less modular/ meaningfully separate physically of morphologically
 
 # Background
 
@@ -44,12 +44,12 @@ Plot a log of time(s) against a log of space(m).
 ![Stommel diagram of humans](Images/StommelDiagram1.jpg)
 ![General Stommel diagram](Images/StommelDiagram2.jpg)
 
-### Basis theories 
+### Basis theories
 thoeries from which the begining of ecology and more broadly the scientific method arose.
 
 #### Reductionism
 Describing or analysing complex phenomenon in terms of phenomena held to represent a simpler or more fundamental level, which if fully understood can provide a complete explanation/prediction for the complex phenomenon
- 
+
 #### Holism
 The theory/position that the hole can be more than simply the some of the parts due to the interactions between the parts which lead to emergent properties. (emergent properties can only be observed at the right scale)
 
@@ -89,10 +89,10 @@ How much can be harvested from stock without upsetting cultivation environment
 solving existential crisis,such as problem related to limits to growth.
 
 ## Systems
- 
+
 ### Not systems
 
-#### Case #1 
+#### Case #1
 Single object with inputs and outputs
 
 #### Case #2
@@ -116,8 +116,8 @@ It is very hard to predict how to shift between stable states, or what parameter
 ###### Circular causality
 
 ###### Emergent properties
- 
-###### Nestedness 
+
+###### Nestedness
 
 ###### Feedback loops (positive and negative)
 
@@ -200,12 +200,59 @@ An outside variable which influences the system
 Insert Diagrams.
 
 ## Argument forms
- 
+
 ### Dialectic argument
 Thesis + antithesis (becomes) synthesis
 
- 
+
 # Organsim level Ecology
+
+## defining environments.
+environments are a smooth continuum of suitable (good) to unsuitable (bad). There is a threshold below which conditions are too ad to sustain a particular organism, below this line there are no available habitats. above this  line there is spectrum of habitats varying from poor to good, with associated increase in survival and reproductive rates.
+##### Examples
+Elephants in the Kruger
+
+ because of artificial water easy for herds with young elephants to move around which otherwise they would be unable to migrate.
+artificial water sources. this artificially increased the carrying capacity.
+
+
+## What is an Individual
+Especially in the case of rametes exaclty what cxonstitues one individual, and what constitues a group of individuals can be unclear.
+
+### Unitary
+
+#### Determinate forms
+1. the size and shape will vary predictable, and life cycle stages will progress steadily and ordinally.
+
+### Modular
+1. the form, growth and life cycle state of an organism is unpredictable.
+2. modular organism are composed of many modules/ sub units. (which often display phenotypic plasticity)
+
+
+## Life Cycles
+
+### Mammals
+1. juvaniles
+2. subadults (?)
+3. adults
+4. senescents
+
+### Trees
+1. seeds
+2. seedlings
+3. saplings
+4. adult trees
+
+### Insects
+1. Eggs
+2. larvae
+3. Papa
+4. instars
+5. adults
+
+NOTE: migration, survival , reporiduction and other rates vary dependant on life cycle stages.
+
+## Reproduction
 
 ### Reproductive Rate  
 combination of many factors.
@@ -250,53 +297,7 @@ conditions.
 2. humidity
 3. occupancy.
 
-## defining environments.
-environments are a smooth continuum of suitable (good) to unsuitable (bad). There is a threshold below which conditions are too ad to sustain a particular organism, below this line there are no available habitats. above this  line there is spectrum of habitats varying from poor to good, with associated increase in survival and reproductive rates.
-##### Examples
-Elephants in the Kruger
 
- because of artificial water easy for herds with young elephants to move around which otherwise they would be unable to migrate.
-artificial water sources. this artificially increased the carrying capacity.
- 
-
-## What is an Individual
-Especially in the case of rametes exaclty what cxonstitues one individual, and what constitues a group of individuals. 
-
-### Unitary
-
-#### Determinate forms
-1. the size and shape will vary predictable, and life cycle stages will progress steadily and ordinally.
-
-### Modular
-1. the form, growth and life cycle state of an organism is unpredictable.
-2. modular organism are composed of many modules/ sub units. (which often display phenotypic plasticity)
-
-
-## Life Cycles
- 
-### Mammals
-1. juvaniles
-2. subadults (?)
-3. adults
-4. senescents
- 
-### Trees
-1. seeds
-2. seedlings
-3. saplings
-4. adult trees
- 
-### Insects
-1. Eggs
-2. larvae
-3. Papa
-4. instars
-5. adults
-
-NOTE: migration, survuval , reporiduction and other rates vary dependant on life cycle stages.
-
-## Reproduction
- 
 ### Reproductive cycles.
 
 #### Annuals
@@ -311,22 +312,22 @@ Organsims which can reproduce repeatedly/ continuously over their lifetimes
 Long lived organisms which breed seasonally (eg Kudu or impala )
 
 ##### Continuous
-Relatively long lived individuals. 
- 
+Relatively long lived individuals.
+
 ##### Semelparous
 Similar life cycle to annuals but with a much longer juvanile period. (eg Salmon and centuary plant)
- 
+
 #### Sex
-Individuals differ by sex. 
+Individuals differ by sex.
 
 NOTE: In mammals it is often the young males who must migrate from the place that they are born before they breed.
- 
-## Survival 
+
+## Survival
 
 ### Survivor ship curves
 Insert appropriate graphs.
 
-#### Type1 
+#### Type1
 
 #### Typical populations
 domestic pets and humans in the developed world
@@ -339,10 +340,10 @@ domestic pets and humans in the developed world
 
 #### Type 3
 
-##### typical populations
+##### Typical populations
 large mammals.
 
-# Population level Ecology 
+# Population level Ecology
 The basic definition of a population is a group of individuals living in the same place, at the same time, who can interbreed.
 
 NOTE: this basic definition runs into a number of problems, Most commonly different species which can interbreed and populations which seem to be geographically separated but actually interact in important and predictable ways.
@@ -355,58 +356,40 @@ A  group of individuals for which it is meaningful to discuss:
 4. population characteristics
 5. compostion
 6. favourable and non favourable environments,
- 
-# Population Ecology
-
 ## Plant herbivore systems
-1. getting nutrition from plants sucks. (very difficult)
+Obtaining nutrition from plants in very difficult due to their high fibre content.Fibre is a slow and (energy) expensive material to break down.
+### Herbivours.
 
 #### Strategies
-1. Be clever ()behavioural adaptations
 
-how to find the nest food from a poor pool of available food sources.
+##### Behavioural adaptations
 
-eat a lot when plants are gree (during and just after the rainy season.
+1. Actively seeking out the best food from a poor pool of available food sources.
+2. making use of nutritous foods when they are availabe, for example eating seasonally.
 
-##### late wet season
-1. focus on preferred foods (selective deeding (narrow niche breadth
-  grow body size, build up fat reserves
-  ##### early dry season
-  2. less preferred foods
-  3. maintain body mass/ far reserves
+###### late wet season
+ Focus on preferred foods, eating selectively in an attempt to grow body size and build up fat resereves.
+ NOTE: at this point the herbivour has a narrow niche breadth
 
-  ##### late dry season
-  1. avoided/unpalatable foods (evergreens )
-2. nutritional stress ()nonselective/less selective, wide niche breadth.
+###### early dry season
+Consume less preferred, but more readily availabe foods in an attempt to maintain body mass/fat reserves
 
-##### forage categories
-1. quality
-2. staple
-    relatively large amounts are available.
-    food is relatively nutritious and palatable
-3. restricted intake
-    there is normally a severe shortage of these foods but the animal has a high preference for them (they are often highly nutritious)
-4. reserve
-    It is possible to live/sustain for long periods on reserve foods.
+###### late dry season
+Begin to eat non/less selectively, consuming avoided/unpalatable foods (such as evergreens )
 
-5.  buffer
-only eaten wheen there is no other food available.
+NOTE: At this point the herbivore is undergoing a degree of nutritional stress and has a wide niche breadth.
 
 
-animals prefer quality or staple foods which contain more nutrients to reserves of buffer foods. however they only consume high quantities of these food in the wet and early dry season under normal circumstances, as there are not freely accesible throughout the year,
+#### Morphological adaptations
 
-#### morphological adaptations
-
-what to do with cell walls. symbiosis between animas and microbes (even in in termites)
+Symbiosis between herbivores and microbes (even in animals such as termites)
 
 ##### Rumen (ruminants )
 
-###### Examples
-cows, and buffalo
-
+###### Structure
 Rumen is a four chambered stomach
 
-insert image.
+Insert image.
 
 ###### process
 1. silica and food is rolled into a bolus in the back of the mouth and swallowed dow the oesophagus
@@ -414,111 +397,150 @@ insert image.
 
 NOTE: some microbes are also digested so the stomach is in effect acting as some form of microbe farm.
 
-###### Cenalid digestion (cecum )
+
+###### Functionality
+Better use of higher quality foods
+cannot digest poor quality foods well
+digestion of fibre is too slow to support the animal.
+have the advantage in the wet season.
+
+###### Examples
+cows, and buffalo
+
+##### Ceacalid digestion (cecum )
+
+###### Structure
+ceacum, blind ended sack as large intestine joins colon, responsible for digesting fibre.
+
+
+###### Caecalids
+wide tolerance for plant quality
+cannot gain as much nutrition from high quality foods
+advantage in the dry season (niche differentiation)
+
+
+###### Examples
 horse, zebra, elephants, lagomorphs (eg rabbits etc)
 insert image.
 
 NOTE: the ceacum and the rumen both make use of fermentation.
 
-#### Ruminants
-better use of higher quality foods
-cannot digest poor quality foods well
-digestion of fibre is too slow to support the animal.
-have the advantage in the wet season.
 
-#### Caecalids
-wide tolerance for plant quality
-cannot gain as much nutrition from high quality foods
-advantage in the dry season (niche differentiation)
+#### Forage categories
+
+##### Quality
+Nutrituous food not commonly abundant throught the year.
+
+##### Staple
+Relatively large amounts of the plant are available, and the plant is relatively nutritious and palatable
+
+##### Restricted intake
+There is normally a severe shortage of these foods but the herbivore has a high preference for them (they are often highly nutritious)
+
+##### Reserve
+It is possible to live/sustain for long periods on reserve foods, however it is less nutritous and less pallatable.
+
+##### Buffer
+Extremely unpallatable, only eaten when there is no other food available.
+
+
+NOTE: Herbivores prefer quality or staple foods which contain more nutrients to reserves of buffer foods. however they only consume high quantities of these food in the wet and early dry season under normal circumstances, as there are not freely accesible throughout the year,
 
 ### Plants perspective
 
 #### Defence mechanisms / grazing resistance.
-All strategies  which deal with herbivore disturbance.
+All strategies which deal with herbivore disturbance.
+
+###### Defence
+A defence is effective if it is a feature of an organism which increases the energy spent by a consumer in locating and handling that organism (as a result the consumer will eat less of it.)
 
 ##### Tolerance
-increased growth
+strategies focused around increased growth to make up for biomas lost in browsing/grazing
 
-##### avoidance
-reduced grazing.
+##### Avoidance
+Strategies focus around reducing the amount of grazing which takes place.
 
-###### morphological characteristics
-spines, thorn prickles, shell for seeds or nuts
-cellulose lignin incorporated into the plant structure
+###### Morphological characteristics
+
+1. Spines,thorn prickles,
+2. Shell (for seeds or nuts)
+3. Cellulose and or lignin incorporated into the plant structure
 
 ###### Biochemical
-tannins/ toxins.
+Tannins/ Toxins.
 
-Qualitative
-Toxins capable of causing severe physiological distress in the the animals whin ingest the. foe example HCN
-these compounds are very expensive to produce and so normally only small plants which do not grow fast (so need to conserve all of their accumulated biomass tend to produce these toxins. these toxins as a generally rule are either present in sufficiently high concentrations to provide severe discouragement to potential herbivores, or they are entirely absent.
+QUALITATIVE:
+Toxins capable of causing severe physiological distress in the the animals whin ingest them.(For example HCN)
+these compounds are very expensive to produce and so normally only small plants which do not grow fast (so need to conserve all of their accumulated biomass) tend to produce these toxins.These toxins as a generally rule are either present in sufficiently high concentrations to provide severe discouragement/damage to potential herbivores, or they are entirely absent.
 
-Quantitative
+QUANTITATIVE:
+Detergents, (for example tannins. All tannins are compounds which bind to proteins making them harder to digest.)
+Quantity/concentration of deterant can vary,
 
-tannins, detergents
-quantity varies all tannins are compounds which bind to proteins making them harder to digest.
-
-Defence
-a defence is effective if it is a feature of an organism which increases the energy spent by a consumer in locating and handling that organism (as a result the consumer will eat less of it.)
 
 ## Herbivor- carnivor relationships
+
 ### prey
-nutritional quality
+NOTE: Animals can run away
+
+#### Nutritional quality
 plants 40C:1N
 Animals 10C: N
-animals can run away
+the lower carbon to nitrogen ration makes animals more appealing/ nutrient dense food.
 
-##### searching preditoes Coursing,
-Test out a herd to identify the most favourable prey items
+### Preditors
 
-##### Sit and wait predator (Ambush)
+#### Searching prediters (Coursing)
+These preditors will seek out and run down their prey, sometimes over long ditances. Usually they will test out a prey herd several times to identify the most favourable prey items before making their attack
+
+#### Sit and wait predator (Ambush)
 have a particular kill zone, any potential prey item entering this kill zine is at risk of being attacked/consumed.   
+
+##### Examples
+Most cats, carnivorous plants, spiders.
+
+#### Strategies.
+
+##### Generalist strategy/ polyphagous
+Generalsit eat lots of different things although they may have a preference for a particular prey type. They have a short handling time, killing and eating quickly, and a relatively long search time. furthermore, they cannot easily begin a new search while still handling the current prey item.
+
+NOTE: Intake is maximize by eating whatever is found (within broad limits)
+
 ###### Examples
-most cats, carnivorous plants, spiders.
+  Black back jackals
+  Insectivorous birds
 
-Generalist strategy/ polyphagous
+##### Specialists (Monophagous )
+handling time is long compared to food search times. Specilasits focus on food types that can be attained most efficiently.
+Preditors also often live within the site of prey, but because attack and handling is energy expensive and may be dangerous, they focus on the most profitable prey items (sick , injured, naive.)
 
-eat lots of different things
-may have a preference for a particular prey type
-kill and eat quickly, (short handling time
-  search time is relatively long
-  cannot easily begin new search while still handling the current prey item
-  intake is maximize by eating whatever is found (within broad limits)
-
-  examples
-  black back jackals
-  insectivorous birds
-
-  Specialists (Monophagous )
-  handling is long compared to food search times
-  intake is maximized by specializing on a particle prey type
-  focus on food types that can be attained most efficiently
-  live within site of prey, but because attack and handling is energy expensive and may be dangerous, they focus on the most profitable prey items (sick , injured, naive.
+ NOTE: Intake is maximized by specializing on a particle prey type
 
 ##### Role of the environment
 
-  broad diets are favoured in pow productivity environments while specialist diets are favoured in highly productive environments.
+Broad diets are favoured in low productivity environments while specialist diets are favoured in highly productive environments.
 
-  ##### impact on prey populations
-  additive effect (decease in population density/abundance)
-  predation adds to other sources of mortality
+### Impact on prey populations
 
-  Compensatory effect
-  different sources of mortality trade off/ compensate each other for example an animal will either die from disease, starvation or predation either way the animal is bound to die.
+#### Additive effect
+decease in population density/abundance) becuase Predation adds to other sources of mortality
 
-  ### Host parasite
+#### Compensatory effect
+Different sources of mortality trade off/ compensate each other for example an animal will either die from disease, starvation or predation, in any eventuallity the animal will die and there will only be one death.
 
-  #### macro parasite
-  tapeworm
+### Host parasite
+
+#### macro parasite
+Tapeworm
 
 #### microparasite
-1. virus bacteria, protist
+ virus bacteria, protist
 
 #### transmission
 often transmission is an passive process on the part of the parasite
-disease dynamics and outbreaks
-basics reproductive rate/ number.
- the average number of newly infected hosts which would arise from a single infected host in a population od susceptible hosts $R_0$.
+The average number of newly infected hosts which would arise from a single infected host in a population od susceptible hosts $R_0$.
+
+##### Basic number/ rate of an infection. 
 
 $R_0>1 \rightarrow$ the infectious disease spreads.
 $R_0 <1 \rightarrow$ infectious disease recedes.
@@ -527,14 +549,14 @@ $R_{0}=1$ = transmission threshold. (must be crossed for a disease to spread,)
 ##### Factors affecting $R_{0}$
 1. S- the number of susceptible hosts.
 2. L the time period over which a host is infectious
-3. $Beta$ the transmission rate or probability
+3. $Beta$ the transmission rate or probabilityi
 
-###### threshold population size
- population size above which a disease is likely to spread through the population  
+###### Threshold population size
+population size above which a disease is likely to spread through the population  
 $S_{T}=\frac{1}{\Beta L}$
 
 
-# Example questions. 
+# Example questions.
  
 ### Questions list
 Draw sommel diagram place an ecosystem.
@@ -664,6 +686,50 @@ An increase in any element above that ratio will lead to no additional growth.
  biosphere has acted to shape the climate, mineral distribution etc.
 
 ### organisms interactions with each other
+
+## intra specific competition
+
+exploitation / interference competitions
+fundamental / realised niche
+competitive exclusion principle
+
+### Resources
+things which an organism can consume
+1) growth , reproduction
+2) potential for competition
+
+### conditions
+1) physio-chemical ()not consumed of competed for )
+eg temperature of humidity.
+#### ecological niche
+summary of an organisms tolerance (in terms of conditions) and requirements (in terms of resources.)
+
+#### niche differentiation
+G K Hutchinson 1941
+#### N dimensional hyper volume
+sets out the boundaries which delineate where a species can exist, grow and reproduce. (each dimension in the hyper volume represents a particulate environmental variable)
+overlapping of niches can lead to antagonistic interactions.
+
+##### interference competition
+individuals of new species suffer reduction in survival or growth as a result od exploitation od resources od interference by individuals od another species.
+can affect population abundance and distribution.
+
+##### Exploitative competition
+ competitors interact only indirectly through their shared resource.
+
+##### interference competition
+competitors interacts directly to prevent each other from gaining access to the resources, territorial/ antagonistic behaviour
+often seen in large carnivorous.
+
+#### theoretical vs practical
+the coexistence of seemingly similar species is often explainable by subtle difference is the niches of the two species.
+
+##### examples
+in the savanna herbivorous may differentiate their niches,
+1. by the relative percentage of the three basic plant type available  which they eat (herbs, grasses, brouse)
+2. Herbivorous could then be further differentiated into the relative abundance of the parts of the plant which they eat most (stem, leaves, sheath.) so at a fine enough scale there is seldom direct competition.
+
+#### realised niche ,a species may be excluded from one area which they otherwise would have been able to inhabit as a result of competition
 (copy slide)
 
 
@@ -675,4 +741,3 @@ sub minimum optimal and supra optimal conditions.
 test Liebig's law of minimums
 give and example of oversupply of an essential growth factor
 nitrogen, oxygen, water, temperature.
-
