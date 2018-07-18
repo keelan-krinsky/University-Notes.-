@@ -962,5 +962,180 @@ NOTE: which X chromosome is inactivated varies randomly from cell to cell.this i
 1. Himalayan Phenotype.
 2. Size and shape of different chromosomes.
 
+Dr Fanucchi, GH416, 
+Date: 17/06/2018.
 
+# Course overview. 
+ezymes and function \newline 
+Garret and Grisham Biochemistry.\newline 
+Questions in class (write it down)\newline 
+*Prelab test before every practical* \newline 
+(lecture + prac but only theory relevant to prac, no writing up prac reports. ) \newline 
+lab etiquette (dress+ approporitate work+ sharing with lab partner, fall behind group, spot questions in the lab, prac ends at 5 sharp)\newline 
+*Seating plan new, on Sakai*\newline 
+Changes from prach manual (check course outline, Friday WSS4, 423-426 text book)\newline 
+tues+wed=P115, thurs=WSS4.\newline  
+*No PH prac*.\newline  
+Due date of essay: *8th August*. (submitted electronically+ marked out)\newline 
+*Submit essay in box 1:30 10th August, must print in turn it in format, 15\% or less*\newline 
+Poster is due on a Monday, submit to Sakai, \newline
+31 Aug, Class test 2-4pm OLS +GH403. \newline 
+
+## Dr Fanucchi class rules
+ #. Own studying. 
+
+## Assignment. 
+The MIND diet, med+DASH (DASH for hyper tension+neuro disease), fish altsheimers, weight loss, 2 veg per day... 
+Argumentative essay, critically evalute (find actual 2015 paper, met pathways+ metabolism+ for or against but must take a stand)
+
+### Essay format 
+Three sections+ tittle (intro, body, conclusion), 
+
+#### Intro 
+must but work into context, it must give background info however it must be very focussed on the concept at hand. Must make clear the relavance and significance of the subject. Can finish with a sentance/2 disscribing structure of the essay ("In this essay i will") , very end must have main claim (must be _interesting_ and specific, must make absolutely clear for or against + angle),
+
+##### Main claim
+Short, consise, specific, clear and easy to recognise (ie at the end of the intro) \newline 
+
+#### Body 
+Set of paragraphs, moving from more general to specific, broadest info first to more specific. Includes reasons in support of claims. Give reasons + cite evedence from the literature.\newline  
+(Could attempt to include a rebuttle, couterarguments)\newline 
+
+##### Transition sentances 
+link paragraphs to imporve flow. 
+
+##### Topic 
+topic sentance for each paragraph. 
+
+#### Wrap up sentance
+Relates the topic back to the main claim. 
+
+NOTE: Lots of citations, remember writing fellows. 
+
+### Final notes
+ #. 800-1100 words, 
+ #. own research + interpetation of literature,
+ #. must be submitted through turn it in. 
+ #. print correct format.
+ #. print + sttatch marking rubric 
+
+
+#### Conclusion 
+Restate the main claim and its importance. Summarize each of the main points in the claim again. 
+
+*NB*\newline 
+No new information, and no references. 
+
+# Scientific Poster 
+Commonly presented at scientific posters, (ppl present current research, orally and in posters, advantage is that it is very consice)\newline 
+
+NOTE: \newline 
+
+ #. Not too much text. (NB)
+ #. read 1m away (A1 size) 
+ #. lots of visuals. diagrams etc. 
+ #. The take home message must be clear (stance must be clear)
+ 
+NOTE: 
+ #. 4pm monday, 
+ #. pdf format
+ #. 594x 841mm. \newline 
+ 
+# Background 
+Governed by relatively small set of relatively simple rules. 
+
+# Chapter 13 Biological catalyst. 
+enzmyes in metablosim, accelerate and control biochemcial reaction rates. In specific speed up dergradation of nutrients adn generation adn tranfromation of metabolites. Only very specialised regulatory enzymes control biochemical reactions, often found at juncture points. Suhc enzymes change the rate depending on the cell's metabolic requirements. (ie more require speed up sythesis and slow degradation and visa versa.)
+
+Many biological reactions produce a lot of energy but too slow, enzymes exert kinetic control overthermodynamic potentiallity. (kenetic as in rate and speed)\newline 
+
+## DIstinctive features
+
+### Catalytic power. 
+how good it is at being a catalyst/ speeding things up 
+Calculated as the ration of catalysed to uncatalysed reaction
+
+### Specificty. 
+Acts on a specific substrate, very selective no promiscuous. ()
+selectarivity for substrate. Cannot change the eqillibrium position, enzymes are very selective. One advantage is less/no biproducts. 
+
+Achieved by secific shape adn charge, (complimentarity)
+
+#### Yield 
+Yield decreases at each step in a multi step process, (yield is decreased at each step by the formation of byproduct)
+
+### Regulation 
+Not all enzymes, key enzymes, maintain rates at appropriate levels for the cells requirements. 
+
+### Mild conditions 
+happed under very mild conditions (pH and temp), as proteins suseptable to denaturation, furthermore often 
+
+
+```{r, echo=FALSE}
+# example 
+
+(3*10^4)/(3*10^(-10))
+
+```
+## Background 
+
+### Nomenclature
+Enzymes are grouped into 6 different categorised based on reactions which they catalyse. 
+
+#### Enzyme commision number. 
+Furthermore each enzyme is given an enzyem commision number, this is a standard however a "common name" is also often used. 
+
+#### Oxidoreductases. 
+
+#### Transferases  
+
+#### Hydrolases.
+Cleaves in presence of water. 
+(Most common type)
+
+#### Ligases. 
+form bonds 
+
+#### Isomerases. 
+
+
+#### Lyases. 
+break bonds.
+ 
+NOTE: Check in notes if all enzyme groups area present. 
+
+```{r,echo=FALSE}
+#Excersize
+
+```
+
+### Principles of chemical kinetics. 
+$A\rightarrow B$ \newline 
+assume spontaneous and irreversible. 
+
+rate defined in terms of change in concentration of the reactants or products. 
+
+NOTE: Copy notes from chemical kinetics. 
+
+$v=-\frac{d[A]}{dt}=\frac{d[P]}{dt}$ the infinitesimal rate. 
+
+### Rate Law. 
+$v=\text{k}[A]$ where k is the rate constant. 
+reverse rate $k^{-1}[P]$\newline 
+
+$V\propto [A]$ \newline 
+k is the rate constant of the constant of proportionality.
+
+
+## Enzyme Kinetics. 
+
+### Maximum velocity 
+Maximum catalystic rate\newline 
+Donated by $V_{\text{max}}$
+
+### Binding affinity
+the strength of the bond/ enthalpy of bond formation \newline 
+dontated by $K_m$
+
+### Mechalis mention. 
 
