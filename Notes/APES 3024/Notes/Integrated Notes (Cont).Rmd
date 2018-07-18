@@ -1,0 +1,117 @@
+---
+title: "Aquatic Ecology (Cont) "
+output: html_notebook
+---
+
+## Hydrological components. 
+
+### Physiological conditions
+
+#### Water quality 
+Water quality is generally taken as a combination of several different physical and chemical factors. \newline 
+
+ #. Solubility 
+ #. Temperature. 
+ #. PH 
+ #. Dissolved oxygen 
+ #. Dissolved inorganic nutrients ($PO_4^2-$ $NO_3^-$), 
+    #. Such nutrients are a very important limiting factor in biological growth and productivity, and their concentration is normally increased dramatically by human activity in affected areas, ie near human cities or industrial plants. 
+ #.  Dissolved organic nutrients. 
+    #.Tannins in the western cape lead to brown coca cola colored water. 
+ #. Toxins 
+    #. Toxins may occur naturally but are often related to human activities, 
+    #. The most common toxins present are heavy metals and hydrocarbons (such as oil/fuel spills from cars). 
+
+#### Temperature. 
+under 'normal' pressure conditions water will freeze at $0^\circ C$ and boil at $100^{\circ}C$, with increasing altitude however the boiling point will decrease (boiling point is directly proportional to the vapor pressure). This reduction can become significant at high altitudes, water boils at $45^\circ C$ at the top of mount Everest. 
+
+Furthermore due to the hydrogen bonding which occurs in the ice crystal lattice water is in fact most dense just before freezing at temperatures of $0-3.94^\circ C$ (at $\approx 1atm$(?)). \newline 
+IN its liquid phase the density of water varies directly with its temperature. implying that colder water will sink below warmer water within large water bodies with relatively little distrurbance (lotic). 
+
+![](Images/LP.jpg)
+### Suspended solids 
+
+#### Turbidity
+Two different sources of turbidity. 
+
+##### Landscape 
+Wash in with run off. 
+
+##### River bed. 
+additional suspension. 
+
+##### Effects. 
+(Vanishing waters by Dvies and dae(?), good reference book)
+
+ #. shading of phytoplankton and micaropytes, 
+ #. reduced availability for preditors. 
+ #. some marcovertibrates require clean rocks, blanketing of benthos removes Their environment, (such as caddis flies)
+
+###### Conductivity 
+Conductivity is a measure of the ability of water to conduct electricty.
+Conductivity is measured in Semems, it is usally measured per area $\muS.cm^{-1}$ for low conductitvty headland streams, for highly conductive $mS.cm^{-1}$. 
+
+Conductivity must be measured in conjunction with temperature as conductivity varies directly with temperature, (and hence is required for comparison)
+
+###### As a measure of water pollution 
+Conductivty is a good blanket measure of pollution especially in the case of metal (ion) polution which increases conductivity. Some goelogies do have more metals and will lead to higher natural conductivity measures, natural variation. 10 
+
+## Hydrological regeme 
+
+Hydrology is defined as the study of the interactions and intereltationships between water and its environment 
+
+NOT: conductivity is the inverse of resistance
+
+### Water cycle 
+water condences and falls as precipitation, once the water is intercepted by the ground it can flow along the top of the land,(runoff) or infultrate as seepage. when water comes out of ground water to enter ecosystem it is referred to as run out. Evaporation brings water to the atmosphere competing the cycle. 
+
+wetlands tend to accumuae very fine sediments/clays resulting in far more water retention as a pose to infultration, in course soil most of the water infultrates little is retained. 
+
+Once the water infultrates it can flow in a number of different layers known as aquifers. 
+Aquifers are bands of rock with enough holes/space that water cacn perculate through them, normally they have a confining bed of rock separating them out. Aquifers have differnt flow rates (different flow regimes. ), days to years between infultration and run out in surface, lower down there might aquifer under the bed will be more like a centuaries. Even lower down there are aquifers which take millenia to fill up (deep confined aquifers), eg table mountain aquifer. 
+
+#### Ephemeral
+influent stream, net loss, very little retention porous, tend to dry up
+Dry $\geq 90\%$ of the year only present after intense rainfall
+
+
+#### Intermittent 
+Varies between ephermeral and effulent, with a net neutrality (no net flow), varies with time. 
+Eg in the eastern cape,may dry up in sections. 
+
+#### Effluent 
+net inflow of groudwater to water body, tend to be constant. 
+
+### Rain fall related variation 
+By the east coast, 1000-1200 to west <100 at the extreme. Evaporative potential is measured using A pans, it is far higher in the (north) west, combining high rainfall will low evaporation allows for high run off and perrenial streams. 
+Dry west is ephermeral, east is perrenial, band between them contains intermittent. 
+
+### Artificial 
+land owver use a wear to divert water from a river to croplands/ orchards. 
+
+### Catchment/drainage basin 
+The region from which water drains into a stream. All the water which falls within the catachemnt will flow into the stream. different draingage basins are dived by watershed/ the highest point between twon drainage basins. 
+
+#### Drainage density 
+The amount of stream channel required to drain one unit of catchment area. The same area drained by more tributaries has a higher drainage density. 
+
+#### Tributary arrangment. 
+ 
+ #. dendritic: (many fingers,from indivindual to single)
+ #. raidal, outwards in all dirrections 
+ #. Centripital, multiple tributaries draining to central point (depression/pan)
+
+GEology will also affect formation, with specific weathering leading to standard shaping. 
+
+ #. paralelled 
+    #. very hard rock which tributaries cant penetrate so all go into same bands. 
+ #. trellis 
+    #. hard rock formed in perpendicular shapes, so water can only erode the land scape in 90 degree angle. 
+ #. Distributary, river breaks up into distrubutary channels (just before entering the sea for example.   
+ 
+ 
+### Stream slope 
+The stream slope is the vertical drop along a hoizontal distance, it measures how altitude changes along a stream from head waters to mouth. 
+
+$SS=\frac{\text{elevation at contuor A}-\text{elevation at contour B}}{\text{length of sttream between contours}}=\frac{\text{Vertical slope}{\text{Horizontal slope}}$
+expressed as 2m per 10km or as percentage or ratio. 
