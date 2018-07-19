@@ -1139,3 +1139,83 @@ dontated by $K_m$
 
 ### Mechalis mention. 
 
+
+#### Derrivation . 
+
+
+##### Assumptions 
+ #. The back reaction (E+P to ES in negligable.) $k_{-1}>>>k_2$ (Mechalis menten) 
+ #. THe concnetration of the ES remains constant at a steady state (steady state assumption.) (Briggs- Huldane. )
+ 
+ The inital velcoity can be expressed as a function of substrate concentration. 
+ 
+ Total enzyme concentration: $[E]_T=[E]+[ES]$\newline ($[E_T]$) si known from the amount of enzymes added. 
+ 
+$v=k_1[E][S]$ \newline 
+
+$-v=k_{-1}[ES]$ \newline 
+
+$k_2[ES]$ \newline 
+
+By the constant rate approximation. 
+
+$k_1[A][S]-k_{-1}[ES]-k_2[ES]=0$ \newline
+
+(Look up coniditions or steay state assumption. )
+
+
+$\rightarrow k_1[E][S]=k_{-1}[ES]+k_2[ES]$ \newline 
+as $[E]_T=[E]+[ES]$ newilne
+$\rightarrow k_1([E_T]-[ES])[S]=k_{-1}[ES]+k_2[ES]$
+$\rightarrow \frac{([E_T]-[ES])[S]}{[ES]}=\frac{k_{-1}+k_2}{k_1}=k_M$ 
+
+As $k_2>>>k_{-1}$\newline 
+
+$(\frac{k_{-1}}{k_1})$ 
+
+NOTE the unit of $K_m$ will be $mol\cdot dm^{-3}$
+
+
+$\frac{([E_T]-[ES])[S]}{[ES]}=k_M$
+
+
+$\frac{[E_T][S]}{[ES]}-\frac{[ES][S]}{[ES]}=K_M$ (solve for [ES])
+
+$[ES]=\frac{[E_T[S]]}{K_M+[S]}$
+
+Alsso as 
+
+$v=k_2[ES]$ (rate o prouct formation). \newline 
+$[ES]=\frac{v}{k_2}$ \newline 
+
+$\rightarrow \frac{v}{k_2} = \frac{[E_T][S]}{K_M+[S]}$\newline
+
+$\rightarrow v= \frac{k_2[E_T][S]}{K_M+[S]}$ ($[ES]\approx[E_T]$ for excess substrate) \newline 
+
+$\rightarrow v=\frac{k_2[ES][S]}{K_M+[S]}$ $v=k_2[E_T]=v_{max}$ As ($[E_T]=[ES]$) for saturated solution. 
+
+$v=\frac{v_{max}[S]}{{K_M+[S]}$ where v is the initial rate. 
+
+$K_M$ and $v_{max}$ ca be used as general measures of catalytic ability. 
+
+$K_M=[S]$ at \frac{v_max}{2}
+
+$v=\frac{v_{max}[K_M]}{{K_M+[K_M]}=\frac{1}{2}v_{max}$ 
+
+product concentration against time can be plotted and the tangent taken to give v at a given t. 
+
+
+NOTE:
+
+ #. either ony one susbstrte or concnetrtio o other substrates held constant. 
+ #. E is in steady state. 
+ #. reaction is irreversible., or 
+ 
+ Copy down assumptions!!. 
+ 
+ 
+ $\text{ln}(v)=\text{ln}(\frac{v_{max}[S]}{{K_M+[S]}})$
+ 
+ $\rightarrow =$
+ 
+NOTE: $v_{max}$ can be approximated}

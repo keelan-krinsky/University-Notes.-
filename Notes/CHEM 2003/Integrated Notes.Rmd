@@ -388,6 +388,13 @@ Bonding pair are also physically smaller than non bonding pairs.
 This table is fucked, it will not display for shit*
 
 ![ElectronDomainGeometry](Images/CompoundGeometry.jpg)
+# Organic chemistry 
+
+
+
+
+
+
 ## Enantiomers (OPtical isomers)
 
 MOeluces whise mirror images are not superimposed. 

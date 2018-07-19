@@ -1,0 +1,233 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+
+## Bacteria
+There are often  endospores within bacteria which can cause swelling changing shape. 
+
+### Plasiticty 
+bacteria have the facility to adapt their environment by 
+
+### Size. 
+The average is about $0.2-1.0\mu \text{x} 2-8\mu m$
+For example E. coli $1.1-1.5\mu \text{x} 2-6\mu m$
+
+#### Smallest. 
+$100-300nm$ range, and untramicrobacteria which are about $50nm$ in size. Very nutrient poor so do not mantain large cytoplasm.
+
+#### Largest. 
+Bacteria Epulopiscium fishelsoni
+
+$80\mu m-600\mu m$ (visible with the naked eye), about $10^6$ times larger in volume than most bacteria
+
+##### reproduction 
+produces daughter cells inside the mother, which then pop out through a slit. 
+
+##### Addaptions 
+The key limitation to size is SA:V, as moviment of nutreints and gasses are by diffusion. This problem is overcome in part by massive invaginations of the surface membrane. (Additional problem of transporting proteins to membrane as membrane already covered in proteins.). 
+
+It was thought that a partiular bacterium would have one copy of a bacterium, however in Epulopiscium fishelsoni cromosome nuber increases with size, also as transcription and translation are linked, if the gene is everywhere in the cell, then a protein can be produced anywhere in the cell and the need for sophisticated transport systems in removed. The number of copies of important genes can be in the hundered thousands, for example ribosomal RNA genes. 
+
+##### Thiomargarita namibiensis 
+very large volume. 
+
+###### Addaptations 
+cytoplasm is filled with vacules so minimal depth of cytoplasm from any point. Epulopiscium fishelsoni requires nutrient dense envoronment so lives in fish and floats around to find nutrinet dense areas. 
+
+The other advatage of size is that it hep avoid (protozoan) predation. 
+
+## Structure and function 
+
+NOTE: Not all strucures are found in all bacteria. Some structures are specific to specific bacteria some are specific to the bacteriums environment, ie parasitic only produce a capsule when they encouter a host immune responce. 
+
+(Copy image of bacteria)
+
+NOTE: cytoplasm is actually packed/ very full of consitituents. 
+
+### Plasma membrane. 
+they are the main contanct point between the cell and its surroundings. functions splits internal and external environment in its capacity as a boundary layer, and allows the exchange of matter and information between the internal and external environment. 
+
+NOTE: bacteria are very plastic in their responce to the environment inproving energy effeciency 
+
+#### Fliud mozaic model 
+Phospholipids+ intergral and poriferal properties. 
+
+##### Membrane associated lipids
+Amphiphatic, (hydrophilic and hydrophobic groups associated with them), most of these lipids are phospholipids, they spontaeously arrange with phosphate head by water to form low energy micelles or bilayers. 
+
+Phospholipids are diverse and complex groups. Phosphatidylethanolamine (75\%)
+phosphatidylglycerol (20\%)
+cardiolipin (diphosphatidylglycerol, 1-5\%)
+
+Important as they confer strength, and spread out overall negative charge of the plasma membrane and cardiolin can play a role are a shaperone, helps lactase permease flod correctly in the membrane.
+
+For a particular species of phospholipid the fluidity is adjuseted by saturation/desaturation of tails, to fit the requirements of the external environment. 
+
+Lipids can also flip between leaflets of the membrane, there are porteins flipases (out to in), flopases (in to out) require ATP, and scamblases (exchange) do not require ATP. Related to adaptions to environmental changes such as  temperature (with season). 
+
+NOTE:membrane is packed with proteins, espcially in bacteria which require membrane porteins for energy production, this applies especially ot bacteria with less effecient respiration processes. 
+
+##### Glycolipids 
+Glyco lipds are defined as lipids with a carbohydrate attach, but very hetrogenous grouping.
+
+###### Functions
+ 
+ #. Help to stabalise the plasma membrane (protective function)
+ #. Important in cell-cell interactions 
+    #. Adhession. (contanct inhebition, muslces, desosomes etc)
+    #. identification (the flip side is that is can be recognised by the host immue system). 
+    #. assist in signal transduction. 
+    
+#### Transport systems 
+A transport system is required to mmove across the plasma membrane, could be for toxins such as bacteriosin which attach other bacteria in the environment, They can also trap food outside the PM to prevent its loss. Furthermore important metabolic functions such as photosynthesis and respiration involve the plasma membrane. Motility is also assoicated with plasma membrane associated structures, and the systhesis of many important chemicals. 
+
+NOTE: bacteria can distinguish which host they are infecting and can addapt accordingly. 
+
+
+
+
+
+###### Consitituents 
+polar head + nonpolar tail. 
+
+##### Integral membran proteins. 
+
+make up about 60-70\% of membrane proteins. 
+
+###### Ease of removal. 
+
+tend to be relively difficult to remove in aquos environments (as low solubility). 
+Such proteins are ususally embedded deeply, some may span the entire membrane. To span the membrane they must be amphiphathic (otherwise would flip into the membrane). 
+By diffusion proteins can move within the plasmam membrane,
+
+##### Periferal proteins. 
+20-30\% 
+
+###### Ease of removal 
+relatively easieir to remove, as they are on the outside, and more soluble in aqeous environments. 
+
+(Copy image of the plasma membrane. )
+
+
+
+
+
+
+NOTE: there is no reason for the tails to allig between layers. 
+
+##### S layer 
+additional very strong outer layer fomed on membrane
+
+
+### Cell wall 
+The majority of bacteria posses a cell wall. 
+
+
+### Nucleiod 
+
+### Gas Vacoules. 
+
+### Inclusion bodies 
+
+### Robosomes. 
+
+### Cell enveope. 
+contains the outer membrane(where present) the cell wall and the cell memberane
+
+### External 
+Appendages. ...? 
+
+### Internal membrane system. 
+
+## Gram staining. 
+The gram cell is able to differentate between two major structure types based on their ability to maintan the porimary stain in the presence of the de-colorisor. 
+Gram staining is bar far the most important staining in bacteriology. staining is also related to differences in the lipids. 
+
+
+### Process
+ #. Crystal violet.  
+ #. Grams iodine. (Helps crystal violet to stick to the cell wall. ) 
+ #. alcohol (decolorize), gram nevative cells are decolorised, gram positive cellsa re not. 
+ #. Safranin (red due 
+ )
+ 
+ Gram positive have red on pruple so remain purple, gram negative have red on colorless so becone red/pink. 
+ 
+ 
+ (Copy image)
+ 
+ NOTE: If decolored too intesly any cell will lose its color. 
+ 
+ NOTE: Acetone in involved in eyes dissolvings.
+ 
+### Posive 
+
+Copy from slides. 
+
+#### Cell wall 
+Thick homogenous cell wall containins 50\% peptidoglycan by dry weight. The peptidoglycan is about $20-80nm$ thick.
+
+##### Periplasmic space 
+A area inbetween the cell wall and cell membrane it is distinct (although so thin that it can often be hard to make out.). 
+
+NOTE: The cell wall is the combination of the PG layer and the periplamic space. 
+
+NOTE: Try to draw strucutres with som sendse of relative scale, ie the cell wall must be larger. 
+
+\textbf{Copy image of cell wall from slides.}
+
+##### Function 
+Mantains the cell integrity against osmotic pressure and maintains the cell shape. cytoskeletal elements are a large part of it, but the peptidoglycan is also siginficant, and if it is rremoved the bacteria will usually become spherical
+
+##### Techoic acids. 
+(refferd to as ? techoic acids), 
+TEchoic acids make up a signinfcant proportion of the cell wall. They are covalently attatched to the peptifoglycan, which has a meshlike structure. Techoic acids fill (alomst all) of the void spaces in this mesh extending all the way to the outside of the layer. 
+
+Lipotechoic acids are imbedded in the membrne at one end and the peptidogycan layer at the other. forming a stabalising link. 
+
+###### Functions 
+help to maintain the stucture of the cell wall. And confer an overall negative charage (to gram positive bacteria). 
+
+The acids are also antigenic, (which benefits the host not the bacterium)
+
+### Gram nagative. 
+
+#### Cell membrane 
+5-7nm
+
+#### Peptidoglycan layer
+Much thinner $5-10\%$  of dry weight of cell negative bacteria. only about 1nm
+
+#### Periplasmic space 
+between cell and other membrane, much wider than in gram positive bacteria, can be go up to $70nm$
+
+#### Outer membrane. 
+5-7nm
+
+phospholipid layer (not bilayer) which contain lipopolusaccharides, as well as lipoproteins and proteins. More permeable/less selective than the cell membrane (?) The outside of gram negative is very wavey as more fluid than a PG layer. 
+
+
+NOTE: can be isolated as an intact shperical structure
+
+
+##### Porins
+make pores through the outer membrane, consist of three separate units. 
+
+##### Brauns lipoprotein 
+extends from the GP layer to the outer membrane. 
+
+###### Function 
+Helps to prevent membrane damage by giving it some form of ragidity, and preventing an indeterminate gap between the outer membrane and the rest of the bacteria, pulling the membrane into the same shape as the bacteria.  
+
+##### Lipopolysachharides. (LPS
+Consist of lipids and carbohydrates. The outer leaflet of the membrane is almost entirely lipopolysacharide, and in gener it is an integral membrane component. 
+
+$Salmonella typhimurium$ in Salmoella can be related to disease. 
+
+
+
+
+
+NOTE: cell wall contains periplasmic space, peptidoglycan layer nad outer membrane. 

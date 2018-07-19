@@ -11,7 +11,7 @@
 
 
 
-<title>Concepts Notes</title>
+<title>R Notebook</title>
 
 <script>/*! jQuery v1.11.3 | (c) 2005, 2015 jQuery Foundation, Inc. | jquery.org/license */
 !function(a,b){"object"==typeof module&&"object"==typeof module.exports?module.exports=a.document?b(a,!0):function(a){if(!a.document)throw new Error("jQuery requires a window with a document");return b(a)}:b(a)}("undefined"!=typeof window?window:this,function(a,b){var c=[],d=c.slice,e=c.concat,f=c.push,g=c.indexOf,h={},i=h.toString,j=h.hasOwnProperty,k={},l="1.11.3",m=function(a,b){return new m.fn.init(a,b)},n=/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g,o=/^-ms-/,p=/-([\da-z])/gi,q=function(a,b){return b.toUpperCase()};m.fn=m.prototype={jquery:l,constructor:m,selector:"",length:0,toArray:function(){return d.call(this)},get:function(a){return null!=a?0>a?this[a+this.length]:this[a]:d.call(this)},pushStack:function(a){var b=m.merge(this.constructor(),a);return b.prevObject=this,b.context=this.context,b},each:function(a,b){return m.each(this,a,b)},map:function(a){return this.pushStack(m.map(this,function(b,c){return a.call(b,c,b)}))},slice:function(){return this.pushStack(d.apply(this,arguments))},first:function(){return this.eq(0)},last:function(){return this.eq(-1)},eq:function(a){var b=this.length,c=+a+(0>a?b:0);return this.pushStack(c>=0&&b>c?[this[c]]:[])},end:function(){return this.prevObject||this.constructor(null)},push:f,sort:c.sort,splice:c.splice},m.extend=m.fn.extend=function(){var a,b,c,d,e,f,g=arguments[0]||{},h=1,i=arguments.length,j=!1;for("boolean"==typeof g&&(j=g,g=arguments[h]||{},h++),"object"==typeof g||m.isFunction(g)||(g={}),h===i&&(g=this,h--);i>h;h++)if(null!=(e=arguments[h]))for(d in e)a=g[d],c=e[d],g!==c&&(j&&c&&(m.isPlainObject(c)||(b=m.isArray(c)))?(b?(b=!1,f=a&&m.isArray(a)?a:[]):f=a&&m.isPlainObject(a)?a:{},g[d]=m.extend(j,f,c)):void 0!==c&&(g[d]=c));return g},m.extend({expando:"jQuery"+(l+Math.random()).replace(/\D/g,""),isReady:!0,error:function(a){throw new Error(a)},noop:function(){},isFunction:function(a){return"function"===m.type(a)},isArray:Array.isArray||function(a){return"array"===m.type(a)},isWindow:function(a){return null!=a&&a==a.window},isNumeric:function(a){return!m.isArray(a)&&a-parseFloat(a)+1>=0},isEmptyObject:function(a){var b;for(b in a)return!1;return!0},isPlainObject:function(a){var b;if(!a||"object"!==m.type(a)||a.nodeType||m.isWindow(a))return!1;try{if(a.constructor&&!j.call(a,"constructor")&&!j.call(a.constructor.prototype,"isPrototypeOf"))return!1}catch(c){return!1}if(k.ownLast)for(b in a)return j.call(a,b);for(b in a);return void 0===b||j.call(a,b)},type:function(a){return null==a?a+"":"object"==typeof a||"function"==typeof a?h[i.call(a)]||"object":typeof a},globalEval:function(b){b&&m.trim(b)&&(a.execScript||function(b){a.eval.call(a,b)})(b)},camelCase:function(a){return a.replace(o,"ms-").replace(p,q)},nodeName:function(a,b){return a.nodeName&&a.nodeName.toLowerCase()===b.toLowerCase()},each:function(a,b,c){var d,e=0,f=a.length,g=r(a);if(c){if(g){for(;f>e;e++)if(d=b.apply(a[e],c),d===!1)break}else for(e in a)if(d=b.apply(a[e],c),d===!1)break}else if(g){for(;f>e;e++)if(d=b.call(a[e],e,a[e]),d===!1)break}else for(e in a)if(d=b.call(a[e],e,a[e]),d===!1)break;return a},trim:function(a){return null==a?"":(a+"").replace(n,"")},makeArray:function(a,b){var c=b||[];return null!=a&&(r(Object(a))?m.merge(c,"string"==typeof a?[a]:a):f.call(c,a)),c},inArray:function(a,b,c){var d;if(b){if(g)return g.call(b,a,c);for(d=b.length,c=c?0>c?Math.max(0,d+c):c:0;d>c;c++)if(c in b&&b[c]===a)return c}return-1},merge:function(a,b){var c=+b.length,d=0,e=a.length;while(c>d)a[e++]=b[d++];if(c!==c)while(void 0!==b[d])a[e++]=b[d++];return a.length=e,a},grep:function(a,b,c){for(var d,e=[],f=0,g=a.length,h=!c;g>f;f++)d=!b(a[f],f),d!==h&&e.push(a[f]);return e},map:function(a,b,c){var d,f=0,g=a.length,h=r(a),i=[];if(h)for(;g>f;f++)d=b(a[f],f,c),null!=d&&i.push(d);else for(f in a)d=b(a[f],f,c),null!=d&&i.push(d);return e.apply([],i)},guid:1,proxy:function(a,b){var c,e,f;return"string"==typeof b&&(f=a[b],b=a,a=f),m.isFunction(a)?(c=d.call(arguments,2),e=function(){return a.apply(b||this,c.concat(d.call(arguments)))},e.guid=a.guid=a.guid||m.guid++,e):void 0},now:function(){return+new Date},support:k}),m.each("Boolean Number String Function Array Date RegExp Object Error".split(" "),function(a,b){h["[object "+b+"]"]=b.toLowerCase()});function r(a){var b="length"in a&&a.length,c=m.type(a);return"function"===c||m.isWindow(a)?!1:1===a.nodeType&&b?!0:"array"===c||0===b||"number"==typeof b&&b>0&&b-1 in a}var s=function(a){var b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u="sizzle"+1*new Date,v=a.document,w=0,x=0,y=ha(),z=ha(),A=ha(),B=function(a,b){return a===b&&(l=!0),0},C=1<<31,D={}.hasOwnProperty,E=[],F=E.pop,G=E.push,H=E.push,I=E.slice,J=function(a,b){for(var c=0,d=a.length;d>c;c++)if(a[c]===b)return c;return-1},K="checked|selected|async|autofocus|autoplay|controls|defer|disabled|hidden|ismap|loop|multiple|open|readonly|required|scoped",L="[\\x20\\t\\r\\n\\f]",M="(?:\\\\.|[\\w-]|[^\\x00-\\xa0])+",N=M.replace("w","w#"),O="\\["+L+"*("+M+")(?:"+L+"*([*^$|!~]?=)"+L+"*(?:'((?:\\\\.|[^\\\\'])*)'|\"((?:\\\\.|[^\\\\\"])*)\"|("+N+"))|)"+L+"*\\]",P=":("+M+")(?:\\((('((?:\\\\.|[^\\\\'])*)'|\"((?:\\\\.|[^\\\\\"])*)\")|((?:\\\\.|[^\\\\()[\\]]|"+O+")*)|.*)\\)|)",Q=new RegExp(L+"+","g"),R=new RegExp("^"+L+"+|((?:^|[^\\\\])(?:\\\\.)*)"+L+"+$","g"),S=new RegExp("^"+L+"*,"+L+"*"),T=new RegExp("^"+L+"*([>+~]|"+L+")"+L+"*"),U=new RegExp("="+L+"*([^\\]'\"]*?)"+L+"*\\]","g"),V=new RegExp(P),W=new RegExp("^"+N+"$"),X={ID:new RegExp("^#("+M+")"),CLASS:new RegExp("^\\.("+M+")"),TAG:new RegExp("^("+M.replace("w","w*")+")"),ATTR:new RegExp("^"+O),PSEUDO:new RegExp("^"+P),CHILD:new RegExp("^:(only|first|last|nth|nth-last)-(child|of-type)(?:\\("+L+"*(even|odd|(([+-]|)(\\d*)n|)"+L+"*(?:([+-]|)"+L+"*(\\d+)|))"+L+"*\\)|)","i"),bool:new RegExp("^(?:"+K+")$","i"),needsContext:new RegExp("^"+L+"*[>+~]|:(even|odd|eq|gt|lt|nth|first|last)(?:\\("+L+"*((?:-\\d)?\\d*)"+L+"*\\)|)(?=[^-]|$)","i")},Y=/^(?:input|select|textarea|button)$/i,Z=/^h\d$/i,$=/^[^{]+\{\s*\[native \w/,_=/^(?:#([\w-]+)|(\w+)|\.([\w-]+))$/,aa=/[+~]/,ba=/'|\\/g,ca=new RegExp("\\\\([\\da-f]{1,6}"+L+"?|("+L+")|.)","ig"),da=function(a,b,c){var d="0x"+b-65536;return d!==d||c?b:0>d?String.fromCharCode(d+65536):String.fromCharCode(d>>10|55296,1023&d|56320)},ea=function(){m()};try{H.apply(E=I.call(v.childNodes),v.childNodes),E[v.childNodes.length].nodeType}catch(fa){H={apply:E.length?function(a,b){G.apply(a,I.call(b))}:function(a,b){var c=a.length,d=0;while(a[c++]=b[d++]);a.length=c-1}}}function ga(a,b,d,e){var f,h,j,k,l,o,r,s,w,x;if((b?b.ownerDocument||b:v)!==n&&m(b),b=b||n,d=d||[],k=b.nodeType,"string"!=typeof a||!a||1!==k&&9!==k&&11!==k)return d;if(!e&&p){if(11!==k&&(f=_.exec(a)))if(j=f[1]){if(9===k){if(h=b.getElementById(j),!h||!h.parentNode)return d;if(h.id===j)return d.push(h),d}else if(b.ownerDocument&&(h=b.ownerDocument.getElementById(j))&&t(b,h)&&h.id===j)return d.push(h),d}else{if(f[2])return H.apply(d,b.getElementsByTagName(a)),d;if((j=f[3])&&c.getElementsByClassName)return H.apply(d,b.getElementsByClassName(j)),d}if(c.qsa&&(!q||!q.test(a))){if(s=r=u,w=b,x=1!==k&&a,1===k&&"object"!==b.nodeName.toLowerCase()){o=g(a),(r=b.getAttribute("id"))?s=r.replace(ba,"\\$&"):b.setAttribute("id",s),s="[id='"+s+"'] ",l=o.length;while(l--)o[l]=s+ra(o[l]);w=aa.test(a)&&pa(b.parentNode)||b,x=o.join(",")}if(x)try{return H.apply(d,w.querySelectorAll(x)),d}catch(y){}finally{r||b.removeAttribute("id")}}}return i(a.replace(R,"$1"),b,d,e)}function ha(){var a=[];function b(c,e){return a.push(c+" ")>d.cacheLength&&delete b[a.shift()],b[c+" "]=e}return b}function ia(a){return a[u]=!0,a}function ja(a){var b=n.createElement("div");try{return!!a(b)}catch(c){return!1}finally{b.parentNode&&b.parentNode.removeChild(b),b=null}}function ka(a,b){var c=a.split("|"),e=a.length;while(e--)d.attrHandle[c[e]]=b}function la(a,b){var c=b&&a,d=c&&1===a.nodeType&&1===b.nodeType&&(~b.sourceIndex||C)-(~a.sourceIndex||C);if(d)return d;if(c)while(c=c.nextSibling)if(c===b)return-1;return a?1:-1}function ma(a){return function(b){var c=b.nodeName.toLowerCase();return"input"===c&&b.type===a}}function na(a){return function(b){var c=b.nodeName.toLowerCase();return("input"===c||"button"===c)&&b.type===a}}function oa(a){return ia(function(b){return b=+b,ia(function(c,d){var e,f=a([],c.length,b),g=f.length;while(g--)c[e=f[g]]&&(c[e]=!(d[e]=c[e]))})})}function pa(a){return a&&"undefined"!=typeof a.getElementsByTagName&&a}c=ga.support={},f=ga.isXML=function(a){var b=a&&(a.ownerDocument||a).documentElement;return b?"HTML"!==b.nodeName:!1},m=ga.setDocument=function(a){var b,e,g=a?a.ownerDocument||a:v;return g!==n&&9===g.nodeType&&g.documentElement?(n=g,o=g.documentElement,e=g.defaultView,e&&e!==e.top&&(e.addEventListener?e.addEventListener("unload",ea,!1):e.attachEvent&&e.attachEvent("onunload",ea)),p=!f(g),c.attributes=ja(function(a){return a.className="i",!a.getAttribute("className")}),c.getElementsByTagName=ja(function(a){return a.appendChild(g.createComment("")),!a.getElementsByTagName("*").length}),c.getElementsByClassName=$.test(g.getElementsByClassName),c.getById=ja(function(a){return o.appendChild(a).id=u,!g.getElementsByName||!g.getElementsByName(u).length}),c.getById?(d.find.ID=function(a,b){if("undefined"!=typeof b.getElementById&&p){var c=b.getElementById(a);return c&&c.parentNode?[c]:[]}},d.filter.ID=function(a){var b=a.replace(ca,da);return function(a){return a.getAttribute("id")===b}}):(delete d.find.ID,d.filter.ID=function(a){var b=a.replace(ca,da);return function(a){var c="undefined"!=typeof a.getAttributeNode&&a.getAttributeNode("id");return c&&c.value===b}}),d.find.TAG=c.getElementsByTagName?function(a,b){return"undefined"!=typeof b.getElementsByTagName?b.getElementsByTagName(a):c.qsa?b.querySelectorAll(a):void 0}:function(a,b){var c,d=[],e=0,f=b.getElementsByTagName(a);if("*"===a){while(c=f[e++])1===c.nodeType&&d.push(c);return d}return f},d.find.CLASS=c.getElementsByClassName&&function(a,b){return p?b.getElementsByClassName(a):void 0},r=[],q=[],(c.qsa=$.test(g.querySelectorAll))&&(ja(function(a){o.appendChild(a).innerHTML="<a id='"+u+"'></a><select id='"+u+"-\f]' msallowcapture=''><option selected=''></option></select>",a.querySelectorAll("[msallowcapture^='']").length&&q.push("[*^$]="+L+"*(?:''|\"\")"),a.querySelectorAll("[selected]").length||q.push("\\["+L+"*(?:value|"+K+")"),a.querySelectorAll("[id~="+u+"-]").length||q.push("~="),a.querySelectorAll(":checked").length||q.push(":checked"),a.querySelectorAll("a#"+u+"+*").length||q.push(".#.+[+~]")}),ja(function(a){var b=g.createElement("input");b.setAttribute("type","hidden"),a.appendChild(b).setAttribute("name","D"),a.querySelectorAll("[name=d]").length&&q.push("name"+L+"*[*^$|!~]?="),a.querySelectorAll(":enabled").length||q.push(":enabled",":disabled"),a.querySelectorAll("*,:x"),q.push(",.*:")})),(c.matchesSelector=$.test(s=o.matches||o.webkitMatchesSelector||o.mozMatchesSelector||o.oMatchesSelector||o.msMatchesSelector))&&ja(function(a){c.disconnectedMatch=s.call(a,"div"),s.call(a,"[s!='']:x"),r.push("!=",P)}),q=q.length&&new RegExp(q.join("|")),r=r.length&&new RegExp(r.join("|")),b=$.test(o.compareDocumentPosition),t=b||$.test(o.contains)?function(a,b){var c=9===a.nodeType?a.documentElement:a,d=b&&b.parentNode;return a===d||!(!d||1!==d.nodeType||!(c.contains?c.contains(d):a.compareDocumentPosition&&16&a.compareDocumentPosition(d)))}:function(a,b){if(b)while(b=b.parentNode)if(b===a)return!0;return!1},B=b?function(a,b){if(a===b)return l=!0,0;var d=!a.compareDocumentPosition-!b.compareDocumentPosition;return d?d:(d=(a.ownerDocument||a)===(b.ownerDocument||b)?a.compareDocumentPosition(b):1,1&d||!c.sortDetached&&b.compareDocumentPosition(a)===d?a===g||a.ownerDocument===v&&t(v,a)?-1:b===g||b.ownerDocument===v&&t(v,b)?1:k?J(k,a)-J(k,b):0:4&d?-1:1)}:function(a,b){if(a===b)return l=!0,0;var c,d=0,e=a.parentNode,f=b.parentNode,h=[a],i=[b];if(!e||!f)return a===g?-1:b===g?1:e?-1:f?1:k?J(k,a)-J(k,b):0;if(e===f)return la(a,b);c=a;while(c=c.parentNode)h.unshift(c);c=b;while(c=c.parentNode)i.unshift(c);while(h[d]===i[d])d++;return d?la(h[d],i[d]):h[d]===v?-1:i[d]===v?1:0},g):n},ga.matches=function(a,b){return ga(a,null,null,b)},ga.matchesSelector=function(a,b){if((a.ownerDocument||a)!==n&&m(a),b=b.replace(U,"='$1']"),!(!c.matchesSelector||!p||r&&r.test(b)||q&&q.test(b)))try{var d=s.call(a,b);if(d||c.disconnectedMatch||a.document&&11!==a.document.nodeType)return d}catch(e){}return ga(b,n,null,[a]).length>0},ga.contains=function(a,b){return(a.ownerDocument||a)!==n&&m(a),t(a,b)},ga.attr=function(a,b){(a.ownerDocument||a)!==n&&m(a);var e=d.attrHandle[b.toLowerCase()],f=e&&D.call(d.attrHandle,b.toLowerCase())?e(a,b,!p):void 0;return void 0!==f?f:c.attributes||!p?a.getAttribute(b):(f=a.getAttributeNode(b))&&f.specified?f.value:null},ga.error=function(a){throw new Error("Syntax error, unrecognized expression: "+a)},ga.uniqueSort=function(a){var b,d=[],e=0,f=0;if(l=!c.detectDuplicates,k=!c.sortStable&&a.slice(0),a.sort(B),l){while(b=a[f++])b===a[f]&&(e=d.push(f));while(e--)a.splice(d[e],1)}return k=null,a},e=ga.getText=function(a){var b,c="",d=0,f=a.nodeType;if(f){if(1===f||9===f||11===f){if("string"==typeof a.textContent)return a.textContent;for(a=a.firstChild;a;a=a.nextSibling)c+=e(a)}else if(3===f||4===f)return a.nodeValue}else while(b=a[d++])c+=e(b);return c},d=ga.selectors={cacheLength:50,createPseudo:ia,match:X,attrHandle:{},find:{},relative:{">":{dir:"parentNode",first:!0}," ":{dir:"parentNode"},"+":{dir:"previousSibling",first:!0},"~":{dir:"previousSibling"}},preFilter:{ATTR:function(a){return a[1]=a[1].replace(ca,da),a[3]=(a[3]||a[4]||a[5]||"").replace(ca,da),"~="===a[2]&&(a[3]=" "+a[3]+" "),a.slice(0,4)},CHILD:function(a){return a[1]=a[1].toLowerCase(),"nth"===a[1].slice(0,3)?(a[3]||ga.error(a[0]),a[4]=+(a[4]?a[5]+(a[6]||1):2*("even"===a[3]||"odd"===a[3])),a[5]=+(a[7]+a[8]||"odd"===a[3])):a[3]&&ga.error(a[0]),a},PSEUDO:function(a){var b,c=!a[6]&&a[2];return X.CHILD.test(a[0])?null:(a[3]?a[2]=a[4]||a[5]||"":c&&V.test(c)&&(b=g(c,!0))&&(b=c.indexOf(")",c.length-b)-c.length)&&(a[0]=a[0].slice(0,b),a[2]=c.slice(0,b)),a.slice(0,3))}},filter:{TAG:function(a){var b=a.replace(ca,da).toLowerCase();return"*"===a?function(){return!0}:function(a){return a.nodeName&&a.nodeName.toLowerCase()===b}},CLASS:function(a){var b=y[a+" "];return b||(b=new RegExp("(^|"+L+")"+a+"("+L+"|$)"))&&y(a,function(a){return b.test("string"==typeof a.className&&a.className||"undefined"!=typeof a.getAttribute&&a.getAttribute("class")||"")})},ATTR:function(a,b,c){return function(d){var e=ga.attr(d,a);return null==e?"!="===b:b?(e+="","="===b?e===c:"!="===b?e!==c:"^="===b?c&&0===e.indexOf(c):"*="===b?c&&e.indexOf(c)>-1:"$="===b?c&&e.slice(-c.length)===c:"~="===b?(" "+e.replace(Q," ")+" ").indexOf(c)>-1:"|="===b?e===c||e.slice(0,c.length+1)===c+"-":!1):!0}},CHILD:function(a,b,c,d,e){var f="nth"!==a.slice(0,3),g="last"!==a.slice(-4),h="of-type"===b;return 1===d&&0===e?function(a){return!!a.parentNode}:function(b,c,i){var j,k,l,m,n,o,p=f!==g?"nextSibling":"previousSibling",q=b.parentNode,r=h&&b.nodeName.toLowerCase(),s=!i&&!h;if(q){if(f){while(p){l=b;while(l=l[p])if(h?l.nodeName.toLowerCase()===r:1===l.nodeType)return!1;o=p="only"===a&&!o&&"nextSibling"}return!0}if(o=[g?q.firstChild:q.lastChild],g&&s){k=q[u]||(q[u]={}),j=k[a]||[],n=j[0]===w&&j[1],m=j[0]===w&&j[2],l=n&&q.childNodes[n];while(l=++n&&l&&l[p]||(m=n=0)||o.pop())if(1===l.nodeType&&++m&&l===b){k[a]=[w,n,m];break}}else if(s&&(j=(b[u]||(b[u]={}))[a])&&j[0]===w)m=j[1];else while(l=++n&&l&&l[p]||(m=n=0)||o.pop())if((h?l.nodeName.toLowerCase()===r:1===l.nodeType)&&++m&&(s&&((l[u]||(l[u]={}))[a]=[w,m]),l===b))break;return m-=e,m===d||m%d===0&&m/d>=0}}},PSEUDO:function(a,b){var c,e=d.pseudos[a]||d.setFilters[a.toLowerCase()]||ga.error("unsupported pseudo: "+a);return e[u]?e(b):e.length>1?(c=[a,a,"",b],d.setFilters.hasOwnProperty(a.toLowerCase())?ia(function(a,c){var d,f=e(a,b),g=f.length;while(g--)d=J(a,f[g]),a[d]=!(c[d]=f[g])}):function(a){return e(a,0,c)}):e}},pseudos:{not:ia(function(a){var b=[],c=[],d=h(a.replace(R,"$1"));return d[u]?ia(function(a,b,c,e){var f,g=d(a,null,e,[]),h=a.length;while(h--)(f=g[h])&&(a[h]=!(b[h]=f))}):function(a,e,f){return b[0]=a,d(b,null,f,c),b[0]=null,!c.pop()}}),has:ia(function(a){return function(b){return ga(a,b).length>0}}),contains:ia(function(a){return a=a.replace(ca,da),function(b){return(b.textContent||b.innerText||e(b)).indexOf(a)>-1}}),lang:ia(function(a){return W.test(a||"")||ga.error("unsupported lang: "+a),a=a.replace(ca,da).toLowerCase(),function(b){var c;do if(c=p?b.lang:b.getAttribute("xml:lang")||b.getAttribute("lang"))return c=c.toLowerCase(),c===a||0===c.indexOf(a+"-");while((b=b.parentNode)&&1===b.nodeType);return!1}}),target:function(b){var c=a.location&&a.location.hash;return c&&c.slice(1)===b.id},root:function(a){return a===o},focus:function(a){return a===n.activeElement&&(!n.hasFocus||n.hasFocus())&&!!(a.type||a.href||~a.tabIndex)},enabled:function(a){return a.disabled===!1},disabled:function(a){return a.disabled===!0},checked:function(a){var b=a.nodeName.toLowerCase();return"input"===b&&!!a.checked||"option"===b&&!!a.selected},selected:function(a){return a.parentNode&&a.parentNode.selectedIndex,a.selected===!0},empty:function(a){for(a=a.firstChild;a;a=a.nextSibling)if(a.nodeType<6)return!1;return!0},parent:function(a){return!d.pseudos.empty(a)},header:function(a){return Z.test(a.nodeName)},input:function(a){return Y.test(a.nodeName)},button:function(a){var b=a.nodeName.toLowerCase();return"input"===b&&"button"===a.type||"button"===b},text:function(a){var b;return"input"===a.nodeName.toLowerCase()&&"text"===a.type&&(null==(b=a.getAttribute("type"))||"text"===b.toLowerCase())},first:oa(function(){return[0]}),last:oa(function(a,b){return[b-1]}),eq:oa(function(a,b,c){return[0>c?c+b:c]}),even:oa(function(a,b){for(var c=0;b>c;c+=2)a.push(c);return a}),odd:oa(function(a,b){for(var c=1;b>c;c+=2)a.push(c);return a}),lt:oa(function(a,b,c){for(var d=0>c?c+b:c;--d>=0;)a.push(d);return a}),gt:oa(function(a,b,c){for(var d=0>c?c+b:c;++d<b;)a.push(d);return a})}},d.pseudos.nth=d.pseudos.eq;for(b in{radio:!0,checkbox:!0,file:!0,password:!0,image:!0})d.pseudos[b]=ma(b);for(b in{submit:!0,reset:!0})d.pseudos[b]=na(b);function qa(){}qa.prototype=d.filters=d.pseudos,d.setFilters=new qa,g=ga.tokenize=function(a,b){var c,e,f,g,h,i,j,k=z[a+" "];if(k)return b?0:k.slice(0);h=a,i=[],j=d.preFilter;while(h){(!c||(e=S.exec(h)))&&(e&&(h=h.slice(e[0].length)||h),i.push(f=[])),c=!1,(e=T.exec(h))&&(c=e.shift(),f.push({value:c,type:e[0].replace(R," ")}),h=h.slice(c.length));for(g in d.filter)!(e=X[g].exec(h))||j[g]&&!(e=j[g](e))||(c=e.shift(),f.push({value:c,type:g,matches:e}),h=h.slice(c.length));if(!c)break}return b?h.length:h?ga.error(a):z(a,i).slice(0)};function ra(a){for(var b=0,c=a.length,d="";c>b;b++)d+=a[b].value;return d}function sa(a,b,c){var d=b.dir,e=c&&"parentNode"===d,f=x++;return b.first?function(b,c,f){while(b=b[d])if(1===b.nodeType||e)return a(b,c,f)}:function(b,c,g){var h,i,j=[w,f];if(g){while(b=b[d])if((1===b.nodeType||e)&&a(b,c,g))return!0}else while(b=b[d])if(1===b.nodeType||e){if(i=b[u]||(b[u]={}),(h=i[d])&&h[0]===w&&h[1]===f)return j[2]=h[2];if(i[d]=j,j[2]=a(b,c,g))return!0}}}function ta(a){return a.length>1?function(b,c,d){var e=a.length;while(e--)if(!a[e](b,c,d))return!1;return!0}:a[0]}function ua(a,b,c){for(var d=0,e=b.length;e>d;d++)ga(a,b[d],c);return c}function va(a,b,c,d,e){for(var f,g=[],h=0,i=a.length,j=null!=b;i>h;h++)(f=a[h])&&(!c||c(f,d,e))&&(g.push(f),j&&b.push(h));return g}function wa(a,b,c,d,e,f){return d&&!d[u]&&(d=wa(d)),e&&!e[u]&&(e=wa(e,f)),ia(function(f,g,h,i){var j,k,l,m=[],n=[],o=g.length,p=f||ua(b||"*",h.nodeType?[h]:h,[]),q=!a||!f&&b?p:va(p,m,a,h,i),r=c?e||(f?a:o||d)?[]:g:q;if(c&&c(q,r,h,i),d){j=va(r,n),d(j,[],h,i),k=j.length;while(k--)(l=j[k])&&(r[n[k]]=!(q[n[k]]=l))}if(f){if(e||a){if(e){j=[],k=r.length;while(k--)(l=r[k])&&j.push(q[k]=l);e(null,r=[],j,i)}k=r.length;while(k--)(l=r[k])&&(j=e?J(f,l):m[k])>-1&&(f[j]=!(g[j]=l))}}else r=va(r===g?r.splice(o,r.length):r),e?e(null,g,r,i):H.apply(g,r)})}function xa(a){for(var b,c,e,f=a.length,g=d.relative[a[0].type],h=g||d.relative[" "],i=g?1:0,k=sa(function(a){return a===b},h,!0),l=sa(function(a){return J(b,a)>-1},h,!0),m=[function(a,c,d){var e=!g&&(d||c!==j)||((b=c).nodeType?k(a,c,d):l(a,c,d));return b=null,e}];f>i;i++)if(c=d.relative[a[i].type])m=[sa(ta(m),c)];else{if(c=d.filter[a[i].type].apply(null,a[i].matches),c[u]){for(e=++i;f>e;e++)if(d.relative[a[e].type])break;return wa(i>1&&ta(m),i>1&&ra(a.slice(0,i-1).concat({value:" "===a[i-2].type?"*":""})).replace(R,"$1"),c,e>i&&xa(a.slice(i,e)),f>e&&xa(a=a.slice(e)),f>e&&ra(a))}m.push(c)}return ta(m)}function ya(a,b){var c=b.length>0,e=a.length>0,f=function(f,g,h,i,k){var l,m,o,p=0,q="0",r=f&&[],s=[],t=j,u=f||e&&d.find.TAG("*",k),v=w+=null==t?1:Math.random()||.1,x=u.length;for(k&&(j=g!==n&&g);q!==x&&null!=(l=u[q]);q++){if(e&&l){m=0;while(o=a[m++])if(o(l,g,h)){i.push(l);break}k&&(w=v)}c&&((l=!o&&l)&&p--,f&&r.push(l))}if(p+=q,c&&q!==p){m=0;while(o=b[m++])o(r,s,g,h);if(f){if(p>0)while(q--)r[q]||s[q]||(s[q]=F.call(i));s=va(s)}H.apply(i,s),k&&!f&&s.length>0&&p+b.length>1&&ga.uniqueSort(i)}return k&&(w=v,j=t),r};return c?ia(f):f}return h=ga.compile=function(a,b){var c,d=[],e=[],f=A[a+" "];if(!f){b||(b=g(a)),c=b.length;while(c--)f=xa(b[c]),f[u]?d.push(f):e.push(f);f=A(a,ya(e,d)),f.selector=a}return f},i=ga.select=function(a,b,e,f){var i,j,k,l,m,n="function"==typeof a&&a,o=!f&&g(a=n.selector||a);if(e=e||[],1===o.length){if(j=o[0]=o[0].slice(0),j.length>2&&"ID"===(k=j[0]).type&&c.getById&&9===b.nodeType&&p&&d.relative[j[1].type]){if(b=(d.find.ID(k.matches[0].replace(ca,da),b)||[])[0],!b)return e;n&&(b=b.parentNode),a=a.slice(j.shift().value.length)}i=X.needsContext.test(a)?0:j.length;while(i--){if(k=j[i],d.relative[l=k.type])break;if((m=d.find[l])&&(f=m(k.matches[0].replace(ca,da),aa.test(j[0].type)&&pa(b.parentNode)||b))){if(j.splice(i,1),a=f.length&&ra(j),!a)return H.apply(e,f),e;break}}}return(n||h(a,o))(f,b,!p,e,aa.test(a)&&pa(b.parentNode)||b),e},c.sortStable=u.split("").sort(B).join("")===u,c.detectDuplicates=!!l,m(),c.sortDetached=ja(function(a){return 1&a.compareDocumentPosition(n.createElement("div"))}),ja(function(a){return a.innerHTML="<a href='#'></a>","#"===a.firstChild.getAttribute("href")})||ka("type|href|height|width",function(a,b,c){return c?void 0:a.getAttribute(b,"type"===b.toLowerCase()?1:2)}),c.attributes&&ja(function(a){return a.innerHTML="<input/>",a.firstChild.setAttribute("value",""),""===a.firstChild.getAttribute("value")})||ka("value",function(a,b,c){return c||"input"!==a.nodeName.toLowerCase()?void 0:a.defaultValue}),ja(function(a){return null==a.getAttribute("disabled")})||ka(K,function(a,b,c){var d;return c?void 0:a[b]===!0?b.toLowerCase():(d=a.getAttributeNode(b))&&d.specified?d.value:null}),ga}(a);m.find=s,m.expr=s.selectors,m.expr[":"]=m.expr.pseudos,m.unique=s.uniqueSort,m.text=s.getText,m.isXMLDoc=s.isXML,m.contains=s.contains;var t=m.expr.match.needsContext,u=/^<(\w+)\s*\/?>(?:<\/\1>|)$/,v=/^.[^:#\[\.,]*$/;function w(a,b,c){if(m.isFunction(b))return m.grep(a,function(a,d){return!!b.call(a,d,a)!==c});if(b.nodeType)return m.grep(a,function(a){return a===b!==c});if("string"==typeof b){if(v.test(b))return m.filter(b,a,c);b=m.filter(b,a)}return m.grep(a,function(a){return m.inArray(a,b)>=0!==c})}m.filter=function(a,b,c){var d=b[0];return c&&(a=":not("+a+")"),1===b.length&&1===d.nodeType?m.find.matchesSelector(d,a)?[d]:[]:m.find.matches(a,m.grep(b,function(a){return 1===a.nodeType}))},m.fn.extend({find:function(a){var b,c=[],d=this,e=d.length;if("string"!=typeof a)return this.pushStack(m(a).filter(function(){for(b=0;e>b;b++)if(m.contains(d[b],this))return!0}));for(b=0;e>b;b++)m.find(a,d[b],c);return c=this.pushStack(e>1?m.unique(c):c),c.selector=this.selector?this.selector+" "+a:a,c},filter:function(a){return this.pushStack(w(this,a||[],!1))},not:function(a){return this.pushStack(w(this,a||[],!0))},is:function(a){return!!w(this,"string"==typeof a&&t.test(a)?m(a):a||[],!1).length}});var x,y=a.document,z=/^(?:\s*(<[\w\W]+>)[^>]*|#([\w-]*))$/,A=m.fn.init=function(a,b){var c,d;if(!a)return this;if("string"==typeof a){if(c="<"===a.charAt(0)&&">"===a.charAt(a.length-1)&&a.length>=3?[null,a,null]:z.exec(a),!c||!c[1]&&b)return!b||b.jquery?(b||x).find(a):this.constructor(b).find(a);if(c[1]){if(b=b instanceof m?b[0]:b,m.merge(this,m.parseHTML(c[1],b&&b.nodeType?b.ownerDocument||b:y,!0)),u.test(c[1])&&m.isPlainObject(b))for(c in b)m.isFunction(this[c])?this[c](b[c]):this.attr(c,b[c]);return this}if(d=y.getElementById(c[2]),d&&d.parentNode){if(d.id!==c[2])return x.find(a);this.length=1,this[0]=d}return this.context=y,this.selector=a,this}return a.nodeType?(this.context=this[0]=a,this.length=1,this):m.isFunction(a)?"undefined"!=typeof x.ready?x.ready(a):a(m):(void 0!==a.selector&&(this.selector=a.selector,this.context=a.context),m.makeArray(a,this))};A.prototype=m.fn,x=m(y);var B=/^(?:parents|prev(?:Until|All))/,C={children:!0,contents:!0,next:!0,prev:!0};m.extend({dir:function(a,b,c){var d=[],e=a[b];while(e&&9!==e.nodeType&&(void 0===c||1!==e.nodeType||!m(e).is(c)))1===e.nodeType&&d.push(e),e=e[b];return d},sibling:function(a,b){for(var c=[];a;a=a.nextSibling)1===a.nodeType&&a!==b&&c.push(a);return c}}),m.fn.extend({has:function(a){var b,c=m(a,this),d=c.length;return this.filter(function(){for(b=0;d>b;b++)if(m.contains(this,c[b]))return!0})},closest:function(a,b){for(var c,d=0,e=this.length,f=[],g=t.test(a)||"string"!=typeof a?m(a,b||this.context):0;e>d;d++)for(c=this[d];c&&c!==b;c=c.parentNode)if(c.nodeType<11&&(g?g.index(c)>-1:1===c.nodeType&&m.find.matchesSelector(c,a))){f.push(c);break}return this.pushStack(f.length>1?m.unique(f):f)},index:function(a){return a?"string"==typeof a?m.inArray(this[0],m(a)):m.inArray(a.jquery?a[0]:a,this):this[0]&&this[0].parentNode?this.first().prevAll().length:-1},add:function(a,b){return this.pushStack(m.unique(m.merge(this.get(),m(a,b))))},addBack:function(a){return this.add(null==a?this.prevObject:this.prevObject.filter(a))}});function D(a,b){do a=a[b];while(a&&1!==a.nodeType);return a}m.each({parent:function(a){var b=a.parentNode;return b&&11!==b.nodeType?b:null},parents:function(a){return m.dir(a,"parentNode")},parentsUntil:function(a,b,c){return m.dir(a,"parentNode",c)},next:function(a){return D(a,"nextSibling")},prev:function(a){return D(a,"previousSibling")},nextAll:function(a){return m.dir(a,"nextSibling")},prevAll:function(a){return m.dir(a,"previousSibling")},nextUntil:function(a,b,c){return m.dir(a,"nextSibling",c)},prevUntil:function(a,b,c){return m.dir(a,"previousSibling",c)},siblings:function(a){return m.sibling((a.parentNode||{}).firstChild,a)},children:function(a){return m.sibling(a.firstChild)},contents:function(a){return m.nodeName(a,"iframe")?a.contentDocument||a.contentWindow.document:m.merge([],a.childNodes)}},function(a,b){m.fn[a]=function(c,d){var e=m.map(this,b,c);return"Until"!==a.slice(-5)&&(d=c),d&&"string"==typeof d&&(e=m.filter(d,e)),this.length>1&&(C[a]||(e=m.unique(e)),B.test(a)&&(e=e.reverse())),this.pushStack(e)}});var E=/\S+/g,F={};function G(a){var b=F[a]={};return m.each(a.match(E)||[],function(a,c){b[c]=!0}),b}m.Callbacks=function(a){a="string"==typeof a?F[a]||G(a):m.extend({},a);var b,c,d,e,f,g,h=[],i=!a.once&&[],j=function(l){for(c=a.memory&&l,d=!0,f=g||0,g=0,e=h.length,b=!0;h&&e>f;f++)if(h[f].apply(l[0],l[1])===!1&&a.stopOnFalse){c=!1;break}b=!1,h&&(i?i.length&&j(i.shift()):c?h=[]:k.disable())},k={add:function(){if(h){var d=h.length;!function f(b){m.each(b,function(b,c){var d=m.type(c);"function"===d?a.unique&&k.has(c)||h.push(c):c&&c.length&&"string"!==d&&f(c)})}(arguments),b?e=h.length:c&&(g=d,j(c))}return this},remove:function(){return h&&m.each(arguments,function(a,c){var d;while((d=m.inArray(c,h,d))>-1)h.splice(d,1),b&&(e>=d&&e--,f>=d&&f--)}),this},has:function(a){return a?m.inArray(a,h)>-1:!(!h||!h.length)},empty:function(){return h=[],e=0,this},disable:function(){return h=i=c=void 0,this},disabled:function(){return!h},lock:function(){return i=void 0,c||k.disable(),this},locked:function(){return!i},fireWith:function(a,c){return!h||d&&!i||(c=c||[],c=[a,c.slice?c.slice():c],b?i.push(c):j(c)),this},fire:function(){return k.fireWith(this,arguments),this},fired:function(){return!!d}};return k},m.extend({Deferred:function(a){var b=[["resolve","done",m.Callbacks("once memory"),"resolved"],["reject","fail",m.Callbacks("once memory"),"rejected"],["notify","progress",m.Callbacks("memory")]],c="pending",d={state:function(){return c},always:function(){return e.done(arguments).fail(arguments),this},then:function(){var a=arguments;return m.Deferred(function(c){m.each(b,function(b,f){var g=m.isFunction(a[b])&&a[b];e[f[1]](function(){var a=g&&g.apply(this,arguments);a&&m.isFunction(a.promise)?a.promise().done(c.resolve).fail(c.reject).progress(c.notify):c[f[0]+"With"](this===d?c.promise():this,g?[a]:arguments)})}),a=null}).promise()},promise:function(a){return null!=a?m.extend(a,d):d}},e={};return d.pipe=d.then,m.each(b,function(a,f){var g=f[2],h=f[3];d[f[1]]=g.add,h&&g.add(function(){c=h},b[1^a][2].disable,b[2][2].lock),e[f[0]]=function(){return e[f[0]+"With"](this===e?d:this,arguments),this},e[f[0]+"With"]=g.fireWith}),d.promise(e),a&&a.call(e,e),e},when:function(a){var b=0,c=d.call(arguments),e=c.length,f=1!==e||a&&m.isFunction(a.promise)?e:0,g=1===f?a:m.Deferred(),h=function(a,b,c){return function(e){b[a]=this,c[a]=arguments.length>1?d.call(arguments):e,c===i?g.notifyWith(b,c):--f||g.resolveWith(b,c)}},i,j,k;if(e>1)for(i=new Array(e),j=new Array(e),k=new Array(e);e>b;b++)c[b]&&m.isFunction(c[b].promise)?c[b].promise().done(h(b,k,c)).fail(g.reject).progress(h(b,j,i)):--f;return f||g.resolveWith(k,c),g.promise()}});var H;m.fn.ready=function(a){return m.ready.promise().done(a),this},m.extend({isReady:!1,readyWait:1,holdReady:function(a){a?m.readyWait++:m.ready(!0)},ready:function(a){if(a===!0?!--m.readyWait:!m.isReady){if(!y.body)return setTimeout(m.ready);m.isReady=!0,a!==!0&&--m.readyWait>0||(H.resolveWith(y,[m]),m.fn.triggerHandler&&(m(y).triggerHandler("ready"),m(y).off("ready")))}}});function I(){y.addEventListener?(y.removeEventListener("DOMContentLoaded",J,!1),a.removeEventListener("load",J,!1)):(y.detachEvent("onreadystatechange",J),a.detachEvent("onload",J))}function J(){(y.addEventListener||"load"===event.type||"complete"===y.readyState)&&(I(),m.ready())}m.ready.promise=function(b){if(!H)if(H=m.Deferred(),"complete"===y.readyState)setTimeout(m.ready);else if(y.addEventListener)y.addEventListener("DOMContentLoaded",J,!1),a.addEventListener("load",J,!1);else{y.attachEvent("onreadystatechange",J),a.attachEvent("onload",J);var c=!1;try{c=null==a.frameElement&&y.documentElement}catch(d){}c&&c.doScroll&&!function e(){if(!m.isReady){try{c.doScroll("left")}catch(a){return setTimeout(e,50)}I(),m.ready()}}()}return H.promise(b)};var K="undefined",L;for(L in m(k))break;k.ownLast="0"!==L,k.inlineBlockNeedsLayout=!1,m(function(){var a,b,c,d;c=y.getElementsByTagName("body")[0],c&&c.style&&(b=y.createElement("div"),d=y.createElement("div"),d.style.cssText="position:absolute;border:0;width:0;height:0;top:0;left:-9999px",c.appendChild(d).appendChild(b),typeof b.style.zoom!==K&&(b.style.cssText="display:inline;margin:0;border:0;padding:1px;width:1px;zoom:1",k.inlineBlockNeedsLayout=a=3===b.offsetWidth,a&&(c.style.zoom=1)),c.removeChild(d))}),function(){var a=y.createElement("div");if(null==k.deleteExpando){k.deleteExpando=!0;try{delete a.test}catch(b){k.deleteExpando=!1}}a=null}(),m.acceptData=function(a){var b=m.noData[(a.nodeName+" ").toLowerCase()],c=+a.nodeType||1;return 1!==c&&9!==c?!1:!b||b!==!0&&a.getAttribute("classid")===b};var M=/^(?:\{[\w\W]*\}|\[[\w\W]*\])$/,N=/([A-Z])/g;function O(a,b,c){if(void 0===c&&1===a.nodeType){var d="data-"+b.replace(N,"-$1").toLowerCase();if(c=a.getAttribute(d),"string"==typeof c){try{c="true"===c?!0:"false"===c?!1:"null"===c?null:+c+""===c?+c:M.test(c)?m.parseJSON(c):c}catch(e){}m.data(a,b,c)}else c=void 0}return c}function P(a){var b;for(b in a)if(("data"!==b||!m.isEmptyObject(a[b]))&&"toJSON"!==b)return!1;
@@ -1669,7 +1669,7 @@ $(document).ready(function () {
 </style>
 <script>
 $(document).ready(function () {
-  window.initializeSourceEmbed("Integrated Notes.Rmd");
+  window.initializeSourceEmbed("Integrated notes continued(1).Rmd");
   window.initializeCodeFolding("show" === "show");
 });
 </script>
@@ -1693,1107 +1693,238 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Concepts Notes</h1>
+<h1 class="title toc-ignore">R Notebook</h1>
 
 </div>
 
 
 <!-- rnb-text-begin -->
-<div id="genetics" class="section level1">
-<h1>Genetics</h1>
-<div id="basics" class="section level2">
-<h2>Basics</h2>
-<div id="course-outline" class="section level3">
-<h3>Course outline</h3>
-<ol style="list-style-type: decimal">
-<li>extension of Mendelian genetics</li>
-<li>Chromosomes structure and changes</li>
-<li>Vertebrate development</li>
-</ol>
+<div id="bacteria" class="section level2">
+<h2>Bacteria</h2>
+<p>There are often endospores within bacteria which can cause swelling changing shape.</p>
+<div id="plasiticty" class="section level3">
+<h3>Plasiticty</h3>
+<p>bacteria have the facility to adapt their environment by</p>
 </div>
-<div id="definitions" class="section level3">
-<h3>Definitions</h3>
+<div id="size." class="section level3">
+<h3>Size.</h3>
+<p>The average is about <span class="math inline">\(0.2-1.0\mu \text{x} 2-8\mu m\)</span> For example E. coli <span class="math inline">\(1.1-1.5\mu \text{x} 2-6\mu m\)</span></p>
+<div id="smallest." class="section level4">
+<h4>Smallest.</h4>
+<p><span class="math inline">\(100-300nm\)</span> range, and untramicrobacteria which are about <span class="math inline">\(50nm\)</span> in size. Very nutrient poor so do not mantain large cytoplasm.</p>
 </div>
+<div id="largest." class="section level4">
+<h4>Largest.</h4>
+<p>Bacteria Epulopiscium fishelsoni</p>
+<p><span class="math inline">\(80\mu m-600\mu m\)</span> (visible with the naked eye), about <span class="math inline">\(10^6\)</span> times larger in volume than most bacteria</p>
+<div id="reproduction" class="section level5">
+<h5>reproduction</h5>
+<p>produces daughter cells inside the mother, which then pop out through a slit.</p>
 </div>
-<div id="interactions-between-genes-alleles-and-phenotypes" class="section level2">
-<h2>Interactions between Genes, Alleles, and Phenotypes</h2>
-<div id="background" class="section level3">
-<h3>Background</h3>
-<div id="penetrance" class="section level4">
-<h4>Penetrance</h4>
-<p>percentage of the population who demonstrate at least some degree fo phenotypic expression.</p>
+<div id="addaptions" class="section level5">
+<h5>Addaptions</h5>
+<p>The key limitation to size is SA:V, as moviment of nutreints and gasses are by diffusion. This problem is overcome in part by massive invaginations of the surface membrane. (Additional problem of transporting proteins to membrane as membrane already covered in proteins.).</p>
+<p>It was thought that a partiular bacterium would have one copy of a bacterium, however in Epulopiscium fishelsoni cromosome nuber increases with size, also as transcription and translation are linked, if the gene is everywhere in the cell, then a protein can be produced anywhere in the cell and the need for sophisticated transport systems in removed. The number of copies of important genes can be in the hundered thousands, for example ribosomal RNA genes.</p>
 </div>
-<div id="expressivity" class="section level4">
-<h4>Expressivity</h4>
-<p>reflects the range of expressions of the gene/allele present in the population.</p>
-</div>
-<div id="genes" class="section level4">
-<h4>Genes</h4>
-<p>A gene is a collection/ group of alleles which could occur the same locus and which are associated with the same traits.</p>
-</div>
-</div>
-<div id="lethal-alleles" class="section level3">
-<h3>Lethal alleles</h3>
-<p>alleles which are incompatible with the organisms continued survival</p>
-<div id="dominance" class="section level4">
-<h4>dominance</h4>
-<p>most lethal alleles are recessive because dominant lethal alleles produce non functioning proteins only so any individual with even one of the dominant allele would be unlikely to survive to reproductive age, and so the Allele would very quickly be bread out of the population.</p>
-</div>
-</div>
-<div id="incomplete-dominance" class="section level3">
-<h3>Incomplete dominance</h3>
-<div id="genetic-molecular-cause" class="section level4">
-<h4>Genetic/ molecular cause</h4>
-<p>The recessive allele does not produce any functioning protein. The dominant allele does function protein but not in high enough quantities to result in the same phenotypic effect as a heterozygous dominant</p>
-</div>
-<div id="phenotypic-effect" class="section level4">
-<h4>phenotypic effect</h4>
-<p>A heterozygous individual will display a phenotype intermediate to that of homozygous dominant and homozygous recessive</p>
-</div>
-</div>
-<div id="dominance-1" class="section level3">
-<h3>Dominance</h3>
-<div id="geneticmolecular-cause" class="section level4">
-<h4>Genetic/molecular cause</h4>
-<p>The recessive allele does not produce any functioning protein. The dominant allele does function protein, which it produces in comparative amount to a homozygous dominant individual</p>
-</div>
-<div id="phenotypic-consequence." class="section level4">
-<h4>Phenotypic consequence.</h4>
-<p>the heterozygous phenotype is identical to that of the heterozygous dominant individual.</p>
-</div>
-</div>
-<div id="co-dominance" class="section level3">
-<h3>Co-dominance</h3>
-<div id="genetic-molecular-cause-1" class="section level4">
-<h4>Genetic/ molecular cause</h4>
-<p>Both alleles are transcribed/translated to form a functioning protein</p>
-</div>
-<div id="phenotypic-effect-1" class="section level4">
-<h4>phenotypic effect</h4>
-<p>The effect comes from the full expression of both alleles</p>
-</div>
-</div>
-<div id="dominance-hierarchies." class="section level3">
-<h3>Dominance hierarchies.</h3>
-<p>It is often the case that there will be a number of alleles for one gene. In which case a dominance hierarchy is usually present such that allele A is Dominant to B is dominant to C and so forth (ie dominance in a hierarchy is transitive)</p>
-</div>
-<div id="pleiotropy" class="section level3">
-<h3>Pleiotropy</h3>
-<p>Genetic/molecular cause One gene locus affects the expression of several characteristics. Phenotypic cause Phenotype of one characteristic will change in conjunction with the phenotype of another characteristic</p>
-</div>
-<div id="important-examples" class="section level3">
-<h3>Important examples</h3>
-<p>BG 2032</p>
-<div id="notes-about-colour" class="section level4">
-<h4>Notes about colour</h4>
-<p>As many genetic examples are based on colour it is worth understanding the basics of colouring in animals. colour results from pigments which are proteins, individual genes can either code directly for the production of these proteins or as an intermediate/enzyme which aids in the production of these proteins.</p>
-<div id="white" class="section level5">
-<h5>White</h5>
-<p>White does not result from a specific pigment but rather from a lack of pigment.</p>
-</div>
-<div id="co-dominance-and-incomplete-dominance" class="section level5">
-<h5>Co-dominance and Incomplete dominance</h5>
-<p>A co-dominant colour combination can look like an intermediate if it is the combination of two pigments, however in the case where one of the phenotypes is white then a intermediate can only be a result of incomplete dominance</p>
+<div id="thiomargarita-namibiensis" class="section level5">
+<h5>Thiomargarita namibiensis</h5>
+<p>very large volume.</p>
+<div id="addaptations" class="section level6">
+<h6>Addaptations</h6>
+<p>cytoplasm is filled with vacules so minimal depth of cytoplasm from any point. Epulopiscium fishelsoni requires nutrient dense envoronment so lives in fish and floats around to find nutrinet dense areas.</p>
+<p>The other advatage of size is that it hep avoid (protozoan) predation.</p>
 </div>
 </div>
 </div>
-<div id="sex-linked-traits" class="section level3">
-<h3>Sex linked traits</h3>
-<div id="sex-limited-traits" class="section level4">
-<h4>Sex limited traits,</h4>
 </div>
 </div>
+<div id="structure-and-function" class="section level2">
+<h2>Structure and function</h2>
+<p>NOTE: Not all strucures are found in all bacteria. Some structures are specific to specific bacteria some are specific to the bacteriums environment, ie parasitic only produce a capsule when they encouter a host immune responce.</p>
+<p>(Copy image of bacteria)</p>
+<p>NOTE: cytoplasm is actually packed/ very full of consitituents.</p>
+<div id="plasma-membrane." class="section level3">
+<h3>Plasma membrane.</h3>
+<p>they are the main contanct point between the cell and its surroundings. functions splits internal and external environment in its capacity as a boundary layer, and allows the exchange of matter and information between the internal and external environment.</p>
+<p>NOTE: bacteria are very plastic in their responce to the environment inproving energy effeciency</p>
+<div id="fliud-mozaic-model" class="section level4">
+<h4>Fliud mozaic model</h4>
+<p>Phospholipids+ intergral and poriferal properties.</p>
+<div id="membrane-associated-lipids" class="section level5">
+<h5>Membrane associated lipids</h5>
+<p>Amphiphatic, (hydrophilic and hydrophobic groups associated with them), most of these lipids are phospholipids, they spontaeously arrange with phosphate head by water to form low energy micelles or bilayers.</p>
+<p>Phospholipids are diverse and complex groups. Phosphatidylethanolamine (75%) phosphatidylglycerol (20%) cardiolipin (diphosphatidylglycerol, 1-5%)</p>
+<p>Important as they confer strength, and spread out overall negative charge of the plasma membrane and cardiolin can play a role are a shaperone, helps lactase permease flod correctly in the membrane.</p>
+<p>For a particular species of phospholipid the fluidity is adjuseted by saturation/desaturation of tails, to fit the requirements of the external environment.</p>
+<p>Lipids can also flip between leaflets of the membrane, there are porteins flipases (out to in), flopases (in to out) require ATP, and scamblases (exchange) do not require ATP. Related to adaptions to environmental changes such as temperature (with season).</p>
+<p>NOTE:membrane is packed with proteins, espcially in bacteria which require membrane porteins for energy production, this applies especially ot bacteria with less effecient respiration processes.</p>
 </div>
-<div id="genetic-basis-of-disease." class="section level2">
-<h2>Genetic basis of disease.</h2>
-<div id="phenylketonuria" class="section level3">
-<h3>Phenylketonuria</h3>
-<p>single mutation can affect brain development however if the correct diet is followed then all detrimental health consequences can be ignored.</p>
-</div>
-<div id="diabetes-type-ii" class="section level3">
-<h3>diabetes type II</h3>
-<p>lifestyle disease, the genetic component is estimated to change the likelihood of developing the disease by 2%, but the main causative factors of the disease relate to diet.</p>
-</div>
-<div id="lactose-intolerance." class="section level3">
-<h3>Lactose intolerance.</h3>
-<p>Individuals with lactose intolerance cant digest lactose, however the bacteria in their gut van which leads to the build up of gas. this can be very painful for the person in question.In humans lactose intolerance would naturally occur after weening however as cow milk is a staple part of most human diabetes the genes controlling lactase production are never switched off and the ability to digest lactose is not normally lost.</p>
-</div>
-<div id="cancer" class="section level3">
-<h3>Cancer</h3>
-</div>
-<div id="hereditary." class="section level3">
-<h3>Hereditary.</h3>
-<p>Cancer normally sets in during old age as cells must accumulate a series of a specific set of notations, (exactly which set of mutations accumulated lead to cancer is highly individual)</p>
-<div id="environmental-factors" class="section level4">
-<h4>Environmental factors</h4>
-<ol style="list-style-type: decimal">
-<li>UV</li>
-<li>X rays</li>
-<li>Alcohol</li>
-<li>Overcooked food (hetercyclic amines,polycyclic aromatic hydrocarbons-meat. acrylamide- potatoes</li>
-<li>Azo dyes</li>
-<li>tartrazine (food colourants)</li>
-<li>Nitrate cured foods</li>
-<li>Pesticides</li>
-</ol>
-</div>
-<div id="cancer-initiators" class="section level4">
-<h4>Cancer initiators</h4>
-<p>agents which cause DNA damage (mutagens). these factors may be chemical, biological (such as HPV- human papilloma virus cause latent genetic damage- Cancer predisposition.</p>
-</div>
-<div id="cancer-promoters" class="section level4">
-<h4>Cancer Promoters</h4>
-<p>Promotes excessive proliferation (does not directly damage DNA).</p>
-<div id="examples" class="section level5">
-<h5>Examples</h5>
-<ol style="list-style-type: decimal">
-<li>wounding</li>
-<li>phorbol esters</li>
-<li>HRT/ oestrogen (breast cancer)</li>
-<li>hepatitis B (promotes stomach cancer)</li>
-<li>HIV (Kaposi sarcoma, this disease is always present but only manifests itself in immunocompromised individuals)</li>
-</ol>
-</div>
-</div>
-<div id="stages-of-cancer-development" class="section level4">
-<h4>stages of cancer development</h4>
-<ol style="list-style-type: decimal">
-<li>normal cells (mutation occcurs)</li>
-<li>increased ability to proliferate (mutation)</li>
-<li>1-2mm tumour of rapidly proliferating cells which do not undergo apoptosis of differentiation. (mutation)</li>
-<li>vascularized growing tumour (mutation)</li>
-<li>large tumour capable of invading near by tissue (metastasis)</li>
-</ol>
-<p>NOTE: cancer results from a series of somatic mutations, affecting the same cell, and different cancers are genetically heterogeneous.</p>
-</div>
-<div id="genetic-instability-in-cancers." class="section level4">
-<h4>Genetic instability in cancers.</h4>
-<p>deficient local DNA repair leads to the accumulation of point mutations increased chromosomal instability and gross genome abnormalities.</p>
-</div>
-<div id="summary-of-key-properties" class="section level4">
-<h4>summary of key properties</h4>
-<ol style="list-style-type: decimal">
-<li>disregards ex/in growth regulation signals.</li>
-<li>avoid apoptosis, differentiation and replicative senescence</li>
-<li>genetically unstable.</li>
-<li>invasive</li>
-<li>metastatic (survive and proliferate in foreign) sites.</li>
+<div id="glycolipids" class="section level5">
+<h5>Glycolipids</h5>
+<p>Glyco lipds are defined as lipids with a carbohydrate attach, but very hetrogenous grouping.</p>
+<div id="functions" class="section level6">
+<h6>Functions</h6>
+<ol>
+<li>Help to stabalise the plasma membrane (protective function)</li>
+<li>Important in cell-cell interactions
+<ol>
+<li>Adhession. (contanct inhebition, muslces, desosomes etc)</li>
+<li>identification (the flip side is that is can be recognised by the host immue system).</li>
+<li>assist in signal transduction.</li>
+</ol></li>
 </ol>
 </div>
 </div>
 </div>
-<div id="genetic-complementation" class="section level2">
-<h2>Genetic complementation</h2>
-<p>two different mutations in heterozygous condition affecting the same protein/ pathway can compliment each other to cause a novel phenotypic effect.</p>
-<div id="examples-1" class="section level5">
-<h5>examples</h5>
-<p>rare form of albinism: both mother and father were normally pigmented and there families had minimal instances of albinism. however both children where albino’ s . Analysis found that this albinism stemmed not from those genes and mutation most commonly associated with albinism but rather from a combination of recessives (heterozygous) from both father and mother (mutations in TYRP1 gene), which on their own would have little or no effect on the pigment production pathway, but when combined reduced pigment production significantly.</p>
-<p>NOTE: Rufus albinism leads to a phenotype with reddish hair, lighter skin, and blue grey eyes.</p>
+<div id="transport-systems" class="section level4">
+<h4>Transport systems</h4>
+<p>A transport system is required to mmove across the plasma membrane, could be for toxins such as bacteriosin which attach other bacteria in the environment, They can also trap food outside the PM to prevent its loss. Furthermore important metabolic functions such as photosynthesis and respiration involve the plasma membrane. Motility is also assoicated with plasma membrane associated structures, and the systhesis of many important chemicals.</p>
+<p>NOTE: bacteria can distinguish which host they are infecting and can addapt accordingly.</p>
+<div id="consitituents" class="section level6">
+<h6>Consitituents</h6>
+<p>polar head + nonpolar tail.</p>
+</div>
+<div id="integral-membran-proteins." class="section level5">
+<h5>Integral membran proteins.</h5>
+<p>make up about 60-70% of membrane proteins.</p>
+<div id="ease-of-removal." class="section level6">
+<h6>Ease of removal.</h6>
+<p>tend to be relively difficult to remove in aquos environments (as low solubility). Such proteins are ususally embedded deeply, some may span the entire membrane. To span the membrane they must be amphiphathic (otherwise would flip into the membrane). By diffusion proteins can move within the plasmam membrane,</p>
 </div>
 </div>
-<div id="forked-line-probability-method." class="section level2">
-<h2>Forked line probability method.</h2>
-<div id="basics-1" class="section level4">
-<h4>basics</h4>
-<p>A cancer is a group of cells whose proliferation is uncontrolled, and which can spread to other locations in the body which are normally populated bu other cell types.</p>
-<div id="benigin-tumours" class="section level5">
-<h5>benigin tumours</h5>
-<p>grow but do not spread.</p>
-</div>
-<div id="malignant-tumours" class="section level5">
-<h5>malignant tumours</h5>
-<p>over proliferate and invade other body tissues/ areas in the body.</p>
+<div id="periferal-proteins." class="section level5">
+<h5>Periferal proteins.</h5>
+<p>20-30%</p>
+<div id="ease-of-removal" class="section level6">
+<h6>Ease of removal</h6>
+<p>relatively easieir to remove, as they are on the outside, and more soluble in aqeous environments.</p>
+<p>(Copy image of the plasma membrane. )</p>
+<p>NOTE: there is no reason for the tails to allig between layers.</p>
 </div>
 </div>
-<div id="types-of-cancers" class="section level4">
-<h4>types of cancers</h4>
-<div id="carcinomas" class="section level5">
-<h5>Carcinomas</h5>
-<p>derived form epithelial cells</p>
-</div>
-<div id="sarcomas" class="section level5">
-<h5>Sarcomas</h5>
-<p>derived from connective or muscle tissues. Known as Osteosarcoma in the case of bone tissue and Kaposi sarcoma in the case of soft connective tissue.</p>
-</div>
-<div id="lymphoma-and-leukaemias" class="section level5">
-<h5>Lymphoma and leukaemias</h5>
-<p>1 . Cancers of the hematopoietic system. 2. Lymphoma (solid tumour) 3. Leukaemia excess of circulating immature blood cell precursors. ##### Cancer of the nervous system brain and central nervous system.</p>
-<p>NOTE: most common in children</p>
-</div>
-<div id="germ-line-cancer." class="section level5">
-<h5>Germ-line cancer.</h5>
-</div>
-<div id="cancers-of-breast-prostate-lung-pancreas-and-colon." class="section level5">
-<h5>Cancers of breast, prostate, lung, pancreas, and colon.</h5>
+<div id="s-layer" class="section level5">
+<h5>S layer</h5>
+<p>additional very strong outer layer fomed on membrane</p>
 </div>
 </div>
-<div id="causes-of-cancer." class="section level4">
-<h4>Causes of cancer.</h4>
-<p>I n most cases cancer is not inherited. In breast cancer/ovarian cancer BS1, BS2 play some role in genetic disposition, perhaps 5-10%</p>
+</div>
+<div id="cell-wall" class="section level3">
+<h3>Cell wall</h3>
+<p>The majority of bacteria posses a cell wall.</p>
+</div>
+<div id="nucleiod" class="section level3">
+<h3>Nucleiod</h3>
+</div>
+<div id="gas-vacoules." class="section level3">
+<h3>Gas Vacoules.</h3>
+</div>
+<div id="inclusion-bodies" class="section level3">
+<h3>Inclusion bodies</h3>
+</div>
+<div id="robosomes." class="section level3">
+<h3>Robosomes.</h3>
+</div>
+<div id="cell-enveope." class="section level3">
+<h3>Cell enveope.</h3>
+<p>contains the outer membrane(where present) the cell wall and the cell memberane</p>
+</div>
+<div id="external" class="section level3">
+<h3>External</h3>
+<p>Appendages. …?</p>
+</div>
+<div id="internal-membrane-system." class="section level3">
+<h3>Internal membrane system.</h3>
 </div>
 </div>
-<div id="chromosome-level-genetics" class="section level2">
-<h2>Chromosome level genetics</h2>
-<p>(re vise mitosis and meosis) copy slides</p>
-<div id="background-1" class="section level3">
-<h3>Background</h3>
-<div id="chromosome-basic-structure" class="section level4">
-<h4>Chromosome basic structure</h4>
-</div>
-<div id="chromosome-groups" class="section level4">
-<h4>Chromosome groups</h4>
-<div id="meta-centric" class="section level5">
-<h5>meta-centric</h5>
-<p>centromere is half way up the length of the chromosome</p>
-</div>
-<div id="submetacentric" class="section level5">
-<h5>submetacentric</h5>
-<p>centromere is more to the one side of the chromosome than the other,</p>
-</div>
-<div id="acrocentric" class="section level5">
-<h5>Acrocentric</h5>
-<p>the centromere is very far to the one side of the chromosome, with a long arm containing most of the genes and a short arm containing predominantly temolmeric DNA.</p>
-</div>
-<div id="telocentric" class="section level5">
-<h5>Telocentric</h5>
-<p>humans do not posses any telocentric chromosomes, but certain insect of crustation species do.</p>
-</div>
-<div id="holocentric" class="section level5">
-<h5>Holocentric</h5>
-<p>Centromere like structure exist along the entire length of the chromosome. this may decrease the chances of faulty division/ segregation.</p>
-</div>
-</div>
-<div id="chromosome-banding" class="section level4">
-<h4>Chromosome banding</h4>
-<p>bands were named and used to locate specific genes. the banding patterns are due to uneven DNA densities in the coiled structure of the chromosome.</p>
-</div>
-</div>
-<div id="chromosome-level-mutations" class="section level3">
-<h3>Chromosome level mutations</h3>
-<div id="aneuploidy-spelling" class="section level4">
-<h4>Aneuploidy (Spelling)</h4>
-<p>Each cell is has at least one extra chromosome or is missing at least one chromosome</p>
-<div id="trisomy" class="section level5">
-<h5>Trisomy</h5>
-<p>when an individual inherits three copies of a particular chromosome. In Humans only three of all the possible trisomies are viable, (as in individuals with these mutations will still be born and not terminated during pregnancy)</p>
-<p>of these three (Trisomy 13, 18, and 21) only individuals with trisomy 21 can survive past the first few years of childhood. Individuals with Trisomy 21 have down syndrome.</p>
-<div id="down-syndrome-trisomy-21" class="section level6">
-<h6>Down syndrome (Trisomy 21)</h6>
-<p>Frequency: 1/1000 Effects 1. mental retardation 2. short stature 3. heart disease 4. shortened life span.</p>
-</div>
-<div id="edward-syndrome-trisomy-18" class="section level6">
-<h6>Edward Syndrome (Trisomy 18)</h6>
-<p>Effects: 1. kidney and intestinal malformation 3. heart defects. 4. mental retardation</p>
-<p>NOTE: only 8% survival past the first year.</p>
-</div>
-<div id="patua-syndrome-trisomy-13" class="section level6">
-<h6>Patua syndrome (Trisomy 13 )</h6>
-<p>Effects: 1. Kidney and hear defects 2. polidactily (too many digits) 3. Nervous system abnormalities 4. Death within the 1st year.</p>
-<p>NOTE: the smaller relative size of chromosome 21, meaning that it contains less important genes may be related to its increased viability .</p>
-</div>
-</div>
-<div id="monosomy" class="section level5">
-<h5>Monosomy</h5>
-<p>when an individual inherits only one copy of a particular chromosome.</p>
-</div>
-<div id="nullisomy" class="section level5">
-<h5>Nullisomy</h5>
-<p>having no copies of a particular chromosome.</p>
-</div>
-</div>
-<div id="polyploidy" class="section level4">
-<h4>Polyploidy</h4>
-</div>
-<div id="structural-rearrangements" class="section level4">
-<h4>Structural rearrangements</h4>
-<ol style="list-style-type: decimal">
-<li>deletion</li>
-<li>duplication</li>
-<li>translocation</li>
-<li>inversion</li>
-<li>fission</li>
-<li>fusion</li>
-</ol>
-</div>
-<div id="non-disjuncture" class="section level4">
-<h4>non disjuncture</h4>
-<p>(review mitosis and meiosis) If non disjuncture happens in meiosis it is generally worse than if it happens in mitosis as it will affect the whole organism.</p>
-<div id="down-syndrome" class="section level5">
-<h5>Down Syndrome</h5>
-<p>occurs in about 1 of a thousand live births. originates from non disjunction in the egg cell rather than the sperm cell because the arrested development of the egg cells leads to decay of the separating and marking proteins as well as the spindle fibre leaving the whole process open to more error. 8% of individuals survive for one year ?</p>
-</div>
-<div id="turner-syndrome-monosomy-x" class="section level5">
-<h5>turner Syndrome monosomy X</h5>
-<p>Frequency 1/20 000 (only occurs in females ) Effects: 1. webbed neck 2. short stature 3. underdeveloped ovaries and lack of secondary sex characteristics.</p>
-</div>
-<div id="klinefelter-syndrome-xxy" class="section level5">
-<h5>Klinefelter syndrome XXY</h5>
-<p>Too many X’s ,XXY , XXXY, XXXXY, XXXXXY. (XXYY) Effects: 1. Decrease in testosterone levels 2. the more X’s the higher the chance of brain damage.</p>
-</div>
-<div id="xyy" class="section level5">
-<h5>XYY</h5>
-<p>XYY has the phenotype of a normal make. men with 2 Y chromosomes tend to be tall as there is a cumulative effect adding to height. (they may also exhibit increased aggression but this in unclear)</p>
-</div>
-<div id="xxx" class="section level5">
-<h5>XXX</h5>
-<p>Frequency: 1/1000 Effects: 1. Normal female with normal fertility.</p>
-<p>NOTE: this conditions is seldom diagnosed.</p>
-</div>
-</div>
-<div id="polyploidy-1" class="section level4">
-<h4>Polyploidy</h4>
-<p>Three or more complete sets of chromosomes present in somatic cells. #### 2n-20n caused by non reduced gamete fomration, which is very rare in males and non viable.</p>
-<p>most often flowering plants are polyploid, they are even specifically breed to have more chromosome sets as this usually increases fruit and flower size.</p>
-<div id="examples-2" class="section level5">
-<h5>Examples</h5>
-<p>water melon must be bread from a tetraploid(?) and a diploid to get a tripliod infertile plant.</p>
-<p>Kiwi fruit 12-16 copies</p>
-<p>Strawberries 4 copies (tetraploid)</p>
-<p>Frogs <em>Xenopis levis</em> 4n <em>Xenopus tropicalis</em> 2n</p>
-<p>NOTE: plants are better adapted to polyploid because: 1. they are not as confined to a set physical form so different in growth and development genes operation levels are not so important 2. they can reproduce vegetatively so polyploid individuals aren’t as severely evolutionarily disadvantaged. 3. less precise sperm targeting is necessary.</p>
-</div>
-</div>
-<div id="deletions" class="section level4">
-<h4>Deletions</h4>
-<p>deletions often occur by chromosome breakage during the cell cycle. These deletions may be terminal of interstitial. If the centromere is lost, the entire chromosome will be lost.</p>
-<div id="piece-of-chrome" class="section level5">
-<h5>Piece of Chrome</h5>
-<p>sometimes multiple genes are lost when both strands break and a part of the chromosome is permanently lost. A specific deletion on chromosome 5. (where the entire p arm is deleted leads to a serious syndrome)</p>
-</div>
-<div id="cri-du-chat-5p-" class="section level5">
-<h5>Cri du chat (5p-)</h5>
-<p>Frequency: 1/20000-50000 Effects: 1. Intellectual disability, 2. low muscle tone 3. microcephaly 4. distinctive facial features. 5. normal life expectancy</p>
-</div>
-</div>
-<div id="duplications" class="section level4">
-<h4>Duplications</h4>
-<p>Cause: retro transposition, or non-allelic homologous recombination in repeat rich areas.</p>
-<p>A small region of a chromosome is repeated, and placed next to the existing copy (in tandem). duplications tend to happen in high repetitive sequences of DNA. These repeated regions mean that the chromosome will note line up very well with its homologous pair.</p>
-<p>passed on by unequal order, and may or may not have a phenotypic effect.</p>
-</div>
-<div id="huntington-purea" class="section level4">
-<h4>Huntington Purea</h4>
-<p>Repeats alter gene function, which can lead to brain damage. Repeats may have a positive effect because they allow one copy of a gene to evolve independently, specialise in a different function while the original function is still conserved by the other copy of the gene.</p>
-</div>
-<div id="inversions." class="section level4">
-<h4>Inversions.</h4>
-<p>Cause: non-allelic homologous recombination Effects: 1. pairing in meiosis occurs via looping 2. cross over in the looped region can cause major deletions or duplications.</p>
-</div>
-<div id="translocation" class="section level4">
-<h4>Translocation</h4>
-<p>Effects: 1. novel chromosomes are generated 2. individuals are usually infertile. 3. can result in aneuploidy (such as 14q21q inherited down syndrome) 4.</p>
-<div id="terminal" class="section level5">
-<h5>terminal</h5>
-<p>A piece breaks off a chromosome and sticks to the end of a non-homologous chromosome.</p>
-</div>
-<div id="reciprocal" class="section level5">
-<h5>reciprocal</h5>
-<p>Exchange of pieces between non-homologous chromosomes #### Robertsonian</p>
-<p>two Acrocentric chromosomes lose their short arms and get stuck together.</p>
-</div>
-</div>
-<div id="fission" class="section level4">
-<h4>Fission</h4>
-<p>deletion (loss of acentric piece)’</p>
-</div>
-<div id="fusion" class="section level4">
-<h4>Fusion</h4>
-<p>bicentric chromosomes (breakage in mitosis)</p>
-<div id="breakage-fusion-bridge-cycles-in-cancer." class="section level5">
-<h5>breakage fusion bridge cycles in cancer.</h5>
-<p>Copy image. 1. end of a chromosome breaks off (during meiosis) 2. one daughter cell inherits the chromosome lacking a telomere. 3. the new cell enters S phase and replicates its DNA (it now has two sticky DNA ends right next to each other. ) 4. loose DNA strands bind to form continuous DNA loop. 5. fused sister chromatids are pulled apart during mitosis, causing breakage at a new sight 6. one daughter cell inherits chromosome with duplicated genes and again a free sticky end. this cycle can then begin again leading to even further chromosome distortion.</p>
-</div>
-</div>
-<div id="imprinting" class="section level4">
-<h4>Imprinting</h4>
-<div id="hinny-vs-mule" class="section level5">
-<h5>Hinny vs mule</h5>
-<div id="mule" class="section level6">
-<h6>Mule</h6>
-<p>horse mother donkey father hardy and obedient</p>
-</div>
-<div id="hinny" class="section level6">
-<h6>Hinny</h6>
-<p>donkey mother, horse father. temperamental, untrainable.</p>
-</div>
-</div>
-<div id="intersistial-deletion-of-chromosome-15" class="section level5">
-<h5>Intersistial deletion of chromosome 15</h5>
-<div id="prader--willi-syndrome" class="section level6">
-<h6>Prader -Willi syndrome</h6>
-<p>Cause: deletion from father, ZNF127 and IPW inactivated on the maternal copy.<br />
-effects: 1. mental retardation 2. obesity 3. diminished growth.</p>
-</div>
-<div id="angelman-syndrome" class="section level6">
-<h6>Angelman syndrome</h6>
-<ol style="list-style-type: decimal">
-<li>deletion from mother: UBE3A inactivated on paternal copy.<br />
+<div id="gram-staining." class="section level2">
+<h2>Gram staining.</h2>
+<p>The gram cell is able to differentate between two major structure types based on their ability to maintan the porimary stain in the presence of the de-colorisor. Gram staining is bar far the most important staining in bacteriology. staining is also related to differences in the lipids.</p>
+<div id="process" class="section level3">
+<h3>Process</h3>
+<ol>
+<li>Crystal violet.<br />
 </li>
-<li>mental retardation</li>
-<li>epilepsy</li>
-<li>lack of motor development.</li>
+<li>Grams iodine. (Helps crystal violet to stick to the cell wall. )</li>
+<li>alcohol (decolorize), gram nevative cells are decolorised, gram positive cellsa re not.</li>
+<li>Safranin (red due )</li>
 </ol>
-</div>
-</div>
-</div>
-<div id="x-inactivation" class="section level4">
-<h4>X inactivation</h4>
-<p>the inactivation of one of two X chromosomes in females via DNA methylation.</p>
-<p>NOTE: which X chromosome is inactivated varies randomly from cell to cell.this inactivation process turns the inactive X into a bar body, (highly methylated and rolled up in histone proteins).</p>
-</div>
-<div id="frog-colour" class="section level4">
-<h4>Frog colour</h4>
-<div id="details" class="section level5">
-<h5>details</h5>
-<p>the skin colour of a certain from is controlled by one allele. There are three different phenotypes observed, these are red, blue, and purple.</p>
-</div>
-<div id="explanation" class="section level5">
-<h5>explanation</h5>
-<p>This is an example of co-dominance as the purple colour comes from a combination of the red and blue pigments. that is both red and blue pigments have been produced. We can conclude that the purple from is heterozygous, the blue frog is homozygous blue and the red frog is homozygous red.</p>
-</div>
-</div>
-<div id="fruit-flies-eye-colour." class="section level4">
-<h4>Fruit flies eye colour.</h4>
-<div id="details." class="section level5">
-<h5>details.</h5>
-<p>the colour of fruit flies eyes is determined by two gene loci. a fly with dominant alleles at the red locus will be red eyed, while a fly with dominant alleles at the brown locus will be brown eyed. However a fly with both dominant brown and cinnabar will be white eyed.</p>
-</div>
-<div id="explanation-1" class="section level5">
-<h5>explanation</h5>
-<p>the white eyed phenotype is due to a form of inhibition similar to epistasis stops either of the pigments form being produced if both pigment genes are present.</p>
-</div>
-</div>
-<div id="rabbit-skin-colour" class="section level4">
-<h4>Rabbit Skin Colour</h4>
-<div id="details-1" class="section level5">
-<h5>details</h5>
-<p>the skin colour of rabbits is determined by one gene locus, which has four possible Alleles. All alleles code for the enzyme tyrosinase which acts to convert tyrosine into dopamine a critical first set in the production of hair pigment.</p>
-<div id="non-functional" class="section level6">
-<h6>#1 non functional</h6>
-<p>The most recessive Allele codes for a nonfunctioning version of tyrosinase leading to albino rabbit.</p>
-</div>
-<div id="heat-sensitive" class="section level6">
-<h6>#2 heat sensitive</h6>
-<p>The next most recessive allele codes for a heat inactivated version of tyrosine meaning that the final colour of the rabbits fur will depend on the temperature conditions it was raised in, and also that within a certain temperature range there will be a distinct colour difference between the warmer and colder parts of the animal.</p>
-</div>
-<div id="localised-functionality" class="section level6">
-<h6>#3 localised functionality</h6>
-<p>The next most recessive allele codes for a version of tyrosinase does not fold quite “correctly” and as such does not glycosalate in the same way as the dominant version. melanocytes which produce the grey pigment will still accept this tyrosinase into their cytoplasm and as such grey pigment will be produced. however as intracellular transport is affected the tyrosinase either cannot reach or cannot enter melanocytes capable of producing the brown pigments and so they rabbits are full grey</p>
-</div>
-<div id="fully-functional" class="section level6">
-<h6>#4 fully functional</h6>
-<p>the most dominant allele codes for a fully functional form of tyrosinase and the combination of grey and orange pigments produced gives the rabbits a full brown coat.</p>
-</div>
-</div>
-</div>
-<div id="human-blood-types." class="section level4">
-<h4>human Blood types.</h4>
-</div>
-<div id="details-2" class="section level4">
-<h4>details</h4>
-<p>human blood types are determined by one gene locus with three alleles. allele O is recessive, and codes for no functioning protein. allele A and B are co dominant and each code for different sugars which are attached to the outside of red blood cells.</p>
-</div>
-<div id="bombay-phenotype" class="section level4">
-<h4>Bombay phenotype</h4>
-<div id="details-3" class="section level5">
-<h5>details</h5>
-<p>parents A and AB, child O, mates with A, results B, AB and O.</p>
-</div>
-<div id="explanation-2" class="section level5">
-<h5>explanation</h5>
-<p>A and B sugars are attached to red blood cells by appending them onto the end of glycoproteins called Substance H which are already attached to the cell. If a individual is homozygous recessive for substance H genes, none will be produced and so even if the have A or B alleles they will have a functionally O phenotype.</p>
-</div>
-</div>
-<div id="sex-chromosomes" class="section level4">
-<h4>sex chromosomes</h4>
-<p>lethal alleles, or alleles linked with low fertility located on the Y chromosome in humans are very rare. disease related to homozygous XX are more likely to be suffered by woman, as they will have one working copy of the given gene so they can survive but one defective copy which leads to the illness. males on the other hand will either survive and be entirely healthy with a working copy or die, if they are even born if they have only a defective copy.</p>
-<div id="lethal-dominants" class="section level5">
-<h5>lethal dominants</h5>
-<p>lethal dominants may occur in one of two cases. First, if the onset of the disease/ defect related to the Allele only occurs after reproductive age. Secondly if a De Novo (random, once off) DNA mutation occurs in a given individual. lethal dominants can also result from an Allele which interferes with the formation of aggregates of the protein which the gene codes for, or receptors of that protein,or finally if it has a detrimental effect on another protein or gene (such as the yellow mice)</p>
-</div>
-</div>
-<div id="examples-3" class="section level4">
-<h4>examples</h4>
-<div id="yellow-mice." class="section level5">
-<h5>Yellow Mice.</h5>
-</div>
-<div id="details-4" class="section level5">
-<h5>details</h5>
-<p>Y allele codes for the yellow coloured pigment. y codes for other pigment/no pigment. Y is a lethal Dominant(?) Allele. As a YY individual with not develop bast the early stages of implantation into the uterine wall.</p>
-</div>
-<div id="moleculargenetic-explanation" class="section level5">
-<h5>molecular/genetic explanation</h5>
-<p>When the Y allele is present at the gene loci it causes a deletion in which, its own gene promoter, as well as the coding sequence of the gene upstream of it(the MERC gene necessary in RNA processing) are removed. the net result being that proteins relating to the gene upstream are no longer removed, and the pigment gene is now promoter by the MERC promoter instead of its own promoter</p>
-</div>
-<div id="result-and-phenotype" class="section level5">
-<h5>Result and Phenotype</h5>
-<p>the result is that Yy individual still produce enough RNA processing proteins to survive/ avoid miscarriage,but they are more susceptible to diseases such as obesity and cancer. Also their yellow pigment gene is promoted heavily during early development leading to yellow coloured fur. YY miscarriages early in pregnancy as it cant produce necessary RNA processing proteins. yy is health individual without yellow colour. birth rations will be skewed by the fact that YY individuals are not actually born. NOTE: this is an example of incomplete dominance of Y with respect to MERC.</p>
-</div>
-</div>
-</div>
-<div id="effective-of-the-environment-on-genetic-expression." class="section level3">
-<h3>Effective Of the environment on genetic expression.</h3>
-<div id="examples-4" class="section level4">
-<h4>examples</h4>
-<p>Myopia(short sightedness):</p>
-<p>Populations where book learning is not inforced/encouraged from an early age do not show high rates of myopia even though the genetic dispostion between the two populations is very similar.</p>
-</div>
-</div>
-<div id="phenylketonuria-1" class="section level3">
-<h3>Phenylketonuria</h3>
-<p>single mutation can affect brain development however if the correct diet is followed then all detrimental health consequences can be ignored.</p>
-</div>
-<div id="diabetes-type-ii-1" class="section level3">
-<h3>Diabetes type II</h3>
-<p>lifestyle disease, the genetic component is estimated to change the likelihood of developing the disease by 2%, but the main causative factors of the disease relate to diet.</p>
-</div>
-<div id="lactose-intolerance.-1" class="section level3">
-<h3>Lactose intolerance.</h3>
-<p>Individuals with lactose intolerance cant digest lactose, however the bacteria in their gut van which leads to the build up of gas. this can be very painful for the person in question.In humans lactose intolerance would naturally occur after weening however as cow milk is a staple part of most human diabetes the genes controlling lactase production are never switched off and the ability to digest lactose is not normally lost.</p>
-</div>
-<div id="himalayan-phenotype." class="section level3">
-<h3>Himalayan Phenotype.</h3>
-</div>
-<div id="cancer-1" class="section level3">
-<h3>Cancer</h3>
-<div id="basics-2" class="section level4">
-<h4>basics</h4>
-<p>A cancer is a group of cells whose proliferation is uncontrolled, and which can spread to other locations in the body which are normally populated bu other cell types.</p>
-<div id="benigin-tumours-1" class="section level5">
-<h5>benigin tumours</h5>
-<p>grow but do not spread.</p>
-</div>
-<div id="malignant-tumours-1" class="section level5">
-<h5>malignant tumours</h5>
-<p>over proliferate and invade other body tissues/ areas in the body.</p>
-</div>
-</div>
-<div id="types-of-cancers-1" class="section level4">
-<h4>types of cancers</h4>
-<div id="carcinomas-1" class="section level5">
-<h5>Carcinomas</h5>
-<p>derived form epithelial cells</p>
-</div>
-<div id="sarcomas-1" class="section level5">
-<h5>Sarcomas</h5>
-<p>derived from connective or muscle tissues. Known as Osteosarcoma in the case of bone tissue and Kaposi sarcoma in the case of soft connective tissue.</p>
-</div>
-<div id="lymphoma-and-leukaemias-1" class="section level5">
-<h5>Lymphoma and leukaemias</h5>
-<ol style="list-style-type: decimal">
-<li>Cancers of the hematopoietic system.</li>
-<li>Lymphoma (solid tumour)</li>
-<li>Leukaemia excess of circulating immature blood cell precursors. ##### Cancer of the nervous system brain and central nervous system.</li>
-</ol>
-<p>NOTE: most common in children</p>
-</div>
-<div id="germ-line-cancer.-1" class="section level5">
-<h5>Germ-line cancer.</h5>
-</div>
-<div id="cancers-of-breast-prostate-lung-pancreas-and-colon.-1" class="section level5">
-<h5>Cancers of breast, prostate, lung, pancreas, and colon.</h5>
-</div>
-</div>
-</div>
-<div id="causes-of-cancer.-1" class="section level3">
-<h3>Causes of cancer.</h3>
-<p>In most cases cancer is not inherited. In breast cancer/ovarian cancer BS1, BS2 play some role in genetic disposition, perhaps 5-10%</p>
-</div>
-<div id="hereditary.-1" class="section level3">
-<h3>Hereditary.</h3>
-<p>Cancer normally sets in during old age as cells must accumulate a series of a specific set of notations, (exactly which set of mutations accumulated lead to cancer is highly individual) #### Environmental factors 1. UV 2. X rays 3. Alcohol 4. Overcooked food (hetercyclic amines,polycyclic aromatic hydrocarbons-meat. acrylamide- potatoes 5. Azo dyes 6. tartrazine (food colourants) 7. Nitrate cured foods 8. Pesticides</p>
-<div id="cancer-initiators-1" class="section level4">
-<h4>Cancer initiators</h4>
-<p>agents which cause DNA damage (mutagens). these factors may be chemical, biological (such as HPV- human papilloma virus cause latent genetic damage- Cancer predisposition.</p>
-</div>
-<div id="cancer-promoters-1" class="section level4">
-<h4>Cancer Promoters</h4>
-<p>Promotes excessive proliferation (does not directly damage DNA).</p>
-<div id="examples-5" class="section level5">
-<h5>Examples</h5>
-<ol style="list-style-type: decimal">
-<li>wounding</li>
-<li>phorbol esters</li>
-<li>HRT/ oestrogen (breast cancer)</li>
-<li>hepatitis B (promotes stomach cancer)</li>
-<li>HIV (Kaposi sarcoma, this disease is always present but only manifests itself in immunocompromised individuals)</li>
-</ol>
-</div>
-</div>
-<div id="stages-of-cancer-development-1" class="section level4">
-<h4>stages of cancer development</h4>
-<ol style="list-style-type: decimal">
-<li>normal cells (mutation occcurs)</li>
-<li>increased ability to proliferate (mutation)</li>
-<li>1-2mm tumour of rapidly proliferating cells which do not undergo apoptosis of differentiation. (mutation)</li>
-<li>vascularized growing tumour (mutation)</li>
-<li>large tumour capable of invading near by tissue (metastasis)</li>
-</ol>
-<p>NOTE: cancer results from a series of somatic mutations, affecting the same cell, and different cancers are genetically heterogeneous.</p>
-</div>
-<div id="genetic-instability-in-cancers.-1" class="section level4">
-<h4>Genetic instability in cancers.</h4>
-<p>deficient local DNA repair leads to the accumulation of point mutations increased chromosomal instability and gross genome abnormalities.</p>
-</div>
-<div id="summary-of-key-properties-1" class="section level4">
-<h4>summary of key properties</h4>
-<ol style="list-style-type: decimal">
-<li>disregards ex/in growth regulation signals.</li>
-<li>avoid apoptosis, differentiation and replicative senescence</li>
-<li>genetically unstable.</li>
-<li>invasive</li>
-<li>metastatic (survive and proliferate in foreign) sites.</li>
-</ol>
-</div>
-<div id="penetrance-1" class="section level4">
-<h4>Penetrance</h4>
-<p>percentage of the population who demonstrate at least some degree fo phenotypic expression.</p>
-</div>
-<div id="expressivity-1" class="section level4">
-<h4>Expressivity</h4>
-<p>reflects the range of expressions of the gene/allele present in the population.</p>
-</div>
-<div id="genetic-complementation-1" class="section level4">
-<h4>Genetic complementation</h4>
-<p>two different mutations in heterozygous condition affecting the same protein/ pathway can compliment each other to cause a novel phenotypic effect.</p>
-<div id="examples-6" class="section level5">
-<h5>examples</h5>
-<p>rare form of albinism: both mother and father were normally pigmented and there families had minimal instances of albinism. however both children where albino’ s . Analysis found that this albinism stemmed not from those genes and mutation most commonly associated with albinism but rather from a combination of recessives (heterozygous) from both father and mother (mutations in TYRP1 gene), which on their own would have little or no effect on the pigment production pathway, but when combined reduced pigment production significantly.</p>
-<p>NOTE: Rufus albinism leads to a phenotype with reddish hair, lighter skin, and blue grey eyes.</p>
-</div>
-</div>
-<div id="forked-line-probability-method.-1" class="section level4">
-<h4>Forked line probability method.</h4>
-<p>##Chromosome level (revise mitosis and meosis) copy slides chromosome basic structure #### chromosome groups</p>
-<div id="meta-centric-1" class="section level5">
-<h5>meta-centric</h5>
-<p>centromere is half way up the length of the chromosome</p>
-</div>
-<div id="submetacentric-1" class="section level5">
-<h5>submetacentric</h5>
-<p>centromere is more to the one side of the chromosome than the other,</p>
-</div>
-<div id="acrocentric-1" class="section level5">
-<h5>Acrocentric</h5>
-<p>the centromere is very far to the one side of the chromosome, with a long arm containing most of the genes and a short arm containing predominantly temolmeric DNA.</p>
-</div>
-<div id="telocentric-1" class="section level5">
-<h5>Telocentric</h5>
-<p>humans do not posses any telocentric chromosomes, but certain insect of crustation species do.</p>
-</div>
-<div id="holocentric-1" class="section level5">
-<h5>Holocentric</h5>
-<p>Centromere like structure exist along the entire length of the chromosome. this may decrease the chances of faulty division/ segregation.</p>
-</div>
-<div id="chromosome-banding-1" class="section level5">
-<h5>chromosome banding</h5>
-<p>bands were named and used to locate specific genes. the banding patterns are due to uneven DNA densities in the coiled structure of the chromosome.</p>
-</div>
-<div id="size-and-shape-of-different-chromosomes." class="section level5">
-<h5>Size and shape of different chromosomes.</h5>
-</div>
-</div>
-</div>
-<div id="chromosome-level-mutations-1" class="section level3">
-<h3>Chromosome level mutations</h3>
-<div id="aneuploidy-spelling-1" class="section level4">
-<h4>Aneuploidy (Spelling)</h4>
-<p>Each cell is has at least one extra chromosome or is missing at least one chromosome</p>
-<div id="trisomy-1" class="section level5">
-<h5>Trisomy</h5>
-<p>when an individual inherits three copies of a particular chromosome. In Humans only three of all the possible trisomies are viable, (as in individuals with these mutations will still be born and not terminated during pregnancy)</p>
-<p>of these three (Trisomy 13, 18, and 21) only individuals with trisomy 21 can survive past the first few years of childhood. Individuals with Trisomy 21 have down syndrome.</p>
-<div id="down-syndrome-trisomy-21-1" class="section level6">
-<h6>Down syndrome (Trisomy 21)</h6>
-<p>Frequency: 1/1000 Effects 1. mental retardation 2. short stature 3. heart disease 4. shortened life span.</p>
-</div>
-<div id="edward-syndrome-trisomy-18-1" class="section level6">
-<h6>Edward Syndrome (Trisomy 18)</h6>
-<p>Effects: 1. kidney and intestinal malformation 3. heart defects. 4. mental retardation</p>
-<p>NOTE: only 8% survival past the first year.</p>
-</div>
-<div id="patua-syndrome-trisomy-13-1" class="section level6">
-<h6>Patua syndrome (Trisomy 13 )</h6>
-<p>Effects: 1. Kidney and hear defects 2. polidactily (too many digits) 3. Nervous system abnormalities 4. Death within the 1st year.</p>
-<p>NOTE: the smaller relative size of chromosome 21, meaning that it contains less important genes may be related to its increased viability .</p>
-</div>
-</div>
-<div id="monosomy-1" class="section level5">
-<h5>Monosomy</h5>
-<p>when an individual inherits only one copy of a particular chromosome.</p>
-</div>
-<div id="nullisomy-1" class="section level5">
-<h5>Nullisomy</h5>
-<p>having no copies of a particular chromosome.</p>
-</div>
-</div>
-<div id="polyploidy-2" class="section level4">
-<h4>Polyploidy</h4>
-</div>
-<div id="structural-rearrangements-1" class="section level4">
-<h4>Structural rearrangements</h4>
-<ol style="list-style-type: decimal">
-<li>deletion</li>
-<li>duplication</li>
-<li>translocation</li>
-<li>inversion</li>
-<li>fission</li>
-<li>fusion</li>
-</ol>
-</div>
-<div id="non-disjuncture-1" class="section level4">
-<h4>non disjuncture</h4>
-<p>(review mitosis and meiosis) If non disjuncture happens in meiosis it is generally worse than if it happens in mitosis as it will affect the whole organism.</p>
-<div id="down-syndrome-1" class="section level5">
-<h5>Down Syndrome</h5>
-<p>occurs in about 1 of a thousand live births. originates from non disjunction in the egg cell rather than the sperm cell because the arrested development of the egg cells leads to decay of the separating and marking proteins as well as the spindle fibre leaving the whole process open to more error. 8% of individuals survive for one year ?</p>
-</div>
-<div id="turner-syndrome-monosomy-x-1" class="section level5">
-<h5>turner Syndrome monosomy X</h5>
-<p>Frequency 1/20 000 (only occurs in females ) Effects: 1. webbed neck 2. short stature 3. underdeveloped ovaries and lack of secondary sex characteristics.</p>
-</div>
-<div id="klinefelter-syndrome-xxy-1" class="section level5">
-<h5>Klinefelter syndrome XXY</h5>
-<p>Too many X’s ,XXY , XXXY, XXXXY, XXXXXY. (XXYY) Effects: 1. Decrease in testosterone levels 2. the more X’s the higher the chance of brain damage.</p>
-</div>
-<div id="xyy-1" class="section level5">
-<h5>XYY</h5>
-<p>XYY has the phenotype of a normal make. men with 2 Y chromosomes tend to be tall as there is a cumulative effect adding to height. (they may also exhibit increased aggression but this in unclear)</p>
-</div>
-<div id="xxx-1" class="section level5">
-<h5>XXX</h5>
-<p>Frequency: 1/1000 Effects: 1. Normal female with normal fertility.</p>
-<p>NOTE: this conditions is seldom diagnosed.</p>
-</div>
-</div>
-<div id="polyploidy-3" class="section level4">
-<h4>Polyploidy</h4>
-<p>Three or more complete sets of chromosomes present in somatic cells. #### 2n-20n caused by non reduced gamete fomration, which is very rare in males and non viable.</p>
-<p>most often flowering plants are polyploid, they are even specifically breed to have more chromosome sets as this usually increases fruit and flower size.</p>
-<div id="examples-7" class="section level5">
-<h5>Examples</h5>
-<p>water melon must be bread from a tetraploid(?) and a diploid to get a tripliod infertile plant.</p>
-<p>Kiwi fruit 12-16 copies</p>
-<p>Strawberries 4 copies (tetraploid)</p>
-<p>Frogs <em>Xenopis levis</em> 4n <em>Xenopus tropicalis</em> 2n</p>
-<p>NOTE: plants are better adapted to polyploid because: 1. they are not as confined to a set physical form so different in growth and development genes operation levels are not so important 2. they can reproduce vegetatively so polyploid individuals aren’t as severely evolutionarily disadvantaged. 3. less precise sperm targeting is necessary.</p>
-</div>
-</div>
-<div id="deletions-1" class="section level4">
-<h4>Deletions</h4>
-<p>deletions often occur by chromosome breakage during the cell cycle. These deletions may be terminal of interstitial. If the centromere is lost, the entire chromosome will be lost.</p>
-<div id="piece-of-chrome-1" class="section level5">
-<h5>Piece of Chrome</h5>
-<p>sometimes multiple genes are lost when both strands break and a part of the chromosome is permanently lost. A specific deletion on chromosome 5. (where the entire p arm is deleted leads to a serious syndrome)</p>
-</div>
-<div id="cri-du-chat-5p--1" class="section level5">
-<h5>Cri du chat (5p-)</h5>
-<p>Frequency: 1/20000-50000 Effects: 1. Intellectual disability, 2. low muscle tone 3. microcephaly 4. distinctive facial features. 5. normal life expectancy</p>
-</div>
-</div>
-<div id="duplications-1" class="section level4">
-<h4>Duplications</h4>
-<p>Cause: retro transposition, or non-allelic homologous recombination in repeat rich areas.</p>
-<p>A small region of a chromosome is repeated, and placed next to the existing copy (in tandem). duplications tend to happen in high repetitive sequences of DNA. These repeated regions mean that the chromosome will note line up very well with its homologous pair.</p>
-<p>passed on by unequal order, and may or may not have a phenotypic effect.</p>
-</div>
-<div id="huntington-purea-1" class="section level4">
-<h4>Huntington Purea</h4>
-<p>Repeats alter gene function, which can lead to brain damage. Repeats may have a positive effect because they allow one copy of a gene to evolve independently, specialise in a different function while the original function is still conserved by the other copy of the gene.</p>
-</div>
-<div id="inversions.-1" class="section level4">
-<h4>Inversions.</h4>
-<p>Cause: non-allelic homologous recombination Effects: 1. pairing in meiosis occurs via looping 2. cross over in the looped region can cause major deletions or duplications.</p>
-</div>
-<div id="translocation-1" class="section level4">
-<h4>Translocation</h4>
-<p>Effects: 1. novel chromosomes are generated 2. individuals are usually infertile. 3. can result in aneuploidy (such as 14q21q inherited down syndrome) 4.</p>
-<div id="terminal-1" class="section level5">
-<h5>terminal</h5>
-<p>A piece breaks off a chromosome and sticks to the end of a non-homologous chromosome.</p>
-</div>
-<div id="reciprocal-1" class="section level5">
-<h5>reciprocal</h5>
-<p>Exchange of pieces between non-homologous chromosomes #### Robertsonian</p>
-<p>two Acrocentric chromosomes lose their short arms and get stuck together.</p>
-</div>
-</div>
-<div id="fission-1" class="section level4">
-<h4>Fission</h4>
-<p>deletion (loss of acentric piece)’</p>
-</div>
-<div id="fusion-1" class="section level4">
-<h4>Fusion</h4>
-<p>bicentric chromosomes (breakage in mitosis)</p>
-<div id="breakage-fusion-bridge-cycles-in-cancer.-1" class="section level5">
-<h5>breakage fusion bridge cycles in cancer.</h5>
-<p>Copy image. 1. end of a chromosome breaks off (during meiosis) 2. one daughter cell inherits the chromosome lacking a telomere. 3. the new cell enters S phase and replicates its DNA (it now has two sticky DNA ends right next to each other. ) 4. loose DNA strands bind to form continuous DNA loop. 5. fused sister chromatids are pulled apart during mitosis, causing breakage at a new sight 6. one daughter cell inherits chromosome with duplicated genes and again a free sticky end. this cycle can then begin again leading to even further chromosome distortion.</p>
-</div>
-</div>
-<div id="imprinting-1" class="section level4">
-<h4>Imprinting</h4>
-<div id="hinny-vs-mule-1" class="section level5">
-<h5>Hinny vs mule</h5>
-<div id="mule-1" class="section level6">
-<h6>Mule</h6>
-<p>horse mother donkey father hardy and obedient</p>
-</div>
-<div id="hinny-1" class="section level6">
-<h6>Hinny</h6>
-<p>donkey mother, horse father. temperamental, untrainable.</p>
-</div>
-</div>
-<div id="intersistial-deletion-of-chromosome-15-1" class="section level5">
-<h5>Intersistial deletion of chromosome 15</h5>
-<div id="prader--willi-syndrome-1" class="section level6">
-<h6>Prader -Willi syndrome</h6>
-<p>Cause: deletion from father, ZNF127 and IPW inactivated on the maternal copy.<br />
-effects: 1. mental retardation 2. obesity 3. diminished growth.</p>
-</div>
-<div id="angelman-syndrome-1" class="section level6">
-<h6>Angelman syndrome</h6>
-<ol style="list-style-type: decimal">
-<li>deletion from mother: UBE3A inactivated on paternal copy.<br />
-</li>
-<li>mental retardation</li>
-<li>epilepsy</li>
-<li>lack of motor development.</li>
-</ol>
-</div>
-</div>
-</div>
-<div id="x-inactivation-1" class="section level4">
-<h4>X inactivation</h4>
-<p>the inactivation of one of two X chromosomes in females via DNA methylation.</p>
-<p>NOTE: which X chromosome is inactivated varies randomly from cell to cell.this inactivation process turns the inactive X into a bar body, (highly methylated and rolled up in histone proteins).</p>
-<p>#Unsorted notes</p>
-<ol style="list-style-type: decimal">
-<li>Himalayan Phenotype.</li>
-<li>Size and shape of different chromosomes.</li>
-</ol>
-<p>Dr Fanucchi, GH416, Date: 17/06/2018.</p>
-</div>
-</div>
-</div>
-</div>
-<div id="course-overview." class="section level1">
-<h1>Course overview.</h1>
-<p>ezymes and function  Garret and Grisham Biochemistry. Questions in class (write it down) <em>Prelab test before every practical</em>  (lecture + prac but only theory relevant to prac, no writing up prac reports. )  lab etiquette (dress+ approporitate work+ sharing with lab partner, fall behind group, spot questions in the lab, prac ends at 5 sharp) <em>Seating plan new, on Sakai</em> Changes from prach manual (check course outline, Friday WSS4, 423-426 text book) tues+wed=P115, thurs=WSS4. <em>No PH prac</em>. Due date of essay: <em>8th August</em>. (submitted electronically+ marked out) <em>Submit essay in box 1:30 10th August, must print in turn it in format, 15% or less</em> Poster is due on a Monday, submit to Sakai,  31 Aug, Class test 2-4pm OLS +GH403. </p>
-<div id="dr-fanucchi-class-rules" class="section level2">
-<h2>Dr Fanucchi class rules</h2>
-<ol>
-<li>Own studying.</li>
-</ol>
-</div>
-<div id="assignment." class="section level2">
-<h2>Assignment.</h2>
-<p>The MIND diet, med+DASH (DASH for hyper tension+neuro disease), fish altsheimers, weight loss, 2 veg per day… Argumentative essay, critically evalute (find actual 2015 paper, met pathways+ metabolism+ for or against but must take a stand)</p>
-<div id="essay-format" class="section level3">
-<h3>Essay format</h3>
-<p>Three sections+ tittle (intro, body, conclusion),</p>
-<div id="intro" class="section level4">
-<h4>Intro</h4>
-<p>must but work into context, it must give background info however it must be very focussed on the concept at hand. Must make clear the relavance and significance of the subject. Can finish with a sentance/2 disscribing structure of the essay (“In this essay i will”) , very end must have main claim (must be <em>interesting</em> and specific, must make absolutely clear for or against + angle),</p>
-<div id="main-claim" class="section level5">
-<h5>Main claim</h5>
-<p>Short, consise, specific, clear and easy to recognise (ie at the end of the intro) </p>
-</div>
-</div>
-<div id="body" class="section level4">
-<h4>Body</h4>
-<p>Set of paragraphs, moving from more general to specific, broadest info first to more specific. Includes reasons in support of claims. Give reasons + cite evedence from the literature. (Could attempt to include a rebuttle, couterarguments)</p>
-<div id="transition-sentances" class="section level5">
-<h5>Transition sentances</h5>
-<p>link paragraphs to imporve flow.</p>
-</div>
-<div id="topic" class="section level5">
-<h5>Topic</h5>
-<p>topic sentance for each paragraph.</p>
-</div>
-</div>
-<div id="wrap-up-sentance" class="section level4">
-<h4>Wrap up sentance</h4>
-<p>Relates the topic back to the main claim.</p>
-<p>NOTE: Lots of citations, remember writing fellows.</p>
-</div>
-</div>
-<div id="final-notes" class="section level3">
-<h3>Final notes</h3>
-<ol>
-<li>800-1100 words,</li>
-<li>own research + interpetation of literature,</li>
-<li>must be submitted through turn it in.</li>
-<li>print correct format.</li>
-<li>print + sttatch marking rubric</li>
-</ol>
-<div id="conclusion" class="section level4">
-<h4>Conclusion</h4>
-<p>Restate the main claim and its importance. Summarize each of the main points in the claim again.</p>
-<p><em>NB</em> No new information, and no references.</p>
-</div>
-</div>
-</div>
-</div>
-<div id="scientific-poster" class="section level1">
-<h1>Scientific Poster</h1>
-<p>Commonly presented at scientific posters, (ppl present current research, orally and in posters, advantage is that it is very consice)</p>
-<p>NOTE: </p>
-<ol>
-<li>Not too much text. (NB)</li>
-<li>read 1m away (A1 size)</li>
-<li>lots of visuals. diagrams etc.</li>
-<li>The take home message must be clear (stance must be clear)</li>
-</ol>
-<p>NOTE: #. 4pm monday, #. pdf format #. 594x 841mm. </p>
-</div>
-<div id="background-2" class="section level1">
-<h1>Background</h1>
-<p>Governed by relatively small set of relatively simple rules.</p>
-</div>
-<div id="chapter-13-biological-catalyst." class="section level1">
-<h1>Chapter 13 Biological catalyst.</h1>
-<p>enzmyes in metablosim, accelerate and control biochemcial reaction rates. In specific speed up dergradation of nutrients adn generation adn tranfromation of metabolites. Only very specialised regulatory enzymes control biochemical reactions, often found at juncture points. Suhc enzymes change the rate depending on the cell’s metabolic requirements. (ie more require speed up sythesis and slow degradation and visa versa.)</p>
-<p>Many biological reactions produce a lot of energy but too slow, enzymes exert kinetic control overthermodynamic potentiallity. (kenetic as in rate and speed)</p>
-<div id="distinctive-features" class="section level2">
-<h2>DIstinctive features</h2>
-<div id="catalytic-power." class="section level3">
-<h3>Catalytic power.</h3>
-<p>how good it is at being a catalyst/ speeding things up Calculated as the ration of catalysed to uncatalysed reaction</p>
-</div>
-<div id="specificty." class="section level3">
-<h3>Specificty.</h3>
-<p>Acts on a specific substrate, very selective no promiscuous. () selectarivity for substrate. Cannot change the eqillibrium position, enzymes are very selective. One advantage is less/no biproducts.</p>
-<p>Achieved by secific shape adn charge, (complimentarity)</p>
-<div id="yield" class="section level4">
-<h4>Yield</h4>
-<p>Yield decreases at each step in a multi step process, (yield is decreased at each step by the formation of byproduct)</p>
-</div>
-</div>
-<div id="regulation" class="section level3">
-<h3>Regulation</h3>
-<p>Not all enzymes, key enzymes, maintain rates at appropriate levels for the cells requirements.</p>
-</div>
-<div id="mild-conditions" class="section level3">
-<h3>Mild conditions</h3>
-<p>happed under very mild conditions (pH and temp), as proteins suseptable to denaturation, furthermore often</p>
+<p>Gram positive have red on pruple so remain purple, gram negative have red on colorless so becone red/pink.</p>
+<p>(Copy image)</p>
+<p>NOTE: If decolored too intesly any cell will lose its color.</p>
+<p>NOTE: Acetone in involved in eyes dissolvings.</p>
+</div>
+<div id="posive" class="section level3">
+<h3>Posive</h3>
+<p>Copy from slides.</p>
+<div id="cell-wall-1" class="section level4">
+<h4>Cell wall</h4>
+<p>Thick homogenous cell wall containins 50% peptidoglycan by dry weight. The peptidoglycan is about <span class="math inline">\(20-80nm\)</span> thick.</p>
+<div id="periplasmic-space" class="section level5">
+<h5>Periplasmic space</h5>
+<p>A area inbetween the cell wall and cell membrane it is distinct (although so thin that it can often be hard to make out.).</p>
+<p>NOTE: The cell wall is the combination of the PG layer and the periplamic space.</p>
+<p>NOTE: Try to draw strucutres with som sendse of relative scale, ie the cell wall must be larger.</p>
+<p></p>
+</div>
+<div id="function" class="section level5">
+<h5>Function</h5>
+<p>Mantains the cell integrity against osmotic pressure and maintains the cell shape. cytoskeletal elements are a large part of it, but the peptidoglycan is also siginficant, and if it is rremoved the bacteria will usually become spherical</p>
+</div>
+<div id="techoic-acids." class="section level5">
+<h5>Techoic acids.</h5>
+<p>(refferd to as ? techoic acids), TEchoic acids make up a signinfcant proportion of the cell wall. They are covalently attatched to the peptifoglycan, which has a meshlike structure. Techoic acids fill (alomst all) of the void spaces in this mesh extending all the way to the outside of the layer.</p>
+<p>Lipotechoic acids are imbedded in the membrne at one end and the peptidogycan layer at the other. forming a stabalising link.</p>
+<div id="functions-1" class="section level6">
+<h6>Functions</h6>
+<p>help to maintain the stucture of the cell wall. And confer an overall negative charage (to gram positive bacteria).</p>
+<p>The acids are also antigenic, (which benefits the host not the bacterium)</p>
+</div>
+</div>
+</div>
+</div>
+<div id="gram-nagative." class="section level3">
+<h3>Gram nagative.</h3>
+<div id="cell-membrane" class="section level4">
+<h4>Cell membrane</h4>
+<p>5-7nm</p>
+</div>
+<div id="peptidoglycan-layer" class="section level4">
+<h4>Peptidoglycan layer</h4>
+<p>Much thinner <span class="math inline">\(5-10\%\)</span> of dry weight of cell negative bacteria. only about 1nm</p>
+</div>
+<div id="periplasmic-space-1" class="section level4">
+<h4>Periplasmic space</h4>
+<p>between cell and other membrane, much wider than in gram positive bacteria, can be go up to <span class="math inline">\(70nm\)</span></p>
+</div>
+<div id="outer-membrane." class="section level4">
+<h4>Outer membrane.</h4>
+<p>5-7nm</p>
+<p>phospholipid layer (not bilayer) which contain lipopolusaccharides, as well as lipoproteins and proteins. More permeable/less selective than the cell membrane (?) The outside of gram negative is very wavey as more fluid than a PG layer.</p>
+<p>NOTE: can be isolated as an intact shperical structure</p>
+<div id="porins" class="section level5">
+<h5>Porins</h5>
+<p>make pores through the outer membrane, consist of three separate units.</p>
+</div>
+<div id="brauns-lipoprotein" class="section level5">
+<h5>Brauns lipoprotein</h5>
+<p>extends from the GP layer to the outer membrane.</p>
+<div id="function-1" class="section level6">
+<h6>Function</h6>
+<p>Helps to prevent membrane damage by giving it some form of ragidity, and preventing an indeterminate gap between the outer membrane and the rest of the bacteria, pulling the membrane into the same shape as the bacteria.</p>
+</div>
+</div>
+<div id="lipopolysachharides.-lps" class="section level5">
+<h5>Lipopolysachharides. (LPS</h5>
+<p>Consist of lipids and carbohydrates. The outer leaflet of the membrane is almost entirely lipopolysacharide, and in gener it is an integral membrane component.</p>
+<p><span class="math inline">\(Salmonella typhimurium\)</span> in Salmoella can be related to disease.</p>
+<p>NOTE: cell wall contains periplasmic space, peptidoglycan layer nad outer membrane.</p>
 <!-- rnb-text-end -->
-<!-- rnb-chunk-begin -->
-<!-- rnb-chunk-end -->
-<!-- rnb-text-begin -->
-</div>
-</div>
-<div id="background-3" class="section level2">
-<h2>Background</h2>
-<div id="nomenclature" class="section level3">
-<h3>Nomenclature</h3>
-<p>Enzymes are grouped into 6 different categorised based on reactions which they catalyse.</p>
-<div id="enzyme-commision-number." class="section level4">
-<h4>Enzyme commision number.</h4>
-<p>Furthermore each enzyme is given an enzyem commision number, this is a standard however a “common name” is also often used.</p>
-</div>
-<div id="oxidoreductases." class="section level4">
-<h4>Oxidoreductases.</h4>
-</div>
-<div id="transferases" class="section level4">
-<h4>Transferases</h4>
-</div>
-<div id="hydrolases." class="section level4">
-<h4>Hydrolases.</h4>
-<p>Cleaves in presence of water. (Most common type)</p>
-</div>
-<div id="ligases." class="section level4">
-<h4>Ligases.</h4>
-<p>form bonds</p>
-</div>
-<div id="isomerases." class="section level4">
-<h4>Isomerases.</h4>
-</div>
-<div id="lyases." class="section level4">
-<h4>Lyases.</h4>
-<p>break bonds.</p>
-<p>NOTE: Check in notes if all enzyme groups area present.</p>
-<!-- rnb-text-end -->
-<!-- rnb-chunk-begin -->
-<!-- rnb-chunk-end -->
-<!-- rnb-text-begin -->
-</div>
-</div>
-<div id="principles-of-chemical-kinetics." class="section level3">
-<h3>Principles of chemical kinetics.</h3>
-<p><span class="math inline">\(A\rightarrow B\)</span>  assume spontaneous and irreversible.</p>
-<p>rate defined in terms of change in concentration of the reactants or products.</p>
-<p>NOTE: Copy notes from chemical kinetics.</p>
-<p><span class="math inline">\(v=-\frac{d[A]}{dt}=\frac{d[P]}{dt}\)</span> the infinitesimal rate.</p>
-</div>
-<div id="rate-law." class="section level3">
-<h3>Rate Law.</h3>
-<p><span class="math inline">\(v=\text{k}[A]\)</span> where k is the rate constant. reverse rate <span class="math inline">\(k^{-1}[P]\)</span></p>
-<p><span class="math inline">\(V\propto [A]\)</span>  k is the rate constant of the constant of proportionality.</p>
-</div>
-</div>
-<div id="enzyme-kinetics." class="section level2">
-<h2>Enzyme Kinetics.</h2>
-<div id="maximum-velocity" class="section level3">
-<h3>Maximum velocity</h3>
-<p>Maximum catalystic rate Donated by <span class="math inline">\(V_{\text{max}}\)</span></p>
-</div>
-<div id="binding-affinity" class="section level3">
-<h3>Binding affinity</h3>
-<p>the strength of the bond/ enthalpy of bond formation  dontated by <span class="math inline">\(K_m\)</span></p>
-</div>
-<div id="mechalis-mention." class="section level3">
-<h3>Mechalis mention.</h3>
-<div id="derrivation-." class="section level4">
-<h4>Derrivation .</h4>
-<div id="assumptions" class="section level5">
-<h5>Assumptions</h5>
-<ol>
-<li>The back reaction (E+P to ES in negligable.) <span class="math inline">\(k_{-1}&gt;&gt;&gt;k_2\)</span> (Mechalis menten)</li>
-<li>THe concnetration of the ES remains constant at a steady state (steady state assumption.) (Briggs- Huldane. )</li>
-</ol>
-<p>The inital velcoity can be expressed as a function of substrate concentration.</p>
-<p>Total enzyme concentration: <span class="math inline">\([E]_T=[E]+[ES]\)</span>(<span class="math inline">\([E_T]\)</span>) si known from the amount of enzymes added.</p>
-<p><span class="math inline">\(v=k_1[E][S]\)</span> </p>
-<p><span class="math inline">\(-v=k_{-1}[ES]\)</span> </p>
-<p><span class="math inline">\(k_2[ES]\)</span> </p>
-<p>By the constant rate approximation.</p>
-<p><span class="math inline">\(k_1[A][S]-k_{-1}[ES]-k_2[ES]=0\)</span> </p>
-<p>(Look up coniditions or steay state assumption. )</p>
-<p><span class="math inline">\(\rightarrow k_1[E][S]=k_{-1}[ES]+k_2[ES]\)</span>  as <span class="math inline">\([E]_T=[E]+[ES]\)</span> newilne <span class="math inline">\(\rightarrow k_1([E_T]-[ES])[S]=k_{-1}[ES]+k_2[ES]\)</span> <span class="math inline">\(\rightarrow \frac{([E_T]-[ES])[S]}{[ES]}=\frac{k_{-1}+k_2}{k_1}=k_M\)</span></p>
-<p>As <span class="math inline">\(k_2&gt;&gt;&gt;k_{-1}\)</span></p>
-<p><span class="math inline">\((\frac{k_{-1}}{k_1})\)</span></p>
-<p>NOTE the unit of <span class="math inline">\(K_m\)</span> will be <span class="math inline">\(mol\cdot dm^{-3}\)</span></p>
-<p><span class="math inline">\(\frac{([E_T]-[ES])[S]}{[ES]}=k_M\)</span></p>
-<p><span class="math inline">\(\frac{[E_T][S]}{[ES]}-\frac{[ES][S]}{[ES]}=K_M\)</span> (solve for [ES])</p>
-<p><span class="math inline">\([ES]=\frac{[E_T[S]]}{K_M+[S]}\)</span></p>
-<p>Alsso as</p>
-<p><span class="math inline">\(v=k_2[ES]\)</span> (rate o prouct formation).  <span class="math inline">\([ES]=\frac{v}{k_2}\)</span> </p>
-<p><span class="math inline">\(\rightarrow \frac{v}{k_2} = \frac{[E_T][S]}{K_M+[S]}\)</span></p>
-<p><span class="math inline">\(\rightarrow v= \frac{k_2[E_T][S]}{K_M+[S]}\)</span> (<span class="math inline">\([ES]\approx[E_T]\)</span> for excess substrate) </p>
-<p><span class="math inline">\(\rightarrow v=\frac{k_2[ES][S]}{K_M+[S]}\)</span> <span class="math inline">\(v=k_2[E_T]=v_{max}\)</span> As (<span class="math inline">\([E_T]=[ES]\)</span>) for saturated solution.</p>
-<p><span class="math inline">\(v=\frac{v_{max}[S]}{{K_M+[S]}\)</span> where v is the initial rate.</p>
-<p><span class="math inline">\(K_M\)</span> and <span class="math inline">\(v_{max}\)</span> ca be used as general measures of catalytic ability.</p>
-<p><span class="math inline">\(K_M=[S]\)</span> at </p>
-<p><span class="math inline">\(v=\frac{v_{max}[K_M]}{{K_M+[K_M]}=\frac{1}{2}v_{max}\)</span></p>
-<p>product concentration against time can be plotted and the tangent taken to give v at a given t.</p>
-<p>NOTE:</p>
-<ol>
-<li>either ony one susbstrte or concnetrtio o other substrates held constant.</li>
-<li>E is in steady state.</li>
-<li>reaction is irreversible., or</li>
-</ol>
-<p>Copy down assumptions!!.</p>
-<p><span class="math inline">\(\text{ln}(v)=\text{ln}(\frac{v_{max}[S]}{{K_M+[S]}})\)</span></p>
-<p><span class="math inline">\(\rightarrow =\)</span></p>
-<p>NOTE: <span class="math inline">\(v_{max}\)</span> can be approximated}</p>
-<!-- rnb-text-end -->
-</div>
 </div>
 </div>
 </div>
 </div>
 
-<div id="rmd-source-code">LS0tCnRpdGxlOiAiQ29uY2VwdHMgTm90ZXMiCm91dHB1dDogaHRtbF9ub3RlYm9vawotLS0KCgojIEdlbmV0aWNzCgojIyBCYXNpY3MKCiMjIyBDb3Vyc2Ugb3V0bGluZQoxKSBleHRlbnNpb24gb2YgTWVuZGVsaWFuIGdlbmV0aWNzCjIpIENocm9tb3NvbWVzIHN0cnVjdHVyZSBhbmQgY2hhbmdlcwozKSBWZXJ0ZWJyYXRlIGRldmVsb3BtZW50CgojIyMgRGVmaW5pdGlvbnMKCiMjIEludGVyYWN0aW9ucyBiZXR3ZWVuIEdlbmVzLCBBbGxlbGVzLCBhbmQgUGhlbm90eXBlcwoKIyMjIEJhY2tncm91bmQKCiMjIyMgUGVuZXRyYW5jZQogcGVyY2VudGFnZSBvZiB0aGUgcG9wdWxhdGlvbiB3aG8gZGVtb25zdHJhdGUgYXQgbGVhc3Qgc29tZSBkZWdyZWUgZm8gcGhlbm90eXBpYyBleHByZXNzaW9uLgoKIyMjIyBFeHByZXNzaXZpdHkKcmVmbGVjdHMgdGhlIHJhbmdlIG9mIGV4cHJlc3Npb25zIG9mIHRoZSBnZW5lL2FsbGVsZSBwcmVzZW50IGluIHRoZSBwb3B1bGF0aW9uLiAgCgoKIyMjIyBHZW5lcyAKQSBnZW5lIGlzIGEgY29sbGVjdGlvbi8gZ3JvdXAgb2YgYWxsZWxlcyB3aGljaCBjb3VsZCBvY2N1ciB0aGUgc2FtZSBsb2N1cyBhbmQKd2hpY2ggYXJlIGFzc29jaWF0ZWQgd2l0aCB0aGUgc2FtZSB0cmFpdHMuCgojIyMgTGV0aGFsIGFsbGVsZXMKYWxsZWxlcyB3aGljaCBhcmUgaW5jb21wYXRpYmxlIHdpdGggdGhlIG9yZ2FuaXNtcyBjb250aW51ZWQgc3Vydml2YWwKCiMjIyMgZG9taW5hbmNlCm1vc3QgbGV0aGFsIGFsbGVsZXMgYXJlIHJlY2Vzc2l2ZSBiZWNhdXNlIGRvbWluYW50IGxldGhhbCBhbGxlbGVzIHByb2R1Y2Ugbm9uCmZ1bmN0aW9uaW5nIHByb3RlaW5zIG9ubHkgc28gYW55IGluZGl2aWR1YWwgd2l0aCBldmVuIG9uZSBvZiB0aGUgZG9taW5hbnQgYWxsZWxlCndvdWxkIGJlIHVubGlrZWx5IHRvIHN1cnZpdmUgdG8gcmVwcm9kdWN0aXZlIGFnZSwgYW5kIHNvIHRoZSBBbGxlbGUgd291bGQgdmVyeQpxdWlja2x5IGJlIGJyZWFkIG91dCBvZiB0aGUgcG9wdWxhdGlvbi4KCiMjIyBJbmNvbXBsZXRlIGRvbWluYW5jZQoKIyMjIyBHZW5ldGljLyBtb2xlY3VsYXIgY2F1c2UKVGhlIHJlY2Vzc2l2ZSBhbGxlbGUgZG9lcyBub3QgcHJvZHVjZSBhbnkgZnVuY3Rpb25pbmcgcHJvdGVpbi4KVGhlIGRvbWluYW50IGFsbGVsZSBkb2VzIGZ1bmN0aW9uIHByb3RlaW4gYnV0IG5vdCBpbiBoaWdoIGVub3VnaCBxdWFudGl0aWVzIHRvCnJlc3VsdCBpbiB0aGUgc2FtZSBwaGVub3R5cGljIGVmZmVjdCBhcyBhIGhldGVyb3p5Z291cyBkb21pbmFudAoKIyMjIyBwaGVub3R5cGljIGVmZmVjdApBIGhldGVyb3p5Z291cyBpbmRpdmlkdWFsIHdpbGwgZGlzcGxheSBhIHBoZW5vdHlwZSBpbnRlcm1lZGlhdGUgdG8gdGhhdCBvZgpob21venlnb3VzIGRvbWluYW50IGFuZCBob21venlnb3VzIHJlY2Vzc2l2ZQoKIyMjIERvbWluYW5jZQoKIyMjIyBHZW5ldGljL21vbGVjdWxhciBjYXVzZQpUaGUgcmVjZXNzaXZlIGFsbGVsZSBkb2VzIG5vdCBwcm9kdWNlIGFueSBmdW5jdGlvbmluZyBwcm90ZWluLgpUaGUgZG9taW5hbnQgYWxsZWxlIGRvZXMgZnVuY3Rpb24gcHJvdGVpbiwgd2hpY2ggaXQgcHJvZHVjZXMgaW4gY29tcGFyYXRpdmUKYW1vdW50IHRvIGEgaG9tb3p5Z291cyBkb21pbmFudCBpbmRpdmlkdWFsCgojIyMjIFBoZW5vdHlwaWMgY29uc2VxdWVuY2UuCnRoZSBoZXRlcm96eWdvdXMgcGhlbm90eXBlIGlzIGlkZW50aWNhbCB0byB0aGF0IG9mIHRoZSBoZXRlcm96eWdvdXMgZG9taW5hbnQKaW5kaXZpZHVhbC4KCiMjIyBDby1kb21pbmFuY2UKCiMjIyMgR2VuZXRpYy8gbW9sZWN1bGFyIGNhdXNlCkJvdGggYWxsZWxlcyBhcmUgdHJhbnNjcmliZWQvdHJhbnNsYXRlZCB0byBmb3JtIGEgZnVuY3Rpb25pbmcgcHJvdGVpbgoKIyMjIyBwaGVub3R5cGljIGVmZmVjdApUaGUgZWZmZWN0IGNvbWVzIGZyb20gdGhlIGZ1bGwgZXhwcmVzc2lvbiBvZiBib3RoIGFsbGVsZXMKCiMjIyBEb21pbmFuY2UgaGllcmFyY2hpZXMuCkl0IGlzIG9mdGVuIHRoZSBjYXNlIHRoYXQgdGhlcmUgd2lsbCBiZSBhIG51bWJlciBvZiBhbGxlbGVzIGZvciBvbmUgZ2VuZS4gSW4Kd2hpY2ggY2FzZSBhIGRvbWluYW5jZSBoaWVyYXJjaHkgaXMgdXN1YWxseSBwcmVzZW50IHN1Y2ggdGhhdCBhbGxlbGUgQSBpcwpEb21pbmFudCB0byBCIGlzIGRvbWluYW50IHRvIEMgYW5kIHNvIGZvcnRoIChpZSBkb21pbmFuY2UgaW4gYSBoaWVyYXJjaHkgaXMKIHRyYW5zaXRpdmUpCgojIyMgUGxlaW90cm9weSAKR2VuZXRpYy9tb2xlY3VsYXIgY2F1c2UKT25lIGdlbmUgbG9jdXMgYWZmZWN0cyB0aGUgZXhwcmVzc2lvbiBvZiBzZXZlcmFsIGNoYXJhY3RlcmlzdGljcy4KUGhlbm90eXBpYyBjYXVzZQpQaGVub3R5cGUgb2Ygb25lIGNoYXJhY3RlcmlzdGljIHdpbGwgY2hhbmdlIGluIGNvbmp1bmN0aW9uIHdpdGggdGhlIHBoZW5vdHlwZSBvZgphbm90aGVyIGNoYXJhY3RlcmlzdGljCgojIyMgSW1wb3J0YW50IGV4YW1wbGVzCkJHIDIwMzIKCgoKIyMjIyBOb3RlcyBhYm91dCBjb2xvdXIKQXMgICBtYW55IGdlbmV0aWMgZXhhbXBsZXMgYXJlIGJhc2VkIG9uIGNvbG91ciBpdCBpcyB3b3J0aCB1bmRlcnN0YW5kaW5nIHRoZSBiYXNpY3MKb2YgY29sb3VyaW5nIGluIGFuaW1hbHMuCmNvbG91ciByZXN1bHRzIGZyb20gcGlnbWVudHMgd2hpY2ggYXJlIHByb3RlaW5zLCBpbmRpdmlkdWFsIGdlbmVzIGNhbiBlaXRoZXIgY29kZQpkaXJlY3RseSBmb3IgdGhlIHByb2R1Y3Rpb24gb2YgdGhlc2UgcHJvdGVpbnMgb3IgYXMgYW4gaW50ZXJtZWRpYXRlL2VuenltZQp3aGljaCBhaWRzIGluIHRoZSBwcm9kdWN0aW9uIG9mIHRoZXNlIHByb3RlaW5zLgoKIyMjIyMgV2hpdGUKV2hpdGUgZG9lcyBub3QgcmVzdWx0IGZyb20gYSBzcGVjaWZpYyBwaWdtZW50IGJ1dCByYXRoZXIgZnJvbSBhIGxhY2sgb2YgcGlnbWVudC4KCiMjIyMjIENvLWRvbWluYW5jZSBhbmQgSW5jb21wbGV0ZSBkb21pbmFuY2UKQSBjby1kb21pbmFudCBjb2xvdXIgY29tYmluYXRpb24gY2FuIGxvb2sgbGlrZSBhbiBpbnRlcm1lZGlhdGUgaWYgaXQgaXMgdGhlCmNvbWJpbmF0aW9uIG9mIHR3byBwaWdtZW50cywgaG93ZXZlciBpbiB0aGUgY2FzZSB3aGVyZSBvbmUgb2YgdGhlIHBoZW5vdHlwZXMgaXMKd2hpdGUgdGhlbiBhIGludGVybWVkaWF0ZSBjYW4gb25seSBiZSBhIHJlc3VsdCBvZiBpbmNvbXBsZXRlIGRvbWluYW5jZQoKIyMjIFNleCBsaW5rZWQgdHJhaXRzCgojIyMjIFNleCBsaW1pdGVkIHRyYWl0cywKCgoKIyMgR2VuZXRpYyBiYXNpcyBvZiBkaXNlYXNlLiAKCiMjIyBQaGVueWxrZXRvbnVyaWEKIHNpbmdsZSBtdXRhdGlvbgpjYW4gYWZmZWN0IGJyYWluIGRldmVsb3BtZW50IGhvd2V2ZXIgaWYgdGhlIGNvcnJlY3QgZGlldCBpcyBmb2xsb3dlZCB0aGVuIGFsbCBkZXRyaW1lbnRhbCBoZWFsdGggY29uc2VxdWVuY2VzIGNhbiBiZSBpZ25vcmVkLgoKCiMjIyBkaWFiZXRlcyB0eXBlIElJCmxpZmVzdHlsZSBkaXNlYXNlLCB0aGUgZ2VuZXRpYyBjb21wb25lbnQgaXMgZXN0aW1hdGVkIHRvIGNoYW5nZSB0aGUgbGlrZWxpaG9vZCBvZiBkZXZlbG9waW5nIHRoZSBkaXNlYXNlIGJ5IDIlLCBidXQgdGhlIG1haW4gY2F1c2F0aXZlIGZhY3RvcnMgb2YgdGhlIGRpc2Vhc2UgcmVsYXRlIHRvIGRpZXQuCgoKCgojIyMgTGFjdG9zZSBpbnRvbGVyYW5jZS4KSW5kaXZpZHVhbHMgd2l0aCBsYWN0b3NlIGludG9sZXJhbmNlIGNhbnQgZGlnZXN0IGxhY3Rvc2UsIGhvd2V2ZXIgdGhlIGJhY3RlcmlhIGluIHRoZWlyIGd1dCB2YW4gd2hpY2ggbGVhZHMgdG8gdGhlIGJ1aWxkIHVwIG9mIGdhcy4gdGhpcyBjYW4gYmUgdmVyeSBwYWluZnVsIGZvciB0aGUgcGVyc29uIGluIHF1ZXN0aW9uLkluIGh1bWFucyBsYWN0b3NlIGludG9sZXJhbmNlIHdvdWxkIG5hdHVyYWxseSBvY2N1ciBhZnRlciB3ZWVuaW5nIGhvd2V2ZXIgYXMgY293IG1pbGsgaXMgYSBzdGFwbGUgcGFydCBvZiBtb3N0IGh1bWFuIGRpYWJldGVzIHRoZSBnZW5lcyBjb250cm9sbGluZyBsYWN0YXNlIHByb2R1Y3Rpb24gYXJlIG5ldmVyIHN3aXRjaGVkIG9mZiBhbmQgdGhlIGFiaWxpdHkgdG8gZGlnZXN0IGxhY3Rvc2UgaXMgbm90IG5vcm1hbGx5IGxvc3QuCgoKIyMjIENhbmNlcgogCiMjIyBIZXJlZGl0YXJ5LgpDYW5jZXIgbm9ybWFsbHkgc2V0cyBpbiBkdXJpbmcgb2xkIGFnZSBhcyBjZWxscyBtdXN0IGFjY3VtdWxhdGUgYSBzZXJpZXMgb2YgYSBzcGVjaWZpYyBzZXQgb2Ygbm90YXRpb25zLCAoZXhhY3RseSB3aGljaCBzZXQgb2YgbXV0YXRpb25zIGFjY3VtdWxhdGVkIGxlYWQgdG8gY2FuY2VyIGlzIGhpZ2hseSBpbmRpdmlkdWFsKQoKIyMjIyBFbnZpcm9ubWVudGFsIGZhY3RvcnMKMS4gVVYKMi4gWCByYXlzCjMuIEFsY29ob2wKNC4gT3ZlcmNvb2tlZCBmb29kIChoZXRlcmN5Y2xpYyBhbWluZXMscG9seWN5Y2xpYyBhcm9tYXRpYyBoeWRyb2NhcmJvbnMtbWVhdC4gYWNyeWxhbWlkZS0gcG90YXRvZXMKNS4gQXpvIGR5ZXMKNi4gdGFydHJhemluZSAoZm9vZCBjb2xvdXJhbnRzKQo3LiBOaXRyYXRlIGN1cmVkIGZvb2RzCjguIFBlc3RpY2lkZXMKCiMjIyMgQ2FuY2VyIGluaXRpYXRvcnMKYWdlbnRzIHdoaWNoIGNhdXNlIEROQSBkYW1hZ2UgKG11dGFnZW5zKS4gdGhlc2UgZmFjdG9ycyBtYXkgYmUgY2hlbWljYWwsIGJpb2xvZ2ljYWwgKHN1Y2ggYXMgSFBWLSBodW1hbiBwYXBpbGxvbWEgdmlydXMgY2F1c2UgbGF0ZW50IGdlbmV0aWMgZGFtYWdlLSBDYW5jZXIgcHJlZGlzcG9zaXRpb24uCgojIyMjIENhbmNlciBQcm9tb3RlcnMKClByb21vdGVzIGV4Y2Vzc2l2ZSBwcm9saWZlcmF0aW9uIChkb2VzIG5vdCBkaXJlY3RseSBkYW1hZ2UgRE5BKS4KCiMjIyMjIEV4YW1wbGVzCjEuIHdvdW5kaW5nCjIuIHBob3Jib2wgZXN0ZXJzCjMuIEhSVC8gb2VzdHJvZ2VuIChicmVhc3QgY2FuY2VyKQo0LiBoZXBhdGl0aXMgQiAocHJvbW90ZXMgc3RvbWFjaCBjYW5jZXIpCjUuIEhJViAoS2Fwb3NpIHNhcmNvbWEsIHRoaXMgZGlzZWFzZSBpcyBhbHdheXMgcHJlc2VudCBidXQgb25seSBtYW5pZmVzdHMgaXRzZWxmIGluIGltbXVub2NvbXByb21pc2VkIGluZGl2aWR1YWxzKQoKIyMjIyBzdGFnZXMgb2YgY2FuY2VyIGRldmVsb3BtZW50ICAKMS4gbm9ybWFsIGNlbGxzIChtdXRhdGlvbiBvY2NjdXJzKQoyLiBpbmNyZWFzZWQgYWJpbGl0eSB0byBwcm9saWZlcmF0ZSAobXV0YXRpb24pCjMuIDEtMm1tIHR1bW91ciBvZiByYXBpZGx5IHByb2xpZmVyYXRpbmcgY2VsbHMgd2hpY2ggZG8gbm90IHVuZGVyZ28gYXBvcHRvc2lzIG9mIGRpZmZlcmVudGlhdGlvbi4gKG11dGF0aW9uKQo0LiB2YXNjdWxhcml6ZWQgZ3Jvd2luZyB0dW1vdXIgKG11dGF0aW9uKQo1LiBsYXJnZSB0dW1vdXIgY2FwYWJsZSBvZiBpbnZhZGluZyBuZWFyIGJ5IHRpc3N1ZSAobWV0YXN0YXNpcykKCk5PVEU6IGNhbmNlciByZXN1bHRzIGZyb20gYSBzZXJpZXMgb2Ygc29tYXRpYyBtdXRhdGlvbnMsIGFmZmVjdGluZyB0aGUgc2FtZSBjZWxsLCBhbmQgZGlmZmVyZW50IGNhbmNlcnMgYXJlIGdlbmV0aWNhbGx5IGhldGVyb2dlbmVvdXMuCgojIyMjIEdlbmV0aWMgaW5zdGFiaWxpdHkgaW4gY2FuY2Vycy4KZGVmaWNpZW50IGxvY2FsIEROQSByZXBhaXIgbGVhZHMgdG8gdGhlIGFjY3VtdWxhdGlvbiBvZiBwb2ludCBtdXRhdGlvbnMgaW5jcmVhc2VkIGNocm9tb3NvbWFsIGluc3RhYmlsaXR5IGFuZCBncm9zcyBnZW5vbWUgYWJub3JtYWxpdGllcy4KCiMjIyMgc3VtbWFyeSBvZiBrZXkgcHJvcGVydGllcwoxLiBkaXNyZWdhcmRzIGV4L2luIGdyb3d0aCByZWd1bGF0aW9uIHNpZ25hbHMuCjIuIGF2b2lkIGFwb3B0b3NpcywgZGlmZmVyZW50aWF0aW9uIGFuZCByZXBsaWNhdGl2ZSBzZW5lc2NlbmNlCjMuIGdlbmV0aWNhbGx5IHVuc3RhYmxlLgo0LiBpbnZhc2l2ZQo1LiBtZXRhc3RhdGljIChzdXJ2aXZlIGFuZCBwcm9saWZlcmF0ZSBpbiBmb3JlaWduKSBzaXRlcy4KCgojIyBHZW5ldGljIGNvbXBsZW1lbnRhdGlvbgp0d28gZGlmZmVyZW50IG11dGF0aW9ucyBpbiBoZXRlcm96eWdvdXMgY29uZGl0aW9uIGFmZmVjdGluZyB0aGUgc2FtZSBwcm90ZWluLyBwYXRod2F5IGNhbiBjb21wbGltZW50IGVhY2ggb3RoZXIgdG8gY2F1c2UgYSBub3ZlbCBwaGVub3R5cGljIGVmZmVjdC4KCiMjIyMjIGV4YW1wbGVzCnJhcmUgZm9ybSBvZiBhbGJpbmlzbTogYm90aCBtb3RoZXIgYW5kIGZhdGhlciB3ZXJlIG5vcm1hbGx5IHBpZ21lbnRlZCBhbmQgdGhlcmUgZmFtaWxpZXMgaGFkIG1pbmltYWwgaW5zdGFuY2VzIG9mIGFsYmluaXNtLiBob3dldmVyIGJvdGggY2hpbGRyZW4gd2hlcmUgYWxiaW5vJyBzIC4gQW5hbHlzaXMgZm91bmQgdGhhdCB0aGlzIGFsYmluaXNtIHN0ZW1tZWQgbm90IGZyb20gdGhvc2UgZ2VuZXMgYW5kIG11dGF0aW9uIG1vc3QgY29tbW9ubHkgYXNzb2NpYXRlZCB3aXRoIGFsYmluaXNtIGJ1dCByYXRoZXIgZnJvbSBhIGNvbWJpbmF0aW9uIG9mIHJlY2Vzc2l2ZXMgKGhldGVyb3p5Z291cykgZnJvbSBib3RoIGZhdGhlciBhbmQgbW90aGVyIChtdXRhdGlvbnMgaW4gVFlSUDEgZ2VuZSksIHdoaWNoIG9uIHRoZWlyIG93biB3b3VsZCBoYXZlIGxpdHRsZSBvciBubyBlZmZlY3Qgb24gdGhlIHBpZ21lbnQgcHJvZHVjdGlvbiBwYXRod2F5LCBidXQgd2hlbiBjb21iaW5lZCByZWR1Y2VkIHBpZ21lbnQgcHJvZHVjdGlvbiBzaWduaWZpY2FudGx5LgoKTk9URTogUnVmdXMgYWxiaW5pc20gbGVhZHMgdG8gYSBwaGVub3R5cGUgd2l0aCByZWRkaXNoIGhhaXIsIGxpZ2h0ZXIgc2tpbiwgYW5kIGJsdWUgZ3JleSBleWVzLgoKIyMgRm9ya2VkIGxpbmUgcHJvYmFiaWxpdHkgbWV0aG9kLgogCiMjIyMgYmFzaWNzCkEgY2FuY2VyIGlzIGEgZ3JvdXAgb2YgY2VsbHMgd2hvc2UgcHJvbGlmZXJhdGlvbiBpcyB1bmNvbnRyb2xsZWQsIGFuZCB3aGljaCBjYW4gc3ByZWFkIHRvIG90aGVyIGxvY2F0aW9ucyBpbiB0aGUgYm9keSB3aGljaCBhcmUgbm9ybWFsbHkgcG9wdWxhdGVkIGJ1IG90aGVyIGNlbGwgdHlwZXMuCgojIyMjIyBiZW5pZ2luIHR1bW91cnMKZ3JvdyBidXQgZG8gbm90IHNwcmVhZC4KCiMjIyMjIG1hbGlnbmFudCB0dW1vdXJzCm92ZXIgcHJvbGlmZXJhdGUgYW5kIGludmFkZSBvdGhlciBib2R5IHRpc3N1ZXMvIGFyZWFzIGluIHRoZSBib2R5LiAgCiAKIyMjIyB0eXBlcyBvZiBjYW5jZXJzCiAKIyMjIyMgQ2FyY2lub21hcwogZGVyaXZlZCBmb3JtIGVwaXRoZWxpYWwgY2VsbHMKIAojIyMjIyBTYXJjb21hcwogZGVyaXZlZCBmcm9tIGNvbm5lY3RpdmUgb3IgbXVzY2xlIHRpc3N1ZXMuIEtub3duIGFzIE9zdGVvc2FyY29tYSBpbiB0aGUgY2FzZSBvZiBib25lIHRpc3N1ZSBhbmQgS2Fwb3NpIHNhcmNvbWEgaW4gdGhlIGNhc2Ugb2Ygc29mdCBjb25uZWN0aXZlIHRpc3N1ZS4gIAogCiMjIyMjIEx5bXBob21hIGFuZCBsZXVrYWVtaWFzCjEgLiBDYW5jZXJzIG9mIHRoZSBoZW1hdG9wb2lldGljIHN5c3RlbS4KMi4gTHltcGhvbWEgKHNvbGlkIHR1bW91cikKMy4gTGV1a2FlbWlhIGV4Y2VzcyBvZiBjaXJjdWxhdGluZyBpbW1hdHVyZSBibG9vZCBjZWxsIHByZWN1cnNvcnMuCiMjIyMjIENhbmNlciBvZiB0aGUgbmVydm91cyBzeXN0ZW0KYnJhaW4gYW5kIGNlbnRyYWwgbmVydm91cyBzeXN0ZW0uCgpOT1RFOiBtb3N0IGNvbW1vbiBpbiBjaGlsZHJlbgogCiMjIyMjIEdlcm0tbGluZSBjYW5jZXIuCgojIyMjIyBDYW5jZXJzIG9mIGJyZWFzdCwgcHJvc3RhdGUsIGx1bmcsIHBhbmNyZWFzLCBhbmQgY29sb24uCgojIyMjIENhdXNlcyBvZiBjYW5jZXIuCkkgbiBtb3N0IGNhc2VzIGNhbmNlciBpcyBub3QgaW5oZXJpdGVkLiBJbiAgYnJlYXN0IGNhbmNlci9vdmFyaWFuIGNhbmNlciBCUzEsIEJTMiBwbGF5IHNvbWUgcm9sZSBpbiBnZW5ldGljIGRpc3Bvc2l0aW9uLCBwZXJoYXBzIDUtMTAlCiAKCiMjIENocm9tb3NvbWUgbGV2ZWwgZ2VuZXRpY3MKKHJlIHZpc2UgbWl0b3NpcyBhbmQgbWVvc2lzKQpjb3B5IHNsaWRlcwoKIyMjIEJhY2tncm91bmQgCgojIyMjIENocm9tb3NvbWUgYmFzaWMgc3RydWN0dXJlCgojIyMjIENocm9tb3NvbWUgZ3JvdXBzCgojIyMjIyBtZXRhLWNlbnRyaWMKY2VudHJvbWVyZSBpcyBoYWxmIHdheSB1cCB0aGUgbGVuZ3RoIG9mIHRoZSBjaHJvbW9zb21lCgojIyMjIyBzdWJtZXRhY2VudHJpYwpjZW50cm9tZXJlIGlzIG1vcmUgdG8gdGhlIG9uZSBzaWRlIG9mIHRoZSBjaHJvbW9zb21lIHRoYW4gdGhlIG90aGVyLAoKIyMjIyMgQWNyb2NlbnRyaWMKdGhlIGNlbnRyb21lcmUgaXMgdmVyeSBmYXIgdG8gdGhlIG9uZSBzaWRlIG9mIHRoZSBjaHJvbW9zb21lLCB3aXRoIGEgbG9uZyBhcm0gY29udGFpbmluZyBtb3N0IG9mIHRoZSBnZW5lcyBhbmQgYSBzaG9ydCBhcm0gY29udGFpbmluZyBwcmVkb21pbmFudGx5IHRlbW9sbWVyaWMgRE5BLgoKIyMjIyMgVGVsb2NlbnRyaWMgIApodW1hbnMgZG8gbm90IHBvc3NlcyBhbnkgdGVsb2NlbnRyaWMgY2hyb21vc29tZXMsIGJ1dCBjZXJ0YWluIGluc2VjdCBvZiBjcnVzdGF0aW9uIHNwZWNpZXMgZG8uCgojIyMjIyBIb2xvY2VudHJpYwpDZW50cm9tZXJlIGxpa2Ugc3RydWN0dXJlIGV4aXN0IGFsb25nIHRoZSBlbnRpcmUgbGVuZ3RoIG9mIHRoZSBjaHJvbW9zb21lLiB0aGlzIG1heSBkZWNyZWFzZSB0aGUgY2hhbmNlcyBvZiBmYXVsdHkgZGl2aXNpb24vIHNlZ3JlZ2F0aW9uLgoKIyMjIyBDaHJvbW9zb21lIGJhbmRpbmcKYmFuZHMgd2VyZSBuYW1lZCBhbmQgdXNlZCB0byBsb2NhdGUgc3BlY2lmaWMgZ2VuZXMuIHRoZSBiYW5kaW5nIHBhdHRlcm5zIGFyZSBkdWUgdG8gdW5ldmVuIEROQSBkZW5zaXRpZXMgaW4gdGhlIGNvaWxlZCBzdHJ1Y3R1cmUgb2YgdGhlIGNocm9tb3NvbWUuCgoKIyMjIENocm9tb3NvbWUgbGV2ZWwgbXV0YXRpb25zCgojIyMjIEFuZXVwbG9pZHkgKFNwZWxsaW5nKQpFYWNoIGNlbGwgaXMgaGFzIGF0IGxlYXN0IG9uZSBleHRyYSBjaHJvbW9zb21lIG9yIGlzIG1pc3NpbmcgYXQgbGVhc3Qgb25lIGNocm9tb3NvbWUKCiMjIyMjIFRyaXNvbXkKd2hlbiBhbiBpbmRpdmlkdWFsIGluaGVyaXRzIHRocmVlIGNvcGllcyBvZiBhIHBhcnRpY3VsYXIgY2hyb21vc29tZS4KSW4gSHVtYW5zIG9ubHkgdGhyZWUgb2YgYWxsIHRoZSBwb3NzaWJsZSB0cmlzb21pZXMgYXJlIHZpYWJsZSwgKGFzIGluIGluZGl2aWR1YWxzIHdpdGggdGhlc2UgbXV0YXRpb25zIHdpbGwgc3RpbGwgYmUgYm9ybiBhbmQgbm90IHRlcm1pbmF0ZWQgZHVyaW5nIHByZWduYW5jeSkKCm9mIHRoZXNlIHRocmVlIChUcmlzb215IDEzLCAxOCwgYW5kIDIxKSBvbmx5IGluZGl2aWR1YWxzIHdpdGggdHJpc29teSAyMSBjYW4gc3Vydml2ZSBwYXN0IHRoZSBmaXJzdCBmZXcgeWVhcnMgb2YgY2hpbGRob29kLiBJbmRpdmlkdWFscyB3aXRoIFRyaXNvbXkgMjEgaGF2ZSBkb3duIHN5bmRyb21lLgoKIyMjIyMjIERvd24gc3luZHJvbWUgKFRyaXNvbXkgMjEpCkZyZXF1ZW5jeTogMS8xMDAwCkVmZmVjdHMKMS4gbWVudGFsIHJldGFyZGF0aW9uCjIuIHNob3J0IHN0YXR1cmUKMy4gaGVhcnQgZGlzZWFzZQo0LiBzaG9ydGVuZWQgbGlmZSBzcGFuLgoKIyMjIyMjIEVkd2FyZCBTeW5kcm9tZSAoVHJpc29teSAxOCkKRWZmZWN0czoKMS4ga2lkbmV5IGFuZCBpbnRlc3RpbmFsIG1hbGZvcm1hdGlvbgozLiBoZWFydCBkZWZlY3RzLgo0LiBtZW50YWwgcmV0YXJkYXRpb24KCk5PVEU6IG9ubHkgOCUgc3Vydml2YWwgcGFzdCB0aGUgZmlyc3QgeWVhci4KCiMjIyMjIyBQYXR1YSBzeW5kcm9tZSAoVHJpc29teSAxMyApCkVmZmVjdHM6CjEuIEtpZG5leSBhbmQgaGVhciBkZWZlY3RzCjIuIHBvbGlkYWN0aWx5ICh0b28gbWFueSBkaWdpdHMpCjMuIE5lcnZvdXMgc3lzdGVtIGFibm9ybWFsaXRpZXMKNC4gRGVhdGggd2l0aGluIHRoZSAxc3QgeWVhci4KCgoKTk9URTogdGhlIHNtYWxsZXIgcmVsYXRpdmUgc2l6ZSBvZiBjaHJvbW9zb21lIDIxLCBtZWFuaW5nIHRoYXQgaXQgY29udGFpbnMgbGVzcyBpbXBvcnRhbnQgZ2VuZXMgbWF5IGJlIHJlbGF0ZWQgdG8gaXRzIGluY3JlYXNlZCB2aWFiaWxpdHkgLgoKIyMjIyMgTW9ub3NvbXkKd2hlbiBhbiBpbmRpdmlkdWFsIGluaGVyaXRzIG9ubHkgb25lIGNvcHkgb2YgYSBwYXJ0aWN1bGFyIGNocm9tb3NvbWUuCgojIyMjIyBOdWxsaXNvbXkKaGF2aW5nIG5vIGNvcGllcyBvZiBhIHBhcnRpY3VsYXIgY2hyb21vc29tZS4KCiMjIyMgUG9seXBsb2lkeQoKIyMjIyBTdHJ1Y3R1cmFsIHJlYXJyYW5nZW1lbnRzCjEuIGRlbGV0aW9uCjIuIGR1cGxpY2F0aW9uCjMuIHRyYW5zbG9jYXRpb24KNC4gaW52ZXJzaW9uCjUuIGZpc3Npb24KNi4gZnVzaW9uCgojIyMjIG5vbiBkaXNqdW5jdHVyZQoocmV2aWV3IG1pdG9zaXMgYW5kIG1laW9zaXMpCklmIG5vbiBkaXNqdW5jdHVyZSBoYXBwZW5zIGluIG1laW9zaXMgaXQgaXMgZ2VuZXJhbGx5IHdvcnNlIHRoYW4gaWYgaXQgaGFwcGVucyBpbiBtaXRvc2lzIGFzIGl0IHdpbGwgYWZmZWN0IHRoZSB3aG9sZSBvcmdhbmlzbS4KCiMjIyMjIERvd24gU3luZHJvbWUKb2NjdXJzIGluIGFib3V0IDEgb2YgYSB0aG91c2FuZCBsaXZlIGJpcnRocy4gb3JpZ2luYXRlcyBmcm9tIG5vbiBkaXNqdW5jdGlvbiBpbiB0aGUgZWdnIGNlbGwgcmF0aGVyIHRoYW4gdGhlIHNwZXJtIGNlbGwgYmVjYXVzZSB0aGUgYXJyZXN0ZWQgZGV2ZWxvcG1lbnQgb2YgdGhlIGVnZyBjZWxscyBsZWFkcyB0byBkZWNheSBvZiB0aGUgc2VwYXJhdGluZyBhbmQgbWFya2luZyBwcm90ZWlucyBhcyB3ZWxsIGFzIHRoZSBzcGluZGxlIGZpYnJlIGxlYXZpbmcgdGhlIHdob2xlIHByb2Nlc3Mgb3BlbiB0byBtb3JlIGVycm9yLgo4JSBvZiBpbmRpdmlkdWFscyBzdXJ2aXZlIGZvciBvbmUgeWVhciA/CgojIyMjIyB0dXJuZXIgU3luZHJvbWUgbW9ub3NvbXkgWApGcmVxdWVuY3kgMS8yMCAwMDAgKG9ubHkgb2NjdXJzIGluIGZlbWFsZXMgKQpFZmZlY3RzOgoxLiB3ZWJiZWQgbmVjawoyLiBzaG9ydCBzdGF0dXJlCjMuIHVuZGVyZGV2ZWxvcGVkIG92YXJpZXMgYW5kIGxhY2sgb2Ygc2Vjb25kYXJ5IHNleCBjaGFyYWN0ZXJpc3RpY3MuCgojIyMjIyBLbGluZWZlbHRlciBzeW5kcm9tZSBYWFkKVG9vIG1hbnkgWCdzICxYWFkgLCBYWFhZLCBYWFhYWSwgWFhYWFhZLiAoWFhZWSkKRWZmZWN0czoKMS4gRGVjcmVhc2UgaW4gdGVzdG9zdGVyb25lIGxldmVscwoyLiB0aGUgbW9yZSBYJ3MgdGhlIGhpZ2hlciB0aGUgY2hhbmNlIG9mIGJyYWluIGRhbWFnZS4KCiMjIyMjIFhZWQpYWVkgaGFzIHRoZSBwaGVub3R5cGUgb2YgYSBub3JtYWwgbWFrZS4KbWVuIHdpdGggMiBZIGNocm9tb3NvbWVzIHRlbmQgdG8gYmUgdGFsbCBhcyB0aGVyZSBpcyBhIGN1bXVsYXRpdmUgZWZmZWN0IGFkZGluZyB0byBoZWlnaHQuICh0aGV5IG1heSBhbHNvIGV4aGliaXQgaW5jcmVhc2VkIGFnZ3Jlc3Npb24gYnV0IHRoaXMgaW4gdW5jbGVhcikKCiMjIyMjIFhYWApGcmVxdWVuY3k6IDEvMTAwMApFZmZlY3RzOgoxLiBOb3JtYWwgZmVtYWxlIHdpdGggbm9ybWFsIGZlcnRpbGl0eS4KCk5PVEU6IHRoaXMgY29uZGl0aW9ucyBpcyBzZWxkb20gZGlhZ25vc2VkLgoKCiMjIyMgUG9seXBsb2lkeQpUaHJlZSBvciBtb3JlIGNvbXBsZXRlIHNldHMgb2YgY2hyb21vc29tZXMgcHJlc2VudCBpbiBzb21hdGljIGNlbGxzLgojIyMjIDJuLTIwbgpjYXVzZWQgYnkgbm9uIHJlZHVjZWQgZ2FtZXRlIGZvbXJhdGlvbiwgd2hpY2ggaXMgdmVyeSByYXJlIGluIG1hbGVzIGFuZCBub24gdmlhYmxlLgoKbW9zdCBvZnRlbiBmbG93ZXJpbmcgcGxhbnRzIGFyZSBwb2x5cGxvaWQsIHRoZXkgYXJlIGV2ZW4gc3BlY2lmaWNhbGx5IGJyZWVkIHRvIGhhdmUgbW9yZSBjaHJvbW9zb21lIHNldHMgYXMgdGhpcyB1c3VhbGx5IGluY3JlYXNlcyBmcnVpdCBhbmQgZmxvd2VyIHNpemUuCgoKIyMjIyMgRXhhbXBsZXMKCndhdGVyIG1lbG9uCm11c3QgYmUgYnJlYWQgZnJvbSBhIHRldHJhcGxvaWQoPykgYW5kIGEgZGlwbG9pZCB0byBnZXQgYSB0cmlwbGlvZAppbmZlcnRpbGUgcGxhbnQuCgpLaXdpIGZydWl0CjEyLTE2IGNvcGllcwoKU3RyYXdiZXJyaWVzCjQgY29waWVzICh0ZXRyYXBsb2lkKQoKRnJvZ3MKX1hlbm9waXMgbGV2aXNfICA0bgpfWGVub3B1cyB0cm9waWNhbGlzXyAybgoKTk9URTogcGxhbnRzIGFyZSBiZXR0ZXIgYWRhcHRlZCB0byBwb2x5cGxvaWQgYmVjYXVzZToKMS4gdGhleSBhcmUgbm90IGFzIGNvbmZpbmVkIHRvIGEgc2V0IHBoeXNpY2FsIGZvcm0gc28gZGlmZmVyZW50IGluIGdyb3d0aCBhbmQgZGV2ZWxvcG1lbnQgZ2VuZXMgb3BlcmF0aW9uIGxldmVscyBhcmUgbm90IHNvIGltcG9ydGFudAoyLiB0aGV5IGNhbiByZXByb2R1Y2UgdmVnZXRhdGl2ZWx5IHNvIHBvbHlwbG9pZCBpbmRpdmlkdWFscyBhcmVuJ3QgYXMgc2V2ZXJlbHkgZXZvbHV0aW9uYXJpbHkgZGlzYWR2YW50YWdlZC4KMy4gbGVzcyBwcmVjaXNlIHNwZXJtIHRhcmdldGluZyBpcyBuZWNlc3NhcnkuCgoKCiMjIyMgRGVsZXRpb25zCmRlbGV0aW9ucyBvZnRlbiBvY2N1ciBieSBjaHJvbW9zb21lIGJyZWFrYWdlIGR1cmluZyB0aGUgY2VsbCBjeWNsZS4gVGhlc2UgZGVsZXRpb25zIG1heSBiZSB0ZXJtaW5hbCBvZiBpbnRlcnN0aXRpYWwuIElmIHRoZSBjZW50cm9tZXJlIGlzIGxvc3QsIHRoZQplbnRpcmUgY2hyb21vc29tZSB3aWxsIGJlIGxvc3QuCgojIyMjIyBQaWVjZSBvZiBDaHJvbWUKc29tZXRpbWVzIG11bHRpcGxlIGdlbmVzIGFyZSBsb3N0IHdoZW4gYm90aCBzdHJhbmRzIGJyZWFrIGFuZCBhIHBhcnQgb2YgdGhlIGNocm9tb3NvbWUgaXMgcGVybWFuZW50bHkgbG9zdC4gQSBzcGVjaWZpYyBkZWxldGlvbiBvbiBjaHJvbW9zb21lIDUuICh3aGVyZSB0aGUgZW50aXJlIHAgYXJtIGlzIGRlbGV0ZWQgbGVhZHMgdG8gYSBzZXJpb3VzIHN5bmRyb21lKQoKIyMjIyMgQ3JpIGR1IGNoYXQgKDVwLSkKRnJlcXVlbmN5OiAxLzIwMDAwLTUwMDAwCkVmZmVjdHM6CjEuIEludGVsbGVjdHVhbCBkaXNhYmlsaXR5LAoyLiBsb3cgbXVzY2xlIHRvbmUKMy4gbWljcm9jZXBoYWx5CjQuIGRpc3RpbmN0aXZlIGZhY2lhbCBmZWF0dXJlcy4KNS4gbm9ybWFsIGxpZmUgZXhwZWN0YW5jeSAgCgojIyMjIER1cGxpY2F0aW9ucwpDYXVzZTogcmV0cm8gdHJhbnNwb3NpdGlvbiwgb3Igbm9uLWFsbGVsaWMgaG9tb2xvZ291cyByZWNvbWJpbmF0aW9uIGluIHJlcGVhdCByaWNoIGFyZWFzLgoKQSBzbWFsbCByZWdpb24gb2YgYSBjaHJvbW9zb21lIGlzIHJlcGVhdGVkLCBhbmQgcGxhY2VkIG5leHQgdG8gdGhlIGV4aXN0aW5nIGNvcHkgKGluIHRhbmRlbSkuIGR1cGxpY2F0aW9ucyB0ZW5kIHRvIGhhcHBlbiBpbiBoaWdoIHJlcGV0aXRpdmUgc2VxdWVuY2VzIG9mIEROQS4gVGhlc2UgcmVwZWF0ZWQgcmVnaW9ucyBtZWFuIHRoYXQgdGhlIGNocm9tb3NvbWUgd2lsbCBub3RlIGxpbmUgdXAgdmVyeSB3ZWxsIHdpdGggaXRzIGhvbW9sb2dvdXMgcGFpci4KCnBhc3NlZCBvbiBieSB1bmVxdWFsIG9yZGVyLCBhbmQgbWF5IG9yIG1heSBub3QgaGF2ZSBhIHBoZW5vdHlwaWMgZWZmZWN0LgoKCiMjIyMgSHVudGluZ3RvbiBQdXJlYQpSZXBlYXRzIGFsdGVyIGdlbmUgZnVuY3Rpb24sIHdoaWNoIGNhbiBsZWFkIHRvIGJyYWluIGRhbWFnZS4KUmVwZWF0cyBtYXkgaGF2ZSBhIHBvc2l0aXZlIGVmZmVjdCBiZWNhdXNlIHRoZXkgYWxsb3cgb25lIGNvcHkgb2YgYSBnZW5lIHRvIGV2b2x2ZSBpbmRlcGVuZGVudGx5LCBzcGVjaWFsaXNlIGluIGEgZGlmZmVyZW50IGZ1bmN0aW9uIHdoaWxlIHRoZSBvcmlnaW5hbCBmdW5jdGlvbiBpcyBzdGlsbCBjb25zZXJ2ZWQgYnkgdGhlIG90aGVyIGNvcHkgb2YgdGhlIGdlbmUuCgojIyMjIEludmVyc2lvbnMuCkNhdXNlOiBub24tYWxsZWxpYyBob21vbG9nb3VzIHJlY29tYmluYXRpb24KRWZmZWN0czoKMS4gIHBhaXJpbmcgaW4gbWVpb3NpcyBvY2N1cnMgdmlhIGxvb3BpbmcKMi4gY3Jvc3Mgb3ZlciBpbiB0aGUgbG9vcGVkIHJlZ2lvbiBjYW4gY2F1c2UgbWFqb3IgZGVsZXRpb25zIG9yIGR1cGxpY2F0aW9ucy4KCiMjIyMgVHJhbnNsb2NhdGlvbgpFZmZlY3RzOgoxLiBub3ZlbCBjaHJvbW9zb21lcyBhcmUgZ2VuZXJhdGVkCjIuIGluZGl2aWR1YWxzIGFyZSB1c3VhbGx5IGluZmVydGlsZS4KMy4gY2FuIHJlc3VsdCBpbiBhbmV1cGxvaWR5IChzdWNoIGFzIDE0cTIxcSBpbmhlcml0ZWQgZG93biBzeW5kcm9tZSkKNC4KCiMjIyMjIHRlcm1pbmFsCkEgcGllY2UgYnJlYWtzIG9mZiBhIGNocm9tb3NvbWUgYW5kIHN0aWNrcyB0byB0aGUgZW5kIG9mIGEgbm9uLWhvbW9sb2dvdXMgY2hyb21vc29tZS4KCiMjIyMjIHJlY2lwcm9jYWwKRXhjaGFuZ2Ugb2YgcGllY2VzIGJldHdlZW4gbm9uLWhvbW9sb2dvdXMgY2hyb21vc29tZXMKIyMjIyBSb2JlcnRzb25pYW4KCnR3byBBY3JvY2VudHJpYyBjaHJvbW9zb21lcyBsb3NlIHRoZWlyIHNob3J0IGFybXMgYW5kIGdldCBzdHVjayB0b2dldGhlci4KCiMjIyMgRmlzc2lvbgpkZWxldGlvbiAobG9zcyBvZiBhY2VudHJpYyBwaWVjZSknCgojIyMjIEZ1c2lvbgpiaWNlbnRyaWMgY2hyb21vc29tZXMgKGJyZWFrYWdlIGluIG1pdG9zaXMpCgojIyMjIyBicmVha2FnZSBmdXNpb24gYnJpZGdlIGN5Y2xlcyBpbiBjYW5jZXIuCkNvcHkgaW1hZ2UuCjEuIGVuZCBvZiBhIGNocm9tb3NvbWUgYnJlYWtzIG9mZiAoZHVyaW5nIG1laW9zaXMpCjIuIG9uZSBkYXVnaHRlciBjZWxsIGluaGVyaXRzIHRoZSBjaHJvbW9zb21lIGxhY2tpbmcgYSB0ZWxvbWVyZS4KMy4gdGhlIG5ldyBjZWxsIGVudGVycyBTIHBoYXNlIGFuZCByZXBsaWNhdGVzIGl0cyBETkEgKGl0IG5vdyBoYXMgdHdvIHN0aWNreSBETkEgZW5kcyByaWdodCBuZXh0IHRvIGVhY2ggb3RoZXIuCikKNC4gbG9vc2UgRE5BIHN0cmFuZHMgYmluZCB0byBmb3JtIGNvbnRpbnVvdXMgRE5BIGxvb3AuCjUuIGZ1c2VkIHNpc3RlciBjaHJvbWF0aWRzIGFyZSBwdWxsZWQgYXBhcnQgZHVyaW5nIG1pdG9zaXMsIGNhdXNpbmcgYnJlYWthZ2UgYXQgYSBuZXcgc2lnaHQKNi4gb25lIGRhdWdodGVyIGNlbGwgaW5oZXJpdHMgY2hyb21vc29tZSB3aXRoIGR1cGxpY2F0ZWQgZ2VuZXMgYW5kIGFnYWluIGEgZnJlZSBzdGlja3kgZW5kLiB0aGlzIGN5Y2xlIGNhbiB0aGVuIGJlZ2luIGFnYWluIGxlYWRpbmcgdG8gZXZlbiBmdXJ0aGVyIGNocm9tb3NvbWUgZGlzdG9ydGlvbi4KCiMjIyMgSW1wcmludGluZwoKIyMjIyMgSGlubnkgdnMgbXVsZQoKIyMjIyMjIE11bGUKaG9yc2UgbW90aGVyIGRvbmtleSBmYXRoZXIKaGFyZHkgYW5kIG9iZWRpZW50CgojIyMjIyMgSGlubnkKZG9ua2V5IG1vdGhlciwgaG9yc2UgZmF0aGVyLgp0ZW1wZXJhbWVudGFsLCB1bnRyYWluYWJsZS4KCiMjIyMjIEludGVyc2lzdGlhbCBkZWxldGlvbiBvZiBjaHJvbW9zb21lIDE1CgojIyMjIyMgUHJhZGVyIC1XaWxsaSBzeW5kcm9tZQpDYXVzZTogZGVsZXRpb24gZnJvbSBmYXRoZXIsIFpORjEyNyBhbmQgSVBXIGluYWN0aXZhdGVkIG9uIHRoZSBtYXRlcm5hbCBjb3B5LiAgCmVmZmVjdHM6CjEuIG1lbnRhbCByZXRhcmRhdGlvbgoyLiBvYmVzaXR5CjMuIGRpbWluaXNoZWQgZ3Jvd3RoLgoKIyMjIyMjIEFuZ2VsbWFuIHN5bmRyb21lCjEuIGRlbGV0aW9uIGZyb20gbW90aGVyOiBVQkUzQSBpbmFjdGl2YXRlZCBvbiBwYXRlcm5hbCBjb3B5LiAgCjIuIG1lbnRhbCByZXRhcmRhdGlvbgoyLiBlcGlsZXBzeQozLiBsYWNrIG9mIG1vdG9yIGRldmVsb3BtZW50LgoKIyMjIyBYIGluYWN0aXZhdGlvbgp0aGUgaW5hY3RpdmF0aW9uIG9mIG9uZSBvZiB0d28gWCBjaHJvbW9zb21lcyBpbiBmZW1hbGVzIHZpYSBETkEgbWV0aHlsYXRpb24uCgpOT1RFOiB3aGljaCBYIGNocm9tb3NvbWUgaXMgaW5hY3RpdmF0ZWQgdmFyaWVzIHJhbmRvbWx5IGZyb20gY2VsbCB0byBjZWxsLnRoaXMgaW5hY3RpdmF0aW9uIHByb2Nlc3MgdHVybnMgdGhlIGluYWN0aXZlIFggaW50byBhIGJhciBib2R5LCAoaGlnaGx5IG1ldGh5bGF0ZWQgYW5kIHJvbGxlZCB1cCBpbiBoaXN0b25lIHByb3RlaW5zKS4KCiMjIyMgRnJvZyBjb2xvdXIKCiMjIyMjIGRldGFpbHMKdGhlIHNraW4gY29sb3VyIG9mIGEgY2VydGFpbiBmcm9tIGlzIGNvbnRyb2xsZWQgYnkgb25lIGFsbGVsZS4gVGhlcmUgYXJlIHRocmVlCmRpZmZlcmVudCBwaGVub3R5cGVzIG9ic2VydmVkLCB0aGVzZSBhcmUgcmVkLCBibHVlLCBhbmQgcHVycGxlLgoKIyMjIyMgZXhwbGFuYXRpb24KVGhpcyBpcyBhbiBleGFtcGxlIG9mIGNvLWRvbWluYW5jZSBhcyB0aGUgcHVycGxlIGNvbG91ciBjb21lcyBmcm9tIGEgY29tYmluYXRpb24Kb2YgdGhlIHJlZCBhbmQgYmx1ZSBwaWdtZW50cy4gdGhhdCBpcyBib3RoIHJlZCBhbmQgYmx1ZSBwaWdtZW50cyBoYXZlIGJlZW4KcHJvZHVjZWQuIFdlIGNhbiBjb25jbHVkZSB0aGF0IHRoZSBwdXJwbGUgZnJvbSBpcyBoZXRlcm96eWdvdXMsIHRoZSBibHVlIGZyb2cKaXMgaG9tb3p5Z291cyBibHVlIGFuZCB0aGUgcmVkIGZyb2cgaXMgaG9tb3p5Z291cyByZWQuCgojIyMjIEZydWl0IGZsaWVzIGV5ZSBjb2xvdXIuCgojIyMjIyBkZXRhaWxzLgp0aGUgY29sb3VyIG9mIGZydWl0IGZsaWVzIGV5ZXMgaXMgZGV0ZXJtaW5lZCBieSB0d28gZ2VuZSBsb2NpLiBhIGZseSB3aXRoCmRvbWluYW50IGFsbGVsZXMgYXQgdGhlIHJlZCBsb2N1cyB3aWxsIGJlIHJlZCBleWVkLCB3aGlsZSBhIGZseSB3aXRoIGRvbWluYW50CiBhbGxlbGVzIGF0IHRoZSBicm93biBsb2N1cyB3aWxsIGJlIGJyb3duIGV5ZWQuIEhvd2V2ZXIgYSBmbHkgd2l0aCBib3RoCmRvbWluYW50IGJyb3duIGFuZCBjaW5uYWJhciB3aWxsIGJlIHdoaXRlIGV5ZWQuCgojIyMjIyBleHBsYW5hdGlvbgp0aGUgd2hpdGUgZXllZCBwaGVub3R5cGUgaXMgZHVlIHRvIGEgZm9ybSBvZiBpbmhpYml0aW9uIHNpbWlsYXIgdG8gZXBpc3Rhc2lzCnN0b3BzIGVpdGhlciBvZiB0aGUgcGlnbWVudHMgZm9ybSBiZWluZyBwcm9kdWNlZCBpZiBib3RoIHBpZ21lbnQgZ2VuZXMgYXJlCnByZXNlbnQuCgojIyMjIFJhYmJpdCBTa2luIENvbG91cgoKIyMjIyMgZGV0YWlscwp0aGUgc2tpbiBjb2xvdXIgb2YgcmFiYml0cyBpcyBkZXRlcm1pbmVkIGJ5IG9uZSBnZW5lIGxvY3VzLCB3aGljaCBoYXMgZm91cgpwb3NzaWJsZSBBbGxlbGVzLgpBbGwgYWxsZWxlcyBjb2RlIGZvciB0aGUgZW56eW1lIHR5cm9zaW5hc2Ugd2hpY2ggYWN0cyB0byBjb252ZXJ0IHR5cm9zaW5lIGludG8KZG9wYW1pbmUgYSBjcml0aWNhbCBmaXJzdCBzZXQgaW4gdGhlIHByb2R1Y3Rpb24gb2YgaGFpciBwaWdtZW50LgoKIyMjIyMjICMxIG5vbiBmdW5jdGlvbmFsClRoZSBtb3N0IHJlY2Vzc2l2ZSBBbGxlbGUgY29kZXMgZm9yIGEgbm9uZnVuY3Rpb25pbmcgdmVyc2lvbiBvZiB0eXJvc2luYXNlCmxlYWRpbmcgdG8gYWxiaW5vIHJhYmJpdC4KCiMjIyMjIyAjMiBoZWF0IHNlbnNpdGl2ZQpUaGUgbmV4dCBtb3N0IHJlY2Vzc2l2ZSBhbGxlbGUgY29kZXMgZm9yIGEgaGVhdCBpbmFjdGl2YXRlZCB2ZXJzaW9uIG9mIHR5cm9zaW5lCm1lYW5pbmcgdGhhdCB0aGUgZmluYWwgY29sb3VyIG9mIHRoZSByYWJiaXRzIGZ1ciB3aWxsIGRlcGVuZCBvbiB0aGUgdGVtcGVyYXR1cmUKY29uZGl0aW9ucyBpdCB3YXMgcmFpc2VkIGluLCBhbmQgYWxzbyB0aGF0IHdpdGhpbiBhIGNlcnRhaW4gdGVtcGVyYXR1cmUgcmFuZ2UKdGhlcmUgd2lsbCBiZSBhIGRpc3RpbmN0IGNvbG91ciBkaWZmZXJlbmNlIGJldHdlZW4gdGhlIHdhcm1lciBhbmQgY29sZGVyIHBhcnRzCm9mIHRoZSBhbmltYWwuCgojIyMjIyMgIzMgbG9jYWxpc2VkIGZ1bmN0aW9uYWxpdHkKVGhlIG5leHQgbW9zdCByZWNlc3NpdmUgYWxsZWxlIGNvZGVzIGZvciBhIHZlcnNpb24gb2YgdHlyb3NpbmFzZSBkb2VzIG5vdCBmb2xkCnF1aXRlICJjb3JyZWN0bHkiIGFuZCBhcyBzdWNoIGRvZXMgbm90IGdseWNvc2FsYXRlIGluIHRoZSBzYW1lIHdheSBhcyB0aGUKZG9taW5hbnQgdmVyc2lvbi4gbWVsYW5vY3l0ZXMgd2hpY2ggcHJvZHVjZSB0aGUgZ3JleSBwaWdtZW50IHdpbGwgc3RpbGwgYWNjZXB0CnRoaXMgdHlyb3NpbmFzZSBpbnRvIHRoZWlyIGN5dG9wbGFzbSBhbmQgYXMgc3VjaCBncmV5IHBpZ21lbnQgd2lsbCBiZSBwcm9kdWNlZC4KaG93ZXZlciBhcyBpbnRyYWNlbGx1bGFyIHRyYW5zcG9ydCBpcyBhZmZlY3RlZCB0aGUgdHlyb3NpbmFzZSBlaXRoZXIgY2Fubm90CnJlYWNoIG9yIGNhbm5vdCBlbnRlciBtZWxhbm9jeXRlcyBjYXBhYmxlIG9mIHByb2R1Y2luZyB0aGUgYnJvd24gcGlnbWVudHMgYW5kIHNvCnRoZXkgcmFiYml0cyBhcmUgZnVsbCBncmV5CgojIyMjIyMgIzQgZnVsbHkgZnVuY3Rpb25hbAp0aGUgbW9zdCBkb21pbmFudCBhbGxlbGUgY29kZXMgZm9yIGEgZnVsbHkgZnVuY3Rpb25hbCBmb3JtIG9mIHR5cm9zaW5hc2UgYW5kCnRoZSBjb21iaW5hdGlvbiBvZiBncmV5IGFuZCBvcmFuZ2UgcGlnbWVudHMgcHJvZHVjZWQgZ2l2ZXMgdGhlIHJhYmJpdHMgYSBmdWxsCmJyb3duIGNvYXQuCgojIyMjIGh1bWFuIEJsb29kIHR5cGVzLgoKIyMjIyBkZXRhaWxzCmh1bWFuIGJsb29kIHR5cGVzIGFyZSBkZXRlcm1pbmVkIGJ5IG9uZSBnZW5lIGxvY3VzIHdpdGggdGhyZWUgYWxsZWxlcy4KYWxsZWxlIE8gaXMgcmVjZXNzaXZlLCBhbmQgY29kZXMgZm9yIG5vIGZ1bmN0aW9uaW5nIHByb3RlaW4uCmFsbGVsZSBBIGFuZCBCIGFyZSBjbyBkb21pbmFudCBhbmQgZWFjaCBjb2RlIGZvciBkaWZmZXJlbnQgc3VnYXJzIHdoaWNoIGFyZQphdHRhY2hlZCB0byB0aGUgb3V0c2lkZSBvZiByZWQgYmxvb2QgY2VsbHMuCgoKCgoKCiMjIyMgQm9tYmF5IHBoZW5vdHlwZQoKIyMjIyMgZGV0YWlscwpwYXJlbnRzIEEgYW5kIEFCLCBjaGlsZCBPLCBtYXRlcyB3aXRoIEEsIHJlc3VsdHMgQiwgQUIgYW5kIE8uCgojIyMjIyBleHBsYW5hdGlvbgpBIGFuZCBCIHN1Z2FycyBhcmUgYXR0YWNoZWQgdG8gcmVkIGJsb29kIGNlbGxzIGJ5IGFwcGVuZGluZyB0aGVtIG9udG8gdGhlIGVuZApvZiBnbHljb3Byb3RlaW5zIGNhbGxlZCBTdWJzdGFuY2UgSCB3aGljaCBhcmUgYWxyZWFkeSBhdHRhY2hlZCB0byB0aGUgY2VsbC4KSWYgYSBpbmRpdmlkdWFsIGlzIGhvbW96eWdvdXMgcmVjZXNzaXZlIGZvciBzdWJzdGFuY2UgSCBnZW5lcywgbm9uZSB3aWxsIGJlCnByb2R1Y2VkIGFuZCBzbyBldmVuIGlmIHRoZSBoYXZlIEEgb3IgQiBhbGxlbGVzIHRoZXkgd2lsbCBoYXZlIGEgZnVuY3Rpb25hbGx5Ck8gcGhlbm90eXBlLgoKIyMjIyBzZXggY2hyb21vc29tZXMKIGxldGhhbCBhbGxlbGVzLCBvciBhbGxlbGVzIGxpbmtlZCB3aXRoIGxvdyBmZXJ0aWxpdHkgbG9jYXRlZCBvbiB0aGUgWQpjaHJvbW9zb21lIGluIGh1bWFucyBhcmUgdmVyeSByYXJlLgpkaXNlYXNlIHJlbGF0ZWQgdG8gaG9tb3p5Z291cyBYWCBhcmUgbW9yZSBsaWtlbHkgdG8gYmUgc3VmZmVyZWQgYnkgd29tYW4sIGFzCnRoZXkgd2lsbCBoYXZlIG9uZSB3b3JraW5nIGNvcHkgb2YgdGhlIGdpdmVuIGdlbmUgc28gdGhleSBjYW4gc3Vydml2ZSBidXQKb25lIGRlZmVjdGl2ZSBjb3B5IHdoaWNoIGxlYWRzIHRvIHRoZSBpbGxuZXNzLiBtYWxlcyBvbiB0aGUgb3RoZXIgaGFuZCB3aWxsCmVpdGhlciBzdXJ2aXZlIGFuZCBiZSBlbnRpcmVseSBoZWFsdGh5IHdpdGggYSB3b3JraW5nIGNvcHkgb3IgZGllLCBpZiB0aGV5IGFyZQpldmVuIGJvcm4gaWYgdGhleSBoYXZlIG9ubHkgYSBkZWZlY3RpdmUgY29weS4KCgoKCiMjIyMjIGxldGhhbCBkb21pbmFudHMKbGV0aGFsIGRvbWluYW50cyBtYXkgb2NjdXIgaW4gb25lIG9mIHR3byBjYXNlcy4gRmlyc3QsIGlmIHRoZSBvbnNldCBvZiB0aGUKZGlzZWFzZS8gZGVmZWN0IHJlbGF0ZWQgdG8gdGhlIEFsbGVsZSBvbmx5IG9jY3VycyBhZnRlciByZXByb2R1Y3RpdmUgYWdlLgpTZWNvbmRseSBpZiBhIERlIE5vdm8gKHJhbmRvbSwgb25jZSBvZmYpIEROQSBtdXRhdGlvbiBvY2N1cnMgaW4gYSBnaXZlbgppbmRpdmlkdWFsLgpsZXRoYWwgZG9taW5hbnRzIGNhbiBhbHNvIHJlc3VsdCBmcm9tIGFuIEFsbGVsZSB3aGljaCBpbnRlcmZlcmVzIHdpdGggdGhlCmZvcm1hdGlvbiBvZiBhZ2dyZWdhdGVzIG9mIHRoZSBwcm90ZWluIHdoaWNoIHRoZSBnZW5lIGNvZGVzIGZvciwgb3IgcmVjZXB0b3JzIG9mCnRoYXQgcHJvdGVpbixvciBmaW5hbGx5IGlmIGl0IGhhcyBhIGRldHJpbWVudGFsIGVmZmVjdCBvbiBhbm90aGVyIHByb3RlaW4gb3IKZ2VuZSAoc3VjaCBhcyB0aGUgeWVsbG93IG1pY2UpCgojIyMjIGV4YW1wbGVzCgojIyMjIyBZZWxsb3cgTWljZS4KCiMjIyMjIGRldGFpbHMKWSBhbGxlbGUgY29kZXMgZm9yIHRoZSB5ZWxsb3cgY29sb3VyZWQgcGlnbWVudC4KeSBjb2RlcyBmb3Igb3RoZXIgcGlnbWVudC9ubyBwaWdtZW50LgpZIGlzIGEgbGV0aGFsIERvbWluYW50KD8pIEFsbGVsZS4gQXMgYSBZWSBpbmRpdmlkdWFsIHdpdGggbm90IGRldmVsb3AgYmFzdAp0aGUgZWFybHkgc3RhZ2VzIG9mIGltcGxhbnRhdGlvbgppbnRvIHRoZSB1dGVyaW5lIHdhbGwuCgojIyMjIyBtb2xlY3VsYXIvZ2VuZXRpYyBleHBsYW5hdGlvbgpXaGVuIHRoZSBZIGFsbGVsZSBpcyBwcmVzZW50IGF0IHRoZSBnZW5lIGxvY2kgaXQgY2F1c2VzIGEgZGVsZXRpb24gaW4gd2hpY2gsCml0cyBvd24gZ2VuZSBwcm9tb3RlciwgYXMgd2VsbCBhcyB0aGUgY29kaW5nIHNlcXVlbmNlIG9mIHRoZSBnZW5lIHVwc3RyZWFtCm9mIGl0KHRoZSBNRVJDIGdlbmUgbmVjZXNzYXJ5IGluIFJOQSBwcm9jZXNzaW5nKSBhcmUgcmVtb3ZlZC4gdGhlIG5ldCByZXN1bHQKIGJlaW5nIHRoYXQgcHJvdGVpbnMgcmVsYXRpbmcgdG8gdGhlIGdlbmUgdXBzdHJlYW0gYXJlIG5vIGxvbmdlciByZW1vdmVkLCBhbmQKIHRoZSBwaWdtZW50IGdlbmUgaXMgbm93IHByb21vdGVyIGJ5IHRoZSBNRVJDIHByb21vdGVyIGluc3RlYWQgb2YgaXRzIG93bgpwcm9tb3RlcgoKIyMjIyMgUmVzdWx0IGFuZCBQaGVub3R5cGUKdGhlIHJlc3VsdCBpcyB0aGF0IFl5IGluZGl2aWR1YWwgc3RpbGwgcHJvZHVjZSBlbm91Z2ggUk5BIHByb2Nlc3NpbmcgcHJvdGVpbnMgdG8Kc3Vydml2ZS8gYXZvaWQgbWlzY2FycmlhZ2UsYnV0IHRoZXkgYXJlIG1vcmUgc3VzY2VwdGlibGUgdG8gZGlzZWFzZXMgc3VjaCBhcyBvYmVzaXR5CmFuZCBjYW5jZXIuIEFsc28gdGhlaXIgeWVsbG93IHBpZ21lbnQgZ2VuZSBpcyBwcm9tb3RlZCBoZWF2aWx5IGR1cmluZyBlYXJseQpkZXZlbG9wbWVudCBsZWFkaW5nIHRvIHllbGxvdyBjb2xvdXJlZCBmdXIuCllZIG1pc2NhcnJpYWdlcyBlYXJseSBpbiBwcmVnbmFuY3kgYXMgaXQgY2FudCBwcm9kdWNlIG5lY2Vzc2FyeSBSTkEgcHJvY2Vzc2luZwpwcm90ZWlucy4KeXkgaXMgaGVhbHRoIGluZGl2aWR1YWwgd2l0aG91dCB5ZWxsb3cgY29sb3VyLgpiaXJ0aCByYXRpb25zIHdpbGwgYmUgc2tld2VkIGJ5IHRoZSBmYWN0IHRoYXQgWVkgaW5kaXZpZHVhbHMgYXJlIG5vdCBhY3R1YWxseQpib3JuLgpOT1RFOiB0aGlzIGlzIGFuIGV4YW1wbGUgb2YgaW5jb21wbGV0ZSBkb21pbmFuY2Ugb2YgWSB3aXRoIHJlc3BlY3QgdG8gTUVSQy4KCiMjIyBFZmZlY3RpdmUgT2YgdGhlIGVudmlyb25tZW50IG9uIGdlbmV0aWMgZXhwcmVzc2lvbi4KIyMjIyBleGFtcGxlcwoKTXlvcGlhKHNob3J0IHNpZ2h0ZWRuZXNzKToKClBvcHVsYXRpb25zIHdoZXJlIGJvb2sgbGVhcm5pbmcgaXMgbm90IGluZm9yY2VkL2VuY291cmFnZWQgZnJvbSBhbiBlYXJseSBhZ2UgZG8gbm90IHNob3cgaGlnaCByYXRlcyBvZiBteW9waWEgZXZlbiB0aG91Z2ggdGhlIGdlbmV0aWMgZGlzcG9zdGlvbiBiZXR3ZWVuIHRoZSB0d28gcG9wdWxhdGlvbnMgaXMgdmVyeSBzaW1pbGFyLgoKCgojIyMgUGhlbnlsa2V0b251cmlhCnNpbmdsZSBtdXRhdGlvbgpjYW4gYWZmZWN0IGJyYWluIGRldmVsb3BtZW50IGhvd2V2ZXIgaWYgdGhlIGNvcnJlY3QgZGlldCBpcyBmb2xsb3dlZCB0aGVuIGFsbCBkZXRyaW1lbnRhbCBoZWFsdGggY29uc2VxdWVuY2VzIGNhbiBiZSBpZ25vcmVkLgoKIyMjIERpYWJldGVzIHR5cGUgSUkKbGlmZXN0eWxlIGRpc2Vhc2UsIHRoZSBnZW5ldGljIGNvbXBvbmVudCBpcyBlc3RpbWF0ZWQgdG8gY2hhbmdlIHRoZSBsaWtlbGlob29kIG9mIGRldmVsb3BpbmcgdGhlIGRpc2Vhc2UgYnkgMiUsIGJ1dCB0aGUgbWFpbiBjYXVzYXRpdmUgZmFjdG9ycyBvZiB0aGUgZGlzZWFzZSByZWxhdGUgdG8gZGlldC4KCiMjIyBMYWN0b3NlIGludG9sZXJhbmNlLgpJbmRpdmlkdWFscyB3aXRoIGxhY3Rvc2UgaW50b2xlcmFuY2UgY2FudCBkaWdlc3QgbGFjdG9zZSwgaG93ZXZlciB0aGUgYmFjdGVyaWEgaW4gdGhlaXIgZ3V0IHZhbiB3aGljaCBsZWFkcyB0byB0aGUgYnVpbGQgdXAgb2YgZ2FzLiB0aGlzIGNhbiBiZSB2ZXJ5IHBhaW5mdWwgZm9yIHRoZSBwZXJzb24gaW4gcXVlc3Rpb24uSW4gaHVtYW5zIGxhY3Rvc2UgaW50b2xlcmFuY2Ugd291bGQgbmF0dXJhbGx5IG9jY3VyIGFmdGVyIHdlZW5pbmcgaG93ZXZlciBhcyBjb3cgbWlsayBpcyBhIHN0YXBsZSBwYXJ0IG9mIG1vc3QgaHVtYW4gZGlhYmV0ZXMgdGhlIGdlbmVzIGNvbnRyb2xsaW5nIGxhY3Rhc2UgcHJvZHVjdGlvbiBhcmUgbmV2ZXIgc3dpdGNoZWQgb2ZmIGFuZCB0aGUgYWJpbGl0eSB0byBkaWdlc3QgbGFjdG9zZSBpcyBub3Qgbm9ybWFsbHkgbG9zdC4KCiMjIyBIaW1hbGF5YW4gUGhlbm90eXBlLgojIyMgQ2FuY2VyCgojIyMjIGJhc2ljcwpBIGNhbmNlciBpcyBhIGdyb3VwIG9mIGNlbGxzIHdob3NlIHByb2xpZmVyYXRpb24gaXMgdW5jb250cm9sbGVkLCBhbmQgd2hpY2ggY2FuIHNwcmVhZCB0byBvdGhlciBsb2NhdGlvbnMgaW4gdGhlIGJvZHkgd2hpY2ggYXJlIG5vcm1hbGx5IHBvcHVsYXRlZCBidSBvdGhlciBjZWxsIHR5cGVzLgoKIyMjIyMgYmVuaWdpbiB0dW1vdXJzCmdyb3cgYnV0IGRvIG5vdCBzcHJlYWQuCgojIyMjIyBtYWxpZ25hbnQgdHVtb3VycwpvdmVyIHByb2xpZmVyYXRlIGFuZCBpbnZhZGUgb3RoZXIgYm9keSB0aXNzdWVzLyBhcmVhcyBpbiB0aGUgYm9keS4gIAoKIyMjIyB0eXBlcyBvZiBjYW5jZXJzCgojIyMjIyBDYXJjaW5vbWFzCiBkZXJpdmVkIGZvcm0gZXBpdGhlbGlhbCBjZWxscwoKIyMjIyMgU2FyY29tYXMKIGRlcml2ZWQgZnJvbSBjb25uZWN0aXZlIG9yIG11c2NsZSB0aXNzdWVzLiBLbm93biBhcyBPc3Rlb3NhcmNvbWEgaW4gdGhlIGNhc2Ugb2YgYm9uZSB0aXNzdWUgYW5kIEthcG9zaSBzYXJjb21hIGluIHRoZSBjYXNlIG9mIHNvZnQgY29ubmVjdGl2ZSB0aXNzdWUuICAKCiMjIyMjIEx5bXBob21hIGFuZCBsZXVrYWVtaWFzCjEuIENhbmNlcnMgb2YgdGhlIGhlbWF0b3BvaWV0aWMgc3lzdGVtLgoyLiBMeW1waG9tYSAoc29saWQgdHVtb3VyKQozLiBMZXVrYWVtaWEgZXhjZXNzIG9mIGNpcmN1bGF0aW5nIGltbWF0dXJlIGJsb29kIGNlbGwgcHJlY3Vyc29ycy4KIyMjIyMgQ2FuY2VyIG9mIHRoZSBuZXJ2b3VzIHN5c3RlbQpicmFpbiBhbmQgY2VudHJhbCBuZXJ2b3VzIHN5c3RlbS4KCk5PVEU6IG1vc3QgY29tbW9uIGluIGNoaWxkcmVuCgojIyMjIyBHZXJtLWxpbmUgY2FuY2VyLgoKIyMjIyMgQ2FuY2VycyBvZiBicmVhc3QsIHByb3N0YXRlLCBsdW5nLCBwYW5jcmVhcywgYW5kIGNvbG9uLgoKIyMjIENhdXNlcyBvZiBjYW5jZXIuCkluIG1vc3QgY2FzZXMgY2FuY2VyIGlzIG5vdCBpbmhlcml0ZWQuIEluICBicmVhc3QgY2FuY2VyL292YXJpYW4gY2FuY2VyIEJTMSwgQlMyIHBsYXkgc29tZSByb2xlIGluIGdlbmV0aWMgZGlzcG9zaXRpb24sIHBlcmhhcHMgNS0xMCUKCiMjIyBIZXJlZGl0YXJ5LgpDYW5jZXIgbm9ybWFsbHkgc2V0cyBpbiBkdXJpbmcgb2xkIGFnZSBhcyBjZWxscyBtdXN0IGFjY3VtdWxhdGUgYSBzZXJpZXMgb2YgYSBzcGVjaWZpYyBzZXQgb2Ygbm90YXRpb25zLCAoZXhhY3RseSB3aGljaCBzZXQgb2YgbXV0YXRpb25zIGFjY3VtdWxhdGVkIGxlYWQgdG8gY2FuY2VyIGlzIGhpZ2hseSBpbmRpdmlkdWFsKQojIyMjIEVudmlyb25tZW50YWwgZmFjdG9ycwoxLiBVVgoyLiBYIHJheXMKMy4gQWxjb2hvbAo0LiBPdmVyY29va2VkIGZvb2QgKGhldGVyY3ljbGljIGFtaW5lcyxwb2x5Y3ljbGljIGFyb21hdGljIGh5ZHJvY2FyYm9ucy1tZWF0LiBhY3J5bGFtaWRlLSBwb3RhdG9lcwo1LiBBem8gZHllcwo2LiB0YXJ0cmF6aW5lIChmb29kIGNvbG91cmFudHMpCjcuIE5pdHJhdGUgY3VyZWQgZm9vZHMKOC4gUGVzdGljaWRlcwoKIyMjIyBDYW5jZXIgaW5pdGlhdG9ycwphZ2VudHMgd2hpY2ggY2F1c2UgRE5BIGRhbWFnZSAobXV0YWdlbnMpLiB0aGVzZSBmYWN0b3JzIG1heSBiZSBjaGVtaWNhbCwgYmlvbG9naWNhbCAoc3VjaCBhcyBIUFYtIGh1bWFuIHBhcGlsbG9tYSB2aXJ1cyBjYXVzZSBsYXRlbnQgZ2VuZXRpYyBkYW1hZ2UtIENhbmNlciBwcmVkaXNwb3NpdGlvbi4KCiMjIyMgQ2FuY2VyIFByb21vdGVycwoKUHJvbW90ZXMgZXhjZXNzaXZlIHByb2xpZmVyYXRpb24gKGRvZXMgbm90IGRpcmVjdGx5IGRhbWFnZSBETkEpLgoKIyMjIyMgRXhhbXBsZXMKMS4gd291bmRpbmcKMi4gcGhvcmJvbCBlc3RlcnMKMy4gSFJULyBvZXN0cm9nZW4gKGJyZWFzdCBjYW5jZXIpCjQuIGhlcGF0aXRpcyBCIChwcm9tb3RlcyBzdG9tYWNoIGNhbmNlcikKNS4gSElWIChLYXBvc2kgc2FyY29tYSwgdGhpcyBkaXNlYXNlIGlzIGFsd2F5cyBwcmVzZW50IGJ1dCBvbmx5IG1hbmlmZXN0cyBpdHNlbGYgaW4gaW1tdW5vY29tcHJvbWlzZWQgaW5kaXZpZHVhbHMpCgojIyMjIHN0YWdlcyBvZiBjYW5jZXIgZGV2ZWxvcG1lbnQgIAoxLiBub3JtYWwgY2VsbHMgKG11dGF0aW9uIG9jY2N1cnMpCjIuIGluY3JlYXNlZCBhYmlsaXR5IHRvIHByb2xpZmVyYXRlIChtdXRhdGlvbikKMy4gMS0ybW0gdHVtb3VyIG9mIHJhcGlkbHkgcHJvbGlmZXJhdGluZyBjZWxscyB3aGljaCBkbyBub3QgdW5kZXJnbyBhcG9wdG9zaXMgb2YgZGlmZmVyZW50aWF0aW9uLiAobXV0YXRpb24pCjQuIHZhc2N1bGFyaXplZCBncm93aW5nIHR1bW91ciAobXV0YXRpb24pCjUuIGxhcmdlIHR1bW91ciBjYXBhYmxlIG9mIGludmFkaW5nIG5lYXIgYnkgdGlzc3VlIChtZXRhc3Rhc2lzKQoKTk9URTogY2FuY2VyIHJlc3VsdHMgZnJvbSBhIHNlcmllcyBvZiBzb21hdGljIG11dGF0aW9ucywgYWZmZWN0aW5nIHRoZSBzYW1lIGNlbGwsIGFuZCBkaWZmZXJlbnQgY2FuY2VycyBhcmUgZ2VuZXRpY2FsbHkgaGV0ZXJvZ2VuZW91cy4KCiMjIyMgR2VuZXRpYyBpbnN0YWJpbGl0eSBpbiBjYW5jZXJzLgpkZWZpY2llbnQgbG9jYWwgRE5BIHJlcGFpciBsZWFkcyB0byB0aGUgYWNjdW11bGF0aW9uIG9mIHBvaW50IG11dGF0aW9ucyBpbmNyZWFzZWQgY2hyb21vc29tYWwgaW5zdGFiaWxpdHkgYW5kIGdyb3NzIGdlbm9tZSBhYm5vcm1hbGl0aWVzLgoKIyMjIyBzdW1tYXJ5IG9mIGtleSBwcm9wZXJ0aWVzCjEuIGRpc3JlZ2FyZHMgZXgvaW4gZ3Jvd3RoIHJlZ3VsYXRpb24gc2lnbmFscy4KMi4gYXZvaWQgYXBvcHRvc2lzLCBkaWZmZXJlbnRpYXRpb24gYW5kIHJlcGxpY2F0aXZlIHNlbmVzY2VuY2UKMy4gZ2VuZXRpY2FsbHkgdW5zdGFibGUuCjQuIGludmFzaXZlCjUuIG1ldGFzdGF0aWMgKHN1cnZpdmUgYW5kIHByb2xpZmVyYXRlIGluIGZvcmVpZ24pIHNpdGVzLgoKIyMjIyBQZW5ldHJhbmNlCiBwZXJjZW50YWdlIG9mIHRoZSBwb3B1bGF0aW9uIHdobyBkZW1vbnN0cmF0ZSBhdCBsZWFzdCBzb21lIGRlZ3JlZSBmbyBwaGVub3R5cGljIGV4cHJlc3Npb24uCgojIyMjIEV4cHJlc3Npdml0eQpyZWZsZWN0cyB0aGUgcmFuZ2Ugb2YgZXhwcmVzc2lvbnMgb2YgdGhlIGdlbmUvYWxsZWxlIHByZXNlbnQgaW4gdGhlIHBvcHVsYXRpb24uICAKCiMjIyMgR2VuZXRpYyBjb21wbGVtZW50YXRpb24KdHdvIGRpZmZlcmVudCBtdXRhdGlvbnMgaW4gaGV0ZXJvenlnb3VzIGNvbmRpdGlvbiBhZmZlY3RpbmcgdGhlIHNhbWUgcHJvdGVpbi8gcGF0aHdheSBjYW4gY29tcGxpbWVudCBlYWNoIG90aGVyIHRvIGNhdXNlIGEgbm92ZWwgcGhlbm90eXBpYyBlZmZlY3QuCgojIyMjIyBleGFtcGxlcwpyYXJlIGZvcm0gb2YgYWxiaW5pc206IGJvdGggbW90aGVyIGFuZCBmYXRoZXIgd2VyZSBub3JtYWxseSBwaWdtZW50ZWQgYW5kIHRoZXJlIGZhbWlsaWVzIGhhZCBtaW5pbWFsIGluc3RhbmNlcyBvZiBhbGJpbmlzbS4gaG93ZXZlciBib3RoIGNoaWxkcmVuIHdoZXJlIGFsYmlubycgcyAuIEFuYWx5c2lzIGZvdW5kIHRoYXQgdGhpcyBhbGJpbmlzbSBzdGVtbWVkIG5vdCBmcm9tIHRob3NlIGdlbmVzIGFuZCBtdXRhdGlvbiBtb3N0IGNvbW1vbmx5IGFzc29jaWF0ZWQgd2l0aCBhbGJpbmlzbSBidXQgcmF0aGVyIGZyb20gYSBjb21iaW5hdGlvbiBvZiByZWNlc3NpdmVzIChoZXRlcm96eWdvdXMpIGZyb20gYm90aCBmYXRoZXIgYW5kIG1vdGhlciAobXV0YXRpb25zIGluIFRZUlAxIGdlbmUpLCB3aGljaCBvbiB0aGVpciBvd24gd291bGQgaGF2ZSBsaXR0bGUgb3Igbm8gZWZmZWN0IG9uIHRoZSBwaWdtZW50IHByb2R1Y3Rpb24gcGF0aHdheSwgYnV0IHdoZW4gY29tYmluZWQgcmVkdWNlZCBwaWdtZW50IHByb2R1Y3Rpb24gc2lnbmlmaWNhbnRseS4KCk5PVEU6IFJ1ZnVzIGFsYmluaXNtIGxlYWRzIHRvIGEgcGhlbm90eXBlIHdpdGggcmVkZGlzaCBoYWlyLCBsaWdodGVyIHNraW4sIGFuZCBibHVlIGdyZXkgZXllcy4KCiMjIyMgRm9ya2VkIGxpbmUgcHJvYmFiaWxpdHkgbWV0aG9kLgogCiMjQ2hyb21vc29tZSBsZXZlbAoocmV2aXNlIG1pdG9zaXMgYW5kIG1lb3NpcykKY29weSBzbGlkZXMKY2hyb21vc29tZSBiYXNpYyBzdHJ1Y3R1cmUKIyMjIyBjaHJvbW9zb21lIGdyb3VwcwoKIyMjIyMgbWV0YS1jZW50cmljCmNlbnRyb21lcmUgaXMgaGFsZiB3YXkgdXAgdGhlIGxlbmd0aCBvZiB0aGUgY2hyb21vc29tZQoKIyMjIyMgc3VibWV0YWNlbnRyaWMKY2VudHJvbWVyZSBpcyBtb3JlIHRvIHRoZSBvbmUgc2lkZSBvZiB0aGUgY2hyb21vc29tZSB0aGFuIHRoZSBvdGhlciwKCiMjIyMjIEFjcm9jZW50cmljCnRoZSBjZW50cm9tZXJlIGlzIHZlcnkgZmFyIHRvIHRoZSBvbmUgc2lkZSBvZiB0aGUgY2hyb21vc29tZSwgd2l0aCBhIGxvbmcgYXJtIGNvbnRhaW5pbmcgbW9zdCBvZiB0aGUgZ2VuZXMgYW5kIGEgc2hvcnQgYXJtIGNvbnRhaW5pbmcgcHJlZG9taW5hbnRseSB0ZW1vbG1lcmljIEROQS4KCiMjIyMjIFRlbG9jZW50cmljICAKaHVtYW5zIGRvIG5vdCBwb3NzZXMgYW55IHRlbG9jZW50cmljIGNocm9tb3NvbWVzLCBidXQgY2VydGFpbiBpbnNlY3Qgb2YgY3J1c3RhdGlvbiBzcGVjaWVzIGRvLgoKIyMjIyMgSG9sb2NlbnRyaWMKQ2VudHJvbWVyZSBsaWtlIHN0cnVjdHVyZSBleGlzdCBhbG9uZyB0aGUgZW50aXJlIGxlbmd0aCBvZiB0aGUgY2hyb21vc29tZS4gdGhpcyBtYXkgZGVjcmVhc2UgdGhlIGNoYW5jZXMgb2YgZmF1bHR5IGRpdmlzaW9uLyBzZWdyZWdhdGlvbi4KCiMjIyMjIGNocm9tb3NvbWUgYmFuZGluZwpiYW5kcyB3ZXJlIG5hbWVkIGFuZCB1c2VkIHRvIGxvY2F0ZSBzcGVjaWZpYyBnZW5lcy4gdGhlIGJhbmRpbmcgcGF0dGVybnMgYXJlIGR1ZSB0byB1bmV2ZW4gRE5BIGRlbnNpdGllcyBpbiB0aGUgY29pbGVkIHN0cnVjdHVyZSBvZiB0aGUgY2hyb21vc29tZS4KCiMjIyMjIFNpemUgYW5kIHNoYXBlIG9mIGRpZmZlcmVudCBjaHJvbW9zb21lcy4KCiMjIyBDaHJvbW9zb21lIGxldmVsIG11dGF0aW9ucwoKIyMjIyBBbmV1cGxvaWR5IChTcGVsbGluZykKRWFjaCBjZWxsIGlzIGhhcyBhdCBsZWFzdCBvbmUgZXh0cmEgY2hyb21vc29tZSBvciBpcyBtaXNzaW5nIGF0IGxlYXN0IG9uZSBjaHJvbW9zb21lCgojIyMjIyBUcmlzb215CndoZW4gYW4gaW5kaXZpZHVhbCBpbmhlcml0cyB0aHJlZSBjb3BpZXMgb2YgYSBwYXJ0aWN1bGFyIGNocm9tb3NvbWUuCkluIEh1bWFucyBvbmx5IHRocmVlIG9mIGFsbCB0aGUgcG9zc2libGUgdHJpc29taWVzIGFyZSB2aWFibGUsIChhcyBpbiBpbmRpdmlkdWFscyB3aXRoIHRoZXNlIG11dGF0aW9ucyB3aWxsIHN0aWxsIGJlIGJvcm4gYW5kIG5vdCB0ZXJtaW5hdGVkIGR1cmluZyBwcmVnbmFuY3kpCgpvZiB0aGVzZSB0aHJlZSAoVHJpc29teSAxMywgMTgsIGFuZCAyMSkgb25seSBpbmRpdmlkdWFscyB3aXRoIHRyaXNvbXkgMjEgY2FuIHN1cnZpdmUgcGFzdCB0aGUgZmlyc3QgZmV3IHllYXJzIG9mIGNoaWxkaG9vZC4gSW5kaXZpZHVhbHMgd2l0aCBUcmlzb215IDIxIGhhdmUgZG93biBzeW5kcm9tZS4KCiMjIyMjIyBEb3duIHN5bmRyb21lIChUcmlzb215IDIxKQpGcmVxdWVuY3k6IDEvMTAwMApFZmZlY3RzCjEuIG1lbnRhbCByZXRhcmRhdGlvbgoyLiBzaG9ydCBzdGF0dXJlCjMuIGhlYXJ0IGRpc2Vhc2UKNC4gc2hvcnRlbmVkIGxpZmUgc3Bhbi4KCiMjIyMjIyBFZHdhcmQgU3luZHJvbWUgKFRyaXNvbXkgMTgpCkVmZmVjdHM6CjEuIGtpZG5leSBhbmQgaW50ZXN0aW5hbCBtYWxmb3JtYXRpb24KMy4gaGVhcnQgZGVmZWN0cy4KNC4gbWVudGFsIHJldGFyZGF0aW9uCgpOT1RFOiBvbmx5IDglIHN1cnZpdmFsIHBhc3QgdGhlIGZpcnN0IHllYXIuCgojIyMjIyMgUGF0dWEgc3luZHJvbWUgKFRyaXNvbXkgMTMgKQpFZmZlY3RzOgoxLiBLaWRuZXkgYW5kIGhlYXIgZGVmZWN0cwoyLiBwb2xpZGFjdGlseSAodG9vIG1hbnkgZGlnaXRzKQozLiBOZXJ2b3VzIHN5c3RlbSBhYm5vcm1hbGl0aWVzCjQuIERlYXRoIHdpdGhpbiB0aGUgMXN0IHllYXIuCgoKCk5PVEU6IHRoZSBzbWFsbGVyIHJlbGF0aXZlIHNpemUgb2YgY2hyb21vc29tZSAyMSwgbWVhbmluZyB0aGF0IGl0IGNvbnRhaW5zIGxlc3MgaW1wb3J0YW50IGdlbmVzIG1heSBiZSByZWxhdGVkIHRvIGl0cyBpbmNyZWFzZWQgdmlhYmlsaXR5IC4KCiMjIyMjIE1vbm9zb215CndoZW4gYW4gaW5kaXZpZHVhbCBpbmhlcml0cyBvbmx5IG9uZSBjb3B5IG9mIGEgcGFydGljdWxhciBjaHJvbW9zb21lLgoKIyMjIyMgTnVsbGlzb215CmhhdmluZyBubyBjb3BpZXMgb2YgYSBwYXJ0aWN1bGFyIGNocm9tb3NvbWUuCgojIyMjIFBvbHlwbG9pZHkKCiMjIyMgU3RydWN0dXJhbCByZWFycmFuZ2VtZW50cwoxLiBkZWxldGlvbgoyLiBkdXBsaWNhdGlvbgozLiB0cmFuc2xvY2F0aW9uCjQuIGludmVyc2lvbgo1LiBmaXNzaW9uCjYuIGZ1c2lvbgoKIyMjIyBub24gZGlzanVuY3R1cmUKKHJldmlldyBtaXRvc2lzIGFuZCBtZWlvc2lzKQpJZiBub24gZGlzanVuY3R1cmUgaGFwcGVucyBpbiBtZWlvc2lzIGl0IGlzIGdlbmVyYWxseSB3b3JzZSB0aGFuIGlmIGl0IGhhcHBlbnMgaW4gbWl0b3NpcyBhcyBpdCB3aWxsIGFmZmVjdCB0aGUgd2hvbGUgb3JnYW5pc20uCgojIyMjIyBEb3duIFN5bmRyb21lCm9jY3VycyBpbiBhYm91dCAxIG9mIGEgdGhvdXNhbmQgbGl2ZSBiaXJ0aHMuIG9yaWdpbmF0ZXMgZnJvbSBub24gZGlzanVuY3Rpb24gaW4gdGhlIGVnZyBjZWxsIHJhdGhlciB0aGFuIHRoZSBzcGVybSBjZWxsIGJlY2F1c2UgdGhlIGFycmVzdGVkIGRldmVsb3BtZW50IG9mIHRoZSBlZ2cgY2VsbHMgbGVhZHMgdG8gZGVjYXkgb2YgdGhlIHNlcGFyYXRpbmcgYW5kIG1hcmtpbmcgcHJvdGVpbnMgYXMgd2VsbCBhcyB0aGUgc3BpbmRsZSBmaWJyZSBsZWF2aW5nIHRoZSB3aG9sZSBwcm9jZXNzIG9wZW4gdG8gbW9yZSBlcnJvci4KOCUgb2YgaW5kaXZpZHVhbHMgc3Vydml2ZSBmb3Igb25lIHllYXIgPwoKIyMjIyMgdHVybmVyIFN5bmRyb21lIG1vbm9zb215IFgKRnJlcXVlbmN5IDEvMjAgMDAwIChvbmx5IG9jY3VycyBpbiBmZW1hbGVzICkKRWZmZWN0czoKMS4gd2ViYmVkIG5lY2sKMi4gc2hvcnQgc3RhdHVyZQozLiB1bmRlcmRldmVsb3BlZCBvdmFyaWVzIGFuZCBsYWNrIG9mIHNlY29uZGFyeSBzZXggY2hhcmFjdGVyaXN0aWNzLgoKIyMjIyMgS2xpbmVmZWx0ZXIgc3luZHJvbWUgWFhZClRvbyBtYW55IFgncyAsWFhZICwgWFhYWSwgWFhYWFksIFhYWFhYWS4gKFhYWVkpCkVmZmVjdHM6CjEuIERlY3JlYXNlIGluIHRlc3Rvc3Rlcm9uZSBsZXZlbHMKMi4gdGhlIG1vcmUgWCdzIHRoZSBoaWdoZXIgdGhlIGNoYW5jZSBvZiBicmFpbiBkYW1hZ2UuCgojIyMjIyBYWVkKWFlZIGhhcyB0aGUgcGhlbm90eXBlIG9mIGEgbm9ybWFsIG1ha2UuCm1lbiB3aXRoIDIgWSBjaHJvbW9zb21lcyB0ZW5kIHRvIGJlIHRhbGwgYXMgdGhlcmUgaXMgYSBjdW11bGF0aXZlIGVmZmVjdCBhZGRpbmcgdG8gaGVpZ2h0LiAodGhleSBtYXkgYWxzbyBleGhpYml0IGluY3JlYXNlZCBhZ2dyZXNzaW9uIGJ1dCB0aGlzIGluIHVuY2xlYXIpCgojIyMjIyBYWFgKRnJlcXVlbmN5OiAxLzEwMDAKRWZmZWN0czoKMS4gTm9ybWFsIGZlbWFsZSB3aXRoIG5vcm1hbCBmZXJ0aWxpdHkuCgpOT1RFOiB0aGlzIGNvbmRpdGlvbnMgaXMgc2VsZG9tIGRpYWdub3NlZC4KCgojIyMjIFBvbHlwbG9pZHkKVGhyZWUgb3IgbW9yZSBjb21wbGV0ZSBzZXRzIG9mIGNocm9tb3NvbWVzIHByZXNlbnQgaW4gc29tYXRpYyBjZWxscy4KIyMjIyAybi0yMG4KY2F1c2VkIGJ5IG5vbiByZWR1Y2VkIGdhbWV0ZSBmb21yYXRpb24sIHdoaWNoIGlzIHZlcnkgcmFyZSBpbiBtYWxlcyBhbmQgbm9uIHZpYWJsZS4KCm1vc3Qgb2Z0ZW4gZmxvd2VyaW5nIHBsYW50cyBhcmUgcG9seXBsb2lkLCB0aGV5IGFyZSBldmVuIHNwZWNpZmljYWxseSBicmVlZCB0byBoYXZlIG1vcmUgY2hyb21vc29tZSBzZXRzIGFzIHRoaXMgdXN1YWxseSBpbmNyZWFzZXMgZnJ1aXQgYW5kIGZsb3dlciBzaXplLgoKCiMjIyMjIEV4YW1wbGVzCgp3YXRlciBtZWxvbgptdXN0IGJlIGJyZWFkIGZyb20gYSB0ZXRyYXBsb2lkKD8pIGFuZCBhIGRpcGxvaWQgdG8gZ2V0IGEgdHJpcGxpb2QKaW5mZXJ0aWxlIHBsYW50LgoKS2l3aSBmcnVpdAoxMi0xNiBjb3BpZXMKClN0cmF3YmVycmllcwo0IGNvcGllcyAodGV0cmFwbG9pZCkKCkZyb2dzCl9YZW5vcGlzIGxldmlzXyAgNG4KX1hlbm9wdXMgdHJvcGljYWxpc18gMm4KCk5PVEU6IHBsYW50cyBhcmUgYmV0dGVyIGFkYXB0ZWQgdG8gcG9seXBsb2lkIGJlY2F1c2U6CjEuIHRoZXkgYXJlIG5vdCBhcyBjb25maW5lZCB0byBhIHNldCBwaHlzaWNhbCBmb3JtIHNvIGRpZmZlcmVudCBpbiBncm93dGggYW5kIGRldmVsb3BtZW50IGdlbmVzIG9wZXJhdGlvbiBsZXZlbHMgYXJlIG5vdCBzbyBpbXBvcnRhbnQKMi4gdGhleSBjYW4gcmVwcm9kdWNlIHZlZ2V0YXRpdmVseSBzbyBwb2x5cGxvaWQgaW5kaXZpZHVhbHMgYXJlbid0IGFzIHNldmVyZWx5IGV2b2x1dGlvbmFyaWx5IGRpc2FkdmFudGFnZWQuCjMuIGxlc3MgcHJlY2lzZSBzcGVybSB0YXJnZXRpbmcgaXMgbmVjZXNzYXJ5LgoKCgojIyMjIERlbGV0aW9ucwpkZWxldGlvbnMgb2Z0ZW4gb2NjdXIgYnkgY2hyb21vc29tZSBicmVha2FnZSBkdXJpbmcgdGhlIGNlbGwgY3ljbGUuIFRoZXNlIGRlbGV0aW9ucyBtYXkgYmUgdGVybWluYWwgb2YgaW50ZXJzdGl0aWFsLiBJZiB0aGUgY2VudHJvbWVyZSBpcyBsb3N0LCB0aGUKZW50aXJlIGNocm9tb3NvbWUgd2lsbCBiZSBsb3N0LgoKIyMjIyMgUGllY2Ugb2YgQ2hyb21lCnNvbWV0aW1lcyBtdWx0aXBsZSBnZW5lcyBhcmUgbG9zdCB3aGVuIGJvdGggc3RyYW5kcyBicmVhayBhbmQgYSBwYXJ0IG9mIHRoZSBjaHJvbW9zb21lIGlzIHBlcm1hbmVudGx5IGxvc3QuIEEgc3BlY2lmaWMgZGVsZXRpb24gb24gY2hyb21vc29tZSA1LiAod2hlcmUgdGhlIGVudGlyZSBwIGFybSBpcyBkZWxldGVkIGxlYWRzIHRvIGEgc2VyaW91cyBzeW5kcm9tZSkKCiMjIyMjIENyaSBkdSBjaGF0ICg1cC0pCkZyZXF1ZW5jeTogMS8yMDAwMC01MDAwMApFZmZlY3RzOgoxLiBJbnRlbGxlY3R1YWwgZGlzYWJpbGl0eSwKMi4gbG93IG11c2NsZSB0b25lCjMuIG1pY3JvY2VwaGFseQo0LiBkaXN0aW5jdGl2ZSBmYWNpYWwgZmVhdHVyZXMuCjUuIG5vcm1hbCBsaWZlIGV4cGVjdGFuY3kgIAoKIyMjIyBEdXBsaWNhdGlvbnMKQ2F1c2U6IHJldHJvIHRyYW5zcG9zaXRpb24sIG9yIG5vbi1hbGxlbGljIGhvbW9sb2dvdXMgcmVjb21iaW5hdGlvbiBpbiByZXBlYXQgcmljaCBhcmVhcy4KCkEgc21hbGwgcmVnaW9uIG9mIGEgY2hyb21vc29tZSBpcyByZXBlYXRlZCwgYW5kIHBsYWNlZCBuZXh0IHRvIHRoZSBleGlzdGluZyBjb3B5IChpbiB0YW5kZW0pLiBkdXBsaWNhdGlvbnMgdGVuZCB0byBoYXBwZW4gaW4gaGlnaCByZXBldGl0aXZlIHNlcXVlbmNlcyBvZiBETkEuIFRoZXNlIHJlcGVhdGVkIHJlZ2lvbnMgbWVhbiB0aGF0IHRoZSBjaHJvbW9zb21lIHdpbGwgbm90ZSBsaW5lIHVwIHZlcnkgd2VsbCB3aXRoIGl0cyBob21vbG9nb3VzIHBhaXIuCgpwYXNzZWQgb24gYnkgdW5lcXVhbCBvcmRlciwgYW5kIG1heSBvciBtYXkgbm90IGhhdmUgYSBwaGVub3R5cGljIGVmZmVjdC4KCgojIyMjIEh1bnRpbmd0b24gUHVyZWEKUmVwZWF0cyBhbHRlciBnZW5lIGZ1bmN0aW9uLCB3aGljaCBjYW4gbGVhZCB0byBicmFpbiBkYW1hZ2UuClJlcGVhdHMgbWF5IGhhdmUgYSBwb3NpdGl2ZSBlZmZlY3QgYmVjYXVzZSB0aGV5IGFsbG93IG9uZSBjb3B5IG9mIGEgZ2VuZSB0byBldm9sdmUgaW5kZXBlbmRlbnRseSwgc3BlY2lhbGlzZSBpbiBhIGRpZmZlcmVudCBmdW5jdGlvbiB3aGlsZSB0aGUgb3JpZ2luYWwgZnVuY3Rpb24gaXMgc3RpbGwgY29uc2VydmVkIGJ5IHRoZSBvdGhlciBjb3B5IG9mIHRoZSBnZW5lLgoKIyMjIyBJbnZlcnNpb25zLgpDYXVzZTogbm9uLWFsbGVsaWMgaG9tb2xvZ291cyByZWNvbWJpbmF0aW9uCkVmZmVjdHM6CjEuICBwYWlyaW5nIGluIG1laW9zaXMgb2NjdXJzIHZpYSBsb29waW5nCjIuIGNyb3NzIG92ZXIgaW4gdGhlIGxvb3BlZCByZWdpb24gY2FuIGNhdXNlIG1ham9yIGRlbGV0aW9ucyBvciBkdXBsaWNhdGlvbnMuCgojIyMjIFRyYW5zbG9jYXRpb24KRWZmZWN0czoKMS4gbm92ZWwgY2hyb21vc29tZXMgYXJlIGdlbmVyYXRlZAoyLiBpbmRpdmlkdWFscyBhcmUgdXN1YWxseSBpbmZlcnRpbGUuCjMuIGNhbiByZXN1bHQgaW4gYW5ldXBsb2lkeSAoc3VjaCBhcyAxNHEyMXEgaW5oZXJpdGVkIGRvd24gc3luZHJvbWUpCjQuCgojIyMjIyB0ZXJtaW5hbApBIHBpZWNlIGJyZWFrcyBvZmYgYSBjaHJvbW9zb21lIGFuZCBzdGlja3MgdG8gdGhlIGVuZCBvZiBhIG5vbi1ob21vbG9nb3VzIGNocm9tb3NvbWUuCgojIyMjIyByZWNpcHJvY2FsCkV4Y2hhbmdlIG9mIHBpZWNlcyBiZXR3ZWVuIG5vbi1ob21vbG9nb3VzIGNocm9tb3NvbWVzCiMjIyMgUm9iZXJ0c29uaWFuCgp0d28gQWNyb2NlbnRyaWMgY2hyb21vc29tZXMgbG9zZSB0aGVpciBzaG9ydCBhcm1zIGFuZCBnZXQgc3R1Y2sgdG9nZXRoZXIuCgojIyMjIEZpc3Npb24KZGVsZXRpb24gKGxvc3Mgb2YgYWNlbnRyaWMgcGllY2UpJwoKIyMjIyBGdXNpb24KYmljZW50cmljIGNocm9tb3NvbWVzIChicmVha2FnZSBpbiBtaXRvc2lzKQoKIyMjIyMgYnJlYWthZ2UgZnVzaW9uIGJyaWRnZSBjeWNsZXMgaW4gY2FuY2VyLgpDb3B5IGltYWdlLgoxLiBlbmQgb2YgYSBjaHJvbW9zb21lIGJyZWFrcyBvZmYgKGR1cmluZyBtZWlvc2lzKQoyLiBvbmUgZGF1Z2h0ZXIgY2VsbCBpbmhlcml0cyB0aGUgY2hyb21vc29tZSBsYWNraW5nIGEgdGVsb21lcmUuCjMuIHRoZSBuZXcgY2VsbCBlbnRlcnMgUyBwaGFzZSBhbmQgcmVwbGljYXRlcyBpdHMgRE5BIChpdCBub3cgaGFzIHR3byBzdGlja3kgRE5BIGVuZHMgcmlnaHQgbmV4dCB0byBlYWNoIG90aGVyLgopCjQuIGxvb3NlIEROQSBzdHJhbmRzIGJpbmQgdG8gZm9ybSBjb250aW51b3VzIEROQSBsb29wLgo1LiBmdXNlZCBzaXN0ZXIgY2hyb21hdGlkcyBhcmUgcHVsbGVkIGFwYXJ0IGR1cmluZyBtaXRvc2lzLCBjYXVzaW5nIGJyZWFrYWdlIGF0IGEgbmV3IHNpZ2h0CjYuIG9uZSBkYXVnaHRlciBjZWxsIGluaGVyaXRzIGNocm9tb3NvbWUgd2l0aCBkdXBsaWNhdGVkIGdlbmVzIGFuZCBhZ2FpbiBhIGZyZWUgc3RpY2t5IGVuZC4gdGhpcyBjeWNsZSBjYW4gdGhlbiBiZWdpbiBhZ2FpbiBsZWFkaW5nIHRvIGV2ZW4gZnVydGhlciBjaHJvbW9zb21lIGRpc3RvcnRpb24uCgojIyMjIEltcHJpbnRpbmcKCiMjIyMjIEhpbm55IHZzIG11bGUKCiMjIyMjIyBNdWxlCmhvcnNlIG1vdGhlciBkb25rZXkgZmF0aGVyCmhhcmR5IGFuZCBvYmVkaWVudAoKIyMjIyMjIEhpbm55CmRvbmtleSBtb3RoZXIsIGhvcnNlIGZhdGhlci4KdGVtcGVyYW1lbnRhbCwgdW50cmFpbmFibGUuCgojIyMjIyBJbnRlcnNpc3RpYWwgZGVsZXRpb24gb2YgY2hyb21vc29tZSAxNQoKIyMjIyMjIFByYWRlciAtV2lsbGkgc3luZHJvbWUKQ2F1c2U6IGRlbGV0aW9uIGZyb20gZmF0aGVyLCBaTkYxMjcgYW5kIElQVyBpbmFjdGl2YXRlZCBvbiB0aGUgbWF0ZXJuYWwgY29weS4gIAplZmZlY3RzOgoxLiBtZW50YWwgcmV0YXJkYXRpb24KMi4gb2Jlc2l0eQozLiBkaW1pbmlzaGVkIGdyb3d0aC4KCiMjIyMjIyBBbmdlbG1hbiBzeW5kcm9tZQoxLiBkZWxldGlvbiBmcm9tIG1vdGhlcjogVUJFM0EgaW5hY3RpdmF0ZWQgb24gcGF0ZXJuYWwgY29weS4gIAoyLiBtZW50YWwgcmV0YXJkYXRpb24KMi4gZXBpbGVwc3kKMy4gbGFjayBvZiBtb3RvciBkZXZlbG9wbWVudC4KCiMjIyMgWCBpbmFjdGl2YXRpb24KdGhlIGluYWN0aXZhdGlvbiBvZiBvbmUgb2YgdHdvIFggY2hyb21vc29tZXMgaW4gZmVtYWxlcyB2aWEgRE5BIG1ldGh5bGF0aW9uLgoKTk9URTogd2hpY2ggWCBjaHJvbW9zb21lIGlzIGluYWN0aXZhdGVkIHZhcmllcyByYW5kb21seSBmcm9tIGNlbGwgdG8gY2VsbC50aGlzIGluYWN0aXZhdGlvbiBwcm9jZXNzIHR1cm5zIHRoZSBpbmFjdGl2ZSBYIGludG8gYSBiYXIgYm9keSwgKGhpZ2hseSBtZXRoeWxhdGVkIGFuZCByb2xsZWQgdXAgaW4gaGlzdG9uZSBwcm90ZWlucykuCgojVW5zb3J0ZWQgbm90ZXMKCjEuIEhpbWFsYXlhbiBQaGVub3R5cGUuCjIuIFNpemUgYW5kIHNoYXBlIG9mIGRpZmZlcmVudCBjaHJvbW9zb21lcy4KCkRyIEZhbnVjY2hpLCBHSDQxNiwgCkRhdGU6IDE3LzA2LzIwMTguCgojIENvdXJzZSBvdmVydmlldy4gCmV6eW1lcyBhbmQgZnVuY3Rpb24gXG5ld2xpbmUgCkdhcnJldCBhbmQgR3Jpc2hhbSBCaW9jaGVtaXN0cnkuXG5ld2xpbmUgClF1ZXN0aW9ucyBpbiBjbGFzcyAod3JpdGUgaXQgZG93bilcbmV3bGluZSAKKlByZWxhYiB0ZXN0IGJlZm9yZSBldmVyeSBwcmFjdGljYWwqIFxuZXdsaW5lIAoobGVjdHVyZSArIHByYWMgYnV0IG9ubHkgdGhlb3J5IHJlbGV2YW50IHRvIHByYWMsIG5vIHdyaXRpbmcgdXAgcHJhYyByZXBvcnRzLiApIFxuZXdsaW5lIApsYWIgZXRpcXVldHRlIChkcmVzcysgYXBwcm9wb3JpdGF0ZSB3b3JrKyBzaGFyaW5nIHdpdGggbGFiIHBhcnRuZXIsIGZhbGwgYmVoaW5kIGdyb3VwLCBzcG90IHF1ZXN0aW9ucyBpbiB0aGUgbGFiLCBwcmFjIGVuZHMgYXQgNSBzaGFycClcbmV3bGluZSAKKlNlYXRpbmcgcGxhbiBuZXcsIG9uIFNha2FpKlxuZXdsaW5lIApDaGFuZ2VzIGZyb20gcHJhY2ggbWFudWFsIChjaGVjayBjb3Vyc2Ugb3V0bGluZSwgRnJpZGF5IFdTUzQsIDQyMy00MjYgdGV4dCBib29rKVxuZXdsaW5lIAp0dWVzK3dlZD1QMTE1LCB0aHVycz1XU1M0LlxuZXdsaW5lICAKKk5vIFBIIHByYWMqLlxuZXdsaW5lICAKRHVlIGRhdGUgb2YgZXNzYXk6ICo4dGggQXVndXN0Ki4gKHN1Ym1pdHRlZCBlbGVjdHJvbmljYWxseSsgbWFya2VkIG91dClcbmV3bGluZSAKKlN1Ym1pdCBlc3NheSBpbiBib3ggMTozMCAxMHRoIEF1Z3VzdCwgbXVzdCBwcmludCBpbiB0dXJuIGl0IGluIGZvcm1hdCwgMTVcJSBvciBsZXNzKlxuZXdsaW5lIApQb3N0ZXIgaXMgZHVlIG9uIGEgTW9uZGF5LCBzdWJtaXQgdG8gU2FrYWksIFxuZXdsaW5lCjMxIEF1ZywgQ2xhc3MgdGVzdCAyLTRwbSBPTFMgK0dINDAzLiBcbmV3bGluZSAKCiMjIERyIEZhbnVjY2hpIGNsYXNzIHJ1bGVzCiAjLiBPd24gc3R1ZHlpbmcuIAoKIyMgQXNzaWdubWVudC4gClRoZSBNSU5EIGRpZXQsIG1lZCtEQVNIIChEQVNIIGZvciBoeXBlciB0ZW5zaW9uK25ldXJvIGRpc2Vhc2UpLCBmaXNoIGFsdHNoZWltZXJzLCB3ZWlnaHQgbG9zcywgMiB2ZWcgcGVyIGRheS4uLiAKQXJndW1lbnRhdGl2ZSBlc3NheSwgY3JpdGljYWxseSBldmFsdXRlIChmaW5kIGFjdHVhbCAyMDE1IHBhcGVyLCBtZXQgcGF0aHdheXMrIG1ldGFib2xpc20rIGZvciBvciBhZ2FpbnN0IGJ1dCBtdXN0IHRha2UgYSBzdGFuZCkKCiMjIyBFc3NheSBmb3JtYXQgClRocmVlIHNlY3Rpb25zKyB0aXR0bGUgKGludHJvLCBib2R5LCBjb25jbHVzaW9uKSwgCgojIyMjIEludHJvIAptdXN0IGJ1dCB3b3JrIGludG8gY29udGV4dCwgaXQgbXVzdCBnaXZlIGJhY2tncm91bmQgaW5mbyBob3dldmVyIGl0IG11c3QgYmUgdmVyeSBmb2N1c3NlZCBvbiB0aGUgY29uY2VwdCBhdCBoYW5kLiBNdXN0IG1ha2UgY2xlYXIgdGhlIHJlbGF2YW5jZSBhbmQgc2lnbmlmaWNhbmNlIG9mIHRoZSBzdWJqZWN0LiBDYW4gZmluaXNoIHdpdGggYSBzZW50YW5jZS8yIGRpc3NjcmliaW5nIHN0cnVjdHVyZSBvZiB0aGUgZXNzYXkgKCJJbiB0aGlzIGVzc2F5IGkgd2lsbCIpICwgdmVyeSBlbmQgbXVzdCBoYXZlIG1haW4gY2xhaW0gKG11c3QgYmUgX2ludGVyZXN0aW5nXyBhbmQgc3BlY2lmaWMsIG11c3QgbWFrZSBhYnNvbHV0ZWx5IGNsZWFyIGZvciBvciBhZ2FpbnN0ICsgYW5nbGUpLAoKIyMjIyMgTWFpbiBjbGFpbQpTaG9ydCwgY29uc2lzZSwgc3BlY2lmaWMsIGNsZWFyIGFuZCBlYXN5IHRvIHJlY29nbmlzZSAoaWUgYXQgdGhlIGVuZCBvZiB0aGUgaW50cm8pIFxuZXdsaW5lIAoKIyMjIyBCb2R5IApTZXQgb2YgcGFyYWdyYXBocywgbW92aW5nIGZyb20gbW9yZSBnZW5lcmFsIHRvIHNwZWNpZmljLCBicm9hZGVzdCBpbmZvIGZpcnN0IHRvIG1vcmUgc3BlY2lmaWMuIEluY2x1ZGVzIHJlYXNvbnMgaW4gc3VwcG9ydCBvZiBjbGFpbXMuIEdpdmUgcmVhc29ucyArIGNpdGUgZXZlZGVuY2UgZnJvbSB0aGUgbGl0ZXJhdHVyZS5cbmV3bGluZSAgCihDb3VsZCBhdHRlbXB0IHRvIGluY2x1ZGUgYSByZWJ1dHRsZSwgY291dGVyYXJndW1lbnRzKVxuZXdsaW5lIAoKIyMjIyMgVHJhbnNpdGlvbiBzZW50YW5jZXMgCmxpbmsgcGFyYWdyYXBocyB0byBpbXBvcnZlIGZsb3cuIAoKIyMjIyMgVG9waWMgCnRvcGljIHNlbnRhbmNlIGZvciBlYWNoIHBhcmFncmFwaC4gCgojIyMjIFdyYXAgdXAgc2VudGFuY2UKUmVsYXRlcyB0aGUgdG9waWMgYmFjayB0byB0aGUgbWFpbiBjbGFpbS4gCgpOT1RFOiBMb3RzIG9mIGNpdGF0aW9ucywgcmVtZW1iZXIgd3JpdGluZyBmZWxsb3dzLiAKCiMjIyBGaW5hbCBub3RlcwogIy4gODAwLTExMDAgd29yZHMsIAogIy4gb3duIHJlc2VhcmNoICsgaW50ZXJwZXRhdGlvbiBvZiBsaXRlcmF0dXJlLAogIy4gbXVzdCBiZSBzdWJtaXR0ZWQgdGhyb3VnaCB0dXJuIGl0IGluLiAKICMuIHByaW50IGNvcnJlY3QgZm9ybWF0LgogIy4gcHJpbnQgKyBzdHRhdGNoIG1hcmtpbmcgcnVicmljIAoKCiMjIyMgQ29uY2x1c2lvbiAKUmVzdGF0ZSB0aGUgbWFpbiBjbGFpbSBhbmQgaXRzIGltcG9ydGFuY2UuIFN1bW1hcml6ZSBlYWNoIG9mIHRoZSBtYWluIHBvaW50cyBpbiB0aGUgY2xhaW0gYWdhaW4uIAoKKk5CKlxuZXdsaW5lIApObyBuZXcgaW5mb3JtYXRpb24sIGFuZCBubyByZWZlcmVuY2VzLiAKCiMgU2NpZW50aWZpYyBQb3N0ZXIgCkNvbW1vbmx5IHByZXNlbnRlZCBhdCBzY2llbnRpZmljIHBvc3RlcnMsIChwcGwgcHJlc2VudCBjdXJyZW50IHJlc2VhcmNoLCBvcmFsbHkgYW5kIGluIHBvc3RlcnMsIGFkdmFudGFnZSBpcyB0aGF0IGl0IGlzIHZlcnkgY29uc2ljZSlcbmV3bGluZSAKCk5PVEU6IFxuZXdsaW5lIAoKICMuIE5vdCB0b28gbXVjaCB0ZXh0LiAoTkIpCiAjLiByZWFkIDFtIGF3YXkgKEExIHNpemUpIAogIy4gbG90cyBvZiB2aXN1YWxzLiBkaWFncmFtcyBldGMuIAogIy4gVGhlIHRha2UgaG9tZSBtZXNzYWdlIG11c3QgYmUgY2xlYXIgKHN0YW5jZSBtdXN0IGJlIGNsZWFyKQogCk5PVEU6IAogIy4gNHBtIG1vbmRheSwgCiAjLiBwZGYgZm9ybWF0CiAjLiA1OTR4IDg0MW1tLiBcbmV3bGluZSAKIAojIEJhY2tncm91bmQgCkdvdmVybmVkIGJ5IHJlbGF0aXZlbHkgc21hbGwgc2V0IG9mIHJlbGF0aXZlbHkgc2ltcGxlIHJ1bGVzLiAKCiMgQ2hhcHRlciAxMyBCaW9sb2dpY2FsIGNhdGFseXN0LiAKZW56bXllcyBpbiBtZXRhYmxvc2ltLCBhY2NlbGVyYXRlIGFuZCBjb250cm9sIGJpb2NoZW1jaWFsIHJlYWN0aW9uIHJhdGVzLiBJbiBzcGVjaWZpYyBzcGVlZCB1cCBkZXJncmFkYXRpb24gb2YgbnV0cmllbnRzIGFkbiBnZW5lcmF0aW9uIGFkbiB0cmFuZnJvbWF0aW9uIG9mIG1ldGFib2xpdGVzLiBPbmx5IHZlcnkgc3BlY2lhbGlzZWQgcmVndWxhdG9yeSBlbnp5bWVzIGNvbnRyb2wgYmlvY2hlbWljYWwgcmVhY3Rpb25zLCBvZnRlbiBmb3VuZCBhdCBqdW5jdHVyZSBwb2ludHMuIFN1aGMgZW56eW1lcyBjaGFuZ2UgdGhlIHJhdGUgZGVwZW5kaW5nIG9uIHRoZSBjZWxsJ3MgbWV0YWJvbGljIHJlcXVpcmVtZW50cy4gKGllIG1vcmUgcmVxdWlyZSBzcGVlZCB1cCBzeXRoZXNpcyBhbmQgc2xvdyBkZWdyYWRhdGlvbiBhbmQgdmlzYSB2ZXJzYS4pCgpNYW55IGJpb2xvZ2ljYWwgcmVhY3Rpb25zIHByb2R1Y2UgYSBsb3Qgb2YgZW5lcmd5IGJ1dCB0b28gc2xvdywgZW56eW1lcyBleGVydCBraW5ldGljIGNvbnRyb2wgb3ZlcnRoZXJtb2R5bmFtaWMgcG90ZW50aWFsbGl0eS4gKGtlbmV0aWMgYXMgaW4gcmF0ZSBhbmQgc3BlZWQpXG5ld2xpbmUgCgojIyBESXN0aW5jdGl2ZSBmZWF0dXJlcwoKIyMjIENhdGFseXRpYyBwb3dlci4gCmhvdyBnb29kIGl0IGlzIGF0IGJlaW5nIGEgY2F0YWx5c3QvIHNwZWVkaW5nIHRoaW5ncyB1cCAKQ2FsY3VsYXRlZCBhcyB0aGUgcmF0aW9uIG9mIGNhdGFseXNlZCB0byB1bmNhdGFseXNlZCByZWFjdGlvbgoKIyMjIFNwZWNpZmljdHkuIApBY3RzIG9uIGEgc3BlY2lmaWMgc3Vic3RyYXRlLCB2ZXJ5IHNlbGVjdGl2ZSBubyBwcm9taXNjdW91cy4gKCkKc2VsZWN0YXJpdml0eSBmb3Igc3Vic3RyYXRlLiBDYW5ub3QgY2hhbmdlIHRoZSBlcWlsbGlicml1bSBwb3NpdGlvbiwgZW56eW1lcyBhcmUgdmVyeSBzZWxlY3RpdmUuIE9uZSBhZHZhbnRhZ2UgaXMgbGVzcy9ubyBiaXByb2R1Y3RzLiAKCkFjaGlldmVkIGJ5IHNlY2lmaWMgc2hhcGUgYWRuIGNoYXJnZSwgKGNvbXBsaW1lbnRhcml0eSkKCiMjIyMgWWllbGQgCllpZWxkIGRlY3JlYXNlcyBhdCBlYWNoIHN0ZXAgaW4gYSBtdWx0aSBzdGVwIHByb2Nlc3MsICh5aWVsZCBpcyBkZWNyZWFzZWQgYXQgZWFjaCBzdGVwIGJ5IHRoZSBmb3JtYXRpb24gb2YgYnlwcm9kdWN0KQoKIyMjIFJlZ3VsYXRpb24gCk5vdCBhbGwgZW56eW1lcywga2V5IGVuenltZXMsIG1haW50YWluIHJhdGVzIGF0IGFwcHJvcHJpYXRlIGxldmVscyBmb3IgdGhlIGNlbGxzIHJlcXVpcmVtZW50cy4gCgojIyMgTWlsZCBjb25kaXRpb25zIApoYXBwZWQgdW5kZXIgdmVyeSBtaWxkIGNvbmRpdGlvbnMgKHBIIGFuZCB0ZW1wKSwgYXMgcHJvdGVpbnMgc3VzZXB0YWJsZSB0byBkZW5hdHVyYXRpb24sIGZ1cnRoZXJtb3JlIG9mdGVuIAoKCmBgYHtyLCBlY2hvPUZBTFNFfQojIGV4YW1wbGUgCgooMyoxMF40KS8oMyoxMF4oLTEwKSkKCmBgYAojIyBCYWNrZ3JvdW5kIAoKIyMjIE5vbWVuY2xhdHVyZQpFbnp5bWVzIGFyZSBncm91cGVkIGludG8gNiBkaWZmZXJlbnQgY2F0ZWdvcmlzZWQgYmFzZWQgb24gcmVhY3Rpb25zIHdoaWNoIHRoZXkgY2F0YWx5c2UuIAoKIyMjIyBFbnp5bWUgY29tbWlzaW9uIG51bWJlci4gCkZ1cnRoZXJtb3JlIGVhY2ggZW56eW1lIGlzIGdpdmVuIGFuIGVuenllbSBjb21taXNpb24gbnVtYmVyLCB0aGlzIGlzIGEgc3RhbmRhcmQgaG93ZXZlciBhICJjb21tb24gbmFtZSIgaXMgYWxzbyBvZnRlbiB1c2VkLiAKCiMjIyMgT3hpZG9yZWR1Y3Rhc2VzLiAKCiMjIyMgVHJhbnNmZXJhc2VzICAKCiMjIyMgSHlkcm9sYXNlcy4KQ2xlYXZlcyBpbiBwcmVzZW5jZSBvZiB3YXRlci4gCihNb3N0IGNvbW1vbiB0eXBlKQoKIyMjIyBMaWdhc2VzLiAKZm9ybSBib25kcyAKCiMjIyMgSXNvbWVyYXNlcy4gCgoKIyMjIyBMeWFzZXMuIApicmVhayBib25kcy4KIApOT1RFOiBDaGVjayBpbiBub3RlcyBpZiBhbGwgZW56eW1lIGdyb3VwcyBhcmVhIHByZXNlbnQuIAoKYGBge3IsZWNobz1GQUxTRX0KI0V4Y2Vyc2l6ZQoKYGBgCgojIyMgUHJpbmNpcGxlcyBvZiBjaGVtaWNhbCBraW5ldGljcy4gCiRBXHJpZ2h0YXJyb3cgQiQgXG5ld2xpbmUgCmFzc3VtZSBzcG9udGFuZW91cyBhbmQgaXJyZXZlcnNpYmxlLiAKCnJhdGUgZGVmaW5lZCBpbiB0ZXJtcyBvZiBjaGFuZ2UgaW4gY29uY2VudHJhdGlvbiBvZiB0aGUgcmVhY3RhbnRzIG9yIHByb2R1Y3RzLiAKCk5PVEU6IENvcHkgbm90ZXMgZnJvbSBjaGVtaWNhbCBraW5ldGljcy4gCgokdj0tXGZyYWN7ZFtBXX17ZHR9PVxmcmFje2RbUF19e2R0fSQgdGhlIGluZmluaXRlc2ltYWwgcmF0ZS4gCgojIyMgUmF0ZSBMYXcuIAokdj1cdGV4dHtrfVtBXSQgd2hlcmUgayBpcyB0aGUgcmF0ZSBjb25zdGFudC4gCnJldmVyc2UgcmF0ZSAka157LTF9W1BdJFxuZXdsaW5lIAoKJFZccHJvcHRvIFtBXSQgXG5ld2xpbmUgCmsgaXMgdGhlIHJhdGUgY29uc3RhbnQgb2YgdGhlIGNvbnN0YW50IG9mIHByb3BvcnRpb25hbGl0eS4KCgojIyBFbnp5bWUgS2luZXRpY3MuIAoKIyMjIE1heGltdW0gdmVsb2NpdHkgCk1heGltdW0gY2F0YWx5c3RpYyByYXRlXG5ld2xpbmUgCkRvbmF0ZWQgYnkgJFZfe1x0ZXh0e21heH19JAoKIyMjIEJpbmRpbmcgYWZmaW5pdHkKdGhlIHN0cmVuZ3RoIG9mIHRoZSBib25kLyBlbnRoYWxweSBvZiBib25kIGZvcm1hdGlvbiBcbmV3bGluZSAKZG9udGF0ZWQgYnkgJEtfbSQKCiMjIyBNZWNoYWxpcyBtZW50aW9uLiAKCgojIyMjIERlcnJpdmF0aW9uIC4gCgoKIyMjIyMgQXNzdW1wdGlvbnMgCiAjLiBUaGUgYmFjayByZWFjdGlvbiAoRStQIHRvIEVTIGluIG5lZ2xpZ2FibGUuKSAka197LTF9Pj4+a18yJCAoTWVjaGFsaXMgbWVudGVuKSAKICMuIFRIZSBjb25jbmV0cmF0aW9uIG9mIHRoZSBFUyByZW1haW5zIGNvbnN0YW50IGF0IGEgc3RlYWR5IHN0YXRlIChzdGVhZHkgc3RhdGUgYXNzdW1wdGlvbi4pIChCcmlnZ3MtIEh1bGRhbmUuICkKIAogVGhlIGluaXRhbCB2ZWxjb2l0eSBjYW4gYmUgZXhwcmVzc2VkIGFzIGEgZnVuY3Rpb24gb2Ygc3Vic3RyYXRlIGNvbmNlbnRyYXRpb24uIAogCiBUb3RhbCBlbnp5bWUgY29uY2VudHJhdGlvbjogJFtFXV9UPVtFXStbRVNdJFxuZXdsaW5lICgkW0VfVF0kKSBzaSBrbm93biBmcm9tIHRoZSBhbW91bnQgb2YgZW56eW1lcyBhZGRlZC4gCiAKJHY9a18xW0VdW1NdJCBcbmV3bGluZSAKCiQtdj1rX3stMX1bRVNdJCBcbmV3bGluZSAKCiRrXzJbRVNdJCBcbmV3bGluZSAKCkJ5IHRoZSBjb25zdGFudCByYXRlIGFwcHJveGltYXRpb24uIAoKJGtfMVtBXVtTXS1rX3stMX1bRVNdLWtfMltFU109MCQgXG5ld2xpbmUKCihMb29rIHVwIGNvbmlkaXRpb25zIG9yIHN0ZWF5IHN0YXRlIGFzc3VtcHRpb24uICkKCgokXHJpZ2h0YXJyb3cga18xW0VdW1NdPWtfey0xfVtFU10ra18yW0VTXSQgXG5ld2xpbmUgCmFzICRbRV1fVD1bRV0rW0VTXSQgbmV3aWxuZQokXHJpZ2h0YXJyb3cga18xKFtFX1RdLVtFU10pW1NdPWtfey0xfVtFU10ra18yW0VTXSQKJFxyaWdodGFycm93IFxmcmFjeyhbRV9UXS1bRVNdKVtTXX17W0VTXX09XGZyYWN7a197LTF9K2tfMn17a18xfT1rX00kIAoKQXMgJGtfMj4+Pmtfey0xfSRcbmV3bGluZSAKCiQoXGZyYWN7a197LTF9fXtrXzF9KSQgCgpOT1RFIHRoZSB1bml0IG9mICRLX20kIHdpbGwgYmUgJG1vbFxjZG90IGRtXnstM30kCgoKJFxmcmFjeyhbRV9UXS1bRVNdKVtTXX17W0VTXX09a19NJAoKCiRcZnJhY3tbRV9UXVtTXX17W0VTXX0tXGZyYWN7W0VTXVtTXX17W0VTXX09S19NJCAoc29sdmUgZm9yIFtFU10pCgokW0VTXT1cZnJhY3tbRV9UW1NdXX17S19NK1tTXX0kCgpBbHNzbyBhcyAKCiR2PWtfMltFU10kIChyYXRlIG8gcHJvdWN0IGZvcm1hdGlvbikuIFxuZXdsaW5lIAokW0VTXT1cZnJhY3t2fXtrXzJ9JCBcbmV3bGluZSAKCiRccmlnaHRhcnJvdyBcZnJhY3t2fXtrXzJ9ID0gXGZyYWN7W0VfVF1bU119e0tfTStbU119JFxuZXdsaW5lCgokXHJpZ2h0YXJyb3cgdj0gXGZyYWN7a18yW0VfVF1bU119e0tfTStbU119JCAoJFtFU11cYXBwcm94W0VfVF0kIGZvciBleGNlc3Mgc3Vic3RyYXRlKSBcbmV3bGluZSAKCiRccmlnaHRhcnJvdyB2PVxmcmFje2tfMltFU11bU119e0tfTStbU119JCAkdj1rXzJbRV9UXT12X3ttYXh9JCBBcyAoJFtFX1RdPVtFU10kKSBmb3Igc2F0dXJhdGVkIHNvbHV0aW9uLiAKCiR2PVxmcmFje3Zfe21heH1bU119e3tLX00rW1NdfSQgd2hlcmUgdiBpcyB0aGUgaW5pdGlhbCByYXRlLiAKCiRLX00kIGFuZCAkdl97bWF4fSQgY2EgYmUgdXNlZCBhcyBnZW5lcmFsIG1lYXN1cmVzIG9mIGNhdGFseXRpYyBhYmlsaXR5LiAKCiRLX009W1NdJCBhdCBcZnJhY3t2X21heH17Mn0KCiR2PVxmcmFje3Zfe21heH1bS19NXX17e0tfTStbS19NXX09XGZyYWN7MX17Mn12X3ttYXh9JCAKCnByb2R1Y3QgY29uY2VudHJhdGlvbiBhZ2FpbnN0IHRpbWUgY2FuIGJlIHBsb3R0ZWQgYW5kIHRoZSB0YW5nZW50IHRha2VuIHRvIGdpdmUgdiBhdCBhIGdpdmVuIHQuIAoKCk5PVEU6CgogIy4gZWl0aGVyIG9ueSBvbmUgc3VzYnN0cnRlIG9yIGNvbmNuZXRydGlvIG8gb3RoZXIgc3Vic3RyYXRlcyBoZWxkIGNvbnN0YW50LiAKICMuIEUgaXMgaW4gc3RlYWR5IHN0YXRlLiAKICMuIHJlYWN0aW9uIGlzIGlycmV2ZXJzaWJsZS4sIG9yIAogCiBDb3B5IGRvd24gYXNzdW1wdGlvbnMhIS4gCiAKIAogJFx0ZXh0e2xufSh2KT1cdGV4dHtsbn0oXGZyYWN7dl97bWF4fVtTXX17e0tfTStbU119fSkkCiAKICRccmlnaHRhcnJvdyA9JAogCk5PVEU6ICR2X3ttYXh9JCBjYW4gYmUgYXBwcm94aW1hdGVkfQ==</div>
+<div id="rmd-source-code">LS0tCnRpdGxlOiAiUiBOb3RlYm9vayIKb3V0cHV0OiBodG1sX25vdGVib29rCi0tLQoKCiMjIEJhY3RlcmlhClRoZXJlIGFyZSBvZnRlbiAgZW5kb3Nwb3JlcyB3aXRoaW4gYmFjdGVyaWEgd2hpY2ggY2FuIGNhdXNlIHN3ZWxsaW5nIGNoYW5naW5nIHNoYXBlLiAKCiMjIyBQbGFzaXRpY3R5IApiYWN0ZXJpYSBoYXZlIHRoZSBmYWNpbGl0eSB0byBhZGFwdCB0aGVpciBlbnZpcm9ubWVudCBieSAKCiMjIyBTaXplLiAKVGhlIGF2ZXJhZ2UgaXMgYWJvdXQgJDAuMi0xLjBcbXUgXHRleHR7eH0gMi04XG11IG0kCkZvciBleGFtcGxlIEUuIGNvbGkgJDEuMS0xLjVcbXUgXHRleHR7eH0gMi02XG11IG0kCgojIyMjIFNtYWxsZXN0LiAKJDEwMC0zMDBubSQgcmFuZ2UsIGFuZCB1bnRyYW1pY3JvYmFjdGVyaWEgd2hpY2ggYXJlIGFib3V0ICQ1MG5tJCBpbiBzaXplLiBWZXJ5IG51dHJpZW50IHBvb3Igc28gZG8gbm90IG1hbnRhaW4gbGFyZ2UgY3l0b3BsYXNtLgoKIyMjIyBMYXJnZXN0LiAKQmFjdGVyaWEgRXB1bG9waXNjaXVtIGZpc2hlbHNvbmkKCiQ4MFxtdSBtLTYwMFxtdSBtJCAodmlzaWJsZSB3aXRoIHRoZSBuYWtlZCBleWUpLCBhYm91dCAkMTBeNiQgdGltZXMgbGFyZ2VyIGluIHZvbHVtZSB0aGFuIG1vc3QgYmFjdGVyaWEKCiMjIyMjIHJlcHJvZHVjdGlvbiAKcHJvZHVjZXMgZGF1Z2h0ZXIgY2VsbHMgaW5zaWRlIHRoZSBtb3RoZXIsIHdoaWNoIHRoZW4gcG9wIG91dCB0aHJvdWdoIGEgc2xpdC4gCgojIyMjIyBBZGRhcHRpb25zIApUaGUga2V5IGxpbWl0YXRpb24gdG8gc2l6ZSBpcyBTQTpWLCBhcyBtb3ZpbWVudCBvZiBudXRyZWludHMgYW5kIGdhc3NlcyBhcmUgYnkgZGlmZnVzaW9uLiBUaGlzIHByb2JsZW0gaXMgb3ZlcmNvbWUgaW4gcGFydCBieSBtYXNzaXZlIGludmFnaW5hdGlvbnMgb2YgdGhlIHN1cmZhY2UgbWVtYnJhbmUuIChBZGRpdGlvbmFsIHByb2JsZW0gb2YgdHJhbnNwb3J0aW5nIHByb3RlaW5zIHRvIG1lbWJyYW5lIGFzIG1lbWJyYW5lIGFscmVhZHkgY292ZXJlZCBpbiBwcm90ZWlucy4pLiAKCkl0IHdhcyB0aG91Z2h0IHRoYXQgYSBwYXJ0aXVsYXIgYmFjdGVyaXVtIHdvdWxkIGhhdmUgb25lIGNvcHkgb2YgYSBiYWN0ZXJpdW0sIGhvd2V2ZXIgaW4gRXB1bG9waXNjaXVtIGZpc2hlbHNvbmkgY3JvbW9zb21lIG51YmVyIGluY3JlYXNlcyB3aXRoIHNpemUsIGFsc28gYXMgdHJhbnNjcmlwdGlvbiBhbmQgdHJhbnNsYXRpb24gYXJlIGxpbmtlZCwgaWYgdGhlIGdlbmUgaXMgZXZlcnl3aGVyZSBpbiB0aGUgY2VsbCwgdGhlbiBhIHByb3RlaW4gY2FuIGJlIHByb2R1Y2VkIGFueXdoZXJlIGluIHRoZSBjZWxsIGFuZCB0aGUgbmVlZCBmb3Igc29waGlzdGljYXRlZCB0cmFuc3BvcnQgc3lzdGVtcyBpbiByZW1vdmVkLiBUaGUgbnVtYmVyIG9mIGNvcGllcyBvZiBpbXBvcnRhbnQgZ2VuZXMgY2FuIGJlIGluIHRoZSBodW5kZXJlZCB0aG91c2FuZHMsIGZvciBleGFtcGxlIHJpYm9zb21hbCBSTkEgZ2VuZXMuIAoKIyMjIyMgVGhpb21hcmdhcml0YSBuYW1pYmllbnNpcyAKdmVyeSBsYXJnZSB2b2x1bWUuIAoKIyMjIyMjIEFkZGFwdGF0aW9ucyAKY3l0b3BsYXNtIGlzIGZpbGxlZCB3aXRoIHZhY3VsZXMgc28gbWluaW1hbCBkZXB0aCBvZiBjeXRvcGxhc20gZnJvbSBhbnkgcG9pbnQuIEVwdWxvcGlzY2l1bSBmaXNoZWxzb25pIHJlcXVpcmVzIG51dHJpZW50IGRlbnNlIGVudm9yb25tZW50IHNvIGxpdmVzIGluIGZpc2ggYW5kIGZsb2F0cyBhcm91bmQgdG8gZmluZCBudXRyaW5ldCBkZW5zZSBhcmVhcy4gCgpUaGUgb3RoZXIgYWR2YXRhZ2Ugb2Ygc2l6ZSBpcyB0aGF0IGl0IGhlcCBhdm9pZCAocHJvdG96b2FuKSBwcmVkYXRpb24uIAoKIyMgU3RydWN0dXJlIGFuZCBmdW5jdGlvbiAKCk5PVEU6IE5vdCBhbGwgc3RydWN1cmVzIGFyZSBmb3VuZCBpbiBhbGwgYmFjdGVyaWEuIFNvbWUgc3RydWN0dXJlcyBhcmUgc3BlY2lmaWMgdG8gc3BlY2lmaWMgYmFjdGVyaWEgc29tZSBhcmUgc3BlY2lmaWMgdG8gdGhlIGJhY3Rlcml1bXMgZW52aXJvbm1lbnQsIGllIHBhcmFzaXRpYyBvbmx5IHByb2R1Y2UgYSBjYXBzdWxlIHdoZW4gdGhleSBlbmNvdXRlciBhIGhvc3QgaW1tdW5lIHJlc3BvbmNlLiAKCihDb3B5IGltYWdlIG9mIGJhY3RlcmlhKQoKTk9URTogY3l0b3BsYXNtIGlzIGFjdHVhbGx5IHBhY2tlZC8gdmVyeSBmdWxsIG9mIGNvbnNpdGl0dWVudHMuIAoKIyMjIFBsYXNtYSBtZW1icmFuZS4gCnRoZXkgYXJlIHRoZSBtYWluIGNvbnRhbmN0IHBvaW50IGJldHdlZW4gdGhlIGNlbGwgYW5kIGl0cyBzdXJyb3VuZGluZ3MuIGZ1bmN0aW9ucyBzcGxpdHMgaW50ZXJuYWwgYW5kIGV4dGVybmFsIGVudmlyb25tZW50IGluIGl0cyBjYXBhY2l0eSBhcyBhIGJvdW5kYXJ5IGxheWVyLCBhbmQgYWxsb3dzIHRoZSBleGNoYW5nZSBvZiBtYXR0ZXIgYW5kIGluZm9ybWF0aW9uIGJldHdlZW4gdGhlIGludGVybmFsIGFuZCBleHRlcm5hbCBlbnZpcm9ubWVudC4gCgpOT1RFOiBiYWN0ZXJpYSBhcmUgdmVyeSBwbGFzdGljIGluIHRoZWlyIHJlc3BvbmNlIHRvIHRoZSBlbnZpcm9ubWVudCBpbnByb3ZpbmcgZW5lcmd5IGVmZmVjaWVuY3kgCgojIyMjIEZsaXVkIG1vemFpYyBtb2RlbCAKUGhvc3Bob2xpcGlkcysgaW50ZXJncmFsIGFuZCBwb3JpZmVyYWwgcHJvcGVydGllcy4gCgojIyMjIyBNZW1icmFuZSBhc3NvY2lhdGVkIGxpcGlkcwpBbXBoaXBoYXRpYywgKGh5ZHJvcGhpbGljIGFuZCBoeWRyb3Bob2JpYyBncm91cHMgYXNzb2NpYXRlZCB3aXRoIHRoZW0pLCBtb3N0IG9mIHRoZXNlIGxpcGlkcyBhcmUgcGhvc3Bob2xpcGlkcywgdGhleSBzcG9udGFlb3VzbHkgYXJyYW5nZSB3aXRoIHBob3NwaGF0ZSBoZWFkIGJ5IHdhdGVyIHRvIGZvcm0gbG93IGVuZXJneSBtaWNlbGxlcyBvciBiaWxheWVycy4gCgpQaG9zcGhvbGlwaWRzIGFyZSBkaXZlcnNlIGFuZCBjb21wbGV4IGdyb3Vwcy4gUGhvc3BoYXRpZHlsZXRoYW5vbGFtaW5lICg3NVwlKQpwaG9zcGhhdGlkeWxnbHljZXJvbCAoMjBcJSkKY2FyZGlvbGlwaW4gKGRpcGhvc3BoYXRpZHlsZ2x5Y2Vyb2wsIDEtNVwlKQoKSW1wb3J0YW50IGFzIHRoZXkgY29uZmVyIHN0cmVuZ3RoLCBhbmQgc3ByZWFkIG91dCBvdmVyYWxsIG5lZ2F0aXZlIGNoYXJnZSBvZiB0aGUgcGxhc21hIG1lbWJyYW5lIGFuZCBjYXJkaW9saW4gY2FuIHBsYXkgYSByb2xlIGFyZSBhIHNoYXBlcm9uZSwgaGVscHMgbGFjdGFzZSBwZXJtZWFzZSBmbG9kIGNvcnJlY3RseSBpbiB0aGUgbWVtYnJhbmUuCgpGb3IgYSBwYXJ0aWN1bGFyIHNwZWNpZXMgb2YgcGhvc3Bob2xpcGlkIHRoZSBmbHVpZGl0eSBpcyBhZGp1c2V0ZWQgYnkgc2F0dXJhdGlvbi9kZXNhdHVyYXRpb24gb2YgdGFpbHMsIHRvIGZpdCB0aGUgcmVxdWlyZW1lbnRzIG9mIHRoZSBleHRlcm5hbCBlbnZpcm9ubWVudC4gCgpMaXBpZHMgY2FuIGFsc28gZmxpcCBiZXR3ZWVuIGxlYWZsZXRzIG9mIHRoZSBtZW1icmFuZSwgdGhlcmUgYXJlIHBvcnRlaW5zIGZsaXBhc2VzIChvdXQgdG8gaW4pLCBmbG9wYXNlcyAoaW4gdG8gb3V0KSByZXF1aXJlIEFUUCwgYW5kIHNjYW1ibGFzZXMgKGV4Y2hhbmdlKSBkbyBub3QgcmVxdWlyZSBBVFAuIFJlbGF0ZWQgdG8gYWRhcHRpb25zIHRvIGVudmlyb25tZW50YWwgY2hhbmdlcyBzdWNoIGFzICB0ZW1wZXJhdHVyZSAod2l0aCBzZWFzb24pLiAKCk5PVEU6bWVtYnJhbmUgaXMgcGFja2VkIHdpdGggcHJvdGVpbnMsIGVzcGNpYWxseSBpbiBiYWN0ZXJpYSB3aGljaCByZXF1aXJlIG1lbWJyYW5lIHBvcnRlaW5zIGZvciBlbmVyZ3kgcHJvZHVjdGlvbiwgdGhpcyBhcHBsaWVzIGVzcGVjaWFsbHkgb3QgYmFjdGVyaWEgd2l0aCBsZXNzIGVmZmVjaWVudCByZXNwaXJhdGlvbiBwcm9jZXNzZXMuIAoKIyMjIyMgR2x5Y29saXBpZHMgCkdseWNvIGxpcGRzIGFyZSBkZWZpbmVkIGFzIGxpcGlkcyB3aXRoIGEgY2FyYm9oeWRyYXRlIGF0dGFjaCwgYnV0IHZlcnkgaGV0cm9nZW5vdXMgZ3JvdXBpbmcuCgojIyMjIyMgRnVuY3Rpb25zCiAKICMuIEhlbHAgdG8gc3RhYmFsaXNlIHRoZSBwbGFzbWEgbWVtYnJhbmUgKHByb3RlY3RpdmUgZnVuY3Rpb24pCiAjLiBJbXBvcnRhbnQgaW4gY2VsbC1jZWxsIGludGVyYWN0aW9ucyAKICAgICMuIEFkaGVzc2lvbi4gKGNvbnRhbmN0IGluaGViaXRpb24sIG11c2xjZXMsIGRlc29zb21lcyBldGMpCiAgICAjLiBpZGVudGlmaWNhdGlvbiAodGhlIGZsaXAgc2lkZSBpcyB0aGF0IGlzIGNhbiBiZSByZWNvZ25pc2VkIGJ5IHRoZSBob3N0IGltbXVlIHN5c3RlbSkuIAogICAgIy4gYXNzaXN0IGluIHNpZ25hbCB0cmFuc2R1Y3Rpb24uIAogICAgCiMjIyMgVHJhbnNwb3J0IHN5c3RlbXMgCkEgdHJhbnNwb3J0IHN5c3RlbSBpcyByZXF1aXJlZCB0byBtbW92ZSBhY3Jvc3MgdGhlIHBsYXNtYSBtZW1icmFuZSwgY291bGQgYmUgZm9yIHRveGlucyBzdWNoIGFzIGJhY3Rlcmlvc2luIHdoaWNoIGF0dGFjaCBvdGhlciBiYWN0ZXJpYSBpbiB0aGUgZW52aXJvbm1lbnQsIFRoZXkgY2FuIGFsc28gdHJhcCBmb29kIG91dHNpZGUgdGhlIFBNIHRvIHByZXZlbnQgaXRzIGxvc3MuIEZ1cnRoZXJtb3JlIGltcG9ydGFudCBtZXRhYm9saWMgZnVuY3Rpb25zIHN1Y2ggYXMgcGhvdG9zeW50aGVzaXMgYW5kIHJlc3BpcmF0aW9uIGludm9sdmUgdGhlIHBsYXNtYSBtZW1icmFuZS4gTW90aWxpdHkgaXMgYWxzbyBhc3NvaWNhdGVkIHdpdGggcGxhc21hIG1lbWJyYW5lIGFzc29jaWF0ZWQgc3RydWN0dXJlcywgYW5kIHRoZSBzeXN0aGVzaXMgb2YgbWFueSBpbXBvcnRhbnQgY2hlbWljYWxzLiAKCk5PVEU6IGJhY3RlcmlhIGNhbiBkaXN0aW5ndWlzaCB3aGljaCBob3N0IHRoZXkgYXJlIGluZmVjdGluZyBhbmQgY2FuIGFkZGFwdCBhY2NvcmRpbmdseS4gCgoKCgoKIyMjIyMjIENvbnNpdGl0dWVudHMgCnBvbGFyIGhlYWQgKyBub25wb2xhciB0YWlsLiAKCiMjIyMjIEludGVncmFsIG1lbWJyYW4gcHJvdGVpbnMuIAoKbWFrZSB1cCBhYm91dCA2MC03MFwlIG9mIG1lbWJyYW5lIHByb3RlaW5zLiAKCiMjIyMjIyBFYXNlIG9mIHJlbW92YWwuIAoKdGVuZCB0byBiZSByZWxpdmVseSBkaWZmaWN1bHQgdG8gcmVtb3ZlIGluIGFxdW9zIGVudmlyb25tZW50cyAoYXMgbG93IHNvbHViaWxpdHkpLiAKU3VjaCBwcm90ZWlucyBhcmUgdXN1c2FsbHkgZW1iZWRkZWQgZGVlcGx5LCBzb21lIG1heSBzcGFuIHRoZSBlbnRpcmUgbWVtYnJhbmUuIFRvIHNwYW4gdGhlIG1lbWJyYW5lIHRoZXkgbXVzdCBiZSBhbXBoaXBoYXRoaWMgKG90aGVyd2lzZSB3b3VsZCBmbGlwIGludG8gdGhlIG1lbWJyYW5lKS4gCkJ5IGRpZmZ1c2lvbiBwcm90ZWlucyBjYW4gbW92ZSB3aXRoaW4gdGhlIHBsYXNtYW0gbWVtYnJhbmUsCgojIyMjIyBQZXJpZmVyYWwgcHJvdGVpbnMuIAoyMC0zMFwlIAoKIyMjIyMjIEVhc2Ugb2YgcmVtb3ZhbCAKcmVsYXRpdmVseSBlYXNpZWlyIHRvIHJlbW92ZSwgYXMgdGhleSBhcmUgb24gdGhlIG91dHNpZGUsIGFuZCBtb3JlIHNvbHVibGUgaW4gYXFlb3VzIGVudmlyb25tZW50cy4gCgooQ29weSBpbWFnZSBvZiB0aGUgcGxhc21hIG1lbWJyYW5lLiApCgoKCgoKCk5PVEU6IHRoZXJlIGlzIG5vIHJlYXNvbiBmb3IgdGhlIHRhaWxzIHRvIGFsbGlnIGJldHdlZW4gbGF5ZXJzLiAKCiMjIyMjIFMgbGF5ZXIgCmFkZGl0aW9uYWwgdmVyeSBzdHJvbmcgb3V0ZXIgbGF5ZXIgZm9tZWQgb24gbWVtYnJhbmUKCgojIyMgQ2VsbCB3YWxsIApUaGUgbWFqb3JpdHkgb2YgYmFjdGVyaWEgcG9zc2VzIGEgY2VsbCB3YWxsLiAKCgojIyMgTnVjbGVpb2QgCgojIyMgR2FzIFZhY291bGVzLiAKCiMjIyBJbmNsdXNpb24gYm9kaWVzIAoKIyMjIFJvYm9zb21lcy4gCgojIyMgQ2VsbCBlbnZlb3BlLiAKY29udGFpbnMgdGhlIG91dGVyIG1lbWJyYW5lKHdoZXJlIHByZXNlbnQpIHRoZSBjZWxsIHdhbGwgYW5kIHRoZSBjZWxsIG1lbWJlcmFuZQoKIyMjIEV4dGVybmFsIApBcHBlbmRhZ2VzLiAuLi4/IAoKIyMjIEludGVybmFsIG1lbWJyYW5lIHN5c3RlbS4gCgojIyBHcmFtIHN0YWluaW5nLiAKVGhlIGdyYW0gY2VsbCBpcyBhYmxlIHRvIGRpZmZlcmVudGF0ZSBiZXR3ZWVuIHR3byBtYWpvciBzdHJ1Y3R1cmUgdHlwZXMgYmFzZWQgb24gdGhlaXIgYWJpbGl0eSB0byBtYWludGFuIHRoZSBwb3JpbWFyeSBzdGFpbiBpbiB0aGUgcHJlc2VuY2Ugb2YgdGhlIGRlLWNvbG9yaXNvci4gCkdyYW0gc3RhaW5pbmcgaXMgYmFyIGZhciB0aGUgbW9zdCBpbXBvcnRhbnQgc3RhaW5pbmcgaW4gYmFjdGVyaW9sb2d5LiBzdGFpbmluZyBpcyBhbHNvIHJlbGF0ZWQgdG8gZGlmZmVyZW5jZXMgaW4gdGhlIGxpcGlkcy4gCgoKIyMjIFByb2Nlc3MKICMuIENyeXN0YWwgdmlvbGV0LiAgCiAjLiBHcmFtcyBpb2RpbmUuIChIZWxwcyBjcnlzdGFsIHZpb2xldCB0byBzdGljayB0byB0aGUgY2VsbCB3YWxsLiApIAogIy4gYWxjb2hvbCAoZGVjb2xvcml6ZSksIGdyYW0gbmV2YXRpdmUgY2VsbHMgYXJlIGRlY29sb3Jpc2VkLCBncmFtIHBvc2l0aXZlIGNlbGxzYSByZSBub3QuIAogIy4gU2FmcmFuaW4gKHJlZCBkdWUgCiApCiAKIEdyYW0gcG9zaXRpdmUgaGF2ZSByZWQgb24gcHJ1cGxlIHNvIHJlbWFpbiBwdXJwbGUsIGdyYW0gbmVnYXRpdmUgaGF2ZSByZWQgb24gY29sb3JsZXNzIHNvIGJlY29uZSByZWQvcGluay4gCiAKIAogKENvcHkgaW1hZ2UpCiAKIE5PVEU6IElmIGRlY29sb3JlZCB0b28gaW50ZXNseSBhbnkgY2VsbCB3aWxsIGxvc2UgaXRzIGNvbG9yLiAKIAogTk9URTogQWNldG9uZSBpbiBpbnZvbHZlZCBpbiBleWVzIGRpc3NvbHZpbmdzLgogCiMjIyBQb3NpdmUgCgpDb3B5IGZyb20gc2xpZGVzLiAKCiMjIyMgQ2VsbCB3YWxsIApUaGljayBob21vZ2Vub3VzIGNlbGwgd2FsbCBjb250YWluaW5zIDUwXCUgcGVwdGlkb2dseWNhbiBieSBkcnkgd2VpZ2h0LiBUaGUgcGVwdGlkb2dseWNhbiBpcyBhYm91dCAkMjAtODBubSQgdGhpY2suCgojIyMjIyBQZXJpcGxhc21pYyBzcGFjZSAKQSBhcmVhIGluYmV0d2VlbiB0aGUgY2VsbCB3YWxsIGFuZCBjZWxsIG1lbWJyYW5lIGl0IGlzIGRpc3RpbmN0IChhbHRob3VnaCBzbyB0aGluIHRoYXQgaXQgY2FuIG9mdGVuIGJlIGhhcmQgdG8gbWFrZSBvdXQuKS4gCgpOT1RFOiBUaGUgY2VsbCB3YWxsIGlzIHRoZSBjb21iaW5hdGlvbiBvZiB0aGUgUEcgbGF5ZXIgYW5kIHRoZSBwZXJpcGxhbWljIHNwYWNlLiAKCk5PVEU6IFRyeSB0byBkcmF3IHN0cnVjdXRyZXMgd2l0aCBzb20gc2VuZHNlIG9mIHJlbGF0aXZlIHNjYWxlLCBpZSB0aGUgY2VsbCB3YWxsIG11c3QgYmUgbGFyZ2VyLiAKClx0ZXh0YmZ7Q29weSBpbWFnZSBvZiBjZWxsIHdhbGwgZnJvbSBzbGlkZXMufQoKIyMjIyMgRnVuY3Rpb24gCk1hbnRhaW5zIHRoZSBjZWxsIGludGVncml0eSBhZ2FpbnN0IG9zbW90aWMgcHJlc3N1cmUgYW5kIG1haW50YWlucyB0aGUgY2VsbCBzaGFwZS4gY3l0b3NrZWxldGFsIGVsZW1lbnRzIGFyZSBhIGxhcmdlIHBhcnQgb2YgaXQsIGJ1dCB0aGUgcGVwdGlkb2dseWNhbiBpcyBhbHNvIHNpZ2luZmljYW50LCBhbmQgaWYgaXQgaXMgcnJlbW92ZWQgdGhlIGJhY3RlcmlhIHdpbGwgdXN1YWxseSBiZWNvbWUgc3BoZXJpY2FsCgojIyMjIyBUZWNob2ljIGFjaWRzLiAKKHJlZmZlcmQgdG8gYXMgPyB0ZWNob2ljIGFjaWRzKSwgClRFY2hvaWMgYWNpZHMgbWFrZSB1cCBhIHNpZ25pbmZjYW50IHByb3BvcnRpb24gb2YgdGhlIGNlbGwgd2FsbC4gVGhleSBhcmUgY292YWxlbnRseSBhdHRhdGNoZWQgdG8gdGhlIHBlcHRpZm9nbHljYW4sIHdoaWNoIGhhcyBhIG1lc2hsaWtlIHN0cnVjdHVyZS4gVGVjaG9pYyBhY2lkcyBmaWxsIChhbG9tc3QgYWxsKSBvZiB0aGUgdm9pZCBzcGFjZXMgaW4gdGhpcyBtZXNoIGV4dGVuZGluZyBhbGwgdGhlIHdheSB0byB0aGUgb3V0c2lkZSBvZiB0aGUgbGF5ZXIuIAoKTGlwb3RlY2hvaWMgYWNpZHMgYXJlIGltYmVkZGVkIGluIHRoZSBtZW1icm5lIGF0IG9uZSBlbmQgYW5kIHRoZSBwZXB0aWRvZ3ljYW4gbGF5ZXIgYXQgdGhlIG90aGVyLiBmb3JtaW5nIGEgc3RhYmFsaXNpbmcgbGluay4gCgojIyMjIyMgRnVuY3Rpb25zIApoZWxwIHRvIG1haW50YWluIHRoZSBzdHVjdHVyZSBvZiB0aGUgY2VsbCB3YWxsLiBBbmQgY29uZmVyIGFuIG92ZXJhbGwgbmVnYXRpdmUgY2hhcmFnZSAodG8gZ3JhbSBwb3NpdGl2ZSBiYWN0ZXJpYSkuIAoKVGhlIGFjaWRzIGFyZSBhbHNvIGFudGlnZW5pYywgKHdoaWNoIGJlbmVmaXRzIHRoZSBob3N0IG5vdCB0aGUgYmFjdGVyaXVtKQoKIyMjIEdyYW0gbmFnYXRpdmUuIAoKIyMjIyBDZWxsIG1lbWJyYW5lIAo1LTdubQoKIyMjIyBQZXB0aWRvZ2x5Y2FuIGxheWVyCk11Y2ggdGhpbm5lciAkNS0xMFwlJCAgb2YgZHJ5IHdlaWdodCBvZiBjZWxsIG5lZ2F0aXZlIGJhY3RlcmlhLiBvbmx5IGFib3V0IDFubQoKIyMjIyBQZXJpcGxhc21pYyBzcGFjZSAKYmV0d2VlbiBjZWxsIGFuZCBvdGhlciBtZW1icmFuZSwgbXVjaCB3aWRlciB0aGFuIGluIGdyYW0gcG9zaXRpdmUgYmFjdGVyaWEsIGNhbiBiZSBnbyB1cCB0byAkNzBubSQKCiMjIyMgT3V0ZXIgbWVtYnJhbmUuIAo1LTdubQoKcGhvc3Bob2xpcGlkIGxheWVyIChub3QgYmlsYXllcikgd2hpY2ggY29udGFpbiBsaXBvcG9sdXNhY2NoYXJpZGVzLCBhcyB3ZWxsIGFzIGxpcG9wcm90ZWlucyBhbmQgcHJvdGVpbnMuIE1vcmUgcGVybWVhYmxlL2xlc3Mgc2VsZWN0aXZlIHRoYW4gdGhlIGNlbGwgbWVtYnJhbmUgKD8pIFRoZSBvdXRzaWRlIG9mIGdyYW0gbmVnYXRpdmUgaXMgdmVyeSB3YXZleSBhcyBtb3JlIGZsdWlkIHRoYW4gYSBQRyBsYXllci4gCgoKTk9URTogY2FuIGJlIGlzb2xhdGVkIGFzIGFuIGludGFjdCBzaHBlcmljYWwgc3RydWN0dXJlCgoKIyMjIyMgUG9yaW5zCm1ha2UgcG9yZXMgdGhyb3VnaCB0aGUgb3V0ZXIgbWVtYnJhbmUsIGNvbnNpc3Qgb2YgdGhyZWUgc2VwYXJhdGUgdW5pdHMuIAoKIyMjIyMgQnJhdW5zIGxpcG9wcm90ZWluIApleHRlbmRzIGZyb20gdGhlIEdQIGxheWVyIHRvIHRoZSBvdXRlciBtZW1icmFuZS4gCgojIyMjIyMgRnVuY3Rpb24gCkhlbHBzIHRvIHByZXZlbnQgbWVtYnJhbmUgZGFtYWdlIGJ5IGdpdmluZyBpdCBzb21lIGZvcm0gb2YgcmFnaWRpdHksIGFuZCBwcmV2ZW50aW5nIGFuIGluZGV0ZXJtaW5hdGUgZ2FwIGJldHdlZW4gdGhlIG91dGVyIG1lbWJyYW5lIGFuZCB0aGUgcmVzdCBvZiB0aGUgYmFjdGVyaWEsIHB1bGxpbmcgdGhlIG1lbWJyYW5lIGludG8gdGhlIHNhbWUgc2hhcGUgYXMgdGhlIGJhY3RlcmlhLiAgCgojIyMjIyBMaXBvcG9seXNhY2hoYXJpZGVzLiAoTFBTCkNvbnNpc3Qgb2YgbGlwaWRzIGFuZCBjYXJib2h5ZHJhdGVzLiBUaGUgb3V0ZXIgbGVhZmxldCBvZiB0aGUgbWVtYnJhbmUgaXMgYWxtb3N0IGVudGlyZWx5IGxpcG9wb2x5c2FjaGFyaWRlLCBhbmQgaW4gZ2VuZXIgaXQgaXMgYW4gaW50ZWdyYWwgbWVtYnJhbmUgY29tcG9uZW50LiAKCiRTYWxtb25lbGxhIHR5cGhpbXVyaXVtJCBpbiBTYWxtb2VsbGEgY2FuIGJlIHJlbGF0ZWQgdG8gZGlzZWFzZS4gCgoKCgoKTk9URTogY2VsbCB3YWxsIGNvbnRhaW5zIHBlcmlwbGFzbWljIHNwYWNlLCBwZXB0aWRvZ2x5Y2FuIGxheWVyIG5hZCBvdXRlciBtZW1icmFuZS4g</div>
 
 
 
