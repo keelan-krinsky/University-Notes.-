@@ -1110,8 +1110,6 @@ excrete perforin/ cytotoxic granules.
 Excrete antibodies. 
 
 
-
-
 # Course Background. 
 
 The course is a high level background, very little detail. 
@@ -1130,9 +1128,210 @@ Microorganims are both producers and decomposers, (they produce organic sugars b
 ## Appilications. 
 The two major applications of microorganisms are in production of fermented foods and beverages (for example beer/ethanol in any alcohol and yogurt) and industrial chemicals for example insulin. 
 
+### Jeans example. 
+Theoretically an entire pair of jeans could be made from microorganism derrived products. The indigo dye used is derrived for *E. coli*. The bleach used is derrived from peroxidase in mushrooms, even the buttons could be made from plastics which bacteria can be manipulated to produce. 
+
+NOTE: the production of plastics is related to the natural parthway for the production of polyacrycarbonates (?). 
+
 
 ### Human impact. 
 Microorganisms can lead to food spoilage. When humans eat food contaminted with microorganisms they are t risk of severse sickness of even death, either because the microorganism themselves are toxic or because some product of their metabolism, eg a waste product is. Closely related is the risk of infection from ingesting a pathogenic micro-organism. 
+
+#### Aseptic techniques.
+Aseptic technique are used to avoid contamination of microorganism samples under study in the laboritory. One major source of contamination is the air itself. Millions of bacteria fall on each $m^2$ of the earths surface per day.
+
+##### Agar plates
+An agar plate consists of the agar medium, a gelly like substance extracted from seaweed which is used to form a regular support matrix to which food sources, such as sugars and proteins are added.
+
+## Lab safety
+If agar plates are cultivated with sucessive imprints of a persons fingers, normally by the sixth plate there are still enough microorganism transferred that significant growth is observed.
+
+## Nomenclature.
+
+The linnaeus system of classification is used. Any given organism is described by its genus, in combination with a specific epithet, i.e. it's species name, For example *Staphylocuccus Aureus*
+
+NOTE: Genus and species names should always be italisized, (or underlined when hand written). Furthermore the first time a microorgansim is reffered to in a text its full name should be given, after which the genus name can be abbreviated to an initial.
+
+## Bacteria
+
+### Cellular consituents.
+Bacteria are prokaryotes, so lack a nucleus and associated nuclear membrane.
+
+#### Cell wall
+All bacteria have a cell wall, and these cell walls contain peptidoglycans.
+
+### Replication
+Bacteria replicate most commonly by binary fission.
+
+#### Binary fission
+Binary fission results in two approximately equally sized daughter cells, which are genetically identical. This form of reproduction is assexual.
+
+### Energy Source.
+Bacteria can oxidise organic or inorganic chemicals, to produce energy. Some are also capable of photosynthesis.
+
+NOTE: The ability to produce energy by oxidation of inorganic chemicals is relatilvely unique to bacteria.
+
+## Archaea
+NOTE: Archae are often covered in less detail not because they are far less widespread or numberous than other microorganisms but becuase they are relatively unstudied. The lack of study is explained by their extreme habitats making them harder to sample/collect and grow in labs, and the related fact that they seldom interact with humans and do not act as human pathogens.
+
+### Cellular Components.
+Archaea are prokaryotes.
+
+### Cell walls
+Not all archae possess cell walls and those that do, do not contain peptidoglycans.
+
+### Habitat
+Archaea live in a diversity of 'extreme' envirments.
+
+#### Methalogens
+Methalogens live in environments which contain lots of methane producing bacteria (methane is a waste product of their metabolism).
+
+#### (Extreme) Halophiles
+Live in very high salt concentrations.
+
+#### (Extreme) Thermophiles.
+Live in very high temperature environments. ($>115^\circ C$  easily)
+
+NOTE: The combined biomass of all bacteria under the surface of the earth is greater than the combined biomass of all plants and animals on the earth.
+
+## Fungi
+
+### Cellular consituents.
+Fungi are eukaryotic.
+
+#### Cell wall
+All Fungi posses cell walls made of chitin.
+
+#### Energy source.
+Fungi metabolised organic molecules for an enery source.
+
+### Higher organisation
+Fungi can be unicellular in the case of yeasts, or multicellular in the case of molds and mushrooms. Multicelluar fungi consist of a mass of filamentous hyphae which together form a tangled mess known as the mycelium.
+
+### Reproduction
+Fungi can reporduce both sexually and assexually.
+
+### Life cycle
+Fungi can be parasitic or free living.
+
+
+## Protozoa
+Absorb/ ingest organic materila.
+
+### Motility
+May be motile, due to the presence of flagella.
+
+
+### Reproduction
+Protozoa can reproduce both sexually and assexually.
+
+### Life cycle
+Protozoa can be parasitic or free living.
+
+## Algae
+
+### Cellular components.
+Algae are eukaryotes,
+
+#### Cell wall
+Algae posses a cellulose cell wall.
+
+### Energy Source
+Photosynthesis is used to produce (more more accurately store energy) in the form of carbon sugars.
+
+NOTE: photosyntheisis is not necessarily oxygenic, i.e. it does not necessarily involve the formation of oxygen.
+
+### Reproduction
+Algae reproduce sexually and assexually
+
+### Energy source.
+Algae can use the oxygen they generate in photosynthesis for their respiration, and in general to produce oxygenic compounds.
+
+### Morphology
+Strikingly algae can become unusually large for single cellular organisms, eg giant kelp.
+
+## Viruses.
+Viruses are acelluar.
+
+### Genetic material
+Viruses can contain either DNA or RNA as their genetic material.
+
+NOTE: All other microorgansims rely predominately on DNA but also contain an RNA component (eg rRNA) so extracting pure DNA or pure RNA is difficult. In the case of viruses however either exclusively DNA or exclusively RNA will be present.
+
+### Numerosity and distribution
+Viruses may in fact be the most numerous microorganisms. The evidence for this claim lies in the fact that for all studied bacteria at least one bacteriophage specific to that bacterial species has been discovered, and in fact it is currently thought that there are at least two bacteriophages per bacterial species one with a lytic and one with a lysogenic life cycle. Furthermore for each infected bacteria there will be on the order of $10^8$ phage, hence as bacteria were suspected to be the most numerous, viruses (in terms of the phage component alone) can be considered to be the most numerous.
+
+## Multicelluar animal parasites.
+These species are considered to be microorganims in the sense that they have a stage fo their life cycle which is microscopic, this is far from the general classification system however.
+
+
+### Cell constituents.
+Multicellular animal parasites are exclusively eukaryotic.
+
+### Higher organisation
+they are by definintion multicellular.
+
+## Bacterial structure and function
+
+### Learnign Outcomes.
+
+ #. what are bacteria
+ #. what is the strucure of a bacterium
+ #. what are the sizes and morpholgies of bacteria.
+
+### Defining characteristics.
+
+### Cell constituets.
+Bacteria are prokaryotes so the have no tru membrane enclosed nucleus (TMEN) ie no nucleus or nuclear membrane.
+
+#### Genetic material
+The genetic material of bacteria in compacted and contained within a region of the cytoplasm known as the nuceloid, however this region is not set or inclosed, it is merely the region in which the genetic material is found.
+
+#### Mitochondria
+bacteria do not contain mitochondria becuase they are essentailly mitochondria (or more accurately they have a common ancestor with the mitochodria of eukarytic cells and can perform a similar respiratory process with their own cell membrane as mitochondria perform with their outer membrane. )
+
+NOTE: generally speeking prokaryotes are less complex than eukaryotes. 
+
+### Preparation of electron micrograph. 
+An electronmicrograph is prepared the following process: 
+
+ #. bacteria are spun into a liquid gel medium. 
+ #. the cell is soldidified and dehydrated with ethanol, and then placed in a block of (liquid?) resin, which is relatively hard but soft enough to be cut by the diamond (or occasionally) glass blade cutter. nm thick sections are sliced off the block and float off onto water from which they are retrieved with the use of a special grid, and fixed onto a slide. 
+ 
+ NOTE: literally hundereds of slides would be required to biuld up a 3D image, which even then would be distorted by the process of dehydration. 
+ 
+ 
+### Morphology 
+
+The most common bacterial shapes are shperical/coccus and rod shaped/bassillus, however these are far from the only possilbe shapes. 
+
+NOTE: Most bacteria are mommorphic, i.e. only take on one shape so shape is a good indentifying characteristic. 
+
+#### Colonial association 
+Inidivdual bacteria can associate in a number of different ways, but a given species will (generally) only have one form of collonial association. 
+Common forms include, Paired (Diploid), Clustered and chained. 
+
+#### Division process. 
+A single division would lead to a paired conformation (Diplo), (if they did not separate). Further binary fission in the same axis would then to the formation of a chain. (strepto). Binary fission first along one axis and then along a perpendicular axis would tead to the formation of a square, (tetra), if fussion occred again on another perpedicular axis a Sarcinae strucure consisting of eight bacteria wouldd be formed. multiple divisions along multiple axies lead to a disorganised. mass of bacteria (Staphy ) 
+
+NOTE: there is not clear advantage to these association forms. They are most probably caused by the presence of sticky (?) on the outside of the bacteria's surface. 
+
+##### Rare forms. 
+some bacteria can take on a mulitnucliod filamentous structure.\newline 
+some bacteria snap back into a specific angle relative to eachother, probably due to incomplete separation of the cell walls of these bacteria. This conformation is known as anglar. If the bacteria snap back to lie dirrectly adjaenct to eachother it it refferd to a pallisade, such bacteria are usually corynobacteria. 
+
+Coccibacillus, are very short rods and can be very hard to distinguish from true cocci bacteria. 
+
+Bifurication in bacterial rods is also possible. \newline 
+Vibrion bacteria have a distict curved rod morphology. 
+Spriillion bacteria take on a corkscrew shape \newline 
+Spirachetic bacteria also take on a corkscrew shape but are more flexible. 
+
+Walts square bacterium has dimentions of about $2\mu m \,\text{x}\,2-4\mu m \,\text{x}\, 0.2 \mu m$ taking on the shape of a square or a rectangle. 
+NOTE: some bacteria are  polymorphogenic changing their shape continuously. 
+
+
+ 
 
 
 

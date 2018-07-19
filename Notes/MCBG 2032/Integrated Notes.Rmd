@@ -1049,7 +1049,7 @@ enzmyes in metablosim, accelerate and control biochemcial reaction rates. In spe
 
 Many biological reactions produce a lot of energy but too slow, enzymes exert kinetic control overthermodynamic potentiallity. (kenetic as in rate and speed)\newline 
 
-## DIstinctive features
+## Distinctive features
 
 ### Catalytic power. 
 how good it is at being a catalyst/ speeding things up 
@@ -1125,6 +1125,59 @@ reverse rate $k^{-1}[P]$\newline
 
 $V\propto [A]$ \newline 
 k is the rate constant of the constant of proportionality.
+
+
+
+# Enzymology 
+
+## Terminology 
+
+### Reaction order 
+The reaction order with respect to a specific component is the power to which that component is raised in the rate equation for the reaction. 
+
+The overall reaction order is the sum of the reaction order's of all reactants. 
+
+NOTE: the reaction order is not expressed as an integer (such as 1 or 2) but rather as first, second...etc. 
+
+### Molecularity 
+The molecularity of an (elemental) reaction is the number of molecules which must interact (symultaneiously) during the reaction. 
+
+NOTE: the molecularily is a (positive) integer number(1,2...) but the reaction is then discribed as: unimolecular, bimolecular,etc. 
+
+## Progession curves 
+PRogression curves show the change in conentration of a reactant/product agaisnt time. 
+
+## Initial rate 
+The initial rate $v_0$ in the reaction rate at t_0. 
+
+NOTE: an increase in intital reactant concnetration leads to a higher inital rate. 
+
+## Rate law 
+The rate law for a reaction: \newline 
+
+$a_1A_1+a_2A_2...\rightarrow b_1B_1+b_2B_2...$ \newline 
+
+is given as: \newline 
+
+$v=k[A_1]^{n_1}[A_2]^{n_2}$\newline 
+
+where $n_1,n_2...$ are experimentally determined constants. 
+
+NOTE: In the case of an elemental reaction, the exponents will be equivalent to the equilibrium coefficients. 
+
+## Rate 
+For the (elemental) reaction: \newline 
+
+$a_1A_1+a_2A_2...\rightarrow b_1B_1+b_2B_2...$ \newline 
+
+The instantanious rate of dissapearance of $A_1$ is given by:\newline 
+$\frac{d[A]}{a_1dt}$ 
+
+This rate can be related to the rate or dissapearance of other reactants and products as follows:\newline 
+
+$v=-\frac{d[A_1]}{a_2dt}=-\frac{d[A_2]}{a_2dt}=\frac{d[B_1]}{b_1dt}=\frac{d[B_2]}{b_2dt}$ 
+
+
 
 
 ## Enzyme Kinetics. 
