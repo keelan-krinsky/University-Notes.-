@@ -1,6 +1,6 @@
 ---
 title: "Scientific Practice Notes"
-output: word_document
+output: html_notebook
 ---
 
 
@@ -1109,263 +1109,244 @@ excrete perforin/ cytotoxic granules.
 #### B cells 
 Excrete antibodies. 
 
-# Microorganisms. 
 
-## Course Info 
-The course is a high level background, very little detail. Not full notes are provided, no notifications for new content uploads to sakai, A lot of work outside the scope of the lectures is not included/focussed on. 
-Everything in the prac manual is included. 
+# Course Background. 
+
+The course is a high level background, very little detail. 
 
 ## Background. 
-Microorganims are very small organisms such as bacteria and viruses, generally to be considered a microorgansim, and orgainism must be so small that it cannot be seen with the naked eye. 
+Not full notes are provided, no notifications for new content uploads to sakai, A lot of work outside the scope of the lectures is not included/focussed on. 
+Everything in the prac manual is included. 
 
+# Microorganisms. 
+Bacteria and viruses are considered to be microorganisms, the 'cut off' is that a microscope is required. 
 
-## Nomenclature.
-The Linnaeus system of classification is used. Any given organism is described by its genus, in combination with a specific epithet, i.e. it's species name, For example *Staphylocuccus Aureus*
+Such microorganisms can be mulualists, some are pathogens. The are also vital in mantaining the geochemistry planet cycle.
 
-NOTE: Genus and species names should always be italicized, (or underlined when hand written). Furthermore the first time a microorganism is referred to in a text its full name should be given, after which the genus name can be abbreviated to an initial.
+Microorganims are both producers and decomposers, (they produce organic sugars both by photoynthesis and by chemolithotrophic. 
 
-### Lab safety
-If agar plates are cultivated with successive imprints of a persons fingers, normally by the sixth plate there are still enough microorganism transferred that significant growth is observed.
-
-### Lab techniques
-
-#### Aseptic techniques.
-Aseptic technique are used to avoid contamination of microorganism samples under study in the laboratory. One major source of contamination is the air itself. Millions of bacteria fall on each $m^2$ of the earths surface per day.
-
-#### Agar plates
-An agar plate consists of the agar medium, a jelly like substance extracted from seaweed which is used to form a regular support matrix to which food sources, such as sugars and proteins are added.
-
-### Electron micrograph 
-An electronmicrograph is prepared the following process: 
-
- #. bacteria are spun into a liquid gel medium. 
- #. the cell is solidified and dehydrated with ethanol, and then placed in a block of (liquid?) resin, which is relatively hard but soft enough to be cut by the diamond (or occasionally) glass blade cutter.
- #. nm thick sections are sliced off the block and float off onto water from which they are retrieved with the use of a special grid, and fixed onto a slide. 
- 
- NOTE: literally hundereds of slides would be required to build up a 3D image, which even then would be distorted by the process of dehydration. 
-
-## Ecological niche
-Microorganism are both producers and decomposers, (they produce organic sugars both by photosynthesis and by chemolithotrophic. 
-Microorganisms can be mutualists, some are pathogens. The are also vital in maintaining the geochemistry planet cycle.
-
-## Anthropic Appilications. 
+## Appilications. 
 The two major applications of microorganisms are in production of fermented foods and beverages (for example beer/ethanol in any alcohol and yogurt) and industrial chemicals for example insulin. 
 
 ### Jeans example. 
-Theoretically an entire pair of jeans could be made from microorganism derived products. The indigo dye used is derived for *E. coli*. The bleach used is derived from peroxidase in mushrooms, even the buttons could be made from plastics which bacteria can be manipulated to produce. 
+Theoretically an entire pair of jeans could be made from microorganism derrived products. The indigo dye used is derrived for *E. coli*. The bleach used is derrived from peroxidase in mushrooms, even the buttons could be made from plastics which bacteria can be manipulated to produce. 
 
-NOTE: The production of plastics is related to the natural pathway for the production of bicarbonates (?). 
+NOTE: the production of plastics is related to the natural parthway for the production of polyacrycarbonates (?). 
 
-### Anthropic impact. 
-Microorganisms can lead to food spoilage. When humans eat food contaminated with microorganisms they are at risk of severe sickness of even death, either because the microorganism themselves are toxic or because some product of their metabolism, eg a waste product is. Closely related is the risk of infection from ingesting a pathogenic micro-organism. 
 
-## Overview of microorganim types.
+### Human impact. 
+Microorganisms can lead to food spoilage. When humans eat food contaminted with microorganisms they are t risk of severse sickness of even death, either because the microorganism themselves are toxic or because some product of their metabolism, eg a waste product is. Closely related is the risk of infection from ingesting a pathogenic micro-organism. 
 
-### Bacteria
+#### Aseptic techniques.
+Aseptic technique are used to avoid contamination of microorganism samples under study in the laboritory. One major source of contamination is the air itself. Millions of bacteria fall on each $m^2$ of the earths surface per day.
 
-#### Cellular consituents.
+##### Agar plates
+An agar plate consists of the agar medium, a gelly like substance extracted from seaweed which is used to form a regular support matrix to which food sources, such as sugars and proteins are added.
+
+## Lab safety
+If agar plates are cultivated with sucessive imprints of a persons fingers, normally by the sixth plate there are still enough microorganism transferred that significant growth is observed.
+
+## Nomenclature.
+
+The linnaeus system of classification is used. Any given organism is described by its genus, in combination with a specific epithet, i.e. it's species name, For example *Staphylocuccus Aureus*
+
+NOTE: Genus and species names should always be italisized, (or underlined when hand written). Furthermore the first time a microorgansim is reffered to in a text its full name should be given, after which the genus name can be abbreviated to an initial.
+
+## Bacteria
+
+### Cellular consituents.
 Bacteria are prokaryotes, so lack a nucleus and associated nuclear membrane.
 
-##### Cell wall
-All bacteria have a cell wall, and these cell walls contain polypeptides.
+#### Cell wall
+All bacteria have a cell wall, and these cell walls contain peptidoglycans.
 
-#### Replication
+### Replication
 Bacteria replicate most commonly by binary fission.
 
-##### Binary fission
-Binary fission results in two approximately equally sized daughter cells, which are genetically identical. This form of reproduction is asexual.
+#### Binary fission
+Binary fission results in two approximately equally sized daughter cells, which are genetically identical. This form of reproduction is assexual.
 
-#### Energy Source.
-Bacteria can oxidize organic or inorganic chemicals, to produce energy. Some are also capable of photosynthesis.
+### Energy Source.
+Bacteria can oxidise organic or inorganic chemicals, to produce energy. Some are also capable of photosynthesis.
 
-NOTE: The ability to produce energy by oxidation of inorganic chemicals is relatively unique to bacteria.
+NOTE: The ability to produce energy by oxidation of inorganic chemicals is relatilvely unique to bacteria.
+
+## Archaea
+NOTE: Archae are often covered in less detail not because they are far less widespread or numberous than other microorganisms but becuase they are relatively unstudied. The lack of study is explained by their extreme habitats making them harder to sample/collect and grow in labs, and the related fact that they seldom interact with humans and do not act as human pathogens.
+
+### Cellular Components.
+Archaea are prokaryotes.
+
+### Cell walls
+Not all archae possess cell walls and those that do, do not contain peptidoglycans.
+
+### Habitat
+Archaea live in a diversity of 'extreme' envirments.
+
+#### Methalogens
+Methalogens live in environments which contain lots of methane producing bacteria (methane is a waste product of their metabolism).
+
+#### (Extreme) Halophiles
+Live in very high salt concentrations.
+
+#### (Extreme) Thermophiles.
+Live in very high temperature environments. ($>115^\circ C$  easily)
 
 NOTE: The combined biomass of all bacteria under the surface of the earth is greater than the combined biomass of all plants and animals on the earth.
 
-### Archaea
-NOTE: Archae are often covered in less detail not because they are far less widespread or numerous than other microorganisms but because they are relatively unstudied. The lack of study is explained by their extreme habitats making them harder to sample/collect and grow in labs, and the related fact that they seldom interact with humans and do not act as human pathogens.
+## Fungi
 
-#### Cellular Components.
-Archaea are prokaryotes.
-
-#### Cell walls
-Not all archae possess cell walls and those that do, do not contain polypeptides.
-
-#### Habitat
-Archaea live in a diversity of 'extreme' environments.
-
-##### Methalogens
-Methalogens live in environments which contain lots of methane producing bacteria (methane is a waste product of their metabolism).
-
-##### (Extreme) Halophiles
-Live in very high salt concentrations.
-
-##### (Extreme) Thermophiles.
-Live in very high temperature environments. ($>115^\circ C$  easily)
-
-### Fungi
-
-#### Cellular consituents.
+### Cellular consituents.
 Fungi are eukaryotic.
 
-##### Cell wall
+#### Cell wall
 All Fungi posses cell walls made of chitin.
 
-##### Energy source.
-Fungi metabolized organic molecules for an energy source.
+#### Energy source.
+Fungi metabolised organic molecules for an enery source.
 
-#### Higher organisation
-Fungi can be unicellular in the case of yeasts, or unicellular in the case of molds and mushrooms. Multicellular fungi consist of a mass of filamentous hyphae which together form a tangled mess known as the mycelium.
+### Higher organisation
+Fungi can be unicellular in the case of yeasts, or multicellular in the case of molds and mushrooms. Multicelluar fungi consist of a mass of filamentous hyphae which together form a tangled mess known as the mycelium.
 
-#### Reproduction
-Fungi can reproduce both sexually and asexually.
+### Reproduction
+Fungi can reporduce both sexually and assexually.
 
-#### Life cycle
+### Life cycle
 Fungi can be parasitic or free living.
 
 
-### Protozoa
-Absorb/ ingest organic material.
+## Protozoa
+Absorb/ ingest organic materila.
 
-#### Motility
+### Motility
 May be motile, due to the presence of flagella.
 
 
-#### Reproduction
-Protozoa can reproduce both sexually and asexually.
+### Reproduction
+Protozoa can reproduce both sexually and assexually.
 
-#### Life cycle
+### Life cycle
 Protozoa can be parasitic or free living.
 
-### Algae
+## Algae
 
-#### Cellular components.
+### Cellular components.
 Algae are eukaryotes,
 
-##### Cell wall
+#### Cell wall
 Algae posses a cellulose cell wall.
 
-#### Energy Source
+### Energy Source
 Photosynthesis is used to produce (more more accurately store energy) in the form of carbon sugars.
 
-NOTE: photosynthesis is not necessarily oxygenic, i.e. it does not necessarily involve the formation of oxygen.
+NOTE: photosyntheisis is not necessarily oxygenic, i.e. it does not necessarily involve the formation of oxygen.
 
-#### Reproduction
-Algae reproduce sexually and asexually
+### Reproduction
+Algae reproduce sexually and assexually
 
-#### Energy source.
+### Energy source.
 Algae can use the oxygen they generate in photosynthesis for their respiration, and in general to produce oxygenic compounds.
 
-#### Morphology
+### Morphology
 Strikingly algae can become unusually large for single cellular organisms, eg giant kelp.
 
-### Viruses.
-Viruses are acellular.
+## Viruses.
+Viruses are acelluar.
 
-#### Genetic material
+### Genetic material
 Viruses can contain either DNA or RNA as their genetic material.
 
-NOTE: All other microorganisms rely predominately on DNA but also contain an RNA component (eg rRNA) so extracting pure DNA or pure RNA is difficult. In the case of viruses however either exclusively DNA or exclusively RNA will be present.
+NOTE: All other microorgansims rely predominately on DNA but also contain an RNA component (eg rRNA) so extracting pure DNA or pure RNA is difficult. In the case of viruses however either exclusively DNA or exclusively RNA will be present.
 
-#### Numerosity and distribution
-Viruses may in fact be the most numerous microorganisms. The evidence for this claim lies in the fact that for all studied bacteria at least one bacteriophage specific to that bacterial species has been discovered, and in fact it is currently thought that there are at least two bacteriophages per bacterial species one with a lytic and one with a lysogenic life cycle. Furthermore for each infected bacteria there will be in the order of $10^8$ phage, hence as bacteria were suspected to be the most numerous, viruses (in terms of the phage component alone) can be considered to be the most numerous.
+### Numerosity and distribution
+Viruses may in fact be the most numerous microorganisms. The evidence for this claim lies in the fact that for all studied bacteria at least one bacteriophage specific to that bacterial species has been discovered, and in fact it is currently thought that there are at least two bacteriophages per bacterial species one with a lytic and one with a lysogenic life cycle. Furthermore for each infected bacteria there will be on the order of $10^8$ phage, hence as bacteria were suspected to be the most numerous, viruses (in terms of the phage component alone) can be considered to be the most numerous.
 
-### Multicelluar animal parasites.
-These species are considered to be microorganism in the sense that they have a stage of their life cycle which is microscopic, this is far from the general classification system however.
+## Multicelluar animal parasites.
+These species are considered to be microorganims in the sense that they have a stage fo their life cycle which is microscopic, this is far from the general classification system however.
 
-#### Cell constituents.
+
+### Cell constituents.
 Multicellular animal parasites are exclusively eukaryotic.
 
-#### Higher organisation
-they are by definition multicellular.
+### Higher organisation
+they are by definintion multicellular.
 
 ## Bacterial structure and function
 
-### Learning Outcomes.
+### Learnign Outcomes.
 
- #. What are bacteria
- #. What is the structure of a bacterium
- #. What are the sizes and morphologies of bacteria.
+ #. what are bacteria
+ #. what is the strucure of a bacterium
+ #. what are the sizes and morpholgies of bacteria.
+
+### Defining characteristics.
 
 ### Cell constituets.
-Bacteria are prokaryotes so the have no true membrane enclosed nucleus (TMEN) ie no nucleus or nuclear membrane.
+Bacteria are prokaryotes so the have no tru membrane enclosed nucleus (TMEN) ie no nucleus or nuclear membrane.
 
 #### Genetic material
-The genetic material of bacteria in compacted and contained within a region of the cytoplasm known as the nuceloid, however this region is not set or enclosed, it is merely the region in which the genetic material is found.
+The genetic material of bacteria in compacted and contained within a region of the cytoplasm known as the nuceloid, however this region is not set or inclosed, it is merely the region in which the genetic material is found.
 
 #### Mitochondria
-bacteria do not contain mitochondria because they are essentially mitochondria (or more accurately they have a common ancestor with the mitochondria of eukarytic cells and can perform a similar respiratory process with their own cell membrane as mitochondria perform with their outer membrane. )
+bacteria do not contain mitochondria becuase they are essentailly mitochondria (or more accurately they have a common ancestor with the mitochodria of eukarytic cells and can perform a similar respiratory process with their own cell membrane as mitochondria perform with their outer membrane. )
 
-NOTE: generally speaking prokaryotes are less complex than eukaryotes. 
+NOTE: generally speeking prokaryotes are less complex than eukaryotes. 
 
+### Preparation of electron micrograph. 
+An electronmicrograph is prepared the following process: 
+
+ #. bacteria are spun into a liquid gel medium. 
+ #. the cell is soldidified and dehydrated with ethanol, and then placed in a block of (liquid?) resin, which is relatively hard but soft enough to be cut by the diamond (or occasionally) glass blade cutter. nm thick sections are sliced off the block and float off onto water from which they are retrieved with the use of a special grid, and fixed onto a slide. 
+ 
+ NOTE: literally hundereds of slides would be required to biuld up a 3D image, which even then would be distorted by the process of dehydration. 
+ 
+ 
 ### Morphology 
-The most common bacterial shapes are spherical/coccus and rod shaped/bacillus, however these are far from the only possible shapes. 
 
-NOTE: Most bacteria are monomorphic, i.e. only take on one shape so shape is a good identifying characteristic. 
+The most common bacterial shapes are shperical/coccus and rod shaped/bassillus, however these are far from the only possilbe shapes. 
+
+NOTE: Most bacteria are mommorphic, i.e. only take on one shape so shape is a good indentifying characteristic. 
 
 #### Colonial association 
-Individual bacteria can associate in a number of different ways, but a given species will (generally) only have one form of colonial association. 
+Inidivdual bacteria can associate in a number of different ways, but a given species will (generally) only have one form of collonial association. 
 Common forms include, Paired (Diploid), Clustered and chained. 
 
-#### Diploid
-A single division would lead to a paired conformation, provided the bacteria do not separate
+#### Division process. 
+A single division would lead to a paired conformation (Diplo), (if they did not separate). Further binary fission in the same axis would then to the formation of a chain. (strepto). Binary fission first along one axis and then along a perpendicular axis would tead to the formation of a square, (tetra), if fussion occred again on another perpedicular axis a Sarcinae strucure consisting of eight bacteria wouldd be formed. multiple divisions along multiple axies lead to a disorganised. mass of bacteria (Staphy ) 
 
-#### Strepto
-Repeated binary fission in the same axis would lead to the formation of a chain. 
+NOTE: there is not clear advantage to these association forms. They are most probably caused by the presence of sticky (?) on the outside of the bacteria's surface. 
 
-#### Tetra
-Binary fission first along one axis and then along a perpendicular axis would lead to the formation of a square
+##### Rare forms. 
+some bacteria can take on a mulitnucliod filamentous structure.\newline 
+some bacteria snap back into a specific angle relative to eachother, probably due to incomplete separation of the cell walls of these bacteria. This conformation is known as anglar. If the bacteria snap back to lie dirrectly adjaenct to eachother it it refferd to a pallisade, such bacteria are usually corynobacteria. 
 
-#### Sarcinae
-Binary fission along three perpedicular axies. would lead to a structure consisting of eight bacteria.
+Coccibacillus, are very short rods and can be very hard to distinguish from true cocci bacteria. 
 
-#### Staph
-multiple divisions along multiple axes lead to a disorganized mass of bacteria 
+Bifurication in bacterial rods is also possible. \newline 
+Vibrion bacteria have a distict curved rod morphology. 
+Spriillion bacteria take on a corkscrew shape \newline 
+Spirachetic bacteria also take on a corkscrew shape but are more flexible. 
 
-NOTE: there is not clear advantage to these association. They are most probably caused by the presence of sticky (stuff?) on the outside of the bacteria's surface. 
+Walts square bacterium has dimentions of about $2\mu m \,\text{x}\,2-4\mu m \,\text{x}\, 0.2 \mu m$ taking on the shape of a square or a rectangle. 
+NOTE: some bacteria are  polymorphogenic changing their shape continuously. 
 
-#### Multinucleiod
-some bacteria can take on a miltinucleoid filamentous structure.
 
-#### Angular 
-some bacteria snap back into a specific angle relative to each other after binary fission, probably due to incomplete separation of the cell walls of daughter cells.
+ 
 
-#### Pallisade
-Bacteria snap back to lie directly adjacent to each other.
 
-#### Coccibacillus
-Very short rods and can be very hard to distinguish from true cocci bacteria. 
 
-#### Bifurication 
-Bifurcation can occur to give Y shaped bacteria
-
-#### Vibrion
-bacteria have a distinct curved rod morphology. 
-
-#### Spriillion 
-
-bacteria take on a corkscrew shape \newline 
-
-#### Spirochete
-bacteria take on a corkscrew shape ( more flexible than Spirillion)
-
-#### Walt's square bacterium
-dimensions of about $2\mu m \,\text{x}\,2-4\mu m \,\text{x}\, 0.2 \mu m$ taking on the shape of a square or a rectangle. 
-
-NOTE: some bacteria are  polymorphic changing their shape continuously. 
-
-#### Endospores 
-There are often endospores within bacteria which can cause swelling changing shape. 
+## Bacteria
+There are often  endospores within bacteria which can cause swelling changing shape. 
 
 ### Plasiticty 
-bacteria have the facility to adapt their environment by changing their gene expression patterns.  
+bacteria have the facility to adapt their environment by 
 
 ### Size. 
 The average is about $0.2-1.0\mu \text{x} 2-8\mu m$
 For example E. coli $1.1-1.5\mu \text{x} 2-6\mu m$
 
 #### Smallest. 
-$100-300nm$ range, and ultramicrobacteria which are about $50nm$ in size. Very nutrient poor so do not maintain large cytoplasm.
+$100-300nm$ range, and untramicrobacteria which are about $50nm$ in size. Very nutrient poor so do not mantain large cytoplasm.
 
 #### Largest. 
 Bacteria Epulopiscium fishelsoni
@@ -1376,79 +1357,87 @@ $80\mu m-600\mu m$ (visible with the naked eye), about $10^6$ times larger in vo
 produces daughter cells inside the mother, which then pop out through a slit. 
 
 ##### Addaptions 
-The key limitation to size is SA:V, as movement of nutrients and gasses are by diffusion. This problem is overcome in part by massive invaginations of the surface membrane. (Additional problem of transporting proteins to membrane as membrane already covered in proteins.). 
+The key limitation to size is SA:V, as moviment of nutreints and gasses are by diffusion. This problem is overcome in part by massive invaginations of the surface membrane. (Additional problem of transporting proteins to membrane as membrane already covered in proteins.). 
 
-It was thought that a particular bacterium would have one copy of a bacterium, however in Epulopiscium fishelsoni chromosome number increases with size, also as transcription and translation are linked, if the gene is everywhere in the cell, then a protein can be produced anywhere in the cell and the need for sophisticated transport systems in removed. The number of copies of important genes can be in the hundred thousands, for example ribosomal RNA genes. 
+It was thought that a partiular bacterium would have one copy of a bacterium, however in Epulopiscium fishelsoni cromosome nuber increases with size, also as transcription and translation are linked, if the gene is everywhere in the cell, then a protein can be produced anywhere in the cell and the need for sophisticated transport systems in removed. The number of copies of important genes can be in the hundered thousands, for example ribosomal RNA genes. 
 
 ##### Thiomargarita namibiensis 
 very large volume. 
 
 ###### Addaptations 
-cytoplasm is filled with vacuoles so minimal depth of cytoplasm from any point. Epulopiscium fishelsoni requires nutrient dense environment so lives in fish and floats around to find nutrient dense areas. 
+cytoplasm is filled with vacules so minimal depth of cytoplasm from any point. Epulopiscium fishelsoni requires nutrient dense envoronment so lives in fish and floats around to find nutrinet dense areas. 
 
-The other advantage of size is that it hep avoid (protozoan) predation. 
+The other advatage of size is that it hep avoid (protozoan) predation. 
 
 ## Structure and function 
 
-NOTE: Not all structures are found in all bacteria. Some structures are specific to specific bacteria some are specific to the bacterium's environment, ie parasitic only produce a capsule when they encounter a host immune response. 
+NOTE: Not all strucures are found in all bacteria. Some structures are specific to specific bacteria some are specific to the bacteriums environment, ie parasitic only produce a capsule when they encouter a host immune responce. 
 
 (Copy image of bacteria)
 
-NOTE: cytoplasm is actually packed/ very full of constituents. 
+NOTE: cytoplasm is actually packed/ very full of consitituents. 
 
 ### Plasma membrane. 
-they are the main contact point between the cell and its surroundings. functions splits internal and external environment in its capacity as a boundary layer, and allows the exchange of matter and information between the internal and external environment. 
+they are the main contanct point between the cell and its surroundings. functions splits internal and external environment in its capacity as a boundary layer, and allows the exchange of matter and information between the internal and external environment. 
 
-NOTE: bacteria are very plastic in their response to the environment improving energy efficiency 
+NOTE: bacteria are very plastic in their responce to the environment inproving energy effeciency 
 
 #### Fliud mozaic model 
-Phospholipids+ integral and poriferal proteins
+Phospholipids+ intergral and poriferal properties. 
 
-#### Membrane associated lipids
-Amphiphatic, (hydrophilic and hydrophobic groups associated with them), most of these lipids are phospholipids, they spontaneously arrange with phosphate head by water to form low energy micelles or bilayers. 
+##### Membrane associated lipids
+Amphiphatic, (hydrophilic and hydrophobic groups associated with them), most of these lipids are phospholipids, they spontaeously arrange with phosphate head by water to form low energy micelles or bilayers. 
 
 Phospholipids are diverse and complex groups. Phosphatidylethanolamine (75\%)
 phosphatidylglycerol (20\%)
 cardiolipin (diphosphatidylglycerol, 1-5\%)
 
-Important as they confer strength, and spread out overall negative charge of the plasma membrane and cardiolin can play a role are a chaperon, helps lactase permease fold correctly in the membrane.
+Important as they confer strength, and spread out overall negative charge of the plasma membrane and cardiolin can play a role are a shaperone, helps lactase permease flod correctly in the membrane.
 
-For a particular species of phospholipid the fluidity is adjusted by saturation/desaturation of tails, to fit the requirements of the external environment. 
+For a particular species of phospholipid the fluidity is adjuseted by saturation/desaturation of tails, to fit the requirements of the external environment. 
 
-Lipids can also flip between leaflets of the membrane, there are proteins flipases (out to in), flopases (in to out) require ATP, and scamblases (exchange) do not require ATP. Related to adaptions to environmental changes such as  temperature (with season). 
+Lipids can also flip between leaflets of the membrane, there are porteins flipases (out to in), flopases (in to out) require ATP, and scamblases (exchange) do not require ATP. Related to adaptions to environmental changes such as  temperature (with season). 
 
-NOTE:membrane is packed with proteins, especially in bacteria which require membrane proteins for energy production, this applies especially of bacteria with less efficient respiration processes. 
+NOTE:membrane is packed with proteins, espcially in bacteria which require membrane porteins for energy production, this applies especially ot bacteria with less effecient respiration processes. 
 
-#### Glycolipids 
-heterogeneous
+##### Glycolipids 
+Glyco lipds are defined as lipids with a carbohydrate attach, but very hetrogenous grouping.
 
-##### Functions
+###### Functions
  
- #. Help to stabilize the plasma membrane (protective function)
+ #. Help to stabalise the plasma membrane (protective function)
  #. Important in cell-cell interactions 
-    #. Adhesion. (contact inhibition, muscles, desosomes etc)
-    #. identification (the flip side is that is can be recognized by the host immune system). 
+    #. Adhession. (contanct inhebition, muslces, desosomes etc)
+    #. identification (the flip side is that is can be recognised by the host immue system). 
     #. assist in signal transduction. 
     
 #### Transport systems 
-A transport system is required to move across the plasma membrane, could be for toxins such as bacteriosin which attach other bacteria in the environment, They can also trap food outside the PM to prevent its loss. Furthermore important metabolic functions such as photosynthesis and respiration involve the plasma membrane. Motility is also associated with plasma membrane associated structures, and the synthesis of many important chemicals. 
+A transport system is required to mmove across the plasma membrane, could be for toxins such as bacteriosin which attach other bacteria in the environment, They can also trap food outside the PM to prevent its loss. Furthermore important metabolic functions such as photosynthesis and respiration involve the plasma membrane. Motility is also assoicated with plasma membrane associated structures, and the systhesis of many important chemicals. 
 
-NOTE: bacteria can distinguish which host they are infecting and can adapt accordingly. 
+NOTE: bacteria can distinguish which host they are infecting and can addapt accordingly. 
 
-#### Integral membran proteins. 
-make up about 60-70\% of membrane proteins. These proteins can move around the membrane freely by diffusion.  
+
+
+
+
+###### Consitituents 
+polar head + nonpolar tail. 
+
+##### Integral membran proteins. 
+
+make up about 60-70\% of membrane proteins. 
 
 ###### Ease of removal. 
 
-tend to be relatively difficult to remove in aqueous environments (as low solubility). 
-Such proteins are usually embedded deeply, some may span the entire membrane. To span the membrane they must be amphiphathic (otherwise would flip into the membrane). 
-
+tend to be relively difficult to remove in aquos environments (as low solubility). 
+Such proteins are ususally embedded deeply, some may span the entire membrane. To span the membrane they must be amphiphathic (otherwise would flip into the membrane). 
+By diffusion proteins can move within the plasmam membrane,
 
 ##### Periferal proteins. 
 20-30\% 
 
 ###### Ease of removal 
-relatively easier to remove, as they are on the outside, and more soluble in aqueous environments. 
+relatively easieir to remove, as they are on the outside, and more soluble in aqeous environments. 
 
 (Copy image of the plasma membrane. )
 
@@ -1457,12 +1446,12 @@ relatively easier to remove, as they are on the outside, and more soluble in aqu
 
 
 
-NOTE: there is no reason for the tails to align between layers. 
+NOTE: there is no reason for the tails to allig between layers. 
 
 ##### S layer 
-additional very strong outer layer formed on membrane
+additional very strong outer layer fomed on membrane
 
- 
+
 ### Cell wall 
 The majority of bacteria posses a cell wall. 
 
@@ -1476,61 +1465,61 @@ The majority of bacteria posses a cell wall.
 ### Robosomes. 
 
 ### Cell enveope. 
-contains the outer membrane(where present) the cell wall and the cell membrane
- 
+contains the outer membrane(where present) the cell wall and the cell memberane
+
 ### External 
 Appendages. ...? 
 
 ### Internal membrane system. 
- 
+
 ## Gram staining. 
-The gram cell is able to differentiate between two major structure types based on their ability to maintain the primary stain in the presence of the de-coloriser. 
+The gram cell is able to differentate between two major structure types based on their ability to maintan the porimary stain in the presence of the de-colorisor. 
 Gram staining is bar far the most important staining in bacteriology. staining is also related to differences in the lipids. 
 
 
 ### Process
  #. Crystal violet.  
  #. Grams iodine. (Helps crystal violet to stick to the cell wall. ) 
- #. alcohol (decolorize), gram negative cells are decolorised, gram positive cells are not. 
+ #. alcohol (decolorize), gram nevative cells are decolorised, gram positive cellsa re not. 
  #. Safranin (red due 
  )
  
- Gram positive have red on purple so remain purple, gram negative have red on colorless so become red/pink. 
+ Gram positive have red on pruple so remain purple, gram negative have red on colorless so becone red/pink. 
  
  
  (Copy image)
  
- NOTE: If decolored too intensely any cell will lose its color. 
+ NOTE: If decolored too intesly any cell will lose its color. 
  
- NOTE: Acetone in involved in eyes dissolving.
+ NOTE: Acetone in involved in eyes dissolvings.
  
 ### Posive 
 
 Copy from slides. 
 
 #### Cell wall 
-Thick homogeneous cell wall containing 50\% peptidoglycan by dry weight. The peptidoglycan is about $20-80nm$ thick.
+Thick homogenous cell wall containins 50\% peptidoglycan by dry weight. The peptidoglycan is about $20-80nm$ thick.
 
 ##### Periplasmic space 
-A area in between the cell wall and cell membrane it is distinct (although so thin that it can often be hard to make out.). 
+A area inbetween the cell wall and cell membrane it is distinct (although so thin that it can often be hard to make out.). 
 
-NOTE: The cell wall is the combination of the PG layer and the periplasmic space. 
+NOTE: The cell wall is the combination of the PG layer and the periplamic space. 
 
-NOTE: Try to draw structures with some sense of relative scale, ie the cell wall must be larger. 
+NOTE: Try to draw strucutres with som sendse of relative scale, ie the cell wall must be larger. 
 
 \textbf{Copy image of cell wall from slides.}
 
 ##### Function 
-Maintains the cell integrity against osmotic pressure and maintains the cell shape. cytoskeletal elements are a large part of it, but the peptidoglycan is also significant, and if it is removed the bacteria will usually become spherical
+Mantains the cell integrity against osmotic pressure and maintains the cell shape. cytoskeletal elements are a large part of it, but the peptidoglycan is also siginficant, and if it is rremoved the bacteria will usually become spherical
 
 ##### Techoic acids. 
-(referred to as ? techoic acids), 
-Techoic acids make up a significant proportion of the cell wall. They are covalently attached to the peptidoglycan, which has a mesh-like structure. Techoic acids fill (almost all) of the void spaces in this mesh extending all the way to the outside of the layer. 
+(refferd to as ? techoic acids), 
+TEchoic acids make up a signinfcant proportion of the cell wall. They are covalently attatched to the peptifoglycan, which has a meshlike structure. Techoic acids fill (alomst all) of the void spaces in this mesh extending all the way to the outside of the layer. 
 
-Lipotechoic acids are embedded in the membrane at one end and the peptidogycan layer at the other. forming a stabilizing link. 
+Lipotechoic acids are imbedded in the membrne at one end and the peptidogycan layer at the other. forming a stabalising link. 
 
 ###### Functions 
-help to maintain the structure of the cell wall. And confer an overall negative charge (to gram positive bacteria). 
+help to maintain the stucture of the cell wall. And confer an overall negative charage (to gram positive bacteria). 
 
 The acids are also antigenic, (which benefits the host not the bacterium)
 
@@ -1548,10 +1537,10 @@ between cell and other membrane, much wider than in gram positive bacteria, can 
 #### Outer membrane. 
 5-7nm
 
-phospholipid layer (not bilayer) which contain lipopolusaccharides, as well as lipoproteins and proteins. More permeable/less selective than the cell membrane (?) The outside of gram negative is very wavy as more fluid than a PG layer. 
+phospholipid layer (not bilayer) which contain lipopolusaccharides, as well as lipoproteins and proteins. More permeable/less selective than the cell membrane (?) The outside of gram negative is very wavey as more fluid than a PG layer. 
 
 
-NOTE: can be isolated as an intact spherical structure
+NOTE: can be isolated as an intact shperical structure
 
 
 ##### Porins
@@ -1561,10 +1550,10 @@ make pores through the outer membrane, consist of three separate units.
 extends from the GP layer to the outer membrane. 
 
 ###### Function 
-Helps to prevent membrane damage by giving it some form of rigidity, and preventing an indeterminate gap between the outer membrane and the rest of the bacteria, pulling the membrane into the same shape as the bacteria.  
+Helps to prevent membrane damage by giving it some form of ragidity, and preventing an indeterminate gap between the outer membrane and the rest of the bacteria, pulling the membrane into the same shape as the bacteria.  
 
 ##### Lipopolysachharides. (LPS
-Consist of lipids and carbohydrates. The outer leaflet of the membrane is almost entirely lipopolysacharide, and in genre it is an integral membrane component. 
+Consist of lipids and carbohydrates. The outer leaflet of the membrane is almost entirely lipopolysacharide, and in gener it is an integral membrane component. 
 
 $Salmonella typhimurium$ in Salmoella can be related to disease. 
 
@@ -1572,5 +1561,5 @@ $Salmonella typhimurium$ in Salmoella can be related to disease.
 
 
 
-NOTE: cell wall contains periplasmic space, peptidoglycan layer and outer membrane. 
+NOTE: cell wall contains periplasmic space, peptidoglycan layer nad outer membrane. 
 
