@@ -381,3 +381,56 @@ Bonding pair are also physically smaller than non bonding pairs.
 This table is fucked, it will not display for shit*
 
 ![ElectronDomainGeometry](Images/CompoundGeometry.jpg)
+## Enantiomers (OPtical isomers)
+
+MOeluces whise mirror images are not superimposed. 
+
+### Requirements. 
+$sp^3$ hybridised carbon, with four differernt substituents ()i.e a steric carbon. 
+
+The sp^3 hybridised carbon must have four different groups attatched to it.(For example alanine). The resulting system is asymetrical, and will have a non-superimposable missor image. 
+
+
+NOTE: the central carbon may be refferd to as a steriocarbon, a steriogentic centre or a hydrocarbon. 
+
+#### Properties. 
+Inantomers have practically identical(almost indistinguishable) physical and chemical properties are therfore very hard to separate. Furthermore Racemic mixture are hard to detect. This is porblematic as often one inatomer may be a powerful medical drug and the other may be seriously toxic. 
+
+##### POlarised light 
+inantomers will rotate plane polerised light differently. They will rotate the plane of polerised light to the same extend to one will rotate to the right (+, dextrorotatory) the other will rotate to the plane to the left (-, levorotatory)(equal but opposite). 
+
+##### Optical activity 
+optically active substances will rotate plae polerised light. A Racemic mixture is opticcally inactive. 
+
+NOTE: A Racemic mixture is a mixture containing an equal concnetration of both enantomers. 
+
+### Nomecalture. 
+The + or - is prefixed to the compound name. The problem is that the + and - configuration are determined experimentally and cannot be determined dirrectly from the steriochemistry around the steriocenter.
+
+A new system was developed to overcome this problem, the process for which is as follows. 
+
+ #. Priorities are assigned to each group using the C.I.P rules. (note 1 is used for highest priorety, on to 2 etc). 
+ #. The molecule is orientated with the lowest priority group at the back. 
+ #. If the remaining 3 substituents run from highest to lowest clockwise then the isomer is on R configuration. 
+ #. If they are arranged anticlockwise the entantomer is S. 
+ 
+ Example: 
+ Br>Cl>C>H
+ 
+ #. Clockwise, R
+ #. anticlockwise S. 
+ 
+ NOTE: Flipping any two groups will result in the opposite entantomer. swapping inverts the configuration from R to S. 
+ 
+## Diasteriomers. 
+Occur if more than one steriocentre is present. Diastereomers are not mirror images.
+
+(Copy flag diagram)
+For a diassteriogentic centres there are a maximum of $2^n$
+ stereoisomers. Half of these will be enantomers of the other half. 
+all of the other relationships are diateriomers. 
+
+
+
+
+
