@@ -114,4 +114,51 @@ GEology will also affect formation, with specific weathering leading to standard
 The stream slope is the vertical drop along a hoizontal distance, it measures how altitude changes along a stream from head waters to mouth. 
 
 $SS=\frac{\text{elevation at contuor A}-\text{elevation at contour B}}{\text{length of sttream between contours}}=\frac{\text{Vertical slope}{\text{Horizontal slope}}$
-expressed as 2m per 10km or as percentage or ratio. 
+expressed as 2m per 10km or as percentage or ratio.
+
+## Rivers 
+how rivers are classified, by braniching network and how they accumulate flow. 
+
+#r#t# Stream water
+ Ad rate tends to decreasenumber is assigned to each branch, to reflect the draignatge area the channel dimentions and the wvater going through it per unit voulme. 
+er. 
+The discharge volume tends to increase. 
+The particle size of su
+ #### Strahler method 
+ Numbers are assigned in a cummulative fashion based on the confluence of streams. 
+ 
+
+ A second order stream is characterised as being below the junction of two second order streams. 
+Howver the junction of a f.irst and second orer stream is still a second order stream. The junction of two  second order streams leads to the formation of a third order stream. 
+
+(ise a third order is belw the junction of two second order streams. 
+These orders reflect the basic rules of drainage basin geometry. 
+Firstly the average slope is decreasnig (normally) as first order are in moutnaous/high regions, a exception is the highveld which drains a huge high up plateu. 
+The channel width tends to increase wiith the 
+discharge volume increases . (as two streams are joining. )
+Particle size of substrata decreases, (through a filtering porcess, )
+
+### DFischarge. 
+Dishcarge is the rate at which a volume of water flows pst a [pomt over a unit of time. 
+
+$Q=m^3s^{-1}$
+NOTE: $m^3s^{-1}$ are reffered to as cumecs (?) 
+
+#### Measurement. 
+See in back of prac handout one 
+
+The stream is divided into equal width rectangular cells vertically downwards. 
+The width and the depth of each cell will be measured. (the depth at the start and end of each cell is measured and averaged). A flow device is then used to measure the vvelocity of the water going through each cell. The sum of the discharge across all cells is the transect discharge. 
+
+$Q=\displaystlye\sum _{i=1}^{n}w_id_iv_i$
+
+Dishcarge is often ,easured remotely with the use of gagine wears, which temporariily stop the flow and thenmeasure the height of the stream. Such wears are places at strategic [ponyts across the catchment. 
+
+(eatern cape only on main dams, as others decomissioned in the 80s
+
+A logger logs the flow depth for every hour or half hour for months, and then the data will be retrieved by an engineer. However the data is only height , so a racing curve, which has a relation of measures of height and discharge. (basically a standard curve. ))Discharge should be measured a bit before the wear as the wear retards the flwo, also in a riffle/rapid there is too much turbulance, so a smooth depp laminar flow is best. N
+
+NOTE: the volume is the same thrtought but some areas are more accurate to measure. 
+
+
+
