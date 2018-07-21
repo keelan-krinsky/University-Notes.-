@@ -1,0 +1,215 @@
+---
+title: "Aquatic Ecology (Cont) "
+output: html_notebook
+---
+
+## Hydrological components. 
+
+### Physiological conditions
+
+#### Water quality 
+Water quality is generally taken as a combination of several different physical and chemical factors. \newline 
+
+ #. Solubility 
+ #. Temperature. 
+ #. PH 
+ #. Dissolved oxygen 
+ #. Dissolved inorganic nutrients ($PO_4^2-$ $NO_3^-$), 
+    #. Such nutrients are a very important limiting factor in biological growth and productivity, and their concentration is normally increased dramatically by human activity in affected areas, i.e. near human cities or industrial plants. 
+ #.  Dissolved organic nutrients. 
+    #.Tannins in the western cape lead to brown coca cola colored water. 
+ #. Toxins 
+    #. Toxins may occur naturally but are often related to human activities, 
+    #. The most common toxins present are heavy metals and hydrocarbons (such as oil/fuel spills from cars). 
+
+#### Temperature. 
+under 'normal' pressure conditions water will freeze at $0^\circ C$ and boil at $100^{\circ}C$, with increasing altitude however the boiling point will decrease (boiling point is directly proportional to the vapor pressure). This reduction can become significant at high altitudes, water boils at $45^\circ C$ at the top of mount Everest. 
+
+Furthermore due to the hydrogen bonding which occurs in the ice crystal lattice water is in fact most dense just before freezing at temperatures of $0-3.94^\circ C$ (at $\approx 1atm$(?)). \newline 
+IN its liquid phase the density of water varies directly with its temperature. implying that colder water will sink below warmer water within large water bodies with relatively little distrurbance (lotic). 
+
+![](Images/LP.jpg)
+### Suspended solids 
+
+#### Turbidity
+Two different sources of turbidity. 
+
+##### Landscape 
+Wash in with run off. 
+
+##### River bed. 
+additional suspension. 
+
+##### Effects. 
+(Vanishing waters by Dvies and dae(?), good reference book)
+
+ #. shading of phytoplankton and micaropytes, 
+ #. reduced availability for preditors. 
+ #. some marcovertibrates require clean rocks, blanketing of benthos removes Their environment, (such as caddis flies)
+
+###### Conductivity 
+Conductivity is a measure of the ability of water to conduct electricty.
+Conductivity is measured in Semems, it is usally measured per area $\muS.cm^{-1}$ for low conductitvty headland streams, for highly conductive $mS.cm^{-1}$. 
+
+Conductivity must be measured in conjunction with temperature as conductivity varies directly with temperature, (and hence is required for comparison)
+
+###### As a measure of water pollution 
+Conductivty is a good blanket measure of pollution especially in the case of metal (ion) polution which increases conductivity. Some goelogies do have more metals and will lead to higher natural conductivity measures, natural variation. 10 
+
+## Hydrological regime  
+
+Hydrology is defined as the study of the interactions and interrelationships between water and its environment 
+
+NOT: conductivity is the inverse of resistance
+
+### Water cycle 
+water condences and falls as precipitation, once the water is intercepted by the ground it can flow along the top of the land,(runoff) or infultrate as seepage. when water comes out of ground water to enter ecosystem it is referred to as run out. Evaporation brings water to the atmosphere competing the cycle. 
+
+wetlands tend to accumuae very fine sediments/clays resulting in far more water retention as a pose to infultration, in course soil most of the water infultrates little is retained. 
+
+Once the water infultrates it can flow in a number of different layers known as aquifers. 
+Aquifers are bands of rock with enough holes/space that water cacn perculate through them, normally they have a confining bed of rock separating them out. Aquifers have differnt flow rates (different flow regimes. ), days to years between infultration and run out in surface, lower down there might aquifer under the bed will be more like a centuaries. Even lower down there are aquifers which take millenia to fill up (deep confined aquifers), eg table mountain aquifer. 
+
+#### Ephemeral
+influent stream, net loss, very little retention porous, tend to dry up
+Dry $\geq 90\%$ of the year only present after intense rainfall
+
+
+#### Intermittent 
+Varies between ephermeral and effulent, with a net neutrality (no net flow), varies with time. 
+Eg in the eastern cape,may dry up in sections. 
+
+#### Effluent 
+net inflow of groudwater to water body, tend to be constant. 
+
+### Rain fall related variation 
+By the east coast, 1000-1200 to west <100 at the extreme. Evaporative potential is measured using A pans, it is far higher in the (north) west, combining high rainfall will low evaporation allows for high run off and perrenial streams. 
+Dry west is ephermeral, east is perrenial, band between them contains intermittent. 
+
+### Artificial 
+land owver use a wear to divert water from a river to croplands/ orchards. 
+
+### Catchment/drainage basin 
+The region from which water drains into a stream. All the water which falls within the catachemnt will flow into the stream. different draingage basins are dived by watershed/ the highest point between twon drainage basins. 
+
+#### Drainage density 
+The amount of stream channel required to drain one unit of catchment area. The same area drained by more tributaries has a higher drainage density. 
+
+#### Tributary arrangment. 
+ 
+ #. dendritic: (many fingers,from indivindual to single)
+ #. raidal, outwards in all dirrections 
+ #. Centripital, multiple tributaries draining to central point (depression/pan)
+
+GEology will also affect formation, with specific weathering leading to standard shaping. 
+
+ #. paralelled 
+    #. very hard rock which tributaries cant penetrate so all go into same bands. 
+ #. trellis 
+    #. hard rock formed in perpendicular shapes, so water can only erode the land scape in 90 degree angle. 
+ #. Distributary, river breaks up into distrubutary channels (just before entering the sea for example.   
+ 
+ 
+### Stream slope 
+The stream slope is the vertical drop along a hoizontal distance, it measures how altitude changes along a stream from head waters to mouth. 
+
+$SS=\frac{\text{elevation at contuor A}-\text{elevation at contour B}}{\text{length of sttream between contours}}=\frac{\text{Vertical slope}{\text{Horizontal slope}}$
+expressed as 2m per 10km or as percentage or ratio. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ #. Very steep gradient by source, 
+ #. waterfalls upper streams, slope still very high, more rocky bed material with frequent riffles. In almost all biomes such areas are forested, with overhanding branches also affecting the stream ecosystem. 
+ #. lowlands, very slow and very turbid with less heterogenous sediment, (more snadly and silty) 
+ 
+### Zones. 
+
+#### Production 
+The production zone contains 1st to 40rth level streasm, and recieves water primarily as run off, hence a lot of sediment is also brought in to the stream in this fasion. 
+
+#### Transfer zone
+recieves water predominately from upstream, and moves the majority of this water down stream out of the zone. 
+
+#### Storage Zone. 
+In the storage zone the flow of water is so slow that suspended subrate is alleviated in mass to form terrestrial environments (sandbanks/islands) within the water channel. 
+
+#### General trends 
+there are several general trends when moving from the head waters downwards. 
+
+ #. Bed material grain size progressively decreases. 
+ #. Accumulated discharge increases. 
+ #. Depth and width increases. (However the depth does not change much and always shows a large local variation.)
+
+NOTE: Velocity does not significantly increase, as in any given section the ration of fast water to slow water remains relatively constant. 
+
+
+#### Mesohabitats. 
+Variation in channel profile leads to the development of distinct habitats, which can facilitate different species. For example catfish require shallow fast flowing waters (which have a high oxygen concentration), where as silver mouth sucker fish require additional depth.
+
+#### Local variation 
+Pools riffles and rubs are formed through a combination of hydraulic force and sediment size. 
+
+from annual flow data collected over long periods can be used to give of long term climate patterns and stability as well as climate change. Monthly data reveals annual variation which is important in controlling biotic and abiotic processes in the river. For example changes in water flow rate can act as spawning triggers for fish 
+
+With increase in mean annual run off coefficients of variation for flooding increases, That is, generally speaking arid zones have high variation in rainfall, and high rainfall zones tend to have low variation in rainfall. In south Africa in particular rainfall is very unpredictable. It follows that in around countries the need for water storage in increased, leading to many artificial lentic catchments (i.e dams). 
+
+## Wetlands 
+
+### Exorheic 
+Exorheic wetlands are defined by the fact that water flows through them and off into an adjacent water body. Water flowing into there wetlands can come from an adjacent stream, (This is often the same stream that water flows off into from the wetland.
+
+### Endorheic 
+Endorheic wetlands are defined by the fact that water once in them will not run off but can only evaporate or infiltrate. Endorheic wetlands are low points in the landscape which receive water in the from of runoff, and hence tend to accumulate high salt concentrations, (as salt dissolved in run off is brought to the wetland and remains there when the water evaporates)
+
+#### Okavango Delta 
+The Okavango Delta is an endorheic pan on a subcontinental level which drains the Kalahari basin. Summer rainfall flow from the Angola highlands. Within the Okavango Delta contains many exorheic wetlands lying alongside the main channel. After the summer rains the lake swells to about three times it's permanent size. Approximately sixty percent of the contained water is the evaporated off and the remain water is lost by infiltration. About 2% of the summer run off flows over into the adjacent Lake Ngati when the Okavango Delta overfills, however this only occurs in irregular seasonal overflows. The area in which the Ngati lake formed was completely dry for nearly 20 years, but after a period of particularly heavy rainfall between 2010 and 2012 the Okavango Delta was filled to capacity and run off formed Lake Ngati. This run off contained not only water but also nutrients, invertebrates and fish to colonise the new environment. Fishing communities migrated on mass to the new lake. In Very large floods, such as a one in fifty year flood water will overflow into the adjacent basin, the Makgadikgadi salt pans.
+
+
+## Physical habitat conditions 
+
+### System 
+A strech of river above a kilometer forms a system. 
+
+### Segments 
+Segments are rough $10^2m$ stretches of a system. Large Predatory Fish tend to move between segments at different stages of their life  cycle.
+
+### Reaches 
+Reaches are stretch of river of a $10^1m$ magnitude. 
+
+### Riffles 
+Rifles are stretches of river of a $10^0m$ magnitude. Different fish species tend to spend most of their time in different habitats.When the water level in the river is low the difference between environments is much more pronounced. More diverse flow conditions result in more habitats for macro-invertebrates. Deep pools in sequence with shallow rifles form vertical meanders.
+
+#### Pool
+Pools are deep and contain slow flowing water. In pools the base material tends to be fine sediment. 
+
+#### Riffles 
+Riffles are fast flowing and shallow containing turbulence created by the uneven bed. The base material in riffles tends to contain large rocks in sand. 
+
+#### Runs 
+The base material in runs tends to be gravel. 
+
+
+### Microhabitats 
+Microhabitats occur at a magnitude of $10^{-1}m$ magnitude. Insects live in specific habitats such as moss covered boulders, or sandy rock etc. 
+
+### raperian Habitats
+A raperian gabitat is the area between the waters endge and the boundary where the water no longer influences the terrestrial environment. In upper water the raparian zone is very narrmow, but further down stream (in the storage zone) The raperian zone becomes very extensive, especially due to the formation of terrerial environments dirrectly in the water channel from alluviation. In the storage zone terraces, (which are ancestral flood plane deposits) surround the current flood plain deposit, in which the steam channel lies. Such areas are referred to as backstamps. Endorheic wetlands form around stream separated from it by berms, (alluvial) deposits. 
+
+NOTE the presence of alluvial deposits (e.g. terraces and benches) adjacent to the active channel is a good indication of zone changes. 
+
+
+
+
