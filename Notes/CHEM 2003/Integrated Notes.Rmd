@@ -3,8 +3,6 @@ title: "CHEM2003 Notes"
 output: html_file. 
 ---
 
-
-
 # tutorial question and additional work
 
 ## chapter 1
@@ -23,7 +21,7 @@ section 1.5-1.6
 Self test 1.7-1.11
 
 Exercises 1.9-1.15, 1.17-1.26, 1.28-1.31 (pp 32-33)
-
+ 
 # section one general review
 
 ## Quantum numbers
@@ -389,12 +387,97 @@ This table is fucked, it will not display for shit*
 
 ![ElectronDomainGeometry](Images/CompoundGeometry.jpg)
 
+ 
+
+# Steriochemistry 
+
+Spectroscopy is a set of techniques in which the rtespose of molecules ot the input of energy is measured, that is , eletromagnetic radiation is applied to compounds and their response is then measured. 
+
+## Electromagnetic waves. 
+
+### Wave nature. 
+Electromagnetic waves consist of and electric and magnetic field which oscillate orthogonally to each other, and orthogonally to the direction of propagation of the wave. 
+
+#### Wavelength 
+Wavelength is donated by $\lambda$ and measured in meters (sometimes nm are used such as when UV or visible light is being discussed). 
+
+#### Velocity 
+Speed is donated by $c$. The speed of light in a vacuum ($c_0$) is constant ($3.00 \cdot 10^{8}m\cdot s^{-1}$), normally the speed of light is given in $m\cdot s^{-1}$ 
+
+#### Frequency
+frequency is donated by $\nu$ (?) and is measured in Hertz (Hz) that is $s^{-1}$
+
+#### Wavenumber 
+
+Wavenumber is donated by $\overline{\nu}$, and is the reciprocal of wavelength. It is measured in $cm^{-1}$ and used most commonly in IR spectra. 
+
+### Particle nature.
+Photons are particles of light. There particles posses a distinct quantised energy given by $E=h\nu$ 
+
+
+### Gamma rays. 
+The energy of photons is too high breaking up molecules changing their structure. 
+
+### X rays. 
+The energy of photons is too high breaking up molecules changing their structure. 
+
+### Ultra violet and visible light. 
+Affect the valence electrons of molecules exciting them to a higher state. 
+
+$$$ Infra red 
+Interact with bond stretch, affecting virational energy levels. 
+
+### Microwaves. 
+Affect bond bending. 
+
+#### radiowaves. 
+Affects the erergy levels associated with the magnetic field which is associated with electron, or protons within the nucleus.
+
+
+## Obtaining spectra. 
+Radiation of known wavelength is passed through the sample and the decrease in intensity of the radiation is observed. The absorbance of the sample is them calculated. The process is repeated over a range of wavelengths to give a graph of intensity or absorbance against time. 
+
+### Beer-lamert Law. 
+The Beer lambert law given by the expression. 
+$A=cb\epsilon$ 
+
+
+
+NOTE: The energy of the regions of EM of interest have energies of $1-^{-20}-10^{-28}$, i.e very small. 
+
+## Absorbance spectra 
+Absorbance results when molecules in a low energy state are excited to a higher energy state by the absorption of a photon of energy. The change in energy which occurs is donated as $\Delta E$. (This form of absorption is that which is typically used for IR, UV, visible and NMR spectra)
+
+## Double bond equivalents. 
+The advantage of double bond equivalents is that they can be used to at least propose several possible structure for a compound. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Organic chemistry 
 
 ## Course Background. 
 
-### Lecturer
+###  Lecturer
 Dr Kennedy Ngwira, C407, Dr Amond Rouseou. C503. 
 
 ### Isomers. 
@@ -471,8 +554,8 @@ A new system was developed to overcome this problem, the process for which is as
  #. anticlockwise S. 
  
  NOTE: Flipping any two groups will result in the opposite entantomer. swapping inverts the configuration from R to S. 
- 
-## Diasteriomers. 
+  
+ ## Diasteriomers. 
 Occur if more than one steriocentre is present. Diastereomers are not mirror images.
 
 (Copy flag diagram)
