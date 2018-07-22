@@ -1,0 +1,27 @@
+---
+title: "Tut Problems"
+output: html_notebook
+---
+
+## Tutorial one. 
+
+
+### Question 1. 
+
+column 1  Spectral region
+ #. Visible
+ #. mcirowaves
+ #. 
+
+ 
+ column 2 Type of transition. 
+ 
+ Column 3 $\lambda$
+ 
+ Column 4 $v/Hz$
+ 
+ Column 5 $\bar{\nu}/cm^{_-1}$
+ 
+ Column 6 $E/J$
+ 
+ Column 7 E/ kJ \cdot mol^{-1}
