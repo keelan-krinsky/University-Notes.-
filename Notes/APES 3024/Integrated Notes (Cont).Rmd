@@ -15,7 +15,7 @@ Water quality is generally taken as a combination of several different physical 
  #. PH 
  #. Dissolved oxygen 
  #. Dissolved inorganic nutrients ($PO_4^2-$ $NO_3^-$), 
-    #. Such nutrients are a very important limiting factor in biological growth and productivity, and their concentration is normally increased dramatically by human activity in affected areas, ie near human cities or industrial plants. 
+    #. Such nutrients are a very important limiting factor in biological growth and productivity, and their concentration is normally increased dramatically by human activity in affected areas, i.e. near human cities or industrial plants. 
  #.  Dissolved organic nutrients. 
     #.Tannins in the western cape lead to brown coca cola colored water. 
  #. Toxins 
@@ -56,9 +56,9 @@ Conductivity must be measured in conjunction with temperature as conductivity va
 ###### As a measure of water pollution 
 Conductivty is a good blanket measure of pollution especially in the case of metal (ion) polution which increases conductivity. Some goelogies do have more metals and will lead to higher natural conductivity measures, natural variation. 10 
 
-## Hydrological regeme 
+## Hydrological regime  
 
-Hydrology is defined as the study of the interactions and intereltationships between water and its environment 
+Hydrology is defined as the study of the interactions and interrelationships between water and its environment 
 
 NOT: conductivity is the inverse of resistance
 
@@ -114,6 +114,7 @@ GEology will also affect formation, with specific weathering leading to standard
 The stream slope is the vertical drop along a hoizontal distance, it measures how altitude changes along a stream from head waters to mouth. 
 
 $SS=\frac{\text{elevation at contuor A}-\text{elevation at contour B}}{\text{length of sttream between contours}}=\frac{\text{Vertical slope}{\text{Horizontal slope}}$
+<<<<<<< HEAD
 expressed as 2m per 10km or as percentage or ratio.
 
 ## Rivers 
@@ -159,6 +160,150 @@ Dishcarge is often ,easured remotely with the use of gagine wears, which tempora
 A logger logs the flow depth for every hour or half hour for months, and then the data will be retrieved by an engineer. However the data is only height , so a racing curve, which has a relation of measures of height and discharge. (basically a standard curve. ))Discharge should be measured a bit before the wear as the wear retards the flwo, also in a riffle/rapid there is too much turbulance, so a smooth depp laminar flow is best. N
 
 NOTE: the volume is the same thrtought but some areas are more accurate to measure. 
+=======
+expressed as 2m per 10km or as percentage or ratio. 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ #. Very steep gradient by source, 
+ #. waterfalls upper streams, slope still very high, more rocky bed material with frequent riffles. In almost all biomes such areas are forested, with overhanding branches also affecting the stream ecosystem. 
+ #. lowlands, very slow and very turbid with less heterogenous sediment, (more snadly and silty) 
+ 
+### Zones. 
+
+#### Production 
+The production zone contains 1st to 40rth level streasm, and recieves water primarily as run off, hence a lot of sediment is also brought in to the stream in this fasion. 
+
+#### Transfer zone
+recieves water predominately from upstream, and moves the majority of this water down stream out of the zone. 
+
+#### Storage Zone. 
+In the storage zone the flow of water is so slow that suspended subrate is alleviated in mass to form terrestrial environments (sandbanks/islands) within the water channel. 
+
+#### General trends 
+there are several general trends when moving from the head waters downwards. 
+
+ #. Bed material grain size progressively decreases. 
+ #. Accumulated discharge increases. 
+ #. Depth and width increases. (However the depth does not change much and always shows a large local variation.)
+
+NOTE: Velocity does not significantly increase, as in any given section the ration of fast water to slow water remains relatively constant. 
+
+
+#### Mesohabitats. 
+Variation in channel profile leads to the development of distinct habitats, which can facilitate different species. For example catfish require shallow fast flowing waters (which have a high oxygen concentration), where as silver mouth sucker fish require additional depth.
+
+#### Local variation 
+Pools riffles and rubs are formed through a combination of hydraulic force and sediment size. 
+
+from annual flow data collected over long periods can be used to give of long term climate patterns and stability as well as climate change. Monthly data reveals annual variation which is important in controlling biotic and abiotic processes in the river. For example changes in water flow rate can act as spawning triggers for fish 
+
+With increase in mean annual run off coefficients of variation for flooding increases, That is, generally speaking arid zones have high variation in rainfall, and high rainfall zones tend to have low variation in rainfall. In south Africa in particular rainfall is very unpredictable. It follows that in around countries the need for water storage in increased, leading to many artificial lentic catchments (i.e dams). 
+
+## Wetlands 
+
+### Exorheic 
+Exorheic wetlands are defined by the fact that water flows through them and off into an adjacent water body. Water flowing into there wetlands can come from an adjacent stream, (This is often the same stream that water flows off into from the wetland.
+
+### Endorheic 
+Endorheic wetlands are defined by the fact that water once in them will not run off but can only evaporate or infiltrate. Endorheic wetlands are low points in the landscape which receive water in the from of runoff, and hence tend to accumulate high salt concentrations, (as salt dissolved in run off is brought to the wetland and remains there when the water evaporates)
+
+#### Okavango Delta 
+The Okavango Delta is an endorheic pan on a subcontinental level which drains the Kalahari basin. Summer rainfall flow from the Angola highlands. Within the Okavango Delta contains many exorheic wetlands lying alongside the main channel. After the summer rains the lake swells to about three times it's permanent size. Approximately sixty percent of the contained water is the evaporated off and the remain water is lost by infiltration. About 2% of the summer run off flows over into the adjacent Lake Ngati when the Okavango Delta overfills, however this only occurs in irregular seasonal overflows. The area in which the Ngati lake formed was completely dry for nearly 20 years, but after a period of particularly heavy rainfall between 2010 and 2012 the Okavango Delta was filled to capacity and run off formed Lake Ngati. This run off contained not only water but also nutrients, invertebrates and fish to colonise the new environment. Fishing communities migrated on mass to the new lake. In Very large floods, such as a one in fifty year flood water will overflow into the adjacent basin, the Makgadikgadi salt pans.
+
+
+## Physical habitat conditions 
+
+### System 
+A strech of river above a kilometer forms a system. 
+
+### Segments 
+Segments are rough $10^2m$ stretches of a system. Large Predatory Fish tend to move between segments at different stages of their life  cycle.
+
+### Reaches 
+Reaches are stretch of river of a $10^1m$ magnitude. 
+
+### Riffles 
+Rifles are stretches of river of a $10^0m$ magnitude. Different fish species tend to spend most of their time in different habitats.When the water level in the river is low the difference between environments is much more pronounced. More diverse flow conditions result in more habitats for macro-invertebrates. Deep pools in sequence with shallow rifles form vertical meanders.
+
+#### Pool
+Pools are deep and contain slow flowing water. In pools the base material tends to be fine sediment. 
+
+#### Riffles 
+Riffles are fast flowing and shallow containing turbulence created by the uneven bed. The base material in riffles tends to contain large rocks in sand. 
+
+#### Runs 
+The base material in runs tends to be gravel. 
+
+
+### Microhabitats 
+Microhabitats occur at a magnitude of $10^{-1}m$ magnitude. Insects live in specific habitats such as moss covered boulders, or sandy rock etc. 
+
+### raperian Habitats
+A raperian gabitat is the area between the waters endge and the boundary where the water no longer influences the terrestrial environment. In upper water the raparian zone is very narrmow, but further down stream (in the storage zone) The raperian zone becomes very extensive, especially due to the formation of terrerial environments dirrectly in the water channel from alluviation. In the storage zone terraces, (which are ancestral flood plane deposits) surround the current flood plain deposit, in which the steam channel lies. Such areas are referred to as backstamps. Endorheic wetlands form around stream separated from it by berms, (alluvial) deposits. 
+
+NOTE the presence of alluvial deposits (e.g. terraces and benches) adjacent to the active channel is a good indication of zone changes. 
+(ise a third order is belw the junction of two second order streams.
+ 135 These orders reflect the basic rules of drainage basin geometry.  
+ 136 Firstly the average slope is decreasnig (normally) as first order are in moutnaous/high regions, a exception is the highveld which drains a huge high up plateu.
+ 137 The channel width tends to increase wiith the
+ 138 discharge volume increases . (as two streams are joining. )
+ 139 Particle size of substrata decreases, (through a filtering porcess, )
+ 140 
+ 141 §§§ DFischarge. 
+ 142 Dishcarge is the rate at which a volume of water flows pst a [pomt over a unit of time. 
+ 143 
+ 144 $Q=m^3s^{-1}$
+ 145 NOTE: $m^3s^{-1}$ are reffered to as cumecs (?) 
+ 146 
+ 147 #### Measurement. 
+ 148 See in back of prac handout one 
+ 149 
+ 150 The stream is divided into equal width rectangular cells vertically downwards. 
+ 151 The width and the depth of each cell will be measured. (the depth at the start and end of each cell is measured and averaged). A flow device is then used to             measure the vvelocity of the water going through each cell. The sum of the discharge across all cells is the transect discharge. 
+ 152 
+ 153 $Q=\displaystlye\sum _{i=1}^{n}w_id_iv_i$
+ 154 
+ 155 Dishcarge is often ,easured remotely with the use of gagine wears, which temporariily stop the flow and thenmeasure the height of the stream. Such wears are places 
+     at strategic [ponyts across the catchment. 
+ 156 
+ 157 (eatern cape only on main dams, as others decomissioned in the 80s
+ 158 
+ 159 A logger logs the flow depth for every hour or half hour for months, and then the data will be retrieved by an engineer. However the data is only height , so a          racing curve, which has a relation of measures of height and discharge. (basically a standard curve. ))Discharge should be measured a bit before the wear as the         wear retards the flwo, also in a riffle/rapid there is too much turbulance, so a smooth depp laminar flow is best. N
+ 160 
+ 161 NOTE: the volume is the same thrtought but some areas are more accurate to measure. 
+ 162 
+
+
+
+
+## Run
+Such areas are reffered to as a run 
+
+### Hydrograph 
+Plots water flow against time, in a flood a rapid increase (rising limb) is seen floowed by a pea and a falling (hyperbolic) limp back to the baseline level. the peak incodes not only the flood water but also the normal baseline. Rain captured per unit time can alos be tracked and related. Ground water recession can reacharge/boost the water table raising it (ground water recession is the decrease of ground water back to its original level. , flooding recession is simple the dease in stream discharge. The size of the storm can be measured in terms of time. The center of mass of the rainstorm can be measure. The time between the heaviest rainfall and the peak detected by the wear is the basin lag. 
+ The overall profile of the hydrograph can affect the flood responce. The profile of the landscape is also important. In a mountanous situation a sharper higher peak in flow will occur, whereas a plateu tends to have low sloping hydrograph. (This is becuase water is travelling faster donw the steeper gradient. )
+ 
+ The shape of the gaging wier is also important, if there is more catchment closer than further away then the majority of the drained water is being drained closer to the wier (the majority of drainage density is close to wear), the peak will be sooner, conversely if the drainage density is concentrated further waay the peak will be lower. If there are two distinctive drainage areas one closer and on efurther there will be two peaks (a bimodal responce.) A higher drainage density leads to a higher peak. 
+ 
+ In a trelliced catchment there is a much smaller area that can actually e drained leading to a lower hydrograph. 
+ # BAnk full flodd
+ Will full up the entire bank fuulled area , occurs about every year. 
+ 
+ ### CAtsstrophic 
+ About every 50 years,the depth is twice as high, as the normal one. 
 
 
