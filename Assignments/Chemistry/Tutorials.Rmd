@@ -5,23 +5,209 @@ output: html_notebook
 
 ## Tutorial one. 
 
-
 ### Question 1. 
 
 column 1  Spectral region
  #. Visible
- #. mcirowaves
- #. 
+ #. microwaves
+ #. radiowaves.
+ #. Infrared 
+ #. Ultra Violet. 
 
- 
  column 2 Type of transition. 
+ 
+ #. Electron
+ #. 
+ #. Electron of proton spin magnetic transitions. 
+ #. Bond stretch and bending
  
  Column 3 $\lambda$
  
+ #. 500nm
+ #. 3.00cm
+ #. 3m
+ #. 0.01mm
+ #. 239nm
+ 
  Column 4 $v/Hz$
+ 
+ #. $6.00 \cdot 10^{14}$
+ #. $1\cdot 10^{10}$
+ #. $10^8$
+ #. $3\cdot10^{13}$
+ #. $1.25 \cdot 10^{15}$
+ 
  
  Column 5 $\bar{\nu}/cm^{_-1}$
  
+ #. $2.00 \cdot 10^{4}$
+ #. $3.33 \cdot 10^{-1}$
+ #. $3.33 \cdot 10^{-3}$
+ #. $1 \cdot 10^3$
+ #. $4.18 \cdot 10^4$
+ 
  Column 6 $E/J$
  
+ #. $3.97 \cdot 10^2$
+ #. $6.626 \cdot 10^{-24}$
+ #. $6.626 \cdot 10^{-26}$
+ #. $1.988 \cdot 10^{-20}$
+ #. $8.30 \cdot 10^{-19}$
+ 
  Column 7 E/ kJ \cdot mol^{-1}
+ 
+ #. $2.39 \cdot 10^2$
+ #. $3.99 \cdot 10^{-3}$
+ #. $3.99 \cdot 10^{-5}$
+ #. $11.97 \cdot 10^{1}$
+ #. $5.00 \cdot 10^2$
+ 
+### Question #2
+
+```{r, ehco=False}
+e<-c(3*10^8/(300*10^(-9)))*6.626*10^(-34)
+e
+
+b<-c(299/(6.022* 10^(20)))
+     
+```
+Energy of photon= `r {e}`
+Enegry of bond =`r {b}`
+
+Yes as a single photon of the incident light contains more than enough energy to split the H-I bond if it were absorbed. Accurate results cannot be obtained becuase during the measurment process HI will be converted to $H^{+\cdot}$ and $I^{+\cdot}$  which will have there own absorption spectra which will affect the overall absorption of the sample. 
+
+### Questions #3
+$A\-log(T)$
+
+```{r}
+T1<-round ((10^(-0.1)), digits=1)
+T2<-round ((10^-(0.5)), digits=1)
+T3<-round ((10^-(1)), digits=2)
+T4<-round ((10^-(2)), digits=2)
+T5<-round ((10^-(3)), digits=2)
+```
+
+`r {T1}`, `r {T2}`, `r {T3}`, `r {T4}`. `r {T5}`.
+
+### Question #4 
+
+#### A 
+$C_4H_6$. 
+
+$DBE=\frac{H_t-H_a-Hal+N}{2}=\frac{10-6}{2}=2$
+
+Potential function groups \newline
+cycloalkene, or alkene.  
+
+#### B 
+$C_{10}H_{20}O_2$ 
+
+$DBE=\frac{H_t-H_a-Hal+N}{2}=\frac{22-20}{2}=1$
+
+Potential function groups \newline
+
+ #. cycloalkane
+ #. alkene 
+ #. ketone 
+ #. aldehyde
+ #. carboxylic acid. 
+ #. ester. 
+(may contain an ether, or a diether, or a alcohol)
+
+#### C 
+$C_{6}H_{11}NO$ 
+
+$DBE=\frac{H_t-H_a-Hal+N}{2}=\frac{14-11+1}{2}=2$
+
+Potential function groups \newline
+ #. alcohol
+ #. amine
+ #. amide
+ #. cyloalkane
+ #. nitrile
+ #. nitroso 
+ 
+#### D
+$C_{8}H_{8}BrCl$ 
+
+$DBE=\frac{H_t-H_a-Hal+N}{2}=\frac{18-8-2}{2}=4$
+
+Potential function groups \newline
+
+ #. benzene 
+ #. bromoalkane (/ene)
+ #. chloroalkane (/ene)
+ #. cycloalkane (/ene)
+ #. alkyl
+ #. alkene
+ 
+## Part 2 
+ 
+### Question 3 A. 
+
+#### Spectrum A
+ #. peak one, $\approx 2900cm^{-1}$ C-H of alkane
+ #. peak two $\approx 2800cm^{-1}$ C-H of aldehyde aldehyde
+ #. peak three $\approx 2690cm^{-1}$ C-H stretch of aldehyde  
+ #. peak two $\approx 1720cm^{-1}$ C=O stretch of an aldehyde
+ 
+ Spectrum a corresponds to hepthanal. 
+ 
+#### Spectrum B 
+ 
+ #. peak one $\approx 3150cm^{-1}$ (broad) bonded O-H stretch in a promary alcohol   
+ #. peak two $\approx 1710cm^{-1}$ C=O stretch in ketone. 
+ #. peak three $\approx 1050cm^{-1}$ C-O stretch of a primary alcohol. 
+ 
+ Spectrum B corresponds to acetic acid. 
+ 
+#### Spectrum C 
+
+ #. Peak one $\approx 3400cm^{-1}$ bonded O-H stretch of secondary alcohol
+ #. Peak two $\approx 2970$ C-H stretch in alkane. 
+ #. Peak three $\approx 2930cm^{}-1$ C-H stretch in alkane. 
+ #. Peak four $\approx 2870cm^{-1}$ C-H stretch in alkane. 
+ #. Peak five $\approx 1160cm^{-1}$ C-O stretch in secondary alcohol. 
+ 
+ Spectrum C corresponds to 2-butanol. 
+ 
+#### Spectrum D 
+ #. peak one $\approx 2990cm^{-1}$ C-H stretch. 
+ #. peak two $\approx 2940cm^{-1}$ C-H stretching in alkanes
+ #. peak three $\approx 2900cm^{-1}$ C-H stretch in alkane
+ #. $\approx 1705cm^{-1}$ C=O of a ketone. 
+ 
+ Spectrum D corresponds to a 3 pentone. 
+ 
+ 
+### Question 4
+
+#### Spectrum 1 
+
+ #. Peak one $\approx 3400$ bonded O-H stretch of an alcohol. 
+ #. peak two $\approx 2950$ C-H stretch in alkane. 
+ #. peak three $\approx 2810$ C-H of an aldehyde/ 
+ #. peak four $\approx 2750cm^{-1}$ C-H stretch of an aldehyde. 
+ #. peak five $\approx 1740cm^{-1}$ C=O of an aldehyde. 
+  
+The functional groups present are an alcohol and an aldehyde. 
+
+#### Spectrum 2
+
+ #. $\approx 3400cm^{-1}$ bonded O-H stretch of an alcohol.
+ #. $\approx 2970cm^{-1}$ C-H stretch of an alkane. 
+ #. peak three $\approx 2880cm^{-1}$ C-H stretch of an alkene. 
+ #. peak four $\approx 1060cm^{-1}$ C-O stretch of a primary alcohol
+
+The functional group present is a primary alcohol. 
+ 
+#### Spectrum 3
+
+ #. peak one $\approx 3300cm^-1$ C-H of an alkyne. 
+ #. peak two $\approx 2990cm^{-1}$ C-H of a alkane. 
+ #. peak three $\approx 2880cm^{-1}$ C-H stretch of an alkane. 
+ #. peak four $\approx 2100cm^{-1}$ C$\equiv$C of an alkyne. 
+ 
+ Therefore the functional group contained is an alkyne, (not ethyne).
+ 
+ 

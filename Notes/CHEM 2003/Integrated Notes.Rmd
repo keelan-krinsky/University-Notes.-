@@ -455,9 +455,6 @@ groups identified.
 ### Aromatics. 
 The DBE for a benzene ring is 4, and in general if a compound has a DBE above 4 there is a good chance that it contains benzene, (if its DBE is bellow four then obviouly it cannot contain benzene. )
 
-
-
-
 ## IR spectra 
 IR spectra are very good at identifying specific functional groups present. 
 The absorbance spectra, resulting from the distinct absorbance of differeng bonds is plotted against wavenumber. Some frequencies absorb more than others, which forms the basis for functional group identification. 
@@ -465,7 +462,6 @@ The absorbance spectra, resulting from the distinct absorbance of differeng bond
 ### Interaction of radiation. 
 IR radiation interacts with the vibrational level associated with bonds between atoms,i.e. bond stretching and bond bending.  The size of the dipole moment changes in the interaction. The larger the change in the dipole moment the stronger the signal. If the bond is symmetrical then there will be no IR signal, i.e. it will not absorb any IR 
 radiation. 
-
 
 #### Important bonds. 
 The most important bonds in IR are the bonds that stretch more or less independently of the rest of the molecule. Such bonds are bonds that are much weaker or stronger than other neighboring bonds within the molecule. Bonds in which one atom is much heavier than the other also tend to have strong and distinctive absorption patterns. 
