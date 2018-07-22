@@ -1,7 +1,10 @@
 ---
 title: "CHEM2003 Notes"
-output: html_file. 
+output: html_document 
 ---
+
+# Authors 
+Keelan,Tanner
 
 # tutorial question and additional work
 
