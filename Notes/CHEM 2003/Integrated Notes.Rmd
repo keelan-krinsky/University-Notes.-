@@ -392,9 +392,9 @@ This table is fucked, it will not display for shit*
 
  
 
-# Steriochemistry 
+# Spectroscopy 
 
-Spectroscopy is a set of techniques in which the rtespose of molecules ot the input of energy is measured, that is , eletromagnetic radiation is applied to compounds and their response is then measured. 
+Spectroscopy is a set of techniques in which the response of molecules t the input of energy is measured, that is , electromagnetic radiation is applied to compounds and their response is then measured. 
 
 ## Electromagnetic waves. 
 
@@ -427,7 +427,7 @@ The energy of photons is too high breaking up molecules changing their structure
 ### Ultra violet and visible light. 
 Affect the valence electrons of molecules exciting them to a higher state. 
 
-$$$ Infra red 
+## Infra red 
 Interact with bond stretch, affecting virational energy levels. 
 
 ### Microwaves. 
@@ -452,29 +452,65 @@ NOTE: The energy of the regions of EM of interest have energies of $1-^{-20}-10^
 Absorbance results when molecules in a low energy state are excited to a higher energy state by the absorption of a photon of energy. The change in energy which occurs is donated as $\Delta E$. (This form of absorption is that which is typically used for IR, UV, visible and NMR spectra)
 
 ## Double bond equivalents. 
-The advantage of double bond equivalents is that they can be used to at least propose several possible structure for a compound. 
+The advantage of double bond equivalents is that they can be used to at least propose several possible structure for a compound. The presence of several structural components including double or triple bonds, cyclic compounds and aromatic rings can be speculated, and the related functional 
+groups identified. 
+
+### Aromatics. 
+The DBE for a benzene ring is 4, and in general if a compound has a DBE above 4 there is a good chance that it contains benzene, (if its DBE is bellow four then obviouly it cannot contain benzene. )
+
+## IR spectra 
+IR spectra are very good at identifying specific functional groups present. 
+The absorbance spectra, resulting from the distinct absorbance of differeng bonds is plotted against wavenumber. Some frequencies absorb more than others, which forms the basis for functional group identification. 
+
+### Interaction of radiation. 
+IR radiation interacts with the vibrational level associated with bonds between atoms,i.e. bond stretching and bond bending.  The size of the dipole moment changes in the interaction. The larger the change in the dipole moment the stronger the signal. If the bond is symmetrical then there will be no IR signal, i.e. it will not absorb any IR 
+radiation. 
+
+#### Important bonds. 
+The most important bonds in IR are the bonds that stretch more or less independently of the rest of the molecule. Such bonds are bonds that are much weaker or stronger than other neighboring bonds within the molecule. Bonds in which one atom is much heavier than the other also tend to have strong and distinctive absorption patterns. 
+
+#### Peak classification. 
+Peaks are generally grouped into one of four categorized based on the extent of absorption which they represent, (i.e. how low the spectrum falls): very strong, strong, medium, and weak. Peaks may be further described as either sharp or broad depending on the range of wavelengths which are absorbed in interaction with the bond. 
+
+#### Peak position. 
+The $\bar{\nu}$ at the lowest point in a peak are taken as the peak position. The section of the spectra from $1500-400-cm^{-1}$ generally focused on as peaks in this region are easier to resolve, in the fingerprint region many overlapping and weaker peaks makes it far more difficult to identify specific bonds. 
+
+#### Equations. 
+As bond stretching is being considered Hooke's law which gives the frequency of oscillation for a spring, can be used, that is: \newline 
+
+$v=\frac{1}{2\pi}\sqrt{\frac{k}{\mu}}$\newline 
+$\rightarrow \bar{\nu}=\frac{1}{2\pi c}\sqrt{\frac{k}{\mu}}$\newline 
+where: \newline 
+$k$= The force constant. \newline 
+$\mu=\frac{m_xm_y}{m_x+m_y}$= The reduced mass (C-C:6.0, C-H: 0.92)\newline
+$m_x, m_y$ = Atomic mass of compounds x and y respectively. 
+
+From Hooke's law it can be seen that: \newline 
+$\bar{\nu}\propto$
+
+### Informational content
+The information gained from an IR spectra is information about bonds, as this is what the IR interacts with. 
+
+#### Quantitative. 
+IR spectra can be used to obtain quantitative information about the strength and or length of bonds, calculated suing force constants, however this is not the main application of IR in organic chemistry. 
+
+#### Qualitative 
+The main application of IR in organic chemistry is inferring which functional groups may be present, (which is qualitative information). 
+
+
+NOTE: The electronic component of the IR radiation is involved in the interaction, not the magnetic.
 
 
 
+### Operating range. 
+A IR spectra is typically taken over a range of $400-4000cm^{-1}$ ($\lambda$=2.5 \cdot 10^{-6}- 2.5 \cdot 10^{-5}$) 
+
+### Infra-red radiation introduces (??) tranformations in molecules. 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### Machine.
+The Infra-Red radiation used is obtained from a heated coil. This radiation passes through the sample before arriving at the detector. Some of the incident radiation is diverted to a inferometer which producer a interferogram for the source radiation. This interferogram is decoded by furier tranfer. On its way to the sample the incident beam passes through a specially shaped (normally diamond) crystal to allow for attenuated total reflection (ATR). 
 
 # Organic chemistry 
 
@@ -515,7 +551,6 @@ In cis trans nomeclature the cis conformation has groups of higher proprity on t
 The Carn-Ingold Prelog system (C.I.P rules) are used to assign priorities.  higher priority is assigned to the group which is connected by the atom with the higher atomic number, if atomic number is equal then mass number is used. If the first atom is identical then the atomic weight of the next atom in the chain is compared. multiple bonds are considered as an equvalent number of single bonds to the given atom. 
 
 If the higher priorety groups are on the same side then the molecule is in Z conformation (where Z stands for Zussamen/together). If the higher priorety groups are on opposite sides then the molecule is th the E, Enitgen conformation. 
-
 
 ##### Enantiomers (Optical isomers)
 
