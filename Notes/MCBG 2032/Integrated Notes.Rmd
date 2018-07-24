@@ -1180,7 +1180,7 @@ $v=-\frac{d[A_1]}{a_2dt}=-\frac{d[A_2]}{a_2dt}=\frac{d[B_1]}{b_1dt}=\frac{d[B_2]
 
 
 
-## Enzyme Kinetics. 
+i## Enzyme Kinetics. 
 
 ### Maximum velocity 
 Maximum catalystic rate\newline 
@@ -1272,3 +1272,159 @@ NOTE:
  $\rightarrow =$
  
 NOTE: $v_{max}$ can be approximated}
+
+## Thermodymanics. 
+Thermodynamics is the study of the flow of energy.
+Energy is obtained from food and utilised to perform biological functions.
+bioenergetics of life. 
+
+### Spontenaity. 
+Thermodynamics can be used to determine which metaloic reactions will happen spontaneously. 
+
+### Background 
+
+#### System 
+The portion of the universe which is of particular interest. 
+
+##### Isolated 
+The system can not exchange matter or energy with its surroundings. 
+
+##### Closed 
+Energy but not matter is exchanged with the surroundings. 
+
+$$$$$ OPen 
+Both energy and matter canb be exchanged with the surroundings. 
+
+$$ Thermodynamics laws. 
+
+### Fisrt Law.
+The total energy of an isolated system is constant. 
+
+### Second law. 
+The total entropy of an isolated system cannot decrease but can only remain constant in the case of a system in eqillibrium or undergoing reversible reactions, or increasing when the system is undergoing reversible processes. 
+
+## Internal energy 
+The sum of all molecular kinetic (virbtarional rotational and translational) and potential mocecular energies. INternal energy is a state function so is independant of the path taken to reach it. 
+
+$$$ Change
+The internal energy of a system may change with the transfer of energy as heat or work. 
+
+$\Delta E=w+q$ 
+
+NOTE: The units for heat work and internal energy are joules. 
+
+#### Aquisitive convention. 
+w is positive when doen on the system. heat is positive when heat is transfered to the system. 
+
+## Work 
+PRessure volume work. $w=-p_\DeltaV$
+
+$$$$Surroundings
+The surroundings are everything other than the system. 
+
+i## Enthalpy 
+At constant volume $\Delta E=q_v$
+
+$H=E+PV$ by definition. 
+
+#i## Change. 
+$\DeltaH=\DeltaE+p\Delta V= q+w+P\Delta V= q-P\Delta V+P \Deta V =q$ (As pressure is constant in a biological environment)
+$H=q_p$
+
+Volume changes are minimal in biological systems (as reactions are not often in gasseous form) so $\Delta E \approx \Delta H$
+
+$\Delta H$ is measured suing a calorimeter. 
+
+$\Delta H ^\circ = -R \frac{d(lnK_{eq})}{d\frac{1}{T}}$
+
+THe Van't Hoff plot gives delta H. 
+
+On the y $Rln{K_{eq}}$ is plotted against $\frac{1}{T}$ on the x axis. so that the sslope =$-\Delta H$
+Endothermic is the absorption of heat. 
+
+NOTE: the denaturation of an enzyme is endothermic becuase of H-bond breaking, and exposure of hydrophobic groups. 
+
+## Enzyme kinetics. 
+
+### $K_m$
+For an enzyme catalysted reaction there is first order kinetics for low concnetrations of substrate, tending towards zero order kenetics as substrate is increases to the point of enayme saturation. 
+$K_m$=\frac{V_{max}}{2}$
+
+A high $K_m$ indicates tht a lot more substrate is necessary for the enzyme to become saturated, hence it indicates a low affinity for the substrate. 
+A low $K_m$ indicates that the enzyme bcomes saturated easily and has a high affinity for its substrate. 
+
+#### favoured substrate. 
+The enzyme with the lower $K_m$ will be favoured. 
+
+$$$ Turnover number/kinetic effeciency
+Reffered to ass molecular activity ($K_{cat}$)  the turnover number indicates the maximal catalytic acitvity, defined as the number of substrate molecules converted into product per enzyme per unit time under saturating substrate concentrations. 
+
+for the reaction $E+S \rightarrow ES \rightarrow E+P$  at initial conditios $K_{-2}$ is zero and $K_{cat}=k_2$ 
+
+At saturationg substrate concentrations $v=v_{max} = K_2[ES]=$K_2[E_T]=\frac{v_{max}}{[E_T]}=k_{cat}$
+NOTE: $k_{cat}$ is a first order rate constant (with units $s^{-1}$)
+
+$k_{cat}$ is only informative at very high substrate concentrations which ins't physiological. (In the body normally $\frac{[S]}{K_M}<1$)
+Vut we knwon $V_max=k_{cat}[E_T]$
+So from mecahlis meten $v=\frac{v_{max}[S]}K_M{+[S]}$
+
+As $[S]<<K_m$ 
+
+$v=\frac{v_{max}}{K_M}$
+
+At very low substrate concentrations $E_T$=[E]
+So $v=\frac{k_{cat}}{K_m}$[E][S]
+
+$\frac{K_{cat}}{K_m}$ is second measure of effeciency. It is the apparent second order rate constant for the reaction of enzyme and substrate to give poroduct.  
+The higher this measure the better the kinetic effeciency and the berrer the affinity at low {$S}$ , i.e. the higher the catalyti effeciency of the enzyme. 
+
+#### Catalytic perfection 
+Enzymes which reach catalytic perfection are limited only by how fast the enproduct and enzyme can diffuse together. Rate of diffusion of enzyme and substrate in solution.  (maximum value is about $10^{8-9}$)
+
+NOTE: $\frac{K_{cat}{}K_m$ applies to the initial region of the [S] vs rate graph, whereas $K_{kat} reprisents the later region onces $[S]^0$ . $v_0$=k_{cat}[E]^1[S]^0
+$V_0=\frac{k_{cat}{K_m}}[S][E]$
+
+## Enzyme inhibition 
+
+### reversible 
+
+
+### reversible
+binds non eqilibrium 
+
+#### Compeditive 
+Inhibitor binds only to the free enzyme (so has to bind (often )) to the actvie site and so must look like the enzyme. 
+Compeditative inhibitors increase $K_m$ by lowering the effective substrate concentration. 
+$V_{max remains constant}$
+
+
+#### uncompeditative 
+THe inhibitor will only bind to the enzyme substrate complex. $V_max$ drops as EI complex formed which lowers [E] $K_m$ also decreases (because of the law of mass action, leads to an increase in affinity. 
+
+Line weaver burk is a series of parallel lines. $\frac{V_max}{}K_m$) the slope, does not change. 
+
+#### non compediitve. 
+Can bind to enzyme enzyme substrate or both 
+
+##### Pure 
+When the affinity for the enzyme or the enzyme substrate complex is identical it is ppure
+
+##### Mixed 
+IF the affinity for the enzyme and the enzyme substrate complex differs then the enzyme is mixed. 
+
+$$ Bisubstrate reaction 
+Two substrates interact with the enzyme 
+
+$$$ Single displacement/ sequential 
+
+### Random 
+There are two substrate binding sites, so substrates can bind in any order. 
+
+### Ordered
+Binding of one substrate inductes the formation of a second substrate binding site by a conformational change within the enzyme its.
+
+
+### Double displacement.
+Follow the pingpong method. The first substrate binds and covalently modifies the enzyme (leaves part of itself behind) . The second substrate can then bind, takes the part left by the first substrate onto itself and is then released. 
+
+

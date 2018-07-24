@@ -1789,4 +1789,5 @@ NOTE: cell wall contains periplasmic space, peptidoglycan layer nad outer membra
 NOTE: cell wall contains periplasmic space, peptidoglycan layer and outer membrane. 
 
 #### Mitochondria
-bacteria do not contain mitochondria becuase they are essentailly mitochondria (or more accurately they have a common ancestor with the mitochodria of eukarytic cells and can perform a similar respiratory process with their own cell membrane as mitochondria perform with their outer membrane. )   
+bacteria do not contain mitochondria becuase they are essentailly mitochondria (or more accurately they have a common ancestor with the mitochodria of eukarytic cells and can perform a similar respiratory process with their own cell membrane as mitochondria perform with their outer membrane. )
+
