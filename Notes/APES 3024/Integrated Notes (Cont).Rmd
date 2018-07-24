@@ -1,8 +1,7 @@
 ---
-title: "Aquatic Ecology (Cont) "
+title: "Aquatic Ecology"
 output: html_notebook
 ---
-
 ## Hydrological components. 
 
 ### Physiological conditions
@@ -120,7 +119,7 @@ expressed as 2m per 10km or as percentage or ratio.
 ## Rivers 
 how rivers are classified, by braniching network and how they accumulate flow. 
 
-#r#t# Stream water
+ ### Stream water
  Ad rate tends to decreasenumber is assigned to each branch, to reflect the draignatge area the channel dimentions and the wvater going through it per unit voulme. 
 er. 
 The discharge volume tends to increase. 
@@ -158,7 +157,7 @@ Dishcarge is often ,easured remotely with the use of gagine wears, which tempora
 (eatern cape only on main dams, as others decomissioned in the 80s
 
 A logger logs the flow depth for every hour or half hour for months, and then the data will be retrieved by an engineer. However the data is only height , so a racing curve, which has a relation of measures of height and discharge. (basically a standard curve. ))Discharge should be measured a bit before the wear as the wear retards the flwo, also in a riffle/rapid there is too much turbulance, so a smooth depp laminar flow is best. N
-
+ 
 NOTE: the volume is the same thrtought but some areas are more accurate to measure. 
 =======
 expressed as 2m per 10km or as percentage or ratio. 
@@ -299,11 +298,161 @@ Plots water flow against time, in a flood a rapid increase (rising limb) is seen
  
  The shape of the gaging wier is also important, if there is more catchment closer than further away then the majority of the drained water is being drained closer to the wier (the majority of drainage density is close to wear), the peak will be sooner, conversely if the drainage density is concentrated further waay the peak will be lower. If there are two distinctive drainage areas one closer and on efurther there will be two peaks (a bimodal responce.) A higher drainage density leads to a higher peak. 
  
- In a trelliced catchment there is a much smaller area that can actually e drained leading to a lower hydrograph. 
- # BAnk full flodd
- Will full up the entire bank fuulled area , occurs about every year. 
+ In a tttrelliced catchment there is a much smaller area that can actually e drained leading to a lower hydrograph. 
+ # BAnk lefull flodd
+ Wilrl full up the entire bank fuulled area , occurs about every year. 
  
- ### CAtsstrophic 
+ ### Catostrophic 
  About every 50 years,the depth is twice as high, as the normal one. 
 
+Lots of recently deposited material in the storage zone is an indication of a lot of flooding in the hydrology of the river. 
+
+NOTE:o South Africa is a very ancient landscape, and so very stable with less obvious terraces. In newzeland however the land scape os very young geologically speaking, so more radical geological features surrounding rivers are present. 
+
+COPY IMAGE.
+ #. Flat valley bottom 
+ #. little 
+ berms on either side of the main river channel. (Alluvial berms are constantly changing as the river path deviates sloghtly from side to side cutting into th terraces over time) 
+ #. Riparian welotlands
+ #. Theer.  water table is still very close to the surface even at some distance  from the rivers edge which allows for the survival of endemic wetland plants which require water logged soil. 
+
+ Even if the geology around a river is not distonctive the vergitation around it will be, as there is a c;ear difference in composition and structure going up from the edge of the river up slope. (even when the slope is not particularly steep. There are thwo primary causes for this change, water availability and flood disturbance. 
+the 
+ #### Water availabili
+ the water table is closer tp the surface closer to the river. 
+
+ #### Flood disturbance 
+ Strong floods can uproot grasses anf bushes but larger trees will be far more resistant to disturbance. Trees further back will be less resistant to flooding than those dirrectly in or along the river channel. 
+
+ COPY IMAGE. 
+Futhermore due to the alluvial deposits the soil alongside the stream has a higher nutrient concentration. Soil quality in addition to water availbility helps to create the sharp distinction to between the terrestrial and riperian zone. 
+
+## Savannah hydrology 
+
+$$$ Catena 
+A catena is a chain of soils linked by topography.
+
+Soil moisture and nutrient concentration varies from hill tops to valley bottoms as a result of errosion, with higher moisure and nutrient concentration moving downwards. 
+
+$$$$ Formation 
+Catena formation is driven by the natural processes of wind and water errosion, operating over thousands of years. (Catena formation is not associated with catestrophic flooding, so no alluvial deposits are formed. After hundereds and thousands of years have passed the landscape comes to eqillibrium with the rate of deposition matching the rate of errosion. 
+
+#### Vegitation 
+The Catena drives the types of vegitation found. 
+COPY Image. 
+Baked ion/clay soils by the seepline block the infiltration of water, driven by hard rock materials. Broad leafed unpallatable trees grow on the hill tops with fine leag, pallatable trees in the velley bottoms, closely associated with the Raperian Zone. Variation within tree type is driven by interactions between the Catena and the raperian zone. 
+
+### Drainage network. 
+
+##t## Longitidinal
+Increasing influence of fluvianl forms (i.e. terraces.)
+heaf
+#### Transeverse. 
+There is a lateral decrease in fluvial depositis moving uphill from the river. 
+
+#### Combined affect. 
+In the hills, by the streams headwaters there are no alluvial deposits (sediment is removed from this zone not diposited), so no real physical heterogenaity exists, there is no obvious Raperian zone and only terrestrial life forms, i.e. broad leafed trees are present. 
+
+Lower down, by the valley bottom, alluvaial deposits are present as well as backswamps and berms. Additional there is enough space now for a Catena gradeint to develop leading down towards the river, which in conjunction lead to much greater variation between the Raperian and terrestrial zones.
+
+
+# Diversity of freshwater organisms. 
+
+## Biodiversity 
+Biodiveristy can be considered at a number of different levels, some important measures of diversity to consider are: 
+
+ #. Species richness.
+ #. Relative abundance.
+ #. habitat diversity 
+ #. genetic diversity. 
+ #. Behavioural diversity. 
+
+ In short biodiverity is everything which contributes to variation/variety within a ecosystem
+
+### Species diversity 
+Species diveristy can be evalutated in different terms. 
+
+#### Species richness. 
+Species richmess is simply a measure of the number of distinct species within a given ecosystem/area. 
+
+#### Endemism. 
+Endemism is a measure of how spacially restricted somed species are. A ecosystem with a high number of organisms restricted to it will have a high endemism and so will  be important with respect to conservation biology. 
+
+### Marrine systems. 
+Marrine system tend to be more diverse in regard to higher taxa (i.e. classes and orderes as a pose to species), which means they are, in some regard at least more diverse. For example seas contain many differnt phyla, such as echinoderms, jayfish, and authropodds. 
+
+### Drivers. 
+The patterns seen in biodiversity are driven by biological processes, (operating at different size and time scales. ) Organisms are adapted to the condition in which they live and the resources avaiable to them, which consitutes their fundamental niche. A organism can only survive in a limitted range of variations around this niche. The morphology, behaviour, and life history of an organism is reflect its adaptions to its environment, and also the adaptions of its ancestors. 
+
+For example, The mayfly, has over millions of years develped a effecient body shape. the phylogeny refelcts the modern morphology. Habitat range and currentl geographical ditributaion are reflections of historical events and environmental constraints and opotunities. 
+
+### Fresh water organisms. 
+Early evolution of all major phyla occured in the sea. Most phylla evolved in the cambrain explosion (which was an exclusively marrine event). 
+
+### Colonisation of land and freshwater. 
+
+#### Dirrect upstream 
+Some animals entered freshwater from the marrine environment dirrectly by swipping upstream from esturies. Prosobranch snails (snails with a gill) plathyelminths, ologocheate, and crustaceans are examples thereof. 
+
+#### Through terrestrial 
+Some animals first entered the land and addapted to terrestrial living before later on adaption to a freshwater environment. Insects, flowering plants (actually evolved on land full stop), lunged snails, birds, mammals and reptiles are examples there of. 
+
+NOTE: there organisms often do not live perminantly in the water using it primarily just to feed. 
+
+#### Moviment in ice 
+Movement of ice over the surface of the land, in the northern hemishpere during the ice ages, folled by the formation of lakes as the ice receeded could have isolated organisms is the newly formed salt water lakes which later become freshwater. 
+
+NOTE: Insects have not re-entered the sea, but have entered freshwater environments, for several reasons:
+ #. There are many other authropods (crustaceans such as decapods/shrimp))already filling the niches which insects would fill, so the competition would be intense. 
+ #. Insects reproductive strategy involves egg laying, and eggs would get damaged in rocky shore of stormy sea environments. 
+ #. Insects live partly on land, which is difficult in the middle of the ocean. 
+
+All in all after terrestrial adaptation the marrine environment proved too hostile and compeditive, the freshwater did not. 
+
+## Plate techtonics. 
+Plate techtonics is well decribed since the Permean period, 286mya. The terrestrial world was all goined to from one large landmass, Pangea at this point, surrounded by the oceans. 
+
+Pangea broke up just north of the equator to form Lurasia and Gondwana land, and the tethys sea was formed. Critically this change lead to a change in hwo water flowwed from the north to the south poles, and a change in migratory patters, which lead to the splitting of phylogenies. 
+
+## Vaceriance. 
+Vacarinence is the formation of new species by the imposition of a physical barrier which lead to reproducive isolation of differnt populations of the species. 
+
+For example, the genetic phylogeny of Chiroomids, (non biting midges) which are very abundant in freshwater systems can be used to track the continental rearrangmenr. 
+ 
+ #. South africa split from antartica. 
+ #. new zeeland slipt from antartica. 
+ #. Australian and east antartica split off from south america and west antartica. 
+ 
+ NOTE: the relatively shallow divergence between Africa and Lurasia is explaned by the fact that theses continents crashed into eachother again laer on, at which point chiomoods species again mixed and interbred. 
+
+## Climate change 
+Climate change can change the shape and extent of dryland, primarily through changing seas levels. Climate change occurs at different rates in different peridos, it has occurred at a relatively rapid rate for the last 30 million years. 
+
+### River capture. 
+Due to fluctuations in geographic shape and sea level, river patterns can change. 
+In the early plastocease the whole of the aguleus bank was drained by the old fish river which flowwed over namibia. Th organhe river connected to the olifancts and entered the sean west of langerbaan. Then the sea levels rose and the orange river changed its course capturing the fish river. Vacarience then occured in the Olifants and Orange rivers. 
+
+For example catfish, Austroglonidid. evolded in the ancinet orange/ olifants system, In the modern Olifants an alleopathic species arose endemic to the Orange (orange/vall catfish), and one endemic to the Olifants (clanwilliams catfish)
+
+### Great lakes. 
+In Africa the great lakes, Victorial, Malawe, and Tangnyito show very high levels of diversity. 
+
+COPY diagram 
+
+In particular there is high diversity in chiclids in Lake Malawe. Many different species f chiclid are present, differentaied predominatel by mouth shape. For example there are, scael eaters, eye bites mullosuc crushes, vegitation eaters, etc. Chiclids from the sub family Haplochromine are the root othe the diversity. This diveristy is facillitated by the short generation times of such fish, as well as maternal brooding (where the eggs, and even sometimes the young fish are brooded in the mother's mouth, or nest gaurding (usually  by the father.), Becuase of this reporductive behaviour different species do not intermix. The basic adaptable body plan of the fish allows it to ocupy any given general niche, and its mouth parts can be optimised to avoid competition within this general niche. 
+
+The phsyical drivers of speciation in this case, could be classic alleopathic specieation in rivers followed by colonisation of the lakes or more porbably micrographic speciation within the lakes themselves, dirven by changes in lake levels leading to isolation of groups for periods long enough for speciation to occur. (the time required is shortened considerable by the specific morphological and behavioural adaptions of these fish)
+
+NOTE: river capture occurs when a river changes its course and flows into anther river. 
+
+### History 
+In was long oberved by scientists that South america fit rather neetly into Africa, and based on this the theory of continental drift was proposed. However it was not until after WW2 that any mainstream credence was given to this theory. in WW2 antisubmarine sonar technology was developed, which was later used to map out the ocean floor. Large ridges along the ocean floor were discovered
+
+COPY IMAGE. 
+
+These ridges were caused by magma from the center of the earth swelling up, and cooling forming new rock in the process and pushing the old rock asside to make way, which has the effect of pushing the contintents further apart. Continents can also be brough together if two plates meet and one slodes under the other. 
+
+
+#### True Dirrect 
+A very small number of organisms may have evolved dirreclty in freshwater systems.  
 
