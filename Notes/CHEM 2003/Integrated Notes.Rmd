@@ -486,7 +486,8 @@ $\mu=\frac{m_xm_y}{m_x+m_y}$= The reduced mass (C-C:6.0, C-H: 0.92)\newline
 $m_x, m_y$ = Atomic mass of compounds x and y respectively. 
 
 From Hooke's law it can be seen that: \newline 
-$\bar{\nu}\propto$
+$\bar{\nu}\propto k^\frac{1}{2}$
+
 
 ### Informational content
 The information gained from an IR spectra is information about bonds, as this is what the IR interacts with. 
@@ -496,17 +497,54 @@ IR spectra can be used to obtain quantitative information about the strength and
 
 #### Qualitative 
 The main application of IR in organic chemistry is inferring which functional groups may be present, (which is qualitative information). 
+Different functional groups have very characteristic IR absorption signals.
+The average positions of many functional groups are listed in correlation tables/charts. 
 
+COPY IR chart. 
 
 NOTE: The electronic component of the IR radiation is involved in the interaction, not the magnetic.
 
+#### Key peaks to memorize. 
+
+##### Stretching vibrations. ($4000-1500cm^{-1}$)
+
+##### Stretches and bends $<1500$
+Other C-X bonds such as C-O stretches and C-F or C-Cl. 
+
+NOTE: this region is known as the fingerprint region and isuseful in matching spectra. 
+
+### Vibrational energy levels. 
+Vibrational energy levels can be as-sociated with change in bond length and bond angle, stretching requires more energy than bending, (i.e a higher wavenumber.)
+
+#### Polyatomic molecules
+Neighboring bonds in a molecule influence each other, which can result in a cummulative / knock-on effect. Independent combinations of vibrational motion are called normal modes of vibration. 
+
+For example, the wavelength absorbed by the C-H bond differs for differnet molecular surroundings as follows: 
+	
+ #. Alkanes:
+ #. Alkenes
+ #. Alkynes
+ #. Aromatics. 
+
+#### Normal modes of vibration 
+
+##### Symettrical stretching 
+
+##### Asymetrical strerching. 
+
+##### Scissoring
+
+##### Rocking 
+
+##### Wagging 
+
+##### Twisting. 
 
 
 ### Operating range. 
 A IR spectra is typically taken over a range of $400-4000cm^{-1}$ ($\lambda$=2.5 \cdot 10^{-6}- 2.5 \cdot 10^{-5}$) 
 
 ### Infra-red radiation introduces (??) tranformations in molecules. 
-
 
 
 ### Machine.
@@ -575,7 +613,7 @@ optically active substances will rotate plae polerised light. A Racemic mixture 
 
 NOTE: A Racemic mixture is a mixture containing an equal concnetration of both enantomers. 
 
-### Nomecalture. 
+### Nomencalture. 
 The + or - is prefixed to the compound name. The problem is that the + and - configuration are determined experimentally and cannot be determined dirrectly from the steriochemistry around the steriocenter.
 
 A new system was developed to overcome this problem, the process for which is as follows. 
@@ -601,7 +639,69 @@ For a diassteriogentic centres there are a maximum of $2^n$
  stereoisomers. Half of these will be enantomers of the other half. 
 all of the other relationships are diateriomers. 
 
+## NMR. 
+
+ ### SAmple preparation. 
+COPY Image. 
+Sample in a tube which spins rapidly, and is often in solution (solid state NMR is possible but not often used). The solvent must be chosen so as not to interfere. 
+
+The most common solvent is deuterated chloroform. ($CCl_4$) is toxic, $D_2O$ and $CD_3CO_D$ are also used. (and several others copy)
+
+# ## Electromagnet
+jacket of liquid helium, and jacket of liquid nitrogen. 
+
+## # Analysis
+
+#### Number of signals
+
+##### Chemical shift. 
+Gives information about the groups surrounding the proton in question. Each different chemical environment gives a signal.
+The first question is are the nuclei in question readily chemically distinguishable. In general it is easy to tell groups apart but more difficult within a group all attatched to the same atom and constantly rotating, (NMR cannot distinguish between them either). For all chemically equivalent  hydrogens/nuclei only one peak will be seen. For each set of protons in a unique environment a different peak will be seen.  The smae will apply to $^{13}C$ carbons. 
+
+The height of the signal depends on the time of relaxation to ground state, as a general rule quanternary carbons will relax slower giving s smaller peak. 
+
+#### Symmetry 
+Symmetry implies there will be different nuclei in identical environments. 
+
+In summary the position of signals depends on the environment of the nuclei, and the number of signals depedns on how many nuclei are non equivalent. 
+
+#### Restricted rotation. 
+Around a double bond consideration must be given as to what a given nuclei is cis and trans to. / 
+
+NOTE: look at Claden the second addition. 
+
+NOTE: even very similar groups which have a environment which differes to any degree will give a peak.
 
 
+### Shielding. 
+Electrons are charged and moving so can set up their own field around the carbon nucelus which will slightly modify the strength of the applied field felt. As a general rule the tiny local magnetic fields that are set up oppose $H_0$. So the effective field is $H_{\text{overall}}=H_0-H_\text{electrons}$. 
 
+The extent of the field  reduction depends on the density of the electron cloud.
+
+Each nuclei experiences a different magnetic field, even though the external field is the same and therefore each nucleus resonate at its own frequency. 
+deshielded implies more of the applied field is felt. 
+
+### Chemical shift. 
+The scael is universal so adjusts to the strength of the magnetic field.  ie at 60mHz 1$\delta$ unit = 60Hz, at 300mHz 1 delta unit = 300Hz. , in general $\delta $ = 1 part per million. 
+
+
+##### Referecne compound 
+The compound tetramethylsilane the $\delta$ of $^{29}Si$ $^1H$ and $$^{13}C$$ are by definition given as zero.  by definition $\delta =\frac{frequency(Hz)-frequency TMS (Hz)}{instrument operating frequency MHz}$ 
+Typically H is between 0 and 10 and $^{13}C$ $0<\delta <220$
+
+
+NOTOE: the NMR is callibrated with tMS to give the zero reference value. with shielding $\delta$  will decrease this is upfield, conversely deshielding leads to increase in deshilding moving the peak downfield. 
+
+ANy carbon nucleus surrounded by protons is normally fairly shielded as the protons share electrons about equally with the carbon. If the carbon is bonded to a electronegative atom deshielding will occur, conversely if the carbon is bonded to an electropositive atom it will be more shielded, as its electron cloud will be pulled closer to it. 
+
+#### Electroinductive effect. 
+Electronic effect transmitted through neighboring $\sigma$ bonds . the effect is still significant for about three bonds down the line. 
+
+NOTE: the effect is additive. 
+
+#### Unsaturation 
+A ring current develops in the ring of an aromatic in this case the induced field of the $\pi$ electrons reinforces and does not reduce the applied magnetic field.
+The same is true of alkenes, and in general all unsaturated compounds. 
+
+NOTE: the protons of aldehydes are extrememly deshilded 
 

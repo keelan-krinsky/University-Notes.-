@@ -1,73 +1,100 @@
 ---
-title: "Tut Problems"
-output: html_notebook
+title: "Organic Chemistry: Tut Problems"
+output: html_document
 ---
 
 ## Tutorial one. 
 
 ### Question 1. 
 
-column 1  Spectral region
- #. Visible
- #. microwaves
- #. radiowaves.
- #. Infrared 
- #. Ultra Violet. 
+.
+.
+.
+.
 
- column 2 Type of transition. 
- 
- #. Electron
- #. 
- #. Electron of proton spin magnetic transitions. 
- #. Bond stretch and bending
- 
- Column 3 $\lambda$
- 
- #. 500nm
- #. 3.00cm
- #. 3m
- #. 0.01mm
- #. 239nm
- 
- Column 4 $v/Hz$
- 
- #. $6.00 \cdot 10^{14}$
- #. $1\cdot 10^{10}$
- #. $10^8$
- #. $3\cdot10^{13}$
- #. $1.25 \cdot 10^{15}$
- 
- 
- Column 5 $\bar{\nu}/cm^{_-1}$
- 
- #. $2.00 \cdot 10^{4}$
- #. $3.33 \cdot 10^{-1}$
- #. $3.33 \cdot 10^{-3}$
- #. $1 \cdot 10^3$
- #. $4.18 \cdot 10^4$
- 
- Column 6 $E/J$
- 
- #. $3.97 \cdot 10^2$
- #. $6.626 \cdot 10^{-24}$
- #. $6.626 \cdot 10^{-26}$
- #. $1.988 \cdot 10^{-20}$
- #. $8.30 \cdot 10^{-19}$
- 
- Column 7 E/ kJ \cdot mol^{-1}
- 
- #. $2.39 \cdot 10^2$
- #. $3.99 \cdot 10^{-3}$
- #. $3.99 \cdot 10^{-5}$
- #. $11.97 \cdot 10^{1}$
- #. $5.00 \cdot 10^2$
+. 
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+.
+.
+.
+.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
 ### Question #2
 
-```{r, ehco=False}
+```{r, echo=FALSE}
 e<-c(3*10^8/(300*10^(-9)))*6.626*10^(-34)
-e
-
 b<-c(299/(6.022* 10^(20)))
      
 ```
@@ -79,7 +106,7 @@ Yes as a single photon of the incident light contains more than enough energy to
 ### Questions #3
 $A\-log(T)$
 
-```{r}
+```{r, echo=FALSE}
 T1<-round ((10^(-0.1)), digits=1)
 T2<-round ((10^-(0.5)), digits=1)
 T3<-round ((10^-(1)), digits=2)
@@ -132,7 +159,7 @@ $C_{8}H_{8}BrCl$
 
 $DBE=\frac{H_t-H_a-Hal+N}{2}=\frac{18-8-2}{2}=4$
 
-Potential function groups \newline
+Potential functional groups \newline
 
  #. benzene 
  #. bromoalkane (/ene)
@@ -209,5 +236,48 @@ The functional group present is a primary alcohol.
  #. peak four $\approx 2100cm^{-1}$ C$\equiv$C of an alkyne. 
  
  Therefore the functional group contained is an alkyne, (not ethyne).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  

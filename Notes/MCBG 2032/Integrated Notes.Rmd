@@ -1327,7 +1327,7 @@ At constant volume $\Delta E=q_v$
 
 $H=E+PV$ by definition. 
 
-#i## Change. 
+#### Change. 
 $\DeltaH=\DeltaE+p\Delta V= q+w+P\Delta V= q-P\Delta V+P \Deta V =q$ (As pressure is constant in a biological environment)
 $H=q_p$
 
@@ -1427,4 +1427,82 @@ Binding of one substrate inductes the formation of a second substrate binding si
 ### Double displacement.
 Follow the pingpong method. The first substrate binds and covalently modifies the enzyme (leaves part of itself behind) . The second substrate can then bind, takes the part left by the first substrate onto itself and is then released. 
 
+## Thermodynamics second law. 
+The entropy of an isolated system can only decrease or remain constant (in eqillibrium or when reversible processess aer taking place. )Entropy reprisents energy dispersion. 
+
+$S=kln(W)$
+where w is the number of microstates
+
+Moving from disorder to order requires energy input in the form of work. (this is of particular importance in a biological system where reactions, at least catabolic reactions involve the formation of highly ordered macromolecules. 
+
+### Third law 
+S=\idsplaystyle\int ^T _0 C_pdlnT )$ the absolute entropy of a perfect cystal at zero degrees kalvin is zero. . 
+
+
+### Heat capacity 
+$C_p=\frac{dH}{dT}$
+
+the heat capacity is the amount of heat required to increase 1 mol of substance by one degree. 
+
+#### $\Delta C_p$ 
+Positive change implies more heat stability. which implies that the molecules have new ways to move so more enrgy can be added for a temperature increase. Conversely if the change in $C_p$ is negative there are less ways of motion. 
+
+### Free energy 
+The free energy gives the spontenaity of the reaction
+
+$\Delta G=\\Delta H -T\Delta S$ when change in gibbs free energy is zero the enthalpic and entropic compoents are equal. at this point the reaction is at eqilibrium. A spontaneous/ exogonic reaction has a negative $\Delta G$ 
+
+NOTE:remeber the $\Delta G$ indicates the enrgy change between the reactants and products. 
+
+If $\Delta H$ is positive the reaction is said to be enthalpically opposed, or in the case of  negative $\Delta S$  the reaction is entropically opposed. (the opposite of opposed is favoured. 
+
+Free energy entropy are temperature dependant, so the temperature range of the experiment must be specified. backspace32
+
+#### for non standard conditionbackspace32
+
+$\Delta G= \Delta G ^\circ RTln(\frac[C][D]){[A][B]}$
+
+$\Delta G =-RTln (K_{eq})$
+
+In biological conditions we use a modified standard state $\Delta G^\circ '$ which means pH is at seven .
+
+
+NOTE: a comparison of several thermodynamic parameters can give a reasonable idea of the reaction, one on its own is not particularly useful. 
+
+ie for protien unfolding, $\Delta G$ is positive, $\Delta S$ will be positive. 
+
+
+## Analysis of processes according to thermodynamics. 
+Determine entropically and enthalpically opposed /favoured. If a reaction still occurs it can be called enthalpically/entropically driven. 
+Th dissolution of a polar substance in water leads to a decrease in heat capacity whereas the dissolution of a non polar substance increases the heat capacity, this is becuase during solvation the water molecules form a solvation/hydration shell around polar substances reducing the freedom of their moviment. 
+In the case of hydrophobic molecules water formes an ordered cage, clathrate cage, around the hydrophobic molecules, interacting with eachother as a pose to the hydrophobic molecule. The clathrate is more laible (that is more free to exchange hydrogen bonds. Liable waters result in a positive change in heat capacity because they have more ways to store energy. )
+
+Protein folding. There are more hydrophobic groups exposed as a protein unfolds, leading to increase in the $C_p$, conversely when a portein folds these groups are removed from solution and therefore the heat capacity decreases. (also freedom of movement of the protein) 
+
+NOTE: the hydration shell is not just the water dirrectly in contact with the ion but also in layers outwards as if the shell orientates one way then the outside ones also orientate with respect to those. 
+
+NOTE: remember all of the thermodyamic parameters are constant. 
+
+
+NOTE: Pracs start at 2, test covers everything done in enzymes connetcs, but focussed on the lab and there is lab prep work. 
+
+NOTE: water will formed orded shells areound charged ions making them more ordered. 
+
+
+
+NOTE: remember $\Delta G$ gives an indication of the eqillirium position. 
+
+
+### Biological energy flow. 
+The vast majority of energy derrives from the sun 
+
+#### phototrophic organisms. 
+Absorb energy from the light energy directly and store it in the form of various organic molecules. 
+Energy is released in cotrolled exergonic reactions taht drive other reactions requiring energy (endergonic reactions)(i.e. there is an energy flow between exergonic and endergonic reactions. Mediated by a small number of biomolecules. (high energy). chemical energy is released in controlled spontanious reactions driven by  exergonic reactions that drive life. High energy molecules react spontaneously with a substance in the environment with high $\Delta G ^\circ '$ values,releasing large amounts of energy. The environmental molecules are most mcommonly oxygen, the most common high energy organics are the reduced coenzymes. $NADH, NADPH, FADH_2$. Water is another common environmental molecule, which phosphate compounds (ATP) of thioesters, such as acetyl coA. 
+
+NOTE: ATP does not have the highest energy of hydrolysis or the lowest, with regard to the energy shuttle mollecules, ie it is intermediate. This is important as it can take nergy from very high energy phosphates and release energy to from lower energy phosphate compounds. Because energy can be tranferred by ATP in this way it is known as the energy currency of the cell. 
+
+
+### Chemoheterotrophes. 
+Comsume the organicm molecules and release the stored energy in a series of oxidative reactions. 
 
