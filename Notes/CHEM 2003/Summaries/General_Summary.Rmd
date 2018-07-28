@@ -1,0 +1,10 @@
+---
+title: "CHEM 2023 Summaries"
+Output: html_document.
+---
+
+# Spectroscopy 
+
+## Background
+Spec (set tec, res mols to E(EM+measure res))\newline 
+EM (M+E, orthog,eachother +dir prop)

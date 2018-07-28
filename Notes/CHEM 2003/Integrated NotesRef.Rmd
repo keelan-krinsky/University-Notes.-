@@ -7,7 +7,7 @@ output: html_document
 
 import Modules/EMRad as EMRad
 
-# Authors 
+# Authors
 Keelan,Tanner
 
 
@@ -65,17 +65,17 @@ P orbitals have three possible orientations
 
 X,Y,Z
 
-![p orbital orientations](Images/dOrbitalOrientation.jpg){width=50%}
+![p orbital orientations](Integrated NotesRefPics/dOrbitalOrientation.jpg)
 
 D orbitals have five possible orientations
 
 $xy,xz,zy,z^{2},x^{2}-y^{2}$
 
-![d orbital orientations](Images/dOrbitalOrientations.jpg){width=50%}
+![d orbital orientations](Integrated NotesRefPics/dOrbitalOrientations.jpg)
 
 F orbitals have seven possible orientations.
 
-![forbital orientations](Images/fOrbitalOrientations.png){width=50%}
+![forbital orientations](Integrated NotesRefPics/fOrbitalOrientations.png)
 
 
 
@@ -224,9 +224,9 @@ hard
 ###### non metals and non metals
 volatile
 
-![MetallicCharacter](Images/MetalsPeriodicTable.jpg){width=50%}
+![MetallicCharacter](Integrated NotesRefPics/MetalsPeriodicTable.jpg)
 
-![MetalsAndNonMetals](Images/MetalsVennDiagram.jpg){width+50%}
+![MetalsAndNonMetals](Integrated NotesRefPics/MetalsVennDiagram.jpg)
 
 
 ## Atomic properties
@@ -239,7 +239,7 @@ increases down group and decreases across period.
 
 this trend is offset between strontium and barium because $Z_{eff}$ is increased as there are more protons but few effectively shielding electrons. For orbitals are very bad at shielding (?)
 
-##### Lanthanoid Contractions  
+##### Lanthanoid Contractions
 D block elements don't tend to expand or shrink properly
 
 #### Covalent radius
@@ -312,7 +312,7 @@ small highly charge cations have high polarisability.
 
 ## Electron structures
 
-###Lewis structures.
+### Lewis structures.
 A covalent bond is formed when two neighbouring atoms share an electron pair.
 
 #### The Octet Rule
@@ -352,7 +352,7 @@ non bonding electrons have a greater repellent force, hence their position equat
 
 Bonding pair are also physically smaller than non bonding pairs.
 
-![Bonding vs Non Bonding Pairs ](Images/BondingVSNonBonding.jpg){height=50%}
+![Bonding vs Non Bonding Pairs ](Integrated NotesRefPics/BondingVSNonBonding.jpg)
 
 #### Bond Angles
 
@@ -374,67 +374,83 @@ Bonding pair are also physically smaller than non bonding pairs.
 
 This table is fucked, it will not display for shit*
 
-![ElectronDomainGeometry](Images/CompoundGeometry.jpg)
+![ElectronDomainGeometry](Integrated NotesRefPics/CompoundGeometry.jpg)
 
  
 
-# Spectroscopy 
+# Spectroscopy
 
 ## Background
 Spectroscopy is a set of techniques in which the response of molecules to the input of energy is measured. Electromagnetic radiation is applied to compounds and the interaction of this radiation with the compound is then observed. 
 
-###__EMRad:Electromagnetic waves__ 
+>### Electromagnetic waves
+>
+>#### Wave nature.
+>Electromagnetic waves consist of and electric and magnetic field which oscillate orthogonally to each other, and orthogonally to the direction of propagation of the wave. 
+>
+>#### Wavelength
+>Wavelength is donated by $\lambda$ and measured in meters (sometimes nm are used such as when UV or visible light is being discussed). 
+> 
+>#### Velocity
+>Speed is donated by $c$. The speed of light in a vacuum ($c_0$) is constant ($3.00 \cdot 10^{8}m\cdot s^{-1}$), normally the speed of light is given in $m\cdot s^{-1}$ 
+>
+>#### Frequency
+>frequency is donated by $\nu$ (?) and is measured in Hertz (Hz) that is $s^{-1}$
+>
+>#### Wavenumber
+>
+>Wavenumber is donated by $\overline{\nu}$, and is the reciprocal of wavelength. It is measured in $cm^{-1}$ and used most commonly in IR spectra. 
+>
 
 ### Particle nature.
 Photons are particles of light. There particles posses a distinct quantised energy given by $E=h\nu$ 
 
 
-### Gamma rays. 
+### Gamma rays.
 The energy of photons is too high breaking up molecules changing their structure. 
 
-### X rays. 
+### X rays.
 The energy of photons is too high breaking up molecules changing their structure. 
 
-### Ultra violet and visible light. 
+### Ultra violet and visible light.
 Affect the valence electrons of molecules exciting them to a higher state. 
 
-## Infra red 
+## Infra red
 Interact with bond stretch, affecting virational energy levels. 
 
-### Microwaves. 
+### Microwaves.
 Affect bond bending. 
 
-#### radiowaves. 
+#### radiowaves.
 Affects the erergy levels associated with the magnetic field which is associated with electron, or protons within the nucleus.
 
 
-## Obtaining spectra. 
-
-## Double bond equivalents. 
+## Obtaining spectra.
+## Double bond equivalents.
 The advantage of double bond equivalents is that they can be used to at least propose several possible structure for a compound. The presence of several structural components including double or triple bonds, cyclic compounds and aromatic rings can be speculated, and the related functional 
 groups identified. 
 
-### Aromatics. 
+### Aromatics.
 The DBE for a benzene ring is 4, and in general if a compound has a DBE above 4 there is a good chance that it contains benzene, (if its DBE is bellow four then obviouly it cannot contain benzene. )
 
-## IR spectra 
+## IR spectra
 IR spectra are very good at identifying specific functional groups present. 
 The absorbance spectra, resulting from the distinct absorbance of differeng bonds is plotted against wavenumber. Some frequencies absorb more than others, which forms the basis for functional group identification. 
 
-### Interaction of radiation. 
+### Interaction of radiation.
 IR radiation interacts with the vibrational level associated with bonds between atoms,i.e. bond stretching and bond bending.  The size of the dipole moment changes in the interaction. The larger the change in the dipole moment the stronger the signal. If the bond is symmetrical then there will be no IR signal, i.e. it will not absorb any IR 
 radiation. 
 
-#### Important bonds. 
+#### Important bonds.
 The most important bonds in IR are the bonds that stretch more or less independently of the rest of the molecule. Such bonds are bonds that are much weaker or stronger than other neighboring bonds within the molecule. Bonds in which one atom is much heavier than the other also tend to have strong and distinctive absorption patterns. 
 
-#### Peak classification. 
+#### Peak classification.
 Peaks are generally grouped into one of four categorized based on the extent of absorption which they represent, (i.e. how low the spectrum falls): very strong, strong, medium, and weak. Peaks may be further described as either sharp or broad depending on the range of wavelengths which are absorbed in interaction with the bond. 
 
-#### Peak position. 
+#### Peak position.
 The $\bar{\nu}$ at the lowest point in a peak are taken as the peak position. The section of the spectra from $1500-400-cm^{-1}$ generally focused on as peaks in this region are easier to resolve, in the fingerprint region many overlapping and weaker peaks makes it far more difficult to identify specific bonds. 
 
-#### Equations. 
+#### Equations.
 As bond stretching is being considered Hooke's law which gives the frequency of oscillation for a spring, can be used, that is: \newline 
 
 $v=\frac{1}{2\pi}\sqrt{\frac{k}{\mu}}$\newline 
@@ -451,10 +467,10 @@ $\bar{\nu}\propto k^\frac{1}{2}$
 ### Informational content
 The information gained from an IR spectra is information about bonds, as this is what the IR interacts with. 
 
-#### Quantitative. 
+#### Quantitative.
 IR spectra can be used to obtain quantitative information about the strength and or length of bonds, calculated suing force constants, however this is not the main application of IR in organic chemistry. 
 
-#### Qualitative 
+#### Qualitative
 The main application of IR in organic chemistry is inferring which functional groups may be present, (which is qualitative information). 
 Different functional groups have very characteristic IR absorption signals.
 The average positions of many functional groups are listed in correlation tables/charts. 
@@ -463,10 +479,9 @@ COPY IR chart.
 
 NOTE: The electronic component of the IR radiation is involved in the interaction, not the magnetic.
 
-#### Key peaks to memorize. 
+#### Key peaks to memorize.
 
 ##### Stretching vibrations. ($4000-1500cm^{-1}$)
-
 ##### Stretches and bends $<1500$
 Other C-X bonds such as C-O stretches and C-F or C-Cl. 
 
@@ -485,62 +500,53 @@ For example, the wavelength absorbed by the C-H bond differs for differnet molec
  #. Alkynes
  #. Aromatics. 
 
-#### Normal modes of vibration 
+#### Normal modes of vibration
 
-##### Symettrical stretching 
-
-##### Asymetrical strerching. 
-
+##### Symettrical stretching
+##### Asymetrical strerching.
 ##### Scissoring
-
-##### Rocking 
-
-##### Wagging 
-
-##### Twisting. 
-
-
-### Operating range. 
+##### Rocking
+##### Wagging
+##### Twisting.
+### Operating range.
 A IR spectra is typically taken over a range of $400-4000cm^{-1}$ ($\lambda=2.5 \cdot 10^{-6}- 2.5 \cdot 10^{-5}$) 
 
-### Infra-red radiation introduces (??) tranformations in molecules. 
-
+### Infra-red radiation introduces (??) tranformations in molecules.
 ### Machine.
 The Infra-Red radiation used is obtained from a heated coil. This radiation passes through the sample before arriving at the detector. Some of the incident radiation is diverted to a inferometer which producer a interferogram for the source radiation. This interferogram is decoded by furier tranfer. On its way to the sample the incident beam passes through a specially shaped (normally diamond) crystal to allow for attenuated total reflection (ATR). 
 
-# Organic chemistry 
+# Organic chemistry
 
-## Course Background. 
+## Course Background.
 
-###  Lecturer
+### Lecturer
 Dr Kennedy Ngwira, C407, Dr Amond Rouseou. C503. 
 
-### Isomers. 
+### Isomers.
 
-#### Structural isomers. 
+#### Structural isomers.
 Structural isomers are compounds with the same atomic composition and molecular formula, but different atomic arrangments.
 
 #### Structural isomers
+#### Stereo isomers.
 
-#### Stereo isomers. 
-
-##### Conformational 
+##### Conformational
 Conformational isomers are characterised by free rotation around a particular (C-C) bond, hence at least one single bond is required in the structure. Due to the free rotation the different isomeric forms can be rapidly interconverted. 
 
-###### Staggered 
+###### Staggered
 In eclipsed conformation, when view along the axis of the bond the groups attached to the atoms of the bond do not lie dirrectly behind eachother but are displaced by a given angle ($60^\circ$) 
 
-###### Eclipsed. 
+###### Eclipsed.
 In eclipsed conformation, when view along the axis of the bond the groups attached to the atoms of the bond lie dirrectly behind eachother. 
 
-###### Cyclic compounds 
+###### Cyclic compounds
 cyclic compounds can also form coformational isomers which take on the boat, or chair conformation. 
 
 
 ##### Geometric
 Geometric isomers require a rigidn unit such as a double bond ($\pi$ bond), or a cyclic compound which prevents free rotation.
 
-###### Cis trans. 
+###### Cis trans.
 In cis trans nomeclature the cis conformation has groups of higher proprity on the same size, the trans has them on opposite sides. ( higher priority is assigned to the group which is connected by the atom with the higher atomic number, if atomic number is equal then mass number is used))
 
 ###### Carn-Ingold Prelog (E,Z)
@@ -552,7 +558,7 @@ If the higher priorety groups are on the same side then the molecule is in Z con
 
 Moeluces whise mirror images are not superimposed. 
 
-###### Requirements. 
+###### Requirements.
 $sp^3$ hybridised carbon, with four differernt substituents ()i.e a steric carbon. 
 
 The sp^3 hybridised carbon must have four different groups attatched to it.(For example alanine). The resulting system is asymetrical, and will have a non-superimposable missor image. 
@@ -560,18 +566,18 @@ The sp^3 hybridised carbon must have four different groups attatched to it.(For 
 
 NOTE: the central carbon may be refferd to as a steriocarbon, a steriogentic centre or a hydrocarbon. 
 
-###### Properties. 
+###### Properties.
 Inantomers have practically identical(almost indistinguishable) physical and chemical properties are therfore very hard to separate. Furthermore Racemic mixture are hard to detect. This is porblematic as often one inatomer may be a powerful medical drug and the other may be seriously toxic. 
 
-###### Polarised light 
+###### Polarised light
 inantomers will rotate plane polerised light differently. They will rotate the plane of polerised light to the same extend to one will rotate to the right (+, dextrorotatory) the other will rotate to the plane to the left (-, levorotatory)(equal but opposite). 
 
-###### Optical activity 
+###### Optical activity
 optically active substances will rotate plae polerised light. A Racemic mixture is opticcally inactive.
 
 NOTE: A Racemic mixture is a mixture containing an equal concnetration of both enantomers. 
 
-### Nomencalture. 
+### Nomencalture.
 The + or - is prefixed to the compound name. The problem is that the + and - configuration are determined experimentally and cannot be determined dirrectly from the steriochemistry around the steriocenter.
 
 A new system was developed to overcome this problem, the process for which is as follows. 
@@ -597,7 +603,7 @@ For a diassteriogentic centres there are a maximum of $2^n$
  stereoisomers. Half of these will be enantomers of the other half. 
 all of the other relationships are diateriomers. 
 
-## NMR. 
+## NMR.
 
  ### SAmple preparation. 
 COPY Image. 
@@ -612,18 +618,18 @@ jacket of liquid helium, and jacket of liquid nitrogen.
 
 #### Number of signals
 
-##### Chemical shift. 
+##### Chemical shift.
 Gives information about the groups surrounding the proton in question. Each different chemical environment gives a signal.
 The first question is are the nuclei in question readily chemically distinguishable. In general it is easy to tell groups apart but more difficult within a group all attatched to the same atom and constantly rotating, (NMR cannot distinguish between them either). For all chemically equivalent  hydrogens/nuclei only one peak will be seen. For each set of protons in a unique environment a different peak will be seen.  The smae will apply to $^{13}C$ carbons. 
 
 The height of the signal depends on the time of relaxation to ground state, as a general rule quanternary carbons will relax slower giving s smaller peak. 
 
-#### Symmetry 
+#### Symmetry
 Symmetry implies there will be different nuclei in identical environments. 
 
 In summary the position of signals depends on the environment of the nuclei, and the number of signals depedns on how many nuclei are non equivalent. 
 
-#### Restricted rotation. 
+#### Restricted rotation.
 Around a double bond consideration must be given as to what a given nuclei is cis and trans to. / 
 
 NOTE: look at Claden the second addition. 
@@ -631,7 +637,7 @@ NOTE: look at Claden the second addition.
 NOTE: even very similar groups which have a environment which differes to any degree will give a peak.
 
 
-### Shielding. 
+### Shielding.
 Electrons are charged and moving so can set up their own field around the carbon nucelus which will slightly modify the strength of the applied field felt. As a general rule the tiny local magnetic fields that are set up oppose $H_0$. So the effective field is $H_{\text{overall}}=H_0-H_\text{electrons}$. 
 
 The extent of the field  reduction depends on the density of the electron cloud.
@@ -639,11 +645,11 @@ The extent of the field  reduction depends on the density of the electron cloud.
 Each nuclei experiences a different magnetic field, even though the external field is the same and therefore each nucleus resonate at its own frequency. 
 deshielded implies more of the applied field is felt. 
 
-### Chemical shift. 
+### Chemical shift.
 The scael is universal so adjusts to the strength of the magnetic field.  ie at 60mHz 1$\delta$ unit = 60Hz, at 300mHz 1 delta unit = 300Hz. , in general $\delta $ = 1 part per million. 
 
 
-##### Referecne compound 
+##### Referecne compound
 The compound tetramethylsilane the $\delta$ of $^{29}Si$ $^1H$ and $$^{13}C$$ are by definition given as zero.  by definition $\delta =\frac{frequency(Hz)-frequency TMS (Hz)}{instrument operating frequency MHz}$ 
 Typically H is between 0 and 10 and $^{13}C$ $0<\delta <220$
 
@@ -656,12 +662,12 @@ ANy carbon nucleus surrounded by protons is normally fairly shielded as the prot
 
 
 
-#### Electroinductive effect. 
+#### Electroinductive effect.
 Electronic effect transmitted through neighboring $\sigma$ bonds . the effect is still significant for about three bonds down the line. 
 
 NOTE: the effect is additive. 
 
-#### Unsaturation 
+#### Unsaturation
 A ring current develops in the ring of an aromatic in this case the induced field of the $\pi$ electrons reinforces and does not reduce the applied magnetic field.
 The same is true of alkenes, and in general all unsaturated compounds. The same applies to carbons 
 
@@ -669,7 +675,7 @@ NOTE: the protons of aldehydes are extrememly deshilded, the carbonyl carbon is 
 
 NOTE: alykes are a little bit of an exception as there are not as deshielded as the alkenes , READ UP ON THIS. 
 
-### Integration of signals 
+### Integration of signals
 NOTE: only applies to protons. 
 
 The area under a peak is proportional to the number of protons giving rise to that signal. The instrument can integrate peak areas . INtegral is plotted as steops, the height of the steps are proportional to the number of protons, integration works with protons but fails with most othe nuclei. (esp $^{13}C$ )
@@ -681,9 +687,12 @@ NOTE: the protons of aldehydes are extrememly deshilded, the carbonyl carbon is 
 
 NOTE: alykes are a little bit of an exception as there are not as deshielded as the alkenes , READ UP ON THIS. 
 
-### Integration of signals 
+### Integration of signals
 NOTE: only applies to protons. 
 
 The area under a peak is proportional to the number of protons giving rise to that signal. The instrument can integrate peak areas . INtegral is plotted as steops, the height of the steps are proportional to the number of protons, integration works with protons but fails with most othe nuclei. (esp $^{13}C$ )
 
 The height signifies the number of protons, this height may nto always be exactly identical, this is not an issue and may result from some impurity in the sample. the ration between heights can then be found, the lowest whole number ration will be correct generally (as there must be a whole number and this number cannot exceed )
+
+# Appendix
+
