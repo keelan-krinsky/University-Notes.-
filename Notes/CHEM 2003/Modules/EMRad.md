@@ -14,9 +14,10 @@ Wavelength is donated by $\lambda$ and measured in meters (sometimes nm are used
 Speed is donated by $c$. The speed of light in a vacuum ($c_0$) is constant ($3.00 \cdot 10^{8}m\cdot s^{-1}$), normally the speed of light is given in $m\cdot s^{-1}$ 
 
 #### Frequency
-frequency is donated by $\nu$ (?) and is measured in Hertz (Hz) that is $s^{-1}$
+Frequency is donated by $\nu$ (?) and is measured in Hertz (Hz) that is $s^{-1}$
 
 #### Wavenumber 
-
 Wavenumber is donated by $\overline{\nu}$, and is the reciprocal of wavelength. It is measured in $cm^{-1}$ and used most commonly in IR spectra. 
 
+### Particle nature.
+Photons are particles of light. There particles posses a distinct quantised energy given by $E=h\nu$ 
