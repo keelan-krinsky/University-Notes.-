@@ -1,6 +1,6 @@
 ---
 title: "Scientific Practice Notes"
-output: word_document
+output: pdf_document
 ---
 
 
@@ -91,7 +91,7 @@ water can auto ionise into hydroxide ions and hydronium ions, the concetrations 
 
 ##### Solvation of ionic and polar solutes
 
-$Coulomb’s\ law: F = k\frac{ q_{1}q_{2}}{ Dr^{2}}$
+$\text{Coulomb’s law : } F = k\frac{ q_{1}q_{2}}{ Dr^{2}}$
 
 Where D is a measure of solvent polarity.The higher the polarity, the greater the ability to stabilise charges. water forms solvations shells around each ion.
 
@@ -399,7 +399,7 @@ Phoresis refers to moviment (of sample elements)
 ### Definitions
 Electrophoresis is a separation method where by charged molecules in solution, most commonly proteins of nucliec acids, migrate in respose to an electric field.
 
-\newline
+
 NOTE: As Electrophoresis is the moviment (of sample consitituents) under electric current,electrophoresis can only be used as a separation technique for molelecules which will move within an electric field ie charged molecules.
 
 #### Cathode
@@ -1111,12 +1111,6 @@ Excrete antibodies.
 
 # Microorganisms. 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-
-# Course Background.
-=======
 # Course Background.
 
 The course is a high level background, very little detail.
@@ -1782,302 +1776,85 @@ $Salmonella typhimurium$ in Salmoella can be related to disease.
 Bacteria are prokaryotes so the have no tru membrane enclosed nucleus (TMEN) ie no nucleus or nuclear membrane.
 
 #### Genetic material
-The genetic material of bacteria in compacted and contained within a region of the cytoplasm known as the nuceloid, however this region is not set or inclosed, it is merely the region in which the genetic material is found.
-=======
-NOTE: cell wall contains periplasmic space, peptidoglycan layer nad outer membrane. 
 
-NOTE: cell wall contains periplasmic space, peptidoglycan layer and outer membrane. 
+## Major nutritional metabolic types. 
 
-#### Mitochondria
-bacteria do not contain mitochondria becuase they are essentailly mitochondria (or more accurately they have a common ancestor with the mitochodria of eukarytic cells and can perform a similar respiratory process with their own cell membrane as mitochondria perform with their outer membrane. )
+Autotrophes get there carbon from $CO_2$ in the environment. whereas heterotrophes get their carbon from organic compounds. some organisms especially bacteria can switch between different nutritional sources/mechanisms. 
 
+NOTE: litho imples the electrons from an inorganic compounds. (electrons or energy)
+NOTE: autotrophes require electrons for carbon dioxide reduction. 
 
-### Pilie/ Fimbrae. Filamenous appendages
-filamentous appendages. (NOT flagella). Protenacious, only a few 3-10nm wide (very thin), can be relatively short, but up to 0.5$\mu m$ and some particular ones even longer. consist of multiple subunits. addhesion to multiple surfaces. (i.e other bacteria , host of environment)
-because of their addhesion pili are very important virulence factors, pili help to overcome the particular forces associated with coming very close to a surface.  
+### Photolithotrophic autotrophy 
+energy comes from light, carbon comes from $CO_2$ in atmosphere, electrons are gained from inorganic substances water in the case of plants. 
+cyanobacteria are an example
 
-NOTE: typically gram negative, but some gram positive also. (?)
+### Photoorganotrophiic heterotrophy 
+Photosynthesis is used for energy but electrons and carbon are gained from an organic source, this is a very unusual way to grow and mainly bacteria, very few other organisms. purple (other pigments) and green (chlorophyll) non sulfur bacteria.
 
+### Chemolithotrophc autotrophy 
+grow without light and organic carbon electron sources, as well as organic carbon carbon sources, so grow in deep mines etc. 
 
-#### Peritrichous or polar.
-polar,pili on each end, peritrichous, pili all over. 
+### Chemoorganotrophic heterotrophy. 
+energy from chemical respiration, i.e oxidation of organic compounds, electrons from organic compounds, and carbon from organic compounds. 
 
-#### Types 
+## Classification of microorganisms. 
 
-##### Type 1 and P-pili
-Adhesion. 
+### Old model (Universal tree of life)
+From monera to protists to plants animals and fungi, and most diversity was thought to reside in the plant, animal and fungi kingdoms. 
 
-##### Curli pili
-Aggregration, (can be seen as a form of adhesion). particularly important in biofilms. (form exopolysaccheride gelly, which is very complex, biofilms are very hard to remove, as a pathogen or in the environment)
+### Three domains Woese
+three and a half billion years was the first common ancestor. 
 
-##### Type IV 
-host cell addhesion, biofilm formation, DNA uptake during transformation. twitching motility, use pili as grappling hooks, through out pili, attatch, and shorten pili, tomove over a solid surface. 
+### Bacteria 
+Only bacteria for about 2 billion years. 
 
-### Sex pilus
-gram negative structure.creates a cytoplasmic bridge between two cells, transfer of DNA (usually plasmid DNA) between the donor and the reciepient cell, (often in replication). Pass unique genetic capabilities to there members of species, or even genera. up to 10-12 per bacteria.
+NOTE: the diversity between cyanobacteria and protobacteria (or indeed any other bacterial clade) is greater than that between plants and animals. 
 
-#### Donar 
-contains genes for forming the tube, gives these genes, along with other genetic information to recepient, (the plasmid may be stored in the chromosome, and take some of the chromosome with it when it is excised.). The tubes a largely straight stiff structures, consisting of mutiple repeats of protein subunts, frequenty breakoff during transmission. 
+### Bdellovibrion
+Prey on other bacteria, drills through other bacteria, preditor. 
 
-NOTE: not sexual reproduction, (bidirectional(?) transfer of genetic material). 
+### _Pelagibacter ubique_
+Dominates in many environments, only discovered by FISH techniques, as could not culture it. Can make up about 20% of all prokaryotes in the oceas, and about 0.5% of all prokaryotes on the planet, and in hot ocean environments can be up to 50\% , even though theses environments can be quit harsh, about $2\cdot 10^{28}$. 
+ very small so good SA:V, and so small its not predated on well, $0.4-0.9 \mu m$ by $0.1-0.2\mu m$. very simple, smallest genome known. complexity does not imply more evolutionary success. 
 
-### Flagella 
-15-20nm in diameter,  often up to 20$\mu m$ long, some up to $70\mu m$. Key differenes from pilli is involved primarily in motility not adhesion. The arrangment of bacteria can differ between bacteria. The flagella grows from the tip. 
+### Helicobacter. 
+examples. 
 
+### Archaea 
 
-#### Gram type 
-there is a difference between gram positive and gram negative. 
+### Eukarya. 
 
-##### Gram positive.
-Hook, + basal body+ filament. 
 
-##### gram negative 
-basal body of four associated ring like structrues (S,M,P,L(ipid) rings), the whole basal body is embedded in the outer membrane (about 22nm wide). then hook, then filament. 
+### Human microbiome. 
 
+microbiota
+all the microbes in a community or that reside in an environmetnal niche. 
 
-#### polar flagellum 
-single flagella at the pole. 
+microbiome: the collective genomes of the microbes in a community or that reside in an environmental niche. (this is useful as many studies do not use cultures but rather molecular techniques. 
 
-#### Amphitrichis
-A flagella at each pole of the bacterium. 
+NOTE: This implies that humans are in fact just a collection of species. furthermore there are no homosapiens with no bacteria, and infact their cells are outnumbered by bacterial cells 10 to 1. so how does one distinguish between them. 
 
-#### Lophotrichus. 
-Multiple flagella at one pole. 
+NOTE: there are several thousand bacteria species in most distinct areas of the human body, the large intestine in particular has over 30000 species. 
 
-#### Peritrichus. 
-Flagella surrounding entire flagella. 
+#### Natural childbirth. 
+Should suzzarians be done, the microbial diversity on a newborn skin for natural vs Cesarean, they are very different. In the viginal tract there are large numbers of lactobacillales , so there are ar more lactobacilli on babies from natural birth. whereas from a Cesarean section is mostly those in the ovaries. The microbiome trains the immune system, if there are not there then diseases such as Exsema can result. 
+moving down the digestional tract you end up with more bacteria. 
 
+### Obesity
+The relationship between obesity and the microbiome. Germ free mice. The germ free mice showed decreased propensity to obesity. in the gut there are firmicutes and Bacteriodetes, so if there are more Firmicutes there is more weight gain, as these bacteria are more effecient at giving them excess nutrient to the human body. Lean mice can be switched into obease and visa versa. 
 
-NOTE: again flagella width is apparently increased by the stain proceedure. 
+Study in malawe, using twins, same food one mulnurished, diffs microbiome, can be changed back by ingestion of bacterial tables. 
 
+### Anxiety and fear 
+depend on the microbacteria. for example $Lactobacillus rhamnosus$ if fed to mice makes their anxiety go down, they start being less cautious of open spaces and water in particular. Autism and brain development. with high numbers of chlostridia, the brain produces phenols to kill bacteria , which damage the brain, so sulfur is added, but this may lead to a sulfur defficeincy which in turn may lead to brain damage later on. 
 
-#### Hooke 
 
-#### Basal body. 
+### Human health 
+The microbiome cannot be cut out, should be thought of as a collective property of the human-associated microbiota. 
 
-#### Moviment 
-By rotation of bacteria. 
-NOTE: sex pilus are stained with multiple layers of stain to increase their apparent thickness
+Open a window, an ecological perspective, restoration ecology, eat more plants, get your hands dirty, no antibiotics. 
 
-How to prove the flagella is rotating. attatch the bacterium to antibody, put on slide, flagella stuck so bacteria must rotate, but also bounces around. (sometime latex bead added to bacteria. )
+#### AntiBiotics. 
+switches from antibiotics are not always reversible, and highly unadvised. 
 
-##### Effeciency. 
-bacteria rotate flagellum very fast, eg 100 000 revolutions per minute. (how does flagella ). Virbrion bends all hooks so that all bacteria are behind the bacteria, about 60$\mu m s^{-1}$  
-
-##### Power source
-proton motor force. the entire basal body rotates.  
-(cytoplasmic bridges by)
-
-If the flagella rotate different ways, move differently. Flagella may become tangeled, so bacteria straighted hook and spin to detangle them.  
-
-### Nucleoid. 
-Irregular shaped denseregion containing th prokaryotic chromosome/ prokaryotic DNA. There can be more than one nucleiod. (Clear relation of chromosome number to cytoplasm size. ). In fast growning replication bacteria may make multiple chromosomes before the cell have devided
-
-#### Chromosome 
-Single ciruclar, dsDNA molecule in the nucleus (with some exceptions, eg linear DNA in Strep).  
-Only contains about 60\% DNA, contains also RNA and proteins. RNA comes as transcription and translation occur dirreclty. proteins are invloved in relpication, and repair, as well as histone like proteins. 
-
-### Inclusion Bodies. 
-In high nutrient invironments takes up nutrients and stores them in insoluble inclusion bodies, (which may or may not be membrane bound). 
-May store lipids or enzyme, or nitrogen phospherous or sulphur. Inclusion bodies do not affect metabolism or osmotic pressure.
-
-### Gas vacuoles. 
-Found particularly in photosynthetic bacteria, most commonly in aquatic bacteria (some non photosynthetic aquatic bacteria two). The gas vacuoles are important for boyancy, so stay close to the surface, for light, often higher nutrient concentrations, and higher oxygen concentrations. 
-
-#### Freeze fracture.
-freeze in resin, hit with wedge,  breaks along weak points, to give #D images of the inside. gas vacule tubules can be visiualised. 
-
-#### Boyancy
-To check ability, one could change nutrient gradient or more easily change light intensity. cyanobacteria in glass jar, rubber on top, hit rubber with hammer, shock wave destroys gas vacuoles, vaculoles reform so bacteria back at the top. 
-
-(Can have replication of chromosomes in one nucleiod(?))
-
-#### Ribosomes. 
-Smaller than Eukaryotic. 
-
-##### Subunits, 70S, 
-
-##### 50S 
-Contains 5S rRNA and 23S rRNA. 
-
-##### 30S
-16S rRNA, 
-
-### Intracytoplasmic membranes.
-Invaginations of the plasma membrane to increase the SA:V ratio and increase the amount of membrane able to furfill its other functions, such as energy production and nutrient uptake. It is also possible to have a closed of memebrane associtated with the plasma membrane. 
-
-E.g. nitrifying bacteria gain energy from oxidising inorganic nitrogen. not very efficient process so lots of plasma membrane needed. 
-
-### Counts. 
-Used for cosmetics, and food and any process in which there is a potential for bacterial growth, and the comtamination levels can be checked for an allowed range. The assumtion is that a colony came from a single unit, which is generally considered to be a single cell.   
-
-### Bacterial growth. 
-Look at increase in cellular constituents, Increase in size of bacterium, and increase in the number of individuals in the population. Biochemical and physical events associated with bcaterial growth are integrated into a cycle that terminates with the cell division. 
-
-NOTE: Bacteria does not 'decide' to have offspring, a bacterium will automatically replicate when it reaches a certain size. 
-
-#### Time.
-Generation time, from when two daughter cells are just produced to when those cells each become one of their own daughter cells. Generation time is about 40min, in rich culture may be about 20-25min, can even be pushed to 10-12 minutes, (remember this is a very invovled process with a lot of synthesis of complex organic molecules)
-
-#### Binary fission. 
-Daughter cells are for all intents and purposes identical, and in this sense bacteria don't die. Endospores are very hardly structures within the cell which surve as survival mechanisms, theses spores form in an unfavourable environment. 
-
-NOTE: some bacterial spores (when sufficiently dehydrated) can survive at 420C for 30min (note lead melts at this temp). 
- 
-#### Budding 
-The bud is smaller than the cell which underwent the initial cytokinesis. For example plantomycetes dont have cell walls. 
-
-#### Fragmentation 
-This hyphae like structure consist of filaments with multiple nucleiods, and then septa form closing off 1 or more nucleiods. This is unusual as it is more of a survival structure than a normal replication mechanism. 
-
-#### Baeocyte production (_Stanieria_
-Standard baecyte starts off about $2\mu m$ in diameter, and grow to about $30 \mu m$ while lots of genetic material and thick extra cellular matrix forms, after which the cell is divided by multiple fission to form many beacytes (up to hundereds). The extracellular matrix then breaks open and releases the baeocytes. 
-
-#### Intracellular offspring production. 
-Epulopiscium fishelsoni, two cells form, and the mother cells die (birth or parasitism). IN some cases multiple daughter cells form, the mother cell always dies. 
-
-### Cell cycle. 
-There are certain fail safes, if bacteria are unable to repeat the cycle several times then it will stop trying to replicate (evolutionary advantage to avoid deleterious bacteria from replicating) may be alltruistic is some sense, often reffered to as zombie bacteria. 
-
-### Cytoskeletal elements. 
-helps mantain the cell shape, forming a 3D scaffolding inside the cell. 
-
-NOTE: Min proteins move from side to side (pausing at each side), moved by cytoskeletal elements, act as inhibitors or FtZ  ring formation, hence the ring will only form when the cell is long enough and will form at the middle, as here there is the lowest concentration of min protiens (C and D). 
-
-
-NOTE: addition of transposons to bacteria interferes with the cytoskeleton production and they become linear. 
-
-#### When to devide. 
-If the cell is no long enough to create a zone of no inhibition, hence they have a threshold length. Some have a mass component instead and some have both, the mass components may relate to OriC replication, and the ratio or RNase A related to the formation of the origin of replication. 
-
-#### Homologues. 
-the equivalent of structures in Eukaryotes. 
-
-#### FtsZ 
-tubulin homologue, makse the cytokinetic ring structure at division septum. 
-
-##### MreB family 
-bacterial actin homologue, controls the rod diameter, and involved in motility, 
-
-##### Crescentin (intermediary filament homologue)
-determines curvature in rods. 
-
-
-NOTE: It makes sense tiRR
-NOTE: ask Bouwer about bacterial as staple food sources. 
-
-#### Study techniques. 
-The growth cycle terminates in binary fission, so population growth can often be studied at the population level to infer what was occurring at the individual cell level. 
-
-#### Rapid growth. 
-In rapid growth as the growth of bacteria is limted by replication rate, then multiple chromosomes aid devision. Furthermore in some instance replication can occur on a partially formed chromosome, leading to multi-fork replication structures. (Bacterial use environmental cues to determine if chromosomes should be replicated.) 
-
-NOTE: bacteria forms a lawn when there are suffecient numbers on a plate. 
-
-### Batch culture
-
-#### Process
-Erthymer flask is used, and a (normally hydrated) growth culture is added, and normally heated. In the case of a broth culture it will be liquid. 
-Cotton wool and foil are often used to prevent contamination, and an autoclave is used (121C) and high pressure which will destroy most of the spores present. Most bacteria required oxygen so cotton wool is used in favour of a rubber bung, bacteria entering from air get trapped in the cotton wool, and so cant reach the food source in the jar. 
-
-The flask is rotated rapidly to form thin layer of broth culture along the sides of the flask, which allows for more efficient gas exchange. (This step is not essential). 
-
-#### Growth curve. 
-COPY IMAGE. 
-
-plot of $log(#\text{viable cells})$ on the y against time on the x. 
-
-##### Lag phase. 
-
-###### Environmental conditions. 
-When a bacteria enters a new environment it takes some time to adapt, i.e might require new enzymes to break down food source. If the environment of the bacteria has not changed there will not be a lag phase. 
-
-NOTE: lag phase is still a very 'active' period. 
-
-NOTE: there may be bacterial cell growth if not lots of replication. 
-
-##### exponential phase. /Log phase.
-Bacteria grow, and devide, at the maximum rate possible. This rate is dependant on the bacterium (genetic capabilities, strain/sppecies), the medium used, and the interaction between these two. Physical conditions or environment, such as temperature, Aeration, etc. At the maximum rate the growth rate becomes constant. So the doubling time is constant. Because the bacteria are all 'doning the same thing' at the same phase in their life cycle, the population is most uniform, (physically, biochemically etc). Because the bacteria exit the lag phase at different times a smooth line is seen as a pose to a number of steps. 
-
-NOTE: this phase is often often reffered to as ballanced growth, this implies that the chemical composition of the cell is very consistent. 
-
-##### Stationary phase. 
-All of the available food source ends up being used up. A stationary phase could result from no devision of bacteria, or equal replication and death rates. Death may result from build up of waste products. ie decreased pH of lactic acid, or toxicity of ethanol. 
-
-This phase normally kicks in at about $10^9\text{cells}\cdot mol^{-1}$ 
-
-NOTE: remember this is \textbf{viable} cells only. 
-
-##### Death phase. 
-Most of the cells are starting to die off, often at an exponential rate. 
-
-##### Experiment. 
-Take out sample at different time points in the experiment, take out a sample, do a dilution series and to a cell count. 
-
-
-
-NOTE: flame cotton wool for entertainment. 
-
-NOTE: sterile means nothing alive, 
-
-NOTE: the culture used runs the risk of contamination, especially animal derrived cultures which may carry prions. 
-
-
-### Requirements for growth. 
-(These are not very specific to bacteria). 
-
-#### Physical 
-
-#### pH 
-Acidophiles, like low pH conditions, such as for example pH 3. some can go to pH1. Okalophiles like to grow in high pH
-
-#### Temperature. 
-As a group bacteria span an increadible temperature range. Specific bacteria or groups will be more limited. Cyclophiles like cold temperatures, and may even grow at below zero temperatures, the optimal of such bacteria is about 12. Hyperthermophiles grow in boiling water comfortable. 
-
-COPY GRAPH.
-
-NOTE: bacterial growth will be much higher in the optimal conditions. 
-
-NOTE: the difference between optimal and maximum is closer than the difference between lowest and optimum. At high temperatures bacterial enzymes and other proteins differentiate. 
-
-### Chemical
-
-#### Carbon 
-
-#### Nitrogen sulfur and phospherous 
-
-#### Tarce elements. 
-
-#### Organic growth factors. 
-
-#### Cofactors
-
-#### Oxygen
-Bacteria differ significantly in their requirements for oxygen. 
-
-An agar slant in used, which can then be boiled driving out some of the oxygen and creating a gradient. Areas of biomass (i.e. turbidity) can then be identified. 
-
-##### Obligate aerobes
-Require oxygen to grow only at the top of the tube. 
-
-##### Facultative. 
-Higher growth with more oxygen, but are able to grow in the absence of oxygen. This is because oxygen is a better electron acceptor so energy prduction is better. 
-
-##### Obligate anerobe. 
-Can only grow in the absence of oxygen, as oxygen kills or inhibits the growth of bacteria. 
-
-NOTE: these will not grow under normal lab conditions. 
-
-##### Aerotolerant. 
-dont care, Such bacteria grow by anerobic mechanisms, exclusively.
-
-##### Microaerophiles. 
-Require small amounts of oxygen, but are inhibited by levels as high as atmospheric. (grow at about 2-10\%, some would say <20\%. 
-(Biomass slightly lower in the tube. )
-
-
-NOTE: some bacteria like to grow in blood so blood agar is used (normally horse blood not human due to HIV). 
-
-#### Osmotic pressure. 
-Cell walls help in hypertonic conditions, which induce high osmotic pressure (from the inside). 
-NOTE: look at maths of bacterial growth. 
+#### Major plays. 
