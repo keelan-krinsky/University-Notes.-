@@ -1,0 +1,54 @@
+---
+title: "Bacteriology: Lab 2"
+subtitle: "Keelan Krinsky: 1634953"
+output: pdf_document
+
+---
+
+# Experiment #3 
+
+## Section #2
+
+### Plate counts. 
+
+ #. $10^{-2}$ dilution: Too numerous to count. 
+ #. $10^{-3}$ dilution: Too numerous to count. 
+ #. $10^{-4}$ dilution: Too numerous to count.
+ #. $10^{-5}$ dilution: Too numerous to count. 
+ #. $10^{-6}$ dilution: 185 colonies. 
+
+
+$\text{Bacterial Concentration in original solution}=\frac{\displaystyle\sum^{n}_{i=1}(C_ix_i)}{nv}$\newline
+
+where: \newline 
+$C_i$ = Number of colonies counted on plate i \newline
+$x_i$ = dilution factor of plate i\newline
+$v$ = volume of bacterial solution added to each plate.\newline 
+
+
+$\rightarrow \text{Bacterial Concentration in original solution}=\frac{(10^6 \cdot 294 )\text{cells}\cdot ml^{-1}}{1}$. \newline (Each colony observed is assumed to derive from one cell. )\newline 
+$\rightarrow \text{Bacterial concentration}=1.85 \cdot 10^{8}\text{cells}\cdot ml^{-1}$
+
+# Experiment #4
+
+## Section #2
+
+### Plate counts. 
+
+ #. $10^{-2}$ dilution: Too numerous to count. 
+ #. $10^{-3}$ dilution: Too numerous to count. 
+ #. $10^{-4}$ dilution: Too numerous to count.
+ #. $10^{-5}$ dilution: Too numerous to count. 
+ #. $10^{-6}$ dilution: 294 colonies. 
+
+$\text{Bacterial Concentration in original solution}=\frac{\displaystyle\sum^{n}_{i=1}(C_ix_i)}{nv}$\newline
+
+where: \newline 
+ $C_i$ = Number of colonies counted on plate i \newline 
+ $x_i$ = dilution factor of plate i\newline
+ $v$ = volume of bacterial solution added to each plate.\newline 
+
+
+$\rightarrow \text{Bacterial Concentration in original solution}=\frac{(10^6 \cdot 294 )\text{cells}\cdot ml^{-1}}{1}$. \newline (Each colony observed is assumed to derive from one cell. )\newline 
+$\rightarrow \text{Bacterial concentration}=2.94 \cdot 10^{8}\text{cells}\cdot ml^{-1}$
+

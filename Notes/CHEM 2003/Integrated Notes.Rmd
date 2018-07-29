@@ -9,7 +9,7 @@ import Modules/Spectroscopy as Spectroscopy
 import Modules/OrganicChem as OrganicChem 
 import Modules/InorganicChem as InorganicChem
 
-# General heading 
+# Chemistry 
 
 #__InorganicChem: Inorganic Chemistry__
 
