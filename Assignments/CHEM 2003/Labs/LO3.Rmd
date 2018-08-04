@@ -1,0 +1,24 @@
+---
+title: "Organic Chemistry: Lab 3"
+output: pdf_document
+---
+
+# Prelab. 
+
+## Question #1
+Activation energy is closely related to bond dissociation enthalpy of the bonds which must be broken for the reaction to occur/(for the transition state to be reached). Many organic reactions involving the disruption of higher energy, C-C, C-H, C-N, or C-O bonds, (as well as higher energy double and triple bonds in some cases). A lot of energy is needed to break/dissociate these bonds and as a result the activation energy is high. 
+
+## Question #2
+In the intraconversion of an acyl chloride to an amide, there is a strong attraction set up between the extremely electrophilic carbon, which in bonded both to oxygen and chloride so gains a considerable $\delta +$ charge, and the nucleophilic Nitrogen. Furthermore as the acyl group is exposed the reaction can proceed by the $Sn_2$ path so the energy of the transition state is lowered by the interactions between the constituents which will interact to form the products. 
+
+### Question #3
+Sodium hydroxide helps to prevent the hydrochloric acid formed from reacting with the amide product. sodium hydroxide is a strong base and so reacts readily with the hydrochloric acid, a strong acid to form sodium chloride salt and water. 
+
+### Question #4
+Ethanol is used as the product, (the amide) is not particularly soluble in ethanol only when heated, so can be dissolved by heating and then recrystallized by cooling. Common organic impurities, such as the reactants themselves however are (more) soluble in ethanol even at lower temperatures so can be removed from the cooled solution by filtration. 
+
+### Question #5
+Benzoic acid is likely to undergo an acid base neutralization with the basic amine reagent to yield an organic salt instead of the required amide product. 
+
+
+

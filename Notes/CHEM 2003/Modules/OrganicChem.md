@@ -183,3 +183,39 @@ NOTE: only applies to protons.
 The area under a peak is proportional to the number of protons giving rise to that signal. The instrument can integrate peak areas. Integral is plotted as steps, the height of the steps are proportional to the number of protons, integration works with protons but fails with most other nuclei. (esp $^{13}C$ )
 
 The height signifies the number of protons, this height may not always be exactly identical, this is not an issue and may result from some impurity in the sample. the ration between heights can then be found, the lowest whole number ration will be correct generally (as there must be a whole number and this number cannot exceed )
+
+only 2 or three questions on section 2 and section 4. 
+
+## Aspects of reactivity 
+
+### Effects of bond polarity. 
+
+#### Bond breaking. 
+(manual section 18-22)
+
+##### Non Polar bonds 
+undergoes homolytic cleavage, reprisente by fish hooke arrows. More often than not homolytic cleavage gives rise to radicals. to make a bond each atom donates an electron.givesss rise to free radicals 
+
+
+##### Polar bonds. 
+one atom already has aaa dedlta negative bond sso someone takes all the electrons. In a heterolytic cleavage the two electrons go onto the side which is more electronegative (already delta negative charged ). heteroytic cleaavage gives rise to the formation of electrophiles and nucleophiles. electron move from the electrophiles to the neutrophiles. Electrophiles initiate the reaction. Most reactions stem from the 
+
+
+ns effect transmitted through a $\sigma$ bond framework of molecules. 
+as electrons spend more time on the electronegative atom this atom gains a delta  negative charge, the other atom in this bond will have a delta positive charge.  
+
+the effect falls off after about 3 bonds. alkyl groups are electron donating, by induction.The electronic effects are donated transmitted by a sigma bond. 
+
+alkyl groups are electron donating. 
+
+Stability of carbocations and carboanions. 
+If a carbon is carrying apositive chrge, additional alkyle groups attatched to this carbon will stabalise it by donating electrons to cangel out this charge. so tertiary carbocations are more stable thatn secondary which are more staable than primary. In the case of a carbon anion however the electron releasing effect of the alkyl groups will lead to a destabalising effect. a negative charge can however be stabalised by an electronwithdrawing group. with a free radical stability increases with more alkyle groups, 
+
+inductive effect, occurs through a sigma structire 
+
+mesomeric/ resonance effect. 
+works through a $\pi$ bond  
+a $pi$ bond is waeker than a $\sigma$ bond, becuase this bond is weaker is allows ofr resonance with fully charged structures where the more electronegative, atom tkes both electrons in the bond. resonance structure can be donated by dotted lines in which case it is known as a resonance hybrid. elcalisation of charge gives rises to resonance structure.
+
+## Conjugated systems . 
+(i.e alternating single and double bonds. ). COPY delocalised structure. radicals can be shifted around a structure in much the same way a a double bond. by homolytically breaking adjacent bonds, to from a new bond, and a new radical. 

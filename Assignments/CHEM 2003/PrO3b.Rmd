@@ -1,0 +1,27 @@
+---
+title: "Pre-Lab: Experiment O3(b)"
+output: pdf_document
+---
+
+## Question #1
+Heating under reflux involves a system consisting of a holding flask containing solvent and reagents, and a reflux condenser, which consists of a vertical tube surrounded by a (water) cooled jacket, which is fitted onto the holding flask.  The reaction mix containing the solvent is heated to/slightly above its natural boiling point, and the solvent vapor which boils off condenses as it rises up the water cooled reflux column, condensing and dripping back down into the holding flask. The purpose of reflux is to allow for increased reaction temperature without evaporating off all of the available solvent, (and potentially burning the reactants) higher reaction temperature allows for a faster reaction.   
+
+## Question #2
+The product obtained would be a ketone (Acetophenone), which differs from the aldehyde produced by the oxidation of a primary alcohol in that in a ketone the carbon on the carboxyl group ($C=O$) is a secondary carbon, attached to 2 other carbon molecules, where as in an aldehyde the carbon of the carbonyl group is a primary carbon attached to one other carbon only, the aldehyde produced from primary alcohols can be further oxidized to carboxylic acids, a reaction which secondary alcohols will not typically undergo.   
+
+## Question #3
+Tertiary alcohol's are not susceptible to oxidation, because oxidation requires the formation of a $C=O$ double bond, which in turn requires the carbon involved in this bond to relinquish one of its existing bonds, in primary and secondary alcohols the C-H(s) bond which is easily broken under the oxidation conditions, however C-C bonds, (which are the only bonds present aside fro the C-O bond in a tertiary alcohol), are not as easily broken, and so tertiary alcohols are far less susceptible to oxidation. 
+
+## Question #4
+HCl is added to insure a high concentration of $H^+$ ions in the solution so as to insure that the carboxylic acid produced will all be in the form of carboxylic acid and not in the form a potassium salt, (in high concentrations $H^+$ ions will easily replace $K^+$ ions to break up the salt). potassium ions in solution derive from the potassium manganate used as an oxidizing adjacent. 
+
+
+
+## Question #5
+ #. $O-H: 3650-3590 cm^{-1}$
+ #. $C=O: 1750-1700 cm^{-1}$ (for a carboxylic acid)
+ #. $C-O: 1050cm^{-1}$ (for a primary alcohol)
+ 
+ If the IR spectra produced characteristic peaks at the regions indicated for the $O-H$, $C=O$, and $C-O$ bonds, and no other distinguishable peaks within the $1500-4000cm^-1$ region the benzoic acid could be assumed to have a relatively high purity.The strong presence of the $C-O$ peak in particular is diagnostic of the dryness of the compound as the $O-H$ stretch could also arise from the presence of water molecules within the sample.  
+
+

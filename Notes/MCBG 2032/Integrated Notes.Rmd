@@ -1,7 +1,13 @@
 ---
 title: "Concepts Notes"
 output: html_notebook
+
 ---
+ 
+# Imports
+
+import Modules/ATP as ATP
+import Modules/Glycolyis as Glycolysis
 
 
 # Genetics
@@ -957,157 +963,103 @@ the inactivation of one of two X chromosomes in females via DNA methylation.
 
 NOTE: which X chromosome is inactivated varies randomly from cell to cell.this inactivation process turns the inactive X into a bar body, (highly methylated and rolled up in histone proteins).
 
-#Unsorted notes
+## Unsorted notes
 
 1. Himalayan Phenotype.
 2. Size and shape of different chromosomes.
 
-Dr Fanucchi, GH416, 
-Date: 17/06/2018.
+# Metabolism 
 
-# Course overview. 
-ezymes and function \newline 
+
+## Course overview. 
+
+
+### Lecturer 
+
+Dr Fanucchi, GH416, 
+
+### Course contents
+enzymes and function \newline 
 Garret and Grisham Biochemistry.\newline 
-Questions in class (write it down)\newline 
-*Prelab test before every practical* \newline 
-(lecture + prac but only theory relevant to prac, no writing up prac reports. ) \newline 
-lab etiquette (dress+ approporitate work+ sharing with lab partner, fall behind group, spot questions in the lab, prac ends at 5 sharp)\newline 
-*Seating plan new, on Sakai*\newline 
-Changes from prach manual (check course outline, Friday WSS4, 423-426 text book)\newline 
-tues+wed=P115, thurs=WSS4.\newline  
-*No PH prac*.\newline  
-Due date of essay: *8th August*. (submitted electronically+ marked out)\newline 
-*Submit essay in box 1:30 10th August, must print in turn it in format, 15\% or less*\newline 
-Poster is due on a Monday, submit to Sakai, \newline
+
+### Tests and exam
+
+#### Labs
+Prelab test before every practical \newline 
+(Lecture and practical work may come up in the test but only theory relevant to practical, no writing up practical reports. ) \newline 
+lab etiquette mark is given (dress+ appropriate work+ sharing with lab partner, fall behind group, spot questions in the lab, practical ends at 5 sharp)\newline 
+Changes from practical manual (check course outline pH practical will not be done, Friday WSS4, 423-426 text book)\newline 
+
+#### Class test
 31 Aug, Class test 2-4pm OLS +GH403. \newline 
 
-## Dr Fanucchi class rules
- #. Own studying. 
+### Venues 
+Tuesdays and Wednesdays: P115, Thursdays: WSS4.\newline
 
-## Assignment. 
-The MIND diet, med+DASH (DASH for hyper tension+neuro disease), fish altsheimers, weight loss, 2 veg per day... 
-Argumentative essay, critically evalute (find actual 2015 paper, met pathways+ metabolism+ for or against but must take a stand)
+### Assignments
 
-### Essay format 
+#### Essay 
+Due date of essay: 8th August (submitted electronically+ marked out)\newline 
+Submit essay in box 1:30 10th August, must print in turn it in format, 15\% or less plagiarism score allowed \newline 
+Poster is due on a Monday, submit to Sakai, \newline
+
+##### Background
+The MIND diet, med+DASH (DASH for hyper tension, neurodegenerative disease), fish Alzheimer's, weight loss, 2 veg per day... 
+Argumentative essay, critically evaluate (find actual 2015 paper, met pathways+ metabolism+ for or against but must take a stand)
+
+##### Format 
 Three sections+ tittle (intro, body, conclusion), 
 
-#### Intro 
-must but work into context, it must give background info however it must be very focussed on the concept at hand. Must make clear the relavance and significance of the subject. Can finish with a sentance/2 disscribing structure of the essay ("In this essay i will") , very end must have main claim (must be _interesting_ and specific, must make absolutely clear for or against + angle),
+###### Intro 
+must but work into context, it must give background info however it must be very focussed on the concept at hand. Must make clear the relevance and significance of the subject. Can finish with a sentence/2 describing structure of the essay ("In this essay i will") , very end must have main claim (must be _interesting_ and specific, must make absolutely clear for or against + angle),
 
-##### Main claim
-Short, consise, specific, clear and easy to recognise (ie at the end of the intro) \newline 
+####### Main claim
+Short, concise, specific, clear and easy to recognise (i.e. at the end of the intro) \newline 
 
-#### Body 
-Set of paragraphs, moving from more general to specific, broadest info first to more specific. Includes reasons in support of claims. Give reasons + cite evedence from the literature.\newline  
-(Could attempt to include a rebuttle, couterarguments)\newline 
+###### Body 
+Set of paragraphs, moving from more general to specific, broadest info first to more specific. Includes reasons in support of claims. Give reasons + cite evidence from the literature. (Could attempt to include a rebuttal, counterarguments)\newline 
 
-##### Transition sentances 
-link paragraphs to imporve flow. 
+###### Transition sentences 
+link paragraphs to improve flow. 
 
-##### Topic 
-topic sentance for each paragraph. 
+###### Topic sentences
+Topic sentence for each paragraph. 
 
-#### Wrap up sentance
+#### Wrap up sentence
 Relates the topic back to the main claim. 
 
 NOTE: Lots of citations, remember writing fellows. 
 
-### Final notes
- #. 800-1100 words, 
- #. own research + interpetation of literature,
- #. must be submitted through turn it in. 
- #. print correct format.
- #. print + sttatch marking rubric 
-
-
-#### Conclusion 
+###### Conclusion 
 Restate the main claim and its importance. Summarize each of the main points in the claim again. 
 
 *NB*\newline 
 No new information, and no references. 
 
-# Scientific Poster 
-Commonly presented at scientific posters, (ppl present current research, orally and in posters, advantage is that it is very consice)\newline 
+##### Summary of requirements. 
+ #. 800-1100 words, 
+ #. own research + interpretation of literature,
+ #. must be submitted through turn it in. 
+ #. print correct format.
+ #. print + attach marking rubric 
+
+#### Scientific Poster 
+Commonly presented at scientific posters, (researchers present current research, orally and in posters, advantage is that it is very concise)\newline 
 
 NOTE: \newline 
 
  #. Not too much text. (NB)
  #. read 1m away (A1 size) 
- #. lots of visuals. diagrams etc. 
+ #. lots of visuals, diagrams etc. 
  #. The take home message must be clear (stance must be clear)
  
-NOTE: 
- #. 4pm monday, 
+##### Specifications 
+ #. due 4pm Monday, 
  #. pdf format
  #. 594x 841mm. \newline 
  
-# Background 
-Governed by relatively small set of relatively simple rules. 
-
-# Chapter 13 Biological catalyst. 
-enzmyes in metablosim, accelerate and control biochemcial reaction rates. In specific speed up dergradation of nutrients adn generation adn tranfromation of metabolites. Only very specialised regulatory enzymes control biochemical reactions, often found at juncture points. Suhc enzymes change the rate depending on the cell's metabolic requirements. (ie more require speed up sythesis and slow degradation and visa versa.)
-
-Many biological reactions produce a lot of energy but too slow, enzymes exert kinetic control overthermodynamic potentiallity. (kenetic as in rate and speed)\newline 
-
-## Distinctive features
-
-### Catalytic power. 
-how good it is at being a catalyst/ speeding things up 
-Calculated as the ration of catalysed to uncatalysed reaction
-
-### Specificty. 
-Acts on a specific substrate, very selective no promiscuous. ()
-selectarivity for substrate. Cannot change the eqillibrium position, enzymes are very selective. One advantage is less/no biproducts. 
-
-Achieved by secific shape adn charge, (complimentarity)
-
-#### Yield 
-Yield decreases at each step in a multi step process, (yield is decreased at each step by the formation of byproduct)
-
-### Regulation 
-Not all enzymes, key enzymes, maintain rates at appropriate levels for the cells requirements. 
-
-### Mild conditions 
-happed under very mild conditions (pH and temp), as proteins suseptable to denaturation, furthermore often 
-
-
-```{r, echo=FALSE}
-# example 
-
-(3*10^4)/(3*10^(-10))
-
-```
 ## Background 
-
-### Nomenclature
-Enzymes are grouped into 6 different categorised based on reactions which they catalyse. 
-
-#### Enzyme commision number. 
-Furthermore each enzyme is given an enzyem commision number, this is a standard however a "common name" is also often used. 
-
-#### Oxidoreductases. 
-
-#### Transferases  
-
-#### Hydrolases.
-Cleaves in presence of water. 
-(Most common type)
-
-#### Ligases. 
-form bonds 
-
-#### Isomerases. 
-
-
-#### Lyases. 
-break bonds.
- 
-NOTE: Check in notes if all enzyme groups area present. 
-
-```{r,echo=FALSE}
-#Excersize
-
-```
+Metabolism is governed by a relatively small set of relatively simple rules. 
 
 ### Principles of chemical kinetics. 
 $A\rightarrow B$ \newline 
@@ -1128,381 +1080,77 @@ k is the rate constant of the constant of proportionality.
 
 
 
-# Enzymology 
+# Metabolism
+metabolsim is the sum of the chemical changes which convert nutrinets (substrate in to enrgy and products via specific chemcial intermediates. Metabolism is organised into a number of discrete pathways. 
 
-## Terminology 
+The relatively universal metabolic pathways as well as those more more specific to a particular, many pathways are ancient startign off billions of years ago, for example glycolysis which started off when the earthe way still anerobic. changes are more based on how the pathways are regulated, and number of intermediaries. 
+theere is a basic set of metabolic pathways common to most organisms. different cells and organisms may express alternative pathways, diversity to metabolic processes. 
 
-### Reaction order 
-The reaction order with respect to a specific component is the power to which that component is raised in the rate equation for the reaction. 
+NB: lots of evidence in essays. 
 
-The overall reaction order is the sum of the reaction order's of all reactants. 
+organisms are classified by how they obtain their carbon and energy. different organisms classified in different ways will have different metabolic pathways, eg photosynthesis in autotrophes. 
 
-NOTE: the reaction order is not expressed as an integer (such as 1 or 2) but rather as first, second...etc. 
+photoautotrophic cells synthesize energy from the sun to porduce glucose and oxygen. the reactants are water and carbon dioxide the products are glocuse and oxygen. The heterotrophes use the glucose as fuele and building blocks to synthesie their own biomolecules. (plants can also use heterotrohic pathways.). In this way a cycle is set up. 
 
-### Molecularity 
-The molecularity of an (elemental) reaction is the number of molecules which must interact (symultaneiously) during the reaction. 
+the process of metabolsim involves the genration of energy and the synthesis of biomolecules
 
-NOTE: the molecularily is a (positive) integer number(1,2...) but the reaction is then discribed as: unimolecular, bimolecular,etc. 
-
-## Progession curves 
-PRogression curves show the change in conentration of a reactant/product agaisnt time. 
-
-## Initial rate 
-The initial rate $v_0$ in the reaction rate at t_0. 
-
-NOTE: an increase in intital reactant concnetration leads to a higher inital rate. 
-
-## Rate law 
-The rate law for a reaction: \newline 
-
-$a_1A_1+a_2A_2...\rightarrow b_1B_1+b_2B_2...$ \newline 
-
-is given as: \newline 
-
-$v=k[A_1]^{n_1}[A_2]^{n_2}$\newline 
-
-where $n_1,n_2...$ are experimentally determined constants. 
-
-NOTE: In the case of an elemental reaction, the exponents will be equivalent to the equilibrium coefficients. 
-
-## Rate 
-For the (elemental) reaction: \newline 
-
-$a_1A_1+a_2A_2...\rightarrow b_1B_1+b_2B_2...$ \newline 
-
-The instantanious rate of dissapearance of $A_1$ is given by:\newline 
-$\frac{d[A]}{a_1dt}$ 
-
-This rate can be related to the rate or dissapearance of other reactants and products as follows:\newline 
-
-$v=-\frac{d[A_1]}{a_2dt}=-\frac{d[A_2]}{a_2dt}=\frac{d[B_1]}{b_1dt}=\frac{d[B_2]}{b_2dt}$ 
+### Anabolism  
+building/synthesis. Energy optained from catabolic processes is used to drive anabolic reaction sto syntheise biological molecules. 
+,anabolsim is enthalpically favoured but entropically opposed. 
+diverges to a wide variety of biomacromolecules. 
 
 
+### Catabolsim 
+breaking down. catabolism is used to generate energy to drive biosynthesis, an anabolic process. Catabolism is endothermic but entropically favoured. Normally an oxidative process. Catabolism is the breakdown of complex nutrients (carbohydrates lipids and proteins), into smaller substituents such as lactic acid carbon dioxide, urea ammonia nad ethanol. excergonic. oxidative, (high energy electrons are removed from the substrate). to electron carriers, such as $NAD^+$, $NADP^+$ and FAD, co-enzymes. which are reduced to $NADH$ $NADPH$ and $FAD_2$. these conenzymes can then be used in the reductive biosyntheis reactions of anabliism. this energy producing process is required for oxidative processes. reduced coenzymess are oxidised to release energy. (this energy is required to build up large molecules. )
+converges to common intermediates
 
+#### Stage 1 
+large completx molecules into their building bocks. 
 
-i## Enzyme Kinetics. 
-
-### Maximum velocity 
-Maximum catalystic rate\newline 
-Donated by $V_{\text{max}}$
-
-### Binding affinity
-the strength of the bond/ enthalpy of bond formation \newline 
-dontated by $K_m$
-
-### Mechalis mention. 
-
-
-#### Derrivation . 
-
-
-##### Assumptions 
- #. The back reaction (E+P to ES in negligable.) $k_{-1}>>>k_2$ (Mechalis menten) 
- #. THe concnetration of the ES remains constant at a steady state (steady state assumption.) (Briggs- Huldane. )
+#. Carbohydrate biuld from monosacherides. 
  
- The inital velcoity can be expressed as a function of substrate concentration. 
- 
- Total enzyme concentration: $[E]_T=[E]+[ES]$\newline ($[E_T]$) si known from the amount of enzymes added. 
- 
-$v=k_1[E][S]$ \newline 
+### Lipids. 
+fatty acids and glycerol 
 
-$-v=k_{-1}[ES]$ \newline 
+ ### proteins 
+amino acids.
 
-$k_2[ES]$ \newline 
+NOTE: the synthesis of a molecule takes more energy than the break down provides, (as energy is lost in unusable forms such as heat)
 
-By the constant rate approximation. 
+## Ordering 
+catabolsim and metabolism cannot be left to occur at the same time without tight control. metabolic needs are served in an immediate and orderly fashion. competing metabolic pathways localised in different cellular compartments, to avoid any interferance. (copy example). 
+The intermediates are spacially and chemcically segrigated. the competing pathways are isolated from eachother. 
 
-$k_1[A][S]-k_{-1}[ES]-k_2[ES]=0$ \newline
+A pathway cannot go backways and forways, for one becasue the would be no way of regulating it, the points of regulation are the points at which the eqillirium is shifted very strongly in one dirrection
 
-(Look up coniditions or steay state assumption. )
 
+### Glycolysis 
+Anabolic synthesis of a given end porduct does not correspont to the catabolci pathway of the same substrate en catbolsim of glucose to pyruvate vs biosynthesis of glucose from pyruvate, there are 10 enzymes in glycolysis nad only seven of the ten are act in reverse in gluconeogenesis, 4 new enzymes are also active. 
+The regulation of catablosim and anbolsim are separate, as they have different regulation points, this is achieved, either by the pathwwys following completely different steps, or only one or a few enzymes are used for a specific step (much of the pathway is shared) the enzymes which are different are the regulatory pathways, theses points have the highest $\Delta G$. 
 
-$\rightarrow k_1[E][S]=k_{-1}[ES]+k_2[ES]$ \newline 
-as $[E]_T=[E]+[ES]$ newilne
-$\rightarrow k_1([E_T]-[ES])[S]=k_{-1}[ES]+k_2[ES]$
-$\rightarrow \frac{([E_T]-[ES])[S]}{[ES]}=\frac{k_{-1}+k_2}{k_1}=k_M$ 
+## The ATP cycle
+Copy imgae. 
 
-As $k_2>>>k_{-1}$\newline 
+## Reuced coenzyme cycles. 
+(oxidative reactions release hydride ions $H^-$) which is how electrons are transferred. the hydride ions are tranferred to the oxidised form of the coenzymes to reduce them $NAD^+\rightarrow NADH$. NADH is oxidised to AND^+ during anabolsim and finally the electon acceptro oxygen which when it is reduced becomes water. 
+the additional H adds to the nictotinamine portion of the molecule. 
 
-$(\frac{k_{-1}}{k_1})$ 
+### NAD(P)H cycle. 
 
-NOTE the unit of $K_m$ will be $mol\cdot dm^{-3}$
 
+COPY IMAGE. 
 
-$\frac{([E_T]-[ES])[S]}{[ES]}=k_M$
+#### Stage 2 
+amino acids to alpha keto acids, and then pyruvate or acetylp co A 
+glycerol and glucose to pyruvate. and fatty acids to acetyl CoA. 
+pyruvate can be further brocked down into acetyl-coA (the common end product of metabolism
 
+final waste products are carbon dioxide and water. )
 
-$\frac{[E_T][S]}{[ES]}-\frac{[ES][S]}{[ES]}=K_M$ (solve for [ES])
+ ## amphibolism. 
+does both. 
 
-$[ES]=\frac{[E_T[S]]}{K_M+[S]}$
 
-Alsso as 
 
-$v=k_2[ES]$ (rate o prouct formation). \newline 
-$[ES]=\frac{v}{k_2}$ \newline 
-
-$\rightarrow \frac{v}{k_2} = \frac{[E_T][S]}{K_M+[S]}$\newline
-
-$\rightarrow v= \frac{k_2[E_T][S]}{K_M+[S]}$ ($[ES]\approx[E_T]$ for excess substrate) \newline 
-
-$\rightarrow v=\frac{k_2[ES][S]}{K_M+[S]}$ $v=k_2[E_T]=v_{max}$ As ($[E_T]=[ES]$) for saturated solution. 
-
-$v=\frac{v_{max}[S]}{{K_M+[S]}$ where v is the initial rate. 
-
-$K_M$ and $v_{max}$ ca be used as general measures of catalytic ability. 
-
-$K_M=[S]$ at \frac{v_max}{2}
-
-$v=\frac{v_{max}[K_M]}{{K_M+[K_M]}=\frac{1}{2}v_{max}$ 
-
-product concentration against time can be plotted and the tangent taken to give v at a given t. 
-
-
-NOTE:
-
- #. either ony one susbstrte or concnetrtio o other substrates held constant. 
- #. E is in steady state. 
- #. reaction is irreversible., or 
- 
- Copy down assumptions!!. 
- 
- 
- $\text{ln}(v)=\text{ln}(\frac{v_{max}[S]}{{K_M+[S]}})$
- 
- $\rightarrow =$
- 
-NOTE: $v_{max}$ can be approximated}
-
-## Thermodymanics. 
-Thermodynamics is the study of the flow of energy.
-Energy is obtained from food and utilised to perform biological functions.
-bioenergetics of life. 
-
-### Spontenaity. 
-Thermodynamics can be used to determine which metaloic reactions will happen spontaneously. 
-
-### Background 
-
-#### System 
-The portion of the universe which is of particular interest. 
-
-##### Isolated 
-The system can not exchange matter or energy with its surroundings. 
-
-##### Closed 
-Energy but not matter is exchanged with the surroundings. 
-
-$$$$$ OPen 
-Both energy and matter canb be exchanged with the surroundings. 
-
-$$ Thermodynamics laws. 
-
-### Fisrt Law.
-The total energy of an isolated system is constant. 
-
-### Second law. 
-The total entropy of an isolated system cannot decrease but can only remain constant in the case of a system in eqillibrium or undergoing reversible reactions, or increasing when the system is undergoing reversible processes. 
-
-## Internal energy 
-The sum of all molecular kinetic (virbtarional rotational and translational) and potential mocecular energies. INternal energy is a state function so is independant of the path taken to reach it. 
-
-$$$ Change
-The internal energy of a system may change with the transfer of energy as heat or work. 
-
-$\Delta E=w+q$ 
-
-NOTE: The units for heat work and internal energy are joules. 
-
-#### Aquisitive convention. 
-w is positive when doen on the system. heat is positive when heat is transfered to the system. 
-
-## Work 
-PRessure volume work. $w=-p_\DeltaV$
-
-$$$$Surroundings
-The surroundings are everything other than the system. 
-
-i## Enthalpy 
-At constant volume $\Delta E=q_v$
-
-$H=E+PV$ by definition. 
-
-#### Change. 
-$\DeltaH=\DeltaE+p\Delta V= q+w+P\Delta V= q-P\Delta V+P \Deta V =q$ (As pressure is constant in a biological environment)
-$H=q_p$
-
-Volume changes are minimal in biological systems (as reactions are not often in gasseous form) so $\Delta E \approx \Delta H$
-
-$\Delta H$ is measured suing a calorimeter. 
-
-$\Delta H ^\circ = -R \frac{d(lnK_{eq})}{d\frac{1}{T}}$
-
-THe Van't Hoff plot gives delta H. 
-
-On the y $Rln{K_{eq}}$ is plotted against $\frac{1}{T}$ on the x axis. so that the sslope =$-\Delta H$
-Endothermic is the absorption of heat. 
-
-NOTE: the denaturation of an enzyme is endothermic becuase of H-bond breaking, and exposure of hydrophobic groups. 
-
-## Enzyme kinetics. 
-
-### $K_m$
-For an enzyme catalysted reaction there is first order kinetics for low concnetrations of substrate, tending towards zero order kenetics as substrate is increases to the point of enayme saturation. 
-$K_m$=\frac{V_{max}}{2}$
-
-A high $K_m$ indicates tht a lot more substrate is necessary for the enzyme to become saturated, hence it indicates a low affinity for the substrate. 
-A low $K_m$ indicates that the enzyme bcomes saturated easily and has a high affinity for its substrate. 
-
-#### favoured substrate. 
-The enzyme with the lower $K_m$ will be favoured. 
-
-$$$ Turnover number/kinetic effeciency
-Reffered to ass molecular activity ($K_{cat}$)  the turnover number indicates the maximal catalytic acitvity, defined as the number of substrate molecules converted into product per enzyme per unit time under saturating substrate concentrations. 
-
-for the reaction $E+S \rightarrow ES \rightarrow E+P$  at initial conditios $K_{-2}$ is zero and $K_{cat}=k_2$ 
-
-At saturationg substrate concentrations $v=v_{max} = K_2[ES]=$K_2[E_T]=\frac{v_{max}}{[E_T]}=k_{cat}$
-NOTE: $k_{cat}$ is a first order rate constant (with units $s^{-1}$)
-
-$k_{cat}$ is only informative at very high substrate concentrations which ins't physiological. (In the body normally $\frac{[S]}{K_M}<1$)
-Vut we knwon $V_max=k_{cat}[E_T]$
-So from mecahlis meten $v=\frac{v_{max}[S]}K_M{+[S]}$
-
-As $[S]<<K_m$ 
-
-$v=\frac{v_{max}}{K_M}$
-
-At very low substrate concentrations $E_T$=[E]
-So $v=\frac{k_{cat}}{K_m}$[E][S]
-
-$\frac{K_{cat}}{K_m}$ is second measure of effeciency. It is the apparent second order rate constant for the reaction of enzyme and substrate to give poroduct.  
-The higher this measure the better the kinetic effeciency and the berrer the affinity at low {$S}$ , i.e. the higher the catalyti effeciency of the enzyme. 
-
-#### Catalytic perfection 
-Enzymes which reach catalytic perfection are limited only by how fast the enproduct and enzyme can diffuse together. Rate of diffusion of enzyme and substrate in solution.  (maximum value is about $10^{8-9}$)
-
-NOTE: $\frac{K_{cat}{}K_m$ applies to the initial region of the [S] vs rate graph, whereas $K_{kat} reprisents the later region onces $[S]^0$ . $v_0$=k_{cat}[E]^1[S]^0
-$V_0=\frac{k_{cat}{K_m}}[S][E]$
-
-## Enzyme inhibition 
-
-### reversible 
-
-
-### reversible
-binds non eqilibrium 
-
-#### Compeditive 
-Inhibitor binds only to the free enzyme (so has to bind (often )) to the actvie site and so must look like the enzyme. 
-Compeditative inhibitors increase $K_m$ by lowering the effective substrate concentration. 
-$V_{max remains constant}$
-
-
-#### uncompeditative 
-THe inhibitor will only bind to the enzyme substrate complex. $V_max$ drops as EI complex formed which lowers [E] $K_m$ also decreases (because of the law of mass action, leads to an increase in affinity. 
-
-Line weaver burk is a series of parallel lines. $\frac{V_max}{}K_m$) the slope, does not change. 
-
-#### non compediitve. 
-Can bind to enzyme enzyme substrate or both 
-
-##### Pure 
-When the affinity for the enzyme or the enzyme substrate complex is identical it is ppure
-
-##### Mixed 
-IF the affinity for the enzyme and the enzyme substrate complex differs then the enzyme is mixed. 
-
-$$ Bisubstrate reaction 
-Two substrates interact with the enzyme 
-
-$$$ Single displacement/ sequential 
-
-### Random 
-There are two substrate binding sites, so substrates can bind in any order. 
-
-### Ordered
-Binding of one substrate inductes the formation of a second substrate binding site by a conformational change within the enzyme its.
-
-
-### Double displacement.
-Follow the pingpong method. The first substrate binds and covalently modifies the enzyme (leaves part of itself behind) . The second substrate can then bind, takes the part left by the first substrate onto itself and is then released. 
-
-## Thermodynamics second law. 
-The entropy of an isolated system can only decrease or remain constant (in eqillibrium or when reversible processess aer taking place. )Entropy reprisents energy dispersion. 
-
-$S=kln(W)$
-where w is the number of microstates
-
-Moving from disorder to order requires energy input in the form of work. (this is of particular importance in a biological system where reactions, at least catabolic reactions involve the formation of highly ordered macromolecules. 
-
-### Third law 
-S=\idsplaystyle\int ^T _0 C_pdlnT )$ the absolute entropy of a perfect cystal at zero degrees kalvin is zero. . 
-
-
-### Heat capacity 
-$C_p=\frac{dH}{dT}$
-
-the heat capacity is the amount of heat required to increase 1 mol of substance by one degree. 
-
-#### $\Delta C_p$ 
-Positive change implies more heat stability. which implies that the molecules have new ways to move so more enrgy can be added for a temperature increase. Conversely if the change in $C_p$ is negative there are less ways of motion. 
-
-### Free energy 
-The free energy gives the spontenaity of the reaction
-
-$\Delta G=\\Delta H -T\Delta S$ when change in gibbs free energy is zero the enthalpic and entropic compoents are equal. at this point the reaction is at eqilibrium. A spontaneous/ exogonic reaction has a negative $\Delta G$ 
-
-NOTE:remeber the $\Delta G$ indicates the enrgy change between the reactants and products. 
-
-If $\Delta H$ is positive the reaction is said to be enthalpically opposed, or in the case of  negative $\Delta S$  the reaction is entropically opposed. (the opposite of opposed is favoured. 
-
-Free energy entropy are temperature dependant, so the temperature range of the experiment must be specified. backspace32
-
-#### for non standard conditionbackspace32
-
-$\Delta G= \Delta G ^\circ RTln(\frac[C][D]){[A][B]}$
-
-$\Delta G =-RTln (K_{eq})$
-
-In biological conditions we use a modified standard state $\Delta G^\circ '$ which means pH is at seven .
-
-
-NOTE: a comparison of several thermodynamic parameters can give a reasonable idea of the reaction, one on its own is not particularly useful. 
-
-ie for protien unfolding, $\Delta G$ is positive, $\Delta S$ will be positive. 
-
-
-## Analysis of processes according to thermodynamics. 
-Determine entropically and enthalpically opposed /favoured. If a reaction still occurs it can be called enthalpically/entropically driven. 
-Th dissolution of a polar substance in water leads to a decrease in heat capacity whereas the dissolution of a non polar substance increases the heat capacity, this is becuase during solvation the water molecules form a solvation/hydration shell around polar substances reducing the freedom of their moviment. 
-In the case of hydrophobic molecules water formes an ordered cage, clathrate cage, around the hydrophobic molecules, interacting with eachother as a pose to the hydrophobic molecule. The clathrate is more laible (that is more free to exchange hydrogen bonds. Liable waters result in a positive change in heat capacity because they have more ways to store energy. )
-
-Protein folding. There are more hydrophobic groups exposed as a protein unfolds, leading to increase in the $C_p$, conversely when a portein folds these groups are removed from solution and therefore the heat capacity decreases. (also freedom of movement of the protein) 
-
-NOTE: the hydration shell is not just the water dirrectly in contact with the ion but also in layers outwards as if the shell orientates one way then the outside ones also orientate with respect to those. 
-
-NOTE: remember all of the thermodyamic parameters are constant. 
-
-
-NOTE: Pracs start at 2, test covers everything done in enzymes connetcs, but focussed on the lab and there is lab prep work. 
-
-NOTE: water will formed orded shells areound charged ions making them more ordered. 
-
-
-
-NOTE: remember $\Delta G$ gives an indication of the eqillirium position. 
-
-
-### Biological energy flow. 
-The vast majority of energy derrives from the sun 
-
-#### phototrophic organisms. 
-Absorb energy from the light energy directly and store it in the form of various organic molecules. 
-Energy is released in cotrolled exergonic reactions taht drive other reactions requiring energy (endergonic reactions)(i.e. there is an energy flow between exergonic and endergonic reactions. Mediated by a small number of biomolecules. (high energy). chemical energy is released in controlled spontanious reactions driven by  exergonic reactions that drive life. High energy molecules react spontaneously with a substance in the environment with high $\Delta G ^\circ '$ values,releasing large amounts of energy. The environmental molecules are most mcommonly oxygen, the most common high energy organics are the reduced coenzymes. $NADH, NADPH, FADH_2$. Water is another common environmental molecule, which phosphate compounds (ATP) of thioesters, such as acetyl coA. 
-
-NOTE: ATP does not have the highest energy of hydrolysis or the lowest, with regard to the energy shuttle mollecules, ie it is intermediate. This is important as it can take nergy from very high energy phosphates and release energy to from lower energy phosphate compounds. Because energy can be tranferred by ATP in this way it is known as the energy currency of the cell. 
-
-
-### Chemoheterotrophes. 
-Comsume the organicm molecules and release the stored energy in a series of oxidative reactions. 
+##__Glycolysis:Glycolysis__
 

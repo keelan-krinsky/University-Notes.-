@@ -1,0 +1,18 @@
+---
+title: "Concepts: Lab 15"
+output: pdf_document
+---
+
+# Question #1
+
+## A
+A state function is an aspect/property of a system, which is purely dependent in the current state of that system, and not on the path which the system has taken to reach that state, examples of state functions included pressure, volume, temperature, entropy and enthalpy. 
+
+## B 
+A closed system is a system which can exchange energy but not matter with its surroundings, water in a coolant system, such as in a car, is an example of a closed system. 
+
+## C 
+An isobaric process in a process which takes place at constant pressure, that is pressure does not change at all during the course of the process. 
+
+# Question #2
+Anhydrous sodium sulfate is effect at removing water because it is able to bind water molecules directly to form an hydrated salt, and in so doing removing this water from solution. Anhydrous sodium sulfate is particular effective as it has a high capacity, that is it can bind many water molecule (per molecule of sodium sulfate). Furthermore sodium sulfate is extremely inert, and its granularity makes it easy to remove once it has been hydrated, implying that the drying process will not contaminate the organic solvent. A related limitation however is that sodium sulfate may also bind some polar organic substances such as alcohols, also removing these from solution, and is slower acting than other more selective dehydrating agents. Sodium sulfate will also leave more water molecules in the final solution that other similar drying agents.   

@@ -1,12 +1,8 @@
 ---
 title: "Tutorial two"
-output: html_document
+output: pdf_document
 
 ---
-
-# Imports
-
-import BeerLambert as BeerLambert
 
 # Tutorial Two 
 
@@ -19,13 +15,150 @@ There are two distinct $\lambda_{\text{max}}$ values:\newline
 
 By Beer-Lambert Law\footnote{See appendix} 
 
- #. $1.2=3.62\cdot 10^{-3}mol\cdot dm^{-3}\cdot 5.00cm$\newline 
+```{r, echo=FALSE}
+e1<-c(1.2/(3.62*10^(-3)*5))
+e2<-c(0.625/(3.62*10^(-3)*5))
+```
 
+
+ #. $1.2=3.62\cdot 10^{-3}mol\cdot dm^{-3}\cdot 5.00cm\cdot\epsilon_{max}$\newline
+    $\rightarrow \epsilon_{max}=66.3$
+ #. $0.625=3.62\cdot 10^{-3}mol\cdot dm^{-3}\cdot 5.00cm\cdot\epsilon_{max}$\newline 
+    $\rightarrow \epsilon_{max}=34.5$
+
+## Question #2
+a) $\sigma \rightarrow \sigma ^*$ \newline 
+b) $\sigma \rightarrow \sigma ^*$ \newline 
+c) $n\rightarrow \pi^*$ \newline 
+d) $\pi \rightarrow \pi ^*$ \newline 
+e) $d\rightarrow d$\newline 
+
+# Part #4
+
+## Question #1
+
+### (i)
+90Mhz was used for measurments which implies 1$\delta$=90Hz. 
+
+```{r, echo=FALSE}
+a<-c(181/90)
+b<-c(437/90)
+c<-c(756/90)
+
+```
+
+a) 2.01\newline 
+b) 4.86\newline 
+c) 8.4 \newline
+
+### (ii)
+$32MHz$ was used for the experiment which implies $1 \delta =50.32Hz$
+
+```{r, echo=FALSE}
+a<-c(20.3*50.32)
+b<-c(156.0*50.32)
+c<-c(203.7*50.32)
+
+```
+a) 1021\newline
+b) 7850\newline 
+c) 10250 \newline 
+
+## Question #2
+ #. 3 different signals.
+    #. $\delta =2.3$ ($-C-CH_2=C$ )
+    #. $\delta = 4.5-6$ ($-C=CH-$)
+    #. $\delta =2.3$ ($-C-CH_2-C$)
+ #. 4 different environments
+    #. $\delta =3.3$ ($CH_3-OR$ )
+    #. $\delta = 2.4$ ($-C-CH_2-CO-R$)
+    #. $\delta =1.2$ ($-C-CH_2-C$)
+    #. $\delta =0.9$ ($CH_3-C$)
+ #. 3 different environments. 
+   #. $\delta = 5-6$ (acyclic non conjugated) 
+   #. $\delta$
+   #. $\delta$ 
+ 
+ #. 4 different environments
+    #. $\delta =3.3$ ($CH_3-OR$ )
+    #. $\delta = 2.4$ ($-C-CH_2-CO-R$)
+    #. $\delta =1.2$ ($-C-CH_2-C$)
+    #. $\delta =0.9$ ($CH_3-C$)
+ #. 3 different environments. 
+    #. $\delta =2.0$ ($CH_3-CO-OR$ )
+    #. $\delta = 4.1$ ($-C-CH_2-O$)
+    #. $\delta =1.4$ ($CH_3-C-O$)
+    
+## Question #3
+ #. 3 different environments.     
+    #. $\delta =100-150$ (=C-)
+    #. $\delta = 15-50$ ($R_2CH_2$) (adjacent the the carbons involved in the double bond)
+    #. $\delta = 15-50$ ($R_2CH_2$) (opposite the carbons involved in the double bond)
+ #. 3 different environments. 
+    #. $\delta = 50-80$ ($C-O$) (of the $CH_3-O$ side
+    #. $\delta = 50-80$ ($C-O$) (of the $CH_3-CH_2-O$ side
+    #. $\delta = 8-35$ ($CH_3-R$)
+ #. 2 different environments. 
+    #. $\delta = 100-150$ ($=C-$) on the side of the bromide
+    #. $\delta = 50-80$ ($=C-$) (on the $CH_2$ side
+ #. 6 different environments. 
+    #. $\delta =8-35$ ($R-CH_3$) 
+    #. $\delta = 30-40$ ($R_4C$) (in the propyl side group)
+    #. $\delta = 110-170$ C within the benzene ring dirrectly attatched to the propyl group
+    #. $\delta = 110-170$ C within the benzene ring adjacent to the C dirrectly attatched to the propyl group
+    #. $\delta = 110-170$ C within the benzene ring a C away from to the C dirrectly attatched to the propyl group
+    #. $\delta = 110-170$ C within the benzene ring opposite the C away from to the C dirrectly attatched to the propyl group
+ #. 4 different environments. 
+    #. $\delta =165-175$ ($R-CO-OR$) 
+    #. $\delta = 50-80$ ($C-O$) 
+    #. $\delta = 110-17$ C within the benzene ring dirrectly attatched to the propyl group
+    #. $\delta = 8-35$ $R-CH_3$ nearer to the $C=O$
+    #. $\delta = 8-35$ $R-CH_3$ further form the $C=O$
+    
+## Question 4
+ #.
+ #. $CH_3-C\equiv C-CH_3$
+ #. $CH_3CBr_3$
+ 
+ 
+## Question #5
+Spectrum 1 corresponds to 4-heptanol, becuase as 4-hepthanol is symetricall about the $COH$ region only 4 distinct environments are seen. In 3-hepthanol however there is no symetry so 7 distict environments are seen for the 7 different carbons present. 
+ 
+## Question #6
+ #. dectuplet
+ #. singlet
+ #. triplet
+ #. there are two distinct H environments each of which will correspond to a doublet. 
+ 
+ 
+## Question #7
+```{r, echo=FALSE}
+a<-c((9.800-9.780)*200)
+b<-c((4.49-4.40)*200)
+c<-c((1)*200)
+```
+
+ #. Triplet, $J=4.00Hz$
+ #. Septuplet $18.0Hz$
+ #. 
+ 
+ 
+    
+\newpage
 
 ## Appendix 
 
-###__BeerLambert: Beer-Lambert Law__
+### Beer-Lamber Law. 
+The Beer Lambert law related the attenuation of electromagnetic waves to the properties of the material through which they are propagating and the distance which they have propagated through the material. 
 
+#### Equation. 
+For a particular wavelength the Beer Lambert law is given by:\newline 
+
+$A=\epsilon bC$
+
+Where: \newline 
+ $A$ = Absorbance \newline 
+$\epsilon$ = Molar absorptivity ($L\cdot mol^{1-}\cdot cm^{-1}$)\newline  
 
 
 
