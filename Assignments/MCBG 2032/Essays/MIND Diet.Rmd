@@ -5,14 +5,130 @@ output: pdf_document
 
 If four and a half billion years of evolution, twelve thousand years of agriculture and a hundered years of nutritional science (Mozaffarian et al, 2018) has taught us anything, it is that the importance of food simply cannot be underestimated. Indeed, the dramatic increase in human life span to doulbe that of ancestral humans, was largely due to improved access to nutrition and medicine (Finch and Caleb,2010). Furthermore, there is now significant evidence to suggest that many major diseases such as cardiovascular disease (Mente et al, 2009), or cancer (Bringham nad Sheila et al, 2004) are better combatted by prevention with effective diet than dirrect medical treating which can be very expensive, and imply unpleasant side effects. The role of diet, in basic nutrition and disease prevention is especially evident in old age, with the increased incidence of degenerative diseases such as Altzhiemers (Arendt and Bigl, 1987). However, dispite the well established importance of diet, what would constitute the ideal diet, is still not entirely clear, although many sugesstions have been made. The MIND (Mediterranean-DASH Intervention for Neurodegenerative Delay) diet, is one such suggestion. It combines aspects of the classic medeteranian diet,consisting predominately of fish, fruit and vegitables, with the newer DASH (Dietary Approaches to Stop Hypertension) diet, which includes increased dairy consuption and decreased sodium intake, to prevent nerodegenerative disease. This dietary plan has not gone without critisicm,however, its overall efficacy is well supported by field trials, and it severes as a much needed guidline in the complex and confusing arena of dietary science.
 
-To truely appreciate the advantages offered by the MIND diet requires a more detailed view of its consituets and their metabolic effects. 
+To truely appreciate the advantages offered by the MIND diet requires a more detailed view of its constituets and their metabolic effects. The mind diet is based around splitting common food sources into two generl groups, brian healthy and brain unhealthy, encouraging increased consumption of the former, and decresed consupmtion of the latter. (Di Fiore N., 2015)  Brain healthy foods include vegitables (especially green leafy) vegitables, whole grains, berries, nuts, beans, wine (in limited quantities), fish, poultry, and olive oil, whereas brain unhealthy foods include cheese,red meats,fried foods, butter/margerine, or pasteries and sweets (Marcason and Wendy,2015). All of these food groups, both healthy and unhealthy are broken down by specific anabolic pathways into their basic substituents, which can then be catabolised into new macromolecules, whith the production of side/waste products along the way.(Garrett and Grisham, 4th edition). Hence, which food groups are consumed will affect the extend and amount of raw mataerials avaiable for anabolism, and the expore to toxic metabolic by products.    
 
-The metabolic effects is that. 
+The metabolism of leafy green vegitables provides a ponient example of the importance of consuming the appropraite substrates for metabolism, and the potential advantages offered by the MIND diet. Leafy greens contain significant component of proteins and carbohydrates 
+(Menasah et al, 2018), with very low unsaturated or trans fat components. 
+(Singh et al, 2001). The starch component of the carbohydrates present can be hydrolysed to glocuse molecules, which provide an important energy source to brain cells, which can not use any other substrate as an energy source, while many of the proteins may contain metal ion prosthetic groups, which form a vital source of micronutrients, for the cell. In particular the $Mg^{2+}$ ions present in the chorophyll of such leaves is a vital cofactor for many of the enzymes involved in glucogenesis, (the break down of glucoses to release energy), hence without a steady supply of $Mg^{2+}$ ions the brain cells would again be starved of an energy source, among many other deleterious consequences. Finally the low 
+trans and unsaturated fat concentration in leafy green helps specifically to reduce the changes of neuroegenrative disease with highly unsaturated trans fats (such as in red meat or pasteries), associated with the incindence of Altzheimers. (Morris et al, 2003). Similar metabolic themes can be indetified for the other compents of the MIND diet, to provide a thorough explintion for its contribution to decreased risk of neurodegenerative disease. 
+
+The effecacy of the diet plan does not rest solely on theory however, as there is  also a wealth of empirical evidence linking its application to decreased incidicnet of nerodegenerative disease. Stronger adherance to the diet has been strongly correlated to lower rates of decline in working memory, episodic memory, visiospacial ability, and perceptual speed, as general cognition scores, with strict adherence effectively delaying the deterioraation process by as much as 7.5 years (Morris et al, 2015). Perhaps even more importantly even intermedite levels of compliance with the diet show a dramatic (35\%) reduction in the incidence of altzhiemer disease. (Moris et al 2015).   
+However, despite the theoretical and empircal support for the diets efficacy, it is not without limitations.  Chief among these limitations is that the MIND diet (and indeed any general diet), is that despite the general correlation discuessed the effect of the diet on any given individual is variable, dedpendant upon both the genetics, and behavioural patterns. (Schelke et al, 2018)
+
+In conclusion, the MIND diet combines both the time tested Meditarnian diet, and its more recent dirrivative the DASH diet, to form a diet specifically taylored to prevention, and mediation of neurodegenerative disease. The diet groups common food types generally into brain healthy and brain unhealthy foods, based on the biological consequences of the metabolites which they generate, both in terms of the nutritional value of end products of metabolism as well as the potentil deliterious effects of the waste/side products. The theory behind this classification relies on considerations of well established and experimentally verified metabolic pathways, and impirical trials show strong links between the diet and decreased neurodegenerative disease. While the effectiveness of the diet may vary to a degree between individauls due to genetically or behaviourally based idiocincracies in metabolism. However, in general it provides an easily understandable and useful guidline for neurodegenerative disease prevention, even at relatively low levels of diet compliance. High levels of diet compliance combined with bespoke modifications to the basic diet plan can lead to truely extraordinary improvments in neurodegerative disease prevention.      
+
+nclusion. 
+
 
 This improves the 
 
 
+
+
 # References
+
+ #. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@article{doi:10.1111/nyas.13070,
+author = {Schelke, Matthew W. and Hackett, Katherine and Chen, Jaclyn L. and Shih, Chiashin and Shum, Jessica and Montgomery, Mary E. and Chiang, Gloria C. and Berkowitz, Cara and Seifan, Alon and Krikorian, Robert and Isaacson, Richard Scott},
+title = {Nutritional interventions for Alzheimer's prevention: a clinical precision medicine approach},
+journal = {Annals of the New York Academy of Sciences},
+volume = {1367},
+number = {1},
+pages = {50-56},
+keywords = {preclinical Alzheimer's disease, Alzheimer's prevention, clinical precision medicine, nutrigenomics, nonpharmacological management, insulin resistance},
+doi = {10.1111/nyas.13070},
+url = {https://nyaspubs.onlinelibrary.wiley.com/doi/abs/10.1111/nyas.13070},
+eprint = {https://nyaspubs.onlinelibrary.wiley.com/doi/pdf/10.1111/nyas.13070},
+abstract = {Alzheimer's disease (AD) is a major source of morbidity and mortality, with the disease burden expected to rise as the population ages. No disease-modifying agent is currently available, but recent research suggests that nutritional and lifestyle modifications can delay or prevent the onset of AD. However, preventive nutritional interventions are not universally applicable and depend on the clinical profile of the individual patient. This article reviews existing nutritional modalities for AD prevention that act through improvement of insulin resistance, correction of dyslipidemia, and reduction of oxidative stress, and discusses how they may be modified on the basis of individual biomarkers, genetics, and behavior. In addition, we report preliminary results of clinical application of these personalized interventions at the first AD prevention clinic in the United States. The use of these personalized interventions represents an important application of precision medicine techniques for the prevention of AD that can be adopted by clinicians across disciplines.}
+}
+
+ 
+
+ #. @article{BARNARD2014S74,
+title = "Dietary and lifestyle guidelines for the prevention of Alzheimer's disease",
+journal = "Neurobiology of Aging",
+volume = "35",
+pages = "S74 - S78",
+year = "2014",
+note = "International Conference on Nutrition and the Brain",
+issn = "0197-4580",
+doi = "https://doi.org/10.1016/j.neurobiolaging.2014.03.033",
+url = "http://www.sciencedirect.com/science/article/pii/S0197458014003480",
+author = "Neal D. Barnard and Ashley I. Bush and Antonia Ceccarelli and James Cooper and Celeste A. de Jager and Kirk I. Erickson and Gary Fraser and Shelli Kesler and Susan M. Levin and Brendan Lucey and Martha Clare Morris and Rosanna Squitti",
+keywords = "Dementia, Alzheimer's disease, Prevention, Nutrition, Saturated fat, Trans fatty acids, Vitamin E, Iron, Copper, Exercise"
+}
+
+ #. @Article{Singh2001,
+author="Singh, G.
+and Kawatra, Asha
+and Sehgal, S.",
+title="Nutritional composition of selected green leafy vegetables, herbs and carrots",
+journal="Plant Foods for Human Nutrition",
+year="2001",
+month="Dec",
+day="01",
+volume="56",
+number="4",
+pages="359--364",
+abstract="Six green leafy vegetables and herbs -- spinach, amaranth, bengal gram, cauliflower, mint, coriander and carrots -- were analyzed for moisture, protein,ascorbic acid, $\beta$-carotene, total iron, ionizable iron (as {\%} of total iron) in vitro iron ({\%} of total iron), copper, manganese and zinc. Moisture content of the leaves and carrots varied from 75.1 percent (bengal gram) to 95.4 percent (carrot) and protein from 9.83 percent (carrots) to 30.9 (mint) percent. Ascorbic acid, $\beta$-carotene, total iron and ionizable iron contents were at a maximum in case of bengal gram leaves whereas level of ionizable iron and in vitro iron as a percent of total iron was highest in carrots. Copper, manganese and zinc contents were maximum in spinach.",
+issn="1573-9104",
+doi="10.1023/A:1011873119620",
+url="https://doi.org/10.1023/A:1011873119620"
+}
+
+
+
+
+ #.
+TY  - JOUR
+T1  - What Are the Components to the MIND Diet?
+AU  - Marcason, Wendy
+Y1  - 2015/10/01
+PY  - 2015
+N1  - doi: 10.1016/j.jand.2015.08.002
+DO  - 10.1016/j.jand.2015.08.002
+T2  - Journal of the Academy of Nutrition and Dietetics
+JF  - Journal of the Academy of Nutrition and Dietetics
+SP  - 1744
+VL  - 115
+IS  - 10
+PB  - Elsevier
+SN  - 2212-2672
+M3  - doi: 10.1016/j.jand.2015.08.002
+UR  - https://doi.org/10.1016/j.jand.2015.08.002
+Y2  - 2018/08/05
+ER  - 
+
+#. @article{doi:10.1111/nyas.13070,
+author = {Schelke, Matthew W. and Hackett, Katherine and Chen, Jaclyn L. and Shih, Chiashin and Shum, Jessica and Montgomery, Mary E. and Chiang, Gloria C. and Berkowitz, Cara and Seifan, Alon and Krikorian, Robert and Isaacson, Richard Scott},
+title = {Nutritional interventions for Alzheimer's prevention: a clinical precision medicine approach},
+journal = {Annals of the New York Academy of Sciences},
+volume = {1367},
+number = {1},
+pages = {50-56},
+keywords = {preclinical Alzheimer's disease, Alzheimer's prevention, clinical precision medicine, nutrigenomics, nonpharmacological management, insulin resistance},
+doi = {10.1111/nyas.13070},
+url = {https://nyaspubs.onlinelibrary.wiley.com/doi/abs/10.1111/nyas.13070},
+eprint = {https://nyaspubs.onlinelibrary.wiley.com/doi/pdf/10.1111/nyas.13070},
+abstract = {Alzheimer's disease (AD) is a major source of morbidity and mortality, with the disease burden expected to rise as the population ages. No disease-modifying agent is currently available, but recent research suggests that nutritional and lifestyle modifications can delay or prevent the onset of AD. However, preventive nutritional interventions are not universally applicable and depend on the clinical profile of the individual patient. This article reviews existing nutritional modalities for AD prevention that act through improvement of insulin resistance, correction of dyslipidemia, and reduction of oxidative stress, and discusses how they may be modified on the basis of individual biomarkers, genetics, and behavior. In addition, we report preliminary results of clinical application of these personalized interventions at the first AD prevention clinic in the United States. The use of these personalized interventions represents an important application of precision medicine techniques for the prevention of AD that can be adopted by clinicians across disciplines.}
+}
+
 
  #. @article{ARENDT1987552,
 title = "Alzheimer's disease as a presumptive threshold phenomenon",
@@ -87,7 +203,6 @@ eprint = {/data/journals/intemed/22596/ira80010_659_669.pdf}
 	journal = {Proceedings of the National Academy of Sciences}
 }
 
-
 #. @article{doi:10.1001/archinternmed.2009.38,
 author = {Mente A and de Koning L and Shannon HS and Anand SS},
 title = {A systematic review of the evidence supporting a causal link between dietary factors and coronary heart disease},
@@ -99,4 +214,25 @@ year = {2009},
 doi = {10.1001/archinternmed.2009.38},
 URL = { + http://dx.doi.org/10.1001/archinternmed.2009.38},
 eprint = {/data/journals/intemed/22596/ira80010_659_669.pdf}
+}
+
+ #. Di Fiore N. Diet may help prevent Alzeimer’s: MIND diet rich in vegetables, berries, whole grains, nuts. Rush University Medical Center website. https://www.rush.edu/news/diet-may-help-prevent-alzheimers. Accessed July 24, 2015.
+ 
+ (Garrett and Grisham, 4th edition, pp 546) 
+ 
+ African Journal of Biotechnology, Vol 7, No 14 (2008), 
+Phytochemical, nutritional and medical properties of some leafy vegetables consumed by Edo people of Nigeria
+JK Mensah, RI Okoli, JO Ohaju-Obodo, K Eifediy
+
+ #. @article{doi:10.1001/archneur.60.2.194,
+author = {Morris M and Evans DA and Bienias JL and et al},
+title = {Dietary fats and the risk of incident alzheimer disease},
+journal = {Archives of Neurology},
+volume = {60},
+number = {2},
+pages = {194-200},
+year = {2003},
+doi = {10.1001/archneur.60.2.194},
+URL = { + http://dx.doi.org/10.1001/archneur.60.2.194},
+eprint = {/data/journals/neur/13502/noc20214.pdf}
 }
