@@ -57,12 +57,78 @@ Triose phosphare isomerase compelets the first phase of glycolysis by catalysing
 Glyceraldehyde-3-phosphate dehydrogenase produces a high energy intermediate in an oxidation reaction. 
 
 ### reaction #7
-Phosphglycerate Kinase (Mg) regenerates ATP used. 
+
+#### Spontaneity 
+Very spontaneous coupling with reaction six, drives reaction six
+
+#### Reaction
+$1,3-BPG+ADP \rightarrow 3 phosphoglycerate+ATP$ $\Delta G^\circ ' -18.9kJ.mol^{-1}$ 
+
+#### Enzyme 
+Phosphoglycerate Kinase
+
+#### Cofactors 
+
+#### ATP Production 
+regenerates ATP used earlier in Glycolysis. 
+
+Phosphoglycerate kinase ($Mg^{2+}$) as in the back reaction the phosphoglycerate is phosphorylated. or it could be called 1,3-Bisphosphate phosphatase. 
+
+this reaction has a large negative $\Delta G$ and hence is a site of regulation. 
+
+first substrate level phosphrylation occurs, ie the phosphate group derrives dirrectly from the phosphate, in the ETC ATP is formed from ATP by substrate level phosphorylation. 
+
+
+
+Break even reaction, energy lost is equal to energy gained
+
+
+Reaction #7 
+
+$1,3-BPG+ADP \rightarrow 3 phosphoglycerate+ATP$ $\Delta G^\circ '$ -18.9kJ.mol^{-1}. 
+Phosphoglycerate kinase ($MG^{2+}$) as in the back reaction the phosphoglycerate is phosphorylated. or it could be called 1,3-Bisphosphate phosphatase. 
+
+this reaction has a large negative $\Delta G$ and hence is a site of regulation. 
+
+first substrate level phosphrylation occurs, ie the phosphate group derrives dirrectly from the phosphate, in the ETC ATP is formed from ATP by substrate level phosphorylation. 
+
+
+
+Break even reaction, energy lost is equal to energy gained
+
+### Reaction #8
+
+#### Phosphoglycerate mutase (mutases move only one functional group). this reaction prepares the substrate for the following reaction involving the synthesis of ATP, ie priming the phosphate group for removal. 
 
 ### Reaction #9
-Enolase. produces PEP via dehydrogenase (?)
+
+#### Enzyme
+Enolase. 
+
+#### Reaction
+Dehydration reaction 
+
+$2 phosphoglycerate \rightarrow phosphoenolpyruvate$
+
+As much more instable in the enol form so it is a muich higher energy molecule (it has not gained energy, only instability). 
+enols tautomerise to ketones.
+
+produces PEP via dehydrogenase (?)
+
+
 
 ### Reaction #10 
+
+#### Enzyme 
+pyruvate kinase (phosphoenolpyruvate phosphatase)
+
+transfer of a phosphoryl group from PEP to ADP to generate ATP and Pyruvate, enol tautomer converted to more favourable keto tautomer, 
+
+tautomers are isomers which can readily intraconvert between each other. 
+
+#### Reaction
+
+$Phosphoenolpyruvate \rightarrow pyruvate$
 pyruvate Kinase produces pyruvate and mro ATP 
 
 ### Kinase enzymes. 

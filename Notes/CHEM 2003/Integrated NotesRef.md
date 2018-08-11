@@ -6,10 +6,21 @@ output: html_document
 # Imports
 
 import Modules/Spectroscopy as Spectroscopy
+
 import Modules/OrganicChem as OrganicChem 
+
 import Modules/InorganicChem as InorganicChem
 
+import Modules/Spectrometry as Spectrometry
+
 # Chemistry
+
+## Background
+
+### Lecturer
+Dr Kennedy Ngwira, C407, Dr Amond Rouseou. C503. 
+
+## Inorganic Chemistry
 
 ># Inorganic Chemistry
 >
@@ -378,28 +389,125 @@ import Modules/InorganicChem as InorganicChem
 >
 > 
 
+## Spectroscopy
+
 ># Spectroscopy
 >
 >## Background
 >Spectroscopy is a set of techniques in which the response of molecules to the input of energy is measured. Electromagnetic radiation is applied to compounds and the interaction of this radiation with the compound is then observed. 
 >
-> >### Electromagnetic waves
+> ># Electromagnetic waves
 >>
-> >#### Wave nature.
+> >## Wave nature.
 >>Electromagnetic waves consist of and electric and magnetic field which oscillate orthogonally to each other, and orthogonally to the direction of propagation of the wave. 
 >>
-> >#### Wavelength
+> >## Wavelength
 >>Wavelength is donated by $\lambda$ and measured in meters (sometimes nm are used such as when UV or visible light is being discussed). 
 >> 
-> >#### Velocity
+> >## Velocity
 >>Speed is donated by $c$. The speed of light in a vacuum ($c_0$) is constant ($3.00 \cdot 10^{8}m\cdot s^{-1}$), normally the speed of light is given in $m\cdot s^{-1}$ 
 >>
-> >#### Frequency
+> >## Frequency
 >>Frequency is donated by $\nu$ (?) and is measured in Hertz (Hz) that is $s^{-1}$
 >>
-> >#### Wavenumber
+> >## Wavenumber
 >>Wavenumber is donated by $\overline{\nu}$, and is the reciprocal of wavelength. It is measured in $cm^{-1}$ and used most commonly in IR spectra. 
 >>
+> >## Particle nature.
+>>Photons are particles of light. There particles posses a distinct quantised energy given by $E=h\nu$
+>>
+> >### Interactions with matter
+>>
+> > ># Absorbance
+>>>Absorbance is a measure of the extent to which a substance transmits electromagnetic radiation. 
+>>>
+> > >## Equation
+>>>Absorbance (A) is defined by equation to as: \newline 
+>>>
+>>>$A=-\text{log}_{10}$. ($=\text{log}_{10}(\frac{I_0}{I})$)\newline 
+>>>
+>>>Where:\newline 
+>>>> $T$ =Transmittance. 
+>>>> $I_0$ = Intensity of incident radiation and 
+>>>> $I$ = Intensity of transmitted radiation. 
+>>>
+> > >## Appendix
+>>>
+> > > ># Transmittance
+>>>>Transmittance is a material property relating to how radiant energy moves through a substance. 
+>>>>
+> > > >## Equation
+>>>>The transmittance (T) of a surface is given by the expression. 
+>>>>
+>>>>$T=\frac{I}{I_0}$ 
+>>>>
+>>>>where: 
+>>>>>$I_0$ = The intensity of light incident onto the surface
+>>>>> $I$ = The intensity of light transmitted by the surface.
+>>>>
+>>>>> NOTE: Transmittance is often given as a percentage.
+>>>>
+>>
+> > ># Transmittance
+>>>Transmittance is a material property relating to how radiant energy moves through a substance. 
+>>>
+> > >## Equation
+>>>The transmittance (T) of a surface is given by the expression. 
+>>>
+>>>$T=\frac{I}{I_0}$ 
+>>>
+>>>where: 
+>>>>$I_0$ = The intensity of light incident onto the surface
+>>>> $I$ = The intensity of light transmitted by the surface.
+>>>
+>>>> NOTE: Transmittance is often given as a percentage.
+>>>
+>>
+> > ># Beer-Lambert Law
+>>>The Beer Lambert law related the attenuation of electromagnetic waves to the properties of the material through which they are propagating and the distance which they have propagated through the material. 
+>>>
+> > >## Equation.
+>>>For a particular wavelength incident on a suspension of absorbing particles the Beer Lambert law is given by:\newline 
+>>>
+>>>$A=\epsilon bC$
+>>>
+>>>Where: \newline 
+>>>> $A$ = Absorbance \newline 
+>>>> $\epsilon$ = Molar absorptivity ($L\cdot mol^{1-}\cdot cm^{-1}$)\newline 
+>>>> $C$= Concentration of absorbing particles. 
+>>>
+> > >## Appendix
+>>>
+> > > ># Absorbance
+>>>>Absorbance is a measure of the extent to which a substance transmits electromagnetic radiation. 
+>>>>
+> > > >## Equation
+>>>>Absorbance (A) is defined by equation to as: \newline 
+>>>>
+>>>>$A=-\text{log}_{10}$. ($=\text{log}_{10}(\frac{I_0}{I})$)\newline 
+>>>>
+>>>>Where:\newline 
+>>>>> $T$ =Transmittance. 
+>>>>> $I_0$ = Intensity of incident radiation and 
+>>>>> $I$ = Intensity of transmitted radiation. 
+>>>>
+> > > >## Appendix
+>>>>
+> > > > ># Transmittance
+>>>>>Transmittance is a material property relating to how radiant energy moves through a substance. 
+>>>>>
+> > > > >## Equation
+>>>>>The transmittance (T) of a surface is given by the expression. 
+>>>>>
+>>>>>$T=\frac{I}{I_0}$ 
+>>>>>
+>>>>>where: 
+>>>>>>$I_0$ = The intensity of light incident onto the surface
+>>>>>> $I$ = The intensity of light transmitted by the surface.
+>>>>>
+>>>>>> NOTE: Transmittance is often given as a percentage.
+>>>>>
+>>>
 >
 > >## Infra Red Spectrometry
 >>Interact with bond stretch, affecting vibrational energy levels. 
@@ -420,8 +528,103 @@ import Modules/InorganicChem as InorganicChem
 > >### Microwave Spectroscopy
 >>Affect bond bending. 
 >
-> >## NMR Spectroscopy
+> ># NMR Spectroscopy
 >>Affects the energy levels associated with the magnetic field which is associated with electron, or protons within the nucleus.
+>>
+> > ># Proton NMR Spectroscopy
+>>
+> > ># Carbon 13 NMR Spectroscopy
+>>> 
+>>
+>>
+> >## NMR.
+>>
+> >### Chemically equivalent positions.
+>>How many signals, gives info about number of non-equivalent nuclei.  
+>>
+> >### Chemical shifts,
+>>GIves information about the environment of nuclei and possible functional groups (Use correlation tables adn charts)
+>>
+> >### Integration
+>>Gives information about the number of H responsible for each signal 
+>>
+> >### Spin-spin splitting.
+>>gives the number of H on the adjacent. 
+>>
+>>NOTE: for carbon 13 it is similar and DEPT spectra is used to give infor about the number of hydrogen (off resonance decoupled spectra not included as normally DEPT is used instead). 
+>>
+>>
+> >### Decoupling
+>>
+>>Carbon 13 decoupled spectra is designed so that there is no coupling between $^{13}C$ and hydrogen.
+>>DEPT experiment, any carbon carrying 3 protons appears as positibve/ above the baseline, and any coarbon with 2 hydrogen appears are negative, below the basline. C atoms carrying no protons, (quantinary carbon atoms) do not appear  in the DEPT spectrum. 
+>>
+>>Always run in conjunction with a full spectrum, to provide more information. 
+>>Usually DEPT-135 
+>>COPY IMAGE.
+>>$CH$ and $CH_3$ signals are up and $CH_2$ signals are down, quantinary carbon signals dissapear. 
+>>
+> >### Protons attatchced to nitrogens or oxygens,
+>>hydrogen bonding often occurs, and there can be a rapid exchange of H molecules between molecules. 
+>>
+>>This results in 
+>> #. broader peaks. 
+>> #. $\delta$ values ca vary greatly
+>> #. Positions also depend on solvent and concentration 
+>> #. very seldom see coupling
+>>
+> >#### $D_2O$ exchange.
+>>One ca take advantage of H exchange between molecules to locate H attatched to N or O, 
+>>$D_2O$ is added to the sample, and the OH signal is removed by exchanging H for D in the organic compound, the $D_2O$ itself will not interfere as it sits as a layer on the surface, (the organic molecule is dissolved in chloroform. 
+>>
+>>THis only works for H attatched to O or N, as onyl in theses groups can the rapid exhchange of H with other molecules occur. (this will be alcohols and amines/amindes). 
+>>
+>>NOTE: only the H dirrectly next to an unsaturated bond are deshielded. 
+>>
+>>NOTE: $CH_2$ s tend to be more deshielded than $CH_3$ s. 
+>>
+> >### PRocess
+>>
+>>Try and identify for each signal 
+>> #, Chemical shift. ()
+>> #. The number of H integration, (the integration )
+>> #. the multiplicity, (singlet, doublet, etc) 
+>> #. the number of H adjacent,
+>>
+>>NOTE: check at the end that the patterns all make sense
+>> NOTE: remember for an ester the O side is far more desaturated. 
+>>
+>>
+> >### Examples
+>> #. start with the DBE.
+>> 	#. 
+>> #.look at peaks. 
+>>	#. a meta aromatic has an doublet of doublets and an apparent triplet (or very close doublet of doublets) 
+>>	#. A para aromatic has only a doublet of doublets. 
+>>
+>>NOTE: the OH can be anywhere in the NMR, but can be identified by $D_2O$
+>>(exchanges) implies a signal is removed when $D_2O$ is added.
+>>
+>>NOTE: use the fact that the number of aromatic protons can give the number of substituents on an aromatic ring. 
+>>NOTE: aldehyde proton is extremely deshielded but does not exchange. 
+>>
+>>for a multiplet (i.e. a complex signal) the number of adjacent H cannot be determined. 
+>>do not confuse the number of signals with the number of peaks derived from splitting, each signal may be split into several peaks. 
+>>
+>>aromatic H do not normally couple outside of the ring. 
+>>
+>>in a para-substituted aromatic four carbon signals are seen. 
+>>Carbon next to H form bigger peaks. (higher), than those which are substituted.
+>>
+>>There are two different effects on electro density, the inductive effect, which is an electron withdrawing throughbond effect. oxygen however can donate its lone pair into the $\pi$ system of an aromatic ring, which leads to increased electron density in the ortho and para positions, so relatively more shielded than the meta position. 
+>>
+>>Sometimes very similar shift values although not equivalent will not, overlap to give a multiplet.
+>>
+>>heteroatom protons do not normally couple. 
+>>
+>>Do next example.
+>>
+>>
 >
 > >## Double Bond Equivalents
 >>The advantage of double bond equivalents is that they can be used to at least propose several possible structure for a compound. The presence of several structural components including double or triple bonds, cyclic compounds and aromatic rings can be speculated, and the related functional 
@@ -431,94 +634,10 @@ import Modules/InorganicChem as InorganicChem
 >>The DBE for a benzene ring is 4, and in general if a compound has a DBE above 4 there is a good chance that it contains benzene, (if its DBE is below four then obviously it cannot contain benzene.)
 >
 
+## Organic chemistry
+
 ># Organic Chemistry
->
->## Course Background.
->
->### Lecturer
->Dr Kennedy Ngwira, C407, Dr Amond Rouseou. C503. 
->
->### Isomers.
->
->#### Structural isomers.
->Structural isomers are compounds with the same atomic composition and molecular formula, but different atomic arrangments.
->
->#### Structural isomers
->#### Stereo isomers.
->
->##### Conformational
->Conformational isomers are characterised by free rotation around a particular (C-C) bond, hence at least one single bond is required in the structure. Due to the free rotation the different isomeric forms can be rapidly interconverted. 
->
->###### Staggered
->In eclipsed conformation, when view along the axis of the bond the groups attached to the atoms of the bond do not lie dirrectly behind eachother but are displaced by a given angle ($60^\circ$) 
->
->###### Eclipsed.
->In eclipsed conformation, when view along the axis of the bond the groups attached to the atoms of the bond lie dirrectly behind eachother. 
->
->###### Cyclic compounds
->cyclic compounds can also form coformational isomers which take on the boat, or chair conformation. 
->
->
->##### Geometric
->Geometric isomers require a rigidn unit such as a double bond ($\pi$ bond), or a cyclic compound which prevents free rotation.
->
->###### Cis trans.
->In cis trans nomeclature the cis conformation has groups of higher proprity on the same size, the trans has them on opposite sides. ( higher priority is assigned to the group which is connected by the atom with the higher atomic number, if atomic number is equal then mass number is used))
->
->###### Carn-Ingold Prelog (E,Z)
->The Carn-Ingold Prelog system (C.I.P rules) are used to assign priorities.  higher priority is assigned to the group which is connected by the atom with the higher atomic number, if atomic number is equal then mass number is used. If the first atom is identical then the atomic weight of the next atom in the chain is compared. multiple bonds are considered as an equvalent number of single bonds to the given atom. 
->
->If the higher priorety groups are on the same side then the molecule is in Z conformation (where Z stands for Zussamen/together). If the higher priorety groups are on opposite sides then the molecule is th the E, Enitgen conformation. 
->
->##### Enantiomers (Optical isomers)
->
->Moeluces whise mirror images are not superimposed. 
->
->###### Requirements.
->$sp^3$ hybridised carbon, with four differernt substituents ()i.e a steric carbon. 
->
->The sp^3 hybridised carbon must have four different groups attatched to it.(For example alanine). The resulting system is asymetrical, and will have a non-superimposable missor image. 
->
->
->NOTE: the central carbon may be refferd to as a steriocarbon, a steriogentic centre or a hydrocarbon. 
->
->###### Properties.
->Inantomers have practically identical(almost indistinguishable) physical and chemical properties are therfore very hard to separate. Furthermore Racemic mixture are hard to detect. This is porblematic as often one inatomer may be a powerful medical drug and the other may be seriously toxic. 
->
->###### Polarised light
->inantomers will rotate plane polerised light differently. They will rotate the plane of polerised light to the same extend to one will rotate to the right (+, dextrorotatory) the other will rotate to the plane to the left (-, levorotatory)(equal but opposite). 
->
->###### Optical activity
->optically active substances will rotate plae polerised light. A Racemic mixture is opticcally inactive.
->
->NOTE: A Racemic mixture is a mixture containing an equal concnetration of both enantomers. 
->
->### Nomencalture.
->The + or - is prefixed to the compound name. The problem is that the + and - configuration are determined experimentally and cannot be determined dirrectly from the steriochemistry around the steriocenter.
->
->A new system was developed to overcome this problem, the process for which is as follows. 
->
-> #. Priorities are assigned to each group using the C.I.P rules. (note 1 is used for highest priorety, on to 2 etc). 
-> #. The molecule is orientated with the lowest priority group at the back. 
-> #. If the remaining 3 substituents run from highest to lowest clockwise then the isomer is on R configuration. 
-> #. If they are arranged anticlockwise the entantomer is S. 
 > 
-> Example: 
-> Br>Cl>C>H
-> 
-> #. Clockwise, R
-> #. anticlockwise S. 
-> 
-> NOTE: Flipping any two groups will result in the opposite entantomer. swapping inverts the configuration from R to S. 
-> 
-> ## Diasteriomers. 
->Occur if more than one steriocentre is present. Diastereomers are not mirror images.
->
->(Copy flag diagram)
->For a diassteriogentic centres there are a maximum of $2^n$
-> stereoisomers. Half of these will be enantomers of the other half. 
->all of the other relationships are diateriomers. 
->
 >## NMR.
 >
 > ### SAmple preparation. 
@@ -609,6 +728,84 @@ import Modules/InorganicChem as InorganicChem
 >The area under a peak is proportional to the number of protons giving rise to that signal. The instrument can integrate peak areas. Integral is plotted as steps, the height of the steps are proportional to the number of protons, integration works with protons but fails with most other nuclei. (esp $^{13}C$ )
 >
 >The height signifies the number of protons, this height may not always be exactly identical, this is not an issue and may result from some impurity in the sample. the ration between heights can then be found, the lowest whole number ration will be correct generally (as there must be a whole number and this number cannot exceed )
+>
+>only 2 or three questions on section 2 and section 4. 
+>
+>## Aspects of reactivity
+>
+>### Effects of bond polarity.
+>
+>#### Bond breaking.
+>(manual section 18-22)
+>
+>##### Non Polar bonds
+>undergoes homolytic cleavage, reprisente by fish hooke arrows. More often than not homolytic cleavage gives rise to radicals. to make a bond each atom donates an electron.givesss rise to free radicals 
+>
+>
+>##### Polar bonds.
+>one atom already has aaa dedlta negative bond sso someone takes all the electrons. In a heterolytic cleavage the two electrons go onto the side which is more electronegative (already delta negative charged ). heteroytic cleaavage gives rise to the formation of electrophiles and nucleophiles. electron move from the electrophiles to the neutrophiles. Electrophiles initiate the reaction. Most reactions stem from the 
+>
+>
+>ns effect transmitted through a $\sigma$ bond framework of molecules. 
+>as electrons spend more time on the electronegative atom this atom gains a delta  negative charge, the other atom in this bond will have a delta positive charge.  
+>
+>the effect falls off after about 3 bonds. alkyl groups are electron donating, by induction.The electronic effects are donated transmitted by a sigma bond. 
+>
+>alkyl groups are electron donating. 
+>
+>Stability of carbocations and carboanions. 
+>If a carbon is carrying apositive chrge, additional alkyle groups attatched to this carbon will stabalise it by donating electrons to cangel out this charge. so tertiary carbocations are more stable thatn secondary which are more staable than primary. In the case of a carbon anion however the electron releasing effect of the alkyl groups will lead to a destabalising effect. a negative charge can however be stabalised by an electronwithdrawing group. with a free radical stability increases with more alkyle groups, 
+>
+>inductive effect, occurs through a sigma structire 
+>
+>mesomeric/ resonance effect. 
+>works through a $\pi$ bond  
+>a $pi$ bond is waeker than a $\sigma$ bond, becuase this bond is weaker is allows ofr resonance with fully charged structures where the more electronegative, atom tkes both electrons in the bond. resonance structure can be donated by dotted lines in which case it is known as a resonance hybrid. elcalisation of charge gives rises to resonance structure.
+>
+>## Conjugated systems .
+>(i.e alternating single and double bonds. ). COPY delocalised structure. radicals can be shifted around a structure in much the same way a a double bond. by homolytically breaking adjacent bonds, to from a new bond, and a new radical. 
+
+## Spectrometry
+
+># Spectrometry
+>
+> ># Mass Spectrometry
+>>
+>>In not a spectroscopy becuase it ddoes not involllve bsorption of electromgnetic raiation. it is usedd to determine the molecular mass of a compound. Structural information can also be gained by looking at fragments  formed when high energy molecules break up. 
+>>
+>>mass spec allows for measurment by rrent ion, high resoution pectraa allow for distighing between different molecular formulma of similar compounsd. Many are desktop size, gass cromotographers are often combined with the sspectrometer. 
+>>
+>>Blast molecule with a beeam of high-energy particles (usually electrons). 
+>>$\approx 70eV=6700kJ\cdot mol^{-1}$ 
+>>deflection is dependant on bothe mass charge ration, those difflected insufficiently or too much will not be een the rgestpeaal cp,es from the paA
+>>These dislodegg a valence electron from the molecule, leaving behind a radical cation. 
+>>
+>>$M:\rightarrow M^{+}_\cdot +e^-$. 
+>>
+>>the molecular ion is only one of the possible fragments, fragmentation patterns are consistent and therefore diagnostic, relating to the strength o bonds in the compound, lone pair or $\sigma$ or $\pi$ bonds caan be disodgen and the parent ion can furthe break down, charged and neutral fragments.
+>>
+>>The istrument decetcs all positive ions and sorts them according to mass charge ratio, usuallt +1 charge in samll moelcules with mlarger chargers on polymers . 
+>>
+>>
+>>COPY NOETS of instrument from video. 
+>>
+>>the parent will have the same mass as the largest radical mass fragments. (do not use the average molecular mass for low res max spec use the appropriate integer value
+>>C-C bonds are weaker than C-H bonds so cleavage is far more likely to occur at C-C bonds than at C-H bonds. 
+>>
+> >### Relative abundance
+>>everything is judged in relation to the largest peak which is given a value of 100\%. 
+>>
+>>oulby chraged fragments reulting rom ionition o rgment by chrged prticle i rre in small molecules as thier fragemnts are very unstable. 
+>>
+>>each line derrives from a different ion. the pecific iotope compoition i een in the ms spec.isotomes can lead to higher mass fragments such as carbon 13. (he average value cannot be used in this case. )
+>>
+>>n the case of carbon the abunadnce is 1.1% in bromine it is 50\% ($^{79}Br$, $^{81}Br$). 
+>>(there will be doulbed peaks for all fragments which contain bromine. ). 
+>>
+>>Chlorine, $^{35}Cl$ 75\% $^{37}Cl$ 25\%. 
+>>
+>>
+>>
 
 
 # Appendix

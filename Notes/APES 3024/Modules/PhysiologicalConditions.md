@@ -1,25 +1,25 @@
 ---
 title: "Physiological Conditions"
-output: 
+output: html_document 
 
 ---
 
 # Imports
 
-import WaterTemperature as WaterTemperature
-import WaterConductivity as WaterConductivity
-import WaterPH as Water PH
-import DissolvedOxygen as DissolvedOxygen
+import WaterTemperature as wt
+import WaterConductivity as wc
+import WaterPH as wPH
+import DissolvedOxygen as do
+import SuspendedSolids as ss
 
 # Physiological Conditions 
 
-##__SuspendedSolids: Suspended Solids__ 
+##__ss: Suspended Solids__ 
 
-##__WaterTemperature: Water Temperature__ 
+##__wt: Water Temperature__ 
  
-##__WaterConductivity: Water Conductivity__
+##__wc: Water Conductivity__
 
-##__WaterPH: Water PH__
+##__wPH: Water PH__
 
-##__DissolvedOxygen:Dissolved Oxygen__ 
-
+##__do:Dissolved Oxygen__ 

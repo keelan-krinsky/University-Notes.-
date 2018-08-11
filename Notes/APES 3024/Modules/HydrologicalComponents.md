@@ -4,8 +4,6 @@ output: html_document
 
 ---
 
-# Imports
-
 # Hydrological Components
 
 ## Dissolved inorganic nutrients

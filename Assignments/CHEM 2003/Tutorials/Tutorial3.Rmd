@@ -1,0 +1,119 @@
+---
+title: "Organic Chemistry: Tutorial 3"
+author: "Keelan Krinsky: 1634953"
+output: pdf_document
+---
+
+# Part Four 
+
+## Question #8
+
+
+### Spectrum 1
+
+#### (a)
+
+$0.50:0.50:0.50:0.95:1.50\approx 1:1:1:2:3$
+
+As there are a total of 8 Hydrogen in the compound, the probably number or protond corresonding to each peak is: 
+
+$1H,1H,1H,2H,3H$ (from least to most shielded)
+
+#### (b)
+
+ #. $\delta=6.42-6.38: \underline{H_2}C=C$, doublet, $J=3.50 \cdot 10^{-2} \delta$
+ #. $\delta=6.15-6.09:H_2C=C\underline{H}-$ doublet of doublets, $J_1=4.0 \cdot 10^{-2} \delta,J_2=2.0 \cdot 10^{-2} \delta$ 
+ #. $\delta=5.83-5.80:\underline{H_2}C=C$ (cis to other H group) doublet,$J_1=2.0 \cdot 10^{-2} \delta,J_2=1.0 \cdot 10^{-2} \delta$
+ #. $\delta=4.24-4.20:O-C\underline{H_2}-CH_3$ quartet,$J=1.0 \cdot 10^{-2} \delta$
+ #. $\delta=1.32-1.29:-C\underline{H_3}$ triplet,$J=1.5 \cdot 10^{-2} \delta$
+ 
+
+### Spectrum 2
+
+### (a)
+$0.35:0.7:0.75:1.0:1.05 \approx 1:2:2:3:3$
+
+As there are a total of 11 Hydrogens in the molecules the probably number of protins corresponding to each peak is:
+
+$1H,2H, 2H, 3H, 3H$ (from least to most shielded)
+
+### (b)
+ #. $\delta=7.73: \underline{H}-N$, singlet,
+ #. $\delta=7.37-7.36:Ar-C\underline{H}$ (by the N side of the ring) doublet, $J=1.0 \cdot 10^{-2}$ 
+ #. $\delta=6.82-6.80:AR-C\underline{H}$ (by the O side of the ring) doublet, $J=2.0 \cdot 10^{-2}$
+ #. $\delta=4.01-3.96:CH_3-C\underline{H_2}-O$ quartet,$J=1.5 \cdot 10^{-2} \delta$
+ #. $\delta=2.11:CO_2-C\underline{H_3}$ singlet,
+ #. $\delta=1.40-1.37:CH\underline{H_3}-CH_2$ triplet,$J=2.5 \cdot 10^{-2} \delta$
+ 
+ 
+## Question #9 
+$CH_3-CH_2-CH_2-CH_2-OH$
+
+$(CH_3)_3COH$
+
+$(CH_3)_2CH-CH_2-OH$
+
+$CH_3-CH(OH)-CH_2-CH_3$
+
+### Isomer #1
+$CH_3-CH_2-CH_2-CH_2-OH$
+
+ #. $\delta =4.20-4.18:\underline{H}-O$ triplet, 1H
+ #. $\delta =3.61-3.57:C\underline{H_2}-OH$ triplet, 2H
+ #. $\delta =1.59-1.55:CH_2-C\underline{H_2}-CH_2$ pentuplet,2H 
+ #. $\delta =1.42-1.38: CH_3-C\underline{H_2}-CH_2$ sestuplet, 2H
+ #. $\delta =.98-0.89:C\underline{H_3}-CH_2$ triplet, 1H
+
+### Isomer #2
+$(CH_3)_3COH$
+
+ #. $\delta =2.4518:\underline{H}-O$ singlet, 1H
+ #. $\delta =1.25:(C\underline{H_3})_3C-OH$ singlet, 9H
+
+### Isomer #3
+$(CH_3)_2CH-CH_2-OH$
+
+ #. $\delta =3.53-3.48:\underline{H}-O$ triplet, 1H
+ #. $\delta =3.40-3.33:C\underline{H_2}-OH$ triplet, 2H
+ #. $\delta =1.81-1.69:(CH_3)_2C\underline{H}-CH_2-$ nonuplet,1H 
+ #. $\delta =0.93-0.87: (C\underline{H_3})_2-CH$ doublet, 6H
+
+
+## Question #10
+
+ #. $CH_3-CH_2-CH_2-CH_2-Cl$
+ #. $CH_3-CH_2-CH(Cl)-CH_3$
+ #. $(CH_3)_2-CH-CH_2-Cl$
+ #. $(CH_3)_3=C(Cl)$
+ 
+The first specta could correspond to either  $CH_3-CH_2-CH_2-CH_2-Cl$, or $CH_3-CH_2-CH(Cl)-CH_3$ as it both contain the four unique signal seen in the same ranges. The second (right) spectra can only correspond to $(CH_3)_3=C(Cl)$ as this is the only isomer in which there are only 2 unique carbon environments.
+ 
+ 
+# Part Five
+
+## Question #2
+ #. 87: $CH_2CO_2CH_3$
+ #. 71: $CH_3CH_2CO$
+ #. 59: $CO_2CH_3$
+ #. 43 $COCH_3$
+
+
+
+## Question #3
+
+### (i)
+Molecular ion $m/z=72$
+
+Principle Fragments
+  
+  #. 57: $CH_3CH_2CH_2CH_2$
+  #. 43 $CH_3CH_2CH_2$
+  #. 42 $CH_2CH_2CH_2$
+  #. 29 $CH_3CH_2$
+  #. 28 $CH_2CH_2$
+  #. 15 $CH_3$
+  #. 14 $CH_2$
+  
+P$(M+1)^+$ peak =$5C1 \cdot 0.011^1 \cdot 0.989^4 =0.0526$
+
+$0.0526 \cdot 40\%=2.1\%$

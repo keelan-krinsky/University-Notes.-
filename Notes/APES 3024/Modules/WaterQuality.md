@@ -6,12 +6,12 @@ output: html_document
 
 # Imports
 
-import HydrologicalComponents as HydrologicalComponents 
-import PhysiologicalConditions as PhysiologicalConditionsw
+import HydrologicalComponents as hc 
+import PhysiologicalConditions as PhysiologicalConditions
 
 # Water Quality
 Water quality is generally taken as a combination of several different physical and chemical factors. \newline 
 
-##__HydrologicalComponents: Hydrological Components__
+##__hc: Hydrological Components__
 
 ##__PhysiologicalConditions: Physiological Conditions__
