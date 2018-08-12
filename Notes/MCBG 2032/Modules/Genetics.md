@@ -25,8 +25,7 @@ output: html_document
  percentage of the population who demonstrate at least some degree fo phenotypic expression.
 
 #### Expressivity
-reflects the range of expressions of the gene/allele present in the population.  
-
+reflects the range of expressions of the gene/allele present in the population.
 
 #### Genes 
 A gene is a collection/ group of alleles which could occur the same locus and

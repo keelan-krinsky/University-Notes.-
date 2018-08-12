@@ -11,6 +11,24 @@ import Modules/Metabolism as Metabolism
 
 # Concepts Notes
 
+## Course Details
+
+### Scientific Poster
+Commonly presented at scientific posters, (researchers present current research, orally and in posters, advantage is that it is very concise)\newline 
+
+NOTE: \newline 
+
+ #. Not too much text. (NB)
+ #. read 1m away (A1 size) 
+ #. lots of visuals, diagrams etc. 
+ #. The take home message must be clear (stance must be clear)
+ 
+##### Specifications
+ #. due 4pm Monday, 
+ #. pdf format
+ #. 594x 841mm. \newline 
+ 
+
 ># Genetics
 >
 >## Basics
@@ -958,134 +976,43 @@ import Modules/Metabolism as Metabolism
 >
 
 ># Metabolism
->
->## Course overview.
->
->
->### Lecturer
->
->Dr Fanucchi, GH416, 
->
->### Course contents
->enzymes and function \newline 
->Garret and Grisham Biochemistry.\newline 
->
->### Tests and exam
->
->#### Labs
->Prelab test before every practical \newline 
->(Lecture and practical work may come up in the test but only theory relevant to practical, no writing up practical reports. ) \newline 
->lab etiquette mark is given (dress+ appropriate work+ sharing with lab partner, fall behind group, spot questions in the lab, practical ends at 5 sharp)\newline 
->Changes from practical manual (check course outline pH practical will not be done, Friday WSS4, 423-426 text book)\newline 
->
->#### Class test
->31 Aug, Class test 2-4pm OLS +GH403. \newline 
->
->### Venues
->Tuesdays and Wednesdays: P115, Thursdays: WSS4.\newline
->
->### Assignments
->
->#### Essay
->Due date of essay: 8th August (submitted electronically+ marked out)\newline 
->Submit essay in box 1:30 10th August, must print in turn it in format, 15\% or less plagiarism score allowed \newline 
->Poster is due on a Monday, submit to Sakai, \newline
->
->##### Background
->The MIND diet, med+DASH (DASH for hyper tension, neurodegenerative disease), fish Alzheimer's, weight loss, 2 veg per day... 
->Argumentative essay, critically evaluate (find actual 2015 paper, met pathways+ metabolism+ for or against but must take a stand)
->
->##### Format
->Three sections+ tittle (intro, body, conclusion), 
->
->###### Intro
->must but work into context, it must give background info however it must be very focussed on the concept at hand. Must make clear the relevance and significance of the subject. Can finish with a sentence/2 describing structure of the essay ("In this essay i will") , very end must have main claim (must be _interesting_ and specific, must make absolutely clear for or against + angle),
->
->####### Main claim
->Short, concise, specific, clear and easy to recognise (i.e. at the end of the intro) \newline 
->
->###### Body
->Set of paragraphs, moving from more general to specific, broadest info first to more specific. Includes reasons in support of claims. Give reasons + cite evidence from the literature. (Could attempt to include a rebuttal, counterarguments)\newline 
->
->###### Transition sentences
->link paragraphs to improve flow. 
->
->###### Topic sentences
->Topic sentence for each paragraph. 
->
->#### Wrap up sentence
->Relates the topic back to the main claim. 
->
->NOTE: Lots of citations, remember writing fellows. 
->
->###### Conclusion
->Restate the main claim and its importance. Summarize each of the main points in the claim again. 
->
->*NB*\newline 
->No new information, and no references. 
->
->##### Summary of requirements.
-> #. 800-1100 words, 
-> #. own research + interpretation of literature,
-> #. must be submitted through turn it in. 
-> #. print correct format.
-> #. print + attach marking rubric 
->
->#### Scientific Poster
->Commonly presented at scientific posters, (researchers present current research, orally and in posters, advantage is that it is very concise)\newline 
->
->NOTE: \newline 
->
-> #. Not too much text. (NB)
-> #. read 1m away (A1 size) 
-> #. lots of visuals, diagrams etc. 
-> #. The take home message must be clear (stance must be clear)
-> 
->##### Specifications
-> #. due 4pm Monday, 
-> #. pdf format
-> #. 594x 841mm. \newline 
 > 
 >## Background
 >Metabolism is governed by a relatively small set of relatively simple rules. 
 >
->### Principles of chemical kinetics.
->$A\rightarrow B$ \newline 
->assume spontaneous and irreversible. 
->
->rate defined in terms of change in concentration of the reactants or products. 
->
->NOTE: Copy notes from chemical kinetics. 
->
->$v=-\frac{d[A]}{dt}=\frac{d[P]}{dt}$ the infinitesimal rate. 
->
->### Rate Law.
->$v=\text{k}[A]$ where k is the rate constant. 
->reverse rate $k^{-1}[P]$\newline 
->
->$V\propto [A]$ \newline 
->k is the rate constant of the constant of proportionality.
->
->
->
+> ># Kinetics
+>>
+>>$A\rightarrow B$ \newline 
+>>assume spontaneous and irreversible. 
+>>
+>>rate defined in terms of change in concentration of the reactants or products. 
+>>
+>>NOTE: Copy notes from chemical kinetics. 
+>>
+>>$v=-\frac{d[A]}{dt}=\frac{d[P]}{dt}$ the infinitesimal rate. 
+>>
+> > ># Rate Law
+>>>
+> > >### Rate Law.
+>>>$v=\text{k}[A]$ where k is the rate constant. 
+>>>reverse rate $k^{-1}[P]$\newline 
+>>>
+>>>$V\propto [A]$ \newline 
+>>>k is the rate constant of the constant of proportionality.
+>>>
+>>>
+>>>
 >
 >metabolsim is the sum of the chemical changes which convert nutrinets (substrate in to enrgy and products via specific chemcial intermediates. Metabolism is organised into a number of discrete pathways. 
 >
 >The relatively universal metabolic pathways as well as those more more specific to a particular, many pathways are ancient startign off billions of years ago, for example glycolysis which started off when the earthe way still anerobic. changes are more based on how the pathways are regulated, and number of intermediaries. 
 >theere is a basic set of metabolic pathways common to most organisms. different cells and organisms may express alternative pathways, diversity to metabolic processes. 
 >
->NB: lots of evidence in essays. 
->
 >organisms are classified by how they obtain their carbon and energy. different organisms classified in different ways will have different metabolic pathways, eg photosynthesis in autotrophes. 
 >
 >photoautotrophic cells synthesize energy from the sun to porduce glucose and oxygen. the reactants are water and carbon dioxide the products are glocuse and oxygen. The heterotrophes use the glucose as fuele and building blocks to synthesie their own biomolecules. (plants can also use heterotrohic pathways.). In this way a cycle is set up. 
 >
 >the process of metabolsim involves the genration of energy and the synthesis of biomolecules
->
->### Anabolism
->building/synthesis. Energy optained from catabolic processes is used to drive anabolic reaction sto syntheise biological molecules. 
->,anabolsim is enthalpically favoured but entropically opposed. 
->diverges to a wide variety of biomacromolecules. 
 >
 >
 >### Catabolsim

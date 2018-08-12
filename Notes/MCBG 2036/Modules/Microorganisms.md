@@ -5,56 +5,70 @@ output: html_document
 
 ---
 
-# Imports
+# Imports 
+import Viruses as Viruses
+
+import Fungi as Fungi
+
+import Protozoa as Protozoa
+
+import Bacteria as Bacteria
+
+import Algae as Algae
+
+import Archaea as Archaea
+
+import MicroorganismsIndustrialApplications as MicroorganismsIndustrialApplications
+
+import LabSafety as LabSafety
+
+impprt LabTechniques as LabTechniques
 
 # Microorganisms
+Microorganism is a general term used to describe all organisms too small to be seen with the naked eye. There are six main types of microorganisms namely: fungi, bacteria, viruses, protozoa, archaea and algae.
 
-# Microorganisms. 
+## __Viruses: Viruses__
 
-## Course Background.
+## __Fungi: Fungi__
 
-The course is a high level background, very little detail.
-Textbook: Tortora.
+## __Protozoa: Protozoa__
 
-## Background.
-Not full notes are provided, no notifications for new content uploads to sakai, A lot of work outside the scope of the lectures is not included/focussed on.
-Everything in the prac manual is included.
+## __Bacteria: Bacteria__
 
-### Types
-There are six(?) main types of microorganisms namely: fungi, bacteria, viruses, protozoa, Archaea and algae.
+## __Algae: Algae__
 
+## __Archaea: Archaea__
 
-Bacteria and viruses are considered to be microorganisms, the 'cut off' is that a microscope is required.
+## Background
 
-## Course Info 
-The course is a high level background, very little detail. Not full notes are provided, no notifications for new content uploads to sakai, A lot of work outside the scope of the lectures is not included/focussed on. 
-Everything in the prac manual is included. 
+### Nomenclature.
+The Linnaeus system of classification is used. Any given organism is described by its genus, in combination with a specific epithet, i.e. it's species name. For example *Staphylocuccus Aureus*
 
-## Background. 
-Microorganims are very small organisms such as bacteria and viruses, generally to be considered a microorgansim, and orgainism must be so small that it cannot be seen with the naked eye. 
-
-## Nomenclature.
-The Linnaeus system of classification is used. Any given organism is described by its genus, in combination with a specific epithet, i.e. it's species name, For example *Staphylocuccus Aureus*
-
-<<<<<<< HEAD
-Microorganims are both producers and decomposers, (they produce organic sugars both by photoynthesis and by chemolithotrophic.
-
-## Appilications.
-The two major applications of microorganisms are in production of fermented foods and beverages (for example beer/ethanol in any alcohol and yogurt) and industrial chemicals for example insulin.
-Another example is a pair of jeans. The bleach used derrives from peroxidase in mushrooms, the indigo die is derrived from *Escherichia coli*. Even the (plastic) buttons can also be made by bacteria which can be manipulated to produce poly--toante, by manipulation (?) (or is in maniputed to produce plastic )
+## Ecological Niche
+Microorganisms can be producers or decomposers. 
 
 
-### Human impact.
-Microorganisms can lead to food spoilage. When humans eat food contaminted with microorganisms they are t risk of severse sickness of even death, either because the microorganism themselves are toxic or because some product of their metabolism, eg a waste product is. Closely related is the risk of infection from ingesting a pathogenic micro-organism.
+## Human impact.
+
+### Food Spoilage
+Microorganisms can lead to food spoilage. When humans eat food contaminated with microorganisms they are t risk of severe sickness of even death, either because the microorganism themselves are toxic or because some product of their metabolism, eg a waste product is. Closely related is the risk of infection from ingesting a pathogenic micro-organism.
+
+### Direct uses  
+
+#### __MicroorganismsIndustrialApplications: MicroorganismsIndustrialApplications__
+
+## Laboratory Work
+
+
+### __LabSafety: Lab Safety__
+
+### LabTechniques: LabTechniques__
 
 #### Aseptic techniques.
 Aseptic technique are used to avoid contamination of microorganism samples under study in the laboritory. One major source of contamination is the air itself. Millions of bacteria fall on each $m^2$ of the earths surface per day.
 
 ##### Agar plates
 An agar plate consists of the agar medium, a gelly like substance extracted from seaweed which is used to form a regular support matrix to which food sources, such as sugars and proteins are added.
-
-## Lab safety
-If agar plates are cultivated with sucessive imprints of a persons fingers, normally by the sixth plate there are still enough microorganism transferred that significant growth is observed.
 
 ## Nomenclature.
 

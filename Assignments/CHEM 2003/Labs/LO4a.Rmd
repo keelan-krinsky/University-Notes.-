@@ -1,0 +1,16 @@
+---
+title: "Organic Chemistry, Lab 3b:"
+author: "Keelan Krinsky"
+output: pdf_document
+
+---
+
+Name: _Keelan Krinksy_
+Student number: _1634953_
+Group: _7_
+Experiment Number: _O3(b)_
+Demonstrator: 
+Date of Experiment: _02/08/2018_
+Title: __Synthesis and purification, of esters, by distillation. 
+
+

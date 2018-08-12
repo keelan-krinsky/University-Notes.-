@@ -9,8 +9,30 @@ import Modules/Genetics as Genetics
 import Modules/Metabolism as Metabolism
 
 
-# Concepts Notes 
+# Concepts Notes
+
+## Course Details
+
+### Scientific Poster 
+Commonly presented at scientific posters, (researchers present current research, orally and in posters, advantage is that it is very concise)\newline 
+
+NOTE: \newline 
+
+ #. Not too much text. (NB)
+ #. read 1m away (A1 size) 
+ #. lots of visuals, diagrams etc. 
+ #. The take home message must be clear (stance must be clear)
+ 
+##### Specifications 
+ #. due 4pm Monday, 
+ #. pdf format
+ #. 594x 841mm. \newline 
+ 
+## Background
+
+### __OrganismTaxonomy : Organism Taxonomy__
 
 ## __Genetics: Genetics__
 
 ## __Metabolism: Metabolism__
+

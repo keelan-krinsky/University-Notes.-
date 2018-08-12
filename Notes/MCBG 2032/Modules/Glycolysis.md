@@ -9,6 +9,12 @@ output: html_document
 # Glycolysis
 Glycolysis is the stepwise degradation of glucose
 
+
+### Glycolysis 
+Anabolic synthesis of a given end porduct does not correspont to the catabolci pathway of the same substrate en catbolsim of glucose to pyruvate vs biosynthesis of glucose from pyruvate, there are 10 enzymes in glycolysis nad only seven of the ten are act in reverse in gluconeogenesis, 4 new enzymes are also active. 
+The regulation of catablosim and anbolsim are separate, as they have different regulation points, this is achieved, either by the pathwwys following completely different steps, or only one or a few enzymes are used for a specific step (much of the pathway is shared) the enzymes which are different are the regulatory pathways, theses points have the highest $\Delta G$. 
+
+
 ## Background
 Glycolysis is a very ancient process, which arose relatively early on in evolutionary history, and as a result today almost all living organisms undergo some form of glycolysis. Glycolysis is also anaerobic, as it arose before oxygen formed a large substituent of the earths atmosphere. In Aerobic organism glycolysis remains anaerobic although the products of glycolysis are fed into the aerobic pathways. 
 
@@ -56,6 +62,7 @@ Triose phosphare isomerase compelets the first phase of glycolysis by catalysing
 ### Reaction #6
 Glyceraldehyde-3-phosphate dehydrogenase produces a high energy intermediate in an oxidation reaction. 
 
+In the absence of oxygen reaction 6 cannot occur if there is no $NAD^+$ the recycling of $NAD^+$ via the reduction of pyruvate. 
 ### reaction #7
 
 #### Spontaneity 
@@ -146,3 +153,13 @@ Glycolysis is a particularly important process as in many cases glucose is the o
 ## Products
 Pyruvate is a versatile metabolite, depending on the availability of oxygen, pyruvate can undergo further oxidation to form acetyl-CoA and carbon dioxide. If oxygen is not present then in animal cells the pyruvate will be converted to lactic acid (lactate), and in yeast cells it will undergo alcoholic fermentation to form ethanol. 
 
+
+#### Stage 2 
+amino acids to alpha keto acids, and then pyruvate or acetylp co A 
+glycerol and glucose to pyruvate. and fatty acids to acetyl CoA. 
+pyruvate can be further brocked down into acetyl-coA (the common end product of metabolism
+
+final waste products are carbon dioxide and water. 
+
+
+regulation of glycolysis COPY IMAGE. no significant trend in free energyies released, however under physiological conditions all most run close to eqilibrium, 

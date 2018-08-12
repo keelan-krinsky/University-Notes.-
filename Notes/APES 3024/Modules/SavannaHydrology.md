@@ -5,7 +5,6 @@ output: html_document
 
 ---
 
-# Imports
 
 # Savanna Hydrology
 

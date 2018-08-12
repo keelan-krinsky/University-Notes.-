@@ -1,0 +1,12 @@
+---
+title: "Mind Diet Citations"
+output: pdf_document
+---
+
+Kris Gunnars,woman wondering whether to eat meat or vegitables, healthline.com, healthline Media, 2005-2018, 12/08/2018. 
+
+Zephyris,Template:Metabolic Pathways,wikipedia.org,Wikipedia, 2016, 12/08/2018 
+
+Dr. axe, Brain x-ray, draxe.com, Dr. Axe 2018, 12/08/2018
+
+

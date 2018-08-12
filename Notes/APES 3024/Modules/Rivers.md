@@ -22,6 +22,8 @@ import RiperianZone as RZ
 
 import CatchmentDrainage as CD
 
+import RiverineFoodWebs as RFW
+
 # Rivers  
 
 ## Background
@@ -43,3 +45,5 @@ import CatchmentDrainage as CD
 ## __RZ: Riperian Zone__
 
 ## __CD: Catchment Drainage__
+
+## __RFW: Riverine Food Webs__
