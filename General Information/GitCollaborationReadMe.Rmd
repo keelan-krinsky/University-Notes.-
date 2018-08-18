@@ -21,7 +21,6 @@ If you do not yet have a copy of the repository on your local machine.
 
 git add .
 git commit -m "R test"
-git push origin
 ```
     
     
