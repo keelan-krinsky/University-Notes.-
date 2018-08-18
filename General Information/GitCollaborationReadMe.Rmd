@@ -16,6 +16,16 @@ If you do not yet have a copy of the repository on your local machine.
     git pull 
     
 # Step 3
+the name of the new branch can be anything 
+    
+    git checkout -b (name of new branch)
+    
+# Step 4
+after making edits on the home machine. 
+
+    git add . 
+    git commit -m "(any message)"
+    git push
 
 ```{bash, execute}
 
