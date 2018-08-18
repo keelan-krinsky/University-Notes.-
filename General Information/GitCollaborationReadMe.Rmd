@@ -1,0 +1,27 @@
+---
+title: "Git Collaberation read me"
+output: pdf_document
+---
+
+## Prcoess
+
+# step 1. 
+
+If you do not yet have a copy of the repository on your local machine. 
+    
+    git clone (name of git repository)
+
+# Step 2
+    
+    git pull 
+    
+# Step 3
+
+```{bash, execute}
+
+git add .
+git commit -m "R test"
+git push origin
+```
+    
+    
