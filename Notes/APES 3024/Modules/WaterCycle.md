@@ -4,9 +4,12 @@ output: html_document
 
 ---
 
-# Imports 
+# Imports  
 import Infiltration as Infiltration
+
 import Aquifers as Aquifers
+
+import WasteWaterTreatment as WasteWaterTreatment
 
 # Water Cycle
 
@@ -16,3 +19,6 @@ Water in the atmosphere condenses and falls as precipitation. Once intercepted b
 
 ##__Aquifers: Aquifers__
 
+## Human Impacts
+
+### __Waste Water Treatment__

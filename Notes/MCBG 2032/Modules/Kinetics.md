@@ -10,13 +10,16 @@ import RateLaw as RateLaw
 
 # Kinetics
 
-$A\rightarrow B$ \newline 
-assume spontaneous and irreversible. 
+## Reaction rate
+the reaction rate is defined in terms of change in concentration of the reactants or products per unit time. Often the instantaneous reaction rate is considered. 
+For example in the reaction $aA+bB\rightarrow cC+dD$ the rate of formation A is given by:\newline 
+$v=\frac{\Delta A}{\Delta t}$\newline 
 
-rate defined in terms of change in concentration of the reactants or products. 
+The instantaneous rate of the formation of A is given by:\newline
+$\frac{dA}{dt}$
 
-NOTE: Copy notes from chemical kinetics. 
+The rate of product formation can be directly equated to the rate of reactant disappearance, using the ratios present in the balanced equation for the reaction. For example: \nelwine
 
-$v=-\frac{d[A]}{dt}=\frac{d[P]}{dt}$ the infinitesimal rate. 
+$\frac{dA}{adt}=-$\frac{dB}{abt}=\frac{dC}{cdt}=\frac{dD}{ddt}
 
 ## __RateLaw: Rate Law__

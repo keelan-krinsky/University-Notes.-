@@ -8,10 +8,15 @@ output: html_document
 # Imports
 
 # Coenzyme Cycles
-(oxidative reactions release hydride ions $H^-$) which is how electrons are transferred. the hydride ions are tranferred to the oxidised form of the coenzymes to reduce them $NAD^+\rightarrow NADH$. NADH is oxidised to AND^+ during anabolsim and finally the electon acceptro oxygen which when it is reduced becomes water. 
-the additional H adds to the nictotinamine portion of the molecule. 
+Oxidative reactions release hydride ions $H^-$ from organic substrates which allowing for electron transfer. These hydride ions are transferred to the oxidised form of a coenzyme, reducing it.
+ 
+## Important Examples
 
-### NAD(P)H cycle. 
+### Nucleotide Adenine diphosphate
+$NAD^+ is reduced to $NADH$ and a $H^+$ ion is released into the surroundings. Once reduced these coenzymes are in less stable higher energy states, and can be red into the electron transport chain where they are again oxidised, initiating a series or redox reactions which culminate in the production of ATP. 
 
+### Reduction reaction
+The additional H adds to the nicotinamide portion of the molecule. 
 
-COPY IMAGE. 9
+### NAD(P)H
+

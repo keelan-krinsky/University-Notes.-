@@ -12,4 +12,4 @@ Conductivity is a measure of the ability of water to conduct electricity. Conduc
 >NOTE: Conductivity is the inverse of resistance
 
 ## Pollution Indicator 
-Conductivity is a good blanket measure of pollution especially in the case of metal (ion) pollution which significantly increases conductivity. However, some geologies naturally have more metals and therefore higher associated conductivity, so some variation is not necessarily indicative of contamination. 
+Conductivity is a good blanket measure of pollution especially in the case of metal (ion) pollution which significantly increases conductivity. However, some geologies naturally have more metals and therefore higher associated conductivity, so some variation is not necessarily indicative of contamination. Sudden increases in conductivity can increase conducytivity such as agricultural run offcontaing chlorideandphosphatea ornitrateions. Sudden decreases can be linked to oil pollution as oil does not ionise

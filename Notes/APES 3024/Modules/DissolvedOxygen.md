@@ -8,3 +8,5 @@ output: html_document
 
 # Dissolved Oxygen
 
+## Measurement
+Typically measured in field or onside. 

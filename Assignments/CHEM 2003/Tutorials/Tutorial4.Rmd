@@ -1,0 +1,118 @@
+---
+title: "Organic Chemistry: Assignment 4"
+author: "Keelan Krinsky: 1634953"
+output: pdf_document
+---
+
+# Question #1
+
+## Molecular formula 
+C_5H_{12}O
+
+## Saturation
+$DBE=\frac{12-12}{2}=0$ the compound is fully saturated. therefore cannot contain any saturated groups such as carbon's or aromatics. 
+
+## Heteroatoms
+As only one oxygen is present and the compound is fully saturated functional group present must wither be an alcohol of an ether. however the disappearance of the peak at 2.16 with the addition of $D_2O$ indicates that an H-O ie an alcohol must be present, (as there are not N groups present to allow for exchangeable protons), the the oxygen in question must belong to an alcohol not an ether. 
+
+Area if integration gives peaks in ratio of 1:2:6:3 from left to right.  1+2+6+3=12 so the number of hydrogen atoms corresponding to each signal are, !,2,6 and 3 respectively.  The large singlet present at 1.2ppm indicates the presence of a Carbon bonded to no H within the structure. Furthermore this carbon must be a tertiary carbon attached to a tertiary alcohol, as a Quaternary carbon would imply 9 identical H adjacent to this carbon  and responsible for the signal height, however the signal only integrates to 6. 
+
+This information alone is sufficient to conclude the final structure as: $(CH_3)_2C(OH)CH_2CH_3$
+with the $(CH_3)_2C(OH)C\underline{H_2}CH_3$ responsible for the quartet signal at 1.5ppm, and the $(CH_3)_2C(OH)CH_2C\underline{H_3}$ responsible for the triplet at 0.9ppm. 
+
+the IR spectra coincides with this structure, with the strong peak at $3600cm^{-1}$ resulting from the O-H bond. And the strong peak just before 300 resulting from C-H bond stretching. 
+
+## Structure
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+
+# Question #2
+
+number of Carbon $\approx\frac{0.7939\cdot 121}{12}\approx8$\newline 
+number of Hydrogen $\approx\frac{0.0915\cdot 121}{1}\approx11$\newline
+number of Nitrogen $\approx\frac{0.1156\cdot 121}{14}\approx 1$\newline
+
+## Molecular formula 
+$C_8H_{11}N$
+
+## Saturation 
+$DBE=\frac{18-11+1}{2}=4$
+
+## Heteroatoms.
+the N could be part present as an amine/amide or as a nitrite group, however as the signal at 3.5ppm is removed by the addition of $D_2O$ N-H bonds must be present. Furthermore as the ratio between integrated signals is 2:2:2:2;3 and there are 11 electrons the number of H atoms giving rise to each signal is 2,2,2,2 and 3 respectively. Hence there must in fact be two N-H bonds, and so the N must form part of an amine group. (cant be an amide as no oxygen is present). 
+
+
+In the IR spectrum the N-H bonds are responsible for the peak at 3500
+
+the high DBE in conjunction with the signals at 6.5 and 7 indicate that an aromatic ring is probably present, $C\equiv C$ of $C=C$ bonds, the only other form of saturation available could not result in such high chemical shifts, furthermore as the signal corresponding to the $NH_2$ protons was relatively high at 3.5 the amine present is most probably an arylaminde and not a alkylaminde. 
+
+the grouped quintuplet and triplet on the far left of the NMR suggest the presence of a $CH_2CH_3$ group. Furthermore as there are only two signals corresponding to the aromatics the ring structure smut be symmetrical, that is 4-ethylbenzylamine. the peaks seen in the IR at 1550 and 1670 can be attributed to C=C bonds within the conjugated ring. 
+
+## Structure
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+
+
+# Question #3
+
+ratio Carbon: Hydrogen: oxygen $\equiv \frac{81}{12}:\frac{8.2}{1}:\frac{10.8}{16}\equiv 5:6:5$
+
+Empirical formula $C_5H_6O_5$
+
+as 8 unique environments seen in $C_{13}$ NMR compound must consist of at least $C_{10}H_{12}O_{10}$ assuming it is not larger. 
+
+## Saturation 
+$DBE=\frac{22-10}{2}=6$
+
+DEPT spectrum indicates that 4 carbon must have 2H atoms bonded to them (seen in the positive peaks) two must have no H bonded to them, seen in the dissapearing peaks, of the remaining two peaks at least 1 must correspond to a CH group, as two CH groups would exceed the number of hydrogen present. 
+
+In the IR spectra the peak at 1730 probably corresponds to and aldehyde C=O bond. 
+
+In the NMR Spectra the ration of integrated peaks is 2:3:2:2:3 and as there are assumed to be 12 H the number of H corresponding to each signal is then 2:3:2;2:3
+
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+
+## Structure
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 

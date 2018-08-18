@@ -46,4 +46,5 @@ import Modules/Microorganisms as Microorganisms
 
 ## __Microorganisms: Microorganisms__
 
-
+## Burst size
+burst size is at the topof the one step growth curve, before it plateus off. 

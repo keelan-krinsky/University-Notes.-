@@ -6,6 +6,10 @@ output: html_document
 
 # Organic Chemistry 
  
+# Imports
+
+import Alkenes as Alkenes
+
 ## NMR. 
 
  ### SAmple preparation. 
@@ -132,3 +136,7 @@ a $pi$ bond is waeker than a $\sigma$ bond, becuase this bond is weaker is allow
 
 ## Conjugated systems . 
 (i.e alternating single and double bonds. ). COPY delocalised structure. radicals can be shifted around a structure in much the same way a a double bond. by homolytically breaking adjacent bonds, to from a new bond, and a new radical. 
+
+## functional groups
+
+ __Alkenes: Alkenes__

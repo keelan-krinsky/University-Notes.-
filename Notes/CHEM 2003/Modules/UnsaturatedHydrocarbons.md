@@ -78,4 +78,12 @@ an excess of oxone is used as working out exactly how much oxone is added can be
 ### Osmium tetroxide $OsO_4$
 not catalytic requires molar equivalent. reacts will double bind electrons with $\pi$ bond reduce oxmium to Os 6. Oxyegn are sdelivered sin in due to steric confinment of the $OsO_4$ molecule. 
 
+the work up of the intermediate is done via $NaHSO_3$ and as cis 1,2- diol is formed. 
+
+### summary 
+trans=antiaddition. 
+cleave by oxonolysis 
+add 2 OH by osmium tetroxide, syn addi
+
+
 

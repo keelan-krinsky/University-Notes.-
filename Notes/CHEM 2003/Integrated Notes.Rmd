@@ -36,3 +36,15 @@ Dr Kennedy Ngwira, C407, Dr Amond Rouseou. C503.
 
 ## __Spectrometry: Spectrometry__
 
+## Reaction types
+
+### Substitution 
+nochange in the level of saturation
+
+### Elimination 
+decreased level of saturation
+
+### Addition
+increased level of saturation
+
+

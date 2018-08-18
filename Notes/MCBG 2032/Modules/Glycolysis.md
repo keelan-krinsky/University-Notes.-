@@ -7,52 +7,66 @@ output: html_document
 # Imports
 
 # Glycolysis
-Glycolysis is the stepwise degradation of glucose
-
-
-### Glycolysis 
-Anabolic synthesis of a given end porduct does not correspont to the catabolci pathway of the same substrate en catbolsim of glucose to pyruvate vs biosynthesis of glucose from pyruvate, there are 10 enzymes in glycolysis nad only seven of the ten are act in reverse in gluconeogenesis, 4 new enzymes are also active. 
-The regulation of catablosim and anbolsim are separate, as they have different regulation points, this is achieved, either by the pathwwys following completely different steps, or only one or a few enzymes are used for a specific step (much of the pathway is shared) the enzymes which are different are the regulatory pathways, theses points have the highest $\Delta G$. 
-
+Glycolysis is a metabolic pathway involving the stepwise degradation of glucose
 
 ## Background
-Glycolysis is a very ancient process, which arose relatively early on in evolutionary history, and as a result today almost all living organisms undergo some form of glycolysis. Glycolysis is also anaerobic, as it arose before oxygen formed a large substituent of the earths atmosphere. In Aerobic organism glycolysis remains anaerobic although the products of glycolysis are fed into the aerobic pathways. 
+Glycolysis is a very ancient process, which arose relatively early on in evolutionary history. As a result of its age, today almost all living organisms undergo some form of glycolysis. Glycolysis is an anaerobic process, as it arose before oxygen formed a large substituent of the earths atmosphere. Even in aerobic organism glycolysis still remains anaerobic, although the products of glycolysis are then fed into other aerobic pathways. 
 
 ## Process
-Glycolysis involves the break down of 1 glucose molecule into two pyruvate molecules, ($6C \rightarrow 3C$), via ten enzymes catalysed steps. 
+Glycolysis involves the break down of glucose molecule into pyruvate through ten enzyme catalysed steps. These ten steps can be generally grouped into two phases, the initially priming phase in which glucose is transformed into a less stable form, a process which requires energy provided by coupling with ATP hydrolysis, and the second energy release phase in which new ATP is generated. For each one molecule of glucose metabolised, two molecules of pyruvate are produced. The balanced equation for the overall reaction is as follows: \newline 
+$Glucose _2Pi+4NAD^++2ADP \rightarrow 4NADN+2H_2O+@ATP+4H^++2Acetyl-CoA+2CO_2+2CoASH$
 
 ### Phase #1 (Priming) 
-Glucose is converted into the right form for energy to be release from it. 
-(Glyceraldehyde 3 phosphate is produced by the splitting of glucose.)
+Phase one includes the first 4 reactions of glycolysis, in which, overall, Glyceraldehyde-3-phosphate is produced by the splitting of glucose. The balanced equation for this phase is as follows: \newline 
 
-#### Energy requirements
-2 ATP molecules are used in this process. 
+### Energy requirements
+2 ATP molecules are used up in this phase. 
 
-###  Phase #2
-Glyceraldehyde 3 phosphate is converted to pyruvate. 
+### Reactions
 
-### Reaction #1
-Glucose is phosphorylated by hexokinase or glucokinase, which require magnesium to function). This reaction constitutes the first priming reaction and requires an ATP molecule to proceed. 
+#### Reaction #1
+Glucose is phosphorylated by hexokinase or glucokinase to form glucose-6-phosphate, coupled with the hydrolysis of one ATP molecule. The balanced equation for this reaction is as follows. 
 
-#### Equation 
-$Glucose + ATP \riightarrow glucose-6-phosphare + ADP + H^+$  $\quad \quad $ $\Delta G^\circ  = -16.7 kJ\cdot ml^{-1}$
+$\text{Glucose} + ATP \rightarrow \text{glucose-6-phosphate} + ADP + H^+$  $\quad \quad $ $\Delta G^\circ  = -16.7 kJ\cdot ml^{-1}$
 
-#### Enzymes
-Glucokinase only functions at high glucose levels whereas hexokinase binds glucose at low glucose concentrations,hence glucokinase is only active after a high glucose meal. Extracellular glucose will move into the cell as glucose is converted from glucose to glucose 6 phosphate, by the law of mass action. 
+> NOTE: Extracellular glucose will move into the cell as glucose is converted from glucose to glucose 6 phosphate, by the law of mass action. 
 
-#### Regulation. 
-Hexoinkase is one of the regulated enzymes in glycolysis (high negative $\Delta G$)
+> NOTE: Reaction one is often referred to as the first priming reaction. 
 
-The reaction is not thermodynaically favorable without coupling with ATP. 
+##### Energetics
+The reaction itself is not thermodynamically favorable, and hence must be coupled with ATP hydrolysis to achieve spontaneity. 
 
-### Reaction #2
-Phosphoglucoisomerase (Mg catalyses the isomerisation of glucose-6-phosphate). 
+##### Enzymes
+The reaction can be catalysed by glucokinase, or hexokinase. Both glucokinase and hexokinase require magnesium ions to function.  Glucokinase only functions at high glucose levels whereas hexokinase binds glucose at low glucose concentrations, hence glucokinase is only active after consumption of a high glucose meal. 
 
-### Reaction #3
-Second priing reaction requires ATP, phosphofructokinase (Mg) adds a second phosphrylation. 
+###### Regulation. 
+Hexokinase is one of the regulated enzymes in glycolysis, the reaction is targeted as a regulation point due to its large negative free energy change. 
 
+#### Reaction #2
+Glucose-6 Phosphate is converted into fructose 6 phosphate by phosphoglucoisomerase.
+
+##### Enzyme 
+Phosphoglucoisomerase is used for the reaction. This enzyme requires magnesium ions to function.
+
+#### Reaction #3
+Fructose-6-phosphate is phosphorylated into fructose-1,6-bisphosphate by  phosphofructokinase. The reaction is natively endothermic so must coupled with ATP Hydrolysis to occur. The balanced reaction is given as:\newline
+
+$\text{Fructose-6-phosphate}+ATP\rightarrow \text{fructose-1,6,-bisphosphate}+ ATP$ $\quad\quad \Delta G^{\circ}'=14.2kJ\cdot mol^{-1}$ 
+
+> NOTE: Reaction 3 is often referred to as the second primary reaction.  
+
+##### Enzyme 
+The reaction is catalysed by phosphofructokinase.
+
+###### Regulation
+The phosphofructokinase reaction controls the rate of glycolysis. 
+Intermediates of the citric acid cycle form allosteric inhibitor's which act on phosphofructokinase.
 ### Reaction #4
 Fructose biphosphate aldose, producs two 3 carbo intermediate. 
+
+
+###  Phase #2
+Phase two includes the last 6 reactions of glycolysis in which, overall,glyceraldehyde 3 phosphate is converted to pyruvate. 
 
 ### Reaction #5
 Triose phosphare isomerase compelets the first phase of glycolysis by catalysing an ismoerisation reaction. 
@@ -144,8 +158,9 @@ transfer a phosphate group.
 ### phosphatase
 a dephosphorylating enzyme. 
 
-
-
+ 
+## Location  
+Glycolysis occurs in the cytoplasm.
 
 ## Biological significance
 Glycolysis is a particularly important process as in many cases glucose is the only source of metabolic energy. Cells of the brain kidney contractual skeletal muscles, erythrocytes, and sperm cell, are all solely reliant on glycolysis for energy. 
@@ -163,3 +178,6 @@ final waste products are carbon dioxide and water.
 
 
 regulation of glycolysis COPY IMAGE. no significant trend in free energyies released, however under physiological conditions all most run close to eqilibrium, 
+
+
+

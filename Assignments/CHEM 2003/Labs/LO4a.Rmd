@@ -1,16 +1,249 @@
 ---
-title: "Organic Chemistry, Lab 3b:"
+title: "Organic Chemistry, Lab 4: Synthesis, and purification by distillation of Esters"
 author: "Keelan Krinsky"
 output: pdf_document
 
 ---
 
-Name: _Keelan Krinksy_
-Student number: _1634953_
-Group: _7_
-Experiment Number: _O3(b)_
-Demonstrator: 
-Date of Experiment: _02/08/2018_
-Title: __Synthesis and purification, of esters, by distillation. 
+# Submission Information
+
+Name: _Keelan Krinksy_ \newline 
+Student number: _1634953_ \newline
+Locker number: _365_
+Group: _7_ \newline
+Experiment Number: _O4_ \newline
+Demonstrator: \newline
+Date of Experiment: _02/08/2018_ \newline
+Title: _Synthesis, and purification by distillation of Esters_ \newline
+
+# Reaction Scheme
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+
+# Reactants
+```{r, echo=FALSE}
+R<-c("1-butanol","Glacial acetic Acid")
+M<-c("$0.81g \\cdot ml^{-1} \\cdot 8.0ml= 6.5g$","$1.049 \\cdot ml^{-1} \\cdot 6.0ml=6.3g$")
+N<-c("$\\left(\\frac{6.48g}{72.12g \\cdot mol^{-1}}\\right)= 9.0\\cdot 10^{-2}$","$\\left(\\frac{6.3g}{60.05g \\cdot mol^{-1}}\\right)= 1.0\\cdot 10^{-1}$")
+MW<-c("$72.12$","$60.05$")  
+
+help(exp)
+
+T1<-data.frame("1"=R, "2"=MW, "3"=M, "4"=N)
+
+library(knitr)
+colnames(T1)<-c("\\textbf{Reactants Used}", "\\textbf{Molecular Weight($g \\cdot mol^{-1}$)}", "\\textbf{Mass($g$)}","\\textbf{Number of Moles(mol)}")
+
+library("kableExtra")
+T1d_latex<-knitr::kable(T1,"latex", digits = 2,row.names=FALSE, col.names = NA, align="llll", caption = "Limiting Reagent Calculations", escape = FALSE) 
+kable_styling(T1d_latex, latex_options = c("striped","hold_position"), position= "left")
 
 
+```
+Limiting Reagent: _1-butanol_
+
+# Yield Calculations
+
+Molecular Weight of Product: _$116.16g \cdot mol^{-1}$_\newline  
+Mass of Product: $14.8929g-9.3075g=5.5853g$\newline 
+Theoretical Yield: $1.0 \cdot 10^{-1}mol \cdot 116.16g \cdot mol^{-1}=12g$\newline
+Percentage Yield: $\frac{5.5853g}{12g}\cdot 100\%=47\%$ \newline 
+
+## Product analysis and observation
+
+### Physical state of product 
+Colorless liquid.
+
+### Distillation temperature ofprodcut 
+$115-128^\circ C$ at 761mm Hg
+
+#### Expected: 
+$27^\circ C$
+
+#### Found:
+$119-124\,^\circ C$
+
+### NMR/IR spectra
+
+#### 1-butanol
+
+##### Structure
+
+```{r, echo=FALSE, fig.cap="Structre of 1-butanol", out.width='3000%',fig.pos="H",fig.align='center'}
+library("knitr")
+knitr::include_graphics("Images/1-butanol.jpg")
+
+```
+
+```{r, echo=FALSE}
+
+S1<-c(3.62,2,"triplet",2,"$-CH_2-C\\underline{H_2}OH$","$J_2=7.5Hz$")
+S2<-c(2.53,1,"singlet","NA","$-C_H2O\\underline{H}$","NA")
+S3<-c(1.55,2,"pentuplet",4,"$-C\\underline{H_2}-CH_2OH$","$J_2=5.0Hz,J_3=3Hz$") 
+S4<-c(1.39,2,"sestuplet",5,"$-C\\underline{H_2}-CH_2-CH_2OH$","$J_2=3.8Hz$")  
+S5<-c(0.93,3, "triplet",2,"$C\\underline{H_3}-CH_2$","$J_2=10Hz$")
+
+T5<-data.frame("1"=S1, "2"=S2, "3"=S3, "4"=S4, "5"=S5)
+
+library(knitr)
+colnames(T5)<-c("Signal 1","Signal 2", "Signal 3","Signal 4","Signal 5")
+
+library("kableExtra")
+row.names(T5)<-c("Chemical Shift","Ratio of signal", "Multiplicity", "No. of H on Adjacent C","Assignment", "Special features \n( e.g. Coupling costants)" )
+T5d_latex<-knitr::kable(T5,"latex",row.names=NA, col.names = NA, align="ccccc", caption ="Interpretation of $^1H$ NMR spectroscopic data", escape = FALSE)
+kable_styling(T5d_latex, latex_options = c("striped","hold_position", "bordered", position="center", "scale_down"))
+
+```
+
+```{r, echo=FALSE, warning=FALSE}
+S1<-c(171.24,"$H_3-\\underline{C}O_2-$")
+S2<-c(64.38, "$-CO_2-\\underline{C}H_2-$")
+S3<-c(30.70, "$\\underline{C}H_3-CO_2-$")
+S4<-c(21.00, "$-CO_2-CH_2-\\underline{C}H_2-$")
+S5<-c(19.17, "$-CO_2-CH_2-CH_2-\\underline{C}H_2-$")
+S6<-c(13.72,"$-CO_2-CH_2-CH_2-CH_3-\\underline{C}H_3$")
+
+T6<-data.frame("1"=S1, "2"=S2, "3"=S3, "4"=S4, "5"=S5, "6"<-S6)
+
+library(knitr)
+colnames(T6)<-c("Signal 1","Signal 2", "Signal 3","Signal 4","Signal 5","Signal 6")
+row.names(T6)<-c("Chemical Shift","Assignment" )
+
+library("kableExtra")
+T6d_latex<-knitr::kable(T6,"latex",row.names=NA, col.names = NA, align="cccccc", caption ="Interpretation of $^{13}C$ NMR spectroscopic data", escape = FALSE) %>%
+add_header_above(c("1-butanol"=7))
+kable_styling(T6d_latex, latex_options = c("striped","hold_position","scale_down", "bordered"))
+
+```
+
+
+
+```{r, echo=FALSE, warning=FALSE}
+S1<-c(3350, "Very strong","O-H stretch")
+S2<-c(2970,"strong","C-H stretch (saturated)")
+S3<-c(2950, "strong","C-H stretch(saturated)")
+S4<-c(1070, "strong","$C-O$, stretch")
+
+T4<-data.frame("1"=S1, "2"=S2, "3"=S3, "4"=S4)
+
+library(knitr)
+colnames(T4)<-c("Signal 1","Signal 2", "Signal 3","Signal 4")
+row.names(T4)<-c("Position of Signal ($cm^{-1}$)","Intensity","Assignment")
+library("kableExtra")
+T4d_latex<-knitr::kable(T4,"latex",row.names=NA, col.names = NA, align="cccccc", caption ="Interpretation of IR spectroscopic data", escape = FALSE) 
+kable_styling(T4d_latex, latex_options = c("striped","hold_position","scale_down", "repeat_header"))
+
+
+```
+\newpage
+#### Butyl Ethanoate
+
+##### Structure 
+
+```{r, echo=FALSE, fig.cap="Structure of Butyl Ethanoate", out.width='30%',fig.pos="H",fig.align='center'}
+library("knitr")
+knitr::include_graphics("Images/BE.jpg")
+```
+```{r, echo=FALSE}
+
+S1<-c(4.07,2,"triplet",2,"$O-C\\underline{H_2}-CH_2-$","$J_2=7.5Hz$")
+S2<-c(2.05,3,"singlet",0,"$C\\underline{H_3}-CO_2-$","NA")
+S3<-c(1.55,2,"pentuplet",4,"$-C\\underline{H_2}-CH_2OH$","$J_2=4.3Hz,J_3=2.7Hz$") 
+S4<-c(1.39,2,"sestuplet",5,"$-C\\underline{H_2}-CH_2-CH_2OH$","$J_2=5Hz$")  
+S5<-c(0.93,3, "triplet",2,"$C\\underline{H_3}-CH_2-$","$J_2=5Hz$")
+
+T5<-data.frame("1"=S1, "2"=S2, "3"=S3, "4"=S4, "5"=S5)
+
+library(knitr)
+colnames(T5)<-c("Signal 1","Signal 2", "Signal 3","Signal 4","Signal 5")
+row.names(T5)<-c("Chemical Shift","Ratio of signal", "Multiplicity", "No. of H on Adjacent C","Assignment", "Special features \n( e.g. Coupling costants)" )
+
+library("kableExtra")
+
+T5d_latex<-knitr::kable(T5,"latex",row.names=NA, col.names = NA, align="ccccc", caption ="Interpretation of $^1H$ NMR spectroscopic data", escape = FALSE)
+kable_styling(T5d_latex, latex_options = c("striped","hold_position", "bordered", position="center", "scale_down"))
+
+```
+
+```{r, echo=FALSE, warning=FALSE}
+S1<-c(62.55,"$CH_2-\\underline{C}H_2OH$")
+S2<-c(34.85, "$-CH_2-\\underline{C}H_2-CH_2OH$")
+S3<-c(18.96, "$-CH_3-\\underline{C}H_2-CH_2-CH_2OH$")
+S4<-c(13.88, "$\\underline{C}H_3-CH_2-$")
+
+T3<-data.frame("1"=S1, "2"=S2, "3"=S3, "4"=S4)
+
+library(knitr)
+colnames(T3)<-c("Signal 1","Signal 2", "Signal 3","Signal 4")
+row.names(T3)<-c("Chemical Shift","Assignment" )
+
+library("kableExtra")
+T3d_latex<-knitr::kable(T3,"latex",row.names=NA, col.names = NA, align="cccccc", caption ="Interpretation of $^{13}C$ NMR spectroscopic data", escape = FALSE) %>%
+add_header_above(c("Butyl Ethanoate"=5))
+kable_styling(T3d_latex, latex_options = c("striped","hold_position","scale_down", "bordered"))
+
+```
+
+```{r, echo=FALSE, warning=FALSE}
+S1<-c(3000, "strong","C-H stretch(saturated)")
+S2<-c(2930,"strong","C-H stretch (saturated)")
+S3<-c(1760,"very strong" , "C=O stretch")
+S4<-c(1060, "strong","$C-O$, stretch")
+
+T7<-data.frame("1"=S1, "2"=S2, "3"=S3, "4"=S4)
+
+library(knitr)
+colnames(T7)<-c("Signal 1","Signal 2", "Signal 3","Signal 4")
+row.names(T7)<-c("Position of Signal ($cm^{-1}$)","Intensity","Assignment")
+library("kableExtra")
+T7d_latex<-knitr::kable(T7,"latex",row.names=NA, col.names = NA, align="cccccc", caption ="Interpretation of IR spectroscopic data", escape = FALSE) 
+kable_styling(T7d_latex, latex_options = c("striped","hold_position","scale_down", "repeat_header"))
+
+
+```
+
+
+
+## Discussion and Conclusion
+The percentage yield of the product was very low, below 50\%. The low yield attained may be at least partially related to kinetic considerations. The reaction is relatively slow to reach equilibrium and as such even under reflux the 45 minute reaction period may have been insufficient to allow the reaction to equilibriate. It is also possible that although acetic acid was indeed in excess the excess may not have been sufficient to shift the equilibrium far enough to attain high yields. Finally it is also possible that despite the foil used vapour escaped through the distillation apparatus. The boiling point/ distillation point recorded was also significantly lower than that expected. This relatively low boiling point is most probably related to the low yield as the presence of unreacted reagent both of which have a lower boiling points, and may have begun to boil off first giving the initial reading. This explanation would make sense if the reaction mix had not yet fully equilibriated so that although the excess acetic acid was removed unreacted 1-butanol was still present as a contaminant. 
+In Conclusion, a low yield with an imprecise melting point was attained, indicating an impure product probably contaminated with unreacted reactants, especially 1-butanol. 
+
+$\quad$\newline
+
+Date Submitted: $16/08/2018$  $\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad$  Signature:_______________
+
+\newpage
+
+# Prelab
+
+## Question #1
+Esters are usually synthesis by the combination of alcohols and carboxylic acids, although acyl chlorides can also be used in place of the carboxylic acid. Theses reactants and then heated, normally under reflux, which a strong acid or base catalyst. One of the reactants/ is normally maintained in excess pushing the equilibrium position to the right, to ensure high yield.
+
+## Question #2
+Sodium carbonate reacts with the excess Acetic acid: $Na_2CO_3+2CH_3CO_2H\rightarrow 2CH_3CO_2Na+H_2O+CO_2$. The sodium salt formed will precipitate out and can be removed during filtration to purify the product. 
+
+## Question #3
+The acid catalyst provides $H^+$ ions which attatch the C=O bond leading to the formation of a carbocation $C^+-OH$. The carbocation is a stronger electrophile that the delta positive charge on a normal carbonyl group and so the reaction is speed up considerably.  
+
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline
