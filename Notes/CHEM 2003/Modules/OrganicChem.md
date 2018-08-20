@@ -1,7 +1,7 @@
 ---
 title: "Organic Chemistry"
 output: html_document
-
+Author: Tanner
 ---
 
 # Organic Chemistry 
@@ -140,3 +140,8 @@ a $pi$ bond is waeker than a $\sigma$ bond, becuase this bond is weaker is allow
 ## functional groups
 
  __Alkenes: Alkenes__
+
+## Section 6 Examples
+# 14.4
+a) Option 2 which results in the formation of a more stable teriary carbocationic intermediate is favoured as the above reactions are examples of SN_1 reactions and thus the water which is a polar protic solvent will result in the stabilization of the carbocationic intermediate formed in the second reaction and it will thus be considered as the fast occuring reaction.
+b) This process occurs via the SN_2 reaction mechanism and both reactions result in the formation of a primary carbocationic intermediate However, the first reaction is favoured as it occurs in the presense of a polar aprotic solvent acetone and it will thus be considered as the fast occuring reaction.
