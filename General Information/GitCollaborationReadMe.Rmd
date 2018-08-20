@@ -13,7 +13,7 @@ If you do not yet have a copy of the repository on your local machine.
 
 # Step 2
     
-    git pull 
+    git pull origin
     
 # Step 3
 the name of the new branch can be anything 
@@ -21,16 +21,69 @@ the name of the new branch can be anything
     git checkout -b (name of new branch)
     
 # Step 4
-after making edits on the home machine. 
+after making edits on the home machine push changes to the git repository. 
 
     git add . 
     git commit -m "(any message)"
-    git push
+    git push -u origin (name of new branch)
+  
+# Step #5
+Change back to master branch and delete editing branch off home machine.     
 
-```{bash, execute}
+    git checkout master
+    git branch -d (name of new branch)
 
-git add .
-git commit -m "R test"
-```
+
+# Step 6
+I will then do all of the merging on the website for now. So just tell me when you push new work and integrate it so that you can again pull from the repository to the master branch (command in step 2).
+
+
+## Making the documents and modular design. 
+
+Each course has an Integrates\ Notes.Rmd file, and a folder Modules containing modules. For now modules are .md files, so when you make a new module make sure to save it with the file extension .md
+
+open and edit any module file using R studio, to make a new module just go to File/New/RNotetbook and save the file as a md file in the Modules folder. 
+
+### Format of modules
+each module starts with a yaml of the format 
+
+---
+title "Title of the document"
+author: "Author 1, Author 2 etc"
+output: pdf_document
+
+---
+
+the three dashes are NB do no leave them out. 
+
+### Importing modules into other modules 
+It is often the case that one module should contain several others for example the module NMRSpec will contain C13NMRSpec and HNMRSpec. 
+In this case a module is imported as follows: 
+
+under the imports title (# Imports) at the head of the title add on a new line: \newline 
+
+import (Module Name) as (Import Name)
+
+the import name can be anything i usually just use the same name as the module.
+
+
+Then where you want the module to appear in text. 
+
+## __(Import Name): (Fist header of module)
+
+ In the document there will be 
+
+# Imports
+
+
+# Main header of document 
+
+the fist header of the module should be the same as the module name but will contain spaces.
+
+### Importing modules into the main Notes 
+the process is the same but the import statement must include: \newline 
+
+import Modules/(module name) as (Import Name)
     
+Actually compiling the full document with imports requires software which you don't have on you computer at the mo, to to compile any individual module you can simply open it in R and press (Control+shift+k) to compile it the the output type specified (pdf in the example above).
     

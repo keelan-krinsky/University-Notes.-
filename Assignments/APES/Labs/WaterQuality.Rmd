@@ -1,0 +1,97 @@
+---
+title: "Aquatic Ecology Labs: Water Quality"
+author: "Keelan Krinsky: 1634953"
+output: pdf_document
+---
+
+# Question #1
+Both flocculation and coagulation serve to form aggregations of particles which are more easily removed by settling than individual suspended particles, however they differ significantly in their mode of action. Coagulation is a chemical process involving the formation of chemical bonds. Suspended solids are aggregated via the aid of a coagulating agent such as a chelating agent which binds metal ions to remove them from solution. Flocculation, on the other hand is a physical process, floculating agents contain charged particles which interact electrostatically (physically) with the charges on suspended particles forming ion shells around theses particles and in so doing increasing the density and size of the solid and shell aggregation. 
+
+
+# Question #2
+
+```{r, echo=FALSE}
+T<-c(25,11,7,3,1,3)
+C<-c(350,360,340,330,330,340)
+pH<-c(6.9,6.7,6.7,6.7,6.6,6.5)
+TDS<-c(C*0.65)
+Ad<-c(0,10*10^3*2/200,10*10^3*4/200,10*10^3*8/200,10*10^3*10/200,10*10^3*16/200)
+
+
+T1<-data.frame("T"=T,"C"=C, "pH"=pH, "TDS"=TDS, "Ad"=Ad)
+
+library(knitr)
+row.names(T1)<-c("Beaker 1", "Beaker 2","Beaker 3", "Beaker 4","Beaker 5", "Beaker 6")
+colnames(T1)<-c("Turbidity (NTU)", "Conductivity ($\\mu S.cm^{-1}$)","pH","Total Disolved Solids ($\\mu g\\cdot ml^{-1}$)", "Aluminium Sulfate dosage $g\\cdot ml^{-1}$")
+
+
+library("kableExtra")
+
+T1d_latex<-knitr::kable(T1,"latex",row.names=NA, col.names = NA, align="ccccc", caption ="Water Quality Measures taken on samples from Witwaterstrand University main campus, after treatment with Alum flocculating agent", escape = FALSE)
+
+kable_styling(T1d_latex, latex_options = c("striped","hold_position", "bordered", position="center"))
+
+```
+
+The optimum alum dosage is $400g\\cdot ml^{-1}$"
+# Question #3
+
+```{r, echo=FALSE}
+ylab=bquote('Turbidity( NFU)')
+xlab=bquote('Aluminium Sulfate concetration'~(g.ml^-1))
+par(mfrow=c(1,1), mar=c(7,7,7,7))
+plot(Ad,T, xlab=xlab,cex.lab=0.8, type="l",ylab=ylab)
+grid(10,10)
+points(Ad,T,pch=21)
+Lines<-list(bquote(bold(Figure:1)~'Effect on Alum flocculating agent in decreasing water turbidity'))
+mtext(do.call(expression, Lines),side=1,line=5:5)
+```
+
+
+```{r, echo=FALSE}  
+ylab=('Conductivity('~mu~'S.'~cm^-1~')')
+xlab=bquote('Aluminium Sulfate concetration'~(g.ml^-1))
+par(mfrow=c(1,1), mar=c(7,7,7,7))
+plot(Ad,C, xlab=xlab,cex.lab=0.8, type="l", ylab=ylab)
+grid(10,10)
+points(Ad,C,pch=21)
+Lines<-list(bquote(bold(Figure:2)~'Effect on Alum flocculating agent on water conductivity'))
+mtext(do.call(expression, Lines),side=1,line=5:5)
+```
+
+```{r, echo=FALSE}
+ylab=bquote('pH')
+xlab=bquote('Aluminium Sulfate concetration'~(g.ml^-1))
+par(mfrow=c(1,1), mar=c(7,7,7,7))
+plot(Ad,pH, xlab=xlab,cex.lab=0.8, type="l",ylab=ylab)
+grid(10,10)
+points(Ad,pH,pch=21)
+Lines<-list(bquote(bold(Figure:3)~'Effect on Alum flocculating agent of pH'))
+mtext(do.call(expression, Lines),side=1,line=5:5)
+
+```
+
+```{r, echo=FALSE}
+ylab=bquote('Total Disolved Solids mg.'~ L^-1)
+xlab=bquote('Aluminium Sulfate concetration'~(g.ml^-1))
+par(mfrow=c(1,1), mar=c(7,7,7,7))
+plot(Ad,TDS, xlab=xlab,cex.lab=0.8, type="l",ylab=ylab)
+grid(10,10)
+points(Ad,TDS,pch=21)
+Lines<-list(bquote(bold(Figure:4)~'Effect on Alum flocculating agent on the level of total dissolved solids in the water column'))
+mtext(do.call(expression, Lines),side=1,line=5:5)
+
+```
+
+
+# Question 4
+
+## A
+The pH remained well within the range specified by the general standards (5.5-7.5), although the alum agent clearly caused a noticeable decrease in pH, so potentially high levels of flocculating agent could result in non compliance. No significant colouration observed in any of the beakers so in this respect the water was compliant. As the water is naturally sourced its conductivity cannot be compared to that of intake water, but it is at least well below the upper limit of $250mS$ set of water draining into areas of particular sensitivity. TDS is remains below the level where it may affect the taste of the water ($400m \cdot L^{-1}$), and well below the level of adverse health effects. ($1000mg\cdot L^{-`}$)
+
+
+## B
+Turbidity first decreases with increased addition of Alum, but the reaches a minimum point and begins instead to increase. The initial decrease can be explained by the effect of the floculation which the alum induces. Suspended solids are surrounded by charged particles increasing their density, promoting them to settle out decreasing the TDS. The more solids which settle the less particles remaining to absorb reflect and scatter light within the water column and hence the turbidity decreases. However, one all available dissolved particle present have already formed flocks and settled, then addition more flocculating agent cannot lead to formation of additional flocks, instead the particles of the flocculating agent (sulfate ions and aluminium ions in this case) will simply dissolve in the water column adding to the TDS, and as a result increasing the turbidity. There is therefore an optimum quantity of flocculating agent (ignoring possible toxicity) which will remove all current dissolved solids, without any excess agent to act as a new source of suspended solids. 
+
+# Question 5
+The duration of settling could be increased, as this would directly make up for the decreased rate of settling, leading to the same overall amount of settling. The solution could be stirred more vigorously to allow for more thorough mixing leading to increased flocculation/coagulation, although if the stirring becomes too vigorous it may act to pull settled material back into solution. The flocculating/coagulating agent itself could be switched for a one with a higher reactivity, or affinity, or even one which is less toxic and as a result can be added in greater quantities, (in general increasing the amount of agent added will enhance the sedimentation process.)

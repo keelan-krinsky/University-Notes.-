@@ -11,9 +11,87 @@ Student number: _1634953_ \newline
 Locker number: _365_
 Group: _7_ \newline
 Experiment Number: _O4_ \newline
-Demonstrator: \newline
+Demonstrator: _Thabo_ \newline
 Date of Experiment: _02/08/2018_ \newline
 Title: _Synthesis and purification, of carboxylic acid, by purification._ \newline
 
-(Slight change)
+# Reaction Scheme
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+
+
+# Yield Calculations.
+
+## Part A
+
+```{r, echo=FALSE}
+# Table of Reactant details and properties.
+
+
+# Table Columns
+R<-c("Maleic Anhydride","Cyclopentadiene")
+M<-c("$0.201g$","$0.786g\\cdot ml^{-1} \\cdot 0.20ml=0.16g$")
+N<-c("$\\left(\\frac{0.201g}{98.06g \\cdot mol^{-1}}\\right)= 2.05\\cdot 10^{-3}$","$\\left(\\frac{0.16g}{66.10g \\cdot mol^{-1}}\\right)= 2.4 \\cdot 10^{-1}$")
+MW<-c("$98.06$","$66.10$")  
+
+help(exp)
+
+T1<-data.frame("1"=R, "2"=MW, "3"=M, "4"=N)
+
+library(knitr)
+colnames(T1)<-c("\\textbf{Reactants Used}", "\\textbf{Molecular Weight($g \\cdot mol^{-1}$)}", "\\textbf{Mass($g$)}","\\textbf{Number of Moles(mol)}")
+
+library("kableExtra")
+T1d_latex<-knitr::kable(T1,"latex", digits = 2,row.names=FALSE, col.names = NA, align="llll", caption = "Limiting Reagent Calculations", escape = FALSE) 
+kable_styling(T1d_latex, latex_options = c("striped","hold_position"), position= "left")
+
+
+```
+Limiting Reagent: _Maleic Acid_\newline
+Molecular Weight of Product: _$164.16g \cdot mol^{-1}$_\newline  
+Mass of Product: $8.0149g-7.864g=0.1509g$\newline 
+Theoretical Yield: $2.05 \cdot 10^{-3}mol \cdot 164.16g \cdot mol^{-1}=0.337g$\newline
+Percentage Yield: $\frac{1.509g}{0.337g}\cdot 100\%=44.8\%$ \newline 
+
+
+
+## Part B
+```{r, echo=FALSE}
+# Table of Reactant details and properties.
+
+
+# Table Columns
+R<-c("Benzyldehyde","Acetone")
+M<-c("$1.044g\\cdot ml^{-1} \\cdot 0.60ml=0.63g$","$0.7845g\\cdot ml^{-1} \\cdot 0.22ml=0.17g$")
+N<-c("$\\left(\\frac{0.63g}{106.12g \\cdot mol^{-1}}\\right)= 5.9\\cdot 10^{-3}$","$\\left(\\frac{0.17g}{58.08g \\cdot mol^{-1}}\\right)= 2.9 \\cdot 10^{-3}$")
+MW<-c("$106.12$","$58.08$")  
+
+help(exp)
+
+T1<-data.frame("1"=R, "2"=MW, "3"=M, "4"=N)
+
+library(knitr)
+colnames(T1)<-c("\\textbf{Reactants Used}", "\\textbf{Molecular Weight($g \\cdot mol^{-1}$)}", "\\textbf{Mass($g$)}","\\textbf{Number of Moles(mol)}")
+
+library("kableExtra")
+T1d_latex<-knitr::kable(T1,"latex", digits = 2,row.names=FALSE, col.names = NA, align="llll", caption = "Limiting Reagent Calculations", escape = FALSE) 
+kable_styling(T1d_latex, latex_options = c("striped","hold_position"), position= "left")
+
+
+```
+Limiting Reagent: _Acetone_\newline
+Molecular Weight of Product: _$234.29 \cdot mol^{-1}$_\newline  
+Mass of Product: $8.5849g-8.0090g=0.1509g$\newline 
+Theoretical Yield: $2.9\cdot 10^{-3}mol \cdot 234.29 g \cdot mol^{-1}=0.68g$\newline
+Percentage Yield: $\frac{0.5759g}{0.68g}\cdot 100\%=85\%$ \newline 
 

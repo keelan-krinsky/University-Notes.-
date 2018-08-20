@@ -47,4 +47,9 @@ decreased level of saturation
 ### Addition
 increased level of saturation
 
+## Examples
+Reactions which go through more stable intermediates will proceed faster.for $S_N2$ more powerful nucleophile. For $SN_2$ reaction, polar aprotic solvents aid $SN_2$ more than polar protic solvents. 
 
+Remember $S_N1$ leads to racemic mixture, $S_N2$ leads to inversion of current stereochemistry. 
+
+Steric hindrance, nucleophile, electrophilic carbon, bulky methyl groups. 
