@@ -95,3 +95,227 @@ Mass of Product: $8.5849g-8.0090g=0.1509g$\newline
 Theoretical Yield: $2.9\cdot 10^{-3}mol \cdot 234.29 g \cdot mol^{-1}=0.68g$\newline
 Percentage Yield: $\frac{0.5759g}{0.68g}\cdot 100\%=85\%$ \newline 
 
+
+# Product analysis and observation
+
+## Part A
+
+### Physical state of product 
+white (crystalline) solid
+
+### Melting point
+
+#### Expected: 
+$165^\circ C-167^\circ C$
+
+#### Found:
+$162^\circ C-168^\circ C$
+
+### NMR/IR spectra
+
+#### cis-5-Norbornene-endo-5,6-dicarboxylic anhydride
+
+##### Structure
+
+```{r, echo=FALSE, fig.cap="cis-5-Norbornene-endo-5,6-dicarboxylic anhydride", out.width='30%',fig.pos="H",fig.align='center'}
+library("knitr")
+knitr::include_graphics("Images/NeDA.jpg")
+```
+
+
+
+
+```{r, echo=FALSE}
+#HNMR Spectrum assignment table
+
+S1<-c(6.27,2,"doublet",1,"$C\\underline{H}(CH_3)(=O)-O-$","$J_2=2.5Hz$")
+S2<-c(3.715,2,"doublet of doublets",1,"$-C\\underline{H}=CH-C(H)$","$J_2=5Hz$")
+S3<-c(3.35,2,"quartet",4,"$-C\\underline{H}(-CH_2)(-CH)-CH$","$J_2=1.35Hz$") 
+S4<-c(1.58,2,"doublet",1 ,"$-C\\underline{H_2}-CH(-CH)$","$J_2=5.0Hz$")  
+T2<-data.frame("1"=S1, "2"=S2, "3"=S3, "4"=S4)
+library(knitr)
+colnames(T2)<-c("Signal 1","Signal 2", "Signal 3","Signal 4")
+
+library("kableExtra")
+
+#$
+row.names(T2)<-c("Chemical Shift","Ratio of signal", "Multiplicity", "No. of H on Adjacent C","Assignment", "Special features \n( e.g. Coupling costants)" )
+
+
+T2d_latex<-knitr::kable(T2,"latex",row.names=NA, col.names = NA, align="ccccc", caption ="Interpretation of $^1H$ NMR spectroscopic data", escape = FALSE)
+kable_styling(T1d_latex, latex_options = c("striped","hold_position", "bordered", position="center", "scale_down"))
+
+```
+
+
+
+```{r, echo=FALSE, warning=FALSE}
+
+# C13NMR Spectra
+
+S1<-c(172.88,"$CH-\\underline{C}O_2-$")
+S2<-c(135.97, "$-CH=\\underline{C}H-$")
+S3<-c(52.89,"$-CH\\underline{C}H-CO_2$")
+S4<-c(47.55, "$CH-\\underline{C}H(-CH_2)-CH$")
+S5<-c(45.81, "$CH-\\underline{C}H_2-CH$")
+
+T6<-data.frame("1"=S1, "2"=S2, "3"=S3, "4"=S4, "5"=S5)
+
+library(knitr)
+colnames(T6)<-c("Signal 1","Signal 2", "Signal 3","Signal 4","Signal 5")
+row.names(T6)<-c("Chemical Shift","Assignment" )
+
+library("kableExtra")
+T6d_latex<-knitr::kable(T6,"latex",row.names=NA, col.names = NA, align="cccccc", caption ="Interpretation of $^{13}C$ NMR spectroscopic data", escape = FALSE)
+kable_styling(T6d_latex, latex_options = c("striped","hold_position","scale_down", "bordered"))
+
+```
+```{r, echo=FALSE, warning=FALSE}
+
+# IR Spectrum Analysis
+
+S1<-c(3010, "weak","=C-H stretch")
+S2<-c(2980,"weak","C-H stretch")
+S3<-c(1780, "intermediate","C=O stretch")
+S4<-c(1690, "strong","$C=C$, stretch")
+S5<-c(1050, "strong","$C-O$, stretch")
+
+
+
+T4<-data.frame("1"=S1, "2"=S2, "3"=S3, "4"=S4,"5"=S5)
+
+library(knitr)
+colnames(T4)<-c("Signal 1","Signal 2", "Signal 3","Signal 4","Signal 5")
+row.names(T4)<-c("Position of Signal ($cm^{-1}$)","Intensity","Assignment")
+library("kableExtra")
+T4d_latex<-knitr::kable(T4,"latex",row.names=NA, col.names = NA, align="cccccc", caption ="Interpretation of IR spectroscopic data", escape = FALSE) 
+kable_styling(T4d_latex, latex_options = c("striped","hold_position","scale_down", "repeat_header"))
+
+
+```
+
+## Part B
+
+### Physical state of product 
+light yellow (crystalline) solid
+
+### Melting point
+
+#### Expected: 
+$110^\circ C-111^\circ C$
+
+#### Found:
+$109^\circ C-111^\circ C$
+
+### NMR/IR spectra
+
+#### Dibenzylideneacetone
+
+##### Structure
+
+```{r, echo=FALSE, fig.cap="cis-5-Norbornene-endo-5,6-dicarboxylic anhydride", out.width='60%',fig.pos="H",fig.align='center'}
+library("knitr")
+knitr::include_graphics("Images/Dibenzylideneacetone.jpg")
+```
+
+```{r, echo=FALSE}
+#HNMR Spectrum assignment table
+
+S1<-c(7.745,2,"doublet","2(1 unique)","$Ar-C_4C\\underline{H}$","$J_2=15Hz$")
+S2<-c(7.605,4,"multiplet",2,"$Ar-C_{3,5}C\\underline{H}$","$J_2=2.5Hz, J_3=1.25Hz$")
+S3<-c(7.40,4,"doublet","2(1 unique)","$Ar-C_{2,6}C\\underline{H}$","$J_2=1Hz$") 
+S4<-c(7.395,2,"doublet",1,"$CH=C\\underline{H}-C=O-$","$J_2=5.0Hz$") 
+S5<-c(7.075,2,"doublet",1,"$Ar-C\\underline{H}+Ch-C(=O)-$","$J_2=1Hz$")  
+
+T5<-data.frame("1"=S1, "2"=S2, "3"=S3, "4"=S4,"5"=S5)
+library(knitr)
+colnames(T5)<-c("Signal 1","Signal 2", "Signal 3","Signal 4","Signal 5")
+
+library("kableExtra")
+
+#$
+row.names(T5)<-c("Chemical Shift","Ratio of signal", "Multiplicity", "No. of H on Adjacent C","Assignment", "Special features \n( e.g. Coupling costants)" )
+
+
+T5d_latex<-knitr::kable(T5,"latex",row.names=NA, col.names = NA, align="ccccc", caption ="Interpretation of $^1H$ NMR spectroscopic data", escape = FALSE)
+kable_styling(T5d_latex, latex_options = c("striped","hold_position", "bordered", position="center", "scale_down"))
+
+```
+
+
+```{r, echo=FALSE}
+# C13NMR Spectra
+
+S1<-c(188.85,"$\\underline{C}=O$")
+S2<-c(143.27, "$Ar-\\underline{C}H=CH$")
+S3<-c(134.79,"$Ar-CH=\\underline{C}H-CO_2$")
+S4<-c(130.47, "$Ar-\\underline{C_4}$")
+S5<-c(128.94, "$Ar-\\underline{C_{3,5}}$")
+S6<-c(128.37, "$Ar-\\underline{C_{2,6}}$")
+S7<-c(125.42, "$Ar-\\underline{C_1}(-CH)$")
+
+T6<-data.frame("1"=S1, "2"=S2, "3"=S3, "4"=S4, "5"=S5, "6"=S6, "7"=S7)
+
+library(knitr)
+colnames(T6)<-c("Signal 1","Signal 2", "Signal 3","Signal 4","Signal 5","Signal 6")
+row.names(T6)<-c("Chemical Shift","Assignment" )
+
+library("kableExtra")
+T6d_latex<-knitr::kable(T6,"latex",row.names=NA, col.names = NA, align="cccccc", caption ="Interpretation of $^{13}C$ NMR spectroscopic data", escape = FALSE) %>%
+add_header_above(c("cis-5-Norbornene-endo-5,6-dicarboxylic anhydride"=7))
+kable_styling(T6d_latex, latex_options = c("striped","hold_position","scale_down", "bordered"))
+
+```
+````{r, echo=FALSE, warning=FALSE}
+
+# IR Spectrum Analysis
+
+S1<-c(3020, "weak","=C-H stretch")
+S2<-c(3000,"weak","C-H stretch")
+S3<-c(1700, "very strong","C=O stretch")
+S4<-c(1640, "intermediate","$C=C$, stretch")
+S5<-c(1590, "strong","$C=C$, conjugated")
+
+
+
+T4<-data.frame("1"=S1, "2"=S2, "3"=S3, "4"=S4,"5"=S5)
+
+library(knitr)
+colnames(T4)<-c("Signal 1","Signal 2", "Signal 3","Signal 4","Signal 5")
+row.names(T4)<-c("Position of Signal ($cm^{-1}$)","Intensity","Assignment")
+library("kableExtra")
+T4d_latex<-knitr::kable(T4,"latex",row.names=NA, col.names = NA, align="cccccc", caption ="Interpretation of IR spectroscopic data", escape = FALSE) 
+kable_styling(T4d_latex, latex_options = c("striped","hold_position","scale_down", "repeat_header"))
+
+
+```
+
+## Discussion and Conclusion
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+
+$\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad$\newline 
+
+$\quad$\newline
+
+Date Submitted: $16/08/2018$  $\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad$  Signature:_______________

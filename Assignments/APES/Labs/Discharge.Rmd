@@ -1,0 +1,104 @@
+---
+title: "Discharge Calculation"
+output: pdf_document
+---
+
+# Notes
+assume endges are triangular. (w1*d1*1/2*v)
+
+# Rondegat River
+
+```{r, echo=FALSE}
+# Rondegat River discharge calculation
+
+
+# Variable declaration.
+
+Dis<-c((1:8)/2)
+Dep<-c(0.56,0.61,0.58,0.51,0.44,0.24,0.1)
+V<-c(0.1,0.48,1.31,1.17,0.52,0.13,0.32)
+V[8]<-c(V[7])
+
+# Calculations. 
+x<-(1:7)
+W<-c(Dis[x+1]-Dis[x])
+
+A<-c(Dep[x]*W[x])
+A[1]<-c(A[1]/2)
+A[8]<-c(Dis[8]*Dep[7]/2)
+
+
+y<-(1:8)
+sD<-c(A[y]*V[y])
+fD<-sum(sD)
+```
+
+Dishcarge of each segment is \newline 
+
+ `r {sD[1]}`$m^3\cdot s^{-1}$
+ 
+  `r {sD[2]}`$m^3\cdot s^{-1}$
+ 
+  `r {sD[3]}`$m^3\cdot s^{-1}$
+ 
+ `r {sD[4]}`$m^3\cdot s^{-1}$
+ 
+  `r {sD[5]}`$m^3\cdot s^{-1}$
+ 
+  `r {sD[6]}`$m^3\cdot s^{-1}$
+
+  `r {sD[7]}`$m^3\cdot s^{-1}$
+ 
+  `r {sD[8]}`$m^3\cdot s^{-1}$
+`
+
+and the overall discharge is: \newline 
+
+`r {fD}`$m^3\cdot s^{-1}$
+
+# Magalies River 
+
+```{r, echo=FALSE}
+
+# Magalies River discharge calculation.
+
+# Variable declaration.
+Dis<-c(1:6)
+Dep<-c(0.35,0.41,0.38,0.33,0.09)
+V<-c(0,0.05,0.03,0,0)
+V[6]<-c(V[5])
+
+# Calculations
+x<-c(1:5)
+W<-c(Dis[x+1]-Dis[x])
+
+A<-c(Dep[x]*W[x])
+A[1]<-c(A[1]/2)
+A[6]<-c(Dis[6]*Dep[5]/2)
+length(A)
+
+y<-(1:6)
+sD<-c(A[y]*V[y])
+
+fD<-sum(sD)
+```
+
+
+Dishcarge of each segment is \newline 
+
+ `r {sD[1]}`$m^3\cdot s^{-1}$
+ 
+  `r {sD[2]}`$m^3\cdot s^{-1}$
+ 
+  `r {sD[3]}`$m^3\cdot s^{-1}$
+ 
+ `r {sD[4]}`$m^3\cdot s^{-1}$
+ 
+  `r {sD[5]}`$m^3\cdot s^{-1}$
+ 
+  `r {sD[6]}`$m^3\cdot s^{-1}$
+
+
+and the overall discharge is: \newline 
+
+`r {fD}`$m^3\cdot s^{-1}$

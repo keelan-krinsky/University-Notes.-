@@ -52,3 +52,11 @@ Competing metabolic pathways (such as paired catabolic and anabolic pathways) ar
 
 ### Regulation Points 
 Points of regulation involve reactions in which the equilibrium is shifted very strongly in one direction. Such reactions have a very high change in free energy associated with them. 
+
+#### Stage 2 
+amino acids to alpha keto acids, and then pyruvate or acetylp co A 
+glycerol and glucose to pyruvate. and fatty acids to acetyl CoA. 
+pyruvate can be further brocked down into acetyl-coA (the common end product of metabolism
+
+final waste products are carbon dioxide and water. 
+

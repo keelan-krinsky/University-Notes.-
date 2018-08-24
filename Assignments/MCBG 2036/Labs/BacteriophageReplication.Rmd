@@ -12,7 +12,7 @@ output:
 # Burst Size of T4 phage in _Escherichia Coli_, as determined by the Ellis and Delbruck one step growth curve. 
 
 # Aim
-The aim of this experiment was to determine the burst size of T4 phage in _Escherichia Coli_ . Within this aim the ojectives included constructing a sufficiently dilute bacterial and phage solutions 
+The aim of this experiment was to determine the burst size of T4 phage in _Escherichia Coli_ . Within this aim the objectives included constructing a sufficiently dilute bacterial and phage solutions 
 
 # Results 
 The average number of Plaques relating to each time experimental time interval was calculated and plotted in __Figure:1__ below. The full set of results can be seen in __Table:1__ of the appendix.  
@@ -26,24 +26,11 @@ Crp<-c(Cr/10^6)
 Lines <- list(bquote(' One Step Growth Curve of bacteriophage T4 in '*italic(Eschericia~Coli)),bquote("second line x"^2))
 
 
-#library("ggplot2")
-#G1<-data.frame(Av,t)
-#ggplot(G1,aes(Av,t))
-
-#qplot(Av,t,main="x",sub="x")
-#plot(t,Av,sub=do.call(expression, Lines))
-                               
-                               
-#bold(Figure:1)*' One Step Growth Curve of bacteriophage T4 in '*italic(Eschericia~Coli)* ' Bacterial Host'))
-
 ylab<-bquote('Concentration of Phage ('~10^6~ 'Phage/ml)')
 par(mfrow=c(1,1), mar=c(7,7,7,2))
 plot(t,Crp,type="l",pch=21, xlab="Time after infection (min)", ylab=ylab,xlim=range(0:50))
 grid(10,10, lty="solid")
-#abline(v=(seq(8,45,0.2)), col="lightgray", lty="solid",lwd=0.000001)
-#abline(h=(seq(0,25,0.2)), col="lightgray", lty="solid", lwd=0.000001)
 points(t, Crp, type="p", pch=1, col="black")
-labels.default("Shit",5,5)
 
 
 
@@ -51,9 +38,7 @@ labels.default("Shit",5,5)
 exp <- 2
 Lines <- list(bquote('in '*italic(Eschericia~Coli)*' Bacterial Host'), bquote(bold(Figure:1)*' One Step Growth Curve of bacteriophage T4'))
 mtext(do.call(expression, Lines),side=1,line=6:5 )
-#lines(predict(lo), col='red', lwd=2)
 
-#plot(1:10, main=(paste(expression('C=1'*alpha*'d'))))
 
 ```
 
@@ -62,10 +47,39 @@ mtext(do.call(expression, Lines),side=1,line=6:5 )
 
 
 ## Burst size. 
+The burst size can be calculated as the ratio of peak/plateau phage concentration to initial phage concentration, as this ratio represents the number of new phage replicated from each phage originally present (Ellis and Delbruck, 1939). This measure can be taken as burst size, both because the multiplicity of interactivity was maintained at a sufficiently low level that each bacterium could only be infected by one phage (or rather infection by multiple phage would be exceedingly unlikely), and because time for only one cycle of lytic reproduction was allowed (which can be seen by Figure 1,which shows only one step of the one step growth curve).
 
+$\text{|Burst Size|}=\frac{2.38\cdot10^8\,\text{Phage}\cdot ml^{-1}}{1\cdot 10^6\,\text{Phage}\cdot ml^{-1}}=238$
+\newline 
+
+$\rightarrow \text{Burst Size=238 Phage}$
 
 # Discussion.
+The growth curve observed on the whole appears to follow the expected one step model originally proposed by Ellis and Delbruck, 1939, that is an eclipse phase followed by a a maturation/rising phase followed by a rapid decrease in extra-cellular phage numbers as the newly produced phage begins to infect new bacterial cells entering a new eclipse phase. As no measurements where taken until 10min into the experiments the eclipse phase is not immediately evident in Figure !, but it can be expected that concentration of extra-cellular phage dropped nearly to zero, as the eclipse phase began with phage adhering to and injecting their DNA into bacterial cells. The concentration then probably remained very low as synthesis of intracellular viral particles, proteins and genome continued. By the first measurement 10min after the phage was introduced the maturation phase had began with phage increasing in concentration rapidly to a maximum point. phage concentration did not plateau however but rapidly declines after this point, perhaps due to phage entering a new eclipse phase, most probably due to immediate reinfection of new bacterial cells. The actual burst size calculated was relatively large at 238, a more 60-70 as the typical range for T4 in E. coli (Kuhn and Kellenberger, 1985), however as bust size is known to vary greatly, the value calculated is within the realms of reasonability. 
 
+# Questions
+
+## Question #1
+Penetration begins with adsorption of the bacteriophage onto the outside of the bacterial wall. This adsorption is relies to a degree on the density distribution and type off receptors present on the bacterial cell wall, (Braun and Hantke, 1997). However despite this dependency a given phage is still able to adsorb onto a large effectively onto a large range of bacterial species. once adhered the phage excretes enzymes such as lysozyme to partially degrade and hence soften the bacterial cell wall. Finally the phage tail of T4 phage (among others) contracts forcing the genome (usually dsDNA) through the weakened cell wall, and into the bacterial cell. The genome remains enclosed in a inner protein tube of the tail through the process to protect it, and only the tail sheath make up of repeated protein elements contracts.  
+
+## Question #2
+During the Eclipse phase phage structural elements, including phage genome are produced/replicated is large numbers as well as phage proteins related to regulation of transcription, and translation within the bacterial host cell. Structural elements include head/capsid proteins, which form a protective structure covering the phage nucleic acid, (theses structures are normally icsoahedral as in the case of T4 but may also be filamentous). Proteins are also produced to form the phage tail, and tail sheath in some bacterium, as well as the phage base plate, (a disk shaped protein structure), and tail fibers, which attatch to the base plate and are involved in adsorption. The phage genome normally dsDNA, but sometimes RNA is replicated many times, within new phage particles spontaneously assembling from the synthesized constituents around the genome (in fact some phage fist assemble and then incorporate the genome). Regulatory proteins produced, are a variety of normally small protein elements which interact with the hosts innate regulatory system to induce changes in the cell life cycle and control the cells replicative machinery (for example translation enzymes). Bacterial cells burst as phage exit the bacterial cell during the release phase of their cell cycle. to exit the cell phage use excrete lysome onto the cell wall ezymatically degrading it, and then exit through the newly created holes in the cell wall. With great numbers of phage simultaneously releasing the cell wall's structural integrity becomes compromised and the cell membrane, of the hypertonic bacterial cell, is forced out through these holes in the cell wall by osmotic pressure. Without the support of the cell wall this membrane soon burst, and the cells begins to leak its contents into the outside environment. No longer able to maintain homeostasis due to free exchange with the outside environment the cell soon dies. 
+
+
+
+# References 
+
+
+Braun V., and K. Hantke, 1997, Bacterial receptors for phages and colicins as constituents of specific transport systems, _Microbial Interactions Receptor and recognition_,3: 101-137 
+
+Ellis, E. L. and Delbruck, M., ,1939,The growth of bacteriophage Rockefeller University Press, _Journal of General Physiology_ ,22,3: 365-384.
+
+Kuhn, A and Kellenberger, E,1985,Productive phage infection in Escherichia coli with reduced internal levels of the major cations.,American Society for Microbiology Journals, _Journal of Bacteriology_,163,3: 906-912
+
+\newpage
+
+
+	
 # Appendix1: Results
 
 ```{r, echo=FALSE}
@@ -95,8 +109,8 @@ kable_styling(T1d_latex, latex_options = c("striped","hold_position", "bordered"
 # Appendix 2: Calculations
 As each plaque forming unit is assumed to be a single phage the number of phage present after dilution can be taken as equal to the number of plaques counted. 
 
-The concentration of phage in tube II is thererfore equalvent to $\frac{n}{0.1ml}$, where n is the number of phage counted. similiarty
-concentration in tube =$\frac{n\,\, \text{x}\,\, 100}{0.1ml}$,and cencetration in ADS tube 2 =$\frac{n\,\, \text{x}\,\, 100^2}{0.1ml}$ which implies that the number of phage present in the reaction mixture after the given time intervals are as follows. 
+The concentration of phage in tube II is therefore equal vent to $\frac{n}{0.1ml}$, where n is the number of phage counted. similarity
+concentration in tube =$\frac{n\,\, \text{x}\,\, 100}{0.1ml}$,and concentration in ADS tube 2 =$\frac{n\,\, \text{x}\,\, 100^2}{0.1ml}$ which implies that the number of phage present in the reaction mixture after the given time intervals are as follows. 
 
 
 
@@ -125,4 +139,4 @@ kable_styling(T2d_latex, latex_options = c("striped","hold_position", "bordered"
 ```
 
 
-The Initial concentration of phage in the reaction mixture= $\frac{2\cdot 10^8 \text{Phage} \cdot ml^{-1}}{100^2}=2.0\cdot 10^4$
+The Initial concentration of phage in the reaction mixture= $\frac{2\cdot 10^8 \text{Phage} \cdot ml^{-1}}{(100)(21)}=1.0\cdot 10^6 Phage.ml^{-1}$

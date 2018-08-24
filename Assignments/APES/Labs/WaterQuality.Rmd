@@ -34,6 +34,8 @@ kable_styling(T1d_latex, latex_options = c("striped","hold_position", "bordered"
 ```
 
 The optimum alum dosage is $400g\\cdot ml^{-1}$"
+
+
 # Question #3
 
 ```{r, echo=FALSE}

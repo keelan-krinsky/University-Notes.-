@@ -24,6 +24,8 @@ import Modules/MatterCycles as MatterCycles
 
 import Modules/FreshWaterOrganisms as FWO
 
+import Modules/InvasiveAquaticSpecies as InasiveAquaticSpecies
+
 # Aquatic Ecology
 
 ## Background
@@ -37,10 +39,8 @@ import Modules/FreshWaterOrganisms as FWO
 ### __MatterCycles: Matter Cycles__
 
 ## __WaterQuality: Water Quality__
-
  
 ## __Rivers: Rivers__
-
 
 ## __Wetlands: Wetlands__
 
@@ -48,8 +48,8 @@ import Modules/FreshWaterOrganisms as FWO
 
 ## __SH: Savanna Hydrology__
 
-
-
+## __InvasiveAquaticSpecies: Invasive Aquatic Species__
+ 
 ## Examples
 
 ### Case studies 

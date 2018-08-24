@@ -5,10 +5,8 @@ output: html_notebook
 ---
  
 # Imports
-import Modules/Genetics as Genetics
+import Modules/Genetics as 
 import Modules/Metabolism as Metabolism
-
-
 # Concepts Notes
 
 ## Background

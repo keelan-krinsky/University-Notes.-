@@ -1,0 +1,39 @@
+---
+title: "Deleterious impact of urban communities on the freshwater ecosystem of the Braamfontein Spruit"
+
+author: "Keelan Krinsky: _1634953_         TA: Jonathan"
+output: word_document
+---
+
+# Introduction
+
+Urban Freshwater Ecosystems play a variety of very important social, economic and ecological functions. These systems function as recreational areas (Swanwick, Dunnett, and Woolley, 2003), animal and plant habitats, flood control systems (Levy, Hartmann, and Asgary,2007) and domestic or industrial treated water disposal systems, as well as a source of bathing or even drinking water in some communities and a source of fish stocks (Berkes, 1979), to mention but a few. However, urban freshwater systems come under considerable stress due to human disturbance, predominately in the form of pollution, to the point that there their natural functions may be entirely compromised. 
+
+Much Research has already been done into the deleterious effects of such pollution, such as (Julio and Álvaro, 2006) in which toxicity and eutrophication relating to nitrate pollution was assessed at a global level or (Walsh _et al_, 2005), in which the effect of nutrient pollution on ecosystem processes and species diversity was assess, indicating decreased nutrient uptake and biodiversity resulting from agricultural pollution. Other major urban pollutants have also been assess such as storm water in (Walsh, Fletcher, and Burns, 2012) which established the connection between water run off schemes and river ecological condition, and Acid mine drainage in  (Ata and Soner,2006) where the toxicity of acid mine water on aquatic organisms was investigated, and treatment schemes as well as primary prevention schemes were proposed. Overall the leading causes of urban freshwater degradation, and their sources are well identified and understood. 
+
+Despite the wealth of research available however, a comprehensive and detailed local mapping of river conditions and pollution sources in Johannesburg city and the surrounding area is still lacking. Without a detailed understanding of the distribution, type and severity of drivers of degradation, local municipality run the risk of being inefficient or worse ineffective, in their attempts at remediation and regulation. This research aims to assist in the creation of such a mapping by assessing the pollution in a section of the Braamfontein spruit within the Delta Park a public park within the Craig Hill area. The park is in a highly populated urban district with many recreational users frequenting the park every day, as well as homeless individuals who inhabit the park, and may use the river waters for bathing or cooking. Furthermore the park was historically a sewerage treatment site any although it has been re-purposed, it is still a hub of the Johannesburg sewerage transport network the the possibility of multiple leaks of raw sewerage directly into the river, as well as storm water drains which empty directly into the river. For assessment of water quality the SASS scoring based on the diversity of aquatic macro-invertebrates invertebrate found, is assign to each sample site (Dickens and Graham, 2002). A relatively pristine section of the Magalies river was also sampled as a control/stand for comparison. The aim of this investigation was to establish the extent, and origin, of human generated pollution and disturbance on the Delta Park Braamfontein spruit, to assist in the mapping of freshwater pollution across the Johannesburg city area. Within this general aim objectives included Establishing the major sources of disturbance and their origin, as well as assessing the overall ecosystem health as measured by the SASS scoring method, and finally to assess the magnitude of the disturbance by comparison to the relatively undisturbed Magalies headwaters system,located in the same general geographic area but suffering from far less human generated pollution.  
+\newpage
+
+# References
+
+Ata A., Soner K.,2006, Acid Mine Drainage (AMD): causes, treatment and case studies,_Journal of Cleaner Production_,14,12–13: 1139-1145,
+
+
+
+Berkes, F., 1979, An Investigation of Cree Indian Domestic Fisheries in Northern Quebec. Arctic, 32(1), 46-70.
+
+Christopher J. Walsh, Allison H. Roy, Jack W. Feminella, Peter D. Cottingham, Peter M. Groffman, and Raymond P. Morgan,2005, "The urban stream syndrome: current knowledge and the search for a cure," _Journal of the North American Benthological Society_ 24,3: 706-723.
+
+Dickens C.W.S., Graham P.M., 2002, The South African Scoring System (SASS) Version 5 Rapid bioassesment method for rivers,Umgeni Water, _African Journal of Aquatic Science_ ,27:1-10
+
+Julio A. Camargo, Álvaro Alonso,2006, Ecological and toxicological effects of inorganic nitrogen pollution in aquatic ecosystems: A global assessment, _Environment International_, 32,6,2006: 831-849,
+
+Levy, J. K., Hartmann, J. , Li, K. W., An, Y. and Asgary, A. (2007), Multi‐Criteria Decision Support Systems for Flood Hazard Mitigation and Emergency Response in Urban Watersheds. _JAWRA Journal of the American Water Resources Association_, 43: 346-358. 
+
+SWANWICK, C., DUNNETT, N., & WOOLLEY, H. 2003. Nature, Role and Value of Green Space in Towns and Cities: An Overview. Built Environment (1978-), 29(2), 94-106.
+
+Sabo, J. L., Sponseller, R. , Dixon, M. , Gade, K. , Harms, T. , Heffernan, J. , Jani, A. , Katz, G. , Soykan, C. , Watts, J. and Welter, J. (2005), RIPARIAN ZONES INCREASE REGIONAL SPECIES RICHNESS BY HARBORING DIFFERENT, NOT MORE, SPECIES. _Ecology_, 86: 56-62.
+
+Walsh CJ, Fletcher TD, Burns MJ, 2012, Urban Stormwater Runoff: A New Class of Environmental Flow Problem. _PLOS ONE_ 7(9)
+
+

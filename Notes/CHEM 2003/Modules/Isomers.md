@@ -89,3 +89,6 @@ For a diassteriogentic centres there are a maximum of $2^n$
  stereoisomers. Half of these will be enantomers of the other half. 
 all of the other relationships are diateriomers. 
 
+
+## Tautomers 
+tautomers are isomers which can readily intraconvert between each other.

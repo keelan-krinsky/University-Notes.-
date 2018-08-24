@@ -419,3 +419,9 @@ Consume organic molecules and release the stored energy in a series of oxidative
 lab test on friday from thermodyamics to end of wednesday lectures, from 
 enthalpy entropy prac. 
 
+
+### Kinase enzymes. 
+transfer a phosphate group. 
+
+### phosphatase
+a dephosphorylating enzyme. 
