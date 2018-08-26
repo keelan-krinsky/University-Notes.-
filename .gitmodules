@@ -1,0 +1,3 @@
+[submodule "Notes/Modules/Biology-Modules"]
+	path = Notes/Modules/Biology-Modules
+	url = https://github.com/keelan-krinsky/Biology-Modules.git
