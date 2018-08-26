@@ -1,0 +1,21 @@
+---
+title: "Concepts Notes"
+output: html_notebook
+
+---
+ 
+# Imports
+import Modules/Genetics as 
+
+import Modules/Metabolism as Metabolism
+
+# Concepts Notes
+
+## Background
+
+### __OrganismTaxonomy : Organism Taxonomy__
+
+## __Genetics: Genetics__
+
+## __Metabolism: Metabolism__
+

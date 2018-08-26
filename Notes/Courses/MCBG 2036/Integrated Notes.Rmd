@@ -1,0 +1,47 @@
+---
+title: "Scientific Practice Notes"
+output: pdf_document
+---
+
+# Imports 
+
+import ../../Modules/Biology/Viruses as Viruses
+
+import ../../Modules/Biology/BiologicalMolecules as BiologicalMolecules
+
+import ../../Modules/Biology/Solutions as Solutions
+
+import ../../Modules/Biology/ScientificReasoning as ScientificReasoning
+
+import ../../Modules/Biology/AcidsandBases as AcidsandBases
+
+import ../../Modules/Biology/Steriochemistry as Steriochemistry
+
+import ../../Modules/Biology/Electrophoresis as Electrophoresis
+
+import ../../Modules/Biology/Immunology as Immunology
+
+import ../../Modules/Biology/Microorganisms as Microorganisms
+
+# Scientific practice
+
+## Background
+
+### __Solutions: Solutions__
+
+### __BiologicalMolecules: Biological Molecules__
+
+### __ScientificReasoning : Scientific Reasoning__
+
+### __AcidsandBases : Acids and Bases__
+
+## Lab Techniques
+
+### __Electrophoresis: Electrophoresis__
+
+## __Steriochemistry: Steriochemistry__
+
+## __Immunology: Immunology__
+
+## __Microorganisms: Microorganisms__
+

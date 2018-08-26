@@ -1,0 +1,85 @@
+---
+title: "Reading Scientific Articles"
+author: "Keelan Krinsky"
+output: pdf_document
+---
+
+# Approach 1
+
+## Order of reading
+
+### Phase 1
+survey the paper to see if it is worth the investment of reading. Often papers are found by search based on key words in the abstract. 
+
+Stop at any point if it becomes clear that the paper is not useful to you
+
+ #. Start with keywords and title
+ #. Look at conclusions
+ #. look at tables figures and captions 
+ 
+### Phase 2
+Start with introduction, contains background and purpose of study.
+look at results and discussion 
+
+Finally, and only if paper is very relevant, then the experimental details will be reviewed.  
+
+> NB: find reference manager. 
+
+# Approach 2
+
+ #. Look at title and abstract to see if paper at all relevant. 
+ #. background (not unbiased or systematic),skip?
+ #. methods (potential research errors) potentially not generalisable. 
+ #. results section (draw own conclusion)
+ #. discussion (authors opinions)
+ #. authors conclusions (also on their opinion)
+ 
+ Avoid sections which may have bias. look predominately at objective info.
+ 
+# types of research Paper
+
+ #. original research 
+ #. case reports
+ #. technical notes 
+ #. pictorial essay 
+ review 
+ 
+ COPY OTHERS
+ 
+## Research Article 
+
+### Abstract
+may be misleading very short 250 words. if unsure rather ditch it. 
+
+
+### Introduction
+Full aims near the end. cant reference introduction (must reference the original article, cant reference rewiew either (unless originalcontent such as pictures)). 
+
+### Materials and methods
+most technical 
+
+
+
+### results/discussion (may be separate)
+present findings in a clear manner.
+(captions must expalin what was doen, what results are and what they mean in isolation of the text.)
+
+results can have subtitles which follow the materials and methods
+
+### Discussion
+puts the result into context. explain how results help understanding, and potentially oputline future experiments
+
+### References
+must be consistent of exactly the same format.
+
+# For assignments.
+First read abstract, skim the article for keywords of the assignment. take notes/highlight, such as words/phases not understood, and stuff which is relevant. 
+
+reread articles for figues tables graphes methods (not really at undergrad) and discussion.
+think critically (retraction watch, articels retracted on daily basis.).
+
+
+See how articles fit together, know your pace. Write own abstract in own words. 
+
+## For a test. 
+Read the question, then the abstract. then figures.
