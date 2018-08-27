@@ -70,4 +70,100 @@ Defection on banks,mass bathing and ritualistic practises. $40\%$ India dep, dri
 #### Legislation 
 
 #### 
+i
 
+# New Notes
+
+## Water
+water is a universal solvent, especially good at dissolving salts, due to its polarity. Formation of hydration shell releases energy through bond formation.
+
+
+## Sea water
+most ions in sea water are produced by chemical weathering of rocks on land (mostly cations $Na^+, K^+,Mg^{2+}$)
+
+or from earths interior released through hydrothermal vents (hot smokers) or volcanoes, (mostly anions such as $HS^-, Cl^-$). Chemosynthesis of sulfur bacteria using $H_2S$ and methane, which act as primary producers.these ecosystems support larger animals.
+
+COPY table of ion concentration. The top 6 ions cover 99\% of the dissolved ions. 
+
+### Thought Experiment
+1 litre of water. 33-37g/-l. Of PSU practical salinity units. (equivalent to g/L) PSU in the standard for scientific journals. Although concentration may change ration of ions tends to remain very similar.(Rule of constant proportions
+
+COPY IMAGE. 
+
+## Salt Cycle 
+
+### Flows
+
+#### Rock erosion
+
+#### Undersea volcanoes
+
+#### Mid-ocean ridges (underwater hot springs)
+Water seeps down, then is heated and moves upwards as hot springs, shimmering from hot waters released.lose $Na^+$ and $Mg^{2+}$, and gain $Fe^3+$ and manganese, and phosphate release. 
+loss of dissolved minerals in seeps? 
+
+## Surface salinity
+On average ocean surface salinity 35 ranges 33-37, red sea up to 40. Generally higher around equator and lower closer to poles. High evaporation implies less fresh water on surface. And high precipitation at poles reduces salt concentration. Around arctic salt squeezed out in ice formation, more dense so moves down, driving circulation patterns. 
+
+Estuaries, high evaporation as winds, so can get very high up to 180 PSU. (not much can survive)
+
+On a geological scale the western coasts are hotter than eastern.and temperature declines moving outwards from the equator. On land there is a lot of reflection so temperatures changes rapidly, by contrast water temp is quite stable holding about 100 times as much heat as earth of air. 
+
+#### Subduction of ocean crust
+
+#### Uptake by plants
+ocean water freezes at about -2 and temperature range in ocean is about from -2-30, which is much larger than the change in salinity. Hence temperature will drive density more than salt concentration. 
+
+## SA augulus ships. 
+top ocean research boat world wide. 
+
+## Sampling
+measures, A CTD, conductivity, temperature and depth (based on pressure).
+
+### Miscun bottles
+Electronic device triggers sample taken,with depth (careful selection,as 5000 meters and 24 samples)
+
+## Depth plot
+COPY IMAGE, Oxygen, temperature,light.
+Temperature maintained high at the surface as hot water is less dense and rises, past a certain area where good mixing occurs, below the thermocline, dense cold layer. 
+less light and wind lower down.
+
+
+Oxygen
+
+there is oxygen introduced at the surface by water mixing and wind, and oxygen supplied by photosynthesis within the euphotic zone.oxygen then drop dramatically in the zones in which decomposition occurs, as decomposers use of dissolved oxygen. Finally with increased depth water cools so greater oxygen solubility and there are less decomposers / less life in general so less oxygen demand. 
+
+oxygen rich water from poles lower down, currents.
+
+Chlorophyll concentration decreases, then constant layer down to 280m, migration to capture nutrients and then up to get sunlight, massive drop off at the thermocline. 
+
+DEFINITION: A thermocline is an abrupt change in the vertical profile of the temperature. 
+
+DEFINITION: A halocline is an abrupt change in the vertical profile of the salinity
+
+DEFINITION: Pycnocline is an abrupt change in the vertical profile of the density
+
+Light. 
+Near the top of the water light is absorbed by photosynthetic organisms, and dissolved solids. Further down, just normal decease due to water, down to dark zone, near zero.
+
+NOE: change in density of water, most dense at 4 degrees, copy graph. Change in state results from a regular crystalline packing structure of ice, which is lower density than water. Vapour high Kinetic energy. Increased separation. 
+
+NOTE: the high heat capacity is due to energy absorbed by H bonds (stretching?)
+
+## Dissolved gasses 
+
+### Oxygen
+
+### Carbon dioxide and nitrogen. 
+
+### Gasses dissolve better in cold water, tropic animals oxygen shortage. Only 0.1-0.6\% dissolved,$CO_2$ however reacts when it dissolved forming carbonates and bicarbonates, so is very soluble, about 80\% of all dissolved gas  in oceans, oceans contain 50X more $CO_2$ than atmosphere. 
+
+Shadow zone, lowest oxygen concentration zone, 2000-2500 meters normally. 
+
+## Transparency
+Affects photosynthesis, some wavelengths filter out faster than others, red light for example is absorbed in the top five meters. 
+
+### Secchi disk 
+used for measuring transparency/ water clarity. Turbidity.
+
+Near the poles there is less solar energy present. Surplus occurs when net shortwave exceeds net long wave (check this section more thoroughly.)
