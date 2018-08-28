@@ -45,3 +45,117 @@ import ../../Modules/Biology/Microorganisms as Microorganisms
 
 ## __Microorganisms: Microorganisms__
 
+
+# New Notes
+
+## ATP 
+Channel for frotein passage is lost due to arginine with postitive charge. as the pH is very low the proteins attach to an asparatage causing a confromational changeinthe helix of the asparateate to bury it leading the C subunit to rotate, as this happensthe proton will eventually get to the other side. The alp0ha and beta subunits are connected to the C subunit and change with it, leading to the conformational change required for ATP synthesis. 
+
+aspartate on the C subunit and arginine in the channel on the A subunit, are stabalise each other by electrostatic interactions, which allows the asparate to remain in the hydrophobic membrane despitre its charge. However once the aspartate is protonated to asparagine this interaction is greatly weakened and so the C subunit it with its polar group is forced into the interior of the protein (due to a hydrophobic, hydrophilic interaction. This change promotes conformational change of other proteins. 
+
+ATP synthase can operate in reverse when there is a very high concentration of ATP. To show experimentally that it rotates a filament of fluorescent actin was attached to the protein. 
+
+QUESTION: do changes occur through electrostatic or mechanical interaction. (probably occurs through the environment)
+
+How are electrons of cytosolic NADH fed into ETC, (in the matrix). These electrons are incoperated to re-oxidise NADH, ($NAD^+$ regeneration very important in citric acid cycle). 
+
+This interaction occurs via shuttle systems. 
+
+
+There are two shuttle systems which deliver electrons from cytosolic NADH without physicality transporting NADH without physically transporting NADH across the membrane. 
+
+### Glycerol phosphate shuttle 
+irreversible, functioning at both high and low concentrations of NADH. 
+
+Consists of two glycerophosphate dehydrogenases, one of which exists within the cytosol, it functions of dihydroxyacetone phosphate reducing it to glycerol-3-phosphate, and in the process oxidises the NADH produced in reaction six. (the electrons are transferred to the glycerol 3 phosphate organic substrate) 
+The second glycerol phosphate dehydrogenase functions within the inner membrane of the mitochondrion. Takes in the glycerol 3 phosphate and re-oxidises it via a Flavoproteins within the membrane. (this is Flavoproteins 4, ), (will also go to ubiquinone in the membrane joining into the ETC)
+
+
+
+### Malate aspartate shuttle, 
+transports both ways depending on relative concentration. 
+
+There is oxaloactetate within the Cytosol that is reduced to malate. NADH from reaction 6 is reduced regenerating $NAD^+$. Malate can be transferred across the membrane, and once inside the Malate can be oxidised as part of the citric acid as normal. The electrons from the Malate are then transferred to NADH which goes to complex one of the ETC. when cytosolic NADH is very high oxaloacetate is covered to aspartate to cross membrane, and oxaloacetate reduction occurs to form Malate. Only happens when [NADH cytosolic] > concentration in matrix. Oxaloacetate is transported out as aspartate. 
+
+## ATP per glucose
+glycolysysis
+phgase 1
+2 used 
+
+phase 2 
+4 produced
+
+net
+2 produced
+
+pyruvate dehydrogenase
+2 produced.
+
+TCA cycle
+2 produced glucose.
+6 NADH
+2 $FADH_2$
+
+estimated 
+
+
+The amount of ATP generated is dependant on the shuttle. as they enter the ETC at different time so diffs amount of proteins pumped out of the membrane. 
+
+1.6ATP per cytosolicNADH via glycerophsphateshuttle 
+2.7 ATP per cytosolic NADH via]s malate-aspartate shuttle
+2.7 per NADH formed in pyruvate decarboxylase
+1.6 ATP per TCA cycle $FADH_2$ 2.7 ATP per TCA cycle NADH
+
+
+## Gluconeogenesis and glycogen metabolism
+glucose comes from the breakdown of starch or the breakdown of glycogen. 
+
+### Gluconeogenesis
+
+> NOTE: The reverse of glucose metabolism, functionally however it does not involve exactly reversed metabolic pathway. 
+	gluconeogenesis is the synthesis of glucose, 
+	glycolysis is catabolism of glucoses. 
+	ATP used in gluconeogenesis, produced in glycolysis. 
+>NOTE Oxidative processes are oxidative in nature. 
+
+Different key regulating enzymes to glycolysis to ensure spontenaity. 
+
+& of the ten steps of glucolysis are reversedin glyconeogenesis. 
+
+Reaction2, and 4-9 are the same. There are 4 niques reactions in gluconeogenesisreplaceing the three regulatred reactions in glycolysis, that is reaction 1 3 and 10. 
+
+### NEw reactions 
+
+#### 1
+Pyruvate carboxylase. catalyses the conversion of pyruvate to oxaloacetate. 
+PEP, carboxykinase, catalyses ther conversion of oxaloacetate to PEP
+
+Fructose 1-6 bisphosphatase 
+$F1,6 BP \rightarrow F 6P$ glucose-6-phosphatase $G-6P \rightarrow$ glucose. 
+
+COPY IMAGES from text book. Gluconoegeneisis inintraited by conversion of pyruvate to PEP in 2 uniques energy requiring enzyme catalused reactions. (both reactions require energy)
+
+As two ATP molecule are required per glucose 4 ATP are required and 2 GTP per glucose. 
+2 pyruvate molecules are needed to create 2 GAP which will combine with DHAP to form F1,6BP. 
+
+## Pyruvate carboxylase reaction
+$pyruvate + bicarbonate+ ATP\rightarrow Oxaloacetate+ ADP + P_i$ Enzyme is dependant on biotin (coenzyme) (COPY structure). Acetyl Co-A is an allosteric activator. The gamma phosphate of ATP is donated to the bicarbonate to form carbonylphosphate, the carbonyl phosphate reacts rapidly with the biotin to form n carboxyl biotin and release inorganic phosphate. (carboxylation of biotin requires the presence of acetyl-CoA). The enzyme extracts a proton from the N-carboxyl biotin to from a carbanion, and overall oxaloacetate is formed. 
+
+> NOTE: Acetyl CoA is an activator of pyruvate carboxylase, which makes sense as high High CoA implies that glycolysis and citric acid cycle are both operating a lot, implying that a lot of glucose is being metabolised, and there is a high demand for glucose so more glucose should be made available. 
+
+
+>NOTE: Pyruvate carboxylase involved  is an anapleutrotic regulation reaction.  
+
+
+
+#### Energetics
+Gloconeogensis is still a spontaneous process (as the step are not completely reversed)
+
+
+about 160 g are used per day, about 20 grams are carried in the blood at any given time. Glycogen stores provide less that 200 g of free glucose (only about a days supply of glucose available in the body)
+
+Small non-carbohydrate precursors can be anabolically synthesised into glucose. Contracting molecules generate pyruvate which can be converted back into glucose via the process pf gluconeogenesis. 
+
+90\% of glucose is generated in liver most of the rest in kidneys, glucose is mainly metabolised in brain and muscles. 
+Anaplerotic reaction increases th flux of TCA cycle. 
+
