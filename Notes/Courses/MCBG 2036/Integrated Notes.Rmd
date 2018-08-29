@@ -159,3 +159,113 @@ Small non-carbohydrate precursors can be anabolically synthesised into glucose. 
 90\% of glucose is generated in liver most of the rest in kidneys, glucose is mainly metabolised in brain and muscles. 
 Anaplerotic reaction increases th flux of TCA cycle. 
 
+## Fungi Metabolism
+fungi are typically secondary or tertiary consumers. Require, 
+
+Carbon nitrogen phospherous sulphur potassium calcium magnesium other trace elements. 
+
+### BIosymthesis pathways
+Krebs cycle, glycolysis, pentose phosphate.
+
+### Glucose is the preffered carbon
+free glucose is limited,somust digest more complex glucan polymers. 
+aquire sugars through active and pasive uptake, constituitive(always active) or induced (only turned on under certain conditions)
+
+Rapid resonce S cefvivisiae over 100sugar transporters as competitionso important,global transcriptional rergulator CreA (binds to glucose or other environmental stimulator,leads to phosphorylation cascade which leads to activate of uptake pathways).
+
+Uptake, glucose is preferred, the is a hierarchy of uptake, the sugars which require less energy are taken up first.
+
+Fructose is the preferred monosaccharide.
+
+### Nitrogen
+
+#### Preferred sources
+cannot use elemental nitrogen. 
+nitrate,ammonia. Key role of fungi in nitrogen cycle. 
+
+ammonium is released by decomposes from deamination of amino acids in proteins. 
+
+#### Ammonification 
+conversion of organic nitrogen to ammonia. 
+
+#### enzymes
+
+##### GS: glutramine synthetrase
+
+ATP depepndant productionof glutaminefromammoniaandglutamate. 
+12 identical subunitsof 50 kDa.
+saccharomyces cerevisiae actrs are 
+
+#### GOGAT: glutamine2-oxoglutaratee aminotransferease. 
+Iron sulphur falvoprotein N-terminal nucleophile amdin transferase. 
+reductive transferer of the amide group. 
+
+#### Phospherous. 
+conitinuously required from growth. 
+
+##### Cellular uses
+phospholipid bilayer, replicating DNA. RNA, ATP. 
+
+Fungi are very important in natural rock weathering, especially lichens and mycorrhizae
+use physical pressure. Turgor pressure, to essentially break rock apart. 
+Or chemical proton based or ligand based degradation. 
+
+###### ligand base
+organic anions siderophores, lichen acids, and other polyphenolic acids, and acid polysaccharides. 
+
+
+##### Low molecular weigh organic anions are the most important group 
+Oxalate, and citrate, strong acids, bi and to do and trivalent metal cations. 
+
+$AL{^3+}, Fe^{3+}, Ca^{2+}, Mg^{2}$ lowers the activity /concentration of free cations,leading to a concentration gradient between the rock and the environmental promoting calcium to move out of the rock. Leads to slow degradation of the rock.  	
+
+Copy. 
+
+COPY PATHWAY IMAGES. 
+
+### secomdary metabolsim andseconary metabolites. 
+not absorlutely required for survival, pathways are branched and interlinked, only porduced during the stationarty phase, micotoxins, and antibiotics, provide a compeditive edge for the fungi. 
+
+Growth curve module.
+
+cell numbers are doubling. 
+
+#### Three broad chemicals 
+
+##### Polyketides
+complex biological chemicals which are highly biologically active. non ribosomal peptides. independant of mRNA.often cyclinc or branched inculde antibiotics or pigments. 
+
+##### non-ribomsomal peptides. 
+
+Terpenes 
+organic compounds that often have a strong odour.
+
+
+generes are often clustered together expression can be coordinately regulated generally. 
+
+Secondary metabolism/ metabolites. 
+
+Psilocybin, phsychedelic compounds (hallucinogenic). produced by more than 200 muschroom species psilocybin mushrooms 
+genus psilocybe. 1st isolated in 1957 trytamine hallucinogen simlar to LSD. psilocybin is converted to psilocin after ingesion. Psilocin binds to serotonon receptors, in the CNS serotonin antagonist. Feel good hromone. 5-HT2A causes reduction in brain flow to certain types of the brain, stimulates cross talk between different parts of the brain, reactivating old pathways and developing new pathways. causes cross talk between different parts of the brain. closely connected with learning and memory. 
+
+poteontial treatment formajor depression and addictive orders. 
+
+psilocybin is metabolsimed mostly in the liver,(very little secreted by the kidneys), converted to 4-hydroxyindole-3-acetaldehyde 
+
+forms glucurnoide toxin elimination strategy 
+
+$<5\%$ of the oral psilocybin is extreted vai the kdineys. 
+
+cant find in blood after 24 hours/ or seven days controversty. 
+
+four major genes. four major genes psiD psiM psiH psiK. Of the five species sequenced 4 have a single promoter 1 has two, single regulator,van bing to different promoters. 
+
+psilycibin regulated, so requires licenses to work on it. original model on syntheisis, has chagned. psiD carboxylated L-tryptophan, to from trytamine, methalataed by psiM to from Dimethyltryptamine, oxidition by psiH to Psilocin phosphorylatedf by psiK, dephosphorylated in liver. 
+
+Newer synthesis path. 
+
+psiK actually has two steps. 2 molecules of ATP are used in its metabolism. 
+
+environmental applicatio
+mechanism of action suggests metaxoans are the principal targets animal is multicellular. 
+
