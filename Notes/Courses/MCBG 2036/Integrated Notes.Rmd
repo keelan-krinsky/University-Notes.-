@@ -25,6 +25,8 @@ import ../../Modules/Biology/Microorganisms as Microorganisms
 
 # Scientific practice
 
+## Course Details
+
 ## Background
 
 ### __Solutions: Solutions__
@@ -269,3 +271,67 @@ psiK actually has two steps. 2 molecules of ATP are used in its metabolism.
 environmental applicatio
 mechanism of action suggests metaxoans are the principal targets animal is multicellular. 
 
+
+## Interactions
+
+### mutulaism 
+both organismsbenefit
+
+### Commensalism 
+one benefits
+
+### COmpetition /combat
+both detrimented
+
+### paracitism 
+one detrimentaed by other
+
+### Ammensalism
+one negatively affected other unaffected 
+
+### neutralism 
+neither area affected. 
+
+### Mycorhizzae
+microhizziae is the association. extended network, over 700 times water and nutrients. mutualistic assiciation with plants so they bothe benefit. fungi get photosynthate from the plant platn gets nutrinets adn minerals scavenged by the fungi. 
+
+#### Arbusdcular/ endomicorhizzae
+penentrates individual cell walls forming arbuscules. the majority are glomeromycetes. ectomicorrhizae form a sheath around the outside of the root.
+
+#### Ectomicorhizze
+the majority are basidiomycota. 
+
+
+plant and bacterial interactions
+cannot fix own nitrogen so recruit nitrogen fixing bacteria, which fix nitrogen converting it to ammonia. the most common is rizobium. motile, non-sporulating,rods, nodules. bacteria get carbon sugar. 
+
+Root nodule formation
+rhizobium bacteria, bacteriodesencopoerated,grow and expand to from the root nodules. bacteriodes loose their membrane (dont need to generate ATP anymore.) some tropical legume species rely on AMF to form nodules, in te absence of AMF they will not form an association with rhizobia. In these nodules there is a direct link between phosphorous absorbtion and nitrogen fixation. (becuase nitrogen fixation is so expensive). 
+
+truffles are fruit of ectomicorhizae, innoculating orchards takes yeast and has no garuntee. 
+
+truffles associated with hazel and oak trees,ascomycete,produce ascospores truffle itself is ascus, 100g of black tasmanian truffle= R2630. aroma comes from sulphulr containing volatiles. specifically thiopenen derivatives, (this is what pigs and dogs find). some truffles dont actually have genes for thiopene synthesis, it actually does not make it own cell. fungi have there own microbiome. differ between individuals but there are core species shared such as rizobium
+
+so GC-MS was used 
+Gas chromatoraphy mass spectrometry, used for phoresic works, explosive detection etc. identify different substrates all the way down the the molecular level. different retension time, also quantifyable. two peaks from running whole fruiting body, mycellium with fruiting body after steralisation (get rid of bacteria, nothing, then just steralised fruitingbody still no thiopenes, bacteria with fruiting body extract,thiopene 1 and two extract with bacteria but killed bacteria still no thiopenes. repeat experiment kills bacteria so levels went down, but fuingicide didn't . bacteria gets ATP carbon adn phospherousn from the reationship. fungi gets nitrogen + spore dispersal. 
+
+mycoviruses
+first identified in 1960 in agaricus bisporus, malformed fruiting bodies.mostly shperical with dsRNA genomes. spread via dirrect contanct between hyphae and in anastomosis. 
+
+
+most fungal viruses are asymptomatic, some increase fungal virulence somedecrease it someincrease temperature tollerance, usually to higher temeprature. (grass fungi virus higher temperatures).
+
+### Animal assocaitions
+Panda rely on gut microbiome to degrade nutrients, the fungi recieve food, or get trasnported to fopd, termitesbeatles wasps ants and larger herbivors. i
+
+### paracytes
+
+Caudicepts, zombie fungus, ascomycete, preffered host is formacean ants. 
+
+spores stick to host exoskeleton, then germinate and penetrate host by enzymatic degrdationand turgor pressure, then switches to yeasts morphology which spread through the ants throughheamocyte.then secretes a nerve toxin to alter ant behaviour, so ants leave colony bight underside of leaf, of branch. treduce mictocondira around mandibles so that while ant dies mandibles do tno release. hyphae erupt from the joints to help anchor the insect to the leaf. 3-4 weeks for friuting body to develop. produces a number of polyketide metabolites, when the ant has attatched to the leaf polyketes are produced (digest ant muscle to stopit from moving.). produces antibacteria, to surpess ants native baceteria which would compete. also makes nathoquinones.
+quinones are antomalteria metabolites. uncleawr why these are released, by just be horizontal gene tranfer. 
+
+Chytridiomycosis
+infectious disease in amphibians decline extintion of 200 frog species, batrachochytrium dedrobatidis BD, chytrid, flzgellatedspores called zoospores believed to be as a result of environmental stress pollution etc. opportunistic pathogens take advanatgaea f annopportunity not normally availabel such as a host with a weakened immune system an altered mcriobiata,
+
+shiped over for lab experiments,probably how fungus got to america. 

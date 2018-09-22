@@ -189,7 +189,7 @@ row.names(T3)<-c("Chemical Shift","Assignment" )
 
 library("kableExtra")
 T3d_latex<-knitr::kable(T3,"latex",row.names=NA, col.names = NA, align="cccccc", caption ="Interpretation of $^{13}C$ NMR spectroscopic data", escape = FALSE) %>%
-add_header_above(c("Butyl Ethanoate"=5))
+add_header_above(c("Butyl Ethanoate"=4, "stuff"))
 kable_styling(T3d_latex, latex_options = c("striped","hold_position","scale_down", "bordered"))
 
 ```

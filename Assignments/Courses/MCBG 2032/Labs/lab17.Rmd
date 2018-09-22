@@ -1,0 +1,80 @@
+---
+title: "Concepts: Practical 17 Report"
+author: "Keelan Krinsky: 1634953"
+output: pdf_document
+---
+
+```{r, echo=FALSE}
+# Data input
+
+## Concentration range mg/ml
+Cr<-c(0.1,0.075,0.05,0.025)
+std<-c(0.92,0.63,0.47,0.20)
+cont<-c(0.80,0.61,0.41,0.18)
+sds.05<-c(0.69,0.55,0.32,0.18)
+sds.1<-c(0.63,0.48,0.38,0.14)
+sds.5<-c(0.27,0.1,0.06,0.03)
+sds1<-c(0.09,0.03,0.0, 0.0)
+```
+
+```{r,echo=FALSE}
+# Plot
+par(mar = c(10,10,2,2) )
+plot(Cr,std, xlab="Protein Concentration(mg/ml)", ylab=expression("Abosrbance at 525nm"), ylim=range(0,1), xlim=range(0,0.11))
+abline(lm(std~Cr))
+points(Cr,cont)
+points(Cr,sds.05)
+points(Cr,sds.1)
+points(Cr,sds.5)
+points(Cr,sds1)
+
+
+abline(lm(cont~Cr))
+abline(lm(sds.05~Cr))
+abline(lm(sds.1~Cr))
+abline(lm(sds.5~Cr))
+abline(lm(sds1~Cr))
+
+text(0.094,0.98,"Standard Curve-", cex=0.7)
+text(0.089,0.791,"Control-", cex=0.7)
+text(0.06,0.3,"0.1% SDS", cex=0.7)
+text(0.09,0.15,"0.5% SDS", cex=0.7)
+text(0.09,0.57,"0.05% SDS", cex=0.7)
+text(0.096,0.03,"1% SDS", cex=0.7)
+
+
+title(sub="Figure1: Quantification of extracted cellular protien my absorption,\n at varying levels of denaturiung buffer SDS", line=7)
+
+```
+
+
+## Question #1
+Sodium dodecyl sulfate (SDS), is an anionic, but also amphipathic molecule, that is, it contains both hydrophobic and hydrophilic sections. This amphipathic nature allows for a single SDS molecule to interact with hydrophilic R groups of a given amino acid (through its alkl groups), and the hydrophobic R group of another amino acid within the protein simultaneous. As a result the overall reaction can radically affect the overall shape of the protein which is usually maintained by hydrophobic collapse in which hydrophobic R groups are kept segregated in the interior of the folded protein. With the new intermolecular attractions introduced with the addition of SDS this segregating breaks down pulling more hydrophobic groups closer to the outside and ultimately denaturing the whole protein. Triton-X on the other hand is a non-ionic molecule, and as such incapable of forming strong attachments to the hyrdophilic exterior of the protein. As such it is unable to disrupt the protein structure. Hence, Triton X can act as a detergent disrupting hydrophobic cellular membrane, but it will not denature proteins during their extraction. 
+
+## Question #2
+Yes. In the range measured, the data can be approximately by a line of best fit calculated using the method of least squares which gives a coefficient of determination of 0.989 $\approx$ 1, implying that the relationship between concentration and absorbence within this range is indeed linear. 
+
+```{r, echo=FALSE}
+l<-c((cor(Cr,std))^2)
+
+```
+
+
+## Question #4
+From Figure 1 it can be seen that SDS does indeed have an effect on the Bradford method of protein determination, as the standard curve obtained in the absence of SDS did not coincide with the standard curves obtained at varying SDS concentrations. Rather, increased concentrations of SDS in solution unanimously lead to lower absorbance readings for the same protein concentration, so the presence of SDS will lead to a negative error in the Bradford method of determination. 
+
+## Question #5
+There are two mechanisms by which SDS can affect the determination of protein in the Bradford method. Which method is most significant is dependent largely on the concentration of SDS in solution. In low concentrations SDS binds strongly to the protein, and in so doing allosterically inhibiting the binding of The Coommasie blue dye molecules to the protein. If theses molecules do not bind no color change in the dye will occurs so the absorbance at 595nm will remain low and a negative error will be present in the results. If the protein present in the sample becomes saturated with SDS, then SDS will begin to bind coomassie blue leading to increased absorbance at 595nm and potentially a positive error. In Figure 1 above only the first mechanism of influence appeared to be active, (that is the results were lower than that of the standard, i.e a negative error), due to the relatively low concentrations of SDS used. 
+
+## Question #6
+$0.1\%$, a equal variance student t test indicates no significant difference in absorbance between $0.1\%$ SDS solution and standard solution at a 5\% significance level, whereas there is significant evidence for a difference in absorbance for a SDS concentration of $0.5\%$ or above. 
+
+
+```{r, echo=FALSE}
+t1<-c(t.test(std,sds.1 ,alternative=c("two.sided"), equal.var=TRUE)$p.value)
+
+t2<-c(t.test(std,sds.5,alternative=c("two.sided"), equal.var=TRUE)$p.value)
+```
+
+## Question #7 
+There is a chance of experimental error, such as over dilution resulting in SDS concentrations too low to significantly affect the absorbance of protein standards. Ineffective mixing could also have resulted in variation in amount of dye-protein binding inhibited by the presence of SDS. 

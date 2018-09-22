@@ -18,7 +18,7 @@ import Modules/Spectrometry as Spectrometry
 ## Background
 
 ###  Lecturer
-Dr Kennedy Ngwira, C407, Dr Amond Rouseou. C503. 
+Dr Kennedy Ngwira, C407, Dr Amanda Rouseou. C503. 
 
 ## Inorganic Chemistry
 
@@ -30,7 +30,7 @@ Dr Kennedy Ngwira, C407, Dr Amond Rouseou. C503.
 
 ## Organic chemistry
 
-## __OrganicChem: Organic Chemistry__
+## __Organic Chem: Organic Chemistry__
 
 ## Spectrometry
 
@@ -39,7 +39,7 @@ Dr Kennedy Ngwira, C407, Dr Amond Rouseou. C503.
 ## Reaction types
 
 ### Substitution 
-nochange in the level of saturation
+no change in the level of saturation
 
 ### Elimination 
 decreased level of saturation
@@ -53,3 +53,417 @@ Reactions which go through more stable intermediates will proceed faster.for $S_
 Remember $S_N1$ leads to racemic mixture, $S_N2$ leads to inversion of current stereochemistry. 
 
 Steric hindrance, nucleophile, electrophilic carbon, bulky methyl groups. 
+
+# Analytical 
+ 
+## Course outline 
+
+### various aspects related to chemical analysis. 
+ #. Stats used to verify accuracy and precision. 
+ #. Methods of calibration
+ #. Volumetric analysis. (chemical analysis by titration's)
+ #. Chemical equilibria, 
+ 	#. Variety of reaction types used. 
+
+### prescribed textbook
+text book, quantitative chemical analysis. D.C Harris. 
+
+### Tutorials
+at discretion of lecturer, informed in lectures beforehand. Tutorial sessions are completely voluntary. No tutorial class tests. Afternoon tutorial sessions occurring in the last week of the block, they are voluntary sessions. 
+
+### Past exam papers. 
+2016, 2017. (Advised).
+
+>NOTE: the syllabus is very application based. 
+
+### Class test
+Last week of the lecture block, the date is correct in course hand out 19the but it is a Friday not a Thursday. Entirely multiple choice. 
+
+Final exam no MCQs. 
+90 marks, 2 hours. 45 marks from each Dr. 
+
+### Labs 
+Counts 25\% of analytical chemistry mark, 10\% of semester mark. 
+
+
+#### Assessment 
+3 labs have associated work sheets (downloaded from Sakai). Labs only start next week. For the other 4 labs full lab reports are required. 
+
+Introduction 
+methods. 
+Results
+methods
+
+All experimental data, must be entered online. Each week experimental data entered. 
+
+Reports must be typed and formatted correctly. During the lab data must be recorded on a piece of paper, which must be signed. 
+Original data attached to the report. 
+
+Reports are due within a week, 
+
+Late 10\% 1 day 20\% 2 days, more than that no marks. 
+
+
+#### Outline
+
+ #. Acid-Base Titrations. 
+ #. Complexometic titration's 
+ #. Neutralisation back titration's
+ etc. 
+
+For marking issues, consult the demi who marked that practical. 
+
+Save the file after filling in data. 
+
+### rules for data entry 
+no units. 
+Use a decimal point not a comma. 
+
+The amount of accuracy required varies depending on the practical, often in the practical guidelines will be given. 
+
+## Chemical analysis. 
+Principles require understanding. Wet chemistry, so working with solutions, (sometimes instrument is used), In 3rd year there will be more instrumental analysis. 
+
+>NOTE: virtually any chemical field requires analysis, it may not always be quantitative. 
+
+Environmental geological chemistry. 
+
+Okavango delta. 
+
+Number of sampling techniques available in the field. Sediment core, changes over time. 
+
+Complex analysis. 
+Organic molecules in pesticides, how to quantify them can be difficult.analysis of animal tissue. 
+
+GCMS analysis. 
+Able quantitative data 30 hours.
+
+## Process
+ Information gathering 
+
+ Select analytical techniques of method 
+
+ Implement analysis of known sample and unknowns, reduce data , interpret and report results. 
+
+## New Notes.
+
+### analysis 
+ 
+ #. What is present (what is the sample made up of? Qualitative question)
+ #. How much (how much of that compound/element is present in the cycle.) quantitative 
+ #. What form is the species present in for example, elemental, compound, potentially toxic. Qualitative. 
+
+ All three questions relate to composition. 
+
+ 
+ >NOTE: The analyte is the sample, which is to be determined.  
+
+## Qualitative 
+All forms of chemical analyses result in an analytical signal. For example a color change is the analytical signal for titration. The same applies with an instrument however the signal is transduced, into something which can be measured. 
+
+### Wet Methods
+Analytical signals. 
+
+Measured directly. 
+
+ For example titrations, which is volumetric. 
+
+>NOTE: Volumetric will not work if there are issues with titration, nor will it work for trace amounts present within the sample. 
+
+### Instrumental Methods
+Analytical signal converted into a form which can be measured. 
+
+NMR, X ray diffraction, gas chromatography. 
+
+For example using emission spectra, of an unknown sample in conjunction with the emission spectra for known elements. To quantify the amount of analyte present in the sample quantitative methods are used. 
+
+## Qualitative 
+ for example NMR. 
+
+## Chemical analysis
+
+### Chemical methods
+
+#### Gravimetric 
+
+#### Volumetric
+
+### Instrumental methods. 
+
+#### Electroanalysis 
+
+#### Separation methods. 
+
+#### Optical Methods.
+
+## Selecting a method 
+First consider the form of the sample. The analyte which one is trying to determine. The amount of sample which can be accessed. Cost of analysis (instrumental analysis is a good deal more expensive, most instruments require high purity gasses or solvents.)
+Which impurities might be present in the sample. 
+
+### Accuracy 
+Different methods are associated with different levels of accuracy, so the technique must be selected for the appropriate level of accuracy, more accuracy is often more expensive/ time consuming. 
+
+### Comparison of methods 
+COPY IMAGE. Different chemical methods are appropriate for different ranges of concentration. In some cases forced to use different method of analysis due to very small concentrations. 
+
+## Examples
+
+### Sea water analysis. 
+
+#### Electrical conductivity. 
+Gives conductivity of whole sample, so it is not at all selective. To make individual quantifications the signals from each analyte must be separated out. 
+
+#### Spectroscopy. 
+measures the radiation emitted, characteristic radiation of each element. 
+
+#### Chromatography. 
+Chromatography involves separation. 
+
+## Errors and uncertainly 
+Reported in terms of statistics. 
+
+## Statistics. 
+
+
+>NOTE: The active ingredients are shown on the box (qualitative), how much of each compound present (mass present given), the uncertainty, (confidence interval). Units, The number of significant figures to which uncertainly is reported is also an indication of the degree of uncertainly in measurement. Differences in significant figures between different components may be due to different methods of analysis influences, and in most cases determines, how accurate/ precise the measurement is. Lower accuracy may be for less important components. 
+
+Statistics is used to evaluate the accuracy and precision of chemical sample information. 
+
+For example, the concentration of $K^+$ in the blood ranges from $3.5-5.5mmol \cdot L^{-1}$. 
+
+Express in  units used in the lab. $0.00014-0.00021g \cdot L^{-1}$
+At 0.1M $Ag^+$, So the range is $0.2mL$ of titrant. 
+
+Either change concentration of titrant, or change method. There would be very little confidence in the data in a statistic sense. 
+
+### Alcohol
+The legal blood alcohol limit is $80 mg$ per $100mL$, The precision is $\pm$ 10\% So it can go from $71-87mg$ so  only prosecuted until you reach 87, so will not prosecute until $90mg/100mL$
+
+## Determining appropriateness of method of analysis. 
+
+## What level of precision in the analysis is acceptable. 
+
+## Measurement uncertainty
+Whenever we make a measurement of a physical quantity there will be some uncertainty in the result. The more information, i.e. the more significant figures indicates the level of uncertainty. 
+
+IF the measurement does not affect the precision or accuracy of the final result. The method has a limit of precision then recording final/ initially masses or other measurements in the process is not useful. 
+
+
+>NOTE: Only the last decimal place is uncertain given by the measuring device. Record to where the uncertainty lies. 
+
+>NOTE: Indicate the uncertainty level for any measurement in a report. 
+
+## Significant Figures
+
+## Errors
+
+### Systematic/ determinate
+affect accuracy of the result.  Introduce bias into chemical results, may be precise but always inaccurate results. Can result from incorrect calibration of instruments or use under incorrect conditions. Errors associated with method such as for example use of an incorrect indicator. 
+
+There errors are seen as an offset between experimental mean and the true value. 
+
+Instrument errors
+
+Methods errors
+
+Personal errors. 
+pale yellow vs luminous yellow endpoint. 
+### Random/ Indeterminate
+Affects the precision. Cannot be avoided. However the average of replicates should tend towards the true value, with a greater number of replicates leading to higher precision.
+
+offset from individual measure to experimental mean. Looking for results which are both accurate and precise. 
+
+
+>NOTE: every report requires an experimental mean, and standard deviation, the calculation does not need to be shown. The standard deviation shows how precise the value is. 
+
+Relative standard deviation. $\frac{s}{\bar{x}}$
+or percentage RSD used. 
+
+### Sampling 
+
+#### Sampling should be representative. 
+
+much easier with homogeneous samples, heterogeneous samples require a varied sample methodology/ scheme. 
+
+Increasing number of replicates means sample statistics tend more towards population statistic. Sample parameters $\bar{x}$ and s. 
+
+Report final value with level of uncertainty at final number. 
+
+## Examples 
+The mean is normally distributed
+
+>NOTE: The assumption of a normal distribution for the means is required for statistic tests used. 
+
+The distribution can be used to calculate confidence intervals.
+
+Confidence interval is the rage around $\bar{x}$ which probably contains $\mu$. The test used for samples is the t test. 
+
+$\mu =\bar{x}\pm\frac{ts}{\sqrt{n}}$. N-1 degrees of freedom. 
+
+error bars indicate confidence limits (normally 95 percent). 
+
+the t test can also be used to compare an experimental mean to a true/known population mean,. 
+
+$t_{calc}=\frac{\bar{x}-\mu}{s}\sqrt{n}$
+
+$|t_{calc}|<t_{table}$ no significant difference. 
+
+comparison of two experimental means can also be done. 
+
+pooled variant calculated. 
+
+Degrees of freedom $n_a+n_b-2$
+
+$S_pool=\frac{s_1^2(n_1-1)(+s^2_2(n)2-1))}}{n_1+n_2-2}$ 
+
+## Principles of chemical analysis. 
+Chemicals analysis is based on the measurement and detection of a signal. With analysis particularly instrumental analysis, the point as to relative the signal of the instrument to the concentration of the analyte in the sample. Ideally there should be a response in signal that is proportional to the concentration. The relationship between concentration of analyte and instrument response is defined by a series of standard solutions used to construct a standardisation curve/ calibration curve, which can be used to determine the concentration in analyte in an unknown signal from the signal produced. Instrument measures signal using intensity. 
+
+Excel uses the method of least squares to determine correlation. 
+
+analytic chemistry want R squared value of greater than 0.95. Honers masters PhD greater than 0.99. 
+
+There are two general zones on a calibration curve. 
+
+Dynamic range, concentration range over which there is a measurable response to changes in analyte concentration, within the dynamic range there is a range in which there is linear/proportional response which is the linear range. Best to work in linear range, and in this range the relationship between concentration and signal strength is best defined. Linear range also known as working range, dilute samples into linear range for testing. 
+
+For many instruments there is a point at which saturation occurs and increasing analyte concentration no longer leads to increase in signal. Working range is highly dependant on instrument, and can range over orders of magnitude or be very restricted. 
+
+Cannot extrapolate past last known standard. 
+
+### Impact of bad data points. 
+
+#### Bad data identification 
+obvious outlier, or comparison to duplicate measures of standard, (are outliers reproducible. ). Bad data skews calibration curves, so it is often simply removed, improving fit of equation and accuracy, (increase in correlation coefficient).
+
+### limitations
+limited range based on linear range, and on experimentally derived concentration range. 
+detection limit (low end of calibration curve.). Deviation from linear also occurs at lower limit. 
+
+All calibration curves should contain blank, i.e pass through the origin.
+at least four of five standards used. 
+
+Sensitivity, or a calibration curve, is the response for a particular concentration of analyte. 
+
+Sensitivity is the ability to discriminate between small changes in concentration. 
+
+### Limit of sensitivity
+
+Note
+
+
+### zone of poor quantification. 
+The zone of poor quantification is the zone between the limit of detection and the limit of quantification, measurement can be made but they are unreliable. Deriving calibration curves. 
+
+Use standards to calibrate solution, 
+
+### Noise region 
+The noise region is any signal below the limit of detection, no quantification can be made in this zone. 
+
+Working with solutions. 
+First dilute to a working solution, then use that to make dilutions. 
+
+present everything recorded then explain why chose to remove data point. 
+
+show two graphs when eliminating data points. 
+
+## Lab tips
+
+ #. work more carefully
+ #. Use appropriate glassware (pipette and volumetric flask must be used for standard). 
+ #. come to the lab well prepared. 
+ #. talk with group members. 
+ #. consult demonstrator or staff. 
+
+### Good standards
+ #. Purity (of original compound or salt)
+ #. Accurate measurements 
+ 	#. Analytic measurements
+ #. Avoid hygroscopic compounds as they absorb water so are hard to measure.  
+ #. Solubility
+ #. High molar mass, (so less associated error). 
+
+ Standard solutions in concentration. 
+
+>NOTE:  Watch Erin Brocowitch, $Cr^{6+}$ contamination in Californian ground water. 
+
+## Calibration techniques
+There are some overarching principles. Firstly the calibration range must cover all the samples to be measured. Calibration should always be carried out using standards in the same matrix as the sample. (The matrix is everything in the solution other than the analyte). Matrix can have important effects on analysis. The matrix effect refers to compounds which interfere with the analysis by either suppressing or enhancing with the analyte signal
+
+### Matrix effect
+To overcome the matrix effect, two techniques are used in extraction, Salts, oils, other contaminants, particulate matter etc, The two techniques applied are standard addition, and internal standard. 
+
+### External standards
+
+### Standard addition 
+
+Bag of smarties, mass of bag is only due to smarties, and cant see inside the bag, how do we determine the add smarties to bag, reweigh. In standard addition smarties are analyte add analyte and measure change is response. 
+
+Increasing quantities of standard solution (i.e) increasing quantities of analyte. Add to fixed volumes of unknown sample. Measure how response of signal changes.
+This method allows for matrix matching of standards and sample. Changing the concentration of the standard added to each sample.
+
+
+
+### Internal standards. 
+
+>NOTE: remember concentration of gold in sample used must be worked back to concentration in original sample. 
+
+
+#### Rotation 
+Effect of matrix on response, proportional suppression/ enhancement leads to change in gradient. This is often called a proportional effect. 
+
+#### Translational
+same response with different baseline. 
+
+>NOTE: Standard addition accounts only for the proportional effect. 
+
+#### Internal standards, add constant amount of certain substance to all solutions, used to account for small variations which could lead to large changes in calculated concentration. 
+
+Changes in temperature, changes in atmosphere, changes in operating conditions, changes in background noise (the noise response from an instrument can change over time. Changes in noise are called drift. There are many techniques routinely used which require internal standards. Plot concentration vs the signal ration between the unknown and standard. If there is a drift then the standard and the sample should change by the same amount, monitor variation using standard, which acts as a reference.
+
+#### Properties of an internal standard
+Firstly the internal standard must not be present in the sample. It must be compatible with sample, that is does not react with sample. Must be soluble with sample. The signal must be fully resolved(distinct signal peaks)
+
+# Examples 
+Strontium concentration in tooth enamel sample. 
+
+# Labs
+There are true values associated with the labs except 2 and 7. 
+must be used for lab reports. Plot of concentration against analytical signal. There must no be interference of the signals of unknown and internal standard. 
+
+## review
+Sensitivity LOD and LOQ how they are defined and how they influence each other. 
+The use of calibration standards and certified reference materials. How standards are made up how they are used and how certified reference material aid in accuracy 
+matrix effect, and the influence it has on interference + plus how to overcome theses effect. Use internal standards, use methods of standard addition, and external standards. 
+
+### Examples 
+Thalates in water, tend to accumulate in animals. Considerations before analysis. 
+
+#. toxicity
+#. physical form (liquid)
+	#. sample 
+	#. analyte
+#. physical form.
+#. concentration expected (dilutions/trace amounts)
+#. matrix effects. 
+#. expected contaminants, interference for other compounds in sample 
+#. amount of sample available
+#. cost 
+#. time constraints, 
+#. availability of instrumentation
+#. limit of detection given concentration in sample. 
+#. toxic compounds used in methods. 
+#. sampling considerations (sample same population/area) from same sex/age etc. 
+#. Storage of sample. (to maintain integrity.)
+
+Similar concentration, structurally similar.
+
+Sample considerations 
+ #.Sample considerations
+ 	#. Number of sample
+	#. Size/volume of sample
+	#. Storage conditions.
+ #. Potential interferences 
+ #. Availability of standards. 
+ #. Availability of appropriate certified reference material. 
+ #. Availability of appropriate CRM. (to ensure accurate analysis), reference material certified for analyte concentration.

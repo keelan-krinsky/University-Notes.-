@@ -7,7 +7,7 @@ output: pdf_document
 # Question #1
 
 ## Molecular formula 
-C_5H_{12}O
+$C_5H_{12}O$
 
 ## Saturation
 $DBE=\frac{12-12}{2}=0$ the compound is fully saturated. therefore cannot contain any saturated groups such as carbon's or aromatics. 
@@ -77,9 +77,9 @@ $\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\quad \quad\q
 
 ratio Carbon: Hydrogen: oxygen $\equiv \frac{81}{12}:\frac{8.2}{1}:\frac{10.8}{16}\equiv 5:6:5$
 
-Empirical formula $C_5H_6O_5$
+Empirical formula $C_{10}H_{12}O$
 
-as 8 unique environments seen in $C_{13}$ NMR compound must consist of at least $C_{10}H_{12}O_{10}$ assuming it is not larger. 
+as 8 unique environments seen in $C_{13}$ NMR compound must consist of at least $C_{10}H_{12}O_{2}$ assuming it is not larger. 
 
 ## Saturation 
 $DBE=\frac{22-10}{2}=6$

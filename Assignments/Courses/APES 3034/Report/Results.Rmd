@@ -1,0 +1,230 @@
+---
+title: "Results"
+author: "Keelan Krinsky: 1634953"
+output: pdf_document
+---
+# Results 
+
+## Physiochemical data
+Summary measures of the physiochemical data collected are shown in Table 1, while statistical analysis of the physiochemical differences between the two sampling sites is shown in Table 2, below. 
+
+
+```{r, echo=FALSE}
+# Data Input
+se <- function(x) sqrt(var(x)/length(x))
+
+
+## Brammfontein Spruit
+bpH<-c(8.1,8.26,8.12,7.94,8.34,8.39,8.31)
+bC<-c(366.3,367.1,150.9,151.5,343.9,356,148.7)
+bTe<-c(15,15,13.9,13.8,13.9,15.3,13.9)
+bDO<-c(8.22,"NA",8.82,"NA",10.63,8.46,9.33)
+bDOe<-c(8.22,8.82,10.63,8.46,9.33)
+bTu<-c(13.1,6.23,12.1,20.5,18.3,13.7,11)
+bAv1<-c(mean(bpH), mean(bC), mean(bTe), mean(bDOe), mean(bTu))
+bse1<-c(se(bpH), se(bC),se(bTe), se(bDOe), se(bTu))
+
+
+bIHI<-c(66,122,123,70," ",175,163,167)
+bIHIe<-c(66,122,123,70,175,163,167)
+bSASS<-c(55,53,38,30,47,32,48,51)
+bt<-c(12,11,8,8,9,7,11,9)
+bASPT<-c(4.58,4.82,4.75,3.75,5.2,4.57,4.36,5.7)
+bAv2<-c(mean(bIHIe), mean(bSASS), mean(bt), mean(bASPT))
+bse2<-c(se(bIHIe),se(bSASS), se(bt), se(bASPT))
+bsd<-sd(bIHIe)
+
+
+Bp<-data.frame("pH"=bpH, "Conductivity"=bC, "Temperature"=bTe, "Dissolved Oxygen"=bDO,"Turbidity"=bTu)
+
+Bb<-data.frame("IHI"=bIHI, "SASS"=bSASS, "taxa"=bt, "ASPT"=bASPT)
+
+bAv<-c(bAv1,bAv2)
+bse<-c(bse1,bse2)
+
+## Magalies
+
+mpH<-c(8.36,	8.31,	8.23,	8.31,	8.42,	8.34,	8.25)
+mC<-c(224.8,	220.8,	226.7,	224.8	,226.1,	222.7,	225.6)
+mTe<-c(19,	18.4,	19,	18.9,	19.2,	18.6,	19)
+mDO<-c(5.76,	6.52,	6.54,	6.54,	6.55,	6.09,	5.5)
+mTu<-c(1.33,	0.83,	1.24,	2.04,	0.98,	2.13,	2.65)
+mAv1<-c(mean(mpH), mean(mC), mean(mTe), mean(mDO), mean(mTu))
+mse1<-c(se(mpH),se(mC),se(mTe),se(mDO),se(mTu))
+
+
+
+mIHI<-c(7,	42,	27,	162,41,	2,	15)
+mSASS<-c(216,	193,	80,	108,	139,	78,	100,	61)
+mtaxa<-c(31,	26,	13,	16,	24,	14,	17,	10)
+mASPT<-c(6.97,	7.42,	6.15,	6.75,	5.79,	5.57,	5.88,	6.1)
+mAv2<-c(mean(mIHI), mean(mSASS), mean(mtaxa), mean(mASPT))
+mse2<-c(se(mIHI),se(mSASS), se(mtaxa), se(mASPT))
+msd<-sd(mIHI)
+
+mAv<-c(mAv1,mAv2)
+mse<-c(mse1,mse2)
+
+mAv<-round(mAv,digits=2)
+mse<-round(mse,digits=2)
+
+bAv<-round(bAv,digits=2)
+bse<-round(bse,digits=2)
+
+
+```
+
+```{r, echo=FALSE}
+# Table of water quality data 
+T1<-data.frame("Mean"=bAv,"Standard Error"=bse,"Mean "=mAv,"Standard Error "=mse)
+library(knitr)
+
+
+row.names(T1)<-c("pH","Conductitiy ($\\mu S$)","Temperature($^\\circ C$)","Dissolved Oxygen($mg \\cdot L^{-1}$)", "Turbidity(NTUs)","IHI", "SASS", "taxa", "ASPT")
+
+
+library("kableExtra")
+T1d_latex<-knitr::kable(T1,"latex", digits = 3,row.names=NA, col.names = NA, align="llll", caption = "Summary measure of key physiochemical and biological measures of water quality for both sample sites, the braamfotein spruit, and Magalies river. While some condition such as pH are similar between systems with low varience, other variable, especialy calculated biological indexes such as IHI differ significantly between sites, with high varience", escape = FALSE) %>%
+add_header_above(c("", "Braamfontein Spruit"=2, "Magalies River"=2))
+
+
+kable_styling(T1d_latex, latex_options = c("striped","hold_position"), position= "center")
+
+
+```
+
+```{r, echo=FALSE}
+### Comparison table. 
+
+pv<-c(t.test(bpH,mpH,alternative=c("two.sided"), equal.var=TRUE)$p.value,
+     t.test(bC,mC,alternative=c("two.sided"), equal.var=TRUE)$p.value,
+     t.test(bTe,mTe,alternative=c("two.sided"), equal.var=TRUE)$p.value,
+     t.test(bDOe,mDO,alternative=c("two.sided"), equal.var=TRUE)$p.value,
+     t.test(bTu,mTu,alternative=c("two.sided"), equal.var=TRUE)$p.value,
+     t.test(bIHIe,mIHI,alternative=c("two.sided"), equal.var=TRUE)$p.value,
+     t.test(bSASS,mSASS,alternative=c("two.sided"), equal.var=TRUE)$p.value,
+     t.test(bt,mtaxa,alternative=c("two.sided"), equal.var=TRUE)$p.value,
+     t.test(bASPT,mASPT,alternative=c("two.sided"), equal.var=TRUE)$p.value)
+     
+df<-c(t.test(bpH,mpH,alternative=c("two.sided"), equal.var=TRUE)$parameter,
+     t.test(bC,mC,alternative=c("two.sided"), equal.var=TRUE)$parameter,
+     t.test(bTe,mTe,alternative=c("two.sided"), equal.var=TRUE)$parameter,
+     t.test(bDOe,mDO,alternative=c("two.sided"), equal.var=TRUE)$parameter,
+     t.test(bTu,mTu,alternative=c("two.sided"), equal.var=TRUE)$parameter,
+     t.test(bIHIe,mIHI,alternative=c("two.sided"), equal.var=TRUE)$parameter,
+     t.test(bSASS,mSASS,alternative=c("two.sided"), equal.var=TRUE)$parameter,
+     t.test(bt,mtaxa,alternative=c("two.sided"), equal.var=TRUE)$parameter,
+     t.test(bASPT,mASPT,alternative=c("two.sided"), equal.var=TRUE)$parameter)
+
+x<-data.frame("x"=df)
+df<-c(x$x)
+
+
+ts<-c(t.test(bpH,mpH,alternative=c("two.sided"), equal.var=TRUE)$statistic,
+     t.test(bC,mC,alternative=c("two.sided"), equal.var=TRUE)$statistic,
+     t.test(bTe,mTe,alternative=c("two.sided"), equal.var=TRUE)$statistic,
+     t.test(bDOe,mDO,alternative=c("two.sided"), equal.var=TRUE)$statistic,
+     t.test(bTu,mTu,alternative=c("two.sided"), equal.var=TRUE)$statistic,
+     t.test(bIHIe,mIHI,alternative=c("two.sided"), equal.var=TRUE)$statistic,
+     t.test(bSASS,mSASS,alternative=c("two.sided"), equal.var=TRUE)$statistic,
+     t.test(bt,mtaxa,alternative=c("two.sided"), equal.var=TRUE)$statistic,
+     t.test(bASPT,mASPT,alternative=c("two.sided"), equal.var=TRUE)$statistic)
+
+x<-data.frame("x"=ts)
+ts<-c(x$x)
+```
+
+```{r, echo=FALSE, warning=FALSE}
+## Table 2 statisitcal comparison. 
+T2<-data.frame("T statistic"=ts,"Degrees of freedom"=df, "p value"=pv )
+library(knitr)
+
+
+row.names(T2)<-c("pH","Conductitiy ($\\mu S$)","Temperature($^\\circ C$)","Dissolved Oxygen($mg \\cdot L^{-1}$)", "Turbidity(NTUs)","IHI","SASS","taxa","ASPT")
+
+
+library("kableExtra")
+T2d_latex<-knitr::kable(T2,"latex", digits = 3,row.names=NA, col.names = NA, align="llll", caption = "Statistical comparison of physiochemical conditions between the two samples sites, the Braamfontein spruit and Magalies River. While some conditions varied with high significance such as turbidity, others such as pH did not vary significantly", escape = FALSE) 
+kable_styling(T2d_latex, latex_options = c("striped","hold_position"), position= "center")
+
+```
+
+\newpage
+
+## Biological indicies
+Figure 1 below shows the comparison between the IHIH score calculated for each site, and figure 2 illustrates the relation between (average) ASPT and SASS, to classically the overall state of the system. 
+
+```{r, echo=FALSE, warning=FALSE}
+library(ggplot2)
+bars<-c(bAv2[1],mAv2[1])
+err<-c(bsd[1],msd[1])
+
+df<-data.frame("bars"=bars,"err"=err)
+row.names(df)<-c("Braamfontein Spruit","Magalies River")
+
+ggplot(df, aes(x=row.names(df), y=bars), xlab="Sample Site") +
+  geom_bar(stat="identity", fill="grey") +
+  geom_errorbar(aes(ymin = bars-err, ymax = bars+err),width=0.1) +
+  theme_classic()+
+   xlab("Sampling Sites") +
+  ylab("IHI Score") +
+    ggtitle(expression(" \n \n \n Figure 1: Comparision of IHI scores obtained for each sampling site.\n Note the considerably overlaping ranges given by the error bars of the two samples")) +
+     theme(plot.margin = unit(c(1,1,3,1), "cm"))+
+  theme(plot.title = element_text(hjust=.6,vjust=-90, size=11))
+```
+
+$\quad$\newline$\quad$\newline
+$\quad$\newline$\quad$\newline
+
+
+```{r, echo=FALSE, warning=FALSE}
+## Scatter plot Braam
+AvA<-c(bAv2[4], mAv2[4])
+sd1<-c(sd(bASPT), sd(mASPT))
+
+AvA1<-c(bAv2[2], mAv2[2])
+
+AvS<-c(bAv2[2], mAv2[2])
+sd2<-c(sd(bSASS), sd(mSASS))
+
+
+AvS2<-c(AvS,mAv2[2]-mse2[2], bAv2[2]-bse2[2])
+AvS1<-c(AvS,mAv2[2]+mse2[2], bAv2[2]+bse2[2])
+
+
+lAvS<-c(AvA-sd1,mAv2[4],bAv2[4])
+uAvS<-c(AvA+sd1,mAv2[4], bAv2[4])
+
+par(mar = c(10,10,2,2) )
+plot(AvS,AvA,xlab="SASS",ylab="ASPT", ylim=range(c(3,8)), xlim=range(c(30,140)))
+arrows(AvS2, lAvS, AvS1, uAvS, length=0.05, angle=90, code=3)
+arrows(88,0,88,4.5,length=0,col="blue")
+arrows(115,0,115,5.4,length=0,col="blue")
+arrows(151,0,151,5.9,length=0,col="blue")
+arrows(244,0,244,6.4,length=0,col="blue")
+
+arrows(0,4.5,88,4.5, length=0,col="blue")
+arrows(0,5.4,115,5.4, length=0,col="blue")
+arrows(0,5.9,151,5.9, length=0,col="blue")
+arrows(0,6.4,244,6.4, length=0,col="blue")
+
+
+text(70,3.7,"E/F")
+text(100,4.8,"D")
+text(130,5.6,"C")
+text(200,6.2,"B")
+title(sub="Figure 2: The average IHI score is considered in conjunction with the average ASPT \n score to give an indication of the overall condition of the system, donated \n by the  zones marked A-F in the figure. Note that although there is some \n overlap between the error bars for ASPT there is no overlap for SASS.",cex.sub=1, line=7 )
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
