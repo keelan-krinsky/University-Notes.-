@@ -175,7 +175,7 @@ kable_styling(T5d_latex, latex_options = c("striped","hold_position", "bordered"
 
 ```
 
-```{r, echo=FALSE, warning=FALSE}
+:wq```{r, echo=FALSE, warning=FALSE}
 S1<-c(62.55,"$CH_2-\\underline{C}H_2OH$")
 S2<-c(34.85, "$-CH_2-\\underline{C}H_2-CH_2OH$")
 S3<-c(18.96, "$-CH_3-\\underline{C}H_2-CH_2-CH_2OH$")

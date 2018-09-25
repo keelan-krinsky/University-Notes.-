@@ -1,0 +1,50 @@
+---
+title: "Cell Motility"
+author: "Keelan Krinsky: 1634953"
+output: word_document
+
+---
+
+# Cell Motility
+
+The importance of cell motility, and the associated molecular machinery, in mature human cells is best understood through the lens of its origin and evolution. In eukaryotic cells the molecular system of motility, although extremely adaptive in its phenotypic expression, consist of a limited number of constituents encoded by a highly conserved set of genes. (Cappuccinelli P, 1980). These key constituents, namely dyenin ATPase motor proteins, and microtubules, originated from and in fact still integrate closely with, another important cellular system, the cytoskeleton.Just as the components of the cellular motility form a natural extension of the cytoplasm so does its function. While the cytoskeleton acts to maintain homeostasis by regulating transport in the internal internal cellular environment (Fletcher and Mullins, 2010), The motility system maintains homeostasis by regulating the cells external environment, i.e by moving to different external environments.
+
+The evolutionary advantage provided by the loose form of environmental regulation afforded by cellular motility is perhaps most apparent in the context of single cellular organism. Protists rely heavily on their motility and associated chemo-taxis pathways to attain their food source,either in actively seeking out high nutrient environments, (Fenchel and Blackburn, 1999), or in the chase of prokaryotes prey species, in direct predation. (Pernthaler, 2005). Additionally, motility is also central in evading damage from toxins within the environment, (Ermilova _et al_, 2007), and predation (Jakobsen, 2001). Overall, motility in protists is clearly a highly evolutionary positive trait, with no obvious disadvantages.  
+
+The advantages motility conferred to single cellular Eukaryotas serve well to explain the original presence of cellular motility in early multicellular eukaryotes, and such it could be argued that the retention of motility structures in human cells are merely the remnants of an historically advantageous system. However by itself this explanation is woefully insufficient, because it misses the many distinct evolution disadvantages, and advantages which motility confers to multicellular organisms. For example cellular motility is absolutely essentially in effective tissue repair, (Rosen and Goldberg, 1989), but are also active in the development and progression of cancers (Condeelis,2005). In consideration of these mixed consequences the widespread retention of motility factors becomes unclear. In fact, it might seem more evolutionary positive for most mature adult cells to loose their capacity for mobility during specialization, restricting the motility required in tissue repair and embryologists to undifferentiated cell lines, and in so doing minimizing the associated risks.
+
+The explanation behind this seeming contradiction perhaps lies in the nature of multicellularity itself. Multicellular organism may well be best understood, not as a single entity but rather as a community containing many different colonies of specialized cells. The general consensus is that multicellularity arose from increased specialization in colonial associations, due to the increased chances of survival and or reproductive success afford to each cell within the colony. (Michod _et al_, 2006). Although in many contemporary muticellular eukaryotes this specialization has lead to an almost complete co-dependence between tissue types, it cannot be forgotten that evolution still operates at a cellular as well as individual/community level. In some instances theses evolutionary forces may align, such as in the effective digestion of pathogens by macrophages which provides a food source for the macrophytes and immunity against disease for the individual/ cellular community. Conversely these evolutionary forces may run against each other as in the formation of metastatic tumors; tumor cells best ensure their own survival and reproduction by rapid division and migration to evade the immune system, even though their activity might compromise the overall survival of the community, analogous to an algal bloom which leading to the formation of a dead zone. The retention cellular motility factor in general can be similarly explained, as despite the risk and inefficiency implied for the cellular community, for the individual cell the capacity for motility, or the capacity to regain motility mutation remains an evolutionarily positive trait. 
+
+In conclusion the retention of cell motility factors in adult human tissues is a direct result of the evolutionary positivity of motility. The cellular motility which arose in single cellular eukaryotes, was retained, (or at least its molecular basis was maintained) in multicellular Eukaryotas because for mutlticellular organisms evolutionary pressure is felt at a cellular as well as at an individual level. Therefore tissue cells maintain the potential for motility as it aid in their individual survival and reproduction, even while it risks the survival and reproduction of the organism as a whole. 
+
+
+
+
+
+
+\newpage
+
+# References
+Cappuccinelli P. (1980) The motility system of eukaryotic cells. In: Motility of Living Cells. _Springer_, Dordrecht, 24-26.
+
+Mitchell, D. R. (2007). The evolution of eukaryotic cilia and flagella as motile and sensory organelles. Advances in Experimental Medicine and Biology, 607, 130–140.
+
+Fletcher, D. A. Mullins, R. D.(2010),Cell mechanics and the cytoskeleton, Nature Publishing Group, _Nature_,463,485
+
+Fenchel T.,Blackburn N.(1999), Motile Chemosensory Behaviour of Phagotrophic Protists: Mechanisms for and Efficiency in Congregating at Food Patches,Protist,_Science Direct_ 150,3,325-336,
+
+Pernthaler, J.(2005), Predation on prokaryotes in the water column and its ecological implications,Nature Publishing Group, _Nature_ ,6, 3, 537
+
+Ermilova, E.V., Nikitin, M.M. & Fernández, E.(2007), Chemotaxis to ammonium/methylammonium in Chlamydomonas reinhardtii: the role of transport systems for ammonium/methylammonium, Planta, _Springer_ 226: 1323.
+
+
+Jakobsen H. H., (2001),Escape response of planktonic protists to fluid mechanical signals, _Marine Ecology Progress series_, 214,67-78
+
+Rosen, E.M. & Goldberg, I.D.(1989),Protein factors which regulate cell motility, In Vitro Cell Dev Biol., _Springer_  25: 1079.
+
+Condeelis, J.S, Robert H. S, Jeffrey E.,(2005) The great escape: When Cancer Cells Hijack the Genes for Chemotaxis and Motility}, _Annual Review of Cell and Developmental Biology_,21,1,695-718
+
+Michod R. E.,  Viossat Y, Cristian A. Solari, Hurand M., Nedelcu M. A,(2006), Life-history evolution and the origin of multicellularity, _Journal of Theoretical Biology_, 239, 2,2006,257-272
+
+
+The cells making up most adult human tissues are essentially non-motile but nevertheless retain the molecular basis to eukaryotic cellular motility.  This feature has both positive (reconstructive) and negative (invasion and metastasis) value.  Develop an argument for the retention of such a molecular system given the obvious risks to the organism.  Your argument must be supported by appropriate evidence and should be presented in no more than 2 typed pages.

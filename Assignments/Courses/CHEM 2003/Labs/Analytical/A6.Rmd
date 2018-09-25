@@ -1,0 +1,99 @@
+---
+title: "Experiment A6: Gravimetric Analysis"
+author: "Keelan Krinsky: 1634953"
+output: pdf_document
+---
+\textbf{Full title:} Determination of the concentration of sulphate in epsomsalts.\newline $\quad$\newline
+\textbf{Demonstrator:}\newline $\quad$\newline
+\textbf{Group:} 7\newline$\quad$\newline
+\textbf{Date Performed:} 17/09/2018\newline 
+
+$\quad$\newline
+$\quad$\newline
+$\quad$\newline
+$\quad$\newline
+$\quad$\newline
+
+![](Images/CS1.jpg)
+
+\newpage
+
+# Aims 
+  #. Determination of sulphate concentration in Epsom salt sample by:
+     #. dissolution of espom salt sample in heated water accidifed with HCl. 
+     #. Precipitation of dissolved sulphate as $BaSO_4$ by addition of $BaCl$ solution
+     #. purification of $BaSO_4$ precipitate by digestion in heated mother solution. 
+     #. Filtration, dessication, and determination of dry mass of $BaSO_4$ precipitate.  
+     
+# Introduction
+
+# Experimatal Procedure
+See second year analytic laboritory manual, pages 38-39 for full proceedure. 
+The following changes were made to the proceedure:
+
+
+ #. No lids were used in the ignition of weighing crucibles. 
+ #. In the filtration of the $BaSO_4$ precipitate larger volumes of hot water ($50-100ml$) where used for each wash. 
+
+
+# Results
+
+```{r,echo=FALSE, warnings=FALSE}
+ws<-c(8.4783,10.0992)
+wr<-c(7.9370,9.5739)
+ms<-c(ws-wr)
+rn<-c("Weighing bottle+Epsom Salts sample/g", "Weighing Bottle+ residue/g", "Mass of Barium Sulphate precipitate attained/g")
+
+C1<-c(ws[1],wr[1],ms[1])
+C2<-c(ws[2],wr[2],ms[2])
+
+
+
+T1<-data.frame("row names"=rn,"C1"=C1, "C2"=C2)
+
+library(knitr)
+colnames(T1)<-c("Analysis Number", "1", "2")
+
+library("kableExtra")
+
+T1d_latex<-knitr::kable(T1,"latex",row.names=NA,col.names=NA,caption="Masses of Epsom Salts samples used for analysis.", escape=FALSE)
+kable_styling(T1d_latex, latex_options = c("striped","hold_position", "bordered"))
+```
+
+
+```{r,echo=FALSE, warnings=FALSE}
+c<-c(21.6976,19.8512)
+cp<-c(22.1614,20.3549)
+mp<-(cp-c)
+
+C1<-c(c[1],cp[1],mp[1])
+
+C2<-c(c[2],cp[2],mp[2])
+
+rn<-c("Dry Crucible/g", "Dry Crucible containing Barium Sulphate Precipitate/g", "Mass of Barium Sulphate precipitate attained/g")
+
+T2<-data.frame("rn"=rn,"C1"=C1,"C2"=C2)
+
+library(knitr)
+colnames(T2)<-c("Analysis Number", "1", "2")
+
+
+library("kableExtra")
+
+T2d_latex<-knitr::kable(T2,"latex",row.names=NA,col.names=NA,caption="Masses of $BaSO_4$ precipitates attained from reaction of epsom salt soutions with excess barium chloride.", escape=FALSE)
+kable_styling(T2d_latex, latex_options = c("striped","hold_position", "bordered"))
+```
+
+## Experimental Data 
+
+## Calculations
+
+# Discussion 
+
+# References
+
+ #. University of the Witswaterstrand; School of Chemistry, 2018, Second Year analytical laboritory manual, Johannesburg,South Africa, pp 37-38
+
+
+
+  
