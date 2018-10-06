@@ -1,0 +1,29 @@
+---
+title: "Concepts Lab 18: Cell Adhesion"
+author: "Keelan Krinsky: 1634953"
+output: pdf_document
+---
+
+# Question #1
+Contact inhibition of growth is a phenomenon where by cell growth and division and motility is retarded and halted due to the presence of other cells in contact with, and biochemically adhered to to the cell in question, which leads to moonolayer growth _in vivo_ an correct tissue density _in vitro_. The fundamental basis of this phenomenon involves inter-cellular signal transduction pathways induced either biochemically by interactions between cell surface membrane receptors, (such as in the formation of intercellular junctions) or physically, by mechanical tension translated through the extracellular matrix to act on the cell membrane, or cytoskeleton. The end result of these signal transduction pathways activated is to suppress the transcription and translation of cyclin proteins responsible for driving the cell cycle, and in so doing reducing the rate of cell division by mitosis, and volumetric cell growth. 
+
+# Question #2
+In the case where EDTA alone was administered as a treatment cell detachment required an extended period of time (over an hour), and even then only incomplete attachment was achieved,although those cell which were detached were single cells. In the case of Trypsin alone, detachment from the substrate occurred more rapidly with near full detachment seen within 40 minutes, but cells did not detach completely from each other with detached cells in the form of small sheets and clumps of cells. Finally in the case where both EDTA and trypsin where used 2, complete detachment to form suspended single cells occurred much faster, in under 20 minutes. 
+
+# Question #3
+In the case of EDTA treatment, the EDTA acts as a chelating agent to remove calcium and magnesium ions from solution. The resulting decrease in the ion concentration can lead to cell detachment as magnesium, and especially calcium ions are critical to the stability of cell to cell adhesion, through the binding of clatherin membrane receptors, and cell  to substrate/matrix adhesion through the binding of integrin receptors in the cell membrane. the calcium and magnesium ions associate closely with the bonds/ complexes formed in these adhesion increasing stability by reducing the effects of electrostatic repulsion between negatively charged elements of the cell membranes, and substrate/matrix. The detachment related to removal of these ions is however both slow to occur, and limited in its extent because decreases in stability alone do no imply the immediate disruption of the chemical bonds resulting in adhesion, most of which will still act to hold the cell in place only breaking with the action of mechanical force such as in stirring, and possible reforming if the cells come back into contact with each other. 
+
+In the case of Trypsin treatment, Trypsin is a protease capable of enzymatic degradation off cellular adhesion molecules by cleavage of these molecules between lysine and arginine residues within their primary sequence. This degradation of cell adhesion molecules releases the cells in question both from each other, when the degradation is directed at clatherin mediated cell-cell binding, and from the substrate, when the degradation is directed at integrin mediated cell-substrate/matrix binding. The degradation of clatherin mediated adhesion however is partially inhibited by the presence of calcium ions which as for mentioned help to stabilize clatherin connections, and also make them specifically resistant to enzymatic degradation, by reducing the efficiency/ affinity of trypsin binding.  
+
+Finally in the case of combined EDTA trypsin treatment, rapid and full detachment is achieved because trypsin can act freely on the already weakened cell-cell and cell-substrate connections without any significant inhibition by calcium or magnesium ions which are effectively removed from solution by EDTA. Enzymatic degradation is therefore rapid and efficient and all adhesion sites are soon disrupted. 
+
+# Question #4
+
+ #. An increase in culture temperature to $37^\circ C$ can act to speed up degradation, both because higher temperatures favor faster reactions and decrease adhesion stability, and because trypsin, as a mammalian derived protease has an ideal operating temperature of $37^\circ C$ (body temperature). 
+
+ #. Increases in the concentration of trypsin and EDTA used will also act to speed up the degradation process, as the reaction rate, (and the degree of trypsin inhibition) is dependent upon their concentration. 
+
+# Question #5
+In the vast majority of detachment techniques the chemical,biological or physical degradation techniques used to break down adhesion between cells, and between the cells and the substrate are not entirely specific and can also act to degradation other cellular constituents. This issue will usually manifest when the degradation process is carried out for two long or two vigorously. For example If EDTA is added in to high concentrations the chelation of $Ca^2+$ will occur to such an extent that it is not only the strength of adhesion which is affected but also the entire membrane integrity, potentially leading to membrane rupture and cell death. In the case of Trypsin, in a culture exposed to trypsin for two long, not only will adhesion proteins be degraded but so too may other membrane proteins, with very high trypsin concentrations some tryspin may even be able to enter the cell (without being pumped out again fast enough), leading to damage of internal proteins affecting structural elements and metabolic processes and ultimately leading to cell death. 
+
+

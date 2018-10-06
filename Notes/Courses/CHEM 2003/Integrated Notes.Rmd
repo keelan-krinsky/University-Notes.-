@@ -1,6 +1,6 @@
 ---
 title: "CHEM2003 Notes"
-output: html_document 
+output: pdf_document 
 ---
 
 # Imports
@@ -57,6 +57,16 @@ Steric hindrance, nucleophile, electrophilic carbon, bulky methyl groups.
 # Analytical 
  
 ## Course outline 
+
+### Class rules
+
+#### Time
+not more that quarter past, sit at open spaces
+
+#### Entering data
+
+
+#### No talking
 
 ### various aspects related to chemical analysis. 
  #. Stats used to verify accuracy and precision. 
@@ -427,6 +437,8 @@ Firstly the internal standard must not be present in the sample. It must be comp
 # Examples 
 Strontium concentration in tooth enamel sample. 
 
+
+
 # Labs
 There are true values associated with the labs except 2 and 7. 
 must be used for lab reports. Plot of concentration against analytical signal. There must no be interference of the signals of unknown and internal standard. 
@@ -467,3 +479,112 @@ Sample considerations
  #. Availability of standards. 
  #. Availability of appropriate certified reference material. 
  #. Availability of appropriate CRM. (to ensure accurate analysis), reference material certified for analyte concentration.
+
+# New Notes
+
+## Volumetric analysis
+Quantification by calculating of adjusting volume. If a concentration of a solution is known the solution is a standard. Typically an indicator is used. 
+Associated glassware, burette, pipette, conical flask, beaker, calibration. 
+
+>NOTE: Read prac manual. 
+
+>NOTE: Do not full with funnel as drips solution past meniscus. 
+n
+## Stereochemistry
+
+### Equivalence point. 
+equal moles, theoretical value
+
+### Endpoint
+Visual representation on or near endpoint, marked by appearance or disappearance of color, 
+
+The titrant (in the burette must be standardised.). The sample volume/mass must be accurately known, there also should be no isde reactions. 
+
+Titration error is the endpoint minus the equivalence point.
+
+I## Types of Titration
+
+### Acid base
+Either in burette, sample is the opposite, pH indicator or pH meter is used. Indicator is more convenient but in the absence of an appropriate indicator then it can be used to identify endpoint. 
+
+### Precipitation reaction 
+
+Measure by conductivity. (Conductivity is the extent to which a solution can transfer electricity/charge/ions) it is reduced by precipitation. 
+
+### Redox reactions
+Often indicator is not required due to color change between reactions and products. 
+
+### Complexometric
+complexes are formed using metal ions/ cheating reagents used to form a complex, analysis then performed on. React rapidly with the analyte, sufficiently stable over a period of time, react rapidly to adequate endpoint, must choose analyte selectively. 
+
+
+### Primary standards
+Primary standard is accurately weighed and diluted to a known volume, of for a secondary standard first the concentration of a given solution is determined accurately and then this solution is used as a standard. (Read prac one.). A primary standard is a highly purified complex. For example if $NaOH$ left open then it will take up water. Primary standards should have no water of crystallisation, high molar mass, readily avail Abe at modest cost, reasonably soluble, stability towards air, high purity. Can be quite expensive. 
+
+### Secondary standard
+An accurate concentration must be determined, a primary must still be used but a much large volume of secondary can be prepared and then only a small sample tested with primary standard. Sodium hydroxide is often used standardised with KHP, HCl  also used as secondary standard. 
+
+### Direct titration 
+Can be defined as a simple step, 
+
+ ### Indirect titration 
+Two step process, analyte is replaced and the replacement titrated, stoichiometric rations must be considered. Can involve oxidation. 
+
+>HOMEWORK: Brass dissolved in HCL copy example. 
+
+### Back titration
+Back titration is done when the reaction between the analyte and titrant is too slow for effective quantification. A back titration may also be used when there is a difficulty in determining the end point, due to lack of appropriate indicator, or side reactions or other. (Back titrations may be difficult to identify,). In a back titration a known excess is added. Excess reagent is then titrated. 
+
+>NOTE: Take note of situations in which each titration method would be used.
+
+## Indicators
+
+### General
+acid-base, redox and adsorption
+
+### Specific
+starch, thiocyanate
+
+>NOTE: work with a specific reaction only. 
+
+### Metal ions
+Metallo-chromic, organic dies. 
+
+### Potentiometric 
+Potentiometer, pH electrode. The titration is tracked by change in voltage, and equivalence determined by points of inflection. Typically weak organic acids or bases which are different colors in dissociated/ undissociated form. Addition of indicator can actually affect titration if acid base titration so must be used in low concentrations, therefore the visual change must be evident at low concentrations. 
+
+## EDTA prac example. 
+NOTE: Differences in pH will determine the end point break, of a titration, due to its effect on stability/ formation complex. Interference can occur from other metals, and this interference can be limited by the appropriate pH which favours the stability of the analyte complex. 
+
+## Auxiliary complexing agents
+Auxiliary complexing agents which acts as a buffer to maintain the analyte in an available form by complexing it preventing the formation of other complexes which would reduce its availability, however the buffer cannot associate more strongly with the EDTA than the analyte. As there is a competition between the auxiliary complex and the EDTA complex there will be a significant change in the end point break. 
+
+## Masking
+Masking agents can be used to protect the analyte, or remove contaminants. For example if titrating water containing calcium and magnesium EDTA would complex with both calcium and magnesium. Magnesium can be reacted with another complex to form a ligand, implying that the EDTA will preferentially associate with the calcium. Masking compounds are selected based on their stability complexes. 
+
+## Redox titrations
+Half reactions used to determine overall reaction typically the potential difference is measured in the titration curve. A redox titration is feasible if the difference is $\geq 0.2V$. The bigger the difference the shaper the endpoint color change. 
+
+The voltage of equivalence point can be calculated using the Nersnt equation, (remember to include reference electrode). 
+
+>NOTE: Try do at least some calculations, to pick up part marks. 
+
+### Gravimetric and Precipitation titrations 
+revise, solubility rules, most often used in quantification of halides, the technique is called argentometric titration ()of silver(Ag). The first drop of titrant in excess reacts with indicator, the end point can often be quite hard to identify. Chromate (Mohr method of titration), Chromate is used as an indicator, chromate forms a precipitate with the chloride, Precipitate has a greater solubility. Neutral medium (pH of about 7) In alkaline solutions silver will react with the hydroxide ions forming silver hydroxide. In acidic solutions chromate will be converted to dichromate. Silver nitrate is used to precipitate out a halide. In the Volhard method an indirect titration is used and $Fe^{3+}$ is used as an indicator, a back titration is used in this case with excess silver chloride added, then titration with standard thiocyanate, the first excess of $SCN$ results in a red color ()which is the endpoint. Something can also be added to form a film around the precipitate e.g.  nitrobenzene which prevent side reactions. The Fajan's method, Adsorption indicator is used, Silver is used to titrate the chloride. Flourescein adsorbs to the surface of colloidal $AgCl$ the first drop of excess $Ag^+$ which is a pink-red color. The pH of the solution must be slightly alkaline as this keeps the indicator anionic but if to becomes too alkaline then the silver will precipitate out as silver hydroxide. 
+
+## Electrodes
+Electrodes used to assess potential differences.
+
+$K{SP}$ used, 
+
+>NOTE: Do tutorials by Monday. 
+
+More concentrated solution leads to sharper endpoint (which should follow fairly obviously.). More soluble stuff will tend to precipitate out first. The titration should be controlled to force something to precipitate down at a particular point. 
+
+## Gravimetric analysis
+Typically a mass based analysis, precipitate out analyte, product is then understood stereochemically defined relationship. (CP and AR, on reaction bottles implies chemically pure and analytic grade). Impurities can be quite significant in gravimetric analysis. Impurities are done by washing precipitate, (precipitate must not be soluble in the washing solvent. Then precipitate is then dried/ignited and then washed). Typically a good precipitate requires a low concentration, extensive heating (digestion) and control of pH, and form particles of a particular size and shape (this requires low concentration and slow reaction). Extensive heating allows for better salvation. Heating can also reduce the amount of co-precipitation. 
+
+Filter paper has different grades, the different grades will allow different sizes of particles to pass through. Gravimetric analysis must use ashless filter paper, otherwise in ignition, and the filter should be easy to clean. Filter paper can be digested/ solubility and contribute to impurities. Glass crucible filter are the best as they are chemically inert. The precipitate should be low solubility high purity, and the known endpoint must be exactly known. Colloids are very fine particles suspended in solution they are very part to filter out, large particle size should be induced before precipitation this can be achieved by the manipulation of physical conditions. The rate of reaction mixed, slower implies formation of larger crystals. 
+
+Precipitates form by nucleation and particles growth, particles come together to form a stable salt. Typically nucleation start on a particle, if nucleation predominates then there is a large number of very small nuclei, when particle growth predominates fewer and larger particles leading to easier more accurate filtering and more accurate. 
+

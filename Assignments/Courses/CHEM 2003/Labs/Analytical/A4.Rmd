@@ -23,14 +23,14 @@ $\quad$\newline
 
 # Aims 
 
- #. Standardization of a thiosulphate solution ($\approx 0.007M$) by:
+ #. Standardization of a thiosulfate solution ($\approx 0.007M$) by:
       #. Titration with $KIO_3$ standard solution with added $KI$, using a starch indicator. 
  #. Determination of mass of Vitamin C (Ascorbic acid) in commercial vitamin C tablets, using the $KIO_3$ standard in a redox titration with the tablet dissolved in sulfuric acid solution.
  
 # Introduction
 Ascorbic acid commonly known as Vitamin C, is an important dietary component which helps to protect against cancer cardiac disease and scurvy, however as modern diets may be lacking in sufficient natural sources of Vitamin C such as fresh fruit and vegetables, commercially available vitamin C supplements are often taken. (Carr _et al_, 1999). As Ascorbic acid can act as a reducing agent, and all  non-trace components of the supplement tablets are chemically inactive substances such as cellulose (Descombes and Hanck,1993), the amount of ascorbic acid present in a given commercial sample can be readily assessed by means of a redox titration.  
 
-There are several different redox systems available but iodometric titrations are often favored as the provide a fast accurate and low cost, (both in terms of materials used and equipment required) determination method, (Verdini and Lagier, 2000). In the case of an reducing analyte as ascorbic acid there are two possible determination paths. Firstly analyte may be directly titrated with standard $I_2$ solution.Secondly known excess $KIO_3$ may first be reduced and combined with $I^-$  in strong acid to generate $I_2$. The $I_2$ generated may then be reacted _in situ_ with the analyte sample, and the excess $I_2$ back titrated against a standard solution of a suitable reducing agent such as thiosulphate solution, (Ciesielski and Zakrzweski, 2006).The molar amount of $I_2$ reduced by Ascorbic acid in the sample,and hence the mass of ascorbic acid can then be inferred. In this case the reactions involved are as follows (Silva, 1999):
+There are several different redox systems available but iodometric titrations are often favored as the provide a fast accurate and low cost, (both in terms of materials used and equipment required) determination method, (Verdini and Lagier, 2000). In the case of an reducing analyte as ascorbic acid there are two possible determination paths. Firstly analyte may be directly titrated with standard $I_2$ solution.Secondly known excess $KIO_3$ may first be reduced and combined with $I^-$  in strong acid to generate $I_2$. The $I_2$ generated may then be reacted _in situ_ with the analyte sample, and the excess $I_2$ back titrated against a standard solution of a suitable reducing agent such as thiosulfate solution, (Ciesielski and Zakrzweski, 2006).The molar amount of $I_2$ reduced by Ascorbic acid in the sample,and hence the mass of ascorbic acid can then be inferred. In this case the reactions involved are as follows (Silva, 1999):
 
 1. The formation of $I_2$ from excess $KIO_3$ and $KI$. \newline 
     $IO_3^-+5I^-+6H^+\rightarrow 3I_2+3H_2O$
@@ -38,12 +38,12 @@ There are several different redox systems available but iodometric titrations ar
 2. The reduction of $I_2$ by ascorbic acid\newline
    $C_6H_8O_6+I_2+H_2O\rightarrow 2I^-\rightarrow C_6H_8O_7+2I^-+2H^+$
 
-3. The reduction of $I_2$ by thiosulphate in the back titration step.\newline
+3. The reduction of $I_2$ by thiosulfate in the back titration step.\newline
  $I_2+2S_2O_3^{2-}\rightarrow 2I^-+[O_3S-S-S-SO_3]^{2-}$
 
 In the back titration $I_2$ combines with $I^-$ ions to give an stable $I_3^-$ complex, ($I_2+I^-\rightarrow I_3$) which leads to a dark brown color fading to a pale yellow as its concentration is reduced in the titration. Near the end of the back titration addition of a starch indicator leads to the formation of an intense blue-black starch $I_3-$ complex. The final conversion of this dark blue solution to a clear solution as all the available $I_2$ is reacted marks the end point of the titration (Rundle and Edwards, 1943). 
 
-In this experiment standardization of the Thiosulphate solution was required. This standardization proceeded along the same principles outlined above, by back titration with thiosulphate solution, of $I_2$ formed by reaction of known quantities of $KIO_3(aq)$ and $KI(s)$ ion excess acid. (Schroeder, 1950). The concentration of the standard solution may then be inferred. 
+In this experiment standardization of the Thiosulfate solution was required. This standardization proceeded along the same principles outlined above, by back titration with thiosulfate solution, of $I_2$ formed by reaction of known quantities of $KIO_3(aq)$ and $KI(s)$ ion excess acid. (Schroeder, 1950). The concentration of the standard solution may then be inferred. 
 
 # Experimental Procedure
 See second year analytic laboratory manual, pages 32-33 for full procedure. 
@@ -85,7 +85,7 @@ colnames(T1)<-c("Analysis Number", "1", "2", "3")
 
 library("kableExtra")
 
-T1d_latex<-knitr::kable(T1,"latex",row.names=NA,col.names=NA,caption="Masses of KI used for standardisation of Thiosulphate solution using starch indicator", escape=FALSE)
+T1d_latex<-knitr::kable(T1,"latex",row.names=NA,col.names=NA,caption="Masses of KI used for standardisation of Thiosulfate solution using starch indicator", escape=FALSE)
 kable_styling(T1d_latex, latex_options = c("striped","hold_position", "bordered"))
 ```
 
@@ -93,7 +93,7 @@ kable_styling(T1d_latex, latex_options = c("striped","hold_position", "bordered"
 
 
 ```{r,echo=FALSE, warnings=FALSE}
-# Table for volumes of thiosulphate solution titrated in the standardisation of the thiosulphate solution
+# Table for volumes of thiosulfate solution titrated in the standardisation of the thiosulfate solution
 
 ir<-c(0.19,0.02,0.21)
 fr<-c(30.76,29.77,29.80)
@@ -102,7 +102,7 @@ vas<-c(fr-ir)
 C1<-c(ir[1],fr[1],vas[1])
 C2<-c(ir[2],fr[2],vas[2])
 C3<-c(ir[3],fr[3],vas[3])
-rn<-c("Final Reading/ml", "Initial Reading/ml","Volume of Thiosulphate solution delivered/ml")
+rn<-c("Final Reading/ml", "Initial Reading/ml","Volume of Thiosulfate solution delivered/ml")
 
 T1<-data.frame("rn" =rn, "C1"=C1, "C2"=C2,"C3"=C3)
 
@@ -111,11 +111,11 @@ colnames(T1)<-c("Titration Number", "1", "2", "3")
 
 library("kableExtra")
 
-T1d_latex<-knitr::kable(T1,"latex",row.names=NA,col.names=NA,caption="Volumes of thiosulphate solution titrated in the standardisation of the thiosulphate solution", escape=FALSE)
+T1d_latex<-knitr::kable(T1,"latex",row.names=NA,col.names=NA,caption="Volumes of thiosulfate solution titrated in the standardisation of the thiosulfate solution", escape=FALSE)
 kable_styling(T1d_latex, latex_options = c("striped","hold_position", "bordered"))
 ```
 
-### 2) Analysis of commerical Vitamen C tablets using thiosulphate standard solution.
+### 2) Analysis of commerical Vitamen C tablets using thiosulfate standard solution.
 
 #### a) KI used in Analysis
 
@@ -138,7 +138,7 @@ colnames(T1)<-c("Analysis Number", "1", "2", "3")
 
 library("kableExtra")
 
-T1d_latex<-knitr::kable(T1,"latex",row.names=NA,col.names=NA,caption="Masses of KI used in the titration of dissolved vitamen C tablets with standardised thiosulphate, using a starch indicator", escape=FALSE)
+T1d_latex<-knitr::kable(T1,"latex",row.names=NA,col.names=NA,caption="Masses of KI used in the titration of dissolved vitamen C tablets with standardised thiosulfate, using a starch indicator", escape=FALSE)
 kable_styling(T1d_latex, latex_options = c("striped","hold_position", "bordered"))
 ```
 
@@ -169,7 +169,7 @@ kable_styling(T4d_latex, latex_options = c("striped","hold_position", "bordered"
 ```
 
 
-#### c) Titration with Thiosulphate standard using starch indicator. 
+#### c) Titration with Thiosulfate standard using starch indicator. 
 
 ```{r,echo=FALSE, warnings=FALSE}
 # Table for volumes of standardised thiosulphate solution titrated in the reduction of each dissolved vitamen C tablet.
@@ -183,7 +183,7 @@ C2<-c(ir[2],fr[2],va[2])
 C3<-c(ir[3],fr[3],va[3])
 C4<-c(ir[4],fr[4],va[4])
 
-rn<-c("Final Reading/ml", "Initial Reading/ml","Volume of Thiosulphate solution delivered/ml")
+rn<-c("Final Reading/ml", "Initial Reading/ml","Volume of Thiosulfate solution delivered/ml")
 
 T5<-data.frame("rn" =rn, "C1"=C1, "C2"=C2,"C3"=C3,"C4"=C4)
 
@@ -192,7 +192,7 @@ colnames(T5)<-c("Titration Number", "1", "2", "3","4")
 
 library("kableExtra")
 
-T5d_latex<-knitr::kable(T5,"latex",row.names=NA,col.names=NA,caption="Volumes of standardised thiosulphate solution titrated in the reduction of each dissolved vitamen C tablet.", escape=FALSE)
+T5d_latex<-knitr::kable(T5,"latex",row.names=NA,col.names=NA,caption="Volumes of standardised thiosulfate solution titrated in the reduction of each dissolved vitamen C tablet.", escape=FALSE)
 kable_styling(T5d_latex, latex_options = c("striped","hold_position", "bordered"))
 ```
 
@@ -295,7 +295,7 @@ Moles of $I_2$ produced=$3 \cdot \text{Moles of } KIO_3^{-}\text{ used}=3 \cdot 
 MIr<-c((CA*va[1]/1000)/2)
 ```
 
-Moles of $I_2$ Reduced by thiosulphate during titration=(Volume of $S_2O_3^{2-}$ titrated) $\cdot$ (Concentration of $S_2O_3^{2-}$ solution) $\cdot \frac{1}{2}$=$`r {round(MIr,digits=7)}`$
+Moles of $I_2$ Reduced by thiosulfate during titration=(Volume of $S_2O_3^{2-}$ titrated) $\cdot$ (Concentration of $S_2O_3^{2-}$ solution) $\cdot \frac{1}{2}$=$`r {round(MIr,digits=7)}`$
 ```{r,echo=FALSE}
 Ir<-c(MI-MIr)
 ```
@@ -326,7 +326,7 @@ Percentage Ascorbic acid=$\frac{\text{mass of Ascorbic Acid}}{Mass of tablet}$=$
 MIr[2]<-c((CA*va[2]/1000)/2)
 ```
 
-Moles of $I_2$ Reduced by thiosulphate during titration=(Volume of $S_2O_3^{2-}$ titrated) $\cdot$ (Concentration of $S_2O_3^{2-}$ solution) $\cdot \frac{1}{2}$=$`r {round(MIr[2],digits=7)}`$
+Moles of $I_2$ Reduced by thiosulfate during titration=(Volume of $S_2O_3^{2-}$ titrated) $\cdot$ (Concentration of $S_2O_3^{2-}$ solution) $\cdot \frac{1}{2}$=$`r {round(MIr[2],digits=7)}`$
 ```{r,echo=FALSE}
 Ir[2]<-c(MI-MIr[2])
 ```
@@ -359,7 +359,7 @@ Percentage Ascorbic acid=$\frac{\text{mass of Ascorbic Acid}}{Mass of tablet}$=$
 MIr[3]<-c((CA*va[3]/1000)/2)
 ```
 
-Moles of $I_2$ Reduced by thiosulphate during titration=(Volume of $S_2O_3^{2-}$ titrated) $\cdot$ (Concentration of $S_2O_3^{2-}$ solution) $\cdot \frac{1}{2}$=$`r {round(MIr[3],digits=7)}`$
+Moles of $I_2$ Reduced by thiosulfate during titration=(Volume of $S_2O_3^{2-}$ titrated) $\cdot$ (Concentration of $S_2O_3^{2-}$ solution) $\cdot \frac{1}{2}$=$`r {round(MIr[3],digits=7)}`$
 ```{r,echo=FALSE}
 Ir[3]<-c(MI-MIr[3])
 ```
@@ -390,7 +390,7 @@ Percentage Ascorbic acid=$\frac{\text{mass of Ascorbic Acid}}{Mass of tablet}$=$
 MIr[4]<-c((CA*va[4]/1000)/2)
 ```
 
-Moles of $I_2$ Reduced by thiosulphate during titration=(Volume of $S_2O_3^{2-}$ titrated) $\cdot$ (Concentration of $S_2O_3^{2-}$ solution) $\cdot \frac{1}{2}$=$`r {round(MIr[4],digits=7)}`$
+Moles of $I_2$ Reduced by thiosulfate during titration=(Volume of $S_2O_3^{2-}$ titrated) $\cdot$ (Concentration of $S_2O_3^{2-}$ solution) $\cdot \frac{1}{2}$=$`r {round(MIr[4],digits=7)}`$
 ```{r,echo=FALSE}
 Ir[4]<-c(MI-MIr[4])
 ```
@@ -458,13 +458,13 @@ $RDS=\frac{s}{\bar{x}}\cdot 100\%=\frac{`r {round(sd(pCa),digits=7)}`}{`r {pA}`}
 
 
 # Discussion
-In the standardization of Thiosulphate solution the relative standard error achieved in the two accurate titrations performed was less that  $0.5\%$ suggesting a reasonably high level of precision for the average concentration of the thiosulphate solution calculated, $`r {CA}`\,mol \cdot L^{-1}$. However this value differs considerably from the $\approx 0.07M$ concentration expected from $8.68\pm 0.02g$ of $Na_2S_2O_3.5H_2O$ used in the preparation of the standard. This difference is perhaps best accounted for by inaccuracies in the level of hydration of the thiosulphate salt, as partial dehydrating could explain the unusually high morality of the standard produced. 
+In the standardization of Thiosulfate solution the relative standard error achieved in the two accurate titrations performed was less that  $0.5\%$ suggesting a reasonably high level of precision for the average concentration of the thiosulfate solution calculated, $`r {CA}`\,mol \cdot L^{-1}$. However this value differs considerably from the $\approx 0.07M$ concentration expected from $8.68\pm 0.02g$ of $Na_2S_2O_3.5H_2O$ used in the preparation of the standard. This difference is perhaps best accounted for by inaccuracies in the level of hydration of the thiosulfate salt, as partial dehydrating could explain the unusually high morality of the standard produced. 
 
 In the actual analysis of the commercial Vitamin C tablets, the relative standard error, excluding the first rough titration was also relatively low, below $2\%$, again suggesting a reasonable level of precision. The first rough titration, although not included in any calculations differed so seriously from the subsequent titrations as to suggest some serious flaw occurred in the experimental procedure, such as perhaps loss of powdered vitamin C tablet through tares developed in filter paper during crushing process. This error may be avoided by using a double layer of filter paper in the crushing. There is also a considerably larger relative standard error in the percentage vitamin C calculated. although this high error could be taken as an indication of inaccuracy it may be more likely that it is as a result of variance in the weight of tablets related to different amounts of cellulose substrate in each tablet, as the production process may well involve precise addition of the active component to each tablet will far less precise addition of the general substrate of the tablets. 
 
 The accuracy of the Vitamin C content determined appears highly dubious as the average mass of vitamin C calculated $`r {MA/1000}`mg$ differs by almost 80\% from the true value. The high precision and low accuracy are indicative of a serious systematic error in either the experimental procedure or in the standard solution used. One potential source of error might be the distilled water used in preparation of standards. If this water was contaminated by mineral ions such as $Fe^{3+}$, at some point after the distillation process these ions may well have engaged in redox reactions with the $I^-$ in the iodometric system resulting in inaccurately low measures for the Ascorbic acid content of the commercial samples. Carbonate ions resulting from solvation of atmospheric $CO_2$ into the $KIO_3$ standard solution could also potentially have reduced $I^-$ ions present lower the calculated Ascorbic acid content. 
 
-In conclusion, the standard solution prepared was of higher than expected concentration, perhaps due to dehydration of thiosulphate salt used in preparation, but was still standardized with a relatively high precision. The determination of Ascorbic acid was also achieved with relatively high precision, however only low overall accuracy was achieved, with the average calculated mass of ascorbic acid per tablet $`r {MA/1000}`mg$ far lower than the true value of 250mg. This inaccuracy must have resulted from a serious systematic error in the determination perhaps due to interference in the redox system by atmospheric of other electrically active contaminants.  
+In conclusion, the standard solution prepared was of higher than expected concentration, perhaps due to dehydration of thiosulfate salt used in preparation, but was still standardized with a relatively high precision. The determination of Ascorbic acid was also achieved with relatively high precision, however only low overall accuracy was achieved, with the average calculated mass of ascorbic acid per tablet $`r {MA/1000}`mg$ far lower than the true value of 250mg. This inaccuracy must have resulted from a serious systematic error in the determination perhaps due to interference in the redox system by atmospheric of other electrically active contaminants.  
 
 
 ```{r,echo=FALSE}
@@ -500,8 +500,8 @@ Schroeder W. A., Kay L. M. , and Mills  R. S.(1950), Quantitative Determination 
 ## The satrch indicator is only added to the solution close to the end of the titration why?
 The starch Iodine inclusion complex is relatively stable, so at high $I_2$ concentrations its dissociation to provide $I_2$ for the continued redox reaction occurring during the process of the titration is relatively slow. This slow speed of release may well lead to a positive error in the titration volume due to a delay in the color change as despite sufficient reducing agent already present in the solution, not all starch iodine complex molecules are dissociated and their associated deep blue color remains. In order to perform a time effective and accurate titration addition of starch indicator should be left until very near the end point of titration at which point low $I_2$ concentrations in solution can act to drive the dissociation of the inclusion complex.   
 
-## Why is sodium carbonate added to the sodium thiosulphate solution. 
-Under acidic conditions thiosulphate is unstable and can undergo a decomposition reaction as follows:\newline
+## Why is sodium carbonate added to the sodium thiosulfate solution. 
+Under acidic conditions thiosulfate is unstable and can undergo a decomposition reaction as follows:\newline
 $S_2O_3^{2-}+2H^+\rightarrow SO_2+S+H_2O$
 
 The addition of $Na_2CO_3$ acts to increase the alkalinity of the standard solution as $Na(aq)$ forms a strong base $NaOH$ where as $CO_3$ form a weak acid $H_2CO_3$. This increased alkalinity reduces the $H^+$ concentration pulling the above equilibrium to the left and stabilizing the $S_2O_3^{2-}$ concentration in the standard solution. 
