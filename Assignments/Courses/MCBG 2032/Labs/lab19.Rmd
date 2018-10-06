@@ -1,0 +1,26 @@
+---
+title: "Concepts, Lab 19: ECM and Cell adhesion"
+output: pdf_document
+---
+
+# Question #1
+Yes, In all three ECM proteins tested, namely collagen fibronectin and laminin, the presence of the protein considerable increase the extend of cell adhesion seen. 
+
+# Question #2
+Florescently tagged antibody molecules for the coating could be used to identify the presence of a particular coating material as in a bio-assay. Alternative treatment with a protease solution followed by a protein/ amino acid test such as Buriet test would identify the presence of any protein based coat applied to the substrate. 
+
+# Question #3
+The three proteins all lead to increased cell adhesion, however some were a good deal more effective than others in increasing adhesion. with fibronectin increasing adhesion by more than twice as much as laminin (5.6, compared to 2.7 times more adhesion). Collagen had an intermediate effect increasing adhesion by 4.1 times. 
+
+# Question #4
+Yes, overall it would be expected than the same result would be obtained, in that the presence of ECM proteins would increase cell adhesion. This is because the ECM is pervasive throughout the body and cells across tissue types interact with the ECM, adhering to it, either predominately for the purpose of stability or temporarily as in the cell migration. The only possible exceptions which might occur would be in lymphoblastic cell lines, which are normally suspended in solution and do not typically adhere to a substrate in any case, and in aggressive cancer cell lines in which natural cell adhesion features/ capabilities have become seriously mutated. 
+
+The relative degree to which different ECM proteins increase binding, would not necessary be conserved between different cell lines however, as ECM binding sites may differ between cells of different tissues, as well as the strength / permanence of adhesion. The adhesion of an squamous epithelial cell line for example may be more responsive to collagen (IV) due to its prevalence in the basal laminae associated with squamous epithelial surfaces, whereas other tissue types would respond more strongly to fibronectins in highly structured tissue, or laminin if layering of cells was present. The Precise cellular receptors for integrin, fibronectin and collagen may also vary leading to variation in the increased adhesion based on the affinity of their receptors for their substrate. 
+
+# Question #5
+Cell counting could provide some form of quantification, which would at least form an improvement on rough estimation, however this method would also be slow and subject to inaccuracy. Spectrophotometric methods would be more likely to yield accurate results, for example by, dying all cells, washing away not adhered cells, and then lysing cells to release the dye into solution the absorbance of which could be measured. 
+# Question #6 
+
+ #. Collagen: $\alpha_1\beta_1$, $\alpha_2\beta_1$$\alpha_{10}\beta_1$,$\alpha_{11}\beta_1$
+ #. Fibronectin: $\alpha_3\beta_1$, $\alpha_4\beta_1$, $\alpha_5\beta_1$, $\alpha_8\beta_1$, $\alpha_ V\beta_1$, $\alpha IIb\beta_3$, $\alpha V \beta_6$, $\alpha_4\beta_7$
+ #. Laminin. $\alpha_3\beta_1$, $\alpha_6\beta_1$,$\alpha_6\beta_4$, $\alpha_7\beta_1$, $\alpha_9\beta_1$, 

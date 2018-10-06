@@ -3,7 +3,7 @@ title: "Experiment A6: Gravimetric Analysis"
 author: "Keelan Krinsky: 1634953"
 output: pdf_document
 ---
-\textbf{Full title:} Determination of the concentration of sulphate in epsomsalts.\newline $\quad$\newline
+\textbf{Full title:} Determination of the concentration of sulphate in Epsom salts.\newline $\quad$\newline
 \textbf{Demonstrator:}\newline $\quad$\newline
 \textbf{Group:} 7\newline$\quad$\newline
 \textbf{Date Performed:} 17/09/2018\newline 
@@ -18,26 +18,44 @@ $\quad$\newline
 
 \newpage
 
+
+```{r, echo=FALSE}
+tP<-c(96.056/(96.056+24.305+7*(1.008+15.999))*100)
+```
+
 # Aims 
   #. Determination of sulphate concentration in Epsom salt sample by:
-     #. dissolution of espom salt sample in heated water accidifed with HCl. 
+     #. Dissolution of Epsom salt sample in heated water acidified with HCl. 
      #. Precipitation of dissolved sulphate as $BaSO_4$ by addition of $BaCl$ solution
-     #. purification of $BaSO_4$ precipitate by digestion in heated mother solution. 
+     #. Purification of $BaSO_4$ precipitate by digestion in heated mother solution. 
      #. Filtration, dessication, and determination of dry mass of $BaSO_4$ precipitate.  
      
 # Introduction
+Epsom salt is an important commercial product, which acts as a purgative in personal care products such as health salts, or medically,  as an antitoxins/ antivenom in the treatment of snake and insect bites. (Hunter and Gibbins, 2011). Pure Epsom salts consist exclusively of magnesium sulphate heptahydrate crystals ($MgSO_4.7H_2O$), in which the concentration of sulphate by mass is uniformly $`r {round(tP,digits=2)}`$, in practice however this percentage may vary due to variation in the degree of hydration, or due to the presence of contaminants in the crystalline structure. (Dhandapani _et al_, 2006). 
 
-# Experimatal Procedure
-See second year analytic laboritory manual, pages 38-39 for full proceedure. 
-The following changes were made to the proceedure:
+The precise sulphate concentration can be accurately determined by dissolution of the Epsom salt sample followed by precipitation to form a highly insoluble sulphate salt. A very low solubility salt will by its nature form at higher purity, as most conceivable impurities will remain dissolved in solution at the concentrations present. Barium is often used to form this precipitate, as barium salts are notoriously insoluble, (Bałdyga and Orciuch 2001).In this process Dissolved sample it combined with dissolved barium chloride, as $BaCl$ is relatively soluble 37-39 g/100g, (Chemspider, 2018), and the following reaction occurs. \newline 
+
+ #. $BaCl_2(aq)+MgSO_4(aq)\rightarrow BaSO_4(s)+MgCl_2(aq)$
+
+From this reaction the only precipitate formed at the low concentration used is barium sulphate. However the barium sulphate precipitate can still become contaminated in its crystallisation. This contamination may result from adhesion/adsorption of other molecules/ ions to the forming crystals, which is mediated against by acidification of the reaction solution to increase the solubility of potentially adsorbed substances. Secondly contamination may also occurred via occlusion integration of contaminants, such as the $Cl^-$ and $Mg^{2+}$ ions present in solution, or other trace elements introduced due to experimental error or sample impurity. Occlusion is mediated against by digesting in which the crystal is left in content with the reaction solution allowing for continuous salvation and re-precipitation of the crystal affording molecules trapped within the crystal the chance to escape to solution. (Sunagawa, 2007) . 
+
+
+
+# Experimental Procedure
+See second year analytic laboratory manual, pages 38-39 for full procedure. 
+The following changes were made to the procedure:
 
 
  #. No lids were used in the ignition of weighing crucibles. 
  #. In the filtration of the $BaSO_4$ precipitate larger volumes of hot water ($50-100ml$) where used for each wash. 
 
-
 # Results
 
+## Experimental Data
+
+### Determination of sulphate concentration in Epsom salts
+
+#### Determination of mass of Epsom salt samples
 ```{r,echo=FALSE, warnings=FALSE}
 ws<-c(8.4783,10.0992)
 wr<-c(7.9370,9.5739)
@@ -59,7 +77,7 @@ library("kableExtra")
 T1d_latex<-knitr::kable(T1,"latex",row.names=NA,col.names=NA,caption="Masses of Epsom Salts samples used for analysis.", escape=FALSE)
 kable_styling(T1d_latex, latex_options = c("striped","hold_position", "bordered"))
 ```
-
+### Determination of mass of Barium sulfate salt produced. 
 
 ```{r,echo=FALSE, warnings=FALSE}
 c<-c(21.6976,19.8512)
@@ -80,19 +98,134 @@ colnames(T2)<-c("Analysis Number", "1", "2")
 
 library("kableExtra")
 
-T2d_latex<-knitr::kable(T2,"latex",row.names=NA,col.names=NA,caption="Masses of $BaSO_4$ precipitates attained from reaction of epsom salt soutions with excess barium chloride.", escape=FALSE)
+T2d_latex<-knitr::kable(T2,"latex",row.names=NA,col.names=NA,caption="Masses of $BaSO_4$ precipitates attained from reaction of Epsom salt solutions with excess barium chloride.", escape=FALSE)
 kable_styling(T2d_latex, latex_options = c("striped","hold_position", "bordered"))
 ```
 
-## Experimental Data 
+
 
 ## Calculations
 
+### Sample 1
+
+```{r, echo=FALSE}
+# Percentage mass of sulfate
+x=1
+MBaSO4<-c(233.389)
+MSO4<-c(96.056)
+
+P<-c(0)
+P[x]<-c(((mp[x]/MBaSO4)*MSO4)/(ms[x]))*100
+```
+
+
+Percentage by mass of sulfate=$\frac{\text{(Moles of sulfate)(molecular mass of sulfate)}}{\text{mass of sample}}$
+
+=$\frac{\text{(Moles of barium sulfate)(Molecular mass of sulfate)}}{\text{mass of sample}}$
+
+=$\frac{\frac{\text{Mass of $BaSO_4$}}{Molecular mass of BaSO_4}\text{(Molecular mass of sulfate)}}{\text{mass of sample}}$ 
+
+=$\frac{\frac{`r mp[x]`}{`r {MBaSO4}`g \cdot mol^{-1}}(`r MSO4` g \cdot mol^{-1})}{`r ms[x]`g}$ 
+
+=$`r {round(P[x] ,digits=2)}`\%$
+
+### Sample 2
+
+```{r, echo=FALSE}
+# Percentage mass of sulfate
+x<-c(2)
+
+
+P[x]<-c(((mp[x]/MBaSO4)*MSO4)/(ms[x]))*100
+```
+
+
+Percentage by mass of sulfate=$\frac{\text{(Moles of sulfate)(molecular mass of sulfate)}}{\text{mass of sample}}$
+
+=$\frac{\text{(Moles of barium sulfate)(Molecular mass of sulfate)}}{\text{mass of sample}}$
+
+=$\frac{\frac{\text{Mass of $BaSO_4$}}{Molecular mass of BaSO_4}\text{(Molecular mass of sulfate)}}{\text{mass of sample}}$ 
+
+=$\frac{\frac{`r mp[x]`}{`r {MBaSO4}`g \cdot mol^{-1}}(`r MSO4` g \cdot mol^{-1})}{`r ms[x]`g}$ 
+
+=$`r {round(P[x] ,digits=2)}`\%$
+
+### Relative standard error
+```{r,echo=FALSE}
+
+sd<-c(sd(P))
+AP<-mean(P)
+RSD<-c(sd(P)/AP)*100
+```
+
+
+$RDS=\frac{s}{\bar{x}}\cdot 100\%=\frac{`r {round(sd(P),digits=7)}`}{`r {AP}`}\cdot 100\%=`r {round((RSD),digits=3)}`\%$
+
+### Theoretical value
+
+```{r, echo=FALSE}
+tP<-c(96.056/(96.056+24.305+7*(1.008+15.999))*100)
+```
+
+Percentage by mass of sulphate=$\frac{96.056g\cdot mol^{-1}}{96.056+24.305+7(1.008+15.999)}=`r {round(tP,digits=2)}`\%$
+
+### Percentage Error 
+
+```{r echo=FALSE}
+t<-c(46.34)
+
+AE<-c(((t-P)/t)*100)
+
+```
+
+The percentage error of the percentage by mass of $SO^{2-}_4$ sulphate in Epsom salt sample, calculated using the true value is $`r {round(AE[1], digits=2)}`\%$ for sample 1 and $`r {round(AE[2], digits=2)}`\%$ for sample two. 
+
+
 # Discussion 
+In both samples one and two analysed the content of sulphate by mass, $`r {round(P[1] ,digits=2)}`\%$ and $`r {round(P[2] ,digits=2)}`\%$ respectively where considerable lower than the theoretical value of the pure sample, and significantly lower than the true value for that analyte, different from the true by 15-25\%. There was also a high degree of variation between samples present, with a relative standard error of almost 8% for the final percentage sulphate concentration by mass. 
+
+The extent of variability seen, and the resulting poor accuracy and precision, may be explainable in part by the extent of hydration of the samples used. Although the final barium sulphate precipitate was dessicated before weighing the same procedure was not performed for the Epsom salt samples, which were exposed to atmosphere for a reasonable duration (10-15 minutes) during the weighing process. During this time the samples may have absorbed additional water vapour from the atmosphere leading to an artificially raised mass, and a lower than expected sulfate percentage. It is also possible that variation between samples resulted in part from different exposure times to the atmosphere during the weighing process. Potential errors resulting from this atmospheric exchange could be minimised by reducing weighing time, and keeping samples in sealed containers between weighing and salvation. 
+
+Another possible source of variation could be contamination to the samples used. Calcium contamination in the form of calcium sulphate for example could lead to increased molecular weight decreasing the expected mass percentage of sulphate. 
+
+In conclusion, the lower than expected percentage sulphate content by mass, and the large variation between the two experiments may be explained by variation in the degree of hydration of the samples, and potential contamination within the samples. 
+
 
 # References
 
- #. University of the Witswaterstrand; School of Chemistry, 2018, Second Year analytical laboritory manual, Johannesburg,South Africa, pp 37-38
+Bałdyga J., Orciuch N.(2001), Barium sulphate precipitation in a pipe — an experimental study and CFD modelling, _Chemical Engineering Science_, Volume 56, Issue 7, 2435-2444
+
+Chemspider, Barium chloride, http://www.chemspider.com/Chemical-Structure.23540.html, accessed 27/09/2018.
+
+Dhandapani, M. , Thyagu, L. , Prakash, P. A., Amirthaganesan, G. , Kandhaswamy, M. A. and Srinivasan, V. (2006), Synthesis and characterization of potassium magnesium sulphate hexahydrate crystals. Cryst. _Res. Technol._, 41: 328-331
+
+Hunter, L. A. and Gibbins, K. J. (2011), Magnesium Sulfate: Past, Present, and Future. _Journal of Midwifery and Women s Health_, 56: 566-574
+
+Sunagawa, I. (2007). Crystals: growth, morphology, and perfection. Cambridge University Press, Morphology of polyhedral crystals, 356-359
+
+University of the Witwatersrand; School of Chemistry, 2018, Second Year analytical laboratory manual, Johannesburg,South Africa, pp 37-38
+
+
+
+
+
+
+# Questions
+
+## Final concentration of HCl before addition of $BaCl_2$
+```{r, echo=FALSE}
+CHCl<-c(2*(6/170))
+
+r<-c((CHCl-0.05)/CHCl*100)
+
+```
+Final concentration=$2mol\cdot L^{-1}\cdot\frac{0.006}L{0.170L}=`r round(CHCl, digits=4)`$ . This value is reasonable close to the 0.05M concentration recommended, falling in the same order of magnitude, however it is slightly high, exceeding the recommended dosage by about 30\%. 
+
+## Step twelve
+The silver ions $Ag^+$ from the silver nitrate added will react with any sulphate still present in solution to form a white precipitate causing the solution to become cloudy, only if not sulfate is left in solution will it remain clear. 
+
+## Interfering ions
+Magnesium ions present in the original Epsom salt sample as well as chloride ions from the barium chloride added may interfere with the sample to a limited extent, contaminating the barium sulfate salt produced by occlusion and adhesion. Other group low molecular weight two cation contaminants present could also seriously affect the results forming insoluble precipitates with sulfate of a different molecular weight to the barium sulfate expected. 
 
 
 

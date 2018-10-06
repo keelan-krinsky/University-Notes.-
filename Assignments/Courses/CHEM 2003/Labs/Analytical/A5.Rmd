@@ -1,0 +1,192 @@
+---
+title: "A5: Spectrophotometric analysis"
+output: pdf_document
+---
+
+Name: _Keelan Krinsky_\newline 
+Date: _25/09/2018_\newline 
+Full Title: Determination of phosphate concentration in Coca Cola. 
+
+
+# Aim. 
+The aim phosphate concentration in Coca cola sample by: \newline 
+
+  #. Preparation of standard curve for absorbance of molybdovanadophosphoric acid at 400nm. 
+      #. Preparation of a range of phosphate standards
+      #. Reaction with Ammonium molybdate and metavanadate to form molybdovanadophosphoric acid standard solutions. 
+      #. Assessment of absorbance of molybdovanadophosphoric acid standard solutions at 400nm by photospectrometry.
+  #. Reaction of Coca Cola samples with Ammonium molybdate and metavanadate to form molybdovanadophosphoric acid standard solution. 
+  #. Assessment of absorbance of molybdovanadophosphoric acid solutions at 400nm by photospectrometry. 
+  
+# Proceedure
+
+```{r,echo=FALSE, warnings=FALSE}
+p<-c(0,8.0,16,24,32,40,0,0,0)
+C<-c(20*p/100)
+
+x=(7:9)
+C[x]<-("Unknown")
+
+A<-c("NA",0.024,0.093,0.120,0.187,0.240,0.127,0.125,0.126)
+
+
+T1<-data.frame("p"=p,"C"=C,"A"=A)
+
+library(knitr)
+colnames(T1)<-c("Volume of phosphate standard added (mL)", "Concentration of $PO_4^{3-}$ solution ($mg \\cdot L^{-1}$)", "Absorbance at 400nm")
+
+library("kableExtra")
+
+T1d_latex<-knitr::kable(T1,"latex",row.names=NA,col.names=NA,caption="Volumetric prepation of phosphate standards and related absorbance measures for standard and sample", escape=FALSE)
+kable_styling(T1d_latex, latex_options = c("striped","hold_position", "bordered"),"scale_down")
+```
+
+```{r, echo=FALSE}
+# Graph of phosphate concentration 
+
+x<-c(2,3,4,5,6)
+Ca<-c(C[x])
+Aa<-A[x]
+
+Ca<-c(1.6,3.2,4.8,6.4,8)
+Aa<-c(0.024,0.093,0.12,0.187,0.24)
+Ma<-c(Ca*100)
+
+plot(Ma,Aa, xlab=expression(~"Mass of Phosphate("~mu~"g)"), ylim=range(c(0,0.3)), xlim=range(c(0,1000)), ylab="Absorbance")
+abline(lm(Aa~0+Ma), col="blue")
+int<-c(0)
+sl<-c(lm(Aa~0+Ma)$coefficients[1])
+
+
+
+
+R2<-c(cor(Ma,Aa))^2
+
+
+text(200,0.2,"Y = 0.2861 X")
+text(200,0.15,"R squared = 0.9876066")
+text(610,0.13,"-Average Cola sample")
+points( c((0.127+int)/sl), 0.127,pch=20)
+x<-c((0.126+0.025)/0.032875)
+
+```
+
+## Equation of the line: 
+$y =0.2861x$
+
+## Calculation of Concentration of $PO_4^{3-}$ in aliquot (ppm)
+
+```{r, echo=FALSE}
+x<-1
+AvA<-c(0.127,0.125,0.126)
+
+AvM<-c((AvA-int)/sl)
+
+AvC<-(AvM/5)
+```
+
+### Aliquot 1
+
+#### Mass of phosphate in each aliquot
+Mass derived from equation of line of best fit =$`r {round(AvM[x], digits=2)}` \mu g$ 
+
+#### Concentration
+
+Concentration in aliquot = $\frac{`r {round(AvM[x], digits=3)}` \mu g}{0.005L}=`r {round(c(AvC[x]), digits=2)}`  \mu g \cdot mL^{-1}$
+
+### Aliquot 2
+```{r, echo=FALSE}
+x<-2
+```
+
+
+#### Mass of phosphate in each aliquot
+Mass derived from equation of line of best fit =$`r {round(AvM[x], digits=2)}` \mu g$ 
+
+#### Concentration
+
+Concentration in aliquot = $\frac{`r {round(AvM[x], digits=3)}` \mu g}{0.005L}=`r {round(c(AvC[x]), digits=2)}`  \mu g \cdot mL^{-1}$
+
+### Aliquot 3
+```{r, echo=FALSE}
+x<-3
+```
+
+
+#### Mass of phosphate in each aliquot
+Mass derived from equation of line of best fit =$`r {round(AvM[x], digits=2)}` \mu g$ 
+
+#### Concentration
+
+Concentration in aliquot = $\frac{`r {round(AvM[x], digits=3)}` \mu g}{0.005L}=`r {round(c(AvC[x]), digits=2)}`  \mu g \cdot mL^{-1}$
+
+
+
+## Concentration of phosphate in Cola sample 
+
+ Concentration of phosphate in cola sample =10 times the concentration in alliquot. 
+ 
+ Predicted from Aliquot 1= $`r {round(c(AvC[x]*10), digits=0)}` mg \cdot L^{-1}=`r {round(c(AvC[x]*10), digits=2)}`ppm =`r {round(AvC[x],digits=1)}`\% m/v$ 
+```{r, echo=FALSE}
+x<-2
+```
+
+ Predicted from Aliquot 1= $`r {round(c(AvC[x]*10), digits=0)}` mg \cdot L^{-1}=`r {round(c(AvC[x]*10), digits=0)}`ppm = `r {round(AvC[x],digits=1)}`\% m/v$ 
+
+```{r, echo=FALSE}
+x<-3
+```
+
+ Predicted from Aliquot 1= $`r {round(c(AvC[x]*10), digits=0)}` mg \cdot L^{-1}=`r {round(c(AvC[x]*10), digits=0)}`ppm = `r round(AvC[x], digits=1)`\% m/v$ 
+ 
+ Average = $`r {round(mean(AvC*10),digits=0)}`ppm = `r {round(c(mean(AvC)))}`\% m/v$
+
+## Relative standard error
+
+```{r, echo=FALSE}
+
+AS<-c(0.127,0.125,0.126)
+CS<-c(((AS-int)/sl)*10)
+
+RSE<-c(sd(CS/mean(CS))*100)
+```
+
+Relative standard error (calculated off the final coca cola concentration calculated for each aliquot measured)=$`r {round(RSE, digits=3)}`\%$
+
+# Questions 
+
+## 1 Are results significantly different from the stated value. 
+
+```{r, echo=FALSE}
+pe<-c((mean(AvM)/17)*100)
+
+
+```
+
+Percentage error=$`r {round(pe, digits=1)}`\%$>> 5\% so the results do significantly differ. 
+
+## 2. Why does the solution need to stand for 10 minutes?
+To allow time for the formation reaction in which phosphate is fixed into molybdovanadophosphoric acid to run to completion/ eqillibriate, only by ensuring that the final equilibrium is reached for all samples measured, is it possible to ensure that the conditions for molybdovanadophosphoric acid formation, and hence the relationship between absorbence and phosphate concentration has been standardized.  
+
+
+
+
+## 3. Discuss the function of the ammonium molybdate and vanadate solutions in this experiment.
+The ammonium molybdate and vanadate solutions allow for reaction of the phosphate to form molybdovanadophosphoric acid a colored (yellow orange color). This reaction is of vital importance as it links the concentration of the phosphate in the original solution, a colorless dissolved ion to the concentration of molybdovanadophosphoric acid, a chromophore, in the final solution in a directly proportional manner (provided standard amount/ concentration of ammonium molybdate and vanadate solutions are used). Thus the phosphate concentration can be directly tracked and extrapolated from the absorbance of the solution, (most accurate at the maximum absorbance wavelength of the molybdovanadophosphoric acid chromophore formed which is 400nm )
+
+
+## 4. Does the colour of the cola sample matter? Why? 
+Yes. The phosphate, and the molybdovanadophosphoric acid formed may not be the only compound within the sample with significant absorbance at 400nm. If the Cola sample is colored, it must absorb light within the visible light range, (350-700nm), and therefore is reasonable lightly to show at least some absorbance at 400, leading to a positive error, with predicted phosphate concentrations from absorbance readings higher than those actually present. Diluting the Cola sample helps to reduce any interference/ inaccuracy related to this effect. 
+
+## 5. Calculate the mass of phosphate in the sample.
+
+```{r,echo=FALSE}
+
+```
+Mass = Concentration x Volume \newline
+=$811 mg\cdot L^{-1}\cdot 0.010L=8.11mg$
+
+
+
+
+

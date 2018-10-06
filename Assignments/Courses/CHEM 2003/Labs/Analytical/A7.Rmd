@@ -1,0 +1,153 @@
+---
+title: "Experiment A7: Standard Addition"
+author: "Keelan Krinsky: 1634953"
+output: pdf_document
+---
+\textbf{Full title:} Analysis of Manganese content of Steel.\newline $\quad$\newline
+\textbf{Demonstrator:} Archibald\newline $\quad$\newline
+\textbf{Group:} 7\newline$\quad$\newline
+\textbf{Date Performed:} 25/09/2018\newline 
+
+$\quad$\newline
+$\quad$\newline
+$\quad$\newline
+$\quad$\newline
+$\quad$\newline
+
+![](Images/CS1.jpg)
+
+\newpage
+
+# Aims 
+
+ #. Preparation of permanganate ion containing solutions, with standard additions of Manganese. 
+    #. Preparation of Steel sample solution by solvation of steel sample in nitric acid. 
+    #. Preparation of Manganese standard, and addition of manganese standard to sample solutions to set up a range of added manganese concentrations. 
+    #. Oxidation of Manganese in sample solutions to form permanganate ions by addition of ammonium persulfate and potassium periodate, with gentle heating. 
+ #. Determination of absorbance at 525nm of Permanganate ion containing solutions
+    #. Blanking of spectrophotmeter with phosphoric acid solution
+    #. Determination of absorbance of Permanganate containing solutions. 
+
+# Introduction
+Manganese is vital constituent in many steels, playing an important role in determining their physical properties. Manganese acts as a macro alloying material, encouraging the formation of an austenite crystal phase,and in so doing decreasing density, and increasing the ductility, malleability, tensile strength, and thermomechanical processing capabilities of the steel. (Frommeyer _et al_, 2000) Particularly high Manganese contents (above 5\% by Mass) can even contribute to decreased steel hardening, acting to maintain malleability trough many stress strain cycles and across a broader temperature range (Bayraktar _et al_, 2004). The nature and extent of the effect which manganese content has on steel's properties is, however, highly dependent on the concentration of Manganese used, and so accurate determination of manganese content is an important consideration for quality control of steel (Shaberstari, 2004).
+
+As an analyte Manganese lends itself naturally to analysis via spectrophotometry, due to the intensely colored permanganate ions ($MnO_4^-$), which can be formed from the oxidation of metallic manganese in the crystalline steel structure. (Mehlig, 1935). 
+
+$Mn(s)\rightarrow Mn^{2+}+2e^-$\newline
+$Mn^2+4H_2O\rightarrow MnO_4^-+8H^++5e^-$. 
+
+This oxidation may be achieved by the any number of strong oxidizing agents, most commonly, as in this experiment persulfate and periodate are used (Mehlig, 1935). However, these strong oxidizing agents are not specific and can easily oxidize a variety of other metals, for example bismuth, lead, silver, mercury and many more, within the steel to produce colored ions which will affect the absorbance reading of the permanganate solution produced. (Hobart, 1917). As a result standard addition is required to eliminate this potential translational matrix effect. 
+
+
+# Experimental Procedure
+See second year analytic laboratory manual, pages 38-39 for full procedure. 
+The following changes were made to the procedure:
+
+ #. The steel solution was boiled for an additional 10 minutes (total of 20 minutes) before addition of ammonium persulfate. 
+ #. After addition of Phosphoric acid and $KIO_4$ samples were boiled for and additional 5 (total of 10) minutes. 
+
+# Results 
+
+## Experimental Results
+Figure one shows the absorbance against concentration of added Manganese for the 4 standard solutions and blank assessed in the experiment. Figure 2 shows the same data, but with the data point corresponding to the first standard (1ppm concentration of added Manganese), eliminated as an outlier.  
+
+```{r,echo=FALSE}
+
+# Concentrations. 
+C<-c(0,1,2,5,10)
+aC<-c(0,2,5,10)
+
+A<-c(0.152,0.049,0.153,0.183,0.231)
+aA<-c(0.152,0.153,0.183,0.231)
+
+
+R2<-c(cor(A,C))
+
+par(mar = c(12,5,2,2) )
+plot(C,A, ylab="Absorbance at 525nm",xlab="Concentration of added Manganese (ppm)", ylim=range(c(0,0.3)), xlim=range(c(-10,10)))
+abline(lm(A~C),col="blue")
+int<-c(lm(A~C)$coefficients[1])
+sl<-c(lm(A~C)$coefficients[2])
+
+text(-7,0.25,expression(R^2~"=0.7567286"))
+text(-5,0.20,expression(bold(y)~"=0.01250307"~bold(x)~"+0.108589"))
+points(c(-int/sl),0,pch=20)
+text(-6,0,"-x intercept value")
+title(sub="
+Figure 1: Plot of absorbance vs Concentration of added Manganese, for the \n standard addition of Manganease to a steel sample. The absorbance of\n a steel sample dissolved in nitric acid and reacted with potassium \niodate and ammonium persulfide was assessed at 525nm. The \n absorbance of samples to which manganeses standard was added \n to achieve the given concentration, was also assessed and plotted.",cex.sub=1, line=10 )
+```
+
+
+
+```{r,echo=FALSE}
+
+# Concentrations. 
+C<-c(0,1,2,5,10)
+aC<-c(0,2,5,10)
+
+A<-c(0.152,0.049,0.153,0.183,0.231)
+aA<-c(0.152,0.153,0.183,0.231)
+
+
+
+R2<-c(cor(aA,aC))
+
+par(mar = c(12,5,2,2) )
+plot(aC,aA, ylab="Absorbance at 525nm",xlab="Concentration of added Manganese (ppm)", ylim=range(c(0,0.3)), xlim=range(c(-20,10)))
+abline(lm(aA~aC),col="blue")
+int<-c(lm(aA~aC)$coefficients[1])
+sl<-c(lm(aA~aC)$coefficients[2])
+
+text(-15,0.25,expression(R^2~"=0.9825297"))
+text(-12,0.20,expression(bold(y)~"=0.008374"~bold(x)~"+0.144159"))
+points(c(-int/sl),0,pch=20)
+text(-13,0,"-x intercept value")
+title(sub="
+Figure 2: Plot of absorbance vs Concentration of added Manganeses for the \n standard addition of Manganease to a steel sample. The absorbance of\n a steel sample dissolved in nitric acid and reacted with potassium \niodate and ammonium persulfide was assessed at 525nm. The \n absorbance of samples to which manganeses standard was added \n to achieve the given concentration, was also assessed and plotted.",cex.sub=1, line=10 )
+```
+
+## Calculations
+
+### Concentration of Manganeses in Sample solution
+The concentration of Manganese in the sample solutions tested is given by the negative of the x intercept of the line of best fit plotted in Figure 1 above, as this value will give the concentration corresponding to the additional signal (absorbance in this case), present across all samples, due to Manganese present in the original steel solution.  \newline
+
+```{r, echo=FALSE}
+
+Cms<-c(int/sl)
+```
+
+Concentration of Manganese in sample solutions tested=$`r {round(Cms,digits=2)}`\,ppm$
+
+### Concentration of manganese in original steel solution
+```{r,echo=FALSE}
+
+Cmo<-Cms*20
+```
+Concentration of Manganese in original steel solution=$`r {round(Cms,digits=2)}`\,ppm\cdot \frac{100ml}{5ml}=`r {round(Cmo,digits=1)}`\,ppm$
+
+
+#### Concentration by Mass
+
+```{r, echo=FALSE}
+mS<-c(10.4590-9.4876)
+
+mp<-c(((Cmo*0.1*0.001)/mS)*100)
+```
+Concentration of Manganese in Steel sample by mass=$\frac{`r {round(Cmo,digits=1)}`mg\cdot L^{-1}\cdot 0.1000L}{`r mS`g}\cdot 100\%=``r {round(mp,digits=2)}`\%$
+
+# Discussion
+The coefficient of determination for the linear regression of absorbance with concentration (using the least squared method), is very low in analytic terms ($\approx 0.75$) when all experimental results obtained are considered. However, the absorbance reading for the first standard solution, (1ppm concentration of added Manganese) falls considerable bellow the regression line. This unusually low absorbance is very  unlikely to have resulted purely from natural variation, in the sampling or sample method, as its absorbance is also well below that of the blank despite the addition of manganese standard solution, which would be expected to increase the final permanganate ion concentration and hence the absorbance at 525nm as it did in the case of the other three standards. It is most likely that a serious error in the experimental process occurred in the preparation of this standard, possibly by omission of an oxidizing agent such as $KIO_4$ implying that only limited oxidation to form permanganate ions would take place. 
+If the first standard solution is eliminated as a outlier, then a far higher coefficient of determination is achieved $0.983$, which falls closer in line with the small degree of natural variation expected in a determination, indicating a reasonably high level of experimental precision. As the true value of Manganese concentration is unknown only limited comment can be made on the accuracy of the determination. however it can be said that the value obtained $\approx 4\%$ by mass is towards the upper end of a reasonable range it which the concentration can be expected to fall based on the Manganese concentration present in common industrial alloys which typically vary from 1-5%. 
+
+# References
+
+Bayraktar E., Fazal A. K., Levaillant C, (2004). Deformation and fracture behavior of high manganese austentitic steel, _Journal of Materials Processing Technology_ , 147, 2: 145-154
+
+Frommeyer G., Drewes E., Engl B.,(2000), Physical and mechanical properties of iron-aluminium-(Mn, Si), _Revue De Metallurgie_, 97,10:1245-1253 
+
+Hobart H. W., Greathouse, L. H. (1917), The colorimetric determination of manganese by oxidation with periodate, _Journal of the Americal Chemical Society_, 39, 11: 2366-2377
+
+Mehlig J. P, (1935),Spectrophotometric determination of manganese in steel,_Industrial and Engineering Chemistry Analytical Edition_, 7,1: 27-29
+
+Shaberstari S. G., (2004), The effect of iron and manganese on the formation of inter-metallic compounds in aluminum-silicon alloys, _Materials Sicents and Engineering_, 383, 2: 289-298
+
