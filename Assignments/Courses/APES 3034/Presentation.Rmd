@@ -1,12 +1,20 @@
 # Presentation
 
-## Slide #1
- #. Over a million species globally rely on tropical freshwater ecosystems for survival. 
-  #. Picture of Variety of species/genera. 
+ #. Globally, $>1 000 000$ species globally rely on tropical freshwater ecosystems for their survival. 
+  
+  ---
 
 ## Slide 2
  #. Human pollution is leading to deterioration in water quality 
     #. Picture of anthropic pollution. 
+
+
+
+---
+
+---
+
+
 
 ## Slide 3 
   #. Global warming
@@ -25,3 +33,34 @@ Although Most crab species are marrine, One fith of all crabs are reshwater.
         #. Gecarinucodiea, Potamoidea, Psuedothelphusodiea, Trichodactyloidea. 
     #. Largesest Assemblage in Branchyra, most species rich of all decapod groups. 
 
+ #. medical importance as paragonimiasis hosts in Asiea Africa and Neotropics, (food borne zoonosis)
+    #. 20 million people infected world wide. 
+    #. Biting blackfly. _Simulium spp_, 
+      #. Vector of infection for parasite _Onchocerca volvultus_, river blindness (onchocerciassis in Africa.). 
+      
+#. Great ecological importance. 
+  #. Found in almost all clean bodies from moist lowland forests to rugged mountains. 
+  #. rivers streams waterfalls karsts and caves. 
+  
+  #. many are semo terrestrial. 
+  #. Almost all require prestine water conditions to survive and are excellent indicators of good water quality. 
+  #. Omnivors some tend more to carnivory some tend more to herbivory (leaves fallen leaves algae and beechnuts), (Aquatic insects, gastropods dead frogs or snakes. ), detrivours in nutrient cycling. 
+  #. detritus shredding giuld in Africa, 88-94\% of overall biomass in the streams and debris dams in the eastern Usambara Mountains of Tanzania. 
+  #. Very important to dynamics of nutrient cycling. 
+  #. food for a wide range of predators,
+      #. Otters, mongooses, civets, kites, ergets, herons, and kingfishers, eels bullfrogs, toads, monitor lizards and crocodiles. 
+        #. Pseudothelphusids preyed upon by turtles and capuchin monkeys, and in Asia fresh preyed upon by wild boar. and stream snakes. (_Opisthrotropis kikuzatoi_)
+        #. Case study
+          #. Invasive north american crayfish, out competed replaced native crabs, decrease in clawless otter populations. 
+          #. Fragmented freshwater habitats 
+ #. Low fercundity, direct development and low vagility, frequent isolation and allopatric speciation, high levels of endemism. 
+ #. Niche specialisation sympatric speciation leadinging to increased diversity. One site five species occupying different habitats. 
+ #. Studies in malasia suggest that freshwater crabs may face the same fate. 
+ #. 2008 IUCN Red list threatened species (within all five major families), increase from 93 is Asia and Africa to 1280 globally. 
+
+Wide spread destruction of tropical environments etc.           
+
+  #. basis of small scale fisheries (Lakes malawi and Tanganyika in East africa). 
+  
+  
+  

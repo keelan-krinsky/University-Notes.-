@@ -1,0 +1,13 @@
+---
+title: "Presentation on Fresh Water Crabs Research paper; Full script"
+output: pdf_document
+---
+# Setting the scene
+Over a million species globally rely on tropical freshwater ecosystems for survival.
+
+
+# Questions 
+
+Slide 4. 
+
+To understand the importance of freshwater crabs, requires a breif background on what exactly are freshwater crabs, 
