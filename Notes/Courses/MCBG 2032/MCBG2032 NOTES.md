@@ -223,12 +223,31 @@ The substance to enter to the cell binds a cell surface receptor. These substanc
 
 
 # Tomorrows Prac
-Very simple prac with lots of time for prelab test. 
-Strict ethical regulation on animal experimentation lead to more tissue culture, live mammalian cells. Cells are easily destroyed. Confluence leads to death, trypsin EDTA or a combination can be used to split cells. Warm on palm of hand as mammalian cells. Danger of tissue culture is that must remove majority of cells, so record time taken to come off. 
 
+
+Very simple prac with lots of time for prelab test. 
+Strict ethical regulation orelease some material to the exterior of the cell, in general this process is reffered to a secretion. n animal experimentation lead to more tissue culture, live mammalian cells. Cells are easily destroyed. Confluence leads to death, trypsin EDTA or a combination can be used to split cells. Warm on palm of hand as mammalian cells. Danger of tissue culture is that must remove majority of cells, so record time taken to come off.
 
 #### Bulk-phase endocytosis (Pinocytosis)
 The bulk intake of fluid from the surrounding medium. There is no specificity in this intake method, any molecules in solution will automatically enter the cell.
 
 #### Phagocytosis
 The material entering the cell is usually large aggregates of molecules parts of cells, and sometimes whole cells. The process resembles receptor mediated, but it is limited to particular cell types. But it is restricted to certain cell types such as, and MAST cells. Look at cells first, must be able to see cells on the bottom of the dish. Don't confuse colonies with cells. The biological waste must go in the receptacle. 
+
+## Review
+Pinocytosis /bulk phase, phagocytosis, receptor mediated take up. 
+
+### Receptor mediated 
+Clathrin coated pits, with a basket network of fibres on the inside formed by invagination of the cell membrane. Substances are taken up in at these pits by endocytosis vesicles. During vesicle movement and fusion the substances in the vesicle are released from the receptors and sorted. 
+
+### Sorting 
+Interaction between a signal on endocytosis ligand and receptors on the endocytosis vesicle. (See Diagram). The endocytosis substances may proceed to the ER, the Golgi complex of the lysosomes. This movement is possible in the original endocytosis vesicles or in smaller vesicles which pinch off off from the endocytosis vesicles. The sorting also results in  a set of vesicles being re-routed back to the plasma membrane, (secondary re-routing). Clearly fusion with the lysosomes would expose the contents (internalised receptor or ligand to lysosomal enzymes, leading to enzymatic degradation . The material which returns to the plasma membrane is plasma membrane via exocytosis, This does not happen to every receptor which may be re-introduced into the plasma membrane via exocytosis. This does not happen to very receptor which in endocytosis, but when re-introduction does occur the process in known as receptor recycling. 
+
+>NOTE: not everything degraded in lysosomes is waste, they also are in cellular metabolism. 
+
+### Homeostasis (Exocytosis )
+See diagram 
+Most cells manufacture and release some material to the exterior of the cell, in general this process is referred to as secretion. Example's of exocytosis molecules, hydrolytic / digestive enzymes various proteins peptides and steroid hormones the components of the extra-cellular matrix. The variety of substances used as neurotransmitters and a range of growth factors. Material to be released is enclosed in small membrane bound vesicles, which travel through the cytoplasm and fuse with the plasma membrane, resulting in the release of the condense to the exterior depending on the type of molecules excreted theses vesicles are given different names, secretory  granules (granulocytes) zymogen granules, (contain precursors, usually of enzymes, inactive enzymes, synaptic vesicles ()contain neurotransmitters. The intracellular route by which materials are packaged depends on the type of material most proteins polysaccharides and proteoglycans are packaged via the ER and Golgi.  Smaller molecules such as neurotransmitters of catecholamines epinephrine , are synchronized in the cytoplasm and selectively transported into performed vesicles. 
+
+#### Frequency 
+In certain cases secretion is continuous for example antibodies synthesized by the plasma cells of the immune system. In other cases the material is synthesized and stored in a secretory vesicles, only released when the cell is stimulated by the appropriate signal. Such signals are commonly hormones or neurotransmitters. A common factor which triggers exocytosis in mant cells in response to a variety of stimulatae is a rise in the concentration of intracellular 

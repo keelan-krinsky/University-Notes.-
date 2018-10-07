@@ -207,7 +207,7 @@ arrows(0,4.5,88,4.5, length=0,col="blue")
 arrows(0,5.4,115,5.4, length=0,col="blue")
 arrows(0,5.9,151,5.9, length=0,col="blue")
 arrows(0,6.4,244,6.4, length=0,col="blue")
-
+help(t.test)
 
 text(70,3.7,"E/F")
 text(100,4.8,"D")

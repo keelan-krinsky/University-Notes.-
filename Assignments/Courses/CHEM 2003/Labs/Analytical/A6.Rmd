@@ -40,7 +40,6 @@ The precise sulphate concentration can be accurately determined by dissolution o
 From this reaction the only precipitate formed at the low concentration used is barium sulphate. However the barium sulphate precipitate can still become contaminated in its crystallisation. This contamination may result from adhesion/adsorption of other molecules/ ions to the forming crystals, which is mediated against by acidification of the reaction solution to increase the solubility of potentially adsorbed substances. Secondly contamination may also occurred via occlusion integration of contaminants, such as the $Cl^-$ and $Mg^{2+}$ ions present in solution, or other trace elements introduced due to experimental error or sample impurity. Occlusion is mediated against by digesting in which the crystal is left in content with the reaction solution allowing for continuous salvation and re-precipitation of the crystal affording molecules trapped within the crystal the chance to escape to solution. (Sunagawa, 2007) . 
 
 
-
 # Experimental Procedure
 See second year analytic laboratory manual, pages 38-39 for full procedure. 
 The following changes were made to the procedure:
