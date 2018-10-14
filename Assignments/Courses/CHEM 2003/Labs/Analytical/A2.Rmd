@@ -1,0 +1,406 @@
+---
+title: "Experiment A2: Complexometric Titration"
+author: "Keelan Krinsky: 1634953"
+output: pdf_document
+---
+\textbf{Full title:} Determination of Hardness of water\newline $\quad$\newline
+\textbf{Demonstrator:} Siya\newline $\quad$\newline
+\textbf{Group:} 7\newline$\quad$\newline
+\textbf{Date Performed:} 03/10/2018\newline 
+
+$\quad$\newline
+$\quad$\newline
+$\quad$\newline
+$\quad$\newline
+$\quad$\newline
+
+![](Images/CS1.jpg)
+
+\newpage
+
+# Aims
+ #. Preparation of $\approx 0.005M$ EDTA standard
+ #. Determination of Calcium and Magnesium concentration in tap water by titration with EDTA, at pH 10 using Mercurochrome Black T indicator. 
+ #. Determination of Calcium concentration in tap water by titration with EDTA standard in alkaline solution using demure indicator. 
+ #. Determination of Magnesium concentration in tap water by difference calculation
+
+# Introduction
+Tap water contains several mineral ions in reasonable high concentrations in particular mineral ions containing Calcium and magnesium, which enters the water bodies through the natural weathering of calcium and magnesium containing rocks (Geoffrey, 2007). Calcium and Magnesium concentrations form an important component in the monitoring of drinking water because they are closely related to the development of a number of serious diseases including heart disease and various forms of cancer (Leurs ,2010)  Within water bodies calcium and magnesium typically exist in the form of suspended of dissolved salts such as carbonates. (McCreaon J. M. 1950). 
+These salt forms are prone to precipitation, and as such as said to constitute the hardness of the water, although as Magnesium concentration is typically considerably lower than Calcium concentration hardness is often expressed merely as Calcium ion concentration. (Weingartner, 2006)
+
+Calcium (and or Magnesium) ion concentration can be assessed by titration with a suitable chelating agent, such as for example Ethylenediaminetetraacetic Acid (EDTA). EDTA is a useful chelating agent as it will readily and rapidly react in a one to one ratio with metal cations to form reasonably stable complexes. However EDTA must be in its fully deprotonated form to form such complexes and as such a strongly basic environment must be maintained throughout the titration (Yoe, 1958).
+
+The issue associated with EDTA however is that it is not specific to a given metal cation but will complex with all metal cations present in solution. Particularly in the case of determining Ca concentration any EDTA added will complex with Mg as well as Ca present in the analyte. This issue can be overcome by the use of an appropriate indicator. For example instead of an indicator such as Eriochrome Black which changes color only when EDTA is in excess and therefore available to complex with it, an indicator such as murexide forms a stable colored complex with Mg ions in the sample. Addition of EDTA first acts to chelate Ca, and then only acts to attack the stable magnesium complexes formed leading to a color change marking the endpoint of the titration. (Flaschka, 2013)
+
+
+
+# Results
+
+## Experimental Results
+
+### 1) Preparation of EDTA standard solution. 
+
+```{r, echo=FALSE}
+med<-c(9.9695-9.5254)
+```
+
+Mass of EDTA used in standard= $9.9695g-9.5254g=`r med`g$
+
+### 2) Titration of Tap water with EDTA standard solution at pH 10 using Eriochrome Balck T indicator. 
+
+```{r,echo=FALSE, warnings=FALSE}
+iv<-c(0.25,14.30,0.18)
+fv<-c(14.29,27.52,13.30)
+va<-c(fv-iv)
+
+C1<-c(fv[1],iv[1],va[1])
+C2<-c(fv[2],iv[2],va[2])
+C3<-c(fv[3],iv[3],va[3])
+
+rn<-c("Final Reading/ml", "Initial Reading/ml","Volume of EDTA solution delivered/ml")
+
+T1<-data.frame("rn" =rn, "C1"=C1, "C2"=C2,"C3"=C3)
+
+library(knitr)
+colnames(T1)<-c("Titration Number", "1", "2", "3")
+
+library("kableExtra")
+
+T1d_latex<-knitr::kable(T1,"latex",row.names=NA,col.names=NA,caption="Volumes of EDTA standard solution titrated in the determination of Ca and Mg content of tap water", escape=FALSE)
+kable_styling(T1d_latex, latex_options = c("striped","hold_position", "bordered"))
+
+
+
+```
+
+
+### 3) Titration of Tap water with EDTA standard solution under alkaline conditions using murexide indicator to determine Calcium content. 
+
+```{r,echo=FALSE, warnings=FALSE}
+
+civ<-c(0.21,8.68,24.00)
+cfv<-c(8.68,17.18,32.38)
+cva<-c(cfv-civ)
+
+C1<-c(cfv[1],civ[1],cva[1])
+C2<-c(cfv[2],civ[2],cva[2])
+C3<-c(cfv[3],civ[3],cva[3])
+
+rn<-c("Final Reading/ml", "Initial Reading/ml","Volume of EDTA solution delivered/ml")
+
+T1<-data.frame("rn" =rn, "C1"=C1, "C2"=C2,"C3"=C3)
+
+library(knitr)
+colnames(T1)<-c("Titration Number", "1", "2", "3")
+
+library("kableExtra")
+
+T1d_latex<-knitr::kable(T1,"latex",row.names=NA,col.names=NA,caption="Volumes of EDTA standard solution titrated in the determination of Ca content of tap water", escape=FALSE)
+kable_styling(T1d_latex, latex_options = c("striped","hold_position", "bordered"))
+```
+
+
+## Calculations
+
+### Concentration of EDTA standard solution
+```{r, echo=FALSE}
+ced<-c((med/372.24)/0.25)
+```
+
+
+Concentration of EDTA standard solution=$\frac{\frac{`r med`g}{372.24g\cdot mol^{-1}}}{0.2500L}=`r {round(ced, digits=7)}`M$
+
+### Concentration of Mg and Ca in Tap water 
+
+#### Titration #1
+
+```{r, echo=FALSE}
+x<-1
+Med<-c(va[x]*ced)
+
+```
+
+
+##### Moles of EDTA titrated
+Moles of EDTA titrated=$`r {round(Med[x],digits=6)}` mol$
+
+##### Moles of Ca and Mg in tap water aliquot
+Moles of Ca and Mg =Moles of EDTA, as both $Ca^{2+}$ and $Mg^{2+}$ react one to one with EDTA when forming complex ions. 
+\newline
+
+Moles of Ca and Mg in 100ml tap water aliqout= $`r {round(Med[x],digits=6)}` mol$
+
+##### Concentration of Ca and Mg in tap water aliqout
+```{r, echo=FALSE}
+cCM<-c(0)
+cCM[x]<-c(Med[x]/0.1)
+```
+
+
+Concentration of Ca and Mg in tap water aliqout=$\frac{`r {round(Med[x],digits=6)}` mol}{0.1000L}$=$`r {round(cCM[x],digits=5)}`M$
+
+
+#### Titration #2
+
+```{r, echo=FALSE}
+x<-2
+Med[x]<-c(va[x]*ced)
+```
+
+
+##### Moles of EDTA titrated
+Moles of EDTA titrated=$`r {round(Med[x],digits=6)}` mol$
+
+##### Moles of Ca and Mg in tap water aliquot
+Moles of Ca and Mg =Moles of EDTA, as both $Ca^{2+}$ and $Mg^{2+}$ react one to one with EDTA when forming complex ions. 
+\newline
+
+Moles of Ca and Mg in 100ml tap water aliqout= $`r {round(Med[x],digits=6)}` mol$
+
+##### Concentration of Ca and Mg in tap water aliqout
+```{r, echo=FALSE}
+cCM[x]<-c(Med[x]/0.1)
+```
+
+
+Concentration of Ca and Mg in tap water aliqout=$\frac{`r {round(Med[x],digits=6)}` mol}{0.1000L}$=$`r {round(cCM[x],digits=5)}`M$
+
+#### Titration #3
+
+```{r, echo=FALSE}
+x<-3
+Med[x]<-c(va[x]*ced)
+
+```
+
+##### Moles of EDTA titrated
+Moles of EDTA titrated=$`r {round(Med[x],digits=6)}` mol$
+
+##### Moles of Ca and Mg in tap water aliquot
+```{r, echo=FALSE}
+cCM[x]<-c(Med[x]/0.1)
+```
+
+Moles of Ca and Mg =Moles of EDTA, as both $Ca^{2+}$ and $Mg^{2+}$ react one to one with EDTA when forming complex ions. 
+\newline
+
+Moles of Ca and Mg in 100ml tap water aliqout= $`r {round(Med[x],digits=6)}` mol$
+
+#### Average concentration of Mg and Ca in tap water. 
+```{r, echo=FALSE}
+Av<-c(cCM[2]+cCM[3])
+```
+
+Average concentration of Mg in tap water = $`r {round(Av,digits=4)}`M$
+
+Titration 1 was excluded as a rough titration in this calculation, only the accurate titrations, titrations 2 and 3 where used. 
+
+#### Relative standard Error
+```{r, echo=FALSE}
+
+acCM<-c(cCM[2], cCM[3])
+RSDCM<-c((sd(acCM)/mean(acCM))*100)
+
+
+```
+
+Relative standard error for the concentration of Ca and Mg in tap water = $`r round(RSDCM,digits=2)`\%$
+
+Titration 1 was excluded as a rough titration in this calculation, only the accurate titrations, titrations 2 and 3 where used. 
+
+##### Concentration of Ca and Mg in tap water aliqout
+```{r, echo=FALSE}
+cCM[x]<-c(Med[x]/0.1)
+```
+
+
+Concentration of Ca in tap water aliqout=$\frac{`r {round(Med[x],digits=6)}` mol}{0.1000L}$=$`r {round(cCM[x],digits=5)}`M$
+
+### Concentration of Ca in Tap water 
+
+#### Titration #1
+
+```{r, echo=FALSE}
+x<-1
+cMed<-c(cva[x]*ced)
+```
+
+
+##### Moles of EDTA titrated
+Moles of EDTA titrated=$`r {round(cMed[x],digits=6)}` mol$
+
+##### Moles of Ca in tap water aliquot
+Moles of Ca =Moles of EDTA, as both $Ca^{2+}$ and $Mg^{2+}$ react one to one with EDTA when forming complex ions. 
+\newline
+
+Moles of Ca in 100ml tap water aliqout= $`r {round(cMed[x],digits=6)}` mol$
+
+##### Concentration of Ca in tap water aliqout
+```{r, echo=FALSE}
+cC<-c(0)
+cC[x]<-c(cMed[x]/0.1)
+```
+
+
+Concentration of Ca in tap water aliqout=$\frac{`r {round(cMed[x],digits=6)}` mol}{0.1000L}$=$`r {round(cC[x],digits=5)}`M$
+
+#### Titration #2
+
+```{r, echo=FALSE}
+x<-2
+cMed[x]<-c(cva[x]*ced)
+
+```
+
+
+##### Moles of EDTA titrated
+Moles of EDTA titrated=$`r {round(cMed[x],digits=6)}` mol$
+
+##### Moles of Ca in tap water aliquot
+Moles of Ca =Moles of EDTA, as both $Ca^{2+}$ and $Mg^{2+}$ react one to one with EDTA when forming complex ions. 
+\newline
+
+Moles of Ca in 100ml tap water aliqout= $`r {round(cMed[x],digits=6)}` mol$
+
+##### Concentration of Ca in tap water aliqout
+```{r, echo=FALSE}
+cC[x]<-c(cMed[x]/0.1)
+#cC[2]<-c(cMed[2]/0.1)
+```
+
+
+Concentration of Ca in tap water aliqout=$\frac{`r {round(cMed[x],digits=6)}` mol}{0.1000L}$=$`r {round(cC[x],digits=5)}`M$
+
+#### Titration #3
+
+```{r, echo=FALSE}
+x<-3
+cMed[x]<-c(cva[x]*ced)
+```
+
+
+##### Moles of EDTA titrated
+Moles of EDTA titrated=$`r {round(cMed[x],digits=6)}` mol$
+
+##### Moles of Ca in tap water aliquot
+Moles of Ca  =Moles of EDTA, as both $Ca^{2+}$ and $Mg^{2+}$ react one to one with EDTA when forming complex ions. 
+\newline
+
+Moles of Ca in 100ml tap water aliqout= $`r {round(cMed[x],digits=6)}` mol$
+
+##### Concentration of Ca in tap water aliqout
+```{r, echo=FALSE}
+cC[x]<-c(cMed[x]/0.1)
+
+```
+
+
+Concentration of Ca in tap water aliqout=$\frac{`r {round(cMed[x],digits=6)}` mol}{0.1000L}$=$`r {round(cC[x],digits=5)}`M$
+
+
+#### Average concentration of Ca in tap water. 
+```{r, echo=FALSE}
+acC<-c(cC[2], cC[3])
+```
+
+
+Average concentration of Mg in tap water = $`r {round(c(mean(acC)),digits=4)}`M$
+
+Titration 1 was excluded as a rough titration in this calculation, only the accurate titrations, titrations 2 and 3 where used. 
+
+#### $CaCO_3$ Concentration in tap water
+```{r, echo=FALSE}
+mcaco<-c(mean(cMed)*100.0869/0.1)
+```
+
+
+```{r}
+acMed<-c(cMed[2], cMed[3])
+```
+
+Concentration of $CaCO_3$=$\frac{`r round(acMed, digits=4)`mol \cdot 100.0869g \cdot mol^{-1}}{0.1000L}=`r round(mcaco, digits=2)`mg \cdot L^{-1}$
+
+Titration 1 was excluded as a rough titration in this calculation, only the accurate titrations, titrations 2 and 3 where used. 
+
+#### Relative standard Error
+```{r, echo=FALSE}
+RSDC<-c((sd(cC)/mean(cC))*100)
+```
+
+Relative standard error for the concentration of Ca and Mg in tap water = $`r round(RSDC,digits=2)`\%$
+
+Titration 1 was excluded as a rough titration in this calculation, only the accurate titrations, titrations 2 and 3 where used. 
+
+### Concentration of Mg in Tap water aliquot
+
+#### Titration #1
+```{r, echo=FALSE}
+x<-1
+cM<-0
+cM[x]<-c(cCM[x]-cC[x])
+
+```
+
+Concentration of Mg= (Concentration of Mg and Ca)- (concentration of Ca)=$`r round(cCM[x],digits=5)`-`r {round(cC[x], digits=5)}`M =`r round(cM[x], digits=5)`M$
+
+#### Titration #2
+```{r, echo=FALSE}
+x<-2
+cM[x]<-c(cCM[x]-cC[x])
+
+```
+
+Concentration of Mg= (Concentration of Mg and Ca)- (concentration of Ca)=$`r round(cCM[x],digits=5)`-`r {round(cC[x], digits=5)}`M =`r round(cM[x], digits=5)`M$
+
+#### Titration #3
+```{r, echo=FALSE}
+x<-3
+cM[x]<-c(cCM[x]-cC[x])
+
+```
+
+Concentration of Mg= (Concentration of Mg and Ca)- (concentration of Ca)=$`r round(cCM[x],digits=5)`-`r {round(cC[x], digits=5)}`M =`r round(cM[x], digits=5)`M$
+
+
+#### Average concentration of Mg in tap water. 
+```{r, echo=FALSE}
+acM<-c(cM[2], cM[3])
+
+```
+
+
+Average concentration of Mg in tap water = $`r {round(c(mean(acM)),digits=4)}`Mi$
+
+Titration 1 was excluded as a rough titration in this calculation, only the accurate titrations, titrations 2 and 3 where used. 
+
+#### Relative standard Error
+```{r, echo=FALSE}
+
+RSDM<-c((sd(acM)/mean(acM))*100)
+```
+
+Relative standard error for the concentration of Ca and Mg in tap water = $`r round(RSDM,digits=2)`\%$
+
+Titration 1 was excluded as a rough titration in this calculation, only the accurate titrations, titrations 2 and 3 where used. 
+
+# Discussion
+Although the true concentration of calcium within the sample is unknown and hence a definitive comment on the accuracy of the determination cannot be made, the concentration of Calcium (in the form of calcium carbonate) calculated fall within a reasonable range of expected values. The value of 40.35ppm calculated implies classification of the water a Soft ( between 0 and 50 ppm $CaCO_3$), which is what would typically be expected of drinking water which has been treated for pallatability. 
+
+The relatively low relative standard error for the accurate titrations seen ($\leq 1\%$ in all cases) also serves to indicate that a reasonably high level of precision was achieved in the results. Although the low number of replicates implies less confidence that the high level of precision seen was not achieved by chance. The small degree of variation which was observed may be explainable by variations in the water samples used (different aliquots were drawn from different tabs), variations in the concentration of the EDTA standard due to insufficient mixing before titration, and difficulties in pinpointing the endpoint of titration, due to variations is the amount of indicator solution added. 
+
+In conclusion, the value obtain for calcium carbonate concentration in drinking water appears to be plausible and precise, identifying the sample in question as soft water.  
+
+
+
+# References
+
+McCreaon J. M. (1950),  the Isotopic Chemistry of Carbonates and a Temperature Scale, _The Journal of Chemical Physics_ 18:6, 849-857 
+Geoffrey M. G., (2007), Geomycology: biogeochemical transformations of rocks, minerals, metals and radionuclides by fungi, bioweathering and bioremediation,Mycological Research, 111,1: 3-49
+
+ Weingartner H (2006), "Water", Encyclopedia of Industrial Chemistry, , Wiley–VCH, Weinheim
+
+Leurs L. J., Schouten L. J., Mons M. N., Goldbohm R. A. Van den Brandt P. A. ( 2010),Relationship between Tap Water Hardness, Magnesium, and Calcium Concentration and Mortality due to Ischemic Heart Disease or Stroke in the Netherlands, _Environmental Health Perspectives_,118,3:414-420
+
+Yoe, H. J., (1958), The Analytical Uses of Ethylenediaminetetraacetic Acid, _J. Am. Chem. Soc_, 80, 10:2600–2600
+
+Flaschka, H. A. (2013). EDTA titrations: an introduction to theory and practice. _Elsevier_.

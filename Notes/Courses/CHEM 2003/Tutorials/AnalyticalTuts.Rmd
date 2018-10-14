@@ -1,0 +1,59 @@
+---
+title: "Chem Tutorials"
+output: pdf_document
+---
+
+## Question 6
+
+```{r, echo=FALSE}
+s<-c(0.5674)
+ve<-c(0.1)
+ve1<-c(0.03212)
+ce1<-c(0.0254)
+ce2<-c(0.00254)
+ve2<-c(0.01086)
+
+me1<-c(ve1*ce1)
+mCu<-c(ce2*ve2)
+CCu<-c(mCu/0.025)
+
+mCus<-c(63.546*4*mCu)
+
+mp<-c(mCus/0.5674)*100
+
+mFe<-c(me1-mCu)
+
+
+mFes<-c(55.845*4*mFe)
+
+mpFe<-c((mFes/0.5674)*100)
+```
+
+## Moles of EDTA
+$`r ve1` \cdot `r ce1`$=$`r {me1}`$= moles of Fe and Cu. 
+
+
+## Moles of Cu
+$`r ve2` \cdot `r ce2`$=$`r {mCu}`$= moles of Cu.
+
+## Moles of Fe
+$`r me1`-`r mCu`$=$`r {mFe}`$= moles of Fe
+
+
+
+## Moles of Cu in sample
+$4 \cdot `r {mCu}`$=$`r {4*mCu}`$= moles of Cu
+
+## Mass of Cu in sample
+$`r mCu` \cdot 63.546= `r {mCus}`g$
+
+
+## Mass of Fe in sample 
+$`r mFe` \cdot 55.845=`r {mFes}`g$
+
+## Mass percentage
+Mass percentage of Cu =$\frac{`r mFes`}{0.5674}$ =$`r {round(mp,digits=3)}`\%$
+
+Mass percentage of Fe = $\frac{`r mCus`}{0.5674}$ =$`r {round(mpFe, digits=2)}`\%$
+
+

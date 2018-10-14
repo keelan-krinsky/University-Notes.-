@@ -11,7 +11,7 @@ title: "Presentation on Fresh Water Crabs Research Paper; Slides"
  #. Globally, $>1 000 000$ spp rely on tropical freshwater ecosystems for survival. 
  
   
-  ![$\textbf{Source}:$ Fresh water biome facts and information, bioexpedition.com, BioExpedtion](Images/FreshWaterEcosystemGeneric.jpg)
+  ![$\textbf{Source}:$ ](Images/FreshWaterEcosystemGeneric.jpg)
   
 _Large, black text overlaid in a white box over the center of the image_
   
@@ -19,7 +19,9 @@ _Large, black text overlaid in a white box over the center of the image_
 
 
 ## Slide 2
- #. Pollution and global warming have led to large scale degradation of aquatic systems and deterioriation of water quality. 
+### The threat
+ #.  Large scale degradation of aquatic systems and deterioriation of water quality due to: 
+    #. Pollution, global warming, and Deforestation.
  #. Deteriating water quality impact serious of the biology of aquatic systems. 
     #. A third to a half of fish and amphibian spp in some areas are already extinct or endangered.
  
@@ -39,7 +41,8 @@ _Text on left side of slide images on right side of slide, First image appears w
  #. Why is it so important to know? 
     #. What are freshwater crabs? 
     #. Where are they found? 
-    #. what ecological roles do they fill
+    #. what ecological roles do they fill?
+    #. What economic impact do they have?
  
 _text in Red bold font on white or blue background, Last three questions appear after first two and in smaller font_
  
@@ -52,8 +55,6 @@ _text in Red bold font on white or blue background, Last three questions appear 
  #. Crabs of decapods of the infraorder Branchyra, (the largest of all decapod groups)
  #.  $\frac{1}{5}$ of all crabs are freshwater crabs including the superfamilies:
      #. Gecarinucodiea, Potamoidea, Psuedothelphusodiea, and Trichodactyloidea. 
-  
-  
       
 ![Alistair Lavers, 2013, Taxonomy of the Decapods,gbri.org.au,University of Queensland](Images/CrabTaxonomy.jpg){width=40%}
     
@@ -95,41 +96,99 @@ _Images in one row along the bottom under the text_
 
 ![matano crab, shopify.com, Aquatic Arts](Images/CrabHerbivory.jpg){width=30%}
 
-![Crab(Potamon fluviatile) eating frog, science source.com, Science Source](Images/CrabDetrivory.jpg){with=40%}
+![Crab(Potamon fluviatile) eating frog, science source.com, Science Source](Images/CrabDetrivory.jpg){width=30%}
  
 ## Slide 8   
 ### Nutrient Cycling  
-  #. Ditrotivor feeding habits
-Shredding guild
+  #. Ditrotivor feeding habits (Shredding guild)
   #. 88-94\% of overall biomass in the streams and debris dams in the eastern Usambara Mountains of Tanzania. 
   #. Very important to dynamics of nutrient cycling. 
-  #. food for a wide range of predators,
-      #. Otters, mongooses, civets, kites, ergets, herons, and kingfishers, eels bullfrogs, toads, monitor lizards and crocodiles. 
-        #. Pseudothelphusids preyed upon by turtles and capuchin monkeys, and in Asia fresh preyed upon by wild boar. and stream snakes. (_Opisthrotropis kikuzatoi_)
-        #. Case study
-          #. Invasive north american crayfish, out competed replaced native crabs, decrease in clawless otter populations. 
-          #. Fragmented freshwater habitats 
- #. Low fercundity, direct development and low vagility, frequent isolation and allopatric speciation, high levels of endemism. 
- #. Niche specialisation sympatric speciation leadinging to increased diversity. One site five species occupying different habitats. 
- #. Studies in malasia suggest that freshwater crabs may face the same fate. 
- #. 2008 IUCN Red list threatened species (within all five major families), increase from 93 is Asia and Africa to 1280 globally. 
 
-Wide spread destruction of tropical environments etc.           
+## Slide 9
+### Prey species
+  #. Food for a wide range of predators. 
+      #. Otters, mongooses, civets, kites, ergets, herons, and kingfishers, eels bullfrogs, toads, monitor lizards and crocodiles, turtles, capuchin monkeys, wild boar. and stream snakes.
+
+![James Ryan, 2011, Crocadile eating Crab, animalseatinganimals.com, Nature at Work](Images/CrabsAsFood.jpg){width=50%}
+
+---
+
+---
+
+## Slide 10
+### Prey species 
+ #. Invasive north american crayfish, replaced native crabs in western Kenya
+ #. Upward trophic casdace, decrease in clawless otter populations. 
+
+![2004, Mordecai O. Ogada, University of Nairobi](Images/CrabsAsFood(2).jpg){width=50%}
+
+---
+
+---
+
+## Slide 11
+### Crabs as a source of genetic diversity. 
+ #. Alleopathic speciation
+    #. Low fercundity 
+    #. Low vagility
+    #. Fragmented nature of aquatic water bodies
+ #. Sympatric speciation
+    #. Niche specialisation
+    #. Up to 5 different species in one site
+
+---
+
+---
 
 
+## Slide 12 
+### Economic importance of fresh water crabs
+
+#### Crabs as a food Source. 
+ #. The dirrect consumption of Crabs as a food source is wide spread
+ #. Crab fisheries in Lakes Malawe and Tanganyika fuel the local economy. 
+ 
+ ![2016, Coffee Cake Crab, eastiebrekkie.com, Eastie Brekkie](Images/CrabsAsFood(3).jpg){width=50%}
+ 
+ ![Fishmarako,responseabilityalliance.com, Responsability Alliance](Images/MalawiFisheries.jpg){width=50%}
 
 
-#. What was done? 
-    #. 1280 freshwater crabs from the troppical regions of Americas Africa, Asia and Australasia. 
-        #. Families, Pseudothelphusidae, Trichodactylidae, Potamonautidae, Potamidae and Gecarcinucidae. 
+---
 
- #. medical importance as paragonimiasis hosts in Asiea Africa and Neotropics, (food borne zoonosis)
-    #. 20 million people infected world wide. 
-    #. Biting blackfly. _Simulium spp_, 
-      #. Vector of infection for parasite _Onchocerca volvultus_, river blindness (onchocerciassis in Africa.). 
-      
+---
 
-  #. basis of small scale fisheries (Lakes malawi and Tanganyika in East africa). 
-  
-  
-  
+## Slide 13
+## Medicinal importance
+ #. Crabs act as a host species for several important human parasites
+     #. Paragonimiasis: (a food borne zoonosis)
+        #.diarrhea, abdominal pain, fever, cough, pulmonary abnormalities
+        #. 20 million people infected world wide.
+     #. Biting blackfly. _Simulium spp_,
+        #. Vector of infection for parasite _Onchocerca volvultus_, which causes onchocerciassis (river blindness). 
+
+![2007,Paragonimus adult hematoxylin,www.cdc.gov,Centers for disease control and prevention](Images/Paragonimiasis.jpg){width=50%}
+
+![2004, Onchocerciasis,web.standfor.edu, Standford University](Images/RiverBlindness.jpg){width=50\%}
+
+---
+
+---
+
+
+## Slide 14 
+### Anthropic effects on Freshwater Crabs. 
+ #. Lack of research detailing current ecological status
+ #. Existing research suggests many freshwater crab species seriously endanger
+ #.  2008 IUCN Red list incread number of threatened of endanger species from 93 to 1280 globally. 
+ 
+---
+
+---
+
+### Slide 15
+### Purpose of the research
+  #. Assess anthropic effects and ecological status of fresh water crabs. 
+  #. Comprehensive study including
+      #. 1280 freshwater crabs
+      #. Tropical regions of Americas, Africa, Asia and Australasia. 
+      #. All five major families (as above) 

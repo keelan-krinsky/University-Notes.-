@@ -213,7 +213,7 @@ text(70,3.7,"E/F")
 text(100,4.8,"D")
 text(130,5.6,"C")
 text(200,6.2,"B")
-title(sub="Figure 2: The average IHI score is considered in conjunction with the average ASPT \n score to give an indication of the overall condition of the system, donated \n by the  zones marked A-F in the figure. Note that although there is some \n overlap between the error bars for ASPT there is no overlap for SASS.",cex.sub=1, line=7 )
+title(sub="Figure 2:Standard Curve of absorbance plotted against Concentration of MTT in original sample",cex.sub=1, line=7 )
 ```
 
 

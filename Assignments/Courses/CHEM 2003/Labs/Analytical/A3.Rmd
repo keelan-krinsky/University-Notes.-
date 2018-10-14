@@ -1,0 +1,199 @@
+---
+title: "Experiment A3: Neutralisation Back Titration"
+author: "Keelan Krinsky: 1634953"
+output: pdf_document
+---
+\textbf{Full title:} Analysis of Antacid tablets.\newline $\quad$\newline
+\textbf{Demonstrator:} Raymond\newline $\quad$\newline
+\textbf{Group:} 7\newline$\quad$\newline
+\textbf{Date Performed:} 04/10/2018\newline 
+
+$\quad$\newline
+$\quad$\newline
+$\quad$\newline
+$\quad$\newline
+$\quad$\newline
+
+![](Images/CS1.jpg)
+
+# Aims
+The main aim of this experiment was to establish the amount/mass of calcium (and magnesium) carbonate present in commercial antacid tablets.
+
+# Procedure
+ #. Gentle boiling of analyte solution to dissolve the antacid tablets was carried out for 10 minutes (5 minutes longer than the 5 minutes indicated in the laboratory manual)
+
+
+
+```{r, echo=FALSE}
+
+# Display significant zeros after the point 
+#specify_decimal <- function(x, k) trimws(format(round(x, k), nsmall=k))
+#specify_decimal(5,2)
+# x: number/ value
+# k: number of digits to display after point
+
+```
+
+
+ 
+```{r, echo=FALSE}
+
+# Titration of NaOH standard solution
+f<-c(37.74,37.59,36.40)
+i<-c(0.27,1.10,0.21)
+t<-c(f-i)
+
+cA<-c(0.4997)
+mA<-c(t*cA)
+mA<-round(mA,digits=2)
+
+cn<-c("Tablet 1","Tablet 2","Tablet 3")
+
+C1<-c(f[1],i[1],t[1], mA[1])
+C2<-c(f[2],i[2],t[2],mA[2])
+C3<-c(f[3],i[3],t[3],mA[3])
+
+
+
+rn<-c("Initial Reading/ml", "Final Reading/ml", "Volume Added/ml", "hydrochloric acid added/mmol")
+
+T1<-data.frame("rn" =rn, "C1"=C1, "C2"=C2,"C3"=C3)
+
+library(knitr)
+colnames(T1)<-c(" ","Tablet 1","Tablet 2","Tablet 3")
+
+library("kableExtra")
+
+T1d_latex<-knitr::kable(T1,"latex",row.names=NA,col.names=NA,caption="Volumes of 0.4997 standard HCl solution added in the neutralisation of Antacid analyte solution", escape=FALSE)
+kable_styling(T1d_latex, latex_options = c("striped","hold_position", "bordered"))
+```
+
+
+```{r, echo=FALSE}
+
+# Back titration of neutralised tablets
+bf<-c(37.74,37.59,36.40)
+bi<-c(0.27,1.10,0.21)
+bt<-c(f-i)
+
+cB<-c(0.1049)
+mB<-c(bt*cB)
+mB<-round(mB,digits=2)
+mN<-c(mA-mB)
+mN<-round(mN, digits=2)
+cn<-c("Tablet 1","Tablet 2","Tablet 3")
+
+
+C1<-c(f[1],i[1],t[1], mB[1],mN[1])
+C2<-c(f[2],i[2],t[2],mB[2],mN[2])
+C3<-c(f[3],i[3],t[3],mB[3],mN[3])
+
+
+rn<-c("Initial Reading/ml", "Final Reading/ml", "Volume Added/ml", "Amount of sodium hydroxide added/mmol", "Amount of hydrochloric acid neutralised by tablet/mmol")
+
+
+T1<-data.frame("rn" =rn, "C1"=C1, "C2"=C2,"C3"=C3)
+
+library(knitr)
+colnames(T1)<-c(" ","Tablet 1","Tablet 2","Tablet 3")
+
+library("kableExtra")
+
+T1d_latex<-knitr::kable(T1,"latex",row.names=NA,col.names=NA,caption="Volumes of 0.1049 standard $NaOH$ solution added in the neutralisation of Antacid analyte solution, neutralised by excess strong acid", escape=FALSE)
+kable_styling(T1d_latex, latex_options = c("striped","hold_position", "bordered"))
+
+
+```
+Concentration of $NaOH$ used =$0.1049M$
+
+
+## Caclicum carbonate content of antacid tablets. 
+
+> $CaCO_3$ is assumed to be the only active weak base in the tablets provided
+
+
+```{r, echo=FALSE}
+amN<-c(mean(mN))
+
+smN<-c(sd(mN))
+
+
+RSDmN<-c(100*smN/amN)
+
+```
+
+
+Average amount of hydrochloric acid neutralised per tablet= $`r round(amN,digits=2)` \,mmol$ 
+
+Standard deviation in the measure of the amount of acid neutralised= 
+$`r round(smN,digits=2)`\, mmol$ 
+
+Relative standard error in the measure of the amount of acid neutralised= $`r round(RSDmN,digits=2)`\%$ 
+
+```{r, echo=FALSE}
+
+mC<-c(0.5*100.086*amN)
+```
+
+Mass of calcium carbonate per tablet=(Moles of calcium carbonate) x (Molecular mass of calcium carbonate )\newline 
+= 0.5 x (Moles of HCL neutralised ) ($100.086g\cdot mol^{-1}$) $\quad\quad\quad\quad\quad\quad$ (as $HCl$ react 2:1 with $CaCO_3$)\newline 
+= $0.5 \, \cdot \,`r round(amN,digits=2)`mmol \, \cdot \, 100.086g\cdot mol^{-1}$\newline
+=$`r round(mC,digits=1)`mg$
+
+# Questions 
+
+## Why can the antacid tablets not be titrated directly?
+
+The Antacid tablets contain only weak bases, in this case $CaCO_3$ the reaction between these weak bases and any strong acid which they where titrated against would not be fast enough for the practical determination of an accurate endpoint in the titration, and hence accurate results overall. That is, the slow neutralisation would imply that the solution must be left to stand for long period after the addition of each drop of acid to determine if all of the $CaCO_3$ present has really been released. 
+
+
+## Why does the carbon dioxide need to be driven off?  Why would it cause problems with the titration?
+
+The $CO_2$ must be driven off because, in an aqueous environment it also has acidic properties. Carbon dioxide reacts with water to form carbonic acid by the following equation: \newline 
+$CO_2+H_2O \rightarrow H_2CO_3$
+
+The carbonic acid can then act to neutralise the strong base added in the back titration as follows: \newline 
+$H_2CO_3+2NaOH\rightarrow Na_2CO_3+2H_2O$ 
+
+This side reaction would lead to an inaccurately high amount of $NaOH$ added in neutralisation, and a subsequent underestimation of the Calcium carbonate content of the antacid tablets. 
+
+##  Tablet manufacturers are usually permitted to have an error of 7.5% in the amount of active ingredient in a tablet. Do all your three values for millimoles of HCl neutralized lie within $\pm 7.5\%$ of your mean value?
+
+```{r, echo=FALSE}
+pdM<-c(100*(mN-amN)/amN)
+
+```
+
+### Tablet 1
+Percentage difference from mean = $|`r round(pdM[1], 2)`\%| < 7.5\%$
+
+
+### Tablet 2
+Percentage difference from mean = $|`r round(pdM[2], 2)`\% |< 7.5\%$
+
+
+### Tablet 3
+Percentage difference from mean = $|`r round(pdM[3], 2)`\% |< 7.5\%$
+\newline 
+
+
+The percentage deviation for all of the tablets was well below the $7.5\%$ indicated by the manufacturer.  
+
+## Calculate the mass of $CaCO_3$ required to make up 500 mL of a solution containing 1000 ppm Ca. 
+
+Moles of $Ca$ in 500.0 mL of 1000 ppm Ca containing solution = $1000mg \cdot L^{-1} \cdot 0.5000L=500.0 mg$
+
+```{r, echo=FALSE}
+mmc<-c(40.078)
+masc<-c(0.5000)
+
+molc<-c(masc/mmc)
+
+masco<-c(100.086*molc)
+```
+
+Moles of $\text{Ca used in preparation} = \frac{\text{Mass of Ca used}}{\text{Molar Mass of Ca}}=\frac{0.5000g}{40.078g\cdot mol^{-1}}=`r round(molc,digits=3)`\,mol$
+
+Moles of $CaCO_3$ required = Moles of $Ca$ required = $`r round(molc,digits=3)`\,mol$ 
+
+Mass of Moles of $CaCO_3$ required =(Moles of $CaCO_3$ required) x (Molecular mass of $CaCO_3$)= $`r round(molc,digits=3)`\,mol\, \cdot 100.086g\cdot mol^{-1} =`r round(masco,digits=3)`g$  
