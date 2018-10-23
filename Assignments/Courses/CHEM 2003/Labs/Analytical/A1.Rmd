@@ -1,0 +1,197 @@
+---
+title: "Experiment A1: Acid Base Titrations"
+author: "Keelan Krinsky: 1634953"
+output: pdf_document
+---
+\textbf{Full title:} Determination of the concentration of acetic acid in vinegar.\newline $\quad$\newline
+
+\textbf{Demonstrator:}\newline $\quad$\newline
+
+\textbf{Group:} 7\newline$\quad$\newline
+
+\textbf{Date Performed:} 17/09/2018\newline 
+$\quad$\newline
+
+$\quad$\newline
+$\quad$\newline
+$\quad$\newline
+$\quad$\newline
+
+![](Images/CS1.jpg)
+
+# Aim 
+The main aim of this experiment was to determine the concentration of acetic acid in a vinegar sample using an acid base titration. Within this aim a sub- objective was to precisely establish a secondary standard solution of $NaOH$. Acetic acid is the main active ingredient in vinegar so its precise concentration is important for both culinary and health concerns. 
+
+# Results
+
+## Experimental Results
+
+```{r,echo=FALSE}
+
+# Table for Masses of KHP, and volumes of NaOH solution used for standardisation of NaOH solution. 
+mKHP<-c(204.22)
+bs<-c(10.5454, 11.3044, 10.1496, 11.3072)
+br<-c(9.9024, 10.6518, 9.4929, 10.6754)
+md<-c(bs-br)
+molKHP<-c(md/mKHP)
+mmolKHP<-round((molKHP*1000), digits=4)
+
+ir<-c(0.87, 0.22, 0.10, 0.21)
+fr<-c(36.36,35.91,35.93, 36.03)
+va<-c(fr-ir)
+cOH<-round(c(molKHP/(va/1000)), digits=4)
+
+
+
+C1<-c(bs[1],br[1],md[1], mmolKHP[1], ir[1], fr[1], va[1],cOH[1])
+C2<-c(bs[2],br[2],md[2], mmolKHP[2],ir[2], fr[2], va[2],cOH[2])
+C3<-c(bs[3],br[3],md[3], mmolKHP[3],ir[3], fr[3], va[3],cOH[3])
+C4<-c(bs[4],br[4],md[4], mmolKHP[4],ir[4], fr[4], va[4],cOH[4])
+
+rn<-c("Mass of weighing bottle+KHP/g", "Mass of weighing bottle/g", "Mass of KHP taken/g", "Moles of KHP/mmol", "Initial Burette Reading/mL", "Final Burette Reading/mL", "Volume of NaOH solution delivered","$[OH^-]mol\\cdot L^{-1}$")
+
+T1<-data.frame("rn" =rn, "C1"=C1, "C2"=C2,"C3"=C3, "C4"=C4)
+
+library(knitr)
+colnames(T1)<-c("Analysis Number","Trial","1", "2", "3")
+
+library("kableExtra")
+
+T1d_latex<-knitr::kable(T1,"latex",row.names=NA,col.names=NA,caption="Masses of KHP, and volumes of NaOH solution, used in the standardisation of $NaOH$ solution", escape=FALSE)
+kable_styling(T1d_latex, latex_options = c("striped","hold_position", "bordered"))
+
+
+```
+
+```{r, echo=FALSE}
+#cOH<-c(cOH[2],cOH[3],cOH[4])
+
+acOH<-c(mean(cOH))
+sdcOH<-c(sd(cOH))
+rsdcOH<-c(100*sdcOH/acOH)
+
+```
+
+Mean $[OH^-]$ concentration (of standard solution) = $`r round(acOH, digits=4)`mol \cdot L^{-1}$
+
+Standard deviation in $[OH^-]$ concentration = $`r round(sdcOH, digits=4)`mol \cdot L^{-1}$
+
+Relative standard error of  $[OH^-]$ concentration = $`r round(rsdcOH, digits=4)`\%$
+
+```{r,echo=FALSE}
+
+# Table for NaOH Titrated in the determination of acetic acid in vinegar, and subsiquent calculation.   
+
+ir<-c(0.50, 18.63, 0.35,18.33)
+fr<-c(18.63,36.49, 18.33,36.25)
+va<-c(fr-ir)
+mA<-round(c((va/1000)*acOH), digits=5)
+mmA<-c(mA*1000)
+cAa<-c(mA/(25/1000))
+
+
+cAv<-c(10*cAa)
+cmAv<-round(c(cAv*60.05196/10), digits=4) 
+
+
+
+C1<-c(ir[1],fr[1], va[1],mmA[1], cAa[1], cAv[1], cmAv[1])
+C2<-c(ir[2],fr[2], va[2],mmA[2], cAa[2], cAv[2], cmAv[2])
+C3<-c(ir[3],fr[3], va[3],mmA[3], cAa[3], cAv[3], cmAv[3])
+C4<-c(ir[4],fr[4], va[4],mmA[4], cAa[4], cAv[4], cmAv[4])
+
+rn<-c("Initial Burette Reading/mL", "Final Burette Reading/mL", "Volume of NaOH solution delivered", "Moles of $CH_3COOH$/mmol","$[CH_3COOH] mol \\cdot L^{-1}$ in aliquot","$[CH_3COOH] mol \\cdot L^{-1}$ in vinegar","$[CH_3COOH]$ m/v\\% in vinegar" )
+
+
+T1<-data.frame("rn" =rn, "C1"=C1, "C2"=C2,"C3"=C3, "C4"=C4)
+
+library(knitr)
+colnames(T1)<-c("Analysis Number","Trial","1", "2", "3")
+
+library("kableExtra")
+
+T1d_latex<-knitr::kable(T1,"latex",row.names=NA,col.names=NA,caption=" Table for NaOH Titrated in the determination of acetic acid in vinegar, and subsequent calculation. ", escape=FALSE)
+kable_styling(T1d_latex, latex_options = c("striped","hold_position", "bordered"))
+```
+
+```{r, echo=FALSE}
+cAv<-c(cAv[2],cAv[3],cAv[4])
+acAv<-c(mean(cAv))
+sdcAv<-c(sd(cAv))
+rsdcAv<-c(100*sdcAv/acAv)
+```
+
+The Initial Trial titration has been excluded from subsequent calculations and only the accurate titrations have been used. 
+
+Mean concentration of acetic acid in vinegar= $`r round(acAv, digits=4)`mol \cdot L^{-1}$
+
+Standard deviation in acetic acid concentration = $`r round(sdcAv, digits=4)`mol \cdot L^{-1}$
+
+Relative standard error of  acetic acid concentration = $`r round(rsdcAv, digits=4)`\%$
+
+
+
+# Question 
+
+## Why is standardisation of NaOH important? 
+
+Without standardisation of the NaOH solution its exact concentration would not be known and as such it would be of little to no use in accurately, and precisely, determining the concentration of acetic acid by acid base neutralisation. 
+
+The specific process of standardisation by titration with a primary standard is important because the purity of the NaOH pellets used in the preparation of the solution was not sufficiently high to accurately make up a solution of NaOH just by diluting a known mass, as within that known mass, the extent and nature of contaminants (potentially acidic or basic), is not known, however the exact concentration in the given solution prepared can be accurately assessed by following the standardisation method. 
+
+
+## Generally, during acid-base titrations, the water is boiled and cooled to room temperature just before solutions are made up. Explain why this is done?
+
+The Water is boiled and cooled to drive off any potential acidic or basic gasses which could dissolve in the water, most notable $CO_2$ which dissolves in water to form carbonic acid, a weak acid which could react with NaOH neutralising it and in so doing interfering with the accuracy of the determination. (The water must also be distilled so that there are no ions present capable of undergoing acid base reactions. )
+
+## The transition region for thymol blue is from pH 8.0 to 9.6. This indicator is used in this titration of a weak acid by a strong base. Will this indicator be adequate for the titration of a strong acid by a strong base? Explain.
+
+The indicator will be adequate but not ideal. In the titration of a strong acid with a strong base there is an extremely rapid change in pH around the neutralisation point, where only a very small additional volume of acid/ base solution brings the pH from about 12 down to 2 or visa versa. Hence although the indicator will not change color exactly at the end point (pH 7), it will change color so close to the end point (close in terms of volume/ moles added), That it can still be used to give an accurate determination of the endpoint. 
+
+An indicator with a color change closer to the end point ie one that changed color at around pH=7 would be at least fractionally more accurate. 
+
+## Discuss your results in terms of accuracy and precision.
+With 
+
+```{r, echo=FALSE}
+cmAv<-c(cmAv[2],cmAv[3],cmAv[4])
+acmAv<-c(mean(cmAv))
+sdcmAv<-c(sd(cmAv))
+
+ub<-c(acmAv+1.96*(sdcmAv/(3^(1/2))))
+lb<-c(acmAv-1.96*(sdcmAv/(3^(1/2))))
+
+x<-c(t.test(cmAv, mu= 3.891, alternative=c("two.sided")))
+```
+
+
+The calculated mass percentage was $`r round(acmAv, digits=3)`$ which does not vary greatly from the true value of $3.891\%$, and a student t test gives a p value $=0.009926< 0.01$ indicating no significant difference between the calculated value and the true value at 99\% confidence level, which indicates a reasonably high level of accuracy. 
+
+With regard to the precision of the experiment the relative standard error for $NaOH$ concentration at 1.708\% exceeded the <1\% RSE required for the due level of precision. This lack of 
+Precision may have derived from inaccuracy in the salvation of the HKP used in the standardisation, possible due to a lack of washing down sides of the solution flask, to prevent HKP sticking to the sides of the flask and not joining solution. Another possibly more probably source of experimental error is a lack of sufficient mixing in the NaOH standard solution made up before the titrations were carried out. The precision of the acetic acid determination was much higher, possible due to better mixing of the NaOH standard by this point, however as this precision ultimately relies on the precision of the NaOH concentration it is also compromised to a degree. 
+
+## Calculate the 95 \% confidence interval for your \% acetic acid. 
+
+
+C.I = $\bar{x} \pm Z_{a/2}\,\cdot\,\frac{\sigma}{\sqrt{n}}$ \newline 
+$\rightarrow C.I. =`r round(acmAv, digits=4)` \pm 1.96\, \cdot \,\frac{`r round(sdcmAv, digits=4)`}{\sqrt{3}}$\newline 
+
+$`r round(lb, digits=3)`g \cdot L^{-1}\leq \mu \leq `r round(ub, digits=3)`g \cdot L^{-1}$
+
+
+
+
+## Describe why KHP is a suitable primary standard acid. List its attributes.
+
+#. Available at high levels of purity
+#. low reactivity (high stable compound)
+#. high molar mass (over 100, so less significance lost when small number of molar amounts used. )
+#. hygroscopic, so will not absorb water from the air, no change in mass in human environments. 
+#. non-toxic
+#. Relatively inexpensive
+
+## Why is NaOH not a good primary standard?
+
+$NaOH$ is not a good primary standard because despite being low cost and readily available it is not easy to store, as it is hygroscopic, tending to react with water vapour in the atmosphere changing the weight and purity of the NaOH sample, so storage requires completely dry sealed containers. Most importantly NaOH does not have a stable concentration in solution, as NaOH will readily react with $CO_2$ which also dissolves into the water to form carbonic acid, hence the concentration of the NaOH will decrease overtime unless stored in an inert environment such as under nitrogen, which is far from convenient and increases the cost associated with the standard.   
+
+
