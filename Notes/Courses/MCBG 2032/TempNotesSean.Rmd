@@ -1,0 +1,41 @@
+---
+title: "Temp Notes Sean"
+output: pdf_document
+---
+
+# Lecture Notes
+16/10/2018
+
+## Revision
+Cellular movement involves the dynamic interplay between many components. The dominant process behind locomotion is retrograde flux/ the tread milling of actin. Myosin motors are also required in the extension of actin filaments at the outwardly propagating edge, and their action in this capacity is very similar to their normal mode of action in muscle cells. 
+
+## Retraction 
+For continued locomotion retraction of the rear margin must occur in conjunction with extension of the leading edge. Retraction is preceded by the development of tension between the front and the rear of the cell. When the contractile force of the actin network exceeds the strength of focal adhesions at the rear, the attachments are broken and retraction occurs. Detachment is followed initially by recoil of the rear margin, which is then retracted further in an ATP dependant phase. That is, retraction consists few 2 phases: 
+
+ #. The release of elastic potential energy stored from lamella extension (The initial phase)
+ #. An active actomyosin contraction.(The ATP requiring step)
+
+Retraction of the rear margin generates folds in the dorsal surface of the cell, which provide surface area, for subsequent lamella extension. 
+
+
+
+## Cell Substrate Contacts (Focal Adhesions)
+In locomotion focal adhesion permits the generation of traction forces. Lamella extension can only succeed if the ventral (Bottom) surface becomes attached to the substrate. During locomotion, there is a continuous formation of focal adhesions at the advancing dye of the cell. This anchors newly polymerised actin to the substrate and in doing so it resists lamella retraction. When focal adhesion cannot be formed, lamella extension does not occur, and if for any reason focal contacts adhesions are lost from ant part of the cell margin that part of the cell will retract, (hence the cell rounding observed during trypsin treatment).
+
+In addition to their role in adhesion, cell substrate contacts are involved in the transduction of both chemical and mechanical signals across the cell membrane. Amongst other things, theses signals are important in regulating actin filament dynamics. The signalling events are triggered by the clustering of integrin molecules at the site of cell contact which in turn trigger the induction of $PIP_2$ \footnote{phosphatidyl-4,5-bisphosphate, as in DD, probably a G protein coupled receptor. } within the cell.  Activated $PIP_2$ binds to the actin associated proteins profilin and gelsolin. This interaction leads to an increased rate of actin polymerisation. Furthermore as integrins are mechanically coupled to the cytoskeleton, mechanical stresses will also be dirrectly tranduced from all cites of cell substrate contact to the actin component of the cytoskeleton.  
+
+## Regulation 
+Spacial and temporal regulation of actin filament dynamics forms the basis for the molecular control of cell locomotion. Once the differences between the front and the rear of the cells arise, these specialisations are self perpetuating under he appropriate conditions. Local molecular regulation of actin filament dynamics is organised across the cell by tension in the cytoskeleton. Increased tension (in the cytoskeleton) decreases actin polymerisation. Hence increased tension at the rear of the cell would inhibit extension but promote retraction. Tension within the actin cytoskeleton regulates, stretch sensitive calcium ion channels. The $Ca^{2+}$ fluxes released from the ER, in turn influence actin filament dynamics. 
+
+## Recognition
+Cells make contact with one another or their environment through one or more of the membrane associated molecules, which may be glycoproteins or glycolipids, Some of these surface molecules identify cells are belonging to a particular type of tissue, Others identify the cell as a part of the same or a foreign individual, which forms the basis differentiation between self and non self, which generally triggers an immune response.
+
+>NOTE: Revise the MHC
+
+The molecules central to the differentiation between self and non self fall into the MHC, In general MHC molecules are assigned to two classes, MHC I, and MHC II. In most vertebrates: Class one molecules occur in the sugar of all body cells except those of the immune system; Class 2 molecules are present primarily on the cells of the immune system, but not other cells of the body. The molecules making up the MHC components share certain features with antibodies, in particular both constant and variable regions. Clearly it is the variable regions which permit for the expression and recognition of differences. 
+
+
+### MHC in recognising foriegn antibodies.
+Both glycoprotein and glycolipid markers are responsibe for blood groups in humans, in particular glycophorin A. Glycophorin A is a surface glycoprotein on erythrocytes, and is responsible for the MN blood groupings. There is no difference between the oligo-saccharide portions of the different glycophorin species; however, they do differ in the amino acid sequence. Glycophorin $A^M$ has a serine residue at amino acid one and a glycine residue at amino acid five. Glycophorin $A^N$ mas a leucine residue at amino acid one and a glutamic acid residue at amino acid number five. Clearly heterozygotes have both of the of the glycophorin variants. Glycophorin A also acts as a receptor for the influenza virus, and as the site for the malaria parasite, (_plasmodium_) infection. 
+
+In contrast to the MN system, the ABO blood groups depend on small differences in the erythrocyte membrane, Persons with type A have the amino sugar N-Acetylgalactosamine attached to the end of the carbohydrate complex of the membrane molecule. People with type B blood have a galactose sugar attached at that terminal position, People who are AB have both, and those who are type O have neither. Although the groupings originate from expression on the erythrocyte, theses identifiers also occur on certain epithelial cells. 

@@ -1,0 +1,484 @@
+---
+title: "Test 4"
+output: pdf_document
+---
+
+# Test 4 
+
+
+# \textbf{Analytical Chemistry}
+
+## Background 
+Analysis seeks to answer the basic questions of what is present, how much of it is present, and in what form it is present. A given analysis technique/method may be quantitative or qualitative in nature. All forms of chemical analyses result in an analytical signal. 
+
+Sample size/ mass ranges from Ultra micro (< 0.0001g) micro (< 0.001g) semimicro (< 0.1g) and macro (> 0.1g). The analyte level/ concentration varies from, Ultratrace (< 1ppb), trace(<1ppm), minor (< 0.1%), major (> 0.1\%). 
+
+With decreased concentration relative standard deviation increases. Pharmaceuticals may be major components, drugs in feeds may be minor components, Presides may be trace components and Aflatoxins may be ultra trace components. 
+
+## Choosing a method
+The working range of different different methods is different so consideration must be given to the concentration of analyte which is expected within the sample, as well as the degree of accuracy required. 
+
+## Method Types
+
+### Qualitative 
+Quantitative analysis seeks determine what is present in the sample. 
+
+
+##### Classical methods
+Classical analysis methods involve under techniques based on volumetric analysis. Classical analysis uses indicators to signal the presence of an analyte or detect an endpoint. (e.g change in colour or formation of a precipitate). 
+
+##### Gravimetric 
+
+##### Volumetric (Titrations)
+Volumetric analysis is a procedure used for determining the concentration of an unknown solution. A known volume of a solution of unknown concentration is reacted with a known volume of a solution of known concentration (standard). The standard solution is delivered from a burette so the volume delivered is known. An indicator is often used to mark the completion of the reaction. 
+
+The titrant and sample volume/ mass must be precisely known. 
+
+###### Equivalence point
+During titration the reaction is complete when all of the analyte has been reacted (stereochemically with the reagent being added), the point at which all analyte has been neutralised but no excess reagent has yet been added is the equivalence point,(this is a theoretical point. ). As equivalence point cannot be obtained experimentally an indicator is added to produce a visual change at or near the equivalence point. The indicator leads to appearance or disappearance of color or turbidity. The point at which this change occurs is referred to as the endpoint of the titration. 
+
+There will always be a slight difference between the endpoint and the equivalence point. 
+
+$Error_{titration}=V_{endpoint}-V_{equivalence point}$
+
+
+
+###### Titrant
+The titrant must be a standard/ standardised. 
+
+###### Reaction 
+The reaction should proceed to a stable well defined equivalence point. which can be detected using an indicator, no side reactions should be occurring. 
+
+###### Acid base
+Acid base titrations use an acid/ alkali reagent to analyse a sample containing an alkali/acid analyte. The titration is monitored by use of a PH meter/ indicator. 
+
+###### Precipitation
+Precipitation titrations are used to analyse samples containing ions that form insoluble salts. The reagent used are compounds containing the other ion needed for formation of the insoluble salts, and the reaction progression is monitored by conductivity. 
+
+###### Redox
+Redox titration are used to analyse samples containing oxidising or reducing agents, the sample is reacted with a suitable oxidising or reducing agent and the reaction progression is monitored either through a natural color change or the colour of a redox indicator. 
+
+###### Standard Solution 
+Standard solutions should have the following properties: \newline 
+
+ #. Sufficiently stable over a period of time. (no need to determine concentration more than once. )
+ #. react rapidly with the analyte. 
+ #. React completely with the analyte to an adequate endpoint. 
+ #. selectively react with the analyte. 
+
+ Standards are prepared directly in which the primary standard is accurately weighed and diluted to a known volume, or by standardisation where a secondary standard is prepared and standardised by reaction with a primary standard (again usually by titration). 
+
+###### Primary Standards
+Primary standards are highly purified compounds, which can be accuracy weighed, and sever as a reference material for titrimetric methods of analysis. The accuracy f quantification relies on the quality of theses chemical and ow they are made into a standard solution. Primary standard should also show stability towards air, have no waters of crystallisation, have as high a molar mass as possible, be readily available at low cost, and finally be reasonably soluble. 
+
+###### Secondary Standards
+A secondary standard is a standard that is prepared in the laboratory. It is usually standardized against a primary standard. 
+
+###### Direct Titrations
+Direct titration involve one step in which there is a reaction between the titrant and the analyte. 
+
+###### Indirect Titrations
+Indirect titrations involve a two step process. First the analyte is replaced (steichiometrically) and then the replacement is titrated. This technique is used when the titrant and analyte do not react with each other but are related through the other substances. (Iodometric titration of Cu in Brass). 
+
+###### Iodometric Titrations 
+Iodine is used in the titration of strong oxidising agents. such as hydrogen peroxide, oxygen, curpic ion permanganate, and dichromate. 
+
+###### Back Titration
+Back titrations are usually used when the reaction between the analyte and the titrant is too slow, or when there is difficulty in determining the endpoint, for example due to the lack of a suitable indicator of the formation of a precipitate. First a known excess of titrant is added, and then the solution is titrated against a standard solution. 
+
+###### Indicators
+General indicators sever for acid base, redox and adsorption  reactions. Specific indicators include starch and thiocyanate, Metal ion indicators include metallochromic and organic dyes. Potentiometric indicators include potentiometers and pH electrodes. 
+
+
+Acid base indicators are often weak organic acids or bases that are different colours in their dissociated and undissociated form. They are used in low concentration so as not to affect the equivalence point. Indicators detect the first excess of titrant. 
+
+> NOTE: Indicators are often donated by HIn acid or In bases. 
+
+
+Redox indicators change colour based on the redox potential of the solution. 
+
+###### Specific indicators
+Specific indicators respond to the appearance/disappearance of a particular reagent. Such as startch which detect iodine, or thiocyanate which detects $Fe^{3+}$ or metal- ion indicators for complexometric titrations. 
+
+Potentiometric indicators track change in voltage. 
+
+###### Metal ion indicators
+EDTA dies not have a specific indicator, the indicator is first complexed with the analyte to form a colored compound then the indicator- metal analyte complex is titrated with EDTA which displaces the indicator forming an EDTA metal ion complex leading to a color change.
+
+###### general indicators. 
+General indicators respond to changes in the titration environment such as for example pH or a change in redox. The most commonly used general indicators are those used in acid-base titrations.
+
+
+
+
+###### Titration 
+Titration is a volume based method of quantitative analysis. 
+
+##### Instrumental methods
+Instrumental methods are relatively newer and involve instrumentation such as ASS, ICP, GC, and XRD. Instrumental analysis uses an instrument to convert a signal into a form that can be measured, such as the emission of light, diffraction of radiation, or electric potential.
+
+##### Electroanalytical 
+
+##### Separation Methods
+
+###### Chromatography
+Separation based on size or polarity
+
+##### Optical Methods. 
+
+###### Spectroscopy
+Measure radiation emitted
+
+
+
+### Quantitative 
+Qualitative analysis seeks to determine how much analyte is present tin a sample. 
+
+## Calibration methods
+
+### Background
+The essence of calibration is to relate the signal from an instrument to the concentration of a sample. 
+
+### Process
+The instrument response/ signal is measured for a series of standard solutions. 
+
+>DEFINITION: A standard solution is a solution of known concentration. 
+
+The relationship between the signal and the sample concentration is then determined using a Calibration Curve (which plots instrument response against Concentration of analyte), or more accurately the relationship is analysed mathematically most commonly with a least squared linear regression, and this mathematical relationship is then plotted onto a graph for shits and giggles. 
+
+#### Method of Least Squares
+
+ As afore mentioned the method of least squares is usually used in accessing the signal, analyte relationship. From this analysis a linear model $y=mx+c$ is found, and the coefficient of determination ($R^2$), i.e the degree of variation in signal explained by variation in analyte concentration is quoted to give an indication of the sensitivity of the instrument. Typically a $R^2$ value greater than 0.95 is required, although for analytical purposes $R^2$ should really be above 0.99
+
+##### Limitations
+
+###### Linearity
+The signal analyte relationship tends to deviate from linearity at high analyte concentrations, usually due to issues with detector response or chemical effects. Clearly when the relationship deviates from linearity the linear model is no longer at all accurate, hence as the relationship can no longer be clearly defined no accurate/ precise determinations can be made with this instrument in this concentration range. 
+
+ > NOTE: The range over which the response is reasonable linear will depend largely on the instrumental technique used. 
+
+ > NOTE: At some point the analyte concentration will be so large that the instrument is already detecting the maximum amount of analyte, and emitting the maximum signal possible. Increased concentration beyond this point will not lead to a change in the signal emitted. 
+
+ > DEFINITION: Dynamic Range, is the range of concentrations over which the analyte concentration can be accurately and precisely assessed, it is the range of concentrations between the limit of quantification and limit of linearity. 
+
+ > DEFINITION: Linear Range, is the range of concentrations over which changes in analyte concentration, illicit a linear response in signal intensity.  
+
+###### Experimental Range
+The Range of concentrations for which the calibration curve can be used is limited by the range of standard used in the creation of the curve. Accessing values outside this range would imply extrapolation which has no empirical basis, and is especially dangerous given the expectation for deviations from linearity outside a certain concentration range. 
+
+###### Detection Limit
+At low concentrations the Calibration, and indeed the instrument loses a degree of accuracy and precision due to the difficult in differentiating between signal and background noise. This issue is reported in terms of two parameters, limit in detection and limit of qualification, both of which express the relationship between the signal intensity intensity and the intensity of baseline noise. 
+
+> DEFINITION: Bassline noise is unwanted random change in the output signal. 
+
+> DEFINITION: Limit of Quantification (LOQ), is the analyte concentration at which signal strength > 10$\sigma$ of baseline noise. 
+
+> DEFINITION: Limit of Detection (LOD), is the analyte concentration at which the signal strength > $3\sigma$ of baseline noise. 
+
+
+##### Outliers
+Outliers can often be spotted visually from a calibration curve, but a mathematical test is required to confirm their identity as outliers. 
+
+#### Sensitivity 
+Sensitivity is the degree to which Signal changes for a given change in analyte concentration, i.e the first differentiate of signal strength with respect to analyte concentration. The more sensitive the instrument the greater the value of this differentiate. 
+
+### Preparation of Standards
+The Type of standard used is dependant on the calibration technique being used. Standards should be similar to the sample, that is contain the same matrix. When choosing a calibration method the potential matrix effects, the consistency of the matrix across samples and the number of samples must all be considered. Analytical advancements have lead to lower human expose as more advanced instruments and methods require lower concentrations of potentially toxic analyte or reagent substances.
+
+> NOTE: The accuracy and precision of any given determination is limited by the accuracy and precision of the standards used in the determination. 
+
+> DEFINITION: The matrix, is all of the components of the sample except for the analyte. 
+
+#### Matrix effect
+Components of the matrix may interfere will the signal, either by directly contributing to, or damping the signal, or by amplifying or attenuating the signal generated by the analyte. Many typical samples such as biological fluids or geological materials will contain many different matrix components, such as salts oils, contaminants, and particulates, several of which may have a interfering/matrix effect on the signal. 
+
+
+#### External Standards
+
+#### Internal Standards
+Internal standards are used when the preparation or testing process involve loss/ degradation of analyte concentration, or variation in analyte concentration, as the loss of standard compound should be directly proportional to the loss of analyte compound and hence no change in the ratio of standard signal to analyte signal should remain unchanged. Internal standard also eliminate any variations due to noise. 
+
+Additionally, internal standards are used when small variation in signal leads to a large change is concentration.(?) 
+
+> NOTE: when working with small samples or trace concentrations errors may be large. 
+
+> NOTE: Dilution is unimportant as it will not affect the ratio.
+
+##### Process
+An internal standard is a substance which is added in a constant amount to all samples, blanks and calibration standards. The internal standard is very similar, but still distinguishable from the analyte, and will display a similar, but distinguishable signal. The ratio of the analyte signal to the internal signal as a function of analyte concentration can then be plotted as a calibration curve.  
+
+##### Properties
+An internal standard must have all of the following properties. \newline 
+
+ #. Not present in the sample 
+ #. Compatible with the sample (i.e will not interact with it, and in the same physical form). 
+ #. Miscible in sample
+ #. Fully resolved
+ #. Similar in concentration to the analyte.
+ #. Similar in structure to the analyte. 
+
+#### Standard Addition. 
+
+##### Process 
+In standard addition a range of quantities of standard solution are added to identical aliquots of the sample. The increase in signal corresponding to a given increase in quantity of analyte can then be accurately assessed and used to infer the analyte concentration present in the original sample. 
+
+> NOTE: In graphical form the analyte concentration of the (diluted) original sample will correspond to the negative of the X intercept of the line of best fit plotted with the sample containing added standards. As the aliquots have been diluted this must be taken into account when calculating the concentration in the original sample. 
+
+## Analytical Methods 
+
+### Information gathering 
+
+### Select analytic technique or method
+
+### Reduce data, interpret and report Results
+
+## Statistics
+Statistics are used to measure the degree of precision and accuracy required/ achieved. 
+
+### Uncertainty
+There will always be a degree of uncertainty associated with the measure of any physical quantity. The more decimal places, and significant figures the less uncertainty there is. A Gaussian distribution is often assumed. Normally 95\% of readings are expected to lie within a range of 2 standard deviation units from the true mean. This range can be expressed as a 95\% confidence interval
+
+> NOTE: Not every measure made in a determination has to be as accurate as possible. Even the analyte concentration will only be assessed to the accuracy necessary as more accurate determinations are more expensive and time consuming. 
+
+### Confidence intervals. 
+$\mu =\bar{x}\pm\frac{z\sigma}{\sqrt{n}}$
+
+### Student t distribution
+When s is not a good estimator of $\sigma$ i.e when n is small then the student t distribution is used. 
+
+#### Confidence Intervals
+$\mu =\bar{x}\pm\frac{zs}{\sqrt{n}}$
+
+#### Experimental vs True value
+The accuracy of the data can be assessed by comparison of the sample mean to the population mean. 
+
+$t_{calc}=\bar{x}\pm\frac{\mu{s}}{\sqrt{n}}$
+
+If $|t_{calc}>t_{table}|$ the results differ significantly from the true value. 
+
+#### Two experimental values
+$t_{calc}=\frac{\bar{x_1}-\bar{x_2}}{s_{pooled}}\sqrt{\frac{n_1 \cdot n_2}{n_1+n_2}}$
+
+
+$s_{pooled}=\sqrt{\frac{s^2_1(n_1-1)+s^2_2(n_2-1)}{n_1+n_2-2}}$
+
+For paired samples the population of differences can instead be assessed. 
+$t_{calc}=\frac{\bar{d}}{s_d}\sqrt{n}$
+
+### Precision obtained by two different methods
+To compare precision the standard deviation of two different sample tests are compared, using an F test. 
+
+$F_{calc}=\frac{s_1^2}{s_2^2}$
+
+> NOTE: the larger standard deviation is always placed in the numerator. 
+
+> NOTE: Degrees of freedom for $s_1$ are given horizontally and for $s_2$ vertically in the F table, normally a 95\% confidence is used. 
+
+### Detection of Gross errors/ outliers
+The Q test is used to detect outliers, 
+
+$Q_{calc}=\frac{|\text{suspected value}-\text{nearest neighbor}|}{\text{range of all values}}$
+
+In A Q table the number of observations, and not the degrees of freedom are used. The Q test is not recommended for small data sets.  
+
+
+
+### Degrees of freedom
+The degrees of freedom is given by the number of values that are free to vary. 
+
+### Significant Figures
+The number of significant values reflect the certainty. 
+
+### Experimental Error
+
+
+#### Determinate/ systematic
+Determinate errors affect the accuracy of a measurement. Determinate errors are reproducible under the same conditions in the same experiment, they are positive or all negative, and therefore can be detected and corrected for. Statistically the mean value for the data differing from the true value. 
+
+##### Instrumental errors
+Incorrect functioning of an instrument, faulty calibration or incorrect conditions may lead to determinate errors. 
+
+##### Method errors
+Non-ideal chemical or physical behaviour of reagents (e.g incorrect choice of indicator). 
+
+##### Person errors
+Errors associated with the experimenters own judgment (e.g incorrect identification of endpoints). 
+
+### Accuracy
+A measure of how close the experimental result is to the true value. 
+
+### Precision
+A measure of the agreement within a set of replicate results. 
+
+### Mean
+$\bar{x}=\frac{\sum x}{n}$
+
+### Standard deviation 
+$s=\sqrt{\frac{\sum _{i} (x_i-\bar{x})^2}{n-1}}$
+
+### Relative standard error 
+$RSD=\frac{s}{\bar{x}}$
+
+Can be expressed as a percentage i.e coefficient of variation. 
+
+### Sample statistics
+In a scientific study information about a population is inferred from a sample, i.e inferential statistics. 
+
+For a large number of experimental replicates the results approach a Gaussian/ Normal distribution curve. 
+
+> NOTE: sample mean and standard deviation vs population standard deviation. 
+
+#### Indeterminate / random 
+Indeterminate errors affect the precision of a measurement. Indeterminate errors arise from uncontrollable errors and cannot be avoided, they can be positive or negative, and cannot be corrected. 
+
+Repetition of a measurement sufficient times will cancel out random variations leading to a reliable mean/ average value. 
+
+
+## Certified Reference Materials
+Certified reference material are commercially available samples/ substances that have been analysed b a number of laboratories using different methods, and have a known composition. 
+
+
+## Reaction types
+
+### Acid Base
+Acid base reactions involve the transfer of a proton from an acid to a base. 
+
+When acids or bases are added to water they undergo ionisation. At equilbrium an ionisation constant ($K_a$) may be defined. 
+
+$K_a=\frac{[A^-][H_3O^+]}{[HA]}$
+
+$K_b=\frac{[HA][OH^-]}{[A^-]}$
+
+#### Strong acids with strong bases
+When titrating strong acids with strong bases, both are completely ionised, hence there is a dramatic change in pH near the equivalence point. 
+
+The greater the concentration the greater the magnitude of the endpoint break. 
+
+##### Mathematical analysis 
+This behaviour is entirely due to the logarithmic nature of the scale, the hydronium ion concentration decreases/ increases at a constant rate through. A more concentrated titrant implies a greater/faster constant rate. 
+
+#### Weak acids and bases
+Ionise only partially, and their salts undergo hydrolysis, hence the equivalence point will not be at pH 7. 
+Because of this partial ionisation there is a lag in the pH change referred to as the buffering region. 
+
+weak acid strong base implies the formation of a basic salt. and a equivalence point below pH 7 
+
+
+pH is calculated using the Henderson-Hasselbalch equation
+
+$pH=pK_a+\frac{log[A^-]}{log[HA]}$
+
+#### Auto ionisation constant
+In any aqueous system. \newline
+$K_aK_b=K_w=10^{-14}$
+
+#### Mathematical analysis
+Hydroxide/ hydronium removed by reaction with the titrant added, is readily replaced by the dissociation of more acid/base molecules. This process can continue for some time/ for a large volume/amount of titrant added because the equilibrium for the weak acid/base dissociation lies far to the left. However once the reserve of undissociated acid/base is used up then the pH will again change rapidly, will the curve leveling off simply due to the logarithmic nature of the scale. 
+
+
+### Complexation 
+Complexation involves the formation of covalent bonds between  a transition metal species and ligands. 
+
+Metal ions interact with electron pair donors to form coordinate compounds/ complexes. The coordinate number of the complex is the number of covalent bonds formed. Ligands are categorised by the number of electron pair donating froups which they have, e.g 1= unidentate, 2= bidentate etc.  
+
+Complexometric titrations are simply titrations based on complex formation, the metal ion reacts with a ligand to form a complex and an indicator is used to mark the endpoint. The most commonly used ligands in such titrations are multidentate ligands, also referred to as chelating agents. 
+
+#### EDTA (Ethylenediaminetetraacetic acid. )
+EDTA form a stable 1:1 complex with most metals, and is a good primary standard. EDTA has six electron pair donor groups and hence six associated dissociation constants, across a range of pH 0-10.4. The fraction of EDTA in each specific form may be calculated. 
+
+##### Titration Curves 
+EDTA can be used as a titrant in the quantification of metals. pM is used to quantify metal concentration. 
+
+$pM= -log([M^[n+]])$
+
+
+#### Stability Constants
+Stability can be used to determine whether or not a reaction will occur, if the complex resulting from a reaction has a higher stability complex than the complex disrupted then the reaction will occur. 
+
+$K_f=\frac{[Complex]}{\displaystyle\prod _{i=1}^{n}[Ion_i]}$
+
+##### Conditional formation Constants
+If the pH is fixed by a buffer that a conditional formation constant ($K'_f$ ) is calculated. The formula for this constant is exactly the same, but the concentrations are specifically the concentrations present at the given pH. For a large $K'_f$ value the reaction is considered complete at each stage in the titration. 
+
+The EDTA metal ion complex becomes less stable at lower pH. In order to get a complete titration $K'_f$ must be at least $10^6$ which in turn requires a certain minimum pH. As the pH is lowered the endpoint becomes less distinct. The pH can also be adjusted to allow for Complexation with only one particular metal ion, preventing interference from other metal ions which would be unstable at this point. 
+
+##### Auxiliary complexing agents
+Metal cations form complexes, i.e metal hydroxides at high pH, which is a problem for EDTA titrations as the metal cations are now no longer free to complex with EDTA. The cations are kept in solution with the use of auxiliary complexing agents, which for as buffers. These agents must also have a weaker $K_f$ with EDTA that the metal. Essential by the auxiliary complex acts by complexing with the metal ion to protect it from hydroxide ions, but then being easily displaced from complex by any EDTA added.  Common auxiliary complexing agents include ammonia, tartarate ,citrate, and triethanolamine. 
+
+##### Indicators
+EDTA does no have a specific indicator, usually the indicator is first complexed with the analyte (forming a colored complex), and the indicator is then displaces by EDTA causing a color change. 
+
+##### Displacement titration 
+In a displacement titration an analyte which does not have a n appropriate indicator displaces a metal-EDTA complex that undergoes colour change. 
+
+##### Selectivity 
+pH, and masking agents can be used to insure selectivity. The masking agent can complex the analyte leaving other metal contaminant free to be complexed with EDTA and removed. 
+
+### Redox
+Redox reaction involves the transfer of one or more electrons from the reducing agent to the oxidizing agent. This oxidation and reduction occurs between the analyte and the titrant. The titration curve can be deduced using half reactions and their associated potentials. During the titration the potential difference will changes over time. 
+
+$E=E^\circ \pm \frac{0.05916}{n}V$
+
+$E=E^\circ + \frac{RT}{nF}ln\frac{[Ox]}{[Red]}$
+
+Before the equivalence point. \newline
+$E=E_{+}(Indicator electrode)-E_-(Reference electrode)$
+
+
+#### Indicators
+Redox indicators change colour based on the redox potential of the solution, or specific indicator may be used. A redox titration is feasible if the voltage change during the course of the titration exceed 0.2V, the larger the difference the sharper then endpoint .
+
+### Precipitation 
+Precipitation reactions involve electrostatic attraction of cations and anions to form an ionic lattice. The most common precipitating agents used are bromides chlorides, iodides an thiocyanate, using silver nitrate. This technique is called argentometric titration. The titrant reacts with the analyte to form a precipitate. 
+
+#### Mohr Method
+Chromate is used as an indicator. The chromate will form a precipitate with silver, which is more soluble than silver chloride so silver chloride is formed first and the first drop of silver in excess will react with the chromate indicator to give a reddish precipitate. 
+
+Mohr requires a neutral pH, as alkaline solutions promote the formation of silver hydroxide, and acidic solutions promote the conversion from chromate to dichromate. 
+
+#### Volhard method 
+The volhard method is an indirect method, which uses $Fe^{3+}$ as an indicator. An excess of silver is added to the chloride solution, and the excess is then titrated with standard $SCN^-$ The first excess results in the formation of the red compound $Fe(SCN)^{2+}$ 
+
+The Volhard method requires an acidic medium, otherwise the iron indicator will react to form iron oxides. The precipitate may need to be filteres if it is more soluble than AgSCN. A reagent may also be added to form a film around the precipitate e.g nitrobenzene, to prevent side reactions. 
+
+#### Fajans method
+Adsorption indicator is used, silver to titrate Chlorine, floutescein adsorbs to the surface of colloidal silver chloride, the first drop of excess silver leads to the formation of a reddish color. 
+
+Flourescein and its derivative are weak acids, the pH of the solution should be slightly alkaline (to keep the indicator in the anion form), but not alkaline enough to conver silver into silver hydroxide. This is also a dirrect titration. 
+
+#### Monitoring 
+Typical precipitation reactions are monitored by electrodes. curves can then be drawn and the equivalence point identified. 
+
+$K_{sp}=[A^+][B^-]$
+
+### Gravimetric analysis 
+Analyte is measured based on mass, first the analyte is precipitated out of the solution in a chemical reaction, then it is washed for impurities, converted to a known composition dried and weighed. 
+
+ #. preparation of solution 
+      #. Sample dissolved, and treated to adjust pH, either to form the proper precipitate of to suppress the formation of other precipitates. 
+ #. precipitation 
+      #. Precipitating agent added in concentration which promotes the formation of a good precipitate, which may mean extensive heating for digestion, low concentration, and control of pH. Heating helps to reduce co precipitation. 
+ #. digestion
+ #. filtration 
+    #. Filter is chosen to trap precipitate. Crucibles are best as no ash and no digesting of structure but require extensive cleaning. It is then unusually tested to see of the analyte has completely precipitated, by adding a few drops of precipitating reagent. 
+ #. washing 
+ #. drying/ igniting
+    Remaining moisture removed by drying, and precipitate converted to more chemically stable form. precipitate is then cooled in a desiccator. 
+ #. weighing 
+    #. reproducible amounts of water i.e heat to constant mass
+    #. dont touch hands, clean side of crucible with cloth, open container so no temperature/ pressure issues. 
+ #. calculation. 
+
+ The precipitating agent should react specifically or at least selectively with the analyte .the precipitate should be easily transferred, and the precipitate must be easily filtered i.e large crystals. 
+
+ The best products are pure crystals, wost case are colloidal suspension, which are difficult to filter doe to samm size and tend to stay in solution. What type of precipitate is obtained depends on the reaction conditions. Particle size is influenced by precipitate solubility, temperature, reactant concentrations, rate of reactant mixing. 
+
+ Precipitates form by nucleation and particle growth, a few ions, atoms, or molecules come together to form a stable solid, formed on the surface of suspended solid contaminants such as  dust particles. Further precipitation involves competition between additional nuclaetion and growth on existing nuclei, If nucleation predominates the precipitate will have a large number of small particles, of growth dominates fewer larger particles are produced. 
+
+
+ Colloids may also undergo coagulation. An electric double layer prevents coagulation of individual particles, and heat decreases the thickness of the double layer, increasing the electrolyse concentration also decreases the layer, Washing may be problematic reverting coagulated colloid to original state i.e peptisation. 
+
+#### Impurities
+Crystal impurities may be adsorbed to the surface of a crystal, trapped within a pocket within the crystal or placed in the crystal instead of the annulate. 
+
+
