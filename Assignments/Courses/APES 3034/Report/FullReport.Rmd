@@ -1,104 +1,174 @@
 ---
 title: "Inverstigation into the deleterious impact of urbanisation on the freshwater ecosystem of the Braamfontein Spruit"
-
 author: "Keelan Krinsky: _1634953_"
-output: pdf_document
+output: 
+  pdf_document:
+    latex_engine: xelatex
+    #sansfont: Calibri Light
 ---
+\fontsize{11}{22}
+\fontseries{n}
+\selectfont
 
-\footnote{27th October, 2018}
+$\quad$\newline
+$\quad$\newline
+$\quad$\newline
+$\quad$\newline
+$\quad$\newline
+$\quad$\newline
+$\quad$\newline
+
+![](Images/WitsCrest.jpg){width=75%}
+
+$\quad$\newline
+$\quad$\newline
+$\quad$\newline
+$\quad$\newline
+
+.$\quad$$\quad$$\quad$$\quad$$\quad$$\quad$$\quad$$\quad$$\quad$$\quad$$\quad$$\quad$$\quad$$\quad$$\quad$$\quad$$\quad$ 27th October, 2018
 
 \newpage
 
+
+```{r, echo=FALSE}
+# Discharge calculations
+H1<-c(23,29,35.5,38,42.5,39)
+H2<-c(19,27,34,37,42,38)
+
+
+# Magalies
+mdis<-c(round(0.035868*60), digits=2)
+
+
+bdis<-round(c(0.472612430000003*60), digits=2)
+#dD<-c(0.5*)
+
+```
+
+
 # \textbf{ABSTRACT}
-# \testbf{KEYWORDS}
-Freshwater Ecosystems; Habitat Integrity; South Africa Scoring System; Urbanisation
+This Study aimed to assess the impact of urbanisation and anthropic disturbance on freshwater aquatic ecosystems. This assessment was performed by tracking the differences observed, in selected physiochemical characteristics biological indicators of diversity and water quality, and indicators of habitat integrity, between the inner-city sample site, the Braamfontein Spruit, and a pristine rural reference site, the Magalies river. Significant differences were found in all biological and habitat indicators, as well as most physiochemical indicators, indication a significant impact of urbanisation on the water quality and ecological condition of the sample site, with the main causes of degradation potentially linked to heat pollution, eutrophication and erosion events. 
+
+
+
+
+# \textbf{KEYWORDS}
+Freshwater Ecosystems; Habitat Integrity; South Africa Scoring System; Urbanisation, Braamfontein Spruit
 
 # \textbf{INTRODUCTION}
 
-Globally, urban freshwater ecosystems play a variety of very important social, economic and ecological functions. These systems function as: recreational areas (Swanwick _et al_, 2003); animal and plant habitats, an important source of fish stocks (Berkes, 1979), flood control systems (Levy _et al_, 2007), domestic or industrial water treatment and disposal systems; and even as a source of bathing or even drinking water in some communities. However, urban, freshwater systems come under considerable stress due to human disturbance, predominately in the form of pollution, so much so that there their natural functions may become entirely compromised. A detailed understanding of the nature and consequences of anthropic disturbance, may prove critical for effective protection and remediation of these vital systems.   
+Globally, urban freshwater ecosystems play a variety of very important social, economic and ecological roles. These systems function as: recreational areas (Swanwick _et al_, 2003); animal and plant habitats, an important source of fish stocks (Berkes, 1979), flood control systems (Levy _et al_, 2007), domestic or industrial water treatment and disposal systems; and even directly as a source of bathing or drinking water in some communities. However, urban, freshwater systems come under considerable stress due to human disturbance, predominately in the form of pollution, so much so that their natural functions may become entirely compromised. A detailed understanding of the nature and consequences of anthropic disturbance, may prove critical for effective protection and remediation of these vital systems.
+$\quad$\newline
 
-# NB: rewrite this in terms of: it was found that this pollutant with this human cuase had this effect. 
+Much research has already been done into the deleterious effects of pollution on aquatic ecosystems. Nitrate pollution, deriving from domestic sewerage, has been linked, at a global level, to eutrophication, and the resulting losses in biodiversity and system function, (Julio and Alvaro, 2006). Other nutrient pollution, such as phosphate pollution from agricultural fertilisers, or washing powders has also been shown to decreased species diversity, nutrient uptake, and productivity within aquatic systems, (Walsh _et al_, 2005). Finally industrial pollution such as, acid mine drainage, can lead to increased heavy metal toxicity (Ata and Soner, 2006), which is particularly difficult to remove from waste water (Fu and Wang, 2011), and can build up to highly toxic levels with aquatic organisms through the process of bioaccumulation and biomagnification, (Spehar _et al_, 1978). Human communities also suffer from heavy metal pollution due to increased toxicity in drinking water (Duruibe _et al_, 2007).
+$\quad$\newline
 
-Much research has already been done into the deleterious effects of pollution on aquatic ecosystems. Nitrate pollution, deriving from domestic sewerage, has been linked, at a global level, to eutrophication, and the resulting losses in biodiversity and system function, (Julio and Alvaro, 2006). Other nutrient pollution, such as phosphate pollution from agricultural fertalisers, or washing powders has also been shown to decreased species diversity, nutrient uptake, and productivity within aquatic systems, (Walsh _et al_, 2005). Finally industrial pollution such as, acid mine drainage, can lead to increased heavy metal toxicity, which ???????? species are particularly sensitive to ( _Citation needed_), and can cause toxicity in drinking water ( _Citation needed_) (Ata and Soner, 2006).
-
-Physical sources of disturbance have also been assessed, such as the effects of storm water run off, in which a connection was established  between water run off schemes and river ecological condition. (Walsh _et al_, 2012). Erosion from ground disturbance in biulding can also wash down into urban aquatic systems increasing the turbidity, and potentially even blocking up the water channel completely ( _Citation needed_). 
-
-Biological source of disturbance, may also be anthropically induced and can act as very serious disrupt a system. Introduction of invasives such as ????? ( _citations needed_), have again lead to decreases in biodiversity and water quality. 
-
-
- Overall, many pertinant anthropic causes of pollution have been identified and categorised, and their effects inverstigated; however, due to the underlying biological complexity of the issue new polutants, and new biological consequences of previously identified pollutants, are still continuously being identified. ( _citation needed_). Although a strong background has been developed for assessing the damage related to urbanisation and anthropic pollution, much additional research will still be required to fully detail the extent and complexity of the issue. 
-
-The aim of this study was to assess the effects of urbanisation and anthropic disturbance on the ecological state on of the Braamfontein Spruit freshwater ecosystem. This aim was split into several objectives. Firstly, to assess the extent, and nature of physiochemical changes within the urban  system, specifially, dissolved oxygen, pH, Temperature and turbidity. Secondly to assess the differences in biological diversity, and by extention water quality in the urban versus the rural system, using the South African Scoring System Version 5 (SASS) methodology. Thirdly to assess any differces of the ecological integrity of the surrounding catchment between the urban and the rural system using Index of Habitat Integrity (IHI) scoring methodology. The SASS metholodology uses the diversity of macroinvertibrate species observed as an indicator of water quality, as many rarer macroinvertibrate species are dependant on high water quality for survival. The IHI scoring methodology relies on visual clues of anthropic presence within the catchement to access the overall level of anthropic disturbance.  
+Significant physical sources of disturbance have also been identified, such as the effects of storm water run off, where a connection was established  between water run off schemes and river ecological condition. (Walsh _et al_, 2012). Erosion from ground disturbance in building can also wash down into urban aquatic systems increasing the turbidity, and potentially even blocking up the water channel completely. (Collins _et al_, 2011). 
+$\quad$\newline
 
 
-The aim of this investigation was to establish the extent, and origin, of human generated pollution and disturbance on the Delta Park Braamfontein spruit, to assist in the mapping of freshwater pollution across the Johannesburg city area. Within this general aim objectives included Establishing the major sources of disturbance and their origin, as well as assessing the overall ecosystem health as measured by the SASS scoring methodology, and finally to assess the magnitude of the disturbance within the catchment by comparison to the prestine Magalies headwaters system, located in the same general geographic area but suffering from far less human generated pollution.  
+Finally, Biological source of disturbance, such as the introduction of invasive alien species may also be anthropically introduced, and can have a serious negative impact on the water quality and biodiversity of a system. For example species large predator fish species introduced to add to local fish stocks, such as _salmoides_ species in South Africa, can serious reduce the diversity of macroinvertebrate communities by vociferous predation (Weyl _et al_, 2010).
+. Furthermore this increased predation pressure can lead to a trophic cascade, as reduced numbers of primary consumers promote algae biomass further disturbing underlying nutrient cycling and ecological processes within an ecosystem (Simon _et al_, 2003). Biological impact can also come from the lowest trophic levels as with the invasive diatom species _Didymosphenia geminata_ in Australian systems which forms thick sludge layers covering the channel substrate affecting the hydrology, and food web structure. This invader impacts negatively on fisheries, hydrological power stations and tourism, degrading the local water systems and decreasing their water quality. (Spaulding and Elwell, 2007). 
+$\quad$\newline
+
+ Overall, many pertinent anthropic causes of pollution have been identified and categorised, and their effects investigated at a global level; however, the degree of disturbance, and well as the leading causes of anthropic disturbance still remain relatively unknown within many smaller localised systems. Investigations into the condition of such systems can provide important insight to local administrators, or other interested and affected parties such as recreational uses, and communities dependant for water and fishing resources, and assist in community and governmental remediation attempts.
+$\quad$\newline
+
+The aim of this study was to assess the effects of urbanisation and anthropic disturbance on the ecological state on of the Braamfontein Spruit freshwater ecosystem. This aim was split into several objectives. Firstly, to assess the extent, and nature of physiochemical changes within the urban  system, specifically, dissolved oxygen, pH, temperature and turbidity. Secondly to assess the differences in biological diversity, and by extension water quality in the urban versus the rural system, using the South African Scoring System Version 5 (SASS) methodology. SASS scores were also used to calculate the Present Ecological Status (PES) of each site. Thirdly, to assess any differences of the ecological integrity of the surrounding catchment between the urban and the rural system using the Index of Habitat Integrity (IHI) scoring methodology. The SASS methodology uses the diversity of macroinvertebrate species observed as an indicator of water quality, as many rarer macroinvertebrate species are dependant on high water quality for survival (Phipps _et al_, 1995). The IHI scoring methodology relies on visual clues of anthropic presence within the catchment to access the overall level of anthropic disturbance.
+  
 \newpage
 
 # \textbf{METHODS AND MATERIALS}
 
 ## \textbf{Study area}
-Two separate sites were assessed in this study, a lowlands section of the Braamfontein Spruit (the main study site) lying within a highly urbanised area, and a prestine upland section of the Magalies River, used as a refereance site. 
-
+Two separate sites were assessed in this study, a lowlands section of the Braamfontein Spruit (the main study site) lying within a highly urbanised area, and a pristine upland section of the Magalies River, used as a reference site. 
+$\quad$\newline
 
 ## \textbf{Braamfontein Spruit study site}
-The Braamfontein Spriut study site shown in Figure 3 lies within, Delta Park, a public park located along Craighall Road within Victory Park, Johannesburg, a city within the Provence of central gauteng. 
+The Braamfontein Spruit study site (GPS coordinates, $26^\circ07'35.3"S 28^\circ00'59.1"E$), shown in Figure 2 lies within, Delta Park, a public park located along Craighall Road within Victory Park, Johannesburg, a major city within the Provence of Central Gauteng. The Braamfontein Spruit falls within the upper Crocodile sub-region of the Crocodile (west) and Marico water management area water management area seen in Figure 1 below (Statistics South Africa, 2010), which falls under the jurisdiction of the department of Water and Sanitation. The area under study is within the Highveld ecoregion, a level 1 ecoregion (DWAF, 2005), under the jurisdiction of the Johannesburg Metropolitan Municipality. 
+$\quad$\newline
 
-The site is prone to frequen serious erosion due to flooding from storm water drains. (Masawi, 2018)
-
-GPS coordinates $26^\circ07'35.3"S 28^\circ00'59.1"E$
-The parks lies within a highly populated urban district with many recreational users frequenting the park every day, as well as homeless individuals who inhabit the park, and may use the river waters for bathing or cooking. Furthermore the park was historically a sewerage treatment site any although it has been re-purposed, it is still a hub of the Johannesburg sewerage transport network the the possibility of multiple leaks of raw sewerage directly into the river, as well as storm water drains which empty directly into the river. For assessment of water quality the SASS scoring based on the diversity of aquatic macro-invertebrates invertebrate found, was assign to each sample site (Dickens and Graham, 2002). A relatively pristine section of the Magalies river was also sampled as a control/stand for comparison.
-
+The Spruit itself is fed by the Montgomery and Westdene Spruits and originates just above the Westdene dam flowing through several kilometers of highly developed city areas before the sample site is reached (Masetle, 2014). The parks lies within a highly populated urban district with many recreational users frequenting the park every day (Visser, 2008), as well as homeless individuals who inhabit the park, and may use the river waters for bathing or cooking ( Bosaka, 2015). Furthermore the park was historically a sewerage treatment site (Maud, 2008) any although it has been re-purposed, it is still a hub of the Johannesburg sewerage transport network ((Johannesburg City Council,2008), with the possibility of multiple leaks of raw sewerage directly into the river, or by overflowing sewer nearby(Jonker, 2017) , see Figure 4. Many storm water drains also empty directly into the river as seen in Figure 4. The site is prone to frequent serious erosion due to flooding from storm water drains. (Masawi, 2018).
+$\quad$\newline
 
 
 
-The Magalies River study site, shown in Figure 3, lies just of the ?? Highway within the ??? region in the Magalies Mountains just outside of Johanessbur City. 
 
-## \textbf{Experimental design and protocol 
+
+The Magalies River study site (GPS Coordinates $26^\circ 0' 59.7"S, 27^\circ 33' 51.5"E$), shown in Figure 3, lies within the Magaliesburg mountains just to outside the city of Johannesburg, to the west. The Magalies river also falls within the upper Crocodile sub-region of the Crocodile (west) and Marico water management area, but the site itself is within the western Bankenveld ecoregion (a level 1 ecoregion (DWAF, 2005)), and falls under the jurisdiction of the Westrand district municipality. 
+$\quad$\newline
+
+The sampling site is within less than a kilometers of the river source, with only very limited housing developments, including the wedding venue and school seen in Figure 3 upstream, and only one major road, the R24, near by. The riparian zone is highly forested, predominately with alien invasives such as the _Pyracantha angustifolia_ seen in figure _5_, and these tree covered extends significantly over the stream itself, blocking out light and depositing leafy debris.   
+
+![Crocadile West and Marico Water Managment Area, October 2010, Report number DO405.8 by Statistic South Africa,National Accounts, Environmental and economic accounts](Images/CrocodileManagmentArea.jpg){width=60%} 
+
+![Left: Google Maps sataline image of Braamfontein spruit sampling site (2018), DigitalGlobe, AfriGIS, Google, accessed October 24th 2018. \newline Right: Upstream view from Braamfontein Spruit sampling site, image captured August 1st 2018 ](Images/GoogleMapsMagalies.jpg){width=80%} 
+
+![Left: Google Maps sataline image of Braamfontein spruit sampling site (2018), DigitalGlobe, AfriGIS, Google, accessed October 24th 2018. \newline Right: Downstream view from Magalies river sampling site, image captured July 25th 2018 ](Images/GoogleMapsBraam.jpg){width=80%}
+
+
+![Signs of anthropic disturbance at Braamfontein spruit sampling site. \newline Top Left: Storm water drain emptying dirrectly into river channel. \newline Top Right: Plastics debris in water channel: Bottom Left: Manhole of nearly sanitation sewer.\newline Botton Right: Power line gurder on river bank.  Images captured August 1st. 2018](Images/BraamDisturbance.jpg){width=70%}
+
+![_Pyracantha angustifolia_ , Invasive alien species present at Magalies river sampling site, image captured July 25th 2018](Images/MagaliesAleinInvasives.jpg)
+
+\newpage
+## \textbf{Experimental design and protocol}
 
 ### \textbf{Physiochemical parameters}
-For each study site, measures of physiochemical parameters and biological/habitat indicators were assessed at four sample sites displaced $\approx$ 30m from eachother along the stream channel. For each sample site an indentical sampling porceedure was employed. 
+For each study site, measures of physiochemical parameters and biological/habitat indicators were assessed at four sample sites displaced $\approx$ 30m from each other along the stream channel. For each sample site an identical sampling procedure was employed. 
+$\quad$\newline
 
-Before any other sampling took place, a turbidity sample was taken by gently submerging a sampling bottle in the center of the channel, and allowing it to fill. The sampling bottle was then sealed tightly, for storage and taken for laboritory analysis. A set of dilutions were made of the sample and the absorbance of each dilution measured in Nephelometric Turbidity Units using a Hanna turbidity meter (model HI98703-02). 
+Before any other sampling took place, a turbidity sample was taken by gently submerging a sampling bottle in the center of the channel, and allowing it to fill. The sampling bottle was then sealed tightly, for storage and taken back to the laboratory where absorbance was measured (in Nephelometric Turbidity Units) using a Hanna turbidity meter (model HI98703-02). 
+$\quad$\newline
 
-pH, Temperature, dissolved oxygen, and conductivity were all assessed using a handheld YSI Professional Plus multi-parameter meter; measurements were taken by placing the probe in the center of the water channel, and taking the measurment only once the reading stabalised. Only one reading was taken at each sample site.   
+pH, Temperature, dissolved oxygen, and conductivity were all assessed using a handheld YSI Professional Plus multi-parameter meter; measurements were taken by placing the probe in the center of the water channel, and taking the measurement only once the reading stabilised. Only one reading was taken at each sample site.
+$\quad$\newline
 
-A Transparent Velocity Head Rod (TVHR) (sourced from the company GroundTruth, operating in Pietermaritzburg, South Africa), along with a 50m tape measure were used to make the measurements required to calculated discharge. The tape measure was used to measure the in channel width of a slow flowing section of the channel with a smooth, homogeous benthos, i.e an area with no sudden variations in high or large stones on the river bed, or macrophytes blocking the river flow.  The TVHR was then used to, measure the depth of the channel at 0.5m intervals along the horizontal line which was used in measuring channel width. The ??? flow,??? and were also measured and used to calculate an estimate of water velocity at this point in the channel. 
+A Transparent Velocity Head Rod (TVHR) (sourced from the company GroundTruth, operating in Pietermaritzburg, South Africa), along with a 50m tape measure were used to make the measurements required to calculated discharge\footnote{Due to anomalies which occurred in data collection only one measurement of discharge was taken for each study sites}. The tape measure was used to measure the in channel width of a slow flowing section of the channel with a smooth, homogeneous benthos, i.e an area with no sudden variations in high or large stones on the river bed, or macrophytes blocking the river flow.  The TVHR was then used to, measure the depth of the channel at 0.5m intervals along the horizontal line which was used in measuring channel width. The height difference due to water build up behind the TVHR was also measured and were also measured and used to calculate an estimate of water velocity at this point in the channel. The overall discharge estimated using the method set out in (Benson and Dalrympl, 1967).
+$\quad$\newline
 
 ### \textbf{Biological indices}
-The Standard Methodolgy described in the SASS version 5 was used for the Sampling of Aquatic invertibrates with some small changes. Instead of (??? nets), butterfly catching nets were used, and instead of the 2 minute sampling period indicated, in cases where it appeared few vertibrates had been collected the period was extended to five minutes. 
+The Standard Methodology described in the SASS Version 5 as described in Dickens and Graham, 2002,  was used for the sampling of Aquatic invertebrates with some minor adaptions. In place of the standard SASS sampling nets, butterfly catching nets were used, the sampling period was also extended to 5 minutes, in cases where it appeared few macroinvertebrates had been collected the period was extended to five minutes. The macroinvertebrate samples, once collected where stored in $\approx$ 85\% ethanol solution, and stored for several weeks, before identification. 
+$\quad$\newline
 
-The invertibrate samples, once collected where stored in $\approx$ 85\% ethanol solution, and stored for several weeks, before being identified to family level. 
+ The overall SASS score as well as the ASPT where used to calculate the Present ecological status using the boundary level given in Dallas, 2007). A relatively pristine section of the Magalies river was also sampled as a control/stand for comparison.
+
 
 ### \textbf{Habitat integrity}
-Signs of human impact were observed and categorised in nature and extent by using the ???? system as in ???? reference. 
+Signs of human impact were observed and categorised in nature and extent by using the IHI scoring system as detailed in (Amis, 2007)
 
 
 ## \textbf{Data Analysis}
-The overall means of each physiochemical measure, as well as the habitat integrity score, and biological indicators were calculated from the data collected at each sample site, to reduce no-determinate errors, and local variations associated indivdual measures. The standard error for each parameter was also calculated to given an indication of the natural variation seen, and the precision of the measurements obtained. 
+The overall average of each physiochemical measure, as well as the habitat integrity score, and biological indicators were calculated from the data collected at each sample site. This averaging was used to reduce no-determinate errors, and local variations associated individual measures. The standard error for each parameter was also calculated to given an indication of the natural variation seen, and the precision of the measurements obtained. 
+$\quad$\newline
 
-Two sample, equal varience, two tailed, Student t tests were also performed to test for significant differences in each parameter between the two study site (Braamfotein spriut and Magalies River), at a 5\% signifcance level. Equal varience of the two study site was assumed with no explicit statistical test. Two tailed tests were used as the purpose of the study was simply to assess the difference between disturbed and prestine habitats, not to test any specific theory of the effects of disturbance on biological and physiochemical conditions. 
+Two sample, equal variance, two tailed, Student t tests were also performed to test for significant differences in each parameter between the two study site (Braamfontein Spruit and Magalies River), at a 5\% significance level. Equal variance of the two study site was assumed with no explicit statistical test. Two tailed tests were used as the null hypothesis behind the assessment was simply that there was no significant difference between the sample site and the reference site. 
 
 # \textbf{RESULTS} 
 
 ## \textbf{Physiochemical data}
 Summary measures of the physiochemical data collected are shown in Table 1, while statistical analysis of the physiochemical differences between the two sampling sites is shown in Table 2, below. 
+$\quad$\newline
 
-In Table 1 it can be seen that measures of Conductivity, Dissolved oxygen, and Turbidity were all a good deal higher, on average at the Braamfontein Spriut sampling sight, at which there was a higher current, and more riffles/shallow rocky sections, and more macrophytes growing within the water channel itself. Manholes for operational sewers were also located near to the banks of the stream at this site. Furthermore, it can be seen from channel two that the differences observed in Turbidity, dissolved oxygen concentration were all both highly significant well below the conventional 5\% significance level set for the purpose of this study. Conversely, however, the difference observed in average conductivity had only a low associated significance level (Predominately due to the very large variance in the conductivity measures taken), and so was not considered sifnificant for the purposes of this study. 
+In Table 1 it can be seen that measures of Conductivity, Dissolved oxygen, and Turbidity were all a good deal higher, on average at the Braamfontein Spruit sampling sight, at which there was a higher current, and more riffles/shallow rocky sections, and more macrophytes growing within the water channel itself. The discharge measured at that Braamfontein site was also a good deal higher than that of the Magalies reference site, however, due to the lack of repetitions the significance of this difference could not be assessed. Manholes for operational sewers were also located near to the banks of the stream at this site. Furthermore, it can be seen from channel two that the differences observed in Turbidity, dissolved oxygen concentration were all both highly significant well below the conventional 5\% significance level set for the purpose of this study. Conversely, however, the difference observed in average conductivity had only a low associated significance level (Predominately due to the very large variance in the conductivity measures taken), and so was not considered significant for the purposes of this study. 
+$\quad$\newline
 
 It can also be seen from Table 1 that measures of pH and Temperature, were higher at the Magalies sampling site, however only the difference in temperature actually proved to be significant, as seen in Table 2.
+$\quad$\newline
 
 ## \textbf{Habitat assessment}
-As seen in Table 1 the Index of Habitat Integrity (IHI) score was far higher at the Braamfontein spruit site, which as afor mentioned, in a densly populated urban area, and exhibited visible signs of human disturbance such as plastic waste floating within the channel itself, as well as large storm drain pipes draining dirrectly into the channel and bridges and a large pedestrian bridge placed over the channel. This significant difference is futher demonstatred by Figure 1, in which it can be seen that not only is the mean IHI score at the Braamfontein spriut sampling site more than double that of IHI score for the Magalies River sampling site, there is is no overlap in the error bars for the two means, Theses error bars, which show the standard error in the means calculated support the observation of significant difference given in table 2, showing that the difference in means is highly unlikely to have assisen simply from random variation.  
+As seen in Table 1 the Index of Habitat Integrity (IHI) score was far higher at the Braamfontein Spruit site, which as afore mentioned, in a densely populated urban area, and exhibited visible signs of human disturbance such as plastic waste floating within the channel itself, as well as large storm drain pipes draining directly into the channel and bridges and a large pedestrian bridge placed over the channel. This significant difference is further demonstrated by Figure 1, in which it can be seen that not only is the mean IHI score at the Braamfontein Spruit sampling site more than double that of IHI score for the Magalies River sampling site, there is is no overlap in the error bars for the two means, Theses error bars, which show the standard error in the means calculated support the observation of significant difference given in table 2, showing that the difference in means is highly unlikely to have arisen simply from random variation.
+$\quad$\newline
 
-## \texbf{Biological indicators}
-All of the indicators of bioligical diversity measured i.e, South Africa Scoring System, version 5 (SASS) Score, taxa score, and Average Score per Taxon (ASPT), (Also calculated with the SASS method), were higher at the Magalies sampling site at which different biome types were more distinctly segregated, and evenly distributed along the river channel, as seen in Table 1. The differences observed in these parameters between the two sampling sites were without exception significant, as seen in Table 2.  
+## \textbf{Biological indicators}
+All of the indicators of biological diversity measured i.e, South Africa Scoring System, version 5 (SASS) Score, taxa score, and Average Score per Taxon (ASPT), (Also calculated with the SASS method), were higher at the Magalies sampling site at which different biome types were more distinctly segregated, and evenly distributed along the river channel, as seen in Table 1. The differences observed in these parameters between the two sampling sites were without exception significant, as seen in Table 2. The significance of this difference is further reinforced by the PES categorisation, given by the SASS scores obtained, which identifies the disturbance seen at the Braamfontein site at a distinctly higher level/category than that seen at the Magalies reference site. The present ecological status calculated from the SASS scores obtained also shown a marked difference between the sample and reference sites, as seen in Figure 7. 
 
-```{r, echo=FALSE}
+```{r, echo=FALSE, warning=FALSE}
 # Data Input
 se <- function(x) sqrt(var(x)/length(x))
 
 
-## Brammfontein Spruit
+## Braamfontein Spruit
 bpH<-c(8.1,8.26,8.12,7.94,8.34,8.39,8.31)
 bC<-c(366.3,367.1,150.9,151.5,343.9,356,148.7)
 bTe<-c(15,15,13.9,13.8,13.9,15.3,13.9)
@@ -119,7 +189,7 @@ bse2<-c(se(bIHIe),se(bSASS), se(bt), se(bASPT))
 bsd<-sd(bIHIe)
 
 
-Bp<-data.frame("pH"=bpH, "Conductivity"=bC, "Temperature"=bTe, "Dissolved Oxygen"=bDO,"Turbidity"=bTu)
+Bp<-data.frame( "pH"=bpH, "Conductivity"=bC, "Temperature"=bTe, "Dissolved Oxygen"=bDO,"Turbidity"=bTu)
 
 Bb<-data.frame("IHI"=bIHI, "SASS"=bSASS, "taxa"=bt, "ASPT"=bASPT)
 
@@ -146,15 +216,33 @@ mAv2<-c(mean(mIHI), mean(mSASS), mean(mtaxa), mean(mASPT))
 mse2<-c(se(mIHI),se(mSASS), se(mtaxa), se(mASPT))
 msd<-sd(mIHI)
 
+x<-c(1:9)
 mAv<-c(mAv1,mAv2)
 mse<-c(mse1,mse2)
+mse[x+1]<-mse[x]
+mse<-round(mse,digits=2)
+mse[1]<-c("-")
+
+mAv[x+1]<-mAv[x]
+mdis<-c(round(0.035868*60), digits=2)
+mAv[1]<-c(mdis)
 
 mAv<-round(mAv,digits=2)
-mse<-round(mse,digits=2)
+
+
+
 
 bAv<-round(bAv,digits=2)
+
+
+x<-c(1:9)
+bAv[x+1]<-bAv[x]
+bAv[1]<-c(bdis)
 bse<-round(bse,digits=2)
 
+bse[x+1]<-c(bse[x])
+bse<-round(bse,digits=2)
+bse[1]<-c("-")
 
 ```
 
@@ -172,10 +260,10 @@ T1<-data.frame("Mean"=bAv,"Standard Error"=bse,"Mean "=mAv,"Standard Error "=mse
 library(knitr)
 
 
-row.names(T1)<-c("pH","Conductitiy ($\\mu S$)","Temperature($^\\circ C$)","Dissolved Oxygen($mg \\cdot L^{-1}$)", "Turbidity(NTUs)","IHI", "SASS", "taxa", "ASPT")
+row.names(T1)<-c("Discharge ($m^3/min$)","pH","Conductivity ($\\mu S$)","Temperature($^\\circ C$)","Dissolved Oxygen($mg \\cdot L^{-1}$)", "Turbidity(NTUs)","IHI", "SASS", "taxa", "ASPT")
 
 library("kableExtra")
-T1d_latex<-knitr::kable(T1,"latex", digits = 3,row.names=NA, col.names = NA, align="llll", caption = "Summary measure of key physiochemical characteristics, biological indicators of water quality, and habitat integrity indicators for the Braamfotein spruit study site, and Magalies river prestine reference site.", escape = FALSE) %>%
+T1d_latex<-knitr::kable(T1,"latex", digits = 3,row.names=NA, col.names = NA, align="llll", caption = "Summary measure of key physiochemical characteristics, biological indicators of water quality, and habitat integrity indicators for the Braamfontein Spruit study site, and Magalies river pristine reference site.", escape = FALSE) %>%
 add_header_above(c("", "Braamfontein Spruit"=2, "Magalies River"=2))
 
 
@@ -230,7 +318,7 @@ ts<-c(x$x)
 ```
 
 ```{r, echo=FALSE, warning=FALSE}
-## Table 2 statisitcal comparison. 
+## Table 2 statistical comparison. 
 
 pv<-round(pv,digits=2)
 
@@ -238,19 +326,17 @@ T2<-data.frame("T statistic"=ts,"Degrees of freedom"=df, "p value"=pv )
 library(knitr)
 
 
-row.names(T2)<-c("pH","Conductitiy ($\\mu S$)","Temperature($^\\circ C$)","Dissolved Oxygen($mg \\cdot L^{-1}$)", "Turbidity(NTUs)","IHI","SASS","taxa","ASPT")
+row.names(T2)<-c("pH","Conductivity ($\\mu S$)","Temperature($^\\circ C$)","Dissolved Oxygen($mg \\cdot L^{-1}$)", "Turbidity(NTUs)","IHI","SASS","taxa","ASPT")
 
 
 library("kableExtra")
-T2d_latex<-knitr::kable(T2,"latex", digits = 3,row.names=NA, col.names = NA, align="llll", caption = "Student t test, for significant difference in physiochemical characteristics, biological indicators of water condition, and measures of habitat integrity between the Braamfontein Spruit sample site, and the prestine Magalies river referecen site.", escape = FALSE) 
+T2d_latex<-knitr::kable(T2,"latex", digits = 3,row.names=NA, col.names = NA, align="llll", caption = "Student t test, for significant difference in physiochemical characteristics, biological indicators of water condition, and measures of habitat integrity between the Braamfontein Spruit sample site, and the pristine Magalies river reference site.", escape = FALSE) 
 kable_styling(T2d_latex, latex_options = c("striped","hold_position"), position= "center")
 
 ```
 
-\newpage
-
-## \textbf{Biological indicies}
-Figure 1 below shows the comparison between the IHIH score calculated for each site, and figure 2 illustrates the relation between (average) ASPT and SASS, to classically the overall state of the system. 
+.\newpage
+.. \newpage
 
 ```{r, echo=FALSE, warning=FALSE}
 library(ggplot2)
@@ -275,7 +361,7 @@ ggplot(df, aes(x=row.names(df), y=bars), xlab="Sample Site") +
   theme_classic()+
    xlab("Sampling Sites") +
   ylab("IHI Score") +
-    ggtitle(expression(" \n \n \n Figure 1: Index of Habitat Integrity (IHI) scores for the Braamfotein spruit study site catchment, and Magalies river prestine reference site catchment.")) +
+    ggtitle(expression(" \n \n \n Figure 6: Index of Habitat Integrity (IHI) scores (Amis, 2007) for the Braamfontein Spruit \n study site catchment, and Magalies river pristine reference site catchment.Error bars are \n equivalent to standard error")) +
      theme(plot.margin = unit(c(1,1,3,1), "cm"))+
   theme(plot.title = element_text(hjust=.6,vjust=-90, size=11))
 ```
@@ -303,8 +389,8 @@ lAvS<-c(AvA-sd1,mAv2[4],bAv2[4])
 uAvS<-c(AvA+sd1,mAv2[4], bAv2[4])
 
 par(mar = c(10,10,2,2) )
-plot(AvS,AvA, xlab="SASS",ylab="Average Score per Taxon", ylim=range(c(3,8)), xlim=range(c(30,140)))
-arrows(AvS2, lAvS, AvS1, uAvS, length=0.05, angle=90, code=3)
+plot(AvS,AvA, xlab="SASS",ylab="ASPT", ylim=range(c(3,8)), xlim=range(c(30,200)))
+#arrows(AvS2, lAvS, AvS1, uAvS, length=0.05, angle=90, code=3)
 arrows(88,0,88,4.5,length=0,col="blue")
 arrows(115,0,115,5.4,length=0,col="blue")
 arrows(151,0,151,5.9,length=0,col="blue")
@@ -312,39 +398,72 @@ arrows(244,0,244,6.4,length=0,col="blue")
 
 arrows(0,4.5,88,4.5, length=0,col="blue")
 arrows(0,5.4,115,5.4, length=0,col="blue")
-arrows(0,5.9,151,5.9, length=0,col="blue")
+arrows(0,5.95,151,5.95, length=0,col="blue")
 arrows(0,6.4,244,6.4, length=0,col="blue")
 
 
-text(70,3.7,"E/F")
-text(100,4.8,"D")
-text(130,5.6,"C")
-text(200,6.2,"B")
-title(sub="Figure 2: The average score per taxon (ASPT) vs the overall Ecosystem \n score, calculated using the South African Scoring system \n for rapid bioassessment (SASS-5), Version 5.\n The zones donated by letters E to B indicate categories of ecosystem integrity from A the least degraded, to most E the most degraded",cex.sub=1, line=7 )
-```
+arrows(120,0,120,5.3,length=0,col="red")
+arrows(154,0,154,5.95,length=0,col="red")
+arrows(190,0,190,6.3,length=0,col="red")
+arrows(240,0,240,6.8,length=0,col="red")
 
+arrows(0,5.3,120,5.3, length=0,col="red")
+arrows(0,5.9,154,5.9, length=0,col="red")
+arrows(0,6.3,190,6.3, length=0,col="red")
+arrows(0,6.8,240,6.8, length=0,col="red")
+
+w<-30
+text(w,4,"E/F", col="blue")
+text(w,4.8,"D", col="blue")
+text(w,5.65,"C", col="blue")
+text(w,6.15,"B", col="blue")
+
+c<-3.2
+text(100,c,"E/F", col="red")
+text(142,c,"D", col="red")
+text(175,c,"C", col="red")
+
+
+text(55,5.6,"Braamfontein site",cex=0.7)
+text(124,7.3,"Magalies site",cex=0.7)
+
+
+points(AvS[1],AvA[1])
+points(AvS[2],AvA[2])
+
+
+arrows(AvS2, lAvS, AvS1, uAvS, length=0.05, angle=90, code=3)
+title(sub=".\n .\n  Figure 7: The average score per taxon (ASPT) vs the overall Ecosystem score, calculated using the \n South African Scoring system for rapid bioassessment (SASS), Version 5 (Dallas, 2007), using data \n collected from the Braamfontein Spruit study site, and Magalies River reference site. The zones \n donated by letters E to B indicate categories of Present ecological Status varying from A,Pristine\n to E: Highly disturbed. The zones marked in red refer to areas within the highveld ecoregion which\n  includes the  Braamfontein Spruit study site, and the zone boundaries marked in blue apply to the \n western Bankenveld ecoregion which contains the Magalies reference site.                                       ",cex.sub=0.7, line=8.2 )
+```
+\newpage
 
 # \textbf{DISCUSSION} 
 
-The effects of urbanisation are clearly present across all aspects of the Braamfontein spruit system, from the physiochemical characteristics, to the biological indicators, to measures of the integrity of the surrounding habitat. Furthermore it is more than likely that changes are closely connected, and linked to the degradation of the ecosystem as a whole. Arguably the process underlying the degradation observed may originate with changes in the physiochemical characteristics related to anthropic disturbace. 
 
-The significant difference in temperature observed was unexpected as mountanous headwater are conventionally expected to be cooler than larger lowland streams. ( _Citation needed_). The lower temperature in the Braamfontein spruit may related to the increased turbidity, as even at very shallow depth below the surface the penetration of sunlight, and the resultant heating can be markedly decreased ( _citation needed_). However given the vigorous current, the exposure to wind action (due to low tree cover) and the frequent riffles present in the Braamfontein spruit physical/mechanical water mixing might be expected bring the sunlight heated surface waters into thermal equilbirum with the water just below minimizing the effects of this differece. Perhaps a more likely explanation is that in influx of cold storm water, bringing in water which enters the river dirrectly from the underground storm sewers system (Hence not exposed to sunlight), may have resulted in thermal pollution lowering temperature of the Braamfontein Spruit site ( _Citation for thermal pollution_).
+The disruptive effects of urbanisation are clearly present across all aspects of the Braamfontein Spruit system, from the physiochemistry to the biology, to the integrity of the surrounding habitat. Theses changes are closely connected. Arguably the processed underlying the degradation observed may originate with changes in the physiochemical characteristic, and catchment conditions related to anthropic disturbance, which subsequently impact the biology of the system. This amalgamation of changes leads to a marked decreased in water quality, and links to the degradation of the system as a whole. 
+$\quad$\newline
 
-The significant difference in oxygen concentration observed may well be a dirrect result of the temperature difference seen, as oxygen solubility in water increases markedly with decreased temperature. ( _Citation Needed_). 
+This first major sign of disturbance is evident in the significant difference in temperatures measured between the two sites. This nature of this difference was unexpected as mountainous headwater are conventionally much cooler than larger lowland streams, due to their higher altitude, lower exposure to sunlight, and proximity to the cold river source. (Allanson and Gieskes, 1961). The lower temperature in the Braamfontein Spruit may related to the increased turbidity, as even at very shallow depth below the surface the penetration of sunlight, and the resultant heating may be markedly decreased (Paaijmans _et al_, 2008 ). However given the vigorous current, the exposure to wind action (due to low tree cover) and the frequent riffles present in the Braamfontein Spruit physical/mechanical water mixing might be expected bring the sunlight heated surface waters into thermal equilibrium with the water just below minimizing the effects of this difference. Perhaps a more likely explanation is that in influx of cold storm water in flooding ((Masawi, 2018)), brings in water which enters the river directly from the underground storm sewers system (Hence not exposed to sunlight), resulting in thermal pollution lowering temperature of the Braamfontein Spruit site. Thermal pollution can be an issue for the local biota affecting the energy budget of aquatic animals which must expend additional energy in heating/ cooling, or triggering unseasonal spawning critically endangering reproductive cycles. (Olden and Naiman, 2010). 
+$\quad$\newline
 
-The decreased biological diversity indicated by significant changes in SASS-5 score is a biological indicator of poor water quality. This poor water quality may be due, at least in part to the changes in physiochemical condition seen. Increased turbidity, for instance, can have detrimental effects of many macro invertibrates such as ????????????? ( _Citation_). Temperature variation related to heat pollution may also have an impact on biodiversity, with large variations in temperature leading to decreased abundance of stenotherm species such as ??????. 
+The significant difference in oxygen concentration observed may be  direct related to this abnormal temperature difference, as oxygen solubility in water increases with decreased temperature. (Truesdale, and Downing, 1954). Additionally, the increase in oxygen levels may also come as a result of the afore mentioned mechanical mixing. Despite the anomaly of relative oxygen concentrations, its biological effect is likely to be less significant as higher oxygen concentrations are not directly associated with any form of toxicity. The increased oxygen concentration, in conjunction with the lower temperatures may favour a change in the macroinvertebrates, as well as fish and macrophytes populations within the system increasing the competitive advantage of highly oxygen dependant species. However, given that headwater species are usually highly sensitive to chemical pollution  (Woodcock and Huryn, 2007), and are maladapted to high turbidity environments (Vuori and Joensuu, 1996), they are still unlikely to persist in a polluted urban system and hence little overall biological effect, aside perhaps from a slight increase in productivity could be expected. Conversely the significant increase in turbidity may have a more serious biological effect.
+$\quad$\newline
 
+Increased turbidity may be linked to erosion caused by flooding from the afore mentioned storm drains, in addition to direct run off from the surrounding catchment. The increase in impervious surfaces within the surrounding surfaces which contributed in part to the high IHI score obtained, implies that water will not infiltrate as well within the catchment, leading to increased run off as a pose to subsurface flow. This run off is more likely to pick up loose surface sediments which will be washed down into the river itself. The disruption of the nearby land surface in human developments, such as mud or clay from road work excavations, or fine sand deposited for use in construction, will also be picked up by run off, adding to the sediment load. Increased turbidity can have a serious negative impact on the local biology such as diminishing the number of visual predators such as fish or even crabs (Utne-Palm,2002), diminishing biomass of phytoplankton due to decreased light penetration, and hence lower overall productivity, and finally diminishing numbers of benthic macroinvertebrates sensitive to mud accumulation within their integument or gills, or loss of interstitial habitats. (Kasangaki _et al_,2008). The decrease in benthic macroinvertebrates may be one of the major drives behind the lower SASS, and ecological status scores obtained. 
+$\quad$\newline
 
+The increased turbidity may also be due in part to an increase in dissolved and suspended biological material. Dog and horse feces (resulting from recreational uses of the park), brought down in runoff, in addition to potential sewerage overflows, could increase the concentration of dissolved biological molecules, and hence the nutrient,especially nitrogen and phosphorous, concentration within the river. Increased nutrient concentration runs the serious risk of inducing eutrophication, and the related decrease in biodiversity and water quality (Nyenje _et al_, 2010). In this case it appears that the system has not yet reached transformed into a eutrophic state due to the high dissolved oxygen content, in addition to the neutral/ slightly basic pH which are fairly atypical of a eutrophic system. None the less such pollution still places the system in significant danger of eutrophication especially as the decreased biodiversity and modified  physiochemistry are already likely to have reduced resilience and resistance within the system. 
+$\quad$\newline
 
-Decreased biodiversity and ecological condition may also to degradation of the surrounding catchment. 
+The higher level of discharge seen in the Braamfontein site may also link directly to this increased run of and injection from storm drains. This comparison is unreliable both because of the lack of repetition in the discharge measurements taken and because the Braamfontein site which is further down stream would by default be expected to have a higher discharge (Vannote, 1980). However, an increase discharge related to flooding events could help to explain help to explain the lack of biological diversity captured in the SASS scores, leading to high levels of disturbance which are typically linked with decreased biodiversity (Townsend, 1997). Over time the system may be expected to shift to to contain only coloniser species adapted to common disturbance, or species specifically adapted to high flow such as larval caddisflies (_Anabolia_) (Statzner and  Holm, 1989).
+$\quad$\newline
 
-Catchmet degradation may also play a role in the physiochemical differences seen. The increase in tubidity may well be related to the increased area of impervious surfaces (i.e) tar rodes and paving within the catchment preventing perculating and leading to run off as a pose to subsurface flow, which is more likely to pick up loose sediment and deposit it into the river channel. Fine building sand dumped on the pavements, of surrounding houses, or or mud and clay from excavations in road works will also be picked up by run off and accumulate within the river channel adding to the sediment load. 
-
+In Conclusion, The significant difference seen in biological indicators of water quality and ecological status, can be linked to both physiochemical changes within the river as well as degradation of the surrounding catchment resulting from urbanisation. Erosion and run off from increased flooding due to nearby roads and other impervious surface, and loose sand deposits for construction, increase the turbidity of the water and hence negatively impacting on fish macroinvertebrates and phytoplankton within the stream. Aside from the physical effects of turbidity there is also the related increase in nutrient concentration, exacerbated by potential sewerage leaks/ overflows which risk push the system towards a eutrophied state. Finally potential temperature pollution from storm drains, in combination with the increased flooding disturbance causes by these drain may also decrease the biological diversity, leading to further ecological degradation and decreases in water quality. 
 
 # \textbf{ACKNOWLEDGEMENTS}
-University of the WitsWaterstrand for providing all sampling material, as well as reference books used in macroinvertibrate identification for SASS scoring. 
+University of the Witwatersrand for providing all sampling material, as well as reference books used in macroinvertebrate identification for SASS scoring. 
 
-The Witswaterstand Students who aided in all sampling and data collection at both study sites. 
+The Witwatersrand Aquatic Ecology Students who aided in all sampling and data collection at both study sites. 
 
 
 # \textbf{REFERENCES}
@@ -370,32 +489,72 @@ Walsh CJ, Fletcher TD, Burns MJ, 2012, Urban Stormwater Runoff: A New Class of E
 
 Ndompupei Masawi, Report number, 490343, prepared for Johannesburg Roads Agency (JRA), srk consulting, 2018, Johannesburg South Africa. 
 
+National Accounts, Environmental and economic accounts, Statistics south afirca, water managment areas in south africa. Discussion DoicumentL DO405.8 October 2010, Pretoria. South Afirca. 
+
+Department of Water affairs and Forestry Resource Quality Services, September 2005, A level i river classification system for south africa, lesotho and swaziland. 
+
+Fu, F., & Wang, Q. (2011). Removal of heavy metal ions from wastewaters: a review. Journal of environmental management, 92(3), 407-418.
+
+Duruibe, J. O., Ogwuegbu, M. O. C., & Egwurugwu, J. N. (2007). Heavy metal pollution and human biotoxic effects. International Journal of physical sciences, 2(5), 112-118.
+
+Spehar, R. L., Anderson, R. L., & Fiandt, J. T. (1978). Toxicity and bioaccumulation of cadmium and lead in aquatic invertebrates. Environmental Pollution (1970), 15(3), 195-208.
+
+Collins, A. L., Naden, P. S., Sear, D. A., Jones, J. I., Foster, I. D., & Morrow, K. (2011). Sediment targets for informing river catchment management: international experience and prospects. Hydrological Processes, 25(13), 2112-2129.
+
+Weyl, P. S., De Moor, F. C., Hill, M. P., & Weyl, O. L. (2010). The effect of largemouth bass Micropterus salmoides on aquatic macro-invertebrate communities in the Wit River, Eastern Cape, South Africa. African Journal of Aquatic Science, 35(3), 273-281.
+
+Simon, K. S., & Townsend, C. R. (2003). Impacts of freshwater invaders at different levels of ecological organisation, with emphasis on salmonids and ecosystem consequences. Freshwater biology, 48(6), 982-994.
+
+Spaulding, S., & Elwell, L. (2007). Increase in nuisance blooms and geographic expansion of the freshwater diatom Didymosphenia geminata: recommendations for response. White Paper. USEPA Region, 8.
+
+Phipps, G. L., Mattson, V. R., & Ankley, G. T. (1995). Relative sensitivity of three freshwater benthic macroinvertebrates to ten contaminants. Archives of Environmental Contamination and Toxicology, 28(3), 281-286.
+
+Visser E (2008), City of Johannesburg-Finding green heaven in Johannesburg, accessed October 2018, <http://www.joburg.org.za>
+
+Masetle, L. (2014). Ecological integrity of Westdene and Emmarentia dams in Johannesburg (Doctoral dissertation, University of Johannesburg).
+
+Vannote, R. L., Minshall, G. W., Cummins, K. W., Sedell, J. R., & Cushing, C. E. (1980). The river continuum concept. Canadian journal of fisheries and aquatic sciences, 37(1), 130-137.
+
+Bosaka, P. (2015). Changing Practices of the State: Johannesburg City Parks and Zoo Officials’ Views on Opportunities and Challenges of Community Engagement.
+
+Jonker, L. AQUATIC ECOLOGICAL ASSESSMENT AS PART OF THE ENVIRONMENTAL ASSESSMENT AND AUTHORISATION PROCESS FOR THE PROPOSED MANAGEMENT AND CONTROL OF THE BRAAMFONTEINSPRUIT IN JOHANNESBURG WITHIN THE GAUTENG PROVINCE, SRK consulting. 
+
+
+Benson, M. A., & Dalrymple, T. (1967). General field and office procedures for indirect discharge measurements (No. 03-A1). US Govt. Print. Off.,.
+
+Amis, M. A., Rouget, M., Balmford, A., Thuiller, W., Kleynhans, C. J., Day, J., & Nel, J. (2007). Predicting freshwater habitat integrity using land-use surrogates. Water Sa, 33(2).
+
+Dallas, H. F. (2007). River health programme: South African scoring system (SASS) data interpretation guidelines. Report produced for the Department of Water Affairs and Forestry (Resource Quality Services) and the Institute of Natural Resources.
+
+Allanson, B. R., & Gieskes, J. M. T. M. (1961). Part I The physical, chemical anf biological conditions in the Jukskei-Crocodile River System. Hydrobiologia, 18(1-2), 2-76.
+
+Paaijmans, K. P., Takken, W., Githeko, A. K., & Jacobs, A. F. G. (2008). The effect of water turbidity on the near-surface water temperature of larval habitats of the malaria mosquito Anopheles gambiae. International journal of biometeorology, 52(8), 747-753.
+
+
+
+Olden, J. D., & Naiman, R. J. (2010). Incorporating thermal regimes into environmental flows assessments: modifying dam operations to restore freshwater ecosystem integrity. Freshwater Biology, 55(1), 86-107.
+
+Truesdale, G. A., & Downing, A. L. (1954). Solubility of oxygen in water. Nature, 173(4417), 1236.
+
+Woodcock, T. S., & Huryn, A. D. (2007). The response of macroinvertebrate production to a pollution gradient in a headwater stream. Freshwater biology, 52(1), 177-196.
+
+Vuori, K. M., & Joensuu, I. (1996). Impact of forest drainage on the macroinvertebrates of a small boreal headwater stream: do buffer zones protect lotic biodiversity?. Biological conservation, 77(1), 87-95.
+
+Kasangaki, A., Chapman, L. J., & Balirwa, J. (2008). Land use and the ecology of benthic macroinvertebrate assemblages of high‐altitude rainforest streams in Uganda. Freshwater biology, 53(4), 681-697.
+
+Nyenje, P. M., Foppen, J. W., Uhlenbrook, S., Kulabako, R., & Muwanga, A. (2010). Eutrophication and nutrient release in urban areas of sub-Saharan Africa—a review. Science of the Total Environment, 408(3), 447-455.
+
+Townsend, C. R., Scarsbrook, M. R., & Dolédec, S. (1997). The intermediate disturbance hypothesis, refugia, and biodiversity in streams. Limnology and oceanography, 42(5), 938-949.
+
+Statzner, B., & Holm, T. F. (1989). Morphological adaptation of shape to flow: microcurrents around lotic macroinvertebrates with known Reynolds numbers at quasi-natural flow conditions. Oecologia, 78(2), 145-157.
+
+, J.P.R., City Government: The Johannesburg Experiment. Oxford: Clarendon Press, 1938.
+
+Johannesburg City Council, Annual Report 2008s of the City Engineer, 1930 to 1963.
+
+
 \newpage
 
-# Questions
-
-Only mention SASS as why its important in introduction i.e how its useful. 
-
-what could be improved
-
-looked at riverine habitat, underlying geology. 
-
-the question of temperature
-
-study site materials all in the study site. 
-
-IHI gives condition of catchment of the area. In the land which feeds the river. percolate and subsurface flow tends to be a lot cleaner. 
-
-physiochemical in introd think of reader. 
-
- #. Must we have GPS coords for all four sites. 
- #. should we show map and image. 
- #. what are the model numbers of the pH probe and thermometer. 
- #. should data be qouted in the discription section of the results. 
- #. was conductivity measured or estimated. 
- #. must i reference SASS twice in the methods and in the introduction.
- #. where do observations of alien plants and ducks belong, results or site discription. 
- #. Are we testing an hypothesis here, the t tests seem to indicate that we are but surely this is not an issue that is debated (i.e the fact that urbanisation causes degradation.)
 
 
 # Posible imporvements 
