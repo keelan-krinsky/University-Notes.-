@@ -1,0 +1,82 @@
+---
+title: "Inala Annual Budget"
+output: pdf_document
+---
+
+```{r, echo=FALSE, warning=FALSE}
+# Global variables
+
+## Costs
+
+## Metrics
+
+### Surface area which the average seed packet can be used to plant up in meters squared 
+SPSA<-c(0)
+
+## Managment Choices
+
+### Percentage of Seedstock as 
+rSts<-c(0.5)
+
+```
+
+
+# West Campus
+```{r, echo=FALSE, warning= FALSE}
+# Basic Variables
+
+## Garden Surface Area in meters squared
+WCSA<-c(400)
+
+```
+
+## Seed stock
+```{r, echo=FALSE, warning=FALSE}
+
+# Number of Seed packets required
+nSP<-c(WCSA*rStS)
+
+
+```
+
+
+### Seeds
+
+### Seedlings
+
+## Seeds 
+
+# MSA Garden
+```{r, echo=FALSE, warning= FALSE}
+# Basic Variables
+
+## Garden Surface Area
+SA<-c(400)
+
+```
+
+## Seed stock
+
+### Seeds
+
+### Seedlings
+
+# Sanctuary Garden 
+
+```{r, echo=FALSE, warning= FALSE}
+# Basic Variables
+
+## Garden Surface Area
+SA<-c(400)
+
+```
+
+
+
+
+## Seed stock
+
+### Seeds
+
+### Seedlings
+
